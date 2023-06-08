@@ -1126,3 +1126,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 01:09:38] INFO root fetch - processPackages [azureml-automl-runtime]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_runtime-1.9.0.post3-py3-none-any.whl.zip]
 [2023-06-09 01:09:38] INFO root fetch - main [MainThread]: End processing [azureml-automl-runtime]: success
 [2023-06-09 01:09:38] INFO root fetch - main [MainThread]: Store serial: [18432053]
+[2023-06-09 01:14:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18432053]
+[2023-06-09 01:14:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-09 01:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lockss-soap
+[2023-06-09 01:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domini
+[2023-06-09 01:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bookio-fetchfox
+[2023-06-09 01:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhookcryptapi
+[2023-06-09 01:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: beaverpy
+[2023-06-09 01:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metricflow
+[2023-06-09 01:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-06-09 01:14:47] WARNING root fetch - processPackages [pyhookcryptapi]: Skipping, unable to determine old version
+[2023-06-09 01:14:47] INFO root fetch - main [MainThread]: End processing [pyhookcryptapi] error
+[2023-06-09 01:14:47] INFO root fetch - processPackages [lockss-soap]: New version: [0.8.0.dev5] Old Version: [0.8.0.dev4]
+[2023-06-09 01:14:47] INFO root fetch - processPackages [domini]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-09 01:14:47] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-06-09 01:14:47] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230608.22.13.30321] Old Version: [20230608.21.32.985670]
+[2023-06-09 01:14:47] INFO root fetch - processPackages [beaverpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-09 01:14:47] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/78/5f/fa754463a941f28f35423b946d563fbbba08185791e132b7678faba92486/bookio_fetchfox-0.4.3.tar.gz
+[2023-06-09 01:14:47] INFO root fetch - processPackages [metricflow]: New version: [0.93.0] Old Version: [0.92.1]
+[2023-06-09 01:14:47] INFO root fetch - processPackages [lockss-soap]: Downloading https://files.pythonhosted.org/packages/c8/a3/32d9fef9ed910e475590ff4766b8fba3f1d9ab7f6553ffad51e8fff539af/lockss_soap-0.8.0.dev4.tar.gz
+[2023-06-09 01:14:47] INFO root fetch - processPackages [domini]: Downloading https://files.pythonhosted.org/packages/63/55/bff5c867f7d4fe6c5e67a7a96d99d1fa5d0270880b033eae00cf45ae904c/domini-0.7.0.tar.gz
+[2023-06-09 01:14:47] INFO root fetch - processPackages [beaverpy]: Downloading https://files.pythonhosted.org/packages/ae/f6/7fe328e0cb7529cf0de0964b24cc6ebe9f68519014a5962cd8f567b9c6bd/beaverpy-0.0.1.tar.gz
+[2023-06-09 01:14:47] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c1/e8/fba31906d03eb8ef434b6cbc128c12717b69790fdf41c1e75d2d0e78a442/certora-cli-alpha-master-20230608.21.32.985670.tar.gz
+[2023-06-09 01:14:47] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/48/c0/df3a23893e69af35d2b44f7a54b4a898409d3b807860016dcad92e38c96e/metricflow-0.92.1.tar.gz
+[2023-06-09 01:14:47] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/ea/2f/11eeabbc0a6bf191bf640fb24798fdb44031618d013846c4729a5e7668fb/bookio_fetchfox-0.5.0.tar.gz
+[2023-06-09 01:14:47] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39325676>=10485760
+[2023-06-09 01:14:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-09 01:14:47] INFO root fetch - processPackages [beaverpy]: Downloading https://files.pythonhosted.org/packages/02/48/ae84e8620155d1a6d0639dacf80dea3e1888caee5ec3c44ddc7960728e3f/beaverpy-0.0.2.tar.gz
+[2023-06-09 01:14:47] INFO root fetch - processPackages [lockss-soap]: Downloading https://files.pythonhosted.org/packages/35/90/1db1b85bf6be6eee6ec87bf3a92c1990e53cbcb6b5c81c8733d019bce918/lockss_soap-0.8.0.dev5.tar.gz
+[2023-06-09 01:14:47] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-09 01:14:47] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.4.3.tar.gz tmp/bookio_fetchfox-0.5.0.tar.gz --markdown 20230609/b/bookio-fetchfox/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-06-09 01:14:48] INFO root fetch - processPackages [domini]: Downloading https://files.pythonhosted.org/packages/be/2d/c6de2a915ee363430c3c13f4464bee9e60fb68a8f9463ba2a5c1432d842f/domini-0.8.0.tar.gz
+[2023-06-09 01:14:48] INFO root fetch - processPackages [beaverpy]: executing diffoscope
+[2023-06-09 01:14:48] INFO root fetch - processPackages [beaverpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beaverpy-0.0.1.tar.gz tmp/beaverpy-0.0.2.tar.gz --markdown 20230609/b/beaverpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-09 01:14:48] INFO root fetch - processPackages [lockss-soap]: executing diffoscope
+[2023-06-09 01:14:48] INFO root fetch - processPackages [lockss-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockss_soap-0.8.0.dev4.tar.gz tmp/lockss_soap-0.8.0.dev5.tar.gz --markdown 20230609/l/lockss-soap/0.8.0.dev4-0.8.0.dev5/diff.md --exclude *.pyd
+[2023-06-09 01:14:48] INFO root fetch - processPackages [domini]: executing diffoscope
+[2023-06-09 01:14:48] INFO root fetch - processPackages [domini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domini-0.7.0.tar.gz tmp/domini-0.8.0.tar.gz --markdown 20230609/d/domini/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-09 01:14:48] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/03/68/180ac09742d18eded44eac796173d6979f94ea672b47f02ceae672167dfa/metricflow-0.93.0.tar.gz
+[2023-06-09 01:14:48] INFO root fetch - processPackages [metricflow]: executing diffoscope
+[2023-06-09 01:14:48] INFO root fetch - processPackages [metricflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricflow-0.92.1.tar.gz tmp/metricflow-0.93.0.tar.gz --markdown 20230609/m/metricflow/0.92.1-0.93.0/diff.md --exclude *.pyd
+[2023-06-09 01:14:49] INFO root fetch - processPackages [lockss-soap]: Remove: archive file [/home/abi/fetcher/tmp/lockss_soap-0.8.0.dev4.tar.gz]
+[2023-06-09 01:14:49] INFO root fetch - processPackages [lockss-soap]: Remove: archive file [/home/abi/fetcher/tmp/lockss_soap-0.8.0.dev5.tar.gz]
+[2023-06-09 01:14:49] INFO root fetch - main [MainThread]: End processing [lockss-soap]: success
+[2023-06-09 01:14:49] INFO root fetch - processPackages [beaverpy]: Remove: archive file [/home/abi/fetcher/tmp/beaverpy-0.0.1.tar.gz]
+[2023-06-09 01:14:49] INFO root fetch - processPackages [beaverpy]: Remove: archive file [/home/abi/fetcher/tmp/beaverpy-0.0.2.tar.gz]
+[2023-06-09 01:14:49] INFO root fetch - main [MainThread]: End processing [beaverpy]: success
+[2023-06-09 01:14:49] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.4.3.tar.gz]
+[2023-06-09 01:14:49] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.5.0.tar.gz]
+[2023-06-09 01:14:49] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-09 01:14:49] INFO root fetch - processPackages [domini]: Remove: archive file [/home/abi/fetcher/tmp/domini-0.7.0.tar.gz]
+[2023-06-09 01:14:49] INFO root fetch - processPackages [domini]: Remove: archive file [/home/abi/fetcher/tmp/domini-0.8.0.tar.gz]
+[2023-06-09 01:14:49] INFO root fetch - main [MainThread]: End processing [domini]: success
+[2023-06-09 01:14:54] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.92.1.tar.gz]
+[2023-06-09 01:14:54] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.93.0.tar.gz]
+[2023-06-09 01:14:54] INFO root fetch - main [MainThread]: End processing [metricflow]: success
+[2023-06-09 01:14:54] INFO root fetch - main [MainThread]: Store serial: [18432094]
