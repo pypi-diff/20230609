@@ -349,3 +349,72 @@
 [2023-06-09 00:21:50] INFO root fetch - processPackages [ACTIONet]: Remove: archive file [/home/abi/fetcher/tmp/ACTIONet-0.4.0.tar.gz]
 [2023-06-09 00:21:50] INFO root fetch - main [MainThread]: End processing [ACTIONet]: success
 [2023-06-09 00:21:50] INFO root fetch - main [MainThread]: Store serial: [18431751]
+[2023-06-09 00:26:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431751]
+[2023-06-09 00:27:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-09 00:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sceptre-openapi-substitution-hook
+[2023-06-09 00:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchainplus-sdk
+[2023-06-09 00:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mantium-client
+[2023-06-09 00:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pascal-voc
+[2023-06-09 00:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rmm-cu11
+[2023-06-09 00:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylibraft-cu11
+[2023-06-09 00:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pref-voting
+[2023-06-09 00:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sapiopylib
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pascal-voc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pref-voting]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pascal-voc]: Downloading https://files.pythonhosted.org/packages/c3/b3/bb14e88e73d78a68e44bbaa99faac3d290499131df5be0f0627cfd349cb3/pascal_voc-0.0.3.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [mantium-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/77/25/ffa5ff3e018fc7f7c9fb8831d3ec2f3537f5fb2b9ae6b49310fcdce19d48/pref_voting-0.4.8.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [langchainplus-sdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pylibraft-cu11]: New version: [23.6.0] Old Version: [23.4.1]
+[2023-06-09 00:27:03] INFO root fetch - processPackages [rmm-cu11]: New version: [23.6.0] Old Version: [23.4.1]
+[2023-06-09 00:27:03] WARNING root fetch - processPackages [sceptre-openapi-substitution-hook]: Skipping, unable to determine old version
+[2023-06-09 00:27:03] INFO root fetch - main [MainThread]: End processing [sceptre-openapi-substitution-hook] error
+[2023-06-09 00:27:03] INFO root fetch - processPackages [sapiopylib]: New version: [2023.6.8.142] Old Version: [2023.6.7.141]
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pascal-voc]: Downloading https://files.pythonhosted.org/packages/f2/db/063551c9cb9a93664e2e143a88c70990299256411d48385d02747cba183b/pascal_voc-0.0.4.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/25/33/15bd2e1b3749a053085a61c8c9e6deafd9ffce855827db1f7ad34acb69bb/pref_voting-0.4.9.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [mantium-client]: Downloading https://files.pythonhosted.org/packages/ef/b4/1859c12f028577ecf0c6391ee4f883f81839f13fae3d8250717fc175c562/mantium_client-0.1.1.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/e8/7e/03bf5043d90b64503e3fa65263b0cdcef815bc25a9ef021a64eeadd99a6e/langchainplus_sdk-0.0.6.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [rmm-cu11]: Downloading https://files.pythonhosted.org/packages/7c/97/5db1ae8c2e5391920538baac7ae5fd3c2a49086fd0640247c77d409b1761/rmm_cu11-23.4.1.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pylibraft-cu11]: Downloading https://files.pythonhosted.org/packages/ff/96/865172df103acca6f4788f341c609ef65d19f647165f2a71bcc317ea8922/pylibraft_cu11-23.4.1.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pascal-voc]: executing diffoscope
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pascal-voc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pascal_voc-0.0.3.tar.gz tmp/pascal_voc-0.0.4.tar.gz --markdown 20230609/p/pascal-voc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-09 00:27:03] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/1b/07/ea50d0246258f4b3186eb8d3d92795f6fe46cd32145579dd2c28c046aeed/sapiopylib-2023.6.7.141.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.4.8.tar.gz tmp/pref_voting-0.4.9.tar.gz --markdown 20230609/p/pref-voting/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-09 00:27:03] INFO root fetch - processPackages [mantium-client]: Downloading https://files.pythonhosted.org/packages/31/63/3c276533cadbb99b077dd971651c14ec649aab35cdca8c1bb59c3c6722c2/mantium_client-0.1.2.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/80/e7/36c5eeefe80b0d4ef36c00a22d14e36a81d851a1be809bb0f399edc2909f/langchainplus_sdk-0.0.7.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pylibraft-cu11]: Downloading https://files.pythonhosted.org/packages/f2/9e/bf491dfbcd2c49db85e48ab6a640a800260f501af44b352daf81f20f5c5a/pylibraft-cu11-23.6.0.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [rmm-cu11]: Downloading https://files.pythonhosted.org/packages/14/c2/2ede114ec86499dfcdfcf6338016c18db93bcbdf8004eaa6da65499a767b/rmm-cu11-23.6.0.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/f4/da/c79ae7f0ee7083983c606c6c253386df58d4d999762c7f147d1b90d17fbe/sapiopylib-2023.6.8.142.tar.gz
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pylibraft-cu11]: executing diffoscope
+[2023-06-09 00:27:03] INFO root fetch - processPackages [pylibraft-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibraft_cu11-23.4.1.tar.gz tmp/pylibraft-cu11-23.6.0.tar.gz --markdown 20230609/p/pylibraft-cu11/23.4.1-23.6.0/diff.md --exclude *.pyd
+[2023-06-09 00:27:03] INFO root fetch - processPackages [mantium-client]: executing diffoscope
+[2023-06-09 00:27:03] INFO root fetch - processPackages [mantium-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mantium_client-0.1.1.tar.gz tmp/mantium_client-0.1.2.tar.gz --markdown 20230609/m/mantium-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-09 00:27:03] INFO root fetch - processPackages [langchainplus-sdk]: executing diffoscope
+[2023-06-09 00:27:03] INFO root fetch - processPackages [langchainplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchainplus_sdk-0.0.6.tar.gz tmp/langchainplus_sdk-0.0.7.tar.gz --markdown 20230609/l/langchainplus-sdk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-09 00:27:03] INFO root fetch - processPackages [rmm-cu11]: executing diffoscope
+[2023-06-09 00:27:03] INFO root fetch - processPackages [rmm-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmm_cu11-23.4.1.tar.gz tmp/rmm-cu11-23.6.0.tar.gz --markdown 20230609/r/rmm-cu11/23.4.1-23.6.0/diff.md --exclude *.pyd
+[2023-06-09 00:27:03] INFO root fetch - processPackages [sapiopylib]: executing diffoscope
+[2023-06-09 00:27:03] INFO root fetch - processPackages [sapiopylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiopylib-2023.6.7.141.tar.gz tmp/sapiopylib-2023.6.8.142.tar.gz --markdown 20230609/s/sapiopylib/2023.6.7.141-2023.6.8.142/diff.md --exclude *.pyd
+[2023-06-09 00:27:04] INFO root fetch - processPackages [pascal-voc]: Remove: archive file [/home/abi/fetcher/tmp/pascal_voc-0.0.3.tar.gz]
+[2023-06-09 00:27:04] INFO root fetch - processPackages [pascal-voc]: Remove: archive file [/home/abi/fetcher/tmp/pascal_voc-0.0.4.tar.gz]
+[2023-06-09 00:27:04] INFO root fetch - main [MainThread]: End processing [pascal-voc]: success
+[2023-06-09 00:27:04] INFO root fetch - processPackages [pylibraft-cu11]: Remove: archive file [/home/abi/fetcher/tmp/pylibraft_cu11-23.4.1.tar.gz]
+[2023-06-09 00:27:04] INFO root fetch - processPackages [pylibraft-cu11]: Remove: archive file [/home/abi/fetcher/tmp/pylibraft-cu11-23.6.0.tar.gz]
+[2023-06-09 00:27:04] INFO root fetch - main [MainThread]: End processing [pylibraft-cu11]: success
+[2023-06-09 00:27:04] INFO root fetch - processPackages [mantium-client]: Remove: archive file [/home/abi/fetcher/tmp/mantium_client-0.1.1.tar.gz]
+[2023-06-09 00:27:04] INFO root fetch - processPackages [mantium-client]: Remove: archive file [/home/abi/fetcher/tmp/mantium_client-0.1.2.tar.gz]
+[2023-06-09 00:27:04] INFO root fetch - main [MainThread]: End processing [mantium-client]: success
+[2023-06-09 00:27:04] INFO root fetch - processPackages [rmm-cu11]: Remove: archive file [/home/abi/fetcher/tmp/rmm_cu11-23.4.1.tar.gz]
+[2023-06-09 00:27:04] INFO root fetch - processPackages [rmm-cu11]: Remove: archive file [/home/abi/fetcher/tmp/rmm-cu11-23.6.0.tar.gz]
+[2023-06-09 00:27:04] INFO root fetch - main [MainThread]: End processing [rmm-cu11]: success
+[2023-06-09 00:27:05] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.6.tar.gz]
+[2023-06-09 00:27:05] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.7.tar.gz]
+[2023-06-09 00:27:05] INFO root fetch - main [MainThread]: End processing [langchainplus-sdk]: success
+[2023-06-09 00:27:05] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-0.4.8.tar.gz]
+[2023-06-09 00:27:05] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-0.4.9.tar.gz]
+[2023-06-09 00:27:05] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-06-09 00:27:06] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2023.6.7.141.tar.gz]
+[2023-06-09 00:27:06] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2023.6.8.142.tar.gz]
+[2023-06-09 00:27:06] INFO root fetch - main [MainThread]: End processing [sapiopylib]: success
+[2023-06-09 00:27:06] INFO root fetch - main [MainThread]: Store serial: [18431776]
