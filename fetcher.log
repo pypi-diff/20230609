@@ -1257,3 +1257,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 01:20:08] INFO root fetch - processPackages [ocdskit]: Remove: archive file [/home/abi/fetcher/tmp/ocdskit-1.1.6.tar.gz]
 [2023-06-09 01:20:08] INFO root fetch - main [MainThread]: End processing [ocdskit]: success
 [2023-06-09 01:20:08] INFO root fetch - main [MainThread]: Store serial: [18432121]
+[2023-06-09 01:25:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18432121]
+[2023-06-09 01:25:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-09 01:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpro-flow-tools
+[2023-06-09 01:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shadow-scholar
+[2023-06-09 01:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracebloc-package-dev
+[2023-06-09 01:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beaverpy
+[2023-06-09 01:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipen-filters
+[2023-06-09 01:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-theme-academy
+[2023-06-09 01:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: castepinput
+[2023-06-09 01:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zephony
+[2023-06-09 01:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pylance
+[2023-06-09 01:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lockss-soap
+[2023-06-09 01:25:16] INFO root fetch - processPackages [rapidpro-flow-tools]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-09 01:25:16] INFO root fetch - processPackages [beaverpy]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-09 01:25:16] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-09 01:25:16] INFO root fetch - processPackages [lockss-soap]: New version: [0.8.0.dev5] Old Version: [0.8.0.dev4]
+[2023-06-09 01:25:16] INFO root fetch - processPackages [shadow-scholar]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-09 01:25:16] INFO root fetch - processPackages [rapidpro-flow-tools]: Downloading https://files.pythonhosted.org/packages/38/19/537ab84e63a910485d15ecec105cb3464526ad1475b4f1f1fb72981f6558/rapidpro_flow_tools-2.0.5.tar.gz
+[2023-06-09 01:25:16] INFO root fetch - processPackages [lockss-soap]: Downloading https://files.pythonhosted.org/packages/c8/a3/32d9fef9ed910e475590ff4766b8fba3f1d9ab7f6553ffad51e8fff539af/lockss_soap-0.8.0.dev4.tar.gz
+[2023-06-09 01:25:16] INFO root fetch - processPackages [beaverpy]: Downloading https://files.pythonhosted.org/packages/02/48/ae84e8620155d1a6d0639dacf80dea3e1888caee5ec3c44ddc7960728e3f/beaverpy-0.0.2.tar.gz
+[2023-06-09 01:25:16] INFO root fetch - processPackages [pipen-filters]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-09 01:25:16] INFO root fetch - processPackages [castepinput]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-09 01:25:16] INFO root fetch - processPackages [django-theme-academy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-09 01:25:16] INFO root fetch - processPackages [zephony]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-06-09 01:25:16] INFO root fetch - processPackages [pylance]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-09 01:25:16] INFO root fetch - processPackages [lockss-soap]: Downloading https://files.pythonhosted.org/packages/35/90/1db1b85bf6be6eee6ec87bf3a92c1990e53cbcb6b5c81c8733d019bce918/lockss_soap-0.8.0.dev5.tar.gz
+[2023-06-09 01:25:16] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/5b/c1/a598e23f7223cbe5519e02af6c7ec944cbbbee09f5ccbaf15603d4694b44/tracebloc_package-dev-0.4.5.tar.gz
+[2023-06-09 01:25:16] INFO root fetch - processPackages [shadow-scholar]: Downloading https://files.pythonhosted.org/packages/d4/d3/826b7622f7274b72ae43cd8eb3031cbc49a446d37e605f843fbdd62c5292/shadow-scholar-0.6.0.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [lockss-soap]: executing diffoscope
+[2023-06-09 01:25:17] INFO root fetch - processPackages [lockss-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockss_soap-0.8.0.dev4.tar.gz tmp/lockss_soap-0.8.0.dev5.tar.gz --markdown 20230609/l/lockss-soap/0.8.0.dev4-0.8.0.dev5/diff.md --exclude *.pyd
+[2023-06-09 01:25:17] INFO root fetch - processPackages [beaverpy]: Downloading https://files.pythonhosted.org/packages/d4/00/e65b4793031538f94f0cb6478a9c87ce08124f22f5fddf6fcbd231f44aa4/beaverpy-0.1.0.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [castepinput]: Downloading https://files.pythonhosted.org/packages/ba/f1/413acc4f3e16030053a8d35b02456f94c9dbaca08993065c33adc158b512/castepinput-0.1.6.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/25/fc/2c8476b699dbf95d4bb27f4b9ef0f67ea923406f77570aae30d0a99459aa/zephony-0.8.1.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [pipen-filters]: Downloading https://files.pythonhosted.org/packages/ec/97/2f5ddd8629e9df2c0b59ce8c1412dacc1058d09656d1b206a2bb8d4ad36a/pipen_filters-0.7.0.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [django-theme-academy]: Downloading https://files.pythonhosted.org/packages/01/09/5c78740a1cd0edd05f862a358e756cb3002d344a60df103c3445943b431b/django-theme-academy-0.3.8.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/1d/3d/b7f8dbc01ee9f99333c1a157af27411304e05950acd0a0a594cacfeb1537/pylance-0.4.8-cp38-abi3-win_amd64.whl
+[2023-06-09 01:25:17] INFO root fetch - processPackages [rapidpro-flow-tools]: Downloading https://files.pythonhosted.org/packages/70/a5/819a7f43cbb00d08a03b69ab819e63c697b45cdba1d246301f2e2a04954c/rapidpro_flow_tools-2.0.6.tar.gz
+[2023-06-09 01:25:17] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 20868431>=10485760
+[2023-06-09 01:25:17] INFO root fetch - processPackages [pylance]: Start processing: rapidpro-flow-tools
+[2023-06-09 01:25:17] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2023-06-09 01:25:17] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/0b/9a/e17445f95fc0f4e57f1d54d7af11bd39cf674d1efb23cb9d15321c4626f5/tracebloc_package-dev-0.4.6.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [rapidpro-flow-tools]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-06-09 01:25:17] INFO root fetch - processPackages [rapidpro-flow-tools]: executing diffoscope
+[2023-06-09 01:25:17] INFO root fetch - processPackages [rapidpro-flow-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpro_flow_tools-2.0.5.tar.gz tmp/rapidpro_flow_tools-2.0.6.tar.gz --markdown 20230609/r/rapidpro-flow-tools/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-09 01:25:17] INFO root fetch - processPackages [beaverpy]: executing diffoscope
+[2023-06-09 01:25:17] INFO root fetch - processPackages [beaverpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beaverpy-0.0.2.tar.gz tmp/beaverpy-0.1.0.tar.gz --markdown 20230609/b/beaverpy/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-09 01:25:17] INFO root fetch - processPackages [shadow-scholar]: Downloading https://files.pythonhosted.org/packages/bf/71/3d4de5c59ae87e3620d3e01e38a599c6be3ec37f8e4bf77c9618bb210c49/shadow-scholar-0.6.1.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-06-09 01:25:17] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.4.5.tar.gz tmp/tracebloc_package-dev-0.4.6.tar.gz --markdown 20230609/t/tracebloc-package-dev/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-09 01:25:17] INFO root fetch - processPackages [castepinput]: Downloading https://files.pythonhosted.org/packages/68/8a/3931934ffc7dd3db58a97610b142d02751b0e3d34fe022d8d9b5a39a9e97/castepinput-0.1.8.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [pipen-filters]: Downloading https://files.pythonhosted.org/packages/ec/39/7271ae6fc229844a6a7312317d5090557a339a2793e211f144168021e7a0/pipen_filters-0.8.0.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/35/3c/05ea992af0402117582743352f4731daf63ced4594fe71f3aa7cda19cc44/zephony-0.9.1.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [rapidpro-flow-tools]: Downloading https://files.pythonhosted.org/packages/4e/d0/f44d9d4b9de8d12f12b5f08b591040795b69a8e4902c9eb36cd8aec239c4/rapidpro_flow_tools-2.0.7.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [shadow-scholar]: executing diffoscope
+[2023-06-09 01:25:17] INFO root fetch - processPackages [shadow-scholar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shadow-scholar-0.6.0.tar.gz tmp/shadow-scholar-0.6.1.tar.gz --markdown 20230609/s/shadow-scholar/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-09 01:25:17] INFO root fetch - processPackages [castepinput]: executing diffoscope
+[2023-06-09 01:25:17] INFO root fetch - processPackages [castepinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castepinput-0.1.6.tar.gz tmp/castepinput-0.1.8.tar.gz --markdown 20230609/c/castepinput/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-09 01:25:17] INFO root fetch - processPackages [django-theme-academy]: Downloading https://files.pythonhosted.org/packages/b1/ba/7fddb75ff24a4611d84f479005661da15c8c46467802a4df3c1729c438fa/django-theme-academy-0.3.9.tar.gz
+[2023-06-09 01:25:17] INFO root fetch - processPackages [pipen-filters]: executing diffoscope
+[2023-06-09 01:25:17] INFO root fetch - processPackages [pipen-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_filters-0.7.0.tar.gz tmp/pipen_filters-0.8.0.tar.gz --markdown 20230609/p/pipen-filters/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-09 01:25:17] INFO root fetch - processPackages [zephony]: executing diffoscope
+[2023-06-09 01:25:17] INFO root fetch - processPackages [zephony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zephony-0.8.1.tar.gz tmp/zephony-0.9.1.tar.gz --markdown 20230609/z/zephony/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-06-09 01:25:17] INFO root fetch - processPackages [rapidpro-flow-tools]: executing diffoscope
+[2023-06-09 01:25:17] INFO root fetch - processPackages [rapidpro-flow-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpro_flow_tools-2.0.6.tar.gz tmp/rapidpro_flow_tools-2.0.7.tar.gz --markdown 20230609/r/rapidpro-flow-tools/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-06-09 01:25:17] INFO root fetch - processPackages [django-theme-academy]: executing diffoscope
+[2023-06-09 01:25:17] INFO root fetch - processPackages [django-theme-academy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-theme-academy-0.3.8.tar.gz tmp/django-theme-academy-0.3.9.tar.gz --markdown 20230609/d/django-theme-academy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-09 01:25:18] INFO root fetch - processPackages [lockss-soap]: Remove: archive file [/home/abi/fetcher/tmp/lockss_soap-0.8.0.dev4.tar.gz]
+[2023-06-09 01:25:18] INFO root fetch - processPackages [lockss-soap]: Remove: archive file [/home/abi/fetcher/tmp/lockss_soap-0.8.0.dev5.tar.gz]
+[2023-06-09 01:25:18] INFO root fetch - main [MainThread]: End processing [lockss-soap]: success
+[2023-06-09 01:25:18] INFO root fetch - processPackages [beaverpy]: Remove: archive file [/home/abi/fetcher/tmp/beaverpy-0.0.2.tar.gz]
+[2023-06-09 01:25:18] INFO root fetch - processPackages [beaverpy]: Remove: archive file [/home/abi/fetcher/tmp/beaverpy-0.1.0.tar.gz]
+[2023-06-09 01:25:18] INFO root fetch - main [MainThread]: End processing [beaverpy]: success
+[2023-06-09 01:25:18] INFO root fetch - processPackages [castepinput]: Remove: archive file [/home/abi/fetcher/tmp/castepinput-0.1.6.tar.gz]
+[2023-06-09 01:25:18] INFO root fetch - processPackages [castepinput]: Remove: archive file [/home/abi/fetcher/tmp/castepinput-0.1.8.tar.gz]
+[2023-06-09 01:25:18] INFO root fetch - main [MainThread]: End processing [castepinput]: success
+[2023-06-09 01:25:18] INFO root fetch - processPackages [pipen-filters]: Remove: archive file [/home/abi/fetcher/tmp/pipen_filters-0.7.0.tar.gz]
+[2023-06-09 01:25:18] INFO root fetch - processPackages [pipen-filters]: Remove: archive file [/home/abi/fetcher/tmp/pipen_filters-0.8.0.tar.gz]
+[2023-06-09 01:25:18] INFO root fetch - main [MainThread]: End processing [pipen-filters]: success
+[2023-06-09 01:25:19] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-0.8.1.tar.gz]
+[2023-06-09 01:25:19] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-0.9.1.tar.gz]
+[2023-06-09 01:25:19] INFO root fetch - main [MainThread]: End processing [zephony]: success
+[2023-06-09 01:25:19] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.4.5.tar.gz]
+[2023-06-09 01:25:19] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.4.6.tar.gz]
+[2023-06-09 01:25:19] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-06-09 01:25:19] INFO root fetch - processPackages [rapidpro-flow-tools]: Remove: archive file [/home/abi/fetcher/tmp/rapidpro_flow_tools-2.0.6.tar.gz]
+[2023-06-09 01:25:19] INFO root fetch - processPackages [rapidpro-flow-tools]: Remove: archive file [/home/abi/fetcher/tmp/rapidpro_flow_tools-2.0.7.tar.gz]
+[2023-06-09 01:25:19] INFO root fetch - main [MainThread]: End processing [rapidpro-flow-tools]: success
+[2023-06-09 01:25:19] INFO root fetch - processPackages [rapidpro-flow-tools]: Remove: archive file [/home/abi/fetcher/tmp/rapidpro_flow_tools-2.0.5.tar.gz]
+[2023-06-09 01:25:19] INFO root fetch - main [MainThread]: End processing [rapidpro-flow-tools]: success
+[2023-06-09 01:25:20] INFO root fetch - processPackages [django-theme-academy]: Remove: archive file [/home/abi/fetcher/tmp/django-theme-academy-0.3.8.tar.gz]
+[2023-06-09 01:25:20] INFO root fetch - processPackages [django-theme-academy]: Remove: archive file [/home/abi/fetcher/tmp/django-theme-academy-0.3.9.tar.gz]
+[2023-06-09 01:25:20] INFO root fetch - main [MainThread]: End processing [django-theme-academy]: success
+[2023-06-09 01:25:20] INFO root fetch - processPackages [shadow-scholar]: Remove: archive file [/home/abi/fetcher/tmp/shadow-scholar-0.6.0.tar.gz]
+[2023-06-09 01:25:20] INFO root fetch - processPackages [shadow-scholar]: Remove: archive file [/home/abi/fetcher/tmp/shadow-scholar-0.6.1.tar.gz]
+[2023-06-09 01:25:20] INFO root fetch - main [MainThread]: End processing [shadow-scholar]: success
+[2023-06-09 01:25:20] INFO root fetch - main [MainThread]: Store serial: [18432150]
