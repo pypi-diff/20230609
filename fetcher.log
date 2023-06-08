@@ -683,3 +683,87 @@
 [2023-06-09 00:48:09] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: Remove: archive file [/home/abi/fetcher/tmp/ovos-gui-plugin-shell-companion-0.0.0a5.tar.gz]
 [2023-06-09 00:48:09] INFO root fetch - main [MainThread]: End processing [ovos-gui-plugin-shell-companion]: success
 [2023-06-09 00:48:09] INFO root fetch - main [MainThread]: Store serial: [18431887]
+[2023-06-09 00:53:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431887]
+[2023-06-09 00:53:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 00:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandas-gpt
+[2023-06-09 00:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: querysource
+[2023-06-09 00:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: framestructure
+[2023-06-09 00:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abacusai
+[2023-06-09 00:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pascal-voc
+[2023-06-09 00:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vbcore
+[2023-06-09 00:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gentoo-update
+[2023-06-09 00:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arcusapi
+[2023-06-09 00:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bookio-fetchfox
+[2023-06-09 00:53:18] INFO root fetch - processPackages [pandas-gpt]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-09 00:53:18] INFO root fetch - processPackages [arcusapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-09 00:53:18] INFO root fetch - processPackages [pascal-voc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-09 00:53:18] INFO root fetch - processPackages [pandas-gpt]: Downloading https://files.pythonhosted.org/packages/fa/39/545e0d2dc21600e8e2d31eb1ec86e81ae6d5e3a3402933e4360c13326766/pandas-gpt-0.2.0.tar.gz
+[2023-06-09 00:53:18] INFO root fetch - processPackages [arcusapi]: Downloading https://files.pythonhosted.org/packages/57/f5/82eb6fe6bcbc55b0cd6084ce2c4b5fa173e8bfc200be5358453e5927b386/arcusapi-0.1.1.tar.gz
+[2023-06-09 00:53:18] INFO root fetch - processPackages [pascal-voc]: Downloading https://files.pythonhosted.org/packages/f2/db/063551c9cb9a93664e2e143a88c70990299256411d48385d02747cba183b/pascal_voc-0.0.4.tar.gz
+[2023-06-09 00:53:18] INFO root fetch - processPackages [framestructure]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-09 00:53:18] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-09 00:53:18] INFO root fetch - processPackages [gentoo-update]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-09 00:53:18] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-09 00:53:18] INFO root fetch - processPackages [vbcore]: New version: [2.0.0rc4] Old Version: [2.0.0rc3]
+[2023-06-09 00:53:18] INFO root fetch - processPackages [abacusai]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-09 00:53:18] INFO root fetch - processPackages [arcusapi]: Downloading https://files.pythonhosted.org/packages/86/95/1961b93d9246dd4733404a080e2ec49cbc1b0bda40461a5fa490be924897/arcusapi-0.1.2.tar.gz
+[2023-06-09 00:53:18] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/2b/4c/8a89cd7b55ff3a0cf0210c3240246f0fd08f2edb1e6ab2b3cc87c793951e/bookio_fetchfox-0.4.2.tar.gz
+[2023-06-09 00:53:18] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/20/05/12e6e66d0f2b20efe2d4562023d068bd5ea84aba0ae3272ff7660d944e48/abacusai-0.9.1.tar.gz
+[2023-06-09 00:53:18] INFO root fetch - processPackages [framestructure]: Downloading https://files.pythonhosted.org/packages/8d/08/ed56c7475f4f2a246fcefdf91e1947c034f3e28dec5b68537cd11b2889cf/framestructure-0.3.0.tar.gz
+[2023-06-09 00:53:18] INFO root fetch - processPackages [pandas-gpt]: Downloading https://files.pythonhosted.org/packages/61/06/40ae816ad3184b7842bd7506af14d3081bf1dc3f2499fe147fa61a376367/pandas-gpt-0.3.0.tar.gz
+[2023-06-09 00:53:18] INFO root fetch - processPackages [pascal-voc]: Downloading https://files.pythonhosted.org/packages/6c/86/fdd4fe3b355f2e631cf5ebf4b8904093aaf5075d2d16f74ce1fc48573c0f/pascal_voc-0.0.5.tar.gz
+[2023-06-09 00:53:18] INFO root fetch - processPackages [gentoo-update]: Downloading https://files.pythonhosted.org/packages/cf/e0/331327a601e4e6450f41529ec66c195d6cc31e567197e96622017fa23e72/gentoo_update-0.1.1.tar.gz
+[2023-06-09 00:53:18] INFO root fetch - processPackages [vbcore]: Downloading https://files.pythonhosted.org/packages/41/4b/e3388d6cada093544a3c4ae1446303205b9bdf86a55e6d8518363b04fc0f/vbcore-2.0.0rc3.tar.gz
+[2023-06-09 00:53:18] INFO root fetch - processPackages [arcusapi]: executing diffoscope
+[2023-06-09 00:53:18] INFO root fetch - processPackages [arcusapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcusapi-0.1.1.tar.gz tmp/arcusapi-0.1.2.tar.gz --markdown 20230609/a/arcusapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-09 00:53:18] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-09 00:53:19] INFO root fetch - processPackages [pandas-gpt]: executing diffoscope
+[2023-06-09 00:53:19] INFO root fetch - processPackages [pandas-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-gpt-0.2.0.tar.gz tmp/pandas-gpt-0.3.0.tar.gz --markdown 20230609/p/pandas-gpt/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-09 00:53:19] INFO root fetch - processPackages [pascal-voc]: executing diffoscope
+[2023-06-09 00:53:19] INFO root fetch - processPackages [pascal-voc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pascal_voc-0.0.4.tar.gz tmp/pascal_voc-0.0.5.tar.gz --markdown 20230609/p/pascal-voc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-09 00:53:19] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/78/5f/fa754463a941f28f35423b946d563fbbba08185791e132b7678faba92486/bookio_fetchfox-0.4.3.tar.gz
+[2023-06-09 00:53:19] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/2f/8d/d78246b87fef32ca67a6fb9bdb4bfda9bdd690736e1f658aac9fd292cf85/abacusai-0.9.2.tar.gz
+[2023-06-09 00:53:19] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2023-06-09 00:53:19] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-0.9.1.tar.gz tmp/abacusai-0.9.2.tar.gz --markdown 20230609/a/abacusai/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-09 00:53:19] INFO root fetch - processPackages [gentoo-update]: Downloading https://files.pythonhosted.org/packages/ed/9d/b40eb5c5bf991efe1b86e7a72dc6ce51e3429a638c43a39ddd73e8f938a5/gentoo-update-0.1.2.tar.gz
+[2023-06-09 00:53:19] INFO root fetch - processPackages [framestructure]: Downloading https://files.pythonhosted.org/packages/b8/4d/9445eba80ff1234d86549bfe6ad0b46b295093b48705e4ba58a55c8b3e63/framestructure-0.4.0-py3-none-any.whl
+[2023-06-09 00:53:19] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-09 00:53:19] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.4.2.tar.gz tmp/bookio_fetchfox-0.4.3.tar.gz --markdown 20230609/b/bookio-fetchfox/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-09 00:53:19] INFO root fetch - processPackages [gentoo-update]: executing diffoscope
+[2023-06-09 00:53:19] INFO root fetch - processPackages [gentoo-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentoo_update-0.1.1.tar.gz tmp/gentoo-update-0.1.2.tar.gz --markdown 20230609/g/gentoo-update/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-09 00:53:19] INFO root fetch - processPackages [vbcore]: Downloading https://files.pythonhosted.org/packages/2b/4d/c3640191e8c20bb080e28275377e99977cfd84a03370a7fcbd7041c785b2/vbcore-2.0.0rc4.tar.gz
+[2023-06-09 00:53:19] INFO root fetch - processPackages [framestructure]: executing diffoscope
+[2023-06-09 00:53:19] INFO root fetch - processPackages [framestructure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framestructure-0.3.0.tar.gz tmp/framestructure-0.4.0-py3-none-any.whl.zip --markdown 20230609/f/framestructure/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-09 00:53:19] INFO root fetch - processPackages [vbcore]: executing diffoscope
+[2023-06-09 00:53:19] INFO root fetch - processPackages [vbcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbcore-2.0.0rc3.tar.gz tmp/vbcore-2.0.0rc4.tar.gz --markdown 20230609/v/vbcore/2.0.0rc3-2.0.0rc4/diff.md --exclude *.pyd
+[2023-06-09 00:53:20] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-09 00:53:20] INFO root fetch - processPackages [pandas-gpt]: Remove: archive file [/home/abi/fetcher/tmp/pandas-gpt-0.2.0.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - processPackages [pandas-gpt]: Remove: archive file [/home/abi/fetcher/tmp/pandas-gpt-0.3.0.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - main [MainThread]: End processing [pandas-gpt]: success
+[2023-06-09 00:53:20] INFO root fetch - processPackages [pascal-voc]: Remove: archive file [/home/abi/fetcher/tmp/pascal_voc-0.0.4.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - processPackages [pascal-voc]: Remove: archive file [/home/abi/fetcher/tmp/pascal_voc-0.0.5.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - main [MainThread]: End processing [pascal-voc]: success
+[2023-06-09 00:53:20] INFO root fetch - processPackages [gentoo-update]: Remove: archive file [/home/abi/fetcher/tmp/gentoo_update-0.1.1.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - processPackages [gentoo-update]: Remove: archive file [/home/abi/fetcher/tmp/gentoo-update-0.1.2.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - main [MainThread]: End processing [gentoo-update]: success
+[2023-06-09 00:53:20] INFO root fetch - processPackages [framestructure]: Remove: archive file [/home/abi/fetcher/tmp/framestructure-0.3.0.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - processPackages [framestructure]: Remove: archive file [/home/abi/fetcher/tmp/framestructure-0.4.0-py3-none-any.whl.zip]
+[2023-06-09 00:53:20] INFO root fetch - main [MainThread]: End processing [framestructure]: success
+[2023-06-09 00:53:20] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-0.9.1.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-0.9.2.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2023-06-09 00:53:20] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.4.2.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.4.3.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-09 00:53:20] INFO root fetch - processPackages [arcusapi]: Remove: archive file [/home/abi/fetcher/tmp/arcusapi-0.1.1.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - processPackages [arcusapi]: Remove: archive file [/home/abi/fetcher/tmp/arcusapi-0.1.2.tar.gz]
+[2023-06-09 00:53:20] INFO root fetch - main [MainThread]: End processing [arcusapi]: success
+[2023-06-09 00:53:21] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-06-09 00:53:21] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230609/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-09 00:53:22] INFO root fetch - processPackages [vbcore]: Remove: archive file [/home/abi/fetcher/tmp/vbcore-2.0.0rc3.tar.gz]
+[2023-06-09 00:53:22] INFO root fetch - processPackages [vbcore]: Remove: archive file [/home/abi/fetcher/tmp/vbcore-2.0.0rc4.tar.gz]
+[2023-06-09 00:53:22] INFO root fetch - main [MainThread]: End processing [vbcore]: success
+[2023-06-09 00:53:23] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-09 00:53:23] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-09 00:53:23] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-06-09 00:53:23] INFO root fetch - main [MainThread]: Store serial: [18431915]
