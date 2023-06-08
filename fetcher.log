@@ -645,3 +645,41 @@
 [2023-06-09 00:42:58] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.4.7.2b6.tar.gz]
 [2023-06-09 00:42:58] INFO root fetch - main [MainThread]: End processing [foursight]: success
 [2023-06-09 00:42:58] INFO root fetch - main [MainThread]: Store serial: [18431868]
+[2023-06-09 00:48:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431868]
+[2023-06-09 00:48:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-09 00:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nimblephysics
+[2023-06-09 00:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ablator
+[2023-06-09 00:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-gui-plugin-shell-companion
+[2023-06-09 00:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mountetna
+[2023-06-09 00:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pgml-sdk
+[2023-06-09 00:48:07] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: New version: [0.0.0a5] Old Version: [0.0.0a4]
+[2023-06-09 00:48:07] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: Downloading https://files.pythonhosted.org/packages/eb/1b/f1aa5aafff336443d16b4f8a7810581d9651ced61594478bc4814c3e7026/ovos-gui-plugin-shell-companion-0.0.0a4.tar.gz
+[2023-06-09 00:48:07] INFO root fetch - processPackages [ablator]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2023-06-09 00:48:07] INFO root fetch - processPackages [nimblephysics]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-09 00:48:07] INFO root fetch - processPackages [mountetna]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-09 00:48:07] WARNING root fetch - processPackages [pgml-sdk]: Skipping, unable to determine old version
+[2023-06-09 00:48:07] INFO root fetch - main [MainThread]: End processing [pgml-sdk] error
+[2023-06-09 00:48:07] INFO root fetch - processPackages [nimblephysics]: Downloading https://files.pythonhosted.org/packages/c9/43/b8a500b0d1fed7555188ee2e6d8a2422cfa184c25fdb48ae3a0d4a367ce0/nimblephysics-0.9.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-09 00:48:07] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: Downloading https://files.pythonhosted.org/packages/99/c7/9aa84733cf617d96e3e8e438765dfc6219e1c1a0b6c8b73e67330601338b/ovos-gui-plugin-shell-companion-0.0.0a5.tar.gz
+[2023-06-09 00:48:07] INFO root fetch - processPackages [ablator]: Downloading https://files.pythonhosted.org/packages/52/04/54cabe32afb9dd862b8dc481562d0c0f267931420661df515e5090e2bb99/ablator-0.0.1b1.tar.gz
+[2023-06-09 00:48:07] WARNING root fetch - processPackages [nimblephysics]: Skipping package: exceeds size limit 67825007>=10485760
+[2023-06-09 00:48:07] INFO root fetch - main [MainThread]: End processing [nimblephysics] error
+[2023-06-09 00:48:07] INFO root fetch - processPackages [mountetna]: Downloading https://files.pythonhosted.org/packages/6c/74/7e377053296fd04a28cd069b227bb0dc384e9f969c60fe218e74f316660b/mountetna-0.1.5.tar.gz
+[2023-06-09 00:48:07] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: executing diffoscope
+[2023-06-09 00:48:07] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-gui-plugin-shell-companion-0.0.0a4.tar.gz tmp/ovos-gui-plugin-shell-companion-0.0.0a5.tar.gz --markdown 20230609/o/ovos-gui-plugin-shell-companion/0.0.0a4-0.0.0a5/diff.md --exclude *.pyd
+[2023-06-09 00:48:08] INFO root fetch - processPackages [ablator]: Downloading https://files.pythonhosted.org/packages/8b/2c/e3ff04ae4b88943c5830cca30b9d098562c4b3f12c5af8bb0aa26e3e21dd/ablator-0.0.1b2.tar.gz
+[2023-06-09 00:48:08] INFO root fetch - processPackages [mountetna]: Downloading https://files.pythonhosted.org/packages/4a/82/197ca5456dba6ea660e8c0aac294fda7a694536585cbdbec85f21221fedd/mountetna-0.1.6.tar.gz
+[2023-06-09 00:48:08] INFO root fetch - processPackages [ablator]: executing diffoscope
+[2023-06-09 00:48:08] INFO root fetch - processPackages [ablator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablator-0.0.1b1.tar.gz tmp/ablator-0.0.1b2.tar.gz --markdown 20230609/a/ablator/0.0.1b1-0.0.1b2/diff.md --exclude *.pyd
+[2023-06-09 00:48:08] INFO root fetch - processPackages [mountetna]: executing diffoscope
+[2023-06-09 00:48:08] INFO root fetch - processPackages [mountetna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountetna-0.1.5.tar.gz tmp/mountetna-0.1.6.tar.gz --markdown 20230609/m/mountetna/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-09 00:48:09] INFO root fetch - processPackages [mountetna]: Remove: archive file [/home/abi/fetcher/tmp/mountetna-0.1.5.tar.gz]
+[2023-06-09 00:48:09] INFO root fetch - processPackages [mountetna]: Remove: archive file [/home/abi/fetcher/tmp/mountetna-0.1.6.tar.gz]
+[2023-06-09 00:48:09] INFO root fetch - main [MainThread]: End processing [mountetna]: success
+[2023-06-09 00:48:09] INFO root fetch - processPackages [ablator]: Remove: archive file [/home/abi/fetcher/tmp/ablator-0.0.1b1.tar.gz]
+[2023-06-09 00:48:09] INFO root fetch - processPackages [ablator]: Remove: archive file [/home/abi/fetcher/tmp/ablator-0.0.1b2.tar.gz]
+[2023-06-09 00:48:09] INFO root fetch - main [MainThread]: End processing [ablator]: success
+[2023-06-09 00:48:09] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: Remove: archive file [/home/abi/fetcher/tmp/ovos-gui-plugin-shell-companion-0.0.0a4.tar.gz]
+[2023-06-09 00:48:09] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: Remove: archive file [/home/abi/fetcher/tmp/ovos-gui-plugin-shell-companion-0.0.0a5.tar.gz]
+[2023-06-09 00:48:09] INFO root fetch - main [MainThread]: End processing [ovos-gui-plugin-shell-companion]: success
+[2023-06-09 00:48:09] INFO root fetch - main [MainThread]: Store serial: [18431887]
