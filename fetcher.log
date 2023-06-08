@@ -869,3 +869,91 @@
 [2023-06-09 00:58:46] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-23.6.1.1.tar.gz]
 [2023-06-09 00:58:46] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
 [2023-06-09 00:58:46] INFO root fetch - main [MainThread]: Store serial: [18431948]
+[2023-06-09 01:03:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431948]
+[2023-06-09 01:03:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-09 01:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pmag-tilt
+[2023-06-09 01:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uw-saml
+[2023-06-09 01:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-manifest
+[2023-06-09 01:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: formal-sdk
+[2023-06-09 01:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: formal-sdk
+[2023-06-09 01:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnata-plugin-runtime
+[2023-06-09 01:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-space-toolkit-physics
+[2023-06-09 01:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spotPython
+[2023-06-09 01:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmnt-cu101
+[2023-06-09 01:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tmnt
+[2023-06-09 01:03:55] INFO root fetch - processPackages [formal-sdk]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-09 01:03:55] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 01:03:55] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230607] Old Version: [0.7.0b20230606]
+[2023-06-09 01:03:55] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-09 01:03:55] INFO root fetch - processPackages [formal-sdk]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-09 01:03:55] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230607] Old Version: [0.7.0b20230606]
+[2023-06-09 01:03:55] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/15/9c/51fde661cda8d09c37abe518893ef0f221abb20902e6290bad80dd3f07e9/formal-sdk-0.7.0.tar.gz
+[2023-06-09 01:03:55] WARNING root fetch - processPackages [python-manifest]: Skipping, unable to determine old version
+[2023-06-09 01:03:55] INFO root fetch - processPackages [python-manifest]: Start processing: flwr-nightly
+[2023-06-09 01:03:55] INFO root fetch - main [MainThread]: End processing [python-manifest] error
+[2023-06-09 01:03:55] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-09 01:03:55] WARNING root fetch - processPackages [pmag-tilt]: Skipping, unable to determine old version
+[2023-06-09 01:03:55] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-09 01:03:55] INFO root fetch - main [MainThread]: End processing [pmag-tilt] error
+[2023-06-09 01:03:55] INFO root fetch - processPackages [uw-saml]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-09 01:03:55] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/d2/8d/9fc862ffbd1505e0870dec219bded904fbadbdc6638b2ee5a45aa1661db9/tmnt-0.7.0b20230606.tar.gz
+[2023-06-09 01:03:55] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/15/9c/51fde661cda8d09c37abe518893ef0f221abb20902e6290bad80dd3f07e9/formal-sdk-0.7.0.tar.gz
+[2023-06-09 01:03:55] INFO root fetch - processPackages [open-space-toolkit-physics]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-06-09 01:03:55] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/da/7f/ba807843505c5839bbd43b26fa288b85da88ffee85af1a1efefd5a89698b/tmnt-cu101-0.7.0b20230606.tar.gz
+[2023-06-09 01:03:55] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230608] Old Version: [1.5.0.dev20230529]
+[2023-06-09 01:03:56] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/76/a8/3fe8ab31029087adc6bad4081cc03ac62eda8e4050e40e16c043a976ee3a/open_space_toolkit_physics-0.8.3-py39-none-any.whl
+[2023-06-09 01:03:56] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/87/0c/c8fac0fa1300f89b4d46821863d77283ee2d146220803d5484e601e8fffb/tmnt-cu101-0.7.0b20230607.tar.gz
+[2023-06-09 01:03:56] INFO root fetch - processPackages [uw-saml]: Downloading https://files.pythonhosted.org/packages/75/72/97c4fc595529fb8bd87616f6338e664f9b37a5b8bd88f45f6b877421c845/uw_saml-1.2.2.tar.gz
+[2023-06-09 01:03:56] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/bf/03/598276b6f11787c1e1950dde18e70c8ce44fff13ccef18b0c1d3b034f873/formal-sdk-0.8.0.tar.gz
+[2023-06-09 01:03:56] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-09 01:03:56] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/bf/03/598276b6f11787c1e1950dde18e70c8ce44fff13ccef18b0c1d3b034f873/formal-sdk-0.8.0.tar.gz
+[2023-06-09 01:03:56] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/71/64/401eb5d6630b5b2fc39c09e309a7a3e2e1e802729ae541057c00a92ccefb/tmnt-0.7.0b20230607.tar.gz
+[2023-06-09 01:03:56] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-09 01:03:56] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/d9/fd/f4e9767524ec4336312293199922bee3b837c0f067f2a848b1079fb7f7cc/flwr_nightly-1.5.0.dev20230529.tar.gz
+[2023-06-09 01:03:56] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-09 01:03:56] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230606.tar.gz tmp/tmnt-cu101-0.7.0b20230607.tar.gz --markdown 20230609/t/tmnt-cu101/0.7.0b20230606-0.7.0b20230607/diff.md --exclude *.pyd
+[2023-06-09 01:03:56] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-09 01:03:56] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230609/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 01:03:56] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-09 01:03:56] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230606.tar.gz tmp/tmnt-0.7.0b20230607.tar.gz --markdown 20230609/t/tmnt/0.7.0b20230606-0.7.0b20230607/diff.md --exclude *.pyd
+[2023-06-09 01:03:56] INFO root fetch - processPackages [formal-sdk]: executing diffoscope
+[2023-06-09 01:03:56] INFO root fetch - processPackages [formal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formal-sdk-0.7.0.tar.gz tmp/formal-sdk-0.8.0.tar.gz --markdown 20230609/f/formal-sdk/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-09 01:03:56] INFO root fetch - processPackages [formal-sdk]: executing diffoscope
+[2023-06-09 01:03:56] INFO root fetch - processPackages [formal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formal-sdk-0.7.0.tar.gz tmp/formal-sdk-0.8.0.tar.gz --markdown 20230609/f/formal-sdk/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-09 01:03:56] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-09 01:03:56] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230609/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-09 01:03:56] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/62/d2/d86270dfd76ed90c4a98ab3ce1b4faab851500698b8fe5f3dbc3e57a5285/open_space_toolkit_physics-0.8.4-py39-none-any.whl
+[2023-06-09 01:03:56] INFO root fetch - processPackages [uw-saml]: Downloading https://files.pythonhosted.org/packages/ab/8d/032a659aa565047d476879466fd80f4f4a4e498786b735481225b87178e5/uw_saml-1.2.3.tar.gz
+[2023-06-09 01:03:56] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/50/6f/7f62d8c34568c2154746754467e50bca463c9a2775de4507b0a9761bb901/flwr_nightly-1.5.0.dev20230608.tar.gz
+[2023-06-09 01:03:56] INFO root fetch - processPackages [uw-saml]: executing diffoscope
+[2023-06-09 01:03:56] INFO root fetch - processPackages [uw-saml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uw_saml-1.2.2.tar.gz tmp/uw_saml-1.2.3.tar.gz --markdown 20230609/u/uw-saml/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-09 01:03:56] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-06-09 01:03:56] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230529.tar.gz tmp/flwr_nightly-1.5.0.dev20230608.tar.gz --markdown 20230609/f/flwr-nightly/1.5.0.dev20230529-1.5.0.dev20230608/diff.md --exclude *.pyd
+[2023-06-09 01:03:56] INFO root fetch - processPackages [open-space-toolkit-physics]: executing diffoscope
+[2023-06-09 01:03:56] INFO root fetch - processPackages [open-space-toolkit-physics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_physics-0.8.3-py39-none-any.whl.zip tmp/open_space_toolkit_physics-0.8.4-py39-none-any.whl.zip --markdown 20230609/o/open-space-toolkit-physics/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-06-09 01:03:57] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-0.7.0.tar.gz]
+[2023-06-09 01:03:57] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-0.8.0.tar.gz]
+[2023-06-09 01:03:57] INFO root fetch - main [MainThread]: End processing [formal-sdk]: success
+[2023-06-09 01:03:57] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230606.tar.gz]
+[2023-06-09 01:03:57] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230607.tar.gz]
+[2023-06-09 01:03:57] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-09 01:03:57] INFO root fetch - main [MainThread]: End processing [formal-sdk]: success
+[2023-06-09 01:03:57] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-09 01:03:57] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-09 01:03:57] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-09 01:03:58] INFO root fetch - processPackages [uw-saml]: Remove: archive file [/home/abi/fetcher/tmp/uw_saml-1.2.2.tar.gz]
+[2023-06-09 01:03:58] INFO root fetch - processPackages [uw-saml]: Remove: archive file [/home/abi/fetcher/tmp/uw_saml-1.2.3.tar.gz]
+[2023-06-09 01:03:58] INFO root fetch - main [MainThread]: End processing [uw-saml]: success
+[2023-06-09 01:03:58] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230606.tar.gz]
+[2023-06-09 01:03:58] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230607.tar.gz]
+[2023-06-09 01:03:58] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-09 01:04:00] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230529.tar.gz]
+[2023-06-09 01:04:00] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230608.tar.gz]
+[2023-06-09 01:04:00] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-06-09 01:04:08] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-09 01:04:08] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-09 01:04:08] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-09 01:04:21] INFO root fetch - processPackages [open-space-toolkit-physics]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_physics-0.8.3-py39-none-any.whl.zip]
+[2023-06-09 01:04:21] INFO root fetch - processPackages [open-space-toolkit-physics]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_physics-0.8.4-py39-none-any.whl.zip]
+[2023-06-09 01:04:21] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics]: success
+[2023-06-09 01:04:21] INFO root fetch - main [MainThread]: Store serial: [18431986]
