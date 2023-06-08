@@ -1182,3 +1182,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 01:14:54] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.93.0.tar.gz]
 [2023-06-09 01:14:54] INFO root fetch - main [MainThread]: End processing [metricflow]: success
 [2023-06-09 01:14:54] INFO root fetch - main [MainThread]: Store serial: [18432094]
+[2023-06-09 01:19:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18432094]
+[2023-06-09 01:20:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpro-flow-tools
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memfault-cli
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nso-oc
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipen-lock
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Leytonium
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ConsolePrint
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ocdskit
+[2023-06-09 01:20:03] INFO root fetch - processPackages [rapidpro-flow-tools]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-09 01:20:03] INFO root fetch - processPackages [pipen-lock]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-09 01:20:03] INFO root fetch - processPackages [Leytonium]: New version: [9] Old Version: [8]
+[2023-06-09 01:20:03] INFO root fetch - processPackages [memfault-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ConsolePrint]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-09 01:20:03] INFO root fetch - processPackages [nso-oc]: New version: [2.68.0] Old Version: [2.67.0]
+[2023-06-09 01:20:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.355] Old Version: [0.3.354]
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/45/18/4abdbeb8c57fdbd0da81613fceb43f6ff91d74f5819a1d167f3ece6d9d25/consoleprint-1.3.3.tar.gz
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ocdskit]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-09 01:20:03] INFO root fetch - processPackages [rapidpro-flow-tools]: Downloading https://files.pythonhosted.org/packages/a9/5f/2358fa45be3244385231fdbd96223067b32bd43c8f3e0a06b8dc32fcfb1b/rapidpro_flow_tools-2.0.4.tar.gz
+[2023-06-09 01:20:03] INFO root fetch - processPackages [Leytonium]: Downloading https://files.pythonhosted.org/packages/9b/b7/482a44cad05e7e9effb4e86c052b25fa73d2b24bdc2c26de7c7dd5b1bfc8/Leytonium-8.tar.gz
+[2023-06-09 01:20:03] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/e7/59/50b55697c6b7ee9562665bfa3593d836683d77111d82d3aa4dde7eb8940c/nso-oc-2.67.0.tar.gz
+[2023-06-09 01:20:03] INFO root fetch - processPackages [pipen-lock]: Downloading https://files.pythonhosted.org/packages/23/3f/1e1aa34db62e089e8c2317217eea75c2712fa9b4e7ca4ce1b8938c9f7f99/pipen_lock-0.2.0.tar.gz
+[2023-06-09 01:20:03] INFO root fetch - processPackages [memfault-cli]: Downloading https://files.pythonhosted.org/packages/80/12/56a7d13ac4abacfcd63f8ad4e69bb4607797f0f67551cea9c9aafdb7d23c/memfault-cli-0.8.0.tar.gz
+[2023-06-09 01:20:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/7e/68/38a20aebbd3c74ef2418394442835ddfad9239d74d180bd5b0391cd6f89e/pepperize.cdk-ses-smtp-credentials-0.3.354.tar.gz
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ocdskit]: Downloading https://files.pythonhosted.org/packages/b0/e0/cbd3368de3fa195a524e2fe718f930172991d52759999442daf388beda20/ocdskit-1.1.5.tar.gz
+[2023-06-09 01:20:03] INFO root fetch - processPackages [rapidpro-flow-tools]: Downloading https://files.pythonhosted.org/packages/38/19/537ab84e63a910485d15ecec105cb3464526ad1475b4f1f1fb72981f6558/rapidpro_flow_tools-2.0.5.tar.gz
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/8e/0b/809e3d50f12720b5361e08b9fc6dcfdf2f609274e18d56a001d82c3614c9/consoleprint-1.3.4.tar.gz
+[2023-06-09 01:20:03] INFO root fetch - processPackages [Leytonium]: Downloading https://files.pythonhosted.org/packages/98/d8/21f9c2912667310b22e8f11fe6c01b7f2d749863102cf4c30e7025b519d4/Leytonium-9.tar.gz
+[2023-06-09 01:20:03] INFO root fetch - processPackages [rapidpro-flow-tools]: executing diffoscope
+[2023-06-09 01:20:03] INFO root fetch - processPackages [rapidpro-flow-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpro_flow_tools-2.0.4.tar.gz tmp/rapidpro_flow_tools-2.0.5.tar.gz --markdown 20230609/r/rapidpro-flow-tools/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ConsolePrint]: executing diffoscope
+[2023-06-09 01:20:03] INFO root fetch - processPackages [ConsolePrint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consoleprint-1.3.3.tar.gz tmp/consoleprint-1.3.4.tar.gz --markdown 20230609/C/ConsolePrint/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-09 01:20:03] INFO root fetch - processPackages [pipen-lock]: Downloading https://files.pythonhosted.org/packages/28/3f/3e5920c9846b0f38f8c7ee8abc8849ec3af85e9a68219b6eaa1b47603dd0/pipen_lock-0.3.0.tar.gz
+[2023-06-09 01:20:04] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/e5/aa/4122e775f712aed0918f56b0e2a80264e83f48ee03386964a429035edfe6/nso-oc-2.68.0.tar.gz
+[2023-06-09 01:20:04] INFO root fetch - processPackages [Leytonium]: executing diffoscope
+[2023-06-09 01:20:04] INFO root fetch - processPackages [Leytonium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leytonium-8.tar.gz tmp/Leytonium-9.tar.gz --markdown 20230609/L/Leytonium/8-9/diff.md --exclude *.pyd
+[2023-06-09 01:20:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/94/35/a1c191e7a2c841101cad4fbdc434633d4cfc21a3d4a61d60b4b49bf990e4/pepperize.cdk-ses-smtp-credentials-0.3.355.tar.gz
+[2023-06-09 01:20:04] INFO root fetch - processPackages [memfault-cli]: Downloading https://files.pythonhosted.org/packages/60/ef/4824e118f3241c243f18f5cbb39ecdba7348aa700dca97d94761012f55eb/memfault-cli-0.9.0.tar.gz
+[2023-06-09 01:20:04] INFO root fetch - processPackages [nso-oc]: executing diffoscope
+[2023-06-09 01:20:04] INFO root fetch - processPackages [nso-oc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nso-oc-2.67.0.tar.gz tmp/nso-oc-2.68.0.tar.gz --markdown 20230609/n/nso-oc/2.67.0-2.68.0/diff.md --exclude *.pyd
+[2023-06-09 01:20:04] INFO root fetch - processPackages [pipen-lock]: executing diffoscope
+[2023-06-09 01:20:04] INFO root fetch - processPackages [pipen-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_lock-0.2.0.tar.gz tmp/pipen_lock-0.3.0.tar.gz --markdown 20230609/p/pipen-lock/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-09 01:20:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-09 01:20:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.354.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.355.tar.gz --markdown 20230609/p/pepperize.cdk-ses-smtp-credentials/0.3.354-0.3.355/diff.md --exclude *.pyd
+[2023-06-09 01:20:04] INFO root fetch - processPackages [memfault-cli]: executing diffoscope
+[2023-06-09 01:20:04] INFO root fetch - processPackages [memfault-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memfault-cli-0.8.0.tar.gz tmp/memfault-cli-0.9.0.tar.gz --markdown 20230609/m/memfault-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 01:20:04] INFO root fetch - processPackages [ocdskit]: Downloading https://files.pythonhosted.org/packages/ea/4f/cbc7c90b2a7b7a1dfe830ddec628c03d2876e97ade0176955971a1a94943/ocdskit-1.1.6.tar.gz
+[2023-06-09 01:20:04] INFO root fetch - processPackages [ocdskit]: executing diffoscope
+[2023-06-09 01:20:04] INFO root fetch - processPackages [ocdskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocdskit-1.1.5.tar.gz tmp/ocdskit-1.1.6.tar.gz --markdown 20230609/o/ocdskit/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-09 01:20:05] INFO root fetch - processPackages [ConsolePrint]: Remove: archive file [/home/abi/fetcher/tmp/consoleprint-1.3.3.tar.gz]
+[2023-06-09 01:20:05] INFO root fetch - processPackages [ConsolePrint]: Remove: archive file [/home/abi/fetcher/tmp/consoleprint-1.3.4.tar.gz]
+[2023-06-09 01:20:05] INFO root fetch - main [MainThread]: End processing [ConsolePrint]: success
+[2023-06-09 01:20:05] INFO root fetch - processPackages [rapidpro-flow-tools]: Remove: archive file [/home/abi/fetcher/tmp/rapidpro_flow_tools-2.0.4.tar.gz]
+[2023-06-09 01:20:05] INFO root fetch - processPackages [rapidpro-flow-tools]: Remove: archive file [/home/abi/fetcher/tmp/rapidpro_flow_tools-2.0.5.tar.gz]
+[2023-06-09 01:20:05] INFO root fetch - main [MainThread]: End processing [rapidpro-flow-tools]: success
+[2023-06-09 01:20:05] INFO root fetch - processPackages [pipen-lock]: Remove: archive file [/home/abi/fetcher/tmp/pipen_lock-0.2.0.tar.gz]
+[2023-06-09 01:20:05] INFO root fetch - processPackages [pipen-lock]: Remove: archive file [/home/abi/fetcher/tmp/pipen_lock-0.3.0.tar.gz]
+[2023-06-09 01:20:05] INFO root fetch - main [MainThread]: End processing [pipen-lock]: success
+[2023-06-09 01:20:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.354.tar.gz]
+[2023-06-09 01:20:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.355.tar.gz]
+[2023-06-09 01:20:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-09 01:20:05] INFO root fetch - processPackages [memfault-cli]: Remove: archive file [/home/abi/fetcher/tmp/memfault-cli-0.8.0.tar.gz]
+[2023-06-09 01:20:05] INFO root fetch - processPackages [memfault-cli]: Remove: archive file [/home/abi/fetcher/tmp/memfault-cli-0.9.0.tar.gz]
+[2023-06-09 01:20:05] INFO root fetch - main [MainThread]: End processing [memfault-cli]: success
+[2023-06-09 01:20:05] INFO root fetch - processPackages [nso-oc]: Remove: archive file [/home/abi/fetcher/tmp/nso-oc-2.67.0.tar.gz]
+[2023-06-09 01:20:05] INFO root fetch - processPackages [nso-oc]: Remove: archive file [/home/abi/fetcher/tmp/nso-oc-2.68.0.tar.gz]
+[2023-06-09 01:20:05] INFO root fetch - main [MainThread]: End processing [nso-oc]: success
+[2023-06-09 01:20:06] INFO root fetch - processPackages [Leytonium]: Remove: archive file [/home/abi/fetcher/tmp/Leytonium-8.tar.gz]
+[2023-06-09 01:20:06] INFO root fetch - processPackages [Leytonium]: Remove: archive file [/home/abi/fetcher/tmp/Leytonium-9.tar.gz]
+[2023-06-09 01:20:06] INFO root fetch - main [MainThread]: End processing [Leytonium]: success
+[2023-06-09 01:20:08] INFO root fetch - processPackages [ocdskit]: Remove: archive file [/home/abi/fetcher/tmp/ocdskit-1.1.5.tar.gz]
+[2023-06-09 01:20:08] INFO root fetch - processPackages [ocdskit]: Remove: archive file [/home/abi/fetcher/tmp/ocdskit-1.1.6.tar.gz]
+[2023-06-09 01:20:08] INFO root fetch - main [MainThread]: End processing [ocdskit]: success
+[2023-06-09 01:20:08] INFO root fetch - main [MainThread]: Store serial: [18432121]
