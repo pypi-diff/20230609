@@ -96,3 +96,97 @@
 [2023-06-09 00:04:45] INFO root fetch - processPackages [jupyterlab-pachyderm]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_pachyderm-2.7.0a1.tar.gz]
 [2023-06-09 00:04:45] INFO root fetch - main [MainThread]: End processing [jupyterlab-pachyderm]: success
 [2023-06-09 00:04:45] INFO root fetch - main [MainThread]: Store serial: [18431621]
+[2023-06-09 00:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431621]
+[2023-06-09 00:09:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-09 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lupin-grognard
+[2023-06-09 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: infinibatch
+[2023-06-09 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pantsbuild.pants.testutil
+[2023-06-09 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cheminftools
+[2023-06-09 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spotPython
+[2023-06-09 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdcflows
+[2023-06-09 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: policyengine-us
+[2023-06-09 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: luminesce-sdk-preview
+[2023-06-09 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lupin-grognard
+[2023-06-09 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: google-cloud-bigtable
+[2023-06-09 00:09:54] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-09 00:09:54] INFO root fetch - processPackages [pantsbuild.pants.testutil]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-06-09 00:09:54] INFO root fetch - processPackages [policyengine-us]: New version: [0.333.1] Old Version: [0.333.0]
+[2023-06-09 00:09:54] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-06-09 00:09:54] WARNING root fetch - processPackages [infinibatch]: Skipping, unable to determine old version
+[2023-06-09 00:09:54] INFO root fetch - processPackages [infinibatch]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-09 00:09:54] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-09 00:09:54] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Downloading https://files.pythonhosted.org/packages/4e/7d/aeafade716239bdbf6323e1aa8cab40ec135933628cd8b4f30180462f909/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl
+[2023-06-09 00:09:54] INFO root fetch - main [MainThread]: End processing [infinibatch] error
+[2023-06-09 00:09:54] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/17/da/4fed9932aee973a4aa93d5a61c10642e3c876517a72d4ec592186f6388a6/policyengine-us-0.333.0.tar.gz
+[2023-06-09 00:09:54] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-09 00:09:54] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-09 00:09:54] INFO root fetch - processPackages [google-cloud-bigtable]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-09 00:09:54] INFO root fetch - processPackages [sdcflows]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-06-09 00:09:54] INFO root fetch - processPackages [cheminftools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-09 00:09:54] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-06-09 00:09:54] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 00:09:54] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-09 00:09:54] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-09 00:09:54] INFO root fetch - processPackages [google-cloud-bigtable]: Downloading https://files.pythonhosted.org/packages/73/53/d329370dc282108f26a1608c1d2dd9dc83c4e4b69af08010248990accf22/google-cloud-bigtable-2.8.1.tar.gz
+[2023-06-09 00:09:54] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-09 00:09:54] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/90/0c/ed60861b20610805d301135d054663f9d066102f96efa0f0fe4bf7608343/policyengine-us-0.333.1.tar.gz
+[2023-06-09 00:09:54] INFO root fetch - processPackages [sdcflows]: Downloading https://files.pythonhosted.org/packages/6d/41/eeed6cd5a13c5ae05bfeb58277cb08a2f0eb4f4dc82f3e2df62fd3973243/sdcflows-2.5.0.tar.gz
+[2023-06-09 00:09:54] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Downloading https://files.pythonhosted.org/packages/99/3d/05b882eb653f3774a6e1520e5e16ce1c59df3737b664846d8bde71c8a2c1/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl
+[2023-06-09 00:09:54] INFO root fetch - processPackages [cheminftools]: Downloading https://files.pythonhosted.org/packages/fe/9e/70508bb4c70cd70dd0d66e0126ada3792f25d66be411a92d6e2e72fd8145/cheminftools-0.1.3.tar.gz
+[2023-06-09 00:09:55] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-06-09 00:09:55] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-09 00:09:55] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-09 00:09:55] INFO root fetch - processPackages [pantsbuild.pants.testutil]: executing diffoscope
+[2023-06-09 00:09:55] INFO root fetch - processPackages [pantsbuild.pants.testutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip --markdown 20230609/p/pantsbuild.pants.testutil/2.9.2-2.9.2rc0/diff.md --exclude *.pyd
+[2023-06-09 00:09:55] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-09 00:09:55] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.333.0.tar.gz tmp/policyengine-us-0.333.1.tar.gz --markdown 20230609/p/policyengine-us/0.333.0-0.333.1/diff.md --exclude *.pyd
+[2023-06-09 00:09:55] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-06-09 00:09:55] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230609/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-06-09 00:09:55] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-09 00:09:55] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230609/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 00:09:55] INFO root fetch - processPackages [cheminftools]: Downloading https://files.pythonhosted.org/packages/d3/21/392daf92a6d824c016a13c99e422730a58a663178b97e5731e10125844d4/cheminftools-0.1.4.tar.gz
+[2023-06-09 00:09:55] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-09 00:09:55] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-09 00:09:55] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-09 00:09:55] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230609/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-09 00:09:55] INFO root fetch - processPackages [sdcflows]: Downloading https://files.pythonhosted.org/packages/3f/26/b66431038dee0e0aca56b68ce04a368209c07456559f11018d7af911bf2e/sdcflows-2.5.1.tar.gz
+[2023-06-09 00:09:55] INFO root fetch - processPackages [cheminftools]: executing diffoscope
+[2023-06-09 00:09:55] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-09 00:09:55] INFO root fetch - processPackages [cheminftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheminftools-0.1.3.tar.gz tmp/cheminftools-0.1.4.tar.gz --markdown 20230609/c/cheminftools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-09 00:09:55] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230609/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-09 00:09:55] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-09 00:09:55] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230609/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-09 00:09:55] INFO root fetch - processPackages [google-cloud-bigtable]: Downloading https://files.pythonhosted.org/packages/43/3f/48f9246ce975409c3f5519002ebc49faa00f52c678a345bc967ec63b5a65/google-cloud-bigtable-2.9.0.tar.gz
+[2023-06-09 00:09:55] INFO root fetch - processPackages [sdcflows]: executing diffoscope
+[2023-06-09 00:09:55] INFO root fetch - processPackages [sdcflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdcflows-2.5.0.tar.gz tmp/sdcflows-2.5.1.tar.gz --markdown 20230609/s/sdcflows/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-06-09 00:09:55] INFO root fetch - processPackages [google-cloud-bigtable]: executing diffoscope
+[2023-06-09 00:09:55] INFO root fetch - processPackages [google-cloud-bigtable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-bigtable-2.8.1.tar.gz tmp/google-cloud-bigtable-2.9.0.tar.gz --markdown 20230609/g/google-cloud-bigtable/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-09 00:09:56] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Remove: archive file [/home/abi/fetcher/tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip]
+[2023-06-09 00:09:56] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Remove: archive file [/home/abi/fetcher/tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip]
+[2023-06-09 00:09:56] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants.testutil]: success
+[2023-06-09 00:09:56] INFO root fetch - processPackages [cheminftools]: Remove: archive file [/home/abi/fetcher/tmp/cheminftools-0.1.3.tar.gz]
+[2023-06-09 00:09:56] INFO root fetch - processPackages [cheminftools]: Remove: archive file [/home/abi/fetcher/tmp/cheminftools-0.1.4.tar.gz]
+[2023-06-09 00:09:56] INFO root fetch - main [MainThread]: End processing [cheminftools]: success
+[2023-06-09 00:09:57] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-09 00:09:57] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-09 00:09:57] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-09 00:09:57] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-09 00:09:57] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-06-09 00:09:57] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-06-09 00:09:57] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-06-09 00:09:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-09 00:09:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-09 00:09:58] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-09 00:09:58] INFO root fetch - processPackages [sdcflows]: Remove: archive file [/home/abi/fetcher/tmp/sdcflows-2.5.0.tar.gz]
+[2023-06-09 00:09:58] INFO root fetch - processPackages [sdcflows]: Remove: archive file [/home/abi/fetcher/tmp/sdcflows-2.5.1.tar.gz]
+[2023-06-09 00:09:58] INFO root fetch - main [MainThread]: End processing [sdcflows]: success
+[2023-06-09 00:09:58] INFO root fetch - processPackages [google-cloud-bigtable]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigtable-2.8.1.tar.gz]
+[2023-06-09 00:09:58] INFO root fetch - processPackages [google-cloud-bigtable]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigtable-2.9.0.tar.gz]
+[2023-06-09 00:09:58] INFO root fetch - main [MainThread]: End processing [google-cloud-bigtable]: success
+[2023-06-09 00:10:10] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-09 00:10:10] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-09 00:10:10] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-09 00:11:18] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.333.0.tar.gz]
+[2023-06-09 00:11:18] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.333.1.tar.gz]
+[2023-06-09 00:11:18] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-09 00:11:18] INFO root fetch - main [MainThread]: Store serial: [18431671]
