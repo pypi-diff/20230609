@@ -575,3 +575,73 @@
 [2023-06-09 00:37:45] INFO root fetch - processPackages [arcusapi]: Remove: archive file [/home/abi/fetcher/tmp/arcusapi-0.1.2.tar.gz]
 [2023-06-09 00:37:45] INFO root fetch - main [MainThread]: End processing [arcusapi]: success
 [2023-06-09 00:37:45] INFO root fetch - main [MainThread]: Store serial: [18431823]
+[2023-06-09 00:42:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431823]
+[2023-06-09 00:42:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 00:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtailmedia
+[2023-06-09 00:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: formal-sdk
+[2023-06-09 00:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight
+[2023-06-09 00:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyautoreloadserver
+[2023-06-09 00:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioslimproto
+[2023-06-09 00:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-gmp
+[2023-06-09 00:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nso-oc
+[2023-06-09 00:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandas-gpt
+[2023-06-09 00:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: formal-sdk
+[2023-06-09 00:42:54] INFO root fetch - processPackages [wagtailmedia]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-09 00:42:54] WARNING root fetch - processPackages [pyautoreloadserver]: Skipping, unable to determine old version
+[2023-06-09 00:42:54] INFO root fetch - main [MainThread]: End processing [pyautoreloadserver] error
+[2023-06-09 00:42:54] INFO root fetch - processPackages [formal-sdk]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-09 00:42:54] INFO root fetch - processPackages [formal-sdk]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-09 00:42:54] INFO root fetch - processPackages [nso-oc]: New version: [2.66.1] Old Version: [2.65.0]
+[2023-06-09 00:42:54] INFO root fetch - processPackages [pandas-gpt]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-09 00:42:54] INFO root fetch - processPackages [pandas-gpt]: Downloading https://files.pythonhosted.org/packages/a7/92/7efa71f5ca5682e00b2554ba79a15f1ac58043899b3ae4bfda464b2285b8/pandas-gpt-0.1.0.tar.gz
+[2023-06-09 00:42:54] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/f5/db/a0b4fd6efc952e6fe4bee94045b4dee182bbca2d553367a82f404cb9a002/nso-oc-2.65.0.tar.gz
+[2023-06-09 00:42:54] WARNING root fetch - processPackages [py-gmp]: Skipping, unable to determine old version
+[2023-06-09 00:42:54] INFO root fetch - main [MainThread]: End processing [py-gmp] error
+[2023-06-09 00:42:54] INFO root fetch - processPackages [aioslimproto]: New version: [2.3.0] Old Version: [2.2.2]
+[2023-06-09 00:42:54] INFO root fetch - processPackages [foursight]: New version: [3.4.7.2b6] Old Version: [3.4.7.2b4]
+[2023-06-09 00:42:54] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/7f/e5/725e73c43dad1bd4ba6019e9ee838ddfde0bbcd7bcc1ef19c5d64ce0d8f0/formal-sdk-0.6.0.tar.gz
+[2023-06-09 00:42:54] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/7f/e5/725e73c43dad1bd4ba6019e9ee838ddfde0bbcd7bcc1ef19c5d64ce0d8f0/formal-sdk-0.6.0.tar.gz
+[2023-06-09 00:42:54] INFO root fetch - processPackages [pandas-gpt]: Downloading https://files.pythonhosted.org/packages/fa/39/545e0d2dc21600e8e2d31eb1ec86e81ae6d5e3a3402933e4360c13326766/pandas-gpt-0.2.0.tar.gz
+[2023-06-09 00:42:54] INFO root fetch - processPackages [wagtailmedia]: Downloading https://files.pythonhosted.org/packages/01/e5/1d9d02582f9f8b3d872bc29450669190cdc843b17645a8ff6170a3e55d45/wagtailmedia-0.8.0.tar.gz
+[2023-06-09 00:42:54] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/40/86/9183d01104f5536cb1567ee5deed40911685df0ded796aed2c282ce811ec/foursight-3.4.7.2b4.tar.gz
+[2023-06-09 00:42:54] INFO root fetch - processPackages [aioslimproto]: Downloading https://files.pythonhosted.org/packages/18/6a/592820ea4f5f833e12c5f585f76be415cc7b12f0e2c52ef5bc96a4786144/aioslimproto-2.2.2.tar.gz
+[2023-06-09 00:42:54] INFO root fetch - processPackages [pandas-gpt]: executing diffoscope
+[2023-06-09 00:42:54] INFO root fetch - processPackages [pandas-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-gpt-0.1.0.tar.gz tmp/pandas-gpt-0.2.0.tar.gz --markdown 20230609/p/pandas-gpt/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-09 00:42:54] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/4f/bf/fbf4052e30a5370bd74e7e8d5d1fc9ee3b638d0450e4249470432597e745/nso-oc-2.66.1.tar.gz
+[2023-06-09 00:42:55] INFO root fetch - processPackages [nso-oc]: executing diffoscope
+[2023-06-09 00:42:55] INFO root fetch - processPackages [nso-oc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nso-oc-2.65.0.tar.gz tmp/nso-oc-2.66.1.tar.gz --markdown 20230609/n/nso-oc/2.65.0-2.66.1/diff.md --exclude *.pyd
+[2023-06-09 00:42:55] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/15/9c/51fde661cda8d09c37abe518893ef0f221abb20902e6290bad80dd3f07e9/formal-sdk-0.7.0.tar.gz
+[2023-06-09 00:42:55] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/15/9c/51fde661cda8d09c37abe518893ef0f221abb20902e6290bad80dd3f07e9/formal-sdk-0.7.0.tar.gz
+[2023-06-09 00:42:55] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/65/d7/5b23c00c14c2f61a41f7c5d91bf1544d38c94c41efff658c4285c3a32fb1/foursight-3.4.7.2b6.tar.gz
+[2023-06-09 00:42:55] INFO root fetch - processPackages [aioslimproto]: Downloading https://files.pythonhosted.org/packages/80/c3/e2ac4bff2f9149487c0a09a2bad7a14510bc78b127f7a695f754ec76c263/aioslimproto-2.3.0.tar.gz
+[2023-06-09 00:42:55] INFO root fetch - processPackages [formal-sdk]: executing diffoscope
+[2023-06-09 00:42:55] INFO root fetch - processPackages [formal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formal-sdk-0.6.0.tar.gz tmp/formal-sdk-0.7.0.tar.gz --markdown 20230609/f/formal-sdk/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-09 00:42:55] INFO root fetch - processPackages [formal-sdk]: executing diffoscope
+[2023-06-09 00:42:55] INFO root fetch - processPackages [formal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formal-sdk-0.6.0.tar.gz tmp/formal-sdk-0.7.0.tar.gz --markdown 20230609/f/formal-sdk/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-09 00:42:55] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-06-09 00:42:55] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.4.7.2b4.tar.gz tmp/foursight-3.4.7.2b6.tar.gz --markdown 20230609/f/foursight/3.4.7.2b4-3.4.7.2b6/diff.md --exclude *.pyd
+[2023-06-09 00:42:55] INFO root fetch - processPackages [aioslimproto]: executing diffoscope
+[2023-06-09 00:42:55] INFO root fetch - processPackages [aioslimproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioslimproto-2.2.2.tar.gz tmp/aioslimproto-2.3.0.tar.gz --markdown 20230609/a/aioslimproto/2.2.2-2.3.0/diff.md --exclude *.pyd
+[2023-06-09 00:42:55] INFO root fetch - processPackages [wagtailmedia]: Downloading https://files.pythonhosted.org/packages/35/ff/5faed71a4528a523443609a241943aca2dbc0e5046b1584f06816829301e/wagtailmedia-0.9.0.tar.gz
+[2023-06-09 00:42:56] INFO root fetch - processPackages [pandas-gpt]: Remove: archive file [/home/abi/fetcher/tmp/pandas-gpt-0.1.0.tar.gz]
+[2023-06-09 00:42:56] INFO root fetch - processPackages [pandas-gpt]: Remove: archive file [/home/abi/fetcher/tmp/pandas-gpt-0.2.0.tar.gz]
+[2023-06-09 00:42:56] INFO root fetch - main [MainThread]: End processing [pandas-gpt]: success
+[2023-06-09 00:42:56] INFO root fetch - processPackages [nso-oc]: Remove: archive file [/home/abi/fetcher/tmp/nso-oc-2.65.0.tar.gz]
+[2023-06-09 00:42:56] INFO root fetch - processPackages [nso-oc]: Remove: archive file [/home/abi/fetcher/tmp/nso-oc-2.66.1.tar.gz]
+[2023-06-09 00:42:56] INFO root fetch - main [MainThread]: End processing [nso-oc]: success
+[2023-06-09 00:42:56] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-0.6.0.tar.gz]
+[2023-06-09 00:42:56] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-0.7.0.tar.gz]
+[2023-06-09 00:42:56] INFO root fetch - main [MainThread]: End processing [formal-sdk]: success
+[2023-06-09 00:42:56] INFO root fetch - main [MainThread]: End processing [formal-sdk]: success
+[2023-06-09 00:42:56] INFO root fetch - processPackages [wagtailmedia]: executing diffoscope
+[2023-06-09 00:42:56] INFO root fetch - processPackages [wagtailmedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailmedia-0.8.0.tar.gz tmp/wagtailmedia-0.9.0.tar.gz --markdown 20230609/w/wagtailmedia/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 00:42:56] INFO root fetch - processPackages [aioslimproto]: Remove: archive file [/home/abi/fetcher/tmp/aioslimproto-2.2.2.tar.gz]
+[2023-06-09 00:42:56] INFO root fetch - processPackages [aioslimproto]: Remove: archive file [/home/abi/fetcher/tmp/aioslimproto-2.3.0.tar.gz]
+[2023-06-09 00:42:56] INFO root fetch - main [MainThread]: End processing [aioslimproto]: success
+[2023-06-09 00:42:57] INFO root fetch - processPackages [wagtailmedia]: Remove: archive file [/home/abi/fetcher/tmp/wagtailmedia-0.8.0.tar.gz]
+[2023-06-09 00:42:57] INFO root fetch - processPackages [wagtailmedia]: Remove: archive file [/home/abi/fetcher/tmp/wagtailmedia-0.9.0.tar.gz]
+[2023-06-09 00:42:57] INFO root fetch - main [MainThread]: End processing [wagtailmedia]: success
+[2023-06-09 00:42:58] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.4.7.2b4.tar.gz]
+[2023-06-09 00:42:58] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.4.7.2b6.tar.gz]
+[2023-06-09 00:42:58] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-06-09 00:42:58] INFO root fetch - main [MainThread]: Store serial: [18431868]
