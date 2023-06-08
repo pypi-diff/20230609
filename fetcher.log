@@ -418,3 +418,76 @@
 [2023-06-09 00:27:06] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2023.6.8.142.tar.gz]
 [2023-06-09 00:27:06] INFO root fetch - main [MainThread]: End processing [sapiopylib]: success
 [2023-06-09 00:27:06] INFO root fetch - main [MainThread]: Store serial: [18431776]
+[2023-06-09 00:32:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431776]
+[2023-06-09 00:32:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lupin-grognard
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: buildrunner
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prefect
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lamindb
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: theendisnever
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-cfdi
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ripandtear
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-cfdi
+[2023-06-09 00:32:15] INFO root fetch - processPackages [django-cfdi]: New version: [2.99] Old Version: [2.98]
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ripandtear]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-09 00:32:15] INFO root fetch - processPackages [django-cfdi]: New version: [2.99] Old Version: [2.98]
+[2023-06-09 00:32:15] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-06-09 00:32:15] INFO root fetch - processPackages [theendisnever]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-09 00:32:15] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-09 00:32:15] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/d8/7d/d99ae3e7add96c4909780286d44633880055d97463ac4470484411b34ba8/django_cfdi-2.98-py3-none-any.whl
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/2c/f3/43638a223c6f10c616bb47ef002fae28efb23437b272b531a8027e24e54f/ripandtear-0.9.7.tar.gz
+[2023-06-09 00:32:15] INFO root fetch - processPackages [buildrunner]: New version: [3.0.753] Old Version: [2.0.751]
+[2023-06-09 00:32:15] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/d8/7d/d99ae3e7add96c4909780286d44633880055d97463ac4470484411b34ba8/django_cfdi-2.98-py3-none-any.whl
+[2023-06-09 00:32:15] INFO root fetch - processPackages [prefect]: New version: [2.9.0] Old Version: [2.82]
+[2023-06-09 00:32:15] INFO root fetch - processPackages [theendisnever]: Downloading https://files.pythonhosted.org/packages/a7/21/5b6704c1f6b7b5b2ea5d53c7d8ae687f6ca2ee3523386e168d9eadcfe579/theendisnever-1.0.0.tar.gz
+[2023-06-09 00:32:15] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-09 00:32:15] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/bb/33/c3d19a2184a3997ddbec798a026fd98fd336119a50b23ebe1c0233e31aea/ripandtear-0.9.9.tar.gz
+[2023-06-09 00:32:15] INFO root fetch - processPackages [buildrunner]: Downloading https://files.pythonhosted.org/packages/30/b0/fe3b75d23bc8d0a3baf8244e0f91e33242adb5ca3417ba1e85b0babcbfa0/buildrunner-2.0.751.tar.gz
+[2023-06-09 00:32:15] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/20/bd/9580e89a911969805904dd984258f2250f96726fbb91373970a41c36aab3/prefect-2.82.tar.gz
+[2023-06-09 00:32:15] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/68/29/ce9ebc4855819720b4e8fb4fee0d3d7ed2dd66bd0e56db087e971e65b112/django_cfdi-2.99-py3-none-any.whl
+[2023-06-09 00:32:15] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-09 00:32:15] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/68/29/ce9ebc4855819720b4e8fb4fee0d3d7ed2dd66bd0e56db087e971e65b112/django_cfdi-2.99-py3-none-any.whl
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ripandtear]: executing diffoscope
+[2023-06-09 00:32:15] INFO root fetch - processPackages [ripandtear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ripandtear-0.9.7.tar.gz tmp/ripandtear-0.9.9.tar.gz --markdown 20230609/r/ripandtear/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-09 00:32:15] INFO root fetch - processPackages [theendisnever]: Downloading https://files.pythonhosted.org/packages/c8/e4/6496ed535c25294a4a7f3b92b591c4bc01f1f0256ccb4437487209dad32e/theendisnever-1.1.0.tar.gz
+[2023-06-09 00:32:15] INFO root fetch - processPackages [django-cfdi]: executing diffoscope
+[2023-06-09 00:32:15] INFO root fetch - processPackages [django-cfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cfdi-2.98-py3-none-any.whl.zip tmp/django_cfdi-2.99-py3-none-any.whl.zip --markdown 20230609/d/django-cfdi/2.98-2.99/diff.md --exclude *.pyd
+[2023-06-09 00:32:15] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-09 00:32:15] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230609/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-09 00:32:15] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-06-09 00:32:15] INFO root fetch - processPackages [django-cfdi]: executing diffoscope
+[2023-06-09 00:32:15] INFO root fetch - processPackages [django-cfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cfdi-2.98-py3-none-any.whl.zip tmp/django_cfdi-2.99-py3-none-any.whl.zip --markdown 20230609/d/django-cfdi/2.98-2.99/diff.md --exclude *.pyd
+[2023-06-09 00:32:15] INFO root fetch - processPackages [buildrunner]: Downloading https://files.pythonhosted.org/packages/f0/f7/a21ebc62fbe6a53d6b2a5a7bed51e84d809bf13bc77810ed16271d14a817/buildrunner-3.0.753.tar.gz
+[2023-06-09 00:32:15] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-06-09 00:32:15] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230609/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-06-09 00:32:16] INFO root fetch - processPackages [theendisnever]: executing diffoscope
+[2023-06-09 00:32:16] INFO root fetch - processPackages [theendisnever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theendisnever-1.0.0.tar.gz tmp/theendisnever-1.1.0.tar.gz --markdown 20230609/t/theendisnever/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-09 00:32:16] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/52/49/e4a42ea984b987b634f492725a5484b96da5a97fda925a3d37ff0821ecae/prefect-2.9.0.tar.gz
+[2023-06-09 00:32:16] INFO root fetch - processPackages [buildrunner]: executing diffoscope
+[2023-06-09 00:32:16] INFO root fetch - processPackages [buildrunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildrunner-2.0.751.tar.gz tmp/buildrunner-3.0.753.tar.gz --markdown 20230609/b/buildrunner/2.0.751-3.0.753/diff.md --exclude *.pyd
+[2023-06-09 00:32:16] INFO root fetch - processPackages [prefect]: executing diffoscope
+[2023-06-09 00:32:16] INFO root fetch - processPackages [prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-2.82.tar.gz tmp/prefect-2.9.0.tar.gz --markdown 20230609/p/prefect/2.82-2.9.0/diff.md --exclude *.pyd
+[2023-06-09 00:32:17] INFO root fetch - processPackages [theendisnever]: Remove: archive file [/home/abi/fetcher/tmp/theendisnever-1.0.0.tar.gz]
+[2023-06-09 00:32:17] INFO root fetch - processPackages [theendisnever]: Remove: archive file [/home/abi/fetcher/tmp/theendisnever-1.1.0.tar.gz]
+[2023-06-09 00:32:17] INFO root fetch - main [MainThread]: End processing [theendisnever]: success
+[2023-06-09 00:32:17] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-09 00:32:17] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-09 00:32:17] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-09 00:32:17] INFO root fetch - processPackages [ripandtear]: Remove: archive file [/home/abi/fetcher/tmp/ripandtear-0.9.7.tar.gz]
+[2023-06-09 00:32:17] INFO root fetch - processPackages [ripandtear]: Remove: archive file [/home/abi/fetcher/tmp/ripandtear-0.9.9.tar.gz]
+[2023-06-09 00:32:17] INFO root fetch - main [MainThread]: End processing [ripandtear]: success
+[2023-06-09 00:32:17] INFO root fetch - processPackages [buildrunner]: Remove: archive file [/home/abi/fetcher/tmp/buildrunner-2.0.751.tar.gz]
+[2023-06-09 00:32:17] INFO root fetch - processPackages [buildrunner]: Remove: archive file [/home/abi/fetcher/tmp/buildrunner-3.0.753.tar.gz]
+[2023-06-09 00:32:17] INFO root fetch - main [MainThread]: End processing [buildrunner]: success
+[2023-06-09 00:32:18] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-06-09 00:32:18] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-06-09 00:32:18] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-06-09 00:32:24] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.98-py3-none-any.whl.zip]
+[2023-06-09 00:32:24] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.99-py3-none-any.whl.zip]
+[2023-06-09 00:32:24] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
+[2023-06-09 00:32:24] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
+[2023-06-09 00:32:33] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.82.tar.gz]
+[2023-06-09 00:32:33] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.9.0.tar.gz]
+[2023-06-09 00:32:33] INFO root fetch - main [MainThread]: End processing [prefect]: success
+[2023-06-09 00:32:33] INFO root fetch - main [MainThread]: Store serial: [18431798]
