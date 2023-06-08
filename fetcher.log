@@ -1,0 +1,98 @@
+[2023-06-09 00:04:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431579]
+[2023-06-09 00:04:39] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-09 00:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mirar
+[2023-06-09 00:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bci-framework
+[2023-06-09 00:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbc-gpio
+[2023-06-09 00:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-prefect
+[2023-06-09 00:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getajob
+[2023-06-09 00:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: constriction
+[2023-06-09 00:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: excel-models
+[2023-06-09 00:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyterlab-pachyderm
+[2023-06-09 00:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cgsubmit
+[2023-06-09 00:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pantsbuild.pants
+[2023-06-09 00:04:39] INFO root fetch - processPackages [cgsubmit]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-09 00:04:39] INFO root fetch - processPackages [jupyterlab-pachyderm]: New version: [2.7.0a1] Old Version: [2.6.3]
+[2023-06-09 00:04:39] INFO root fetch - processPackages [pantsbuild.pants]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-06-09 00:04:39] INFO root fetch - processPackages [cgsubmit]: Downloading https://files.pythonhosted.org/packages/7d/e7/cc3d294312fbec5193ec2fdf661b070e7fcf95d435cfe26a689aed2f472a/cgsubmit-1.0.7.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [bci-framework]: New version: [1.3] Old Version: [1.2.4]
+[2023-06-09 00:04:39] INFO root fetch - processPackages [mirar]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-09 00:04:39] INFO root fetch - processPackages [excel-models]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-09 00:04:39] WARNING root fetch - processPackages [getajob]: Skipping, unable to determine old version
+[2023-06-09 00:04:39] INFO root fetch - processPackages [sbc-gpio]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-09 00:04:39] INFO root fetch - processPackages [getajob]: Start processing: openllm
+[2023-06-09 00:04:39] INFO root fetch - main [MainThread]: End processing [getajob] error
+[2023-06-09 00:04:39] INFO root fetch - processPackages [langchain-prefect]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-09 00:04:39] INFO root fetch - processPackages [pantsbuild.pants]: Downloading https://files.pythonhosted.org/packages/9d/fb/48c0150109e3f3706e9104d71fa88777a017fbbdb74c6e6fe4890559df4a/pantsbuild.pants-2.9.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-09 00:04:39] INFO root fetch - processPackages [constriction]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-09 00:04:39] INFO root fetch - processPackages [sbc-gpio]: Downloading https://files.pythonhosted.org/packages/40/9c/48be56da9dc8a46d93ed356caf874c7d39068756404c12237d3124bf8d82/sbc_gpio-1.0.2.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [openllm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 00:04:39] WARNING root fetch - processPackages [pantsbuild.pants]: Skipping package: exceeds size limit 43333544>=10485760
+[2023-06-09 00:04:39] INFO root fetch - processPackages [pantsbuild.pants]: Start processing: s2aff
+[2023-06-09 00:04:39] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants] error
+[2023-06-09 00:04:39] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/36/cd/20848bcb4c9b68c31a099ce94b6edef3d995143454f89cbb9db8e7b7c99f/openllm-0.0.8.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [jupyterlab-pachyderm]: Downloading https://files.pythonhosted.org/packages/ad/a2/e6b3c9afe3ab6d829e2bafc22a4aa86c2aa54be526b28c84580f97909711/jupyterlab_pachyderm-2.6.3.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [excel-models]: Downloading https://files.pythonhosted.org/packages/7e/53/4fed37a9c9b3983def33794dd28e542cf1b448c141f33cb00880a56f48f6/excel-models-0.2.tar.gz
+[2023-06-09 00:04:39] WARNING root fetch - processPackages [openllm]: Skipping package: exceeds size limit 11989091>=10485760
+[2023-06-09 00:04:39] INFO root fetch - processPackages [openllm]: Start processing: lupin-grognard
+[2023-06-09 00:04:39] INFO root fetch - main [MainThread]: End processing [openllm] error
+[2023-06-09 00:04:39] INFO root fetch - processPackages [cgsubmit]: Downloading https://files.pythonhosted.org/packages/71/14/11f3787972241d94dd93f2a87cbc677a5797bb1a62fb15100bcf856bbc7b/cgsubmit-1.0.8.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [mirar]: Downloading https://files.pythonhosted.org/packages/c3/54/6ba2e2cdd2812f074b1397ea572ccbfc8ef566e8346aaca3bea24d8a8b66/mirar-0.8.2.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [bci-framework]: Downloading https://files.pythonhosted.org/packages/ce/5b/799982749d403f5bda784948d38fe11748c35a1ba9dc70bca6f925c1d5f1/bci-framework-1.2.4.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [constriction]: Downloading https://files.pythonhosted.org/packages/a9/75/5d4468608e12bb5335461272076dc5713ca43e1717430e19a6f332a76b28/constriction-0.3.0-cp39-none-win_amd64.whl
+[2023-06-09 00:04:39] INFO root fetch - processPackages [langchain-prefect]: Downloading https://files.pythonhosted.org/packages/d8/1c/1612f8b93b4a23975721a265c155ff4ef601a85d675eef19c0bbe2616226/langchain-prefect-0.0.2.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [s2aff]: New version: [0.61] Old Version: [0.60]
+[2023-06-09 00:04:39] WARNING root fetch - processPackages [mirar]: Skipping package: exceeds size limit 90046688>=10485760
+[2023-06-09 00:04:39] INFO root fetch - main [MainThread]: End processing [mirar] error
+[2023-06-09 00:04:39] INFO root fetch - processPackages [cgsubmit]: executing diffoscope
+[2023-06-09 00:04:39] INFO root fetch - processPackages [cgsubmit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgsubmit-1.0.7.tar.gz tmp/cgsubmit-1.0.8.tar.gz --markdown 20230609/c/cgsubmit/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-09 00:04:39] INFO root fetch - processPackages [sbc-gpio]: Downloading https://files.pythonhosted.org/packages/9e/43/446bf6f1b9610e3af61b23667c1df88c494de991c95ab866bf79b2b62f87/sbc_gpio-1.0.3.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [jupyterlab-pachyderm]: Downloading https://files.pythonhosted.org/packages/b0/26/6b0c9bc69fae9e8516a30d9a5fbd3ef0be729843be1f6dc18f9a2636910b/jupyterlab_pachyderm-2.7.0a1.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-09 00:04:39] WARNING root fetch - processPackages [bci-framework]: Skipping package: exceeds size limit 51544579>=10485760
+[2023-06-09 00:04:39] INFO root fetch - main [MainThread]: End processing [bci-framework] error
+[2023-06-09 00:04:39] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [jupyterlab-pachyderm]: executing diffoscope
+[2023-06-09 00:04:39] INFO root fetch - processPackages [jupyterlab-pachyderm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_pachyderm-2.6.3.tar.gz tmp/jupyterlab_pachyderm-2.7.0a1.tar.gz --markdown 20230609/j/jupyterlab-pachyderm/2.6.3-2.7.0a1/diff.md --exclude *.pyd
+[2023-06-09 00:04:39] INFO root fetch - processPackages [excel-models]: Downloading https://files.pythonhosted.org/packages/6d/4e/27818e5385077f7f6564b524340072e7a4477834869d97ade1b7793dd908/excel-models-0.2.1.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/ab/87/352f6fd9420b5b9321f1df081c1786fc4efd71fefa33ccac0ebcf008f7f7/s2aff-0.60.tar.gz
+[2023-06-09 00:04:39] INFO root fetch - processPackages [sbc-gpio]: executing diffoscope
+[2023-06-09 00:04:39] INFO root fetch - processPackages [sbc-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbc_gpio-1.0.2.tar.gz tmp/sbc_gpio-1.0.3.tar.gz --markdown 20230609/s/sbc-gpio/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-09 00:04:39] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-09 00:04:40] INFO root fetch - processPackages [langchain-prefect]: Downloading https://files.pythonhosted.org/packages/11/1e/d72c8b8146ff92db235a8e962769ef5c122908f3ac2ab8dafcbd60b976d4/langchain-prefect-0.0.3.tar.gz
+[2023-06-09 00:04:40] INFO root fetch - processPackages [excel-models]: executing diffoscope
+[2023-06-09 00:04:40] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-09 00:04:40] INFO root fetch - processPackages [excel-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel-models-0.2.tar.gz tmp/excel-models-0.2.1.tar.gz --markdown 20230609/e/excel-models/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-09 00:04:40] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230609/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-09 00:04:40] INFO root fetch - processPackages [langchain-prefect]: executing diffoscope
+[2023-06-09 00:04:40] INFO root fetch - processPackages [langchain-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-prefect-0.0.2.tar.gz tmp/langchain-prefect-0.0.3.tar.gz --markdown 20230609/l/langchain-prefect/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-09 00:04:40] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/54/83/a787ef0e222c5a16a87b71996744be09a0de58feb574f658446be1929afc/s2aff-0.61.tar.gz
+[2023-06-09 00:04:40] INFO root fetch - processPackages [constriction]: Downloading https://files.pythonhosted.org/packages/3d/f6/f2316b36e127aecb8630f08b211965250e83b8a69b6a8aee010a7f0b8a73/constriction-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-09 00:04:40] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-06-09 00:04:40] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.60.tar.gz tmp/s2aff-0.61.tar.gz --markdown 20230609/s/s2aff/0.60-0.61/diff.md --exclude *.pyd
+[2023-06-09 00:04:40] INFO root fetch - processPackages [constriction]: executing diffoscope
+[2023-06-09 00:04:40] INFO root fetch - processPackages [constriction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constriction-0.3.0-cp39-none-win_amd64.whl.zip tmp/constriction-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230609/c/constriction/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-09 00:04:41] INFO root fetch - processPackages [cgsubmit]: Remove: archive file [/home/abi/fetcher/tmp/cgsubmit-1.0.7.tar.gz]
+[2023-06-09 00:04:41] INFO root fetch - processPackages [cgsubmit]: Remove: archive file [/home/abi/fetcher/tmp/cgsubmit-1.0.8.tar.gz]
+[2023-06-09 00:04:41] INFO root fetch - main [MainThread]: End processing [cgsubmit]: success
+[2023-06-09 00:04:41] INFO root fetch - processPackages [sbc-gpio]: Remove: archive file [/home/abi/fetcher/tmp/sbc_gpio-1.0.2.tar.gz]
+[2023-06-09 00:04:41] INFO root fetch - processPackages [sbc-gpio]: Remove: archive file [/home/abi/fetcher/tmp/sbc_gpio-1.0.3.tar.gz]
+[2023-06-09 00:04:41] INFO root fetch - main [MainThread]: End processing [sbc-gpio]: success
+[2023-06-09 00:04:41] INFO root fetch - processPackages [langchain-prefect]: Remove: archive file [/home/abi/fetcher/tmp/langchain-prefect-0.0.2.tar.gz]
+[2023-06-09 00:04:41] INFO root fetch - processPackages [langchain-prefect]: Remove: archive file [/home/abi/fetcher/tmp/langchain-prefect-0.0.3.tar.gz]
+[2023-06-09 00:04:41] INFO root fetch - main [MainThread]: End processing [langchain-prefect]: success
+[2023-06-09 00:04:41] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-09 00:04:41] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-09 00:04:41] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-09 00:04:41] INFO root fetch - processPackages [excel-models]: Remove: archive file [/home/abi/fetcher/tmp/excel-models-0.2.tar.gz]
+[2023-06-09 00:04:41] INFO root fetch - processPackages [excel-models]: Remove: archive file [/home/abi/fetcher/tmp/excel-models-0.2.1.tar.gz]
+[2023-06-09 00:04:41] INFO root fetch - main [MainThread]: End processing [excel-models]: success
+[2023-06-09 00:04:41] INFO root fetch - processPackages [s2aff]: Remove: archive file [/home/abi/fetcher/tmp/s2aff-0.60.tar.gz]
+[2023-06-09 00:04:41] INFO root fetch - processPackages [s2aff]: Remove: archive file [/home/abi/fetcher/tmp/s2aff-0.61.tar.gz]
+[2023-06-09 00:04:41] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-06-09 00:04:43] INFO root fetch - processPackages [constriction]: Remove: archive file [/home/abi/fetcher/tmp/constriction-0.3.0-cp39-none-win_amd64.whl.zip]
+[2023-06-09 00:04:43] INFO root fetch - processPackages [constriction]: Remove: archive file [/home/abi/fetcher/tmp/constriction-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-09 00:04:43] INFO root fetch - main [MainThread]: End processing [constriction]: success
+[2023-06-09 00:04:45] INFO root fetch - processPackages [jupyterlab-pachyderm]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_pachyderm-2.6.3.tar.gz]
+[2023-06-09 00:04:45] INFO root fetch - processPackages [jupyterlab-pachyderm]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_pachyderm-2.7.0a1.tar.gz]
+[2023-06-09 00:04:45] INFO root fetch - main [MainThread]: End processing [jupyterlab-pachyderm]: success
+[2023-06-09 00:04:45] INFO root fetch - main [MainThread]: Store serial: [18431621]
