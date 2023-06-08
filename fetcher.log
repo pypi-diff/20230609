@@ -1455,3 +1455,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 01:36:44] INFO root fetch - processPackages [great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations-0.9.9.tar.gz]
 [2023-06-09 01:36:44] INFO root fetch - main [MainThread]: End processing [great-expectations]: success
 [2023-06-09 01:36:44] INFO root fetch - main [MainThread]: Store serial: [18432203]
+[2023-06-09 01:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18432203]
+[2023-06-09 01:41:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-09 01:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-snowflake
+[2023-06-09 01:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asBASE
+[2023-06-09 01:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: 5-card-draw
+[2023-06-09 01:41:53] WARNING root fetch - processPackages [5-card-draw]: Skipping, unable to determine old version
+[2023-06-09 01:41:53] INFO root fetch - main [MainThread]: End processing [5-card-draw] error
+[2023-06-09 01:41:53] INFO root fetch - processPackages [asBASE]: New version: [0.4] Old Version: [0.3]
+[2023-06-09 01:41:53] INFO root fetch - processPackages [dbt-snowflake]: New version: [1.6.0b3] Old Version: [1.6.0b2]
+[2023-06-09 01:41:53] INFO root fetch - processPackages [asBASE]: Downloading https://files.pythonhosted.org/packages/05/f7/7b90a6433e0651a5cd214e990e2011dfade43b41d92a180ad37c837e1f0f/asBASE-0.3.tar.gz
+[2023-06-09 01:41:53] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/f0/46/57ab29138a09529a501b3ee1150a26e73c45563c9deba4e1f5f250f2f090/dbt-snowflake-1.6.0b2.tar.gz
+[2023-06-09 01:41:54] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/f6/99/5780f27430718a4fc67da1932fa9a41253cae3cbec7ac6680ef1ac9c5903/dbt-snowflake-1.6.0b3.tar.gz
+[2023-06-09 01:41:54] INFO root fetch - processPackages [asBASE]: Downloading https://files.pythonhosted.org/packages/4b/97/41551da8cf6aaaf78a8b9b4c8394c53676c12103b5501266d4f9bfbd74b4/asBASE-0.4.tar.gz
+[2023-06-09 01:41:54] INFO root fetch - processPackages [asBASE]: executing diffoscope
+[2023-06-09 01:41:54] INFO root fetch - processPackages [asBASE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asBASE-0.3.tar.gz tmp/asBASE-0.4.tar.gz --markdown 20230609/a/asBASE/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-09 01:41:54] INFO root fetch - processPackages [dbt-snowflake]: executing diffoscope
+[2023-06-09 01:41:54] INFO root fetch - processPackages [dbt-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-snowflake-1.6.0b2.tar.gz tmp/dbt-snowflake-1.6.0b3.tar.gz --markdown 20230609/d/dbt-snowflake/1.6.0b2-1.6.0b3/diff.md --exclude *.pyd
+[2023-06-09 01:41:55] INFO root fetch - processPackages [asBASE]: Remove: archive file [/home/abi/fetcher/tmp/asBASE-0.3.tar.gz]
+[2023-06-09 01:41:55] INFO root fetch - processPackages [asBASE]: Remove: archive file [/home/abi/fetcher/tmp/asBASE-0.4.tar.gz]
+[2023-06-09 01:41:55] INFO root fetch - main [MainThread]: End processing [asBASE]: success
+[2023-06-09 01:41:55] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt-snowflake-1.6.0b2.tar.gz]
+[2023-06-09 01:41:55] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt-snowflake-1.6.0b3.tar.gz]
+[2023-06-09 01:41:55] INFO root fetch - main [MainThread]: End processing [dbt-snowflake]: success
+[2023-06-09 01:41:55] INFO root fetch - main [MainThread]: Store serial: [18432212]
