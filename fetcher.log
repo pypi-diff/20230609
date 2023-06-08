@@ -957,3 +957,172 @@
 [2023-06-09 01:04:21] INFO root fetch - processPackages [open-space-toolkit-physics]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_physics-0.8.4-py39-none-any.whl.zip]
 [2023-06-09 01:04:21] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics]: success
 [2023-06-09 01:04:21] INFO root fetch - main [MainThread]: Store serial: [18431986]
+[2023-06-09 01:09:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431986]
+[2023-06-09 01:09:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipen-log2file
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyThorlabsTC300
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gbpcli
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ia-wumpus
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyThorlabsTC300
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rithm
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azureml-automl-runtime
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pascal-voc
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pascal-voc]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.354] Old Version: [0.3.353]
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pascal-voc]: Downloading https://files.pythonhosted.org/packages/6c/86/fdd4fe3b355f2e631cf5ebf4b8904093aaf5075d2d16f74ce1fc48573c0f/pascal_voc-0.0.5.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [gbpcli]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pyThorlabsTC300]: New version: [0.2] Old Version: [0.1]
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pipen-log2file]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pyThorlabsTC300]: New version: [0.2] Old Version: [0.1]
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/03/33/3e8d17c2914fc882d1474ce5517181821abe4b28200d18458e381ba5e4d8/pepperize.cdk-ses-smtp-credentials-0.3.353.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ia-wumpus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-09 01:09:33] INFO root fetch - processPackages [azureml-automl-runtime]: New version: [1.9.0.post3] Old Version: [1.9.0.post2]
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pyThorlabsTC300]: Downloading https://files.pythonhosted.org/packages/12/66/5bc091299c4fdfed3ed7bc87d4b11ec80c6e0ffffe231dd02e0964a08d73/pyThorlabsTC300-0.1.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/7e/68/38a20aebbd3c74ef2418394442835ddfad9239d74d180bd5b0391cd6f89e/pepperize.cdk-ses-smtp-credentials-0.3.354.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pyThorlabsTC300]: Downloading https://files.pythonhosted.org/packages/12/66/5bc091299c4fdfed3ed7bc87d4b11ec80c6e0ffffe231dd02e0964a08d73/pyThorlabsTC300-0.1.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ia-wumpus]: Downloading https://files.pythonhosted.org/packages/82/3a/ceb50aacae372bbde3637f4c36f97ac7449d353dea4b5e577d31af820ed7/ia_wumpus-0.3.8.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [gbpcli]: Downloading https://files.pythonhosted.org/packages/09/d4/078fd178bfdb7c8b7e652556e535962166d13f80d59ccd315a2a209f0485/gbpcli-1.4.0.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pipen-log2file]: Downloading https://files.pythonhosted.org/packages/f2/b5/3d9ac34b92ca32e491fe8e24b5acc40d73b66d01f924429d845b0b01af00/pipen_log2file-0.2.1.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [azureml-automl-runtime]: Downloading https://files.pythonhosted.org/packages/ef/d8/7b1f03072a292857230a7fdf9a68f7ce4a0ba5a4818b573ffef7fd14d665/azureml_automl_runtime-1.9.0.post2-py3-none-any.whl
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pascal-voc]: Downloading https://files.pythonhosted.org/packages/24/ea/d5d976e09071d9035e4bed02668e0c9902357ace89d522748e1a1634ee3f/pascal_voc-0.0.6.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.353.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.354.tar.gz --markdown 20230609/p/pepperize.cdk-ses-smtp-credentials/0.3.353-0.3.354/diff.md --exclude *.pyd
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pascal-voc]: executing diffoscope
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pascal-voc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pascal_voc-0.0.5.tar.gz tmp/pascal_voc-0.0.6.tar.gz --markdown 20230609/p/pascal-voc/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ia-wumpus]: Downloading https://files.pythonhosted.org/packages/63/62/e8529b56a80bbfbf86f55b1a814f4bd8ec436b151f52d738faa6fc96e14c/ia_wumpus-0.3.9.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pyThorlabsTC300]: Downloading https://files.pythonhosted.org/packages/22/db/8b0f74ec672f00ade88685a3136ef91e87b1b0446a88ac2f21d0cdcdbbed/pyThorlabsTC300-0.2.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pyThorlabsTC300]: Downloading https://files.pythonhosted.org/packages/22/db/8b0f74ec672f00ade88685a3136ef91e87b1b0446a88ac2f21d0cdcdbbed/pyThorlabsTC300-0.2.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [rithm]: New version: [9.4.0] Old Version: [9.3.0]
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pipen-log2file]: Downloading https://files.pythonhosted.org/packages/8b/91/e3b923c6413d0445e40927d73d4a114241c464ef134e23a2516104209945/pipen_log2file-0.3.0.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [gbpcli]: Downloading https://files.pythonhosted.org/packages/2a/ab/2084a895ba4f4776f6a15e5c4f89f2b7d13f6e0b44bc68389aa76b372fc7/gbpcli-1.5.0.tar.gz
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ia-wumpus]: executing diffoscope
+[2023-06-09 01:09:33] INFO root fetch - processPackages [ia-wumpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ia_wumpus-0.3.8.tar.gz tmp/ia_wumpus-0.3.9.tar.gz --markdown 20230609/i/ia-wumpus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pyThorlabsTC300]: executing diffoscope
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pyThorlabsTC300]: executing diffoscope
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pyThorlabsTC300]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyThorlabsTC300-0.1.tar.gz tmp/pyThorlabsTC300-0.2.tar.gz --markdown 20230609/p/pyThorlabsTC300/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-09 01:09:33] INFO root fetch - processPackages [pyThorlabsTC300]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyThorlabsTC300-0.1.tar.gz tmp/pyThorlabsTC300-0.2.tar.gz --markdown 20230609/p/pyThorlabsTC300/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-09 01:09:34] INFO root fetch - processPackages [pipen-log2file]: executing diffoscope
+[2023-06-09 01:09:34] INFO root fetch - processPackages [pipen-log2file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_log2file-0.2.1.tar.gz tmp/pipen_log2file-0.3.0.tar.gz --markdown 20230609/p/pipen-log2file/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-09 01:09:34] INFO root fetch - processPackages [gbpcli]: executing diffoscope
+[2023-06-09 01:09:34] INFO root fetch - processPackages [gbpcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbpcli-1.4.0.tar.gz tmp/gbpcli-1.5.0.tar.gz --markdown 20230609/g/gbpcli/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-09 01:09:34] INFO root fetch - processPackages [rithm]: Downloading https://files.pythonhosted.org/packages/24/6d/62979e25dd21f5d2503949c471ef7ac69859e33094a24d4b0d9f44d32236/rithm-9.3.0.tar.gz
+[2023-06-09 01:09:34] INFO root fetch - processPackages [rithm]: Downloading https://files.pythonhosted.org/packages/d9/f0/8981102defa7f7a0ede6fd7cab91d875f14ca423d94112d9d04225b7d31d/rithm-9.4.0.tar.gz
+[2023-06-09 01:09:34] INFO root fetch - processPackages [rithm]: executing diffoscope
+[2023-06-09 01:09:34] INFO root fetch - processPackages [rithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rithm-9.3.0.tar.gz tmp/rithm-9.4.0.tar.gz --markdown 20230609/r/rithm/9.3.0-9.4.0/diff.md --exclude *.pyd
+[2023-06-09 01:09:34] INFO root fetch - processPackages [azureml-automl-runtime]: Downloading https://files.pythonhosted.org/packages/05/95/54abee729a1d3723cdad1bcbf2e36d9d5e0bd014a1f49ffc84699e5a6074/azureml_automl_runtime-1.9.0.post3-py3-none-any.whl
+[2023-06-09 01:09:34] INFO root fetch - processPackages [azureml-automl-runtime]: executing diffoscope
+[2023-06-09 01:09:34] INFO root fetch - processPackages [azureml-automl-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_runtime-1.9.0.post2-py3-none-any.whl.zip tmp/azureml_automl_runtime-1.9.0.post3-py3-none-any.whl.zip --markdown 20230609/a/azureml-automl-runtime/1.9.0.post2-1.9.0.post3/diff.md --exclude *.pyd
+[2023-06-09 01:09:35] INFO root fetch - processPackages [pascal-voc]: Remove: archive file [/home/abi/fetcher/tmp/pascal_voc-0.0.5.tar.gz]
+[2023-06-09 01:09:35] INFO root fetch - processPackages [pascal-voc]: Remove: archive file [/home/abi/fetcher/tmp/pascal_voc-0.0.6.tar.gz]
+[2023-06-09 01:09:35] INFO root fetch - main [MainThread]: End processing [pascal-voc]: success
+[2023-06-09 01:09:35] INFO root fetch - processPackages [ia-wumpus]: Remove: archive file [/home/abi/fetcher/tmp/ia_wumpus-0.3.8.tar.gz]
+[2023-06-09 01:09:35] INFO root fetch - processPackages [ia-wumpus]: Remove: archive file [/home/abi/fetcher/tmp/ia_wumpus-0.3.9.tar.gz]
+[2023-06-09 01:09:35] INFO root fetch - main [MainThread]: End processing [ia-wumpus]: success
+[2023-06-09 01:09:35] INFO root fetch - processPackages [pipen-log2file]: Remove: archive file [/home/abi/fetcher/tmp/pipen_log2file-0.2.1.tar.gz]
+[2023-06-09 01:09:35] INFO root fetch - processPackages [pipen-log2file]: Remove: archive file [/home/abi/fetcher/tmp/pipen_log2file-0.3.0.tar.gz]
+[2023-06-09 01:09:35] INFO root fetch - main [MainThread]: End processing [pipen-log2file]: success
+[2023-06-09 01:09:35] INFO root fetch - processPackages [pyThorlabsTC300]: Remove: archive file [/home/abi/fetcher/tmp/pyThorlabsTC300-0.1.tar.gz]
+[2023-06-09 01:09:35] INFO root fetch - processPackages [pyThorlabsTC300]: Remove: archive file [/home/abi/fetcher/tmp/pyThorlabsTC300-0.2.tar.gz]
+[2023-06-09 01:09:35] INFO root fetch - main [MainThread]: End processing [pyThorlabsTC300]: success
+[2023-06-09 01:09:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.353.tar.gz]
+[2023-06-09 01:09:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.354.tar.gz]
+[2023-06-09 01:09:35] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-09 01:09:35] ERROR root fetch - processPackages [pyThorlabsTC300]: Diffoscope failed: gzip: tmp/pyThorlabsTC300-0.2.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/pyThorlabsTC300-0.2.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-09 01:09:35] INFO root fetch - main [MainThread]: End processing [pyThorlabsTC300] error
+[2023-06-09 01:09:35] INFO root fetch - processPackages [gbpcli]: Remove: archive file [/home/abi/fetcher/tmp/gbpcli-1.4.0.tar.gz]
+[2023-06-09 01:09:35] INFO root fetch - processPackages [gbpcli]: Remove: archive file [/home/abi/fetcher/tmp/gbpcli-1.5.0.tar.gz]
+[2023-06-09 01:09:35] INFO root fetch - main [MainThread]: End processing [gbpcli]: success
+[2023-06-09 01:09:36] INFO root fetch - processPackages [rithm]: Remove: archive file [/home/abi/fetcher/tmp/rithm-9.3.0.tar.gz]
+[2023-06-09 01:09:36] INFO root fetch - processPackages [rithm]: Remove: archive file [/home/abi/fetcher/tmp/rithm-9.4.0.tar.gz]
+[2023-06-09 01:09:36] INFO root fetch - main [MainThread]: End processing [rithm]: success
+[2023-06-09 01:09:38] INFO root fetch - processPackages [azureml-automl-runtime]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_runtime-1.9.0.post2-py3-none-any.whl.zip]
+[2023-06-09 01:09:38] INFO root fetch - processPackages [azureml-automl-runtime]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_runtime-1.9.0.post3-py3-none-any.whl.zip]
+[2023-06-09 01:09:38] INFO root fetch - main [MainThread]: End processing [azureml-automl-runtime]: success
+[2023-06-09 01:09:38] INFO root fetch - main [MainThread]: Store serial: [18432053]
