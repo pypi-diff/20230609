@@ -491,3 +491,87 @@
 [2023-06-09 00:32:33] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.9.0.tar.gz]
 [2023-06-09 00:32:33] INFO root fetch - main [MainThread]: End processing [prefect]: success
 [2023-06-09 00:32:33] INFO root fetch - main [MainThread]: Store serial: [18431798]
+[2023-06-09 00:37:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431798]
+[2023-06-09 00:37:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 00:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raft-dask-cu11
+[2023-06-09 00:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ConsolePrint
+[2023-06-09 00:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arcusapi
+[2023-06-09 00:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auth2guard
+[2023-06-09 00:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rebound
+[2023-06-09 00:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnata-plugin-runtime
+[2023-06-09 00:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cardano-clusterlib
+[2023-06-09 00:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lupin-grognard
+[2023-06-09 00:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: foursight-cgap
+[2023-06-09 00:37:43] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 00:37:43] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-09 00:37:43] INFO root fetch - processPackages [ConsolePrint]: New version: [1.3.1] Old Version: [1.2.7]
+[2023-06-09 00:37:43] INFO root fetch - processPackages [rebound]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-06-09 00:37:43] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/6d/c3/f385d9d41fe9d2c11185c1175d9335760a8cd6bd9a57fa55a89719f76aa8/consoleprint-1.2.7.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [rebound]: Downloading https://files.pythonhosted.org/packages/b5/5f/579cec54b46839dafabab1b4be4936970a602407627791a4e89ad6c51794/rebound-3.8.3.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [arcusapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-09 00:37:43] INFO root fetch - processPackages [raft-dask-cu11]: New version: [23.6.0] Old Version: [23.4.1]
+[2023-06-09 00:37:43] INFO root fetch - processPackages [auth2guard]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-09 00:37:43] INFO root fetch - processPackages [cardano-clusterlib]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-09 00:37:43] INFO root fetch - processPackages [foursight-cgap]: New version: [3.4.5.2b6] Old Version: [3.4.5.2b4]
+[2023-06-09 00:37:43] INFO root fetch - processPackages [arcusapi]: Downloading https://files.pythonhosted.org/packages/57/f5/82eb6fe6bcbc55b0cd6084ce2c4b5fa173e8bfc200be5358453e5927b386/arcusapi-0.1.1.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [rebound]: Downloading https://files.pythonhosted.org/packages/66/96/d715b65e3a00936f2aaead66fa6204045ad486bbf9cecd5ffc47ca355804/rebound-3.9.0.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/67/9d/a35d0ed738072185345d295f49c05fd8354777c04fbdb1ea8495a407af01/consoleprint-1.3.1.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-09 00:37:43] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230609/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-09 00:37:43] INFO root fetch - processPackages [raft-dask-cu11]: Downloading https://files.pythonhosted.org/packages/77/91/0a41164b4d2bcac535a4bb3ca223eb56ac440be0b0e0cc7dd2f1542f9162/raft_dask_cu11-23.4.1.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-09 00:37:43] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230609/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 00:37:43] INFO root fetch - processPackages [auth2guard]: Downloading https://files.pythonhosted.org/packages/72/07/23d6640b6fc0b2a0a8448dc4f46604c5eaa5359f7887cb24cdb53f37a856/auth2guard-0.3.1.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/12/81/db44e83554dca20a3c3ffb7915c8b6a58a3aafb92d242faf04b37f487e87/foursight_cgap-3.4.5.2b4.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [cardano-clusterlib]: Downloading https://files.pythonhosted.org/packages/c4/fa/96b7daff4a2c0b0fe74bd8acc0300a372761ebfe068f4b5b83ec02adb44a/cardano-clusterlib-0.4.8.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [rebound]: executing diffoscope
+[2023-06-09 00:37:43] INFO root fetch - processPackages [rebound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebound-3.8.3.tar.gz tmp/rebound-3.9.0.tar.gz --markdown 20230609/r/rebound/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-06-09 00:37:43] INFO root fetch - processPackages [arcusapi]: Downloading https://files.pythonhosted.org/packages/86/95/1961b93d9246dd4733404a080e2ec49cbc1b0bda40461a5fa490be924897/arcusapi-0.1.2.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [ConsolePrint]: executing diffoscope
+[2023-06-09 00:37:43] INFO root fetch - processPackages [ConsolePrint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consoleprint-1.2.7.tar.gz tmp/consoleprint-1.3.1.tar.gz --markdown 20230609/C/ConsolePrint/1.2.7-1.3.1/diff.md --exclude *.pyd
+[2023-06-09 00:37:43] INFO root fetch - processPackages [raft-dask-cu11]: Downloading https://files.pythonhosted.org/packages/b1/62/72a802356e3235ec78a938d38bb4ea3c55fd555709afef74cc5a553ab5ba/raft-dask-cu11-23.6.0.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [arcusapi]: executing diffoscope
+[2023-06-09 00:37:43] INFO root fetch - processPackages [arcusapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcusapi-0.1.1.tar.gz tmp/arcusapi-0.1.2.tar.gz --markdown 20230609/a/arcusapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-09 00:37:43] INFO root fetch - processPackages [auth2guard]: Downloading https://files.pythonhosted.org/packages/24/f4/6c7ddc82b3db3c07cbffb0376f99d900995310161d2c286883db3a1be8b9/auth2guard-0.4.0.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/81/5a/7e87448ca73fd0b95072d9ffad4ae1f67036da42c2fe20608d7c1eeb1462/foursight_cgap-3.4.5.2b6.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [raft-dask-cu11]: executing diffoscope
+[2023-06-09 00:37:43] INFO root fetch - processPackages [raft-dask-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raft_dask_cu11-23.4.1.tar.gz tmp/raft-dask-cu11-23.6.0.tar.gz --markdown 20230609/r/raft-dask-cu11/23.4.1-23.6.0/diff.md --exclude *.pyd
+[2023-06-09 00:37:43] INFO root fetch - processPackages [cardano-clusterlib]: Downloading https://files.pythonhosted.org/packages/88/30/597da1831245f564f433502db235d1fcd2185f76b982dc4eb96099dd0b90/cardano-clusterlib-0.4.9.tar.gz
+[2023-06-09 00:37:43] INFO root fetch - processPackages [auth2guard]: executing diffoscope
+[2023-06-09 00:37:43] INFO root fetch - processPackages [auth2guard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth2guard-0.3.1.tar.gz tmp/auth2guard-0.4.0.tar.gz --markdown 20230609/a/auth2guard/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-09 00:37:43] INFO root fetch - processPackages [cardano-clusterlib]: executing diffoscope
+[2023-06-09 00:37:43] INFO root fetch - processPackages [cardano-clusterlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardano-clusterlib-0.4.8.tar.gz tmp/cardano-clusterlib-0.4.9.tar.gz --markdown 20230609/c/cardano-clusterlib/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-09 00:37:43] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-09 00:37:43] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.4.5.2b4.tar.gz tmp/foursight_cgap-3.4.5.2b6.tar.gz --markdown 20230609/f/foursight-cgap/3.4.5.2b4-3.4.5.2b6/diff.md --exclude *.pyd
+[2023-06-09 00:37:44] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-09 00:37:44] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-09 00:37:44] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-09 00:37:44] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-09 00:37:44] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-09 00:37:44] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-09 00:37:44] INFO root fetch - processPackages [ConsolePrint]: Remove: archive file [/home/abi/fetcher/tmp/consoleprint-1.2.7.tar.gz]
+[2023-06-09 00:37:44] INFO root fetch - processPackages [ConsolePrint]: Remove: archive file [/home/abi/fetcher/tmp/consoleprint-1.3.1.tar.gz]
+[2023-06-09 00:37:44] INFO root fetch - main [MainThread]: End processing [ConsolePrint]: success
+[2023-06-09 00:37:45] INFO root fetch - processPackages [raft-dask-cu11]: Remove: archive file [/home/abi/fetcher/tmp/raft_dask_cu11-23.4.1.tar.gz]
+[2023-06-09 00:37:45] INFO root fetch - processPackages [raft-dask-cu11]: Remove: archive file [/home/abi/fetcher/tmp/raft-dask-cu11-23.6.0.tar.gz]
+[2023-06-09 00:37:45] INFO root fetch - main [MainThread]: End processing [raft-dask-cu11]: success
+[2023-06-09 00:37:45] INFO root fetch - processPackages [auth2guard]: Remove: archive file [/home/abi/fetcher/tmp/auth2guard-0.3.1.tar.gz]
+[2023-06-09 00:37:45] INFO root fetch - processPackages [auth2guard]: Remove: archive file [/home/abi/fetcher/tmp/auth2guard-0.4.0.tar.gz]
+[2023-06-09 00:37:45] INFO root fetch - main [MainThread]: End processing [auth2guard]: success
+[2023-06-09 00:37:45] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.4.5.2b4.tar.gz]
+[2023-06-09 00:37:45] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.4.5.2b6.tar.gz]
+[2023-06-09 00:37:45] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-09 00:37:45] INFO root fetch - processPackages [cardano-clusterlib]: Remove: archive file [/home/abi/fetcher/tmp/cardano-clusterlib-0.4.8.tar.gz]
+[2023-06-09 00:37:45] INFO root fetch - processPackages [cardano-clusterlib]: Remove: archive file [/home/abi/fetcher/tmp/cardano-clusterlib-0.4.9.tar.gz]
+[2023-06-09 00:37:45] INFO root fetch - main [MainThread]: End processing [cardano-clusterlib]: success
+[2023-06-09 00:37:45] INFO root fetch - processPackages [rebound]: Remove: archive file [/home/abi/fetcher/tmp/rebound-3.8.3.tar.gz]
+[2023-06-09 00:37:45] INFO root fetch - processPackages [rebound]: Remove: archive file [/home/abi/fetcher/tmp/rebound-3.9.0.tar.gz]
+[2023-06-09 00:37:45] INFO root fetch - main [MainThread]: End processing [rebound]: success
+[2023-06-09 00:37:45] INFO root fetch - processPackages [arcusapi]: Remove: archive file [/home/abi/fetcher/tmp/arcusapi-0.1.1.tar.gz]
+[2023-06-09 00:37:45] INFO root fetch - processPackages [arcusapi]: Remove: archive file [/home/abi/fetcher/tmp/arcusapi-0.1.2.tar.gz]
+[2023-06-09 00:37:45] INFO root fetch - main [MainThread]: End processing [arcusapi]: success
+[2023-06-09 00:37:45] INFO root fetch - main [MainThread]: Store serial: [18431823]
