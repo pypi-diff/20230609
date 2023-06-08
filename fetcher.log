@@ -190,3 +190,104 @@
 [2023-06-09 00:11:18] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.333.1.tar.gz]
 [2023-06-09 00:11:18] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-09 00:11:18] INFO root fetch - main [MainThread]: Store serial: [18431671]
+[2023-06-09 00:16:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431671]
+[2023-06-09 00:16:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-09 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-runtime
+[2023-06-09 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xGPR
+[2023-06-09 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faker-file
+[2023-06-09 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidpro-flow-tools
+[2023-06-09 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramodels
+[2023-06-09 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: footballapiclient
+[2023-06-09 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dspobjects
+[2023-06-09 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2023-06-09 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netunicorn-connector-salt
+[2023-06-09 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metaphor-sqllineage
+[2023-06-09 00:16:27] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-09 00:16:27] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230608.21.32.985670] Old Version: [20230608.20.9.567545]
+[2023-06-09 00:16:28] INFO root fetch - processPackages [rapidpro-flow-tools]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-09 00:16:28] WARNING root fetch - processPackages [footballapiclient]: Skipping, unable to determine old version
+[2023-06-09 00:16:28] INFO root fetch - processPackages [dspobjects]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-09 00:16:28] INFO root fetch - processPackages [footballapiclient]: Start processing: pylibcugraph-cu11
+[2023-06-09 00:16:28] INFO root fetch - processPackages [netunicorn-connector-salt]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-09 00:16:28] INFO root fetch - main [MainThread]: End processing [footballapiclient] error
+[2023-06-09 00:16:28] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [xGPR]: New version: [0.1.1.6] Old Version: [0.1.1.5]
+[2023-06-09 00:16:28] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-09 00:16:28] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 00:16:28] INFO root fetch - processPackages [metaphor-sqllineage]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-09 00:16:28] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/7a/13/806a3430f3e234c6e9f4dc85189da8d355549f0aefc79408f65d5339c1c9/certora-cli-alpha-master-20230608.20.9.567545.tar.gz
+[2023-06-09 00:16:28] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39325744>=10485760
+[2023-06-09 00:16:28] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: ICICONSOLE
+[2023-06-09 00:16:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-09 00:16:28] INFO root fetch - processPackages [pylibcugraph-cu11]: New version: [23.6.0] Old Version: [23.4.1]
+[2023-06-09 00:16:28] INFO root fetch - processPackages [dspobjects]: Downloading https://files.pythonhosted.org/packages/76/05/9eaf74e72993b0be94d504d45e3983962a4fcdec40d305224cc0b0dd4afb/dspobjects-0.1.0.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/3b/a1/ad4ac7b368163a317102172cd45891028d6b068dc096e110814cc517deed/faker-file-0.9.2.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [rapidpro-flow-tools]: Downloading https://files.pythonhosted.org/packages/90/3d/a8564bd0f0f32ee99d290348ad777b59ac430329f7977302fa2fafe4933b/rapidpro_flow_tools-2.0.3.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [netunicorn-connector-salt]: Downloading https://files.pythonhosted.org/packages/67/a7/7d6391a79e7d2b278efa71563c7fadca1922c74b837e6fe9132b853e3e1b/netunicorn-connector-salt-0.3.5.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [metaphor-sqllineage]: Downloading https://files.pythonhosted.org/packages/dd/fa/dff9fe26490c00ab854c1a4be6338c213c7a62b298e3faa646b785514a20/metaphor-sqllineage-2.0.8.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/c7/a9/25053e1b67f7027c683cfe3cc1633cec3b0c12d1c11bd3ef93d0fc8de939/xGPR-0.1.1.5.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [ICICONSOLE]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-09 00:16:28] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-09 00:16:28] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230609/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-09 00:16:28] INFO root fetch - processPackages [pylibcugraph-cu11]: Downloading https://files.pythonhosted.org/packages/c2/28/84c2534cd3f83191737529c69809b3c0ed0a75ebaf0666e8b72cdeb022f5/pylibcugraph_cu11-23.4.1.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [rapidpro-flow-tools]: Downloading https://files.pythonhosted.org/packages/a9/5f/2358fa45be3244385231fdbd96223067b32bd43c8f3e0a06b8dc32fcfb1b/rapidpro_flow_tools-2.0.4.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/ed/16/72d29ebc4c5f75b9737c499c71a8e01a7d60dc397e28fe41468571072bb4/ICICONSOLE-0.0.7.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [dspobjects]: Downloading https://files.pythonhosted.org/packages/15/04/7c03979c99979a9134e3fa1c106ffe68f919a1704fd918a21c258f38a36e/dspobjects-0.2.0-py3-none-any.whl
+[2023-06-09 00:16:28] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/91/2c/08a72a0cb6b8f0b657b334700bce122299a7f1c0d94c1e201959121ee226/faker-file-0.9.3.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [netunicorn-connector-salt]: Downloading https://files.pythonhosted.org/packages/67/25/a4242898f3877032d36f17a32b63860216ec7a71cb1358770799e8251fc3/netunicorn-connector-salt-0.3.6.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [rapidpro-flow-tools]: executing diffoscope
+[2023-06-09 00:16:28] INFO root fetch - processPackages [rapidpro-flow-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpro_flow_tools-2.0.3.tar.gz tmp/rapidpro_flow_tools-2.0.4.tar.gz --markdown 20230609/r/rapidpro-flow-tools/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-09 00:16:28] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/cf/83/7eb1e585c8988bd1df38bc396574ac70137a30c32db6a64e3f5e3a82360c/xGPR-0.1.1.6.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-09 00:16:28] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230609/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 00:16:28] INFO root fetch - processPackages [pylibcugraph-cu11]: Downloading https://files.pythonhosted.org/packages/c0/bc/4a810a3fef455cb26c5f0067da8a5f9c16a754de8eb1dc9b3222423921e7/pylibcugraph-cu11-23.6.0.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-06-09 00:16:28] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230609/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-09 00:16:28] INFO root fetch - processPackages [metaphor-sqllineage]: Downloading https://files.pythonhosted.org/packages/59/9f/81c116228ee6450b551a6484007320c43b40a14f8b65d89a79e81ab5fa45/metaphor-sqllineage-2.0.9.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [dspobjects]: executing diffoscope
+[2023-06-09 00:16:28] INFO root fetch - processPackages [dspobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspobjects-0.1.0.tar.gz tmp/dspobjects-0.2.0-py3-none-any.whl.zip --markdown 20230609/d/dspobjects/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-09 00:16:28] INFO root fetch - processPackages [netunicorn-connector-salt]: executing diffoscope
+[2023-06-09 00:16:28] INFO root fetch - processPackages [netunicorn-connector-salt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-connector-salt-0.3.5.tar.gz tmp/netunicorn-connector-salt-0.3.6.tar.gz --markdown 20230609/n/netunicorn-connector-salt/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-09 00:16:28] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/b2/21/a6d0746eb137c5b8d3e18b1c8b1ec55228d9412b44abf1c03294d7ad1550/ICICONSOLE-0.0.8.tar.gz
+[2023-06-09 00:16:28] INFO root fetch - processPackages [xGPR]: executing diffoscope
+[2023-06-09 00:16:28] INFO root fetch - processPackages [xGPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xGPR-0.1.1.5.tar.gz tmp/xGPR-0.1.1.6.tar.gz --markdown 20230609/x/xGPR/0.1.1.5-0.1.1.6/diff.md --exclude *.pyd
+[2023-06-09 00:16:28] INFO root fetch - processPackages [pylibcugraph-cu11]: executing diffoscope
+[2023-06-09 00:16:28] INFO root fetch - processPackages [pylibcugraph-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibcugraph_cu11-23.4.1.tar.gz tmp/pylibcugraph-cu11-23.6.0.tar.gz --markdown 20230609/p/pylibcugraph-cu11/23.4.1-23.6.0/diff.md --exclude *.pyd
+[2023-06-09 00:16:29] INFO root fetch - processPackages [metaphor-sqllineage]: executing diffoscope
+[2023-06-09 00:16:29] INFO root fetch - processPackages [metaphor-sqllineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-sqllineage-2.0.8.tar.gz tmp/metaphor-sqllineage-2.0.9.tar.gz --markdown 20230609/m/metaphor-sqllineage/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-09 00:16:29] INFO root fetch - processPackages [ICICONSOLE]: executing diffoscope
+[2023-06-09 00:16:29] INFO root fetch - processPackages [ICICONSOLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLE-0.0.7.tar.gz tmp/ICICONSOLE-0.0.8.tar.gz --markdown 20230609/I/ICICONSOLE/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-09 00:16:30] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-09 00:16:30] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-09 00:16:30] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-09 00:16:30] INFO root fetch - processPackages [pylibcugraph-cu11]: Remove: archive file [/home/abi/fetcher/tmp/pylibcugraph_cu11-23.4.1.tar.gz]
+[2023-06-09 00:16:30] INFO root fetch - processPackages [pylibcugraph-cu11]: Remove: archive file [/home/abi/fetcher/tmp/pylibcugraph-cu11-23.6.0.tar.gz]
+[2023-06-09 00:16:30] INFO root fetch - main [MainThread]: End processing [pylibcugraph-cu11]: success
+[2023-06-09 00:16:30] INFO root fetch - processPackages [dspobjects]: Remove: archive file [/home/abi/fetcher/tmp/dspobjects-0.1.0.tar.gz]
+[2023-06-09 00:16:30] INFO root fetch - processPackages [dspobjects]: Remove: archive file [/home/abi/fetcher/tmp/dspobjects-0.2.0-py3-none-any.whl.zip]
+[2023-06-09 00:16:30] INFO root fetch - main [MainThread]: End processing [dspobjects]: success
+[2023-06-09 00:16:30] INFO root fetch - processPackages [ICICONSOLE]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLE-0.0.7.tar.gz]
+[2023-06-09 00:16:30] INFO root fetch - processPackages [ICICONSOLE]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLE-0.0.8.tar.gz]
+[2023-06-09 00:16:30] INFO root fetch - main [MainThread]: End processing [ICICONSOLE]: success
+[2023-06-09 00:16:30] INFO root fetch - processPackages [netunicorn-connector-salt]: Remove: archive file [/home/abi/fetcher/tmp/netunicorn-connector-salt-0.3.5.tar.gz]
+[2023-06-09 00:16:30] INFO root fetch - processPackages [netunicorn-connector-salt]: Remove: archive file [/home/abi/fetcher/tmp/netunicorn-connector-salt-0.3.6.tar.gz]
+[2023-06-09 00:16:30] INFO root fetch - main [MainThread]: End processing [netunicorn-connector-salt]: success
+[2023-06-09 00:16:31] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-09 00:16:31] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-09 00:16:31] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-09 00:16:31] INFO root fetch - processPackages [rapidpro-flow-tools]: Remove: archive file [/home/abi/fetcher/tmp/rapidpro_flow_tools-2.0.3.tar.gz]
+[2023-06-09 00:16:31] INFO root fetch - processPackages [rapidpro-flow-tools]: Remove: archive file [/home/abi/fetcher/tmp/rapidpro_flow_tools-2.0.4.tar.gz]
+[2023-06-09 00:16:31] INFO root fetch - main [MainThread]: End processing [rapidpro-flow-tools]: success
+[2023-06-09 00:16:31] INFO root fetch - processPackages [metaphor-sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-sqllineage-2.0.8.tar.gz]
+[2023-06-09 00:16:31] INFO root fetch - processPackages [metaphor-sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-sqllineage-2.0.9.tar.gz]
+[2023-06-09 00:16:31] INFO root fetch - main [MainThread]: End processing [metaphor-sqllineage]: success
+[2023-06-09 00:16:32] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.1.5.tar.gz]
+[2023-06-09 00:16:32] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.1.6.tar.gz]
+[2023-06-09 00:16:32] INFO root fetch - main [MainThread]: End processing [xGPR]: success
+[2023-06-09 00:16:32] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.2.tar.gz]
+[2023-06-09 00:16:32] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.3.tar.gz]
+[2023-06-09 00:16:32] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-06-09 00:16:32] INFO root fetch - main [MainThread]: Store serial: [18431726]
