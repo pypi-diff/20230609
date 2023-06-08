@@ -767,3 +767,105 @@
 [2023-06-09 00:53:23] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-09 00:53:23] INFO root fetch - main [MainThread]: End processing [querysource]: success
 [2023-06-09 00:53:23] INFO root fetch - main [MainThread]: Store serial: [18431915]
+[2023-06-09 00:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431915]
+[2023-06-09 00:58:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MindsDB
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-mrcfile-reader
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linc
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ostatslib
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biocircuits
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specctl
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-local-backend
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pipen
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: querysource
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ovos-backend-client
+[2023-06-09 00:58:32] INFO root fetch - processPackages [napari-mrcfile-reader]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-09 00:58:32] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-09 00:58:32] INFO root fetch - processPackages [MindsDB]: New version: [23.6.1.1] Old Version: [23.5.4.1]
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ovos-local-backend]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ovos-backend-client]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-06-09 00:58:32] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/aa/cb/d2765c107910f6bc1dca69dcc16c73a0986ab984fe77cf33633045941028/ovos_local_backend-0.2.0a8-py3-none-any.whl
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ovos-backend-client]: Downloading https://files.pythonhosted.org/packages/c4/c3/02b6846a3eba094ace548b7f1349e1d60a7a2b5e3c275f1ae1192055f45b/ovos-backend-client-0.1.0a2.tar.gz
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ostatslib]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-09 00:58:32] INFO root fetch - processPackages [linc]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-06-09 00:58:32] INFO root fetch - processPackages [specctl]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-09 00:58:32] INFO root fetch - processPackages [biocircuits]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 00:58:32] INFO root fetch - processPackages [pipen]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-09 00:58:32] INFO root fetch - processPackages [napari-mrcfile-reader]: Downloading https://files.pythonhosted.org/packages/09/86/eab98ea8c915214dcecdc74693dc8532dd48fb1bd19d56bdccb9bf52a28a/napari-mrcfile-reader-0.1.3.tar.gz
+[2023-06-09 00:58:32] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/d9/a4/c679089645ac387c748c730cbb262a67793670743a7ddae9aabd6055341c/MindsDB-23.5.4.1.tar.gz
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ovos-backend-client]: Downloading https://files.pythonhosted.org/packages/f2/2b/a9c5ea7d453f57ee414c283627cbd38d50ede600e4fb2fbae47c7a692dda/ovos-backend-client-0.1.0a3.tar.gz
+[2023-06-09 00:58:32] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/5f/f7/ba89e3c2dfaeb03aac975f2afbaa1980ccbe7273dcd7f5b525280a59d733/ovos_local_backend-0.2.0a9-py3-none-any.whl
+[2023-06-09 00:58:32] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-09 00:58:33] INFO root fetch - processPackages [ovos-local-backend]: executing diffoscope
+[2023-06-09 00:58:33] INFO root fetch - processPackages [ovos-local-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip --markdown 20230609/o/ovos-local-backend/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-06-09 00:58:33] INFO root fetch - processPackages [linc]: Downloading https://files.pythonhosted.org/packages/91/72/3316035b99d1edfdcd92b64a28cd768e94ca4c7d52187712514d66524061/linc-1.6.0.tar.gz
+[2023-06-09 00:58:33] INFO root fetch - processPackages [specctl]: Downloading https://files.pythonhosted.org/packages/e5/d7/fe2261b8d3d1d2eab56f717a0d4326d6abaf4267c5484080a07f8ae12d2c/specctl-0.1.4.tar.gz
+[2023-06-09 00:58:33] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-06-09 00:58:33] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230609/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-09 00:58:33] INFO root fetch - processPackages [ovos-backend-client]: executing diffoscope
+[2023-06-09 00:58:33] INFO root fetch - processPackages [ovos-backend-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-backend-client-0.1.0a2.tar.gz tmp/ovos-backend-client-0.1.0a3.tar.gz --markdown 20230609/o/ovos-backend-client/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-06-09 00:58:33] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/89/8d/9c6dc54d1785255af9c0f2b040483e2d6d4b2c0f75ac4eef36237b5ba735/pipen-0.9.8.tar.gz
+[2023-06-09 00:58:33] INFO root fetch - processPackages [biocircuits]: Downloading https://files.pythonhosted.org/packages/31/d9/ba1d1abac50044875471243eefb36c639976df0afd390a93ffd7e9b302f1/biocircuits-0.1.8.tar.gz
+[2023-06-09 00:58:33] INFO root fetch - processPackages [ostatslib]: Downloading https://files.pythonhosted.org/packages/9c/66/d67a31b8de2cbada3a164dfd12e8922e7f665ed118ade1aa0e6e9f87b0f7/ostatslib-0.4.0.tar.gz
+[2023-06-09 00:58:33] INFO root fetch - processPackages [linc]: Downloading https://files.pythonhosted.org/packages/0c/05/4b1b4b64ff314a5a9ee0ffbde6e27591fb9c83dd318586d4580667d845ac/linc-1.7.0.tar.gz
+[2023-06-09 00:58:33] INFO root fetch - processPackages [specctl]: Downloading https://files.pythonhosted.org/packages/2f/8b/e2d89be684d7455418244c39a5675c7633dbe373c44945d5cf6fa48c289d/specctl-0.1.5.tar.gz
+[2023-06-09 00:58:33] INFO root fetch - processPackages [napari-mrcfile-reader]: Downloading https://files.pythonhosted.org/packages/14/6f/29ce5f85e0fa846ab27287df015eb07680a8cfa33f121c7e76eac610a5fb/napari-mrcfile-reader-0.2.0.tar.gz
+[2023-06-09 00:58:33] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/45/94/66725f0ebe253ae8e488f0eba36085ecc25349bc326bfe14d38c76bb9482/pipen-0.9.9.tar.gz
+[2023-06-09 00:58:33] INFO root fetch - processPackages [ostatslib]: Downloading https://files.pythonhosted.org/packages/90/5a/d8542f07621c63ada9d71abc9ec8e8bd1ccc0db5b5761e5a632caf58a44b/ostatslib-0.5.0.tar.gz
+[2023-06-09 00:58:33] INFO root fetch - processPackages [pipen]: executing diffoscope
+[2023-06-09 00:58:33] INFO root fetch - processPackages [pipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen-0.9.8.tar.gz tmp/pipen-0.9.9.tar.gz --markdown 20230609/p/pipen/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-09 00:58:33] INFO root fetch - processPackages [linc]: executing diffoscope
+[2023-06-09 00:58:33] INFO root fetch - processPackages [linc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linc-1.6.0.tar.gz tmp/linc-1.7.0.tar.gz --markdown 20230609/l/linc/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-06-09 00:58:33] INFO root fetch - processPackages [napari-mrcfile-reader]: executing diffoscope
+[2023-06-09 00:58:33] INFO root fetch - processPackages [napari-mrcfile-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-mrcfile-reader-0.1.3.tar.gz tmp/napari-mrcfile-reader-0.2.0.tar.gz --markdown 20230609/n/napari-mrcfile-reader/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-09 00:58:33] INFO root fetch - processPackages [biocircuits]: Downloading https://files.pythonhosted.org/packages/f8/56/f873302686db3b1e207a49ded594fa0eb557f3e02d4d5ccd56da51be2b2b/biocircuits-0.1.9.tar.gz
+[2023-06-09 00:58:33] INFO root fetch - processPackages [specctl]: executing diffoscope
+[2023-06-09 00:58:33] INFO root fetch - processPackages [specctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specctl-0.1.4.tar.gz tmp/specctl-0.1.5.tar.gz --markdown 20230609/s/specctl/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-09 00:58:33] INFO root fetch - processPackages [ostatslib]: executing diffoscope
+[2023-06-09 00:58:33] INFO root fetch - processPackages [ostatslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ostatslib-0.4.0.tar.gz tmp/ostatslib-0.5.0.tar.gz --markdown 20230609/o/ostatslib/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-09 00:58:33] INFO root fetch - processPackages [biocircuits]: executing diffoscope
+[2023-06-09 00:58:33] INFO root fetch - processPackages [biocircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocircuits-0.1.8.tar.gz tmp/biocircuits-0.1.9.tar.gz --markdown 20230609/b/biocircuits/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 00:58:34] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/0b/1b/bf1cfe1d2e859b69581457694efa163acd8171a9590093c33575e3fda118/MindsDB-23.6.1.1.tar.gz
+[2023-06-09 00:58:34] INFO root fetch - processPackages [MindsDB]: executing diffoscope
+[2023-06-09 00:58:34] INFO root fetch - processPackages [MindsDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MindsDB-23.5.4.1.tar.gz tmp/MindsDB-23.6.1.1.tar.gz --markdown 20230609/M/MindsDB/23.5.4.1-23.6.1.1/diff.md --exclude *.pyd
+[2023-06-09 00:58:34] INFO root fetch - processPackages [ovos-local-backend]: Remove: archive file [/home/abi/fetcher/tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip]
+[2023-06-09 00:58:34] INFO root fetch - processPackages [ovos-local-backend]: Remove: archive file [/home/abi/fetcher/tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip]
+[2023-06-09 00:58:34] INFO root fetch - processPackages [ovos-local-backend]: Start processing: ConsolePrint
+[2023-06-09 00:58:34] INFO root fetch - main [MainThread]: End processing [ovos-local-backend]: success
+[2023-06-09 00:58:34] INFO root fetch - processPackages [ConsolePrint]: New version: [1.3.3] Old Version: [1.3.1]
+[2023-06-09 00:58:34] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/67/9d/a35d0ed738072185345d295f49c05fd8354777c04fbdb1ea8495a407af01/consoleprint-1.3.1.tar.gz
+[2023-06-09 00:58:34] INFO root fetch - processPackages [linc]: Remove: archive file [/home/abi/fetcher/tmp/linc-1.6.0.tar.gz]
+[2023-06-09 00:58:34] INFO root fetch - processPackages [linc]: Remove: archive file [/home/abi/fetcher/tmp/linc-1.7.0.tar.gz]
+[2023-06-09 00:58:34] INFO root fetch - main [MainThread]: End processing [linc]: success
+[2023-06-09 00:58:34] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/45/18/4abdbeb8c57fdbd0da81613fceb43f6ff91d74f5819a1d167f3ece6d9d25/consoleprint-1.3.3.tar.gz
+[2023-06-09 00:58:35] INFO root fetch - processPackages [ConsolePrint]: executing diffoscope
+[2023-06-09 00:58:35] INFO root fetch - processPackages [ConsolePrint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consoleprint-1.3.1.tar.gz tmp/consoleprint-1.3.3.tar.gz --markdown 20230609/C/ConsolePrint/1.3.1-1.3.3/diff.md --exclude *.pyd
+[2023-06-09 00:58:35] INFO root fetch - processPackages [ovos-backend-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-backend-client-0.1.0a2.tar.gz]
+[2023-06-09 00:58:35] INFO root fetch - processPackages [ovos-backend-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-backend-client-0.1.0a3.tar.gz]
+[2023-06-09 00:58:35] INFO root fetch - main [MainThread]: End processing [ovos-backend-client]: success
+[2023-06-09 00:58:35] INFO root fetch - processPackages [biocircuits]: Remove: archive file [/home/abi/fetcher/tmp/biocircuits-0.1.8.tar.gz]
+[2023-06-09 00:58:35] INFO root fetch - processPackages [biocircuits]: Remove: archive file [/home/abi/fetcher/tmp/biocircuits-0.1.9.tar.gz]
+[2023-06-09 00:58:35] INFO root fetch - main [MainThread]: End processing [biocircuits]: success
+[2023-06-09 00:58:35] INFO root fetch - processPackages [specctl]: Remove: archive file [/home/abi/fetcher/tmp/specctl-0.1.4.tar.gz]
+[2023-06-09 00:58:35] INFO root fetch - processPackages [specctl]: Remove: archive file [/home/abi/fetcher/tmp/specctl-0.1.5.tar.gz]
+[2023-06-09 00:58:35] INFO root fetch - main [MainThread]: End processing [specctl]: success
+[2023-06-09 00:58:35] INFO root fetch - processPackages [pipen]: Remove: archive file [/home/abi/fetcher/tmp/pipen-0.9.8.tar.gz]
+[2023-06-09 00:58:35] INFO root fetch - processPackages [pipen]: Remove: archive file [/home/abi/fetcher/tmp/pipen-0.9.9.tar.gz]
+[2023-06-09 00:58:35] INFO root fetch - main [MainThread]: End processing [pipen]: success
+[2023-06-09 00:58:35] INFO root fetch - processPackages [ostatslib]: Remove: archive file [/home/abi/fetcher/tmp/ostatslib-0.4.0.tar.gz]
+[2023-06-09 00:58:35] INFO root fetch - processPackages [ostatslib]: Remove: archive file [/home/abi/fetcher/tmp/ostatslib-0.5.0.tar.gz]
+[2023-06-09 00:58:35] INFO root fetch - main [MainThread]: End processing [ostatslib]: success
+[2023-06-09 00:58:35] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-09 00:58:35] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-09 00:58:35] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-06-09 00:58:36] INFO root fetch - processPackages [ConsolePrint]: Remove: archive file [/home/abi/fetcher/tmp/consoleprint-1.3.1.tar.gz]
+[2023-06-09 00:58:36] INFO root fetch - processPackages [ConsolePrint]: Remove: archive file [/home/abi/fetcher/tmp/consoleprint-1.3.3.tar.gz]
+[2023-06-09 00:58:36] INFO root fetch - main [MainThread]: End processing [ConsolePrint]: success
+[2023-06-09 00:58:36] INFO root fetch - processPackages [napari-mrcfile-reader]: Remove: archive file [/home/abi/fetcher/tmp/napari-mrcfile-reader-0.1.3.tar.gz]
+[2023-06-09 00:58:36] INFO root fetch - processPackages [napari-mrcfile-reader]: Remove: archive file [/home/abi/fetcher/tmp/napari-mrcfile-reader-0.2.0.tar.gz]
+[2023-06-09 00:58:36] INFO root fetch - main [MainThread]: End processing [napari-mrcfile-reader]: success
+[2023-06-09 00:58:46] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-23.5.4.1.tar.gz]
+[2023-06-09 00:58:46] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-23.6.1.1.tar.gz]
+[2023-06-09 00:58:46] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
+[2023-06-09 00:58:46] INFO root fetch - main [MainThread]: Store serial: [18431948]
