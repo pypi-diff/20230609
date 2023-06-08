@@ -291,3 +291,61 @@
 [2023-06-09 00:16:32] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.3.tar.gz]
 [2023-06-09 00:16:32] INFO root fetch - main [MainThread]: End processing [faker-file]: success
 [2023-06-09 00:16:32] INFO root fetch - main [MainThread]: Store serial: [18431726]
+[2023-06-09 00:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18431726]
+[2023-06-09 00:21:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-09 00:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: footballapiclient
+[2023-06-09 00:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbci-stream
+[2023-06-09 00:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libsnmp
+[2023-06-09 00:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ACTIONet
+[2023-06-09 00:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pt-lemmatizer
+[2023-06-09 00:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tkmatrix
+[2023-06-09 00:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pt-lemmatizer
+[2023-06-09 00:21:42] WARNING root fetch - processPackages [footballapiclient]: Skipping, unable to determine old version
+[2023-06-09 00:21:42] INFO root fetch - main [MainThread]: End processing [footballapiclient] error
+[2023-06-09 00:21:42] INFO root fetch - processPackages [ACTIONet]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-09 00:21:42] INFO root fetch - processPackages [openbci-stream]: New version: [1.1.0] Old Version: [1.0b1.post3]
+[2023-06-09 00:21:42] INFO root fetch - processPackages [pt-lemmatizer]: New version: [2.1.18] Old Version: [1.3.4]
+[2023-06-09 00:21:42] INFO root fetch - processPackages [pt-lemmatizer]: New version: [2.1.18] Old Version: [1.3.4]
+[2023-06-09 00:21:42] INFO root fetch - processPackages [libsnmp]: New version: [3.0.0] Old Version: [2.0.5]
+[2023-06-09 00:21:42] INFO root fetch - processPackages [tkmatrix]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-09 00:21:42] INFO root fetch - processPackages [ACTIONet]: Downloading https://files.pythonhosted.org/packages/0a/5b/c2dd8c345fff3978bacac6f4bbebcbac39e63bb704d0a221f3195bb56c79/ACTIONet-0.3.0.tar.gz
+[2023-06-09 00:21:42] INFO root fetch - processPackages [openbci-stream]: Downloading https://files.pythonhosted.org/packages/e1/c8/4720406a9abe124e689ab521327d299a052e994900e72dc5b45be4e2dc2a/openbci-stream-1.0b1.post3.tar.gz
+[2023-06-09 00:21:42] INFO root fetch - processPackages [pt-lemmatizer]: Downloading https://files.pythonhosted.org/packages/87/98/00a28bd49bfec9512f4c36f0932e1951c435a03512e972df2aa6122d8a18/pt_lemmatizer-1.3.4-py3-none-any.whl
+[2023-06-09 00:21:42] INFO root fetch - processPackages [pt-lemmatizer]: Downloading https://files.pythonhosted.org/packages/87/98/00a28bd49bfec9512f4c36f0932e1951c435a03512e972df2aa6122d8a18/pt_lemmatizer-1.3.4-py3-none-any.whl
+[2023-06-09 00:21:42] INFO root fetch - processPackages [libsnmp]: Downloading https://files.pythonhosted.org/packages/65/18/24e7e3b8990de740d1006d72a478655dd7ac8e7d42dcd536419c275d18af/libsnmp-2.0.5.tar.gz
+[2023-06-09 00:21:42] INFO root fetch - processPackages [tkmatrix]: Downloading https://files.pythonhosted.org/packages/9c/20/41695d7f4f6be705dad869e88a2277e1d09be5b30183151a77570096db35/tkmatrix-0.6.2.tar.gz
+[2023-06-09 00:21:42] INFO root fetch - processPackages [tkmatrix]: Downloading https://files.pythonhosted.org/packages/03/6a/39d9770bf6225582b688c3b8d9638a8e42a2bc94b8d3e24a63f56a2b4b5a/tkmatrix-0.6.3.tar.gz
+[2023-06-09 00:21:42] INFO root fetch - processPackages [pt-lemmatizer]: Downloading https://files.pythonhosted.org/packages/cb/07/26a7569d9e5d97f22fb551567d10daa97545a15538945c9892433ba3ab84/pt_lemmatizer-2.1.18.tar.gz
+[2023-06-09 00:21:42] INFO root fetch - processPackages [openbci-stream]: Downloading https://files.pythonhosted.org/packages/55/0e/1f0145af38123c415ab00a4c681b69533679002a3d0668c6681d66339250/openbci-stream-1.1.0.tar.gz
+[2023-06-09 00:21:42] INFO root fetch - processPackages [libsnmp]: Downloading https://files.pythonhosted.org/packages/68/4d/4d4f60d65b28167267266714d7bc03a0b0bfcfbb4242a26e42ad8e7ff5c2/libsnmp-3.0.0.tar.gz
+[2023-06-09 00:21:42] INFO root fetch - processPackages [pt-lemmatizer]: Downloading https://files.pythonhosted.org/packages/cb/07/26a7569d9e5d97f22fb551567d10daa97545a15538945c9892433ba3ab84/pt_lemmatizer-2.1.18.tar.gz
+[2023-06-09 00:21:42] INFO root fetch - processPackages [tkmatrix]: executing diffoscope
+[2023-06-09 00:21:42] INFO root fetch - processPackages [tkmatrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkmatrix-0.6.2.tar.gz tmp/tkmatrix-0.6.3.tar.gz --markdown 20230609/t/tkmatrix/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-09 00:21:43] INFO root fetch - processPackages [openbci-stream]: executing diffoscope
+[2023-06-09 00:21:43] INFO root fetch - processPackages [openbci-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbci-stream-1.0b1.post3.tar.gz tmp/openbci-stream-1.1.0.tar.gz --markdown 20230609/o/openbci-stream/1.0b1.post3-1.1.0/diff.md --exclude *.pyd
+[2023-06-09 00:21:43] INFO root fetch - processPackages [libsnmp]: executing diffoscope
+[2023-06-09 00:21:43] INFO root fetch - processPackages [libsnmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsnmp-2.0.5.tar.gz tmp/libsnmp-3.0.0.tar.gz --markdown 20230609/l/libsnmp/2.0.5-3.0.0/diff.md --exclude *.pyd
+[2023-06-09 00:21:43] INFO root fetch - processPackages [ACTIONet]: Downloading https://files.pythonhosted.org/packages/17/c5/7f4ba56258e9447555efcb00573a41378238125311535dda102b718410a1/ACTIONet-0.4.0.tar.gz
+[2023-06-09 00:21:43] INFO root fetch - processPackages [ACTIONet]: executing diffoscope
+[2023-06-09 00:21:43] INFO root fetch - processPackages [ACTIONet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ACTIONet-0.3.0.tar.gz tmp/ACTIONet-0.4.0.tar.gz --markdown 20230609/A/ACTIONet/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-09 00:21:44] INFO root fetch - processPackages [tkmatrix]: Remove: archive file [/home/abi/fetcher/tmp/tkmatrix-0.6.2.tar.gz]
+[2023-06-09 00:21:44] INFO root fetch - processPackages [tkmatrix]: Remove: archive file [/home/abi/fetcher/tmp/tkmatrix-0.6.3.tar.gz]
+[2023-06-09 00:21:44] INFO root fetch - main [MainThread]: End processing [tkmatrix]: success
+[2023-06-09 00:21:44] INFO root fetch - processPackages [openbci-stream]: Remove: archive file [/home/abi/fetcher/tmp/openbci-stream-1.0b1.post3.tar.gz]
+[2023-06-09 00:21:44] INFO root fetch - processPackages [openbci-stream]: Remove: archive file [/home/abi/fetcher/tmp/openbci-stream-1.1.0.tar.gz]
+[2023-06-09 00:21:44] INFO root fetch - main [MainThread]: End processing [openbci-stream]: success
+[2023-06-09 00:21:44] INFO root fetch - processPackages [libsnmp]: Remove: archive file [/home/abi/fetcher/tmp/libsnmp-2.0.5.tar.gz]
+[2023-06-09 00:21:44] INFO root fetch - processPackages [libsnmp]: Remove: archive file [/home/abi/fetcher/tmp/libsnmp-3.0.0.tar.gz]
+[2023-06-09 00:21:44] INFO root fetch - main [MainThread]: End processing [libsnmp]: success
+[2023-06-09 00:21:44] INFO root fetch - processPackages [pt-lemmatizer]: executing diffoscope
+[2023-06-09 00:21:44] INFO root fetch - processPackages [pt-lemmatizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pt_lemmatizer-1.3.4-py3-none-any.whl.zip tmp/pt_lemmatizer-2.1.18.tar.gz --markdown 20230609/p/pt-lemmatizer/1.3.4-2.1.18/diff.md --exclude *.pyd
+[2023-06-09 00:21:44] INFO root fetch - processPackages [pt-lemmatizer]: executing diffoscope
+[2023-06-09 00:21:44] INFO root fetch - processPackages [pt-lemmatizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pt_lemmatizer-1.3.4-py3-none-any.whl.zip tmp/pt_lemmatizer-2.1.18.tar.gz --markdown 20230609/p/pt-lemmatizer/1.3.4-2.1.18/diff.md --exclude *.pyd
+[2023-06-09 00:21:47] INFO root fetch - processPackages [pt-lemmatizer]: Remove: archive file [/home/abi/fetcher/tmp/pt_lemmatizer-1.3.4-py3-none-any.whl.zip]
+[2023-06-09 00:21:47] INFO root fetch - processPackages [pt-lemmatizer]: Remove: archive file [/home/abi/fetcher/tmp/pt_lemmatizer-2.1.18.tar.gz]
+[2023-06-09 00:21:47] INFO root fetch - main [MainThread]: End processing [pt-lemmatizer]: success
+[2023-06-09 00:21:47] INFO root fetch - main [MainThread]: End processing [pt-lemmatizer]: success
+[2023-06-09 00:21:50] INFO root fetch - processPackages [ACTIONet]: Remove: archive file [/home/abi/fetcher/tmp/ACTIONet-0.3.0.tar.gz]
+[2023-06-09 00:21:50] INFO root fetch - processPackages [ACTIONet]: Remove: archive file [/home/abi/fetcher/tmp/ACTIONet-0.4.0.tar.gz]
+[2023-06-09 00:21:50] INFO root fetch - main [MainThread]: End processing [ACTIONet]: success
+[2023-06-09 00:21:50] INFO root fetch - main [MainThread]: Store serial: [18431751]
