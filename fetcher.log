@@ -1353,3 +1353,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 01:25:20] INFO root fetch - processPackages [shadow-scholar]: Remove: archive file [/home/abi/fetcher/tmp/shadow-scholar-0.6.1.tar.gz]
 [2023-06-09 01:25:20] INFO root fetch - main [MainThread]: End processing [shadow-scholar]: success
 [2023-06-09 01:25:20] INFO root fetch - main [MainThread]: Store serial: [18432150]
+[2023-06-09 01:30:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18432150]
+[2023-06-09 01:30:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-09 01:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cythereal-magic
+[2023-06-09 01:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipen-diagram
+[2023-06-09 01:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lupin-grognard
+[2023-06-09 01:30:29] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-09 01:30:29] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-09 01:30:29] INFO root fetch - processPackages [pipen-diagram]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-09 01:30:29] INFO root fetch - processPackages [cythereal-magic]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-09 01:30:29] INFO root fetch - processPackages [pipen-diagram]: Downloading https://files.pythonhosted.org/packages/25/5b/954f6fd77ca23d335d0d443b712cdf97d55dafaf6952e54ab91a62da391c/pipen_diagram-0.5.0.tar.gz
+[2023-06-09 01:30:29] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-09 01:30:29] INFO root fetch - processPackages [cythereal-magic]: Downloading https://files.pythonhosted.org/packages/a3/35/9da82e6b4484370ad985c82a71b080cf8a3645abbfcccb48bd46d4775d92/cythereal-magic-1.9.0.tar.gz
+[2023-06-09 01:30:29] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-09 01:30:29] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230609/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-09 01:30:30] INFO root fetch - processPackages [pipen-diagram]: Downloading https://files.pythonhosted.org/packages/6e/05/bd665b772c4b8e947093559e872854d816508062255c65982853b32cb8bb/pipen_diagram-0.6.0.tar.gz
+[2023-06-09 01:30:30] INFO root fetch - processPackages [cythereal-magic]: Downloading https://files.pythonhosted.org/packages/23/53/8b0ec9ff48a894dd2692d3bdf3aa4407c051eb68cb0077536057a0c6aa6f/cythereal-magic-1.9.1.tar.gz
+[2023-06-09 01:30:30] INFO root fetch - processPackages [cythereal-magic]: executing diffoscope
+[2023-06-09 01:30:30] INFO root fetch - processPackages [cythereal-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythereal-magic-1.9.0.tar.gz tmp/cythereal-magic-1.9.1.tar.gz --markdown 20230609/c/cythereal-magic/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-09 01:30:30] INFO root fetch - processPackages [pipen-diagram]: executing diffoscope
+[2023-06-09 01:30:30] INFO root fetch - processPackages [pipen-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_diagram-0.5.0.tar.gz tmp/pipen_diagram-0.6.0.tar.gz --markdown 20230609/p/pipen-diagram/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-09 01:30:31] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-09 01:30:31] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-09 01:30:31] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-09 01:30:31] INFO root fetch - processPackages [cythereal-magic]: Remove: archive file [/home/abi/fetcher/tmp/cythereal-magic-1.9.0.tar.gz]
+[2023-06-09 01:30:31] INFO root fetch - processPackages [cythereal-magic]: Remove: archive file [/home/abi/fetcher/tmp/cythereal-magic-1.9.1.tar.gz]
+[2023-06-09 01:30:31] INFO root fetch - main [MainThread]: End processing [cythereal-magic]: success
+[2023-06-09 01:31:28] INFO root fetch - processPackages [pipen-diagram]: Remove: archive file [/home/abi/fetcher/tmp/pipen_diagram-0.5.0.tar.gz]
+[2023-06-09 01:31:28] INFO root fetch - processPackages [pipen-diagram]: Remove: archive file [/home/abi/fetcher/tmp/pipen_diagram-0.6.0.tar.gz]
+[2023-06-09 01:31:28] INFO root fetch - main [MainThread]: End processing [pipen-diagram]: success
+[2023-06-09 01:31:28] INFO root fetch - main [MainThread]: Store serial: [18432160]
