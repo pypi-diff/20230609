@@ -21612,3 +21612,132 @@ AssertionError: tmp/satellitevu-1.5.0.tar.gz does not exist
 [2023-06-09 12:29:15] INFO root fetch - processPackages [nonebot-bison-migang]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_bison_migang-0.0.5.tar.gz]
 [2023-06-09 12:29:15] INFO root fetch - main [MainThread]: End processing [nonebot-bison-migang]: success
 [2023-06-09 12:29:15] INFO root fetch - main [MainThread]: Store serial: [18439375]
+[2023-06-09 12:34:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18439375]
+[2023-06-09 12:34:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-09 12:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wow-ai-ml
+[2023-06-09 12:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphene-django-firebase-auth
+[2023-06-09 12:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crawler-commons
+[2023-06-09 12:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AsyncIRCClient
+[2023-06-09 12:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dartrig
+[2023-06-09 12:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spectrally-regularised-lvms
+[2023-06-09 12:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yellowdog-python-examples
+[2023-06-09 12:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: returnn
+[2023-06-09 12:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vnpy-xex
+[2023-06-09 12:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: graphene-django-firebase-auth
+[2023-06-09 12:34:26] INFO root fetch - processPackages [graphene-django-firebase-auth]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-06-09 12:34:26] WARNING root fetch - processPackages [spectrally-regularised-lvms]: Skipping, unable to determine old version
+[2023-06-09 12:34:26] INFO root fetch - processPackages [spectrally-regularised-lvms]: Start processing: jaxsim
+[2023-06-09 12:34:26] INFO root fetch - main [MainThread]: End processing [spectrally-regularised-lvms] error
+[2023-06-09 12:34:26] INFO root fetch - processPackages [vnpy-xex]: New version: [2023.6.9.4] Old Version: [2023.6.9.3]
+[2023-06-09 12:34:26] INFO root fetch - processPackages [wow-ai-ml]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-09 12:34:26] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [6.0.0] Old Version: [5.0.7]
+[2023-06-09 12:34:26] INFO root fetch - processPackages [AsyncIRCClient]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-09 12:34:26] INFO root fetch - processPackages [graphene-django-firebase-auth]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-06-09 12:34:26] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 12:34:26] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 12:34:26] INFO root fetch - processPackages [returnn]: New version: [1.20230609.82609] Old Version: [1.20230609.121734]
+[2023-06-09 12:34:26] INFO root fetch - processPackages [jaxsim]: New version: [0.1.dev164] Old Version: [0.1.dev156]
+[2023-06-09 12:34:26] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-06-09 12:34:26] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/10/6b/df1f7aba05b8d9e83c53a3f96d27f0fb9e01d47756b18658b8047ae4495c/vnpy_xex-2023.6.9.3.tar.gz
+[2023-06-09 12:34:26] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/1b/c4/7c52abd7c6e9f5c44d5f590bf3d3bf249df5c78c0ed4fd023dbf72780e13/jaxsim-0.1.dev156.tar.gz
+[2023-06-09 12:34:26] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/0b/71/fa44513d4de18dbb07d2fad85aa88113555597c421a2af70ec9ba6e43676/wow_ai_ml-0.2.2.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [graphene-django-firebase-auth]: Downloading https://files.pythonhosted.org/packages/68/27/04515a44644e20300f83415bca710e4ee46a153462f3aa8ebfbc985835d8/graphene_django_firebase_auth-0.0.21.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [graphene-django-firebase-auth]: Downloading https://files.pythonhosted.org/packages/68/27/04515a44644e20300f83415bca710e4ee46a153462f3aa8ebfbc985835d8/graphene_django_firebase_auth-0.0.21.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/4e/a8/1b84fc89c34aba4974500b6137e096ebb398e15238886942daaf5184efbd/returnn-1.20230609.121734.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [AsyncIRCClient]: Downloading https://files.pythonhosted.org/packages/69/03/60a3dff694b9c108ca27b9e4b7980f4347202eceac2e1a3de6c6e8e4b619/AsyncIRCClient-0.0.1.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/19/83/ff0033f025671521abfd10ea4f8071467e1680fb0380e681b58c02a94dc3/yellowdog-python-examples-5.0.7.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/95/93/0003c3e63e809e98d18242999380721f577baec8ccf697071faca8e8b6ec/dartrig-0.1.9.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/2d/53/7939e5ae570216f0e01d8177aeb1bdac12c7dfa6ac9c215299c04c86a0b3/crawler_commons-0.0.8.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/7e/4b/99845d4299aeeb575ce97db43258bdcc83af27bbd5546004f96bd39c2e92/vnpy_xex-2023.6.9.4.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/e8/2b/5eb63e4152eb3d4ef79b9ba6b71f643090e8f535dcaa9f4cd8087a0df8c4/wow_ai_ml-0.2.3.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/c6/00/cc6063bfb1a8bb0db2fb94a245fb7d4dd658222e4419f3ac37ec7dde784e/returnn-1.20230609.82609.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-09 12:34:27] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230609/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 12:34:27] INFO root fetch - processPackages [graphene-django-firebase-auth]: Downloading https://files.pythonhosted.org/packages/5e/ab/b22bc763444c9a556d73cc082b02af265313904e8c87467aa9f527819bbd/graphene_django_firebase_auth-0.0.22.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/c4/95/b170270c74dda107db41254556141f355d19f9bcef2dbd5fb6bf927cfe5b/jaxsim-0.1.dev164.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [graphene-django-firebase-auth]: Downloading https://files.pythonhosted.org/packages/5e/ab/b22bc763444c9a556d73cc082b02af265313904e8c87467aa9f527819bbd/graphene_django_firebase_auth-0.0.22.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [AsyncIRCClient]: Downloading https://files.pythonhosted.org/packages/61/1d/6b4768ffba5f24f5d9706c74a4a95677fe35a62bdd91b33ce6baef4f54b2/AsyncIRCClient-0.0.2.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [vnpy-xex]: executing diffoscope
+[2023-06-09 12:34:27] INFO root fetch - processPackages [vnpy-xex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_xex-2023.6.9.3.tar.gz tmp/vnpy_xex-2023.6.9.4.tar.gz --markdown 20230609/v/vnpy-xex/2023.6.9.3-2023.6.9.4/diff.md --exclude *.pyd
+[2023-06-09 12:34:27] INFO root fetch - processPackages [wow-ai-ml]: executing diffoscope
+[2023-06-09 12:34:27] INFO root fetch - processPackages [wow-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_ml-0.2.2.tar.gz tmp/wow_ai_ml-0.2.3.tar.gz --markdown 20230609/w/wow-ai-ml/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-09 12:34:27] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2023-06-09 12:34:27] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.1.dev156.tar.gz tmp/jaxsim-0.1.dev164.tar.gz --markdown 20230609/j/jaxsim/0.1.dev156-0.1.dev164/diff.md --exclude *.pyd
+[2023-06-09 12:34:27] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/17/64/0de4dc4cd35a5e4bad7d4eb298d80b0a4c024c3ce105050b75c06d9668d1/crawler_commons-0.0.9.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-06-09 12:34:27] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230609.121734.tar.gz tmp/returnn-1.20230609.82609.tar.gz --markdown 20230609/r/returnn/1.20230609.121734-1.20230609.82609/diff.md --exclude *.pyd
+[2023-06-09 12:34:27] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/f9/7a/2bee9ae09165bad2f25a6d5c5e968bd4f7a434070151e70a3a8ba54803e9/yellowdog-python-examples-6.0.0.tar.gz
+[2023-06-09 12:34:27] INFO root fetch - processPackages [graphene-django-firebase-auth]: executing diffoscope
+[2023-06-09 12:34:27] INFO root fetch - processPackages [graphene-django-firebase-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_firebase_auth-0.0.21.tar.gz tmp/graphene_django_firebase_auth-0.0.22.tar.gz --markdown 20230609/g/graphene-django-firebase-auth/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-06-09 12:34:27] INFO root fetch - processPackages [graphene-django-firebase-auth]: executing diffoscope
+[2023-06-09 12:34:27] INFO root fetch - processPackages [graphene-django-firebase-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_firebase_auth-0.0.21.tar.gz tmp/graphene_django_firebase_auth-0.0.22.tar.gz --markdown 20230609/g/graphene-django-firebase-auth/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-06-09 12:34:27] INFO root fetch - processPackages [AsyncIRCClient]: executing diffoscope
+[2023-06-09 12:34:27] INFO root fetch - processPackages [AsyncIRCClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AsyncIRCClient-0.0.1.tar.gz tmp/AsyncIRCClient-0.0.2.tar.gz --markdown 20230609/A/AsyncIRCClient/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-09 12:34:27] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-06-09 12:34:27] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230609/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:34:27] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-06-09 12:34:27] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-5.0.7.tar.gz tmp/yellowdog-python-examples-6.0.0.tar.gz --markdown 20230609/y/yellowdog-python-examples/5.0.7-6.0.0/diff.md --exclude *.pyd
+[2023-06-09 12:34:28] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.2.tar.gz]
+[2023-06-09 12:34:28] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.3.tar.gz]
+[2023-06-09 12:34:28] INFO root fetch - processPackages [wow-ai-ml]: Start processing: punch-api
+[2023-06-09 12:34:28] INFO root fetch - main [MainThread]: End processing [wow-ai-ml]: success
+[2023-06-09 12:34:28] INFO root fetch - processPackages [punch-api]: New version: [8.1.dev0] Old Version: [8.1.4]
+[2023-06-09 12:34:28] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.9.3.tar.gz]
+[2023-06-09 12:34:28] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.9.4.tar.gz]
+[2023-06-09 12:34:28] INFO root fetch - processPackages [vnpy-xex]: Start processing: akshare
+[2023-06-09 12:34:28] INFO root fetch - main [MainThread]: End processing [vnpy-xex]: success
+[2023-06-09 12:34:29] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-09 12:34:29] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.8.tar.gz]
+[2023-06-09 12:34:29] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
+[2023-06-09 12:34:29] INFO root fetch - processPackages [dartrig]: Start processing: devpi-builder
+[2023-06-09 12:34:29] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-09 12:34:29] INFO root fetch - processPackages [graphene-django-firebase-auth]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_firebase_auth-0.0.21.tar.gz]
+[2023-06-09 12:34:29] INFO root fetch - processPackages [graphene-django-firebase-auth]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_firebase_auth-0.0.22.tar.gz]
+[2023-06-09 12:34:29] INFO root fetch - processPackages [graphene-django-firebase-auth]: Start processing: AsyncIRCClient
+[2023-06-09 12:34:29] INFO root fetch - main [MainThread]: End processing [graphene-django-firebase-auth]: success
+[2023-06-09 12:34:29] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-09 12:34:29] INFO root fetch - processPackages [devpi-builder]: New version: [6.0.0] Old Version: [5.1.0]
+[2023-06-09 12:34:29] INFO root fetch - processPackages [AsyncIRCClient]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-09 12:34:29] INFO root fetch - processPackages [punch-api]: Downloading https://files.pythonhosted.org/packages/0b/1f/58e30dc9b172bb5cca271b117926ea0e29a73ebbb9799e6620260ab53409/punch_api-8.1.4.tar.gz
+[2023-06-09 12:34:29] INFO root fetch - processPackages [AsyncIRCClient]: executing diffoscope
+[2023-06-09 12:34:29] INFO root fetch - processPackages [AsyncIRCClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AsyncIRCClient-0.0.1.tar.gz tmp/AsyncIRCClient-0.0.2.tar.gz --markdown 20230609/A/AsyncIRCClient/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-09 12:34:29] INFO root fetch - main [MainThread]: End processing [graphene-django-firebase-auth]: success
+[2023-06-09 12:34:29] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-09 12:34:29] INFO root fetch - processPackages [devpi-builder]: Downloading https://files.pythonhosted.org/packages/04/3e/3e5ee6c1df2a1cba87ee5b367c9b403db7a38fbc8ceb63b0cb45f0d721bb/devpi-builder-5.1.0.tar.gz
+[2023-06-09 12:34:29] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.1.dev156.tar.gz]
+[2023-06-09 12:34:29] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.1.dev164.tar.gz]
+[2023-06-09 12:34:29] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2023-06-09 12:34:29] INFO root fetch - processPackages [AsyncIRCClient]: Remove: archive file [/home/abi/fetcher/tmp/AsyncIRCClient-0.0.1.tar.gz]
+[2023-06-09 12:34:29] INFO root fetch - processPackages [AsyncIRCClient]: Remove: archive file [/home/abi/fetcher/tmp/AsyncIRCClient-0.0.2.tar.gz]
+[2023-06-09 12:34:29] INFO root fetch - main [MainThread]: End processing [AsyncIRCClient]: success
+[2023-06-09 12:34:29] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.8.tar.gz]
+[2023-06-09 12:34:29] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.9.tar.gz]
+[2023-06-09 12:34:29] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-06-09 12:34:29] INFO root fetch - processPackages [punch-api]: Downloading https://files.pythonhosted.org/packages/5d/c8/804f4678e38ff304071fd1cac7ff16e5375605bfc6e8083683477555c129/punch_api-8.1.dev0.tar.gz
+[2023-06-09 12:34:29] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-09 12:34:29] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230609/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-09 12:34:29] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-5.0.7.tar.gz]
+[2023-06-09 12:34:29] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.0.tar.gz]
+[2023-06-09 12:34:29] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-06-09 12:34:29] INFO root fetch - processPackages [devpi-builder]: Downloading https://files.pythonhosted.org/packages/bd/9b/e581fadf381640ebaa52343165ca42962ff03cb185eb693f84a945565a66/devpi-builder-6.0.0.tar.gz
+[2023-06-09 12:34:29] INFO root fetch - processPackages [punch-api]: executing diffoscope
+[2023-06-09 12:34:29] INFO root fetch - processPackages [punch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punch_api-8.1.4.tar.gz tmp/punch_api-8.1.dev0.tar.gz --markdown 20230609/p/punch-api/8.1.4-8.1.dev0/diff.md --exclude *.pyd
+[2023-06-09 12:34:29] INFO root fetch - processPackages [devpi-builder]: executing diffoscope
+[2023-06-09 12:34:29] INFO root fetch - processPackages [devpi-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devpi-builder-5.1.0.tar.gz tmp/devpi-builder-6.0.0.tar.gz --markdown 20230609/d/devpi-builder/5.1.0-6.0.0/diff.md --exclude *.pyd
+[2023-06-09 12:34:29] ERROR root fetch - processPackages [AsyncIRCClient]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/AsyncIRCClient-0.0.1.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/AsyncIRCClient-0.0.2.tar.gz: No such file or directory
+
+[2023-06-09 12:34:29] INFO root fetch - main [MainThread]: End processing [AsyncIRCClient] error
+[2023-06-09 12:34:30] INFO root fetch - processPackages [punch-api]: Remove: archive file [/home/abi/fetcher/tmp/punch_api-8.1.4.tar.gz]
+[2023-06-09 12:34:30] INFO root fetch - processPackages [punch-api]: Remove: archive file [/home/abi/fetcher/tmp/punch_api-8.1.dev0.tar.gz]
+[2023-06-09 12:34:30] INFO root fetch - main [MainThread]: End processing [punch-api]: success
+[2023-06-09 12:34:30] INFO root fetch - processPackages [devpi-builder]: Remove: archive file [/home/abi/fetcher/tmp/devpi-builder-5.1.0.tar.gz]
+[2023-06-09 12:34:30] INFO root fetch - processPackages [devpi-builder]: Remove: archive file [/home/abi/fetcher/tmp/devpi-builder-6.0.0.tar.gz]
+[2023-06-09 12:34:30] INFO root fetch - main [MainThread]: End processing [devpi-builder]: success
+[2023-06-09 12:34:34] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-09 12:34:34] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-09 12:34:34] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-09 12:34:35] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230609.121734.tar.gz]
+[2023-06-09 12:34:35] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230609.82609.tar.gz]
+[2023-06-09 12:34:35] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-06-09 12:34:35] INFO root fetch - main [MainThread]: Store serial: [18439427]
