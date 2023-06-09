@@ -2714,3 +2714,195 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 02:33:47] ERROR root fetch - processPackages [couchbase]: Timeout during execution of pkgdiff
 [2023-06-09 02:33:47] INFO root fetch - main [MainThread]: End processing [couchbase] error
 [2023-06-09 02:33:47] INFO root fetch - main [MainThread]: Store serial: [18432699]
+[2023-06-09 02:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18432699]
+[2023-06-09 02:38:56] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: five-card-draw
+[2023-06-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2023-06-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-local-backend
+[2023-06-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-06-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-jenkins
+[2023-06-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bettershot
+[2023-06-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-ecs-service-extensions
+[2023-06-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: five-card-draw
+[2023-06-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-aurora-globaldatabase
+[2023-06-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-proxmox
+[2023-06-09 02:38:56] INFO root fetch - processPackages [five-card-draw]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-09 02:38:56] INFO root fetch - processPackages [five-card-draw]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-09 02:38:56] INFO root fetch - processPackages [ovos-local-backend]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-06-09 02:38:56] INFO root fetch - processPackages [bettershot]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-09 02:38:56] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 02:38:56] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a9] Old Version: [2.0.1a8]
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-09 02:38:57] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/bf/96/e33b1c3c6828add6a45afa6bc74f21bb560c7db0914c73ef6a58605f847b/five_card_draw-1.0.0.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/bf/96/e33b1c3c6828add6a45afa6bc74f21bb560c7db0914c73ef6a58605f847b/five_card_draw-1.0.0.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [bettershot]: Downloading https://files.pythonhosted.org/packages/10/fe/45aea13fa90da37c39a512b1c1c6b67551d8b30724c55ad4427a81a38cd7/bettershot-0.1.6.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/aa/cb/d2765c107910f6bc1dca69dcc16c73a0986ab984fe77cf33633045941028/ovos_local_backend-0.2.0a8-py3-none-any.whl
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/d9/ee/7220413f67291e445284d014e3e51e97a33ce5125383f30b4756c598d8d8/cdktf-proxmox-0.0.98.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/72/7f/05a5c2095fb33d9da5ad8d5d54bc772359e48c1c78aadeee131727003d8d/cdk-ecs-service-extensions-2.0.1a8.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/e8/77/56721c84c58a93eb04657d1303b46685b6ada32aad5f90d1fd834abdde4f/five_card_draw-1.0.1.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/e8/77/56721c84c58a93eb04657d1303b46685b6ada32aad5f90d1fd834abdde4f/five_card_draw-1.0.1.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [bettershot]: Downloading https://files.pythonhosted.org/packages/f6/8f/811d71970c41d20854901badf2963abf530b20eb06d6edf070cb7dab0572/bettershot-0.1.7.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/5f/f7/ba89e3c2dfaeb03aac975f2afbaa1980ccbe7273dcd7f5b525280a59d733/ovos_local_backend-0.2.0a9-py3-none-any.whl
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [bettershot]: executing diffoscope
+[2023-06-09 02:38:57] INFO root fetch - processPackages [bettershot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bettershot-0.1.6.tar.gz tmp/bettershot-0.1.7.tar.gz --markdown 20230609/b/bettershot/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230609/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-09 02:38:57] INFO root fetch - processPackages [five-card-draw]: executing diffoscope
+[2023-06-09 02:38:57] INFO root fetch - processPackages [five-card-draw]: executing diffoscope
+[2023-06-09 02:38:57] INFO root fetch - processPackages [five-card-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/five_card_draw-1.0.0.tar.gz tmp/five_card_draw-1.0.1.tar.gz --markdown 20230609/f/five-card-draw/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-09 02:38:57] INFO root fetch - processPackages [five-card-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/five_card_draw-1.0.0.tar.gz tmp/five_card_draw-1.0.1.tar.gz --markdown 20230609/f/five-card-draw/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/4f/8d/abb31a165af680e8b0a59581ca2aee94485b1ad1db12d9445bbc9c0ddc3e/cdk-ecs-service-extensions-2.0.1a9.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [ovos-local-backend]: executing diffoscope
+[2023-06-09 02:38:57] INFO root fetch - processPackages [ovos-local-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip --markdown 20230609/o/ovos-local-backend/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230609/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/ae/43/6d62460a5f0e800acb4dffd0cf8c675fbd2916d3287669415148cb96adfe/cdktf-proxmox-0.0.99.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230609/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz --markdown 20230609/c/cdk-ecs-service-extensions/2.0.1a8-2.0.1a9/diff.md --exclude *.pyd
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.98.tar.gz tmp/cdktf-proxmox-0.0.99.tar.gz --markdown 20230609/c/cdktf-proxmox/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-06-09 02:38:57] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230609/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-09 02:38:59] INFO root fetch - processPackages [bettershot]: Remove: archive file [/home/abi/fetcher/tmp/bettershot-0.1.6.tar.gz]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [bettershot]: Remove: archive file [/home/abi/fetcher/tmp/bettershot-0.1.7.tar.gz]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [bettershot]: Start processing: cdk-gitlab-runner
+[2023-06-09 02:38:59] INFO root fetch - main [MainThread]: End processing [bettershot]: success
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Start processing: cdktf-github-actions
+[2023-06-09 02:38:59] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-06-09 02:38:59] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.0.tar.gz]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.1.tar.gz]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [five-card-draw]: Start processing: cdk8s-redis
+[2023-06-09 02:38:59] INFO root fetch - main [MainThread]: End processing [five-card-draw]: success
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: homeassistant
+[2023-06-09 02:38:59] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [homeassistant]: New version: [2023.6.1] Old Version: [2023.6.0b6]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/07/58/fd956de115e00f327e93ad8957b6bb967e67537256fcee54171d65d2a849/cdktf-github-actions-0.0.98.tar.gz
+[2023-06-09 02:38:59] INFO root fetch - processPackages [ovos-local-backend]: Remove: archive file [/home/abi/fetcher/tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [ovos-local-backend]: Remove: archive file [/home/abi/fetcher/tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [ovos-local-backend]: Start processing: everdrop-aws-cdk-constructs
+[2023-06-09 02:38:59] INFO root fetch - main [MainThread]: End processing [ovos-local-backend]: success
+[2023-06-09 02:38:59] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-06-09 02:38:59] INFO root fetch - processPackages [five-card-draw]: Start processing: jag-panzer
+[2023-06-09 02:38:59] INFO root fetch - main [MainThread]: End processing [five-card-draw]: success
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-09 02:38:59] WARNING root fetch - processPackages [jag-panzer]: Skipping, unable to determine old version
+[2023-06-09 02:38:59] INFO root fetch - processPackages [jag-panzer]: Start processing: khoj-assistant
+[2023-06-09 02:38:59] INFO root fetch - main [MainThread]: End processing [jag-panzer] error
+[2023-06-09 02:38:59] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/13/5a/1c2c99b99e5dcc772d722d7aba51a807eac2fd793f99a1fcf8c9023d9898/homeassistant-2023.6.0b6.tar.gz
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-06-09 02:38:59] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/1b/a3b30c74002ec25b8304d84e5eec007892dead22b4b23a7206f508f96eea/everdrop-aws-cdk-constructs-0.0.8.tar.gz
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/56/78/477ea020d063f38bdacf3f5681517318875ce9cbff389019b4934f6c8cf1/cdktf-github-actions-0.0.99.tar.gz
+[2023-06-09 02:38:59] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 14198511>=10485760
+[2023-06-09 02:38:59] INFO root fetch - processPackages [homeassistant]: Start processing: django-pgstats
+[2023-06-09 02:38:59] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-06-09 02:38:59] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev39] Old Version: [0.6.3.dev3]
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230609/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-06-09 02:38:59] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230609/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 02:38:59] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/cd/57/3add87540af9765045ed2b13533f5a4a8a6608a58b259a8279e90f9a37f6/everdrop-aws-cdk-constructs-0.0.9.tar.gz
+[2023-06-09 02:38:59] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-06-09 02:38:59] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.8.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz --markdown 20230609/e/everdrop-aws-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 02:38:59] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/ba/dc/0e32d82540ec2dde9b1c96d15de69cc473486d41e0b74b9a97be55b080db/khoj_assistant-0.6.3.dev3.tar.gz
+[2023-06-09 02:38:59] INFO root fetch - processPackages [django-pgstats]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-06-09 02:39:00] INFO root fetch - processPackages [django-pgstats]: Downloading https://files.pythonhosted.org/packages/aa/0d/7d66caa900dce0477c6a21f82fe811724002279ec35dedeffb4f5870c6b4/django-pgstats-1.0.8.tar.gz
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230609/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-09 02:39:00] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/5c/e9/dd0163cc6d56bb93aa59c55de2c00bdd12e2dc7af883e1efe7b450623217/khoj_assistant-0.6.3.dev39.tar.gz
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Start processing: cdk8s-plus-25
+[2023-06-09 02:39:00] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-09 02:39:00] INFO root fetch - processPackages [django-pgstats]: Downloading https://files.pythonhosted.org/packages/72/9b/1efd2d4152f0a3072a2edb299cf8c07170c2a074ff385e708f898c971f7f/django_pgstats-1.1.0.tar.gz
+[2023-06-09 02:39:00] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-09 02:39:00] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev3.tar.gz tmp/khoj_assistant-0.6.3.dev39.tar.gz --markdown 20230609/k/khoj-assistant/0.6.3.dev3-0.6.3.dev39/diff.md --exclude *.pyd
+[2023-06-09 02:39:00] INFO root fetch - processPackages [django-pgstats]: executing diffoscope
+[2023-06-09 02:39:00] INFO root fetch - processPackages [django-pgstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pgstats-1.0.8.tar.gz tmp/django_pgstats-1.1.0.tar.gz --markdown 20230609/d/django-pgstats/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk8s-jenkins]: Start processing: mocet
+[2023-06-09 02:39:00] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-06-09 02:39:00] WARNING root fetch - processPackages [mocet]: Skipping, unable to determine old version
+[2023-06-09 02:39:00] INFO root fetch - processPackages [mocet]: Start processing: aeppl-nightly
+[2023-06-09 02:39:00] INFO root fetch - main [MainThread]: End processing [mocet] error
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-09 02:39:00] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230608] Old Version: [0.1.4.dev20230607]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-09 02:39:00] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk8s-redis]: Start processing: ggml-python
+[2023-06-09 02:39:00] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-09 02:39:00] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230609/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-09 02:39:00] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.8.tar.gz]
+[2023-06-09 02:39:00] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz]
+[2023-06-09 02:39:00] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-06-09 02:39:01] INFO root fetch - processPackages [ggml-python]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-09 02:39:01] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/6a/0d/8ef1f23a52ff0ffd19676469ed410ae6577eb462cef1f9bd82985ad7ae41/aeppl-nightly-0.1.4.dev20230607.tar.gz
+[2023-06-09 02:39:01] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/90/52/f817f4da569174cc583019cfb3ebd195d942f939c9327ceba031fd08799f/ggml_python-0.0.4.tar.gz
+[2023-06-09 02:39:01] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/47/c6/5a822e037e6cbb432276489aac959787ae2b97a77de942d9beffe28fc993/aeppl-nightly-0.1.4.dev20230608.tar.gz
+[2023-06-09 02:39:01] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-06-09 02:39:01] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-06-09 02:39:01] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-06-09 02:39:01] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-06-09 02:39:01] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230607.tar.gz tmp/aeppl-nightly-0.1.4.dev20230608.tar.gz --markdown 20230609/a/aeppl-nightly/0.1.4.dev20230607-0.1.4.dev20230608/diff.md --exclude *.pyd
+[2023-06-09 02:39:01] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/c5/af/cd71ce6bf3c0d2e136288db25ba8a4d0a3c28cdd98a2715e93f0d256c679/ggml-python-0.0.5.tar.gz
+[2023-06-09 02:39:01] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-09 02:39:01] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.98.tar.gz]
+[2023-06-09 02:39:01] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
+[2023-06-09 02:39:01] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-06-09 02:39:01] INFO root fetch - processPackages [django-pgstats]: Remove: archive file [/home/abi/fetcher/tmp/django-pgstats-1.0.8.tar.gz]
+[2023-06-09 02:39:01] INFO root fetch - processPackages [django-pgstats]: Remove: archive file [/home/abi/fetcher/tmp/django_pgstats-1.1.0.tar.gz]
+[2023-06-09 02:39:01] INFO root fetch - main [MainThread]: End processing [django-pgstats]: success
+[2023-06-09 02:39:01] INFO root fetch - processPackages [ggml-python]: executing diffoscope
+[2023-06-09 02:39:01] INFO root fetch - processPackages [ggml-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggml_python-0.0.4.tar.gz tmp/ggml-python-0.0.5.tar.gz --markdown 20230609/g/ggml-python/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-09 02:39:01] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.98.tar.gz]
+[2023-06-09 02:39:01] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
+[2023-06-09 02:39:01] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-06-09 02:39:02] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-09 02:39:02] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-09 02:39:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-09 02:39:02] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-09 02:39:02] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230609/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 02:39:02] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230607.tar.gz]
+[2023-06-09 02:39:02] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230608.tar.gz]
+[2023-06-09 02:39:02] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-06-09 02:39:03] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml_python-0.0.4.tar.gz]
+[2023-06-09 02:39:03] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.5.tar.gz]
+[2023-06-09 02:39:03] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
+[2023-06-09 02:39:04] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev3.tar.gz]
+[2023-06-09 02:39:04] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev39.tar.gz]
+[2023-06-09 02:39:04] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-09 02:39:04] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-09 02:39:04] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-09 02:39:04] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-09 02:39:04] INFO root fetch - main [MainThread]: Store serial: [18432792]
