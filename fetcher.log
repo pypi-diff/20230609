@@ -3379,3 +3379,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 03:11:27] INFO root fetch - processPackages [muon]: Remove: archive file [/home/abi/fetcher/tmp/muon-0.1.5.tar.gz]
 [2023-06-09 03:11:27] INFO root fetch - main [MainThread]: End processing [muon]: success
 [2023-06-09 03:11:27] INFO root fetch - main [MainThread]: Store serial: [18433002]
+[2023-06-09 03:16:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18433002]
+[2023-06-09 03:16:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-09 03:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zipline-tej
+[2023-06-09 03:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-06-09 03:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-beeprint
+[2023-06-09 03:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcrx-api
+[2023-06-09 03:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromahacker
+[2023-06-09 03:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: picmistandard
+[2023-06-09 03:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dnastack-client-library
+[2023-06-09 03:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-strict-fields
+[2023-06-09 03:16:37] INFO root fetch - processPackages [chromahacker]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-09 03:16:37] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 03:16:37] INFO root fetch - processPackages [chromahacker]: Downloading https://files.pythonhosted.org/packages/75/54/e9731ab4e7040c7d7dece450df62cde8addff2518fe639ec44c3fe96986d/chromahacker-0.1.2.tar.gz
+[2023-06-09 03:16:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-09 03:16:37] INFO root fetch - processPackages [picmistandard]: New version: [0.25.0] Old Version: [0.24.0]
+[2023-06-09 03:16:37] WARNING root fetch - processPackages [dcrx-api]: Skipping, unable to determine old version
+[2023-06-09 03:16:37] INFO root fetch - processPackages [django-strict-fields]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-06-09 03:16:37] INFO root fetch - main [MainThread]: End processing [dcrx-api] error
+[2023-06-09 03:16:37] INFO root fetch - processPackages [pytest-beeprint]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-09 03:16:37] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-09 03:16:37] INFO root fetch - processPackages [dnastack-client-library]: New version: [3.0.84a1651270839] Old Version: [3.0.81a1650987643]
+[2023-06-09 03:16:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-09 03:16:37] INFO root fetch - processPackages [chromahacker]: Downloading https://files.pythonhosted.org/packages/d3/25/7474a0c7e18237d025c6c51ae19ed49aaec3fc457b84227207e95c6e112e/chromahacker-0.1.3.tar.gz
+[2023-06-09 03:16:37] INFO root fetch - processPackages [django-strict-fields]: Downloading https://files.pythonhosted.org/packages/82/5b/1cd7c524526cf72819d8b21e32965d03a0bda6a3d7a778b4776d085e0c82/django-strict-fields-1.0.6.tar.gz
+[2023-06-09 03:16:37] INFO root fetch - processPackages [pytest-beeprint]: Downloading https://files.pythonhosted.org/packages/5b/71/2e3c447ce8eb1f0b96742dfc4f277f2845a76e913e2eae10d531f59d6abc/pytest-beeprint-0.1.0.tar.gz
+[2023-06-09 03:16:37] INFO root fetch - processPackages [picmistandard]: Downloading https://files.pythonhosted.org/packages/c4/ef/392d642aad2adb447ce90104a7d2de8d7bee61434a38c7e5e530386c1995/picmistandard-0.24.0.tar.gz
+[2023-06-09 03:16:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-09 03:16:37] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-09 03:16:37] INFO root fetch - processPackages [dnastack-client-library]: Downloading https://files.pythonhosted.org/packages/a5/7b/18c6a0589415b823e08b73c6b477cd2b4b2aebad456466b3cd8b1ec58e57/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl
+[2023-06-09 03:16:37] INFO root fetch - processPackages [chromahacker]: executing diffoscope
+[2023-06-09 03:16:37] INFO root fetch - processPackages [chromahacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromahacker-0.1.2.tar.gz tmp/chromahacker-0.1.3.tar.gz --markdown 20230609/c/chromahacker/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-09 03:16:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-09 03:16:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230609/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-09 03:16:37] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-09 03:16:37] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230609/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 03:16:37] INFO root fetch - processPackages [pytest-beeprint]: Downloading https://files.pythonhosted.org/packages/a9/aa/0292d6680e38f45feb6ffeb4b0aac5eabc664ed30820df261a11b86e73a7/pytest-beeprint-0.1.1.tar.gz
+[2023-06-09 03:16:37] INFO root fetch - processPackages [django-strict-fields]: Downloading https://files.pythonhosted.org/packages/4e/c5/1951a01eb784eebd104af0cb1f47faad2378d61d0d6d8fe4667f6fe268cc/django_strict_fields-1.1.0.tar.gz
+[2023-06-09 03:16:37] INFO root fetch - processPackages [picmistandard]: Downloading https://files.pythonhosted.org/packages/37/e3/2a97a86b8ba82dbbc60c58d9b4a19286f58bac30ab536b7dc2d46d8c5b53/picmistandard-0.25.0.tar.gz
+[2023-06-09 03:16:38] INFO root fetch - processPackages [dnastack-client-library]: Downloading https://files.pythonhosted.org/packages/17/c7/5b87ff0cbee36b18e2e564381bca5b902804ee6c2844ca28031ffa63db35/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl
+[2023-06-09 03:16:38] INFO root fetch - processPackages [pytest-beeprint]: executing diffoscope
+[2023-06-09 03:16:38] INFO root fetch - processPackages [pytest-beeprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-beeprint-0.1.0.tar.gz tmp/pytest-beeprint-0.1.1.tar.gz --markdown 20230609/p/pytest-beeprint/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-09 03:16:38] INFO root fetch - processPackages [django-strict-fields]: executing diffoscope
+[2023-06-09 03:16:38] INFO root fetch - processPackages [django-strict-fields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-strict-fields-1.0.6.tar.gz tmp/django_strict_fields-1.1.0.tar.gz --markdown 20230609/d/django-strict-fields/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-06-09 03:16:38] INFO root fetch - processPackages [picmistandard]: executing diffoscope
+[2023-06-09 03:16:38] INFO root fetch - processPackages [picmistandard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picmistandard-0.24.0.tar.gz tmp/picmistandard-0.25.0.tar.gz --markdown 20230609/p/picmistandard/0.24.0-0.25.0/diff.md --exclude *.pyd
+[2023-06-09 03:16:38] INFO root fetch - processPackages [dnastack-client-library]: executing diffoscope
+[2023-06-09 03:16:38] INFO root fetch - processPackages [dnastack-client-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl.zip tmp/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl.zip --markdown 20230609/d/dnastack-client-library/3.0.81a1650987643-3.0.84a1651270839/diff.md --exclude *.pyd
+[2023-06-09 03:16:38] INFO root fetch - processPackages [chromahacker]: Remove: archive file [/home/abi/fetcher/tmp/chromahacker-0.1.2.tar.gz]
+[2023-06-09 03:16:38] INFO root fetch - processPackages [chromahacker]: Remove: archive file [/home/abi/fetcher/tmp/chromahacker-0.1.3.tar.gz]
+[2023-06-09 03:16:38] INFO root fetch - main [MainThread]: End processing [chromahacker]: success
+[2023-06-09 03:16:38] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-09 03:16:38] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-09 03:16:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-09 03:16:39] INFO root fetch - processPackages [django-strict-fields]: Remove: archive file [/home/abi/fetcher/tmp/django-strict-fields-1.0.6.tar.gz]
+[2023-06-09 03:16:39] INFO root fetch - processPackages [django-strict-fields]: Remove: archive file [/home/abi/fetcher/tmp/django_strict_fields-1.1.0.tar.gz]
+[2023-06-09 03:16:39] INFO root fetch - main [MainThread]: End processing [django-strict-fields]: success
+[2023-06-09 03:16:39] INFO root fetch - processPackages [pytest-beeprint]: Remove: archive file [/home/abi/fetcher/tmp/pytest-beeprint-0.1.0.tar.gz]
+[2023-06-09 03:16:39] INFO root fetch - processPackages [pytest-beeprint]: Remove: archive file [/home/abi/fetcher/tmp/pytest-beeprint-0.1.1.tar.gz]
+[2023-06-09 03:16:39] INFO root fetch - main [MainThread]: End processing [pytest-beeprint]: success
+[2023-06-09 03:16:39] INFO root fetch - processPackages [dnastack-client-library]: Remove: archive file [/home/abi/fetcher/tmp/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl.zip]
+[2023-06-09 03:16:39] INFO root fetch - processPackages [dnastack-client-library]: Remove: archive file [/home/abi/fetcher/tmp/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl.zip]
+[2023-06-09 03:16:39] INFO root fetch - main [MainThread]: End processing [dnastack-client-library]: success
+[2023-06-09 03:16:39] INFO root fetch - processPackages [picmistandard]: Remove: archive file [/home/abi/fetcher/tmp/picmistandard-0.24.0.tar.gz]
+[2023-06-09 03:16:39] INFO root fetch - processPackages [picmistandard]: Remove: archive file [/home/abi/fetcher/tmp/picmistandard-0.25.0.tar.gz]
+[2023-06-09 03:16:39] INFO root fetch - main [MainThread]: End processing [picmistandard]: success
+[2023-06-09 03:16:40] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-09 03:16:40] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-09 03:16:40] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-09 03:16:40] INFO root fetch - main [MainThread]: Store serial: [18433026]
