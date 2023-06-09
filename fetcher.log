@@ -3448,3 +3448,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 03:16:40] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
 [2023-06-09 03:16:40] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-06-09 03:16:40] INFO root fetch - main [MainThread]: Store serial: [18433026]
+[2023-06-09 03:21:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18433026]
+[2023-06-09 03:21:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-09 03:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-manifest
+[2023-06-09 03:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dnszone
+[2023-06-09 03:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-organizations
+[2023-06-09 03:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: humap
+[2023-06-09 03:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-hugo-deploy
+[2023-06-09 03:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-al
+[2023-06-09 03:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sagemaker-sql-magic
+[2023-06-09 03:21:49] INFO root fetch - processPackages [python-manifest]: New version: [1.0.1] Old Version: [0.1.0]
+[2023-06-09 03:21:49] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 03:21:49] INFO root fetch - processPackages [nonebot-plugin-al]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-09 03:21:49] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-09 03:21:49] INFO root fetch - processPackages [dnszone]: New version: [3.1.1] Old Version: [2.0.2]
+[2023-06-09 03:21:49] WARNING root fetch - processPackages [sagemaker-sql-magic]: Skipping, unable to determine old version
+[2023-06-09 03:21:49] INFO root fetch - processPackages [humap]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-09 03:21:49] INFO root fetch - main [MainThread]: End processing [sagemaker-sql-magic] error
+[2023-06-09 03:21:49] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-09 03:21:49] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-09 03:21:49] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/2c/5a/1af871670b3987d25394cbe8ed0180f7f1a773af4136f8290ce39feb5ec6/python_manifest-0.1.0.tar.gz
+[2023-06-09 03:21:49] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-09 03:21:49] INFO root fetch - processPackages [dnszone]: Downloading https://files.pythonhosted.org/packages/8d/c6/91c70fa067bd3e1719c958bce90a19dda5d81889f5da37cfa353473cfeaf/dnszone-2.0.2.tar.gz
+[2023-06-09 03:21:49] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/ee/d9/bd1446fe8a94be792e1c30dd0c757dde82417e43eeaaf44a6f5f99c343be/nonebot_plugin_al-0.1.1.tar.gz
+[2023-06-09 03:21:49] INFO root fetch - processPackages [humap]: Downloading https://files.pythonhosted.org/packages/b4/b0/f0f74c3a40e0d0dba36e5fc05048696646969e9c0510cc8d514a00c963a8/humap-0.2.7.tar.gz
+[2023-06-09 03:21:49] WARNING root fetch - processPackages [humap]: Skipping package: exceeds size limit 12547572>=10485760
+[2023-06-09 03:21:49] INFO root fetch - main [MainThread]: End processing [humap] error
+[2023-06-09 03:21:49] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-09 03:21:49] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230609/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 03:21:49] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-09 03:21:49] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/40/40/58649a1b381dc68f201682bd6082385b84f202a3c9d1cb03ada5247bff14/python_manifest-1.0.1.tar.gz
+[2023-06-09 03:21:49] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/92/fa/fcfee8ebc7bb769ad52e2ae1e1c3fe381cd4113463984a50d2aac110f475/nonebot_plugin_al-0.1.2.tar.gz
+[2023-06-09 03:21:49] INFO root fetch - processPackages [nonebot-plugin-al]: executing diffoscope
+[2023-06-09 03:21:49] INFO root fetch - processPackages [nonebot-plugin-al]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_al-0.1.1.tar.gz tmp/nonebot_plugin_al-0.1.2.tar.gz --markdown 20230609/n/nonebot-plugin-al/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-09 03:21:49] INFO root fetch - processPackages [python-manifest]: executing diffoscope
+[2023-06-09 03:21:49] INFO root fetch - processPackages [python-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_manifest-0.1.0.tar.gz tmp/python_manifest-1.0.1.tar.gz --markdown 20230609/p/python-manifest/0.1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-09 03:21:50] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-09 03:21:50] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230609/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-09 03:21:50] INFO root fetch - processPackages [dnszone]: Downloading https://files.pythonhosted.org/packages/94/60/0c49901976e8d168aa979eb177b38516097a79ffdb31124e2290e88ce7ce/dnszone-3.1.1.tar.gz
+[2023-06-09 03:21:50] INFO root fetch - processPackages [dnszone]: executing diffoscope
+[2023-06-09 03:21:50] INFO root fetch - processPackages [dnszone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnszone-2.0.2.tar.gz tmp/dnszone-3.1.1.tar.gz --markdown 20230609/d/dnszone/2.0.2-3.1.1/diff.md --exclude *.pyd
+[2023-06-09 03:21:50] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-09 03:21:50] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-09 03:21:50] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-09 03:21:51] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-0.1.0.tar.gz]
+[2023-06-09 03:21:51] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-1.0.1.tar.gz]
+[2023-06-09 03:21:51] INFO root fetch - main [MainThread]: End processing [python-manifest]: success
+[2023-06-09 03:21:51] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.1.1.tar.gz]
+[2023-06-09 03:21:51] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.1.2.tar.gz]
+[2023-06-09 03:21:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al]: success
+[2023-06-09 03:21:51] INFO root fetch - processPackages [dnszone]: Remove: archive file [/home/abi/fetcher/tmp/dnszone-2.0.2.tar.gz]
+[2023-06-09 03:21:51] INFO root fetch - processPackages [dnszone]: Remove: archive file [/home/abi/fetcher/tmp/dnszone-3.1.1.tar.gz]
+[2023-06-09 03:21:51] INFO root fetch - main [MainThread]: End processing [dnszone]: success
+[2023-06-09 03:21:51] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-09 03:21:51] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-09 03:21:51] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-09 03:21:51] INFO root fetch - main [MainThread]: Store serial: [18433052]
