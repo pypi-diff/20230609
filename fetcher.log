@@ -18292,3 +18292,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 09:56:10] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.9.tar.gz]
 [2023-06-09 09:56:10] INFO root fetch - main [MainThread]: End processing [a2]: success
 [2023-06-09 09:56:10] INFO root fetch - main [MainThread]: Store serial: [18438033]
+[2023-06-09 10:01:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438033]
+[2023-06-09 10:01:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-09 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dknovautils
+[2023-06-09 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tengu-py
+[2023-06-09 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-06-09 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hosgdSims
+[2023-06-09 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IntuneCD
+[2023-06-09 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yplib
+[2023-06-09 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dqs
+[2023-06-09 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: towhee
+[2023-06-09 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: towhee.models
+[2023-06-09 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chaostoolkit-reporting
+[2023-06-09 10:01:19] INFO root fetch - processPackages [dknovautils]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-09 10:01:19] INFO root fetch - processPackages [tengu-py]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-09 10:01:19] WARNING root fetch - processPackages [hosgdSims]: Skipping, unable to determine old version
+[2023-06-09 10:01:19] INFO root fetch - processPackages [hosgdSims]: Start processing: secure-bucket-construct
+[2023-06-09 10:01:19] INFO root fetch - main [MainThread]: End processing [hosgdSims] error
+[2023-06-09 10:01:19] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/72/47/8be36d2daace1996f44cca59ec573f26e8f717ff44ef0926481755fb4564/dknovautils-0.1.7.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/3b/98/daa78e67762d9096e7abe5e1c7a7cc758808b401fb344a7a1be2cae01dd7/tengu_py-0.1.0.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [towhee.models]: New version: [1.1.0] Old Version: [1.0.0rc1]
+[2023-06-09 10:01:20] INFO root fetch - processPackages [yplib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 10:01:20] INFO root fetch - processPackages [towhee]: New version: [1.1.0] Old Version: [1.0.0rc1]
+[2023-06-09 10:01:20] WARNING root fetch - processPackages [dqs]: Skipping, unable to determine old version
+[2023-06-09 10:01:20] INFO root fetch - main [MainThread]: End processing [dqs] error
+[2023-06-09 10:01:20] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 10:01:20] INFO root fetch - processPackages [chaostoolkit-reporting]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-09 10:01:20] INFO root fetch - processPackages [secure-bucket-construct]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-09 10:01:20] INFO root fetch - processPackages [IntuneCD]: New version: [1.4.8b1] Old Version: [1.4.8]
+[2023-06-09 10:01:20] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/43/90/9530dbd8dc28262f9ad2bc828e11be41c7ccc70719b738b38b110a57d47f/dknovautils-0.1.8.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/55/17/0487df4bacb51108389eb3e8bc4cfd08e8fb7f421ebf3e3fb1295ce5a9a8/yplib-0.1.8.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-06-09 10:01:20] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.1.7.tar.gz tmp/dknovautils-0.1.8.tar.gz --markdown 20230609/d/dknovautils/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-09 10:01:20] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/0a/0a/6e22eee3f742e6c7cdfde4554fab9ebca6e244c2280e5de5e2887922ae13/tengu_py-0.2.0.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [towhee.models]: Downloading https://files.pythonhosted.org/packages/13/70/ff427e9f8db13ec93a077c47f4e7e7efe5d8f372cde3ae0b1f193668b008/towhee.models-1.0.0rc1-py3-none-any.whl
+[2023-06-09 10:01:20] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/84/cf/48aabb0a84a6f5ef43aa324a8316be75acdd80f3f25c6c357d5180ddccff/IntuneCD-1.4.8.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [secure-bucket-construct]: Downloading https://files.pythonhosted.org/packages/36/2c/4f25fb49a8dcf11725f249ceced4d4cd7915cd625d8d2f659fce27ada6a9/secure-bucket-construct-2.1.8.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [towhee]: Downloading https://files.pythonhosted.org/packages/b1/f8/b234f91bc5160a8cce7bf43efa1d515aa8525df485866615c06f4b927199/towhee-1.0.0rc1-py3-none-any.whl
+[2023-06-09 10:01:20] INFO root fetch - processPackages [tengu-py]: executing diffoscope
+[2023-06-09 10:01:20] INFO root fetch - processPackages [tengu-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tengu_py-0.1.0.tar.gz tmp/tengu_py-0.2.0.tar.gz --markdown 20230609/t/tengu-py/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-09 10:01:20] INFO root fetch - processPackages [chaostoolkit-reporting]: Downloading https://files.pythonhosted.org/packages/e2/7e/fd18b5398ac95323dc63b447cf611924e9ef3fe681bf43dd1f0037bd3c5f/chaostoolkit-reporting-0.8.0.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/1c/4b/684959c0f60ea371be920eff005a730e0c9aadc57afe0edecba76be0df09/yplib-0.1.9.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-09 10:01:20] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.1.8.tar.gz tmp/yplib-0.1.9.tar.gz --markdown 20230609/y/yplib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 10:01:20] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [secure-bucket-construct]: Downloading https://files.pythonhosted.org/packages/61/93/ae4154ba1da46576bb64b498ef477474d7f96ec26782e1df0132647afd99/secure-bucket-construct-2.1.9.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [towhee]: Downloading https://files.pythonhosted.org/packages/82/bc/cebbaa9b62eb3d32383f595925132cb7a17c6f448beeb5dd35237e9b4db6/towhee-1.1.0-py3-none-any.whl
+[2023-06-09 10:01:20] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/23/09/c049b89455cf42dc081580a4df8a6369f5a2479e32996a458ceca5c7d596/IntuneCD-1.4.8b1.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [chaostoolkit-reporting]: Downloading https://files.pythonhosted.org/packages/95/d7/95c9173b7e0bb81ad7333d81c26a9e86111c3c21cc9b11f927e0c03f2c4d/chaostoolkit-reporting-0.9.0.tar.gz
+[2023-06-09 10:01:20] INFO root fetch - processPackages [secure-bucket-construct]: executing diffoscope
+[2023-06-09 10:01:20] INFO root fetch - processPackages [secure-bucket-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secure-bucket-construct-2.1.8.tar.gz tmp/secure-bucket-construct-2.1.9.tar.gz --markdown 20230609/s/secure-bucket-construct/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-09 10:01:20] INFO root fetch - processPackages [towhee]: executing diffoscope
+[2023-06-09 10:01:20] INFO root fetch - processPackages [towhee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towhee-1.0.0rc1-py3-none-any.whl.zip tmp/towhee-1.1.0-py3-none-any.whl.zip --markdown 20230609/t/towhee/1.0.0rc1-1.1.0/diff.md --exclude *.pyd
+[2023-06-09 10:01:20] INFO root fetch - processPackages [IntuneCD]: executing diffoscope
+[2023-06-09 10:01:20] INFO root fetch - processPackages [IntuneCD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IntuneCD-1.4.8.tar.gz tmp/IntuneCD-1.4.8b1.tar.gz --markdown 20230609/I/IntuneCD/1.4.8-1.4.8b1/diff.md --exclude *.pyd
+[2023-06-09 10:01:20] INFO root fetch - processPackages [chaostoolkit-reporting]: executing diffoscope
+[2023-06-09 10:01:20] INFO root fetch - processPackages [chaostoolkit-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reporting-0.8.0.tar.gz tmp/chaostoolkit-reporting-0.9.0.tar.gz --markdown 20230609/c/chaostoolkit-reporting/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 10:01:20] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-06-09 10:01:20] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230609/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 10:01:21] INFO root fetch - processPackages [towhee.models]: Downloading https://files.pythonhosted.org/packages/60/57/be1edeceddafa56cbe6a5347b73c9318296320ae20ef5191a0211b6061ce/towhee.models-1.1.0-py3-none-any.whl
+[2023-06-09 10:01:21] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.1.0.tar.gz]
+[2023-06-09 10:01:21] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.2.0.tar.gz]
+[2023-06-09 10:01:21] INFO root fetch - main [MainThread]: End processing [tengu-py]: success
+[2023-06-09 10:01:21] INFO root fetch - processPackages [towhee.models]: executing diffoscope
+[2023-06-09 10:01:21] INFO root fetch - processPackages [towhee.models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towhee.models-1.0.0rc1-py3-none-any.whl.zip tmp/towhee.models-1.1.0-py3-none-any.whl.zip --markdown 20230609/t/towhee.models/1.0.0rc1-1.1.0/diff.md --exclude *.pyd
+[2023-06-09 10:01:21] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.7.tar.gz]
+[2023-06-09 10:01:21] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.8.tar.gz]
+[2023-06-09 10:01:21] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-06-09 10:01:21] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.1.8.tar.gz]
+[2023-06-09 10:01:21] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.1.9.tar.gz]
+[2023-06-09 10:01:21] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-09 10:01:22] INFO root fetch - processPackages [chaostoolkit-reporting]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reporting-0.8.0.tar.gz]
+[2023-06-09 10:01:22] INFO root fetch - processPackages [chaostoolkit-reporting]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reporting-0.9.0.tar.gz]
+[2023-06-09 10:01:22] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reporting]: success
+[2023-06-09 10:01:22] INFO root fetch - processPackages [secure-bucket-construct]: Remove: archive file [/home/abi/fetcher/tmp/secure-bucket-construct-2.1.8.tar.gz]
+[2023-06-09 10:01:22] INFO root fetch - processPackages [secure-bucket-construct]: Remove: archive file [/home/abi/fetcher/tmp/secure-bucket-construct-2.1.9.tar.gz]
+[2023-06-09 10:01:22] INFO root fetch - main [MainThread]: End processing [secure-bucket-construct]: success
+[2023-06-09 10:01:23] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz]
+[2023-06-09 10:01:23] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz]
+[2023-06-09 10:01:23] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-06-09 10:01:23] INFO root fetch - processPackages [towhee]: Remove: archive file [/home/abi/fetcher/tmp/towhee-1.0.0rc1-py3-none-any.whl.zip]
+[2023-06-09 10:01:23] INFO root fetch - processPackages [towhee]: Remove: archive file [/home/abi/fetcher/tmp/towhee-1.1.0-py3-none-any.whl.zip]
+[2023-06-09 10:01:23] INFO root fetch - main [MainThread]: End processing [towhee]: success
+[2023-06-09 10:01:23] INFO root fetch - processPackages [IntuneCD]: Remove: archive file [/home/abi/fetcher/tmp/IntuneCD-1.4.8.tar.gz]
+[2023-06-09 10:01:23] INFO root fetch - processPackages [IntuneCD]: Remove: archive file [/home/abi/fetcher/tmp/IntuneCD-1.4.8b1.tar.gz]
+[2023-06-09 10:01:23] INFO root fetch - main [MainThread]: End processing [IntuneCD]: success
+[2023-06-09 10:01:25] INFO root fetch - processPackages [towhee.models]: Remove: archive file [/home/abi/fetcher/tmp/towhee.models-1.0.0rc1-py3-none-any.whl.zip]
+[2023-06-09 10:01:25] INFO root fetch - processPackages [towhee.models]: Remove: archive file [/home/abi/fetcher/tmp/towhee.models-1.1.0-py3-none-any.whl.zip]
+[2023-06-09 10:01:25] INFO root fetch - main [MainThread]: End processing [towhee.models]: success
+[2023-06-09 10:01:25] INFO root fetch - main [MainThread]: Store serial: [18438067]
