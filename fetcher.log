@@ -21827,3 +21827,96 @@ AssertionError: tmp/satellitevu-1.5.0.tar.gz does not exist
 [2023-06-09 12:39:50] INFO root fetch - processPackages [tmtccmd]: Remove: archive file [/home/abi/fetcher/tmp/tmtccmd-5.0.0rc0.tar.gz]
 [2023-06-09 12:39:50] INFO root fetch - main [MainThread]: End processing [tmtccmd]: success
 [2023-06-09 12:39:50] INFO root fetch - main [MainThread]: Store serial: [18439463]
+[2023-06-09 12:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18439463]
+[2023-06-09 12:45:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-09 12:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: milliman-sensi
+[2023-06-09 12:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudvault
+[2023-06-09 12:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SourceFun
+[2023-06-09 12:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: icap-commons
+[2023-06-09 12:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: helloWorldTESTLKRIST
+[2023-06-09 12:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jnt-django-toolbox
+[2023-06-09 12:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyNekobin
+[2023-06-09 12:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: orbit-component-zerodocs
+[2023-06-09 12:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tonalytica-client
+[2023-06-09 12:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: treesimulator
+[2023-06-09 12:45:00] INFO root fetch - processPackages [milliman-sensi]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-09 12:45:00] WARNING root fetch - processPackages [SourceFun]: Skipping, unable to determine old version
+[2023-06-09 12:45:00] INFO root fetch - processPackages [SourceFun]: Start processing: returnn
+[2023-06-09 12:45:00] INFO root fetch - main [MainThread]: End processing [SourceFun] error
+[2023-06-09 12:45:00] INFO root fetch - processPackages [icap-commons]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-09 12:45:00] WARNING root fetch - processPackages [helloWorldTESTLKRIST]: Skipping, unable to determine old version
+[2023-06-09 12:45:00] INFO root fetch - processPackages [helloWorldTESTLKRIST]: Start processing: absl-extra
+[2023-06-09 12:45:00] WARNING root fetch - processPackages [tonalytica-client]: Skipping, unable to determine old version
+[2023-06-09 12:45:00] INFO root fetch - main [MainThread]: End processing [helloWorldTESTLKRIST] error
+[2023-06-09 12:45:00] INFO root fetch - main [MainThread]: End processing [tonalytica-client] error
+[2023-06-09 12:45:00] INFO root fetch - processPackages [cloudvault]: New version: [1.2] Old Version: [1.1]
+[2023-06-09 12:45:00] INFO root fetch - processPackages [orbit-component-zerodocs]: New version: [1.0.9] Old Version: [1.0.10]
+[2023-06-09 12:45:00] INFO root fetch - processPackages [jnt-django-toolbox]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-09 12:45:00] INFO root fetch - processPackages [treesimulator]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-09 12:45:00] INFO root fetch - processPackages [pyNekobin]: New version: [2.5] Old Version: [2.4]
+[2023-06-09 12:45:00] INFO root fetch - processPackages [milliman-sensi]: Downloading https://files.pythonhosted.org/packages/5b/a5/7164e14228658df83a1eed4fea289fb708d241cb9417858170a514762e6f/milliman_sensi-1.0.8.tar.gz
+[2023-06-09 12:45:00] INFO root fetch - processPackages [absl-extra]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 12:45:01] INFO root fetch - processPackages [returnn]: New version: [1.20230609.82609] Old Version: [1.20230609.123245]
+[2023-06-09 12:45:01] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/29/c2/2963a9d6af04f01e35537596dae79293de441ce549712ff30add2367a97e/absl_extra-0.0.8.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [orbit-component-zerodocs]: Downloading https://files.pythonhosted.org/packages/69/48/1e6c6537406481c2ca0b62b59f432fb631bac7f13411b8089410ced0d7d2/orbit_component_zerodocs-1.0.10.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [milliman-sensi]: Downloading https://files.pythonhosted.org/packages/54/95/2ce2720794a20983ee1a4af6e2c8922e05f80e428f96025da50c72bbad22/milliman_sensi-1.0.9.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/d6/6e/6853709b0e15d2336cc9e4021f5f4eae146119985fa9ef95ba93d7f858ae/returnn-1.20230609.123245.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [pyNekobin]: Downloading https://files.pythonhosted.org/packages/4e/03/c96155fed6b69cbeb2a955f64112afbd860f1edfa964e98af95955d6a8d3/pyNekobin-2.4.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [cloudvault]: Downloading https://files.pythonhosted.org/packages/6c/e9/485413b30a7e9cb3a1f982f65ecb1f32014b4ed95dd5c81c914e35760391/cloudvault-1.1.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [treesimulator]: Downloading https://files.pythonhosted.org/packages/22/cb/078e48b31294d696f45d20f75095c410bd689bc23451cff1f77bb0ded49e/treesimulator-0.1.5.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [icap-commons]: Downloading https://files.pythonhosted.org/packages/c2/fa/dde0426643f4ff43b2e70527080e93851a93db02f82b1b093c8ff5e16351/icap_commons-0.3.0.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [jnt-django-toolbox]: Downloading https://files.pythonhosted.org/packages/01/5a/7d1387ef8c483aed650ecc27435af703da7136a7637a72784eb95178e87c/jnt_django_toolbox-0.9.8.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/77/5e/479618372d66392b53074e5ea5029923827042b97d6e1bea363d3ab81d91/absl_extra-0.0.9.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [milliman-sensi]: executing diffoscope
+[2023-06-09 12:45:01] INFO root fetch - processPackages [milliman-sensi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milliman_sensi-1.0.8.tar.gz tmp/milliman_sensi-1.0.9.tar.gz --markdown 20230609/m/milliman-sensi/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:45:01] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-06-09 12:45:01] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.8.tar.gz tmp/absl_extra-0.0.9.tar.gz --markdown 20230609/a/absl-extra/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:45:01] INFO root fetch - processPackages [orbit-component-zerodocs]: Downloading https://files.pythonhosted.org/packages/04/2c/8c8531b18da66a5bff50cef3ed436d05cbc4cd0c86ce2edb050974cd4cbd/orbit_component_zerodocs-1.0.9.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [treesimulator]: Downloading https://files.pythonhosted.org/packages/c2/19/9a30951a8e5097776f62b8f47521e8e13f1bf22ecf8c3acbfb0fff4ab542/treesimulator-0.1.6.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [icap-commons]: Downloading https://files.pythonhosted.org/packages/e0/b5/bcf49ed866fdf17f353568d32c1dbda4a7768681357982e5ed26bd59d230/icap_commons-0.4.0.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [pyNekobin]: Downloading https://files.pythonhosted.org/packages/b0/6c/1f7c4f69f5137e4aafafa1590f4f2b40cce64a2f05da8e942802ae6c21c0/pyNekobin-2.5.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [orbit-component-zerodocs]: executing diffoscope
+[2023-06-09 12:45:01] INFO root fetch - processPackages [orbit-component-zerodocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_zerodocs-1.0.10.tar.gz tmp/orbit_component_zerodocs-1.0.9.tar.gz --markdown 20230609/o/orbit-component-zerodocs/1.0.10-1.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:45:01] INFO root fetch - processPackages [cloudvault]: Downloading https://files.pythonhosted.org/packages/d4/69/4c819a664e740af1a5ae08d114989d0481d5cad6d7ede5f6fcf40127aa35/cloudvault-1.2.tar.gz
+[2023-06-09 12:45:01] INFO root fetch - processPackages [icap-commons]: executing diffoscope
+[2023-06-09 12:45:01] INFO root fetch - processPackages [icap-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icap_commons-0.3.0.tar.gz tmp/icap_commons-0.4.0.tar.gz --markdown 20230609/i/icap-commons/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-09 12:45:01] INFO root fetch - processPackages [treesimulator]: executing diffoscope
+[2023-06-09 12:45:01] INFO root fetch - processPackages [treesimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treesimulator-0.1.5.tar.gz tmp/treesimulator-0.1.6.tar.gz --markdown 20230609/t/treesimulator/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-09 12:45:01] INFO root fetch - processPackages [cloudvault]: executing diffoscope
+[2023-06-09 12:45:01] INFO root fetch - processPackages [cloudvault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudvault-1.1.tar.gz tmp/cloudvault-1.2.tar.gz --markdown 20230609/c/cloudvault/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-09 12:45:01] INFO root fetch - processPackages [pyNekobin]: executing diffoscope
+[2023-06-09 12:45:01] INFO root fetch - processPackages [pyNekobin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyNekobin-2.4.tar.gz tmp/pyNekobin-2.5.tar.gz --markdown 20230609/p/pyNekobin/2.4-2.5/diff.md --exclude *.pyd
+[2023-06-09 12:45:01] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/c6/00/cc6063bfb1a8bb0db2fb94a245fb7d4dd658222e4419f3ac37ec7dde784e/returnn-1.20230609.82609.tar.gz
+[2023-06-09 12:45:02] INFO root fetch - processPackages [jnt-django-toolbox]: Downloading https://files.pythonhosted.org/packages/4e/1f/734b9115282f9b5de600037b87ba17aa02115460d3288b5300bb41b55a25/jnt_django_toolbox-0.9.9.tar.gz
+[2023-06-09 12:45:02] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-06-09 12:45:02] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230609.123245.tar.gz tmp/returnn-1.20230609.82609.tar.gz --markdown 20230609/r/returnn/1.20230609.123245-1.20230609.82609/diff.md --exclude *.pyd
+[2023-06-09 12:45:02] INFO root fetch - processPackages [jnt-django-toolbox]: executing diffoscope
+[2023-06-09 12:45:02] INFO root fetch - processPackages [jnt-django-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnt_django_toolbox-0.9.8.tar.gz tmp/jnt_django_toolbox-0.9.9.tar.gz --markdown 20230609/j/jnt-django-toolbox/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-09 12:45:02] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.8.tar.gz]
+[2023-06-09 12:45:02] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.9.tar.gz]
+[2023-06-09 12:45:02] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-06-09 12:45:02] INFO root fetch - processPackages [milliman-sensi]: Remove: archive file [/home/abi/fetcher/tmp/milliman_sensi-1.0.8.tar.gz]
+[2023-06-09 12:45:02] INFO root fetch - processPackages [milliman-sensi]: Remove: archive file [/home/abi/fetcher/tmp/milliman_sensi-1.0.9.tar.gz]
+[2023-06-09 12:45:02] INFO root fetch - main [MainThread]: End processing [milliman-sensi]: success
+[2023-06-09 12:45:03] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.4.tar.gz]
+[2023-06-09 12:45:03] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.5.tar.gz]
+[2023-06-09 12:45:03] INFO root fetch - main [MainThread]: End processing [pyNekobin]: success
+[2023-06-09 12:45:03] INFO root fetch - processPackages [treesimulator]: Remove: archive file [/home/abi/fetcher/tmp/treesimulator-0.1.5.tar.gz]
+[2023-06-09 12:45:03] INFO root fetch - processPackages [treesimulator]: Remove: archive file [/home/abi/fetcher/tmp/treesimulator-0.1.6.tar.gz]
+[2023-06-09 12:45:03] INFO root fetch - main [MainThread]: End processing [treesimulator]: success
+[2023-06-09 12:45:03] INFO root fetch - processPackages [orbit-component-zerodocs]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_zerodocs-1.0.10.tar.gz]
+[2023-06-09 12:45:03] INFO root fetch - processPackages [orbit-component-zerodocs]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_zerodocs-1.0.9.tar.gz]
+[2023-06-09 12:45:03] INFO root fetch - main [MainThread]: End processing [orbit-component-zerodocs]: success
+[2023-06-09 12:45:03] INFO root fetch - processPackages [icap-commons]: Remove: archive file [/home/abi/fetcher/tmp/icap_commons-0.3.0.tar.gz]
+[2023-06-09 12:45:03] INFO root fetch - processPackages [icap-commons]: Remove: archive file [/home/abi/fetcher/tmp/icap_commons-0.4.0.tar.gz]
+[2023-06-09 12:45:03] INFO root fetch - main [MainThread]: End processing [icap-commons]: success
+[2023-06-09 12:45:03] INFO root fetch - processPackages [cloudvault]: Remove: archive file [/home/abi/fetcher/tmp/cloudvault-1.1.tar.gz]
+[2023-06-09 12:45:03] INFO root fetch - processPackages [cloudvault]: Remove: archive file [/home/abi/fetcher/tmp/cloudvault-1.2.tar.gz]
+[2023-06-09 12:45:03] INFO root fetch - main [MainThread]: End processing [cloudvault]: success
+[2023-06-09 12:45:03] INFO root fetch - processPackages [jnt-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/jnt_django_toolbox-0.9.8.tar.gz]
+[2023-06-09 12:45:03] INFO root fetch - processPackages [jnt-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/jnt_django_toolbox-0.9.9.tar.gz]
+[2023-06-09 12:45:03] INFO root fetch - main [MainThread]: End processing [jnt-django-toolbox]: success
+[2023-06-09 12:45:06] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230609.123245.tar.gz]
+[2023-06-09 12:45:06] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230609.82609.tar.gz]
+[2023-06-09 12:45:06] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-06-09 12:45:06] INFO root fetch - main [MainThread]: Store serial: [18439504]
