@@ -15585,3 +15585,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 07:50:21] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-4.6.0a1686287885.tar.gz]
 [2023-06-09 07:50:21] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
 [2023-06-09 07:50:21] INFO root fetch - main [MainThread]: Store serial: [18436920]
+[2023-06-09 07:55:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436920]
+[2023-06-09 07:55:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-09 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azuread
+[2023-06-09 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-website-slides
+[2023-06-09 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starmerx-url
+[2023-06-09 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-website-crm-quick-answer
+[2023-06-09 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-artifactory
+[2023-06-09 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-website
+[2023-06-09 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ironbot
+[2023-06-09 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-cloudamqp
+[2023-06-09 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-dnsimple
+[2023-06-09 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qingqiu
+[2023-06-09 07:55:30] INFO root fetch - processPackages [odoo-addons-oca-website]: New version: [16.0.20230608.0] Old Version: [16.0.20230303.0]
+[2023-06-09 07:55:30] INFO root fetch - processPackages [odoo-addon-website-crm-quick-answer]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-09 07:55:30] INFO root fetch - processPackages [starmerx-url]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-09 07:55:30] INFO root fetch - processPackages [odoo8-addon-website-slides]: New version: [8.0.2.0.1.99.dev9] Old Version: [8.0.2.0.1.99.dev8]
+[2023-06-09 07:55:30] INFO root fetch - processPackages [ironbot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-09 07:55:30] INFO root fetch - processPackages [qingqiu]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-09 07:55:30] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1686288450] Old Version: [3.5.0a1685165262]
+[2023-06-09 07:55:30] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-06-09 07:55:30] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-06-09 07:55:30] INFO root fetch - processPackages [pulumi-artifactory]: New version: [3.6.0a1686287899] Old Version: [3.6.0a1686000129]
+[2023-06-09 07:55:30] INFO root fetch - processPackages [odoo-addon-website-crm-quick-answer]: Downloading https://files.pythonhosted.org/packages/3a/06/26641c7849a88064031dd8fad8c73d3d5e73a88696eaa1fa354ffe483873/odoo_addon_website_crm_quick_answer-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-09 07:55:30] INFO root fetch - processPackages [ironbot]: Downloading https://files.pythonhosted.org/packages/e5/83/aa445ed7fd9ffd81ba74feeaf20684548a29250e04dd8f7a7a32778618da/ironbot-0.0.5.tar.gz
+[2023-06-09 07:55:30] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2023-06-09 07:55:30] INFO root fetch - processPackages [odoo-addons-oca-website]: Downloading https://files.pythonhosted.org/packages/e1/75/03a347b6bf1f4a71c14f00e10ebe500b294249b632330143fc36b3e8524f/odoo_addons_oca_website-16.0.20230303.0-py3-none-any.whl
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2023-06-09 07:55:31] INFO root fetch - processPackages [odoo8-addon-website-slides]: Downloading https://files.pythonhosted.org/packages/db/73/bc846d26c50e08f2a11db15308de999701d2ef36e74b15a6254d448d2c0b/odoo8_addon_website_slides-8.0.2.0.1.99.dev8-py2-none-any.whl
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/ff/21/8d818483036730c06d56a378c6d7b1c703720b3dd5d155b800525366b189/pulumi_artifactory-3.6.0a1686000129.tar.gz
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/02/21/ffb1d2c05037aae22d8f46585ead9d22a046ee2ea70b66fc21ee54b649c9/pulumi_dnsimple-3.5.0a1685165262.tar.gz
+[2023-06-09 07:55:31] INFO root fetch - processPackages [starmerx-url]: Downloading https://files.pythonhosted.org/packages/cf/8e/e7505673c1e3473c7198c8998a120eb4c79faff6bd52299584be9a034314/starmerx_url-0.1.1.tar.gz
+[2023-06-09 07:55:31] INFO root fetch - processPackages [qingqiu]: Downloading https://files.pythonhosted.org/packages/ef/4c/26ae931f68f4f0ba476536b88e09c5a22904c8e8a2779ed7f63e85eafd13/qingqiu-0.0.7.tar.gz
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2023-06-09 07:55:31] INFO root fetch - processPackages [ironbot]: Downloading https://files.pythonhosted.org/packages/c0/0b/2a7a941e60e7acec474c5747c0eda5ec1aafda572ebed9d1471448f57794/ironbot-0.0.6.tar.gz
+[2023-06-09 07:55:31] INFO root fetch - processPackages [odoo-addon-website-crm-quick-answer]: Downloading https://files.pythonhosted.org/packages/3c/f7/ecbf4c6ff10b2e3aec1f9c5d5c4e958a678fc841ca38ec4332c3a1b45fee/odoo_addon_website_crm_quick_answer-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-09 07:55:31] INFO root fetch - processPackages [ironbot]: executing diffoscope
+[2023-06-09 07:55:31] INFO root fetch - processPackages [ironbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ironbot-0.0.5.tar.gz tmp/ironbot-0.0.6.tar.gz --markdown 20230609/i/ironbot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-09 07:55:31] INFO root fetch - processPackages [odoo-addon-website-crm-quick-answer]: executing diffoscope
+[2023-06-09 07:55:31] INFO root fetch - processPackages [odoo-addon-website-crm-quick-answer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_crm_quick_answer-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_website_crm_quick_answer-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-website-crm-quick-answer/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-09 07:55:31] INFO root fetch - processPackages [starmerx-url]: Downloading https://files.pythonhosted.org/packages/4f/b8/7207b4a58d1b0eafe09aa200db57aab7d5308e2f38cffd0167a310f2b3d2/starmerx_url-0.1.2.tar.gz
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20230609/p/pulumi-cloudamqp/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-06-09 07:55:31] INFO root fetch - processPackages [odoo-addons-oca-website]: Downloading https://files.pythonhosted.org/packages/fa/a4/e5df61ac1f1690be56ed508b2bbf5beebab91607d8542346afc3bed19497/odoo_addons_oca_website-16.0.20230608.0-py3-none-any.whl
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/44/b1/27baff44d1d13635d486e13d36b41e0af7e4cb2cc4e68d9644561d791a23/pulumi_artifactory-3.6.0a1686287899.tar.gz
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/4c/19/6a1a1fdec4958c07593a3ae2523c88f085d38fbe79651ec0b2f1b84fb0ad/pulumi_dnsimple-3.5.0a1686288450.tar.gz
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2023-06-09 07:55:31] INFO root fetch - processPackages [starmerx-url]: executing diffoscope
+[2023-06-09 07:55:31] INFO root fetch - processPackages [starmerx-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmerx_url-0.1.1.tar.gz tmp/starmerx_url-0.1.2.tar.gz --markdown 20230609/s/starmerx-url/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-09 07:55:31] INFO root fetch - processPackages [qingqiu]: Downloading https://files.pythonhosted.org/packages/58/f2/386afca24f3da4242e300fb03c9e336e1fb64e5737bca050bbffd025b218/qingqiu-0.0.8.tar.gz
+[2023-06-09 07:55:31] INFO root fetch - processPackages [odoo-addons-oca-website]: executing diffoscope
+[2023-06-09 07:55:31] INFO root fetch - processPackages [odoo-addons-oca-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_website-16.0.20230303.0-py3-none-any.whl.zip tmp/odoo_addons_oca_website-16.0.20230608.0-py3-none-any.whl.zip --markdown 20230609/o/odoo-addons-oca-website/16.0.20230303.0-16.0.20230608.0/diff.md --exclude *.pyd
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1685165262.tar.gz tmp/pulumi_dnsimple-3.5.0a1686288450.tar.gz --markdown 20230609/p/pulumi-dnsimple/3.5.0a1685165262-3.5.0a1686288450/diff.md --exclude *.pyd
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230609/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-06-09 07:55:31] INFO root fetch - processPackages [qingqiu]: executing diffoscope
+[2023-06-09 07:55:31] INFO root fetch - processPackages [qingqiu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qingqiu-0.0.7.tar.gz tmp/qingqiu-0.0.8.tar.gz --markdown 20230609/q/qingqiu/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2023-06-09 07:55:31] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-3.6.0a1686000129.tar.gz tmp/pulumi_artifactory-3.6.0a1686287899.tar.gz --markdown 20230609/p/pulumi-artifactory/3.6.0a1686000129-3.6.0a1686287899/diff.md --exclude *.pyd
+[2023-06-09 07:55:31] INFO root fetch - processPackages [odoo8-addon-website-slides]: Downloading https://files.pythonhosted.org/packages/9f/ce/4a233360dfbbadf7571ab2ce56b8a846bac4677b5cc4245467711c98d8ae/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl
+[2023-06-09 07:55:32] INFO root fetch - processPackages [odoo8-addon-website-slides]: executing diffoscope
+[2023-06-09 07:55:32] INFO root fetch - processPackages [odoo8-addon-website-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo8-addon-website-slides/8.0.2.0.1.99.dev8-8.0.2.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:55:32] INFO root fetch - processPackages [ironbot]: Remove: archive file [/home/abi/fetcher/tmp/ironbot-0.0.5.tar.gz]
+[2023-06-09 07:55:32] INFO root fetch - processPackages [ironbot]: Remove: archive file [/home/abi/fetcher/tmp/ironbot-0.0.6.tar.gz]
+[2023-06-09 07:55:32] INFO root fetch - processPackages [ironbot]: Start processing: huntflow-api-client
+[2023-06-09 07:55:32] INFO root fetch - main [MainThread]: End processing [ironbot]: success
+[2023-06-09 07:55:32] INFO root fetch - processPackages [odoo-addon-website-crm-quick-answer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_crm_quick_answer-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-09 07:55:32] INFO root fetch - processPackages [odoo-addon-website-crm-quick-answer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_crm_quick_answer-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-09 07:55:32] INFO root fetch - processPackages [odoo-addon-website-crm-quick-answer]: Start processing: esp-secure-cert-tool
+[2023-06-09 07:55:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-crm-quick-answer]: success
+[2023-06-09 07:55:32] INFO root fetch - processPackages [huntflow-api-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 07:55:32] INFO root fetch - processPackages [starmerx-url]: Remove: archive file [/home/abi/fetcher/tmp/starmerx_url-0.1.1.tar.gz]
+[2023-06-09 07:55:32] INFO root fetch - processPackages [starmerx-url]: Remove: archive file [/home/abi/fetcher/tmp/starmerx_url-0.1.2.tar.gz]
+[2023-06-09 07:55:32] INFO root fetch - processPackages [starmerx-url]: Start processing: tj-kits-winds
+[2023-06-09 07:55:32] INFO root fetch - main [MainThread]: End processing [starmerx-url]: success
+[2023-06-09 07:55:32] INFO root fetch - processPackages [esp-secure-cert-tool]: New version: [1.0.0] Old Version: [0.9.8]
+[2023-06-09 07:55:32] INFO root fetch - processPackages [tj-kits-winds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 07:55:33] INFO root fetch - processPackages [tj-kits-winds]: Downloading https://files.pythonhosted.org/packages/80/d5/b6d00d17d3989b456ad30f7a1eefaf4310680a9804681a40f88312b1b987/tj_kits_winds-0.0.8.tar.gz
+[2023-06-09 07:55:33] INFO root fetch - processPackages [odoo-addons-oca-website]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_website-16.0.20230303.0-py3-none-any.whl.zip]
+[2023-06-09 07:55:33] INFO root fetch - processPackages [odoo-addons-oca-website]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_website-16.0.20230608.0-py3-none-any.whl.zip]
+[2023-06-09 07:55:33] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-website]: success
+[2023-06-09 07:55:33] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/20/ae/1d503f46af98d56f5fb74e3dd81613d2f05393d88b22d969e9cd60b52e13/huntflow_api_client-0.0.8.tar.gz
+[2023-06-09 07:55:33] INFO root fetch - processPackages [esp-secure-cert-tool]: Downloading https://files.pythonhosted.org/packages/57/73/1cf9e5d0a73cc6e668c011149bc2bdf7d49a9ea9ae6e4bfb23cc6cd693f1/esp-secure-cert-tool-0.9.8.tar.gz
+[2023-06-09 07:55:33] INFO root fetch - processPackages [tj-kits-winds]: Downloading https://files.pythonhosted.org/packages/ff/7e/6828aeb1b3cec82f282145d15f4b7b90045aa4468760c2d311c31e20dc99/tj_kits_winds-0.0.9.tar.gz
+[2023-06-09 07:55:33] INFO root fetch - processPackages [tj-kits-winds]: executing diffoscope
+[2023-06-09 07:55:33] INFO root fetch - processPackages [tj-kits-winds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tj_kits_winds-0.0.8.tar.gz tmp/tj_kits_winds-0.0.9.tar.gz --markdown 20230609/t/tj-kits-winds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 07:55:33] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1685165262.tar.gz]
+[2023-06-09 07:55:33] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1686288450.tar.gz]
+[2023-06-09 07:55:33] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2023-06-09 07:55:33] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/9e/6f/642adabc7e91f1ab063d1e21cd5cb785aa60f97f8e7900923faad0bc4f45/huntflow_api_client-0.0.9.tar.gz
+[2023-06-09 07:55:33] INFO root fetch - processPackages [esp-secure-cert-tool]: Downloading https://files.pythonhosted.org/packages/b4/af/c8e67fe2cf95a2262c296ca4a9839342020fe83a29f543f3ebbbd235cca9/esp-secure-cert-tool-1.0.0.tar.gz
+[2023-06-09 07:55:33] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2023-06-09 07:55:33] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-0.0.8.tar.gz tmp/huntflow_api_client-0.0.9.tar.gz --markdown 20230609/h/huntflow-api-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 07:55:33] INFO root fetch - processPackages [esp-secure-cert-tool]: executing diffoscope
+[2023-06-09 07:55:33] INFO root fetch - processPackages [esp-secure-cert-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-secure-cert-tool-0.9.8.tar.gz tmp/esp-secure-cert-tool-1.0.0.tar.gz --markdown 20230609/e/esp-secure-cert-tool/0.9.8-1.0.0/diff.md --exclude *.pyd
+[2023-06-09 07:55:33] INFO root fetch - processPackages [qingqiu]: Remove: archive file [/home/abi/fetcher/tmp/qingqiu-0.0.7.tar.gz]
+[2023-06-09 07:55:33] INFO root fetch - processPackages [qingqiu]: Remove: archive file [/home/abi/fetcher/tmp/qingqiu-0.0.8.tar.gz]
+[2023-06-09 07:55:33] INFO root fetch - main [MainThread]: End processing [qingqiu]: success
+[2023-06-09 07:55:34] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2023-06-09 07:55:34] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2023-06-09 07:55:34] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2023-06-09 07:55:34] INFO root fetch - processPackages [odoo8-addon-website-slides]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 07:55:34] INFO root fetch - processPackages [odoo8-addon-website-slides]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 07:55:34] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-slides]: success
+[2023-06-09 07:55:34] INFO root fetch - processPackages [tj-kits-winds]: Remove: archive file [/home/abi/fetcher/tmp/tj_kits_winds-0.0.8.tar.gz]
+[2023-06-09 07:55:34] INFO root fetch - processPackages [tj-kits-winds]: Remove: archive file [/home/abi/fetcher/tmp/tj_kits_winds-0.0.9.tar.gz]
+[2023-06-09 07:55:34] INFO root fetch - main [MainThread]: End processing [tj-kits-winds]: success
+[2023-06-09 07:55:34] INFO root fetch - processPackages [esp-secure-cert-tool]: Remove: archive file [/home/abi/fetcher/tmp/esp-secure-cert-tool-0.9.8.tar.gz]
+[2023-06-09 07:55:34] INFO root fetch - processPackages [esp-secure-cert-tool]: Remove: archive file [/home/abi/fetcher/tmp/esp-secure-cert-tool-1.0.0.tar.gz]
+[2023-06-09 07:55:34] INFO root fetch - main [MainThread]: End processing [esp-secure-cert-tool]: success
+[2023-06-09 07:55:35] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-0.0.8.tar.gz]
+[2023-06-09 07:55:35] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-0.0.9.tar.gz]
+[2023-06-09 07:55:35] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2023-06-09 07:55:35] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2023-06-09 07:55:35] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2023-06-09 07:55:35] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-06-09 07:55:38] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-3.6.0a1686000129.tar.gz]
+[2023-06-09 07:55:38] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-3.6.0a1686287899.tar.gz]
+[2023-06-09 07:55:38] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2023-06-09 07:55:38] INFO root fetch - main [MainThread]: Store serial: [18436952]
