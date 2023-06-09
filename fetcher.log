@@ -14009,3 +14009,75 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 06:54:37] INFO root fetch - processPackages [covalent]: Remove: archive file [/home/abi/fetcher/tmp/covalent-0.224.0rc0.tar.gz]
 [2023-06-09 06:54:37] INFO root fetch - main [MainThread]: End processing [covalent]: success
 [2023-06-09 06:54:37] INFO root fetch - main [MainThread]: Store serial: [18436454]
+[2023-06-09 06:59:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436454]
+[2023-06-09 06:59:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 06:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-kpi
+[2023-06-09 06:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-yaml-parser
+[2023-06-09 06:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngql-gen
+[2023-06-09 06:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-fastapi
+[2023-06-09 06:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ionicons-python
+[2023-06-09 06:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AutoWSGR
+[2023-06-09 06:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: servicex-databinder
+[2023-06-09 06:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydantic-yaml-parser
+[2023-06-09 06:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyiron-base
+[2023-06-09 06:59:54] INFO root fetch - processPackages [ionicons-python]: New version: [1.0.2] Old Version: [0.1.4]
+[2023-06-09 06:59:54] INFO root fetch - processPackages [servicex-databinder]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-09 06:59:54] WARNING root fetch - processPackages [ngql-gen]: Skipping, unable to determine old version
+[2023-06-09 06:59:54] INFO root fetch - processPackages [pydantic-yaml-parser]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-09 06:59:54] INFO root fetch - main [MainThread]: End processing [ngql-gen] error
+[2023-06-09 06:59:54] INFO root fetch - processPackages [odoo-addon-fastapi]: New version: [16.0.0.0.1.27] Old Version: [16.0.0.0.1.26]
+[2023-06-09 06:59:54] INFO root fetch - processPackages [pydantic-yaml-parser]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-09 06:59:54] INFO root fetch - processPackages [odoo12-addon-kpi]: New version: [12.0.1.0.1.99.dev3] Old Version: [12.0.1.0.1.99.dev2]
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pyiron-base]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-09 06:59:55] INFO root fetch - processPackages [AutoWSGR]: New version: [0.2.0.2] Old Version: [0.2.0.1]
+[2023-06-09 06:59:55] INFO root fetch - processPackages [ionicons-python]: Downloading https://files.pythonhosted.org/packages/7c/80/d29d225b7db6f623f1de4ef2313939564b458f5364e9c28d5e61df0e36fb/ionicons_python-0.1.4.tar.gz
+[2023-06-09 06:59:55] INFO root fetch - processPackages [AutoWSGR]: Downloading https://files.pythonhosted.org/packages/a6/c8/8a03e39dbd84fd556a25ea6f5344493ac2443cd6535b903032f140d16e3d/AutoWSGR-0.2.0.1.tar.gz
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pydantic-yaml-parser]: Downloading https://files.pythonhosted.org/packages/55/7c/492ab183c26800d970c00eef2e0f784c5fb2ca9067b408dd0616e3fb0875/pydantic-yaml-parser-0.0.1.tar.gz
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pyiron-base]: Downloading https://files.pythonhosted.org/packages/2b/9d/51058b2ef43186040b4a75f2cab253d2d7ed6066d69d89fb13263ee97bad/pyiron_base-0.6.0.tar.gz
+[2023-06-09 06:59:55] INFO root fetch - processPackages [servicex-databinder]: Downloading https://files.pythonhosted.org/packages/90/81/a0ad5b2ff865f382d8880c211b5e6bb6423e419dc41be66db00d76e9fe30/servicex_databinder-0.4.1.tar.gz
+[2023-06-09 06:59:55] INFO root fetch - processPackages [odoo-addon-fastapi]: Downloading https://files.pythonhosted.org/packages/4a/51/3022232733257b209223616b606b86a35c6597d0bd585f74db40f629d5a0/odoo_addon_fastapi-16.0.0.0.1.26-py3-none-any.whl
+[2023-06-09 06:59:55] INFO root fetch - processPackages [odoo12-addon-kpi]: Downloading https://files.pythonhosted.org/packages/57/bc/32c8c79cd3cb98e0832395bc036e05b7e985ebf66e36b865e1ab107c9ed3/odoo12_addon_kpi-12.0.1.0.1.99.dev2-py3-none-any.whl
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pydantic-yaml-parser]: Downloading https://files.pythonhosted.org/packages/55/7c/492ab183c26800d970c00eef2e0f784c5fb2ca9067b408dd0616e3fb0875/pydantic-yaml-parser-0.0.1.tar.gz
+[2023-06-09 06:59:55] WARNING root fetch - processPackages [AutoWSGR]: Skipping package: exceeds size limit 33974205>=10485760
+[2023-06-09 06:59:55] INFO root fetch - main [MainThread]: End processing [AutoWSGR] error
+[2023-06-09 06:59:55] INFO root fetch - processPackages [ionicons-python]: Downloading https://files.pythonhosted.org/packages/bf/83/ee5f3a7377e2df1bf2df5bf010e1cd89507472c178f576c971a300674ecd/ionicons_python-1.0.2.tar.gz
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pydantic-yaml-parser]: Downloading https://files.pythonhosted.org/packages/3b/15/4cd71b42e3beaff8838a41d82e761022780aef261806e7e801d1ba74e21f/pydantic-yaml-parser-0.0.2.tar.gz
+[2023-06-09 06:59:55] INFO root fetch - processPackages [servicex-databinder]: Downloading https://files.pythonhosted.org/packages/19/d1/d6a857f314de610749fd3bd80d4c1c28c01018c77b2188392e3b12d96ec3/servicex_databinder-0.5.0.tar.gz
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pydantic-yaml-parser]: Downloading https://files.pythonhosted.org/packages/3b/15/4cd71b42e3beaff8838a41d82e761022780aef261806e7e801d1ba74e21f/pydantic-yaml-parser-0.0.2.tar.gz
+[2023-06-09 06:59:55] INFO root fetch - processPackages [odoo-addon-fastapi]: Downloading https://files.pythonhosted.org/packages/b2/87/4c7f70b57f92f335d77522cfa04e606f2e0486eef5ee90a00dc5e31f7211/odoo_addon_fastapi-16.0.0.0.1.27-py3-none-any.whl
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pyiron-base]: Downloading https://files.pythonhosted.org/packages/52/f9/354b319121d938a5d1d2d88d70ed3d854c4e39da32e8f521e71ceb9c11b5/pyiron_base-0.6.1.tar.gz
+[2023-06-09 06:59:55] INFO root fetch - processPackages [odoo12-addon-kpi]: Downloading https://files.pythonhosted.org/packages/63/d0/671e409fba38aaaa43f0de7f63153cd17750a598712cdbd91ab630dcd95f/odoo12_addon_kpi-12.0.1.0.1.99.dev3-py3-none-any.whl
+[2023-06-09 06:59:55] INFO root fetch - processPackages [odoo12-addon-kpi]: executing diffoscope
+[2023-06-09 06:59:55] INFO root fetch - processPackages [odoo12-addon-kpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_kpi-12.0.1.0.1.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_kpi-12.0.1.0.1.99.dev3-py3-none-any.whl.zip --markdown 20230609/o/odoo12-addon-kpi/12.0.1.0.1.99.dev2-12.0.1.0.1.99.dev3/diff.md --exclude *.pyd
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pydantic-yaml-parser]: executing diffoscope
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pydantic-yaml-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-yaml-parser-0.0.1.tar.gz tmp/pydantic-yaml-parser-0.0.2.tar.gz --markdown 20230609/p/pydantic-yaml-parser/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pydantic-yaml-parser]: executing diffoscope
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pydantic-yaml-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-yaml-parser-0.0.1.tar.gz tmp/pydantic-yaml-parser-0.0.2.tar.gz --markdown 20230609/p/pydantic-yaml-parser/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-09 06:59:55] INFO root fetch - processPackages [servicex-databinder]: executing diffoscope
+[2023-06-09 06:59:55] INFO root fetch - processPackages [servicex-databinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicex_databinder-0.4.1.tar.gz tmp/servicex_databinder-0.5.0.tar.gz --markdown 20230609/s/servicex-databinder/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-09 06:59:55] INFO root fetch - processPackages [odoo-addon-fastapi]: executing diffoscope
+[2023-06-09 06:59:55] INFO root fetch - processPackages [odoo-addon-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fastapi-16.0.0.0.1.26-py3-none-any.whl.zip tmp/odoo_addon_fastapi-16.0.0.0.1.27-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-fastapi/16.0.0.0.1.26-16.0.0.0.1.27/diff.md --exclude *.pyd
+[2023-06-09 06:59:55] INFO root fetch - processPackages [ionicons-python]: executing diffoscope
+[2023-06-09 06:59:55] INFO root fetch - processPackages [ionicons-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ionicons_python-0.1.4.tar.gz tmp/ionicons_python-1.0.2.tar.gz --markdown 20230609/i/ionicons-python/0.1.4-1.0.2/diff.md --exclude *.pyd
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pyiron-base]: executing diffoscope
+[2023-06-09 06:59:55] INFO root fetch - processPackages [pyiron-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_base-0.6.0.tar.gz tmp/pyiron_base-0.6.1.tar.gz --markdown 20230609/p/pyiron-base/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-09 06:59:57] INFO root fetch - processPackages [pydantic-yaml-parser]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-yaml-parser-0.0.1.tar.gz]
+[2023-06-09 06:59:57] INFO root fetch - processPackages [pydantic-yaml-parser]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-yaml-parser-0.0.2.tar.gz]
+[2023-06-09 06:59:57] INFO root fetch - main [MainThread]: End processing [pydantic-yaml-parser]: success
+[2023-06-09 06:59:57] INFO root fetch - processPackages [servicex-databinder]: Remove: archive file [/home/abi/fetcher/tmp/servicex_databinder-0.4.1.tar.gz]
+[2023-06-09 06:59:57] INFO root fetch - processPackages [servicex-databinder]: Remove: archive file [/home/abi/fetcher/tmp/servicex_databinder-0.5.0.tar.gz]
+[2023-06-09 06:59:57] INFO root fetch - main [MainThread]: End processing [servicex-databinder]: success
+[2023-06-09 06:59:57] INFO root fetch - main [MainThread]: End processing [pydantic-yaml-parser]: success
+[2023-06-09 06:59:57] INFO root fetch - processPackages [odoo-addon-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi-16.0.0.0.1.26-py3-none-any.whl.zip]
+[2023-06-09 06:59:57] INFO root fetch - processPackages [odoo-addon-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi-16.0.0.0.1.27-py3-none-any.whl.zip]
+[2023-06-09 06:59:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-fastapi]: success
+[2023-06-09 06:59:57] INFO root fetch - processPackages [odoo12-addon-kpi]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_kpi-12.0.1.0.1.99.dev2-py3-none-any.whl.zip]
+[2023-06-09 06:59:57] INFO root fetch - processPackages [odoo12-addon-kpi]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_kpi-12.0.1.0.1.99.dev3-py3-none-any.whl.zip]
+[2023-06-09 06:59:57] INFO root fetch - main [MainThread]: End processing [odoo12-addon-kpi]: success
+[2023-06-09 06:59:57] INFO root fetch - processPackages [pyiron-base]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_base-0.6.0.tar.gz]
+[2023-06-09 06:59:57] INFO root fetch - processPackages [pyiron-base]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_base-0.6.1.tar.gz]
+[2023-06-09 06:59:57] INFO root fetch - main [MainThread]: End processing [pyiron-base]: success
+[2023-06-09 07:00:12] INFO root fetch - processPackages [ionicons-python]: Remove: archive file [/home/abi/fetcher/tmp/ionicons_python-0.1.4.tar.gz]
+[2023-06-09 07:00:12] INFO root fetch - processPackages [ionicons-python]: Remove: archive file [/home/abi/fetcher/tmp/ionicons_python-1.0.2.tar.gz]
+[2023-06-09 07:00:12] INFO root fetch - main [MainThread]: End processing [ionicons-python]: success
+[2023-06-09 07:00:12] INFO root fetch - main [MainThread]: Store serial: [18436485]
