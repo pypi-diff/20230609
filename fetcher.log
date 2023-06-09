@@ -15705,3 +15705,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 07:55:38] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-3.6.0a1686287899.tar.gz]
 [2023-06-09 07:55:38] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2023-06-09 07:55:38] INFO root fetch - main [MainThread]: Store serial: [18436952]
+[2023-06-09 08:00:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436952]
+[2023-06-09 08:00:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-09 08:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dead-code-finder
+[2023-06-09 08:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: splatnet3-scraper
+[2023-06-09 08:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorcircuit
+[2023-06-09 08:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systemrdl-compiler
+[2023-06-09 08:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-consul
+[2023-06-09 08:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atomica
+[2023-06-09 08:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chalkpy
+[2023-06-09 08:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PanjSim
+[2023-06-09 08:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: photobooth-app
+[2023-06-09 08:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: peakrdl-regblock
+[2023-06-09 08:00:47] INFO root fetch - processPackages [dead-code-finder]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-09 08:00:47] INFO root fetch - processPackages [splatnet3-scraper]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-09 08:00:47] INFO root fetch - processPackages [tensorcircuit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-09 08:00:47] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1686288236] Old Version: [3.9.0a1685165191]
+[2023-06-09 08:00:47] INFO root fetch - processPackages [photobooth-app]: New version: [0.1.0b4] Old Version: [0.1.0b3]
+[2023-06-09 08:00:47] INFO root fetch - processPackages [atomica]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-09 08:00:47] INFO root fetch - processPackages [PanjSim]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-09 08:00:47] INFO root fetch - processPackages [systemrdl-compiler]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-09 08:00:47] INFO root fetch - processPackages [chalkpy]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-06-09 08:00:47] INFO root fetch - processPackages [PanjSim]: Downloading https://files.pythonhosted.org/packages/f5/e6/4e3c717f4c740ded701540c7a784d468d9379723e184b807c721e442ff93/PanjSim-1.0.3.tar.gz
+[2023-06-09 08:00:47] INFO root fetch - processPackages [peakrdl-regblock]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-09 08:00:47] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/17/a4/1f8c0cd70a87b2811d4958c25b89fd5db26c139b40c03531989c31844276/chalkpy-2.7.2.tar.gz
+[2023-06-09 08:00:47] INFO root fetch - processPackages [splatnet3-scraper]: Downloading https://files.pythonhosted.org/packages/2c/64/6647c0cbe838b81c0610c8ac513f28655d1820d8d1a7b8d8670526e3af7a/splatnet3_scraper-0.8.0.tar.gz
+[2023-06-09 08:00:47] INFO root fetch - processPackages [dead-code-finder]: Downloading https://files.pythonhosted.org/packages/f4/5b/efe7ec5bebeb07ac5098a2171cdb1ecb421d602732704cf5349700dc4a80/dead_code_finder-0.0.1.tar.gz
+[2023-06-09 08:00:47] INFO root fetch - processPackages [tensorcircuit]: Downloading https://files.pythonhosted.org/packages/5f/b3/61ddd3daf0cbb7bb56a068bcea6e0f32202138733d38ecd51cd298a38e66/tensorcircuit-0.9.0.tar.gz
+[2023-06-09 08:00:47] INFO root fetch - processPackages [systemrdl-compiler]: Downloading https://files.pythonhosted.org/packages/24/b3/2f21e1b9eb4f3c12980fed433a65ec43d39ef511990977d98a4af2859cb5/systemrdl-compiler-1.8.0.tar.gz
+[2023-06-09 08:00:47] INFO root fetch - processPackages [atomica]: Downloading https://files.pythonhosted.org/packages/1b/1a/d450921edf87184f6760143cf5169b5f2d3c848b1f336dc9d8df39e3106f/atomica-1.4.0.tar.gz
+[2023-06-09 08:00:47] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/27/a6/744c78a5a6766f7dfa1878155f2bc0f4eb726d6a10fb268dcf07d92f0463/pulumi_consul-3.9.0a1685165191.tar.gz
+[2023-06-09 08:00:47] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/49/d0/575483a47f2bbb40658fe496da991c91aa45dee65d8250c49d046af9ed35/photobooth_app-0.1.0b3.tar.gz
+[2023-06-09 08:00:47] INFO root fetch - processPackages [peakrdl-regblock]: Downloading https://files.pythonhosted.org/packages/a5/c3/25808aa15036ce03bc0df87d98669a6a911a00d6d2af4a0f14b7c508ca86/peakrdl-regblock-0.8.0.tar.gz
+[2023-06-09 08:00:47] INFO root fetch - processPackages [PanjSim]: Downloading https://files.pythonhosted.org/packages/45/c0/8b62fe6ff2074f6a8faa32b6337a1688f53866b3f709f51b051ade97fc21/PanjSim-1.0.4.tar.gz
+[2023-06-09 08:00:48] INFO root fetch - processPackages [dead-code-finder]: Downloading https://files.pythonhosted.org/packages/e2/72/003a06449fe183659784d5d7e8d6d549556e10f9fa9c39da193227da3ebc/dead_code_finder-0.0.2.tar.gz
+[2023-06-09 08:00:48] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/c9/d7/81a8eb5b3abd815588072408b5c4076c8063ae7b4bd0b8b3281539e077dc/chalkpy-2.7.3.tar.gz
+[2023-06-09 08:00:48] INFO root fetch - processPackages [splatnet3-scraper]: Downloading https://files.pythonhosted.org/packages/3e/94/b9889d110d6d306cce23cf40891d290126a5e95f77a6c47af64f07f07bd1/splatnet3_scraper-0.8.1.tar.gz
+[2023-06-09 08:00:48] INFO root fetch - processPackages [PanjSim]: executing diffoscope
+[2023-06-09 08:00:48] INFO root fetch - processPackages [PanjSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PanjSim-1.0.3.tar.gz tmp/PanjSim-1.0.4.tar.gz --markdown 20230609/P/PanjSim/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-09 08:00:48] INFO root fetch - processPackages [systemrdl-compiler]: Downloading https://files.pythonhosted.org/packages/3c/ee/de4fae11995c64843ad11ad5085ee6d1de5b3dda00be2274aca72b5d9cf3/systemrdl-compiler-1.9.0.tar.gz
+[2023-06-09 08:00:48] INFO root fetch - processPackages [tensorcircuit]: Downloading https://files.pythonhosted.org/packages/a5/a1/c407d88d8298b0d83094dfe565b7a9eefa55b0b84968134e0b3119e34244/tensorcircuit-0.9.1.tar.gz
+[2023-06-09 08:00:48] INFO root fetch - processPackages [peakrdl-regblock]: Downloading https://files.pythonhosted.org/packages/50/6c/091eb6f1285fcbe0521d1f9860ebce378f165c5abc73024600637b03299b/peakrdl-regblock-0.9.0.tar.gz
+[2023-06-09 08:00:48] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/ca/8c/50cc77cbcff4e7849aed7894cf84172d384e97df26c687f8eba3c9ce6813/pulumi_consul-3.9.0a1686288236.tar.gz
+[2023-06-09 08:00:48] INFO root fetch - processPackages [dead-code-finder]: executing diffoscope
+[2023-06-09 08:00:48] INFO root fetch - processPackages [dead-code-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dead_code_finder-0.0.1.tar.gz tmp/dead_code_finder-0.0.2.tar.gz --markdown 20230609/d/dead-code-finder/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-09 08:00:48] INFO root fetch - processPackages [systemrdl-compiler]: executing diffoscope
+[2023-06-09 08:00:48] INFO root fetch - processPackages [systemrdl-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemrdl-compiler-1.8.0.tar.gz tmp/systemrdl-compiler-1.9.0.tar.gz --markdown 20230609/s/systemrdl-compiler/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-09 08:00:48] INFO root fetch - processPackages [splatnet3-scraper]: executing diffoscope
+[2023-06-09 08:00:48] INFO root fetch - processPackages [splatnet3-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splatnet3_scraper-0.8.0.tar.gz tmp/splatnet3_scraper-0.8.1.tar.gz --markdown 20230609/s/splatnet3-scraper/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-09 08:00:48] INFO root fetch - processPackages [tensorcircuit]: executing diffoscope
+[2023-06-09 08:00:48] INFO root fetch - processPackages [tensorcircuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-0.9.0.tar.gz tmp/tensorcircuit-0.9.1.tar.gz --markdown 20230609/t/tensorcircuit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-09 08:00:48] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-09 08:00:48] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.7.2.tar.gz tmp/chalkpy-2.7.3.tar.gz --markdown 20230609/c/chalkpy/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-06-09 08:00:48] INFO root fetch - processPackages [peakrdl-regblock]: executing diffoscope
+[2023-06-09 08:00:48] INFO root fetch - processPackages [peakrdl-regblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakrdl-regblock-0.8.0.tar.gz tmp/peakrdl-regblock-0.9.0.tar.gz --markdown 20230609/p/peakrdl-regblock/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 08:00:48] INFO root fetch - processPackages [atomica]: Downloading https://files.pythonhosted.org/packages/cb/11/7ee713e8ab563588b2c9f563dd86298499097f6b3bf542c2ae164d7ac32b/atomica-1.5.0.tar.gz
+[2023-06-09 08:00:48] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/fe/9b/3bedad0a73a63d56e952cd01da1260b711e14fa368613e5278b9db44a94c/photobooth_app-0.1.0b4.tar.gz
+[2023-06-09 08:00:48] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2023-06-09 08:00:48] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1685165191.tar.gz tmp/pulumi_consul-3.9.0a1686288236.tar.gz --markdown 20230609/p/pulumi-consul/3.9.0a1685165191-3.9.0a1686288236/diff.md --exclude *.pyd
+[2023-06-09 08:00:49] INFO root fetch - processPackages [atomica]: executing diffoscope
+[2023-06-09 08:00:49] INFO root fetch - processPackages [atomica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomica-1.4.0.tar.gz tmp/atomica-1.5.0.tar.gz --markdown 20230609/a/atomica/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-09 08:00:49] INFO root fetch - processPackages [PanjSim]: Remove: archive file [/home/abi/fetcher/tmp/PanjSim-1.0.3.tar.gz]
+[2023-06-09 08:00:49] INFO root fetch - processPackages [PanjSim]: Remove: archive file [/home/abi/fetcher/tmp/PanjSim-1.0.4.tar.gz]
+[2023-06-09 08:00:49] INFO root fetch - main [MainThread]: End processing [PanjSim]: success
+[2023-06-09 08:00:49] INFO root fetch - processPackages [dead-code-finder]: Remove: archive file [/home/abi/fetcher/tmp/dead_code_finder-0.0.1.tar.gz]
+[2023-06-09 08:00:49] INFO root fetch - processPackages [dead-code-finder]: Remove: archive file [/home/abi/fetcher/tmp/dead_code_finder-0.0.2.tar.gz]
+[2023-06-09 08:00:49] INFO root fetch - main [MainThread]: End processing [dead-code-finder]: success
+[2023-06-09 08:00:49] INFO root fetch - processPackages [photobooth-app]: executing diffoscope
+[2023-06-09 08:00:49] INFO root fetch - processPackages [photobooth-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photobooth_app-0.1.0b3.tar.gz tmp/photobooth_app-0.1.0b4.tar.gz --markdown 20230609/p/photobooth-app/0.1.0b3-0.1.0b4/diff.md --exclude *.pyd
+[2023-06-09 08:00:49] INFO root fetch - processPackages [splatnet3-scraper]: Remove: archive file [/home/abi/fetcher/tmp/splatnet3_scraper-0.8.0.tar.gz]
+[2023-06-09 08:00:49] INFO root fetch - processPackages [splatnet3-scraper]: Remove: archive file [/home/abi/fetcher/tmp/splatnet3_scraper-0.8.1.tar.gz]
+[2023-06-09 08:00:49] INFO root fetch - main [MainThread]: End processing [splatnet3-scraper]: success
+[2023-06-09 08:00:50] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1685165191.tar.gz]
+[2023-06-09 08:00:50] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1686288236.tar.gz]
+[2023-06-09 08:00:50] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2023-06-09 08:00:50] INFO root fetch - processPackages [peakrdl-regblock]: Remove: archive file [/home/abi/fetcher/tmp/peakrdl-regblock-0.8.0.tar.gz]
+[2023-06-09 08:00:50] INFO root fetch - processPackages [peakrdl-regblock]: Remove: archive file [/home/abi/fetcher/tmp/peakrdl-regblock-0.9.0.tar.gz]
+[2023-06-09 08:00:50] INFO root fetch - main [MainThread]: End processing [peakrdl-regblock]: success
+[2023-06-09 08:00:51] INFO root fetch - processPackages [atomica]: Remove: archive file [/home/abi/fetcher/tmp/atomica-1.4.0.tar.gz]
+[2023-06-09 08:00:51] INFO root fetch - processPackages [atomica]: Remove: archive file [/home/abi/fetcher/tmp/atomica-1.5.0.tar.gz]
+[2023-06-09 08:00:51] INFO root fetch - main [MainThread]: End processing [atomica]: success
+[2023-06-09 08:00:51] INFO root fetch - processPackages [systemrdl-compiler]: Remove: archive file [/home/abi/fetcher/tmp/systemrdl-compiler-1.8.0.tar.gz]
+[2023-06-09 08:00:51] INFO root fetch - processPackages [systemrdl-compiler]: Remove: archive file [/home/abi/fetcher/tmp/systemrdl-compiler-1.9.0.tar.gz]
+[2023-06-09 08:00:51] INFO root fetch - main [MainThread]: End processing [systemrdl-compiler]: success
+[2023-06-09 08:00:51] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0b3.tar.gz]
+[2023-06-09 08:00:51] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0b4.tar.gz]
+[2023-06-09 08:00:51] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
+[2023-06-09 08:00:52] INFO root fetch - processPackages [tensorcircuit]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-0.9.0.tar.gz]
+[2023-06-09 08:00:52] INFO root fetch - processPackages [tensorcircuit]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-0.9.1.tar.gz]
+[2023-06-09 08:00:52] INFO root fetch - main [MainThread]: End processing [tensorcircuit]: success
+[2023-06-09 08:00:57] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.7.2.tar.gz]
+[2023-06-09 08:00:57] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.7.3.tar.gz]
+[2023-06-09 08:00:57] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-09 08:00:57] INFO root fetch - main [MainThread]: Store serial: [18437021]
