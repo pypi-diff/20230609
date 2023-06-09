@@ -15331,3 +15331,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 07:34:41] INFO root fetch - processPackages [here-search-demo]: Remove: archive file [/home/abi/fetcher/tmp/here-search-demo-0.8.6.tar.gz]
 [2023-06-09 07:34:41] INFO root fetch - main [MainThread]: End processing [here-search-demo]: success
 [2023-06-09 07:34:41] INFO root fetch - main [MainThread]: Store serial: [18436845]
+[2023-06-09 07:39:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436845]
+[2023-06-09 07:39:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-09 07:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libsnmp
+[2023-06-09 07:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioslimproto
+[2023-06-09 07:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo11-addon-hr-timesheet-sheet
+[2023-06-09 07:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toori
+[2023-06-09 07:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crooked-airflow-utils
+[2023-06-09 07:39:50] INFO root fetch - processPackages [aioslimproto]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-09 07:39:50] WARNING root fetch - processPackages [crooked-airflow-utils]: Skipping, unable to determine old version
+[2023-06-09 07:39:50] INFO root fetch - main [MainThread]: End processing [crooked-airflow-utils] error
+[2023-06-09 07:39:50] INFO root fetch - processPackages [toori]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-09 07:39:50] INFO root fetch - processPackages [libsnmp]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-09 07:39:50] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: New version: [11.0.2.0.1.99.dev9] Old Version: [11.0.2.0.1.99.dev8]
+[2023-06-09 07:39:50] INFO root fetch - processPackages [aioslimproto]: Downloading https://files.pythonhosted.org/packages/80/c3/e2ac4bff2f9149487c0a09a2bad7a14510bc78b127f7a695f754ec76c263/aioslimproto-2.3.0.tar.gz
+[2023-06-09 07:39:50] INFO root fetch - processPackages [libsnmp]: Downloading https://files.pythonhosted.org/packages/68/4d/4d4f60d65b28167267266714d7bc03a0b0bfcfbb4242a26e42ad8e7ff5c2/libsnmp-3.0.0.tar.gz
+[2023-06-09 07:39:50] INFO root fetch - processPackages [toori]: Downloading https://files.pythonhosted.org/packages/d3/b8/aa11424546d8312528e4ddad1a29595587cbc47655edbbbcf9251e7f0d30/toori-1.1.1.tar.gz
+[2023-06-09 07:39:50] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/e0/2b/2f4f25b69af19e2b6e4809ae66edb729d90cb951f087e83fe3cb7aebfc78/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev8-py2.py3-none-any.whl
+[2023-06-09 07:39:50] INFO root fetch - processPackages [libsnmp]: Downloading https://files.pythonhosted.org/packages/d1/39/93bef648c77f51c33d37d2aca556a4c15619a6e2e036a33769ba52f6e801/libsnmp-3.0.1.tar.gz
+[2023-06-09 07:39:50] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/f0/7a/cd22f8bed77fba30ed868fb9be7a30ecd39540c43b11311a904af0e507c8/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev9-py2.py3-none-any.whl
+[2023-06-09 07:39:50] INFO root fetch - processPackages [toori]: Downloading https://files.pythonhosted.org/packages/a1/4d/83c4f82a8d0fda048271b51f115be839b32e54c603fac716a353bc4217c0/toori-1.1.2.tar.gz
+[2023-06-09 07:39:50] INFO root fetch - processPackages [aioslimproto]: Downloading https://files.pythonhosted.org/packages/d1/09/f7a7518b1767e04d5ba82a91de791debcd4f6db4536e27e648e92934872b/aioslimproto-2.3.1.tar.gz
+[2023-06-09 07:39:50] INFO root fetch - processPackages [libsnmp]: executing diffoscope
+[2023-06-09 07:39:50] INFO root fetch - processPackages [libsnmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsnmp-3.0.0.tar.gz tmp/libsnmp-3.0.1.tar.gz --markdown 20230609/l/libsnmp/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-09 07:39:50] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-06-09 07:39:50] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev9-py2.py3-none-any.whl.zip --markdown 20230609/o/odoo11-addon-hr-timesheet-sheet/11.0.2.0.1.99.dev8-11.0.2.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:39:50] INFO root fetch - processPackages [toori]: executing diffoscope
+[2023-06-09 07:39:50] INFO root fetch - processPackages [toori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toori-1.1.1.tar.gz tmp/toori-1.1.2.tar.gz --markdown 20230609/t/toori/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-09 07:39:51] INFO root fetch - processPackages [aioslimproto]: executing diffoscope
+[2023-06-09 07:39:51] INFO root fetch - processPackages [aioslimproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioslimproto-2.3.0.tar.gz tmp/aioslimproto-2.3.1.tar.gz --markdown 20230609/a/aioslimproto/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-09 07:39:51] INFO root fetch - processPackages [libsnmp]: Remove: archive file [/home/abi/fetcher/tmp/libsnmp-3.0.0.tar.gz]
+[2023-06-09 07:39:51] INFO root fetch - processPackages [libsnmp]: Remove: archive file [/home/abi/fetcher/tmp/libsnmp-3.0.1.tar.gz]
+[2023-06-09 07:39:51] INFO root fetch - main [MainThread]: End processing [libsnmp]: success
+[2023-06-09 07:39:52] INFO root fetch - processPackages [toori]: Remove: archive file [/home/abi/fetcher/tmp/toori-1.1.1.tar.gz]
+[2023-06-09 07:39:52] INFO root fetch - processPackages [toori]: Remove: archive file [/home/abi/fetcher/tmp/toori-1.1.2.tar.gz]
+[2023-06-09 07:39:52] INFO root fetch - main [MainThread]: End processing [toori]: success
+[2023-06-09 07:39:52] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev8-py2.py3-none-any.whl.zip]
+[2023-06-09 07:39:52] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev9-py2.py3-none-any.whl.zip]
+[2023-06-09 07:39:52] INFO root fetch - main [MainThread]: End processing [odoo11-addon-hr-timesheet-sheet]: success
+[2023-06-09 07:39:52] INFO root fetch - processPackages [aioslimproto]: Remove: archive file [/home/abi/fetcher/tmp/aioslimproto-2.3.0.tar.gz]
+[2023-06-09 07:39:52] INFO root fetch - processPackages [aioslimproto]: Remove: archive file [/home/abi/fetcher/tmp/aioslimproto-2.3.1.tar.gz]
+[2023-06-09 07:39:52] INFO root fetch - main [MainThread]: End processing [aioslimproto]: success
+[2023-06-09 07:39:52] INFO root fetch - main [MainThread]: Store serial: [18436861]
