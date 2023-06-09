@@ -21256,3 +21256,161 @@ AssertionError: tmp/satellitevu-1.5.0.tar.gz does not exist
 [2023-06-09 12:12:14] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-09 12:12:14] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-09 12:12:14] INFO root fetch - main [MainThread]: Store serial: [18439226]
+[2023-06-09 12:17:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18439226]
+[2023-06-09 12:17:31] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-09 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: granny-pliers
+[2023-06-09 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oddrn-generator
+[2023-06-09 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MT-PY-ErrorLogging
+[2023-06-09 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyoxynet
+[2023-06-09 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-cisco-maintenance
+[2023-06-09 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyved
+[2023-06-09 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-account-mass-reconcile
+[2023-06-09 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-account-mass-reconcile-as-job
+[2023-06-09 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: many-migrations
+[2023-06-09 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: evalutils
+[2023-06-09 12:17:31] INFO root fetch - processPackages [oddrn-generator]: New version: [0.1.9] Old Version: [0.1.82]
+[2023-06-09 12:17:31] WARNING root fetch - processPackages [MT-PY-ErrorLogging]: Skipping, unable to determine old version
+[2023-06-09 12:17:31] INFO root fetch - processPackages [MT-PY-ErrorLogging]: Start processing: mctlib
+[2023-06-09 12:17:31] INFO root fetch - main [MainThread]: End processing [MT-PY-ErrorLogging] error
+[2023-06-09 12:17:31] INFO root fetch - processPackages [granny-pliers]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-09 12:17:31] INFO root fetch - processPackages [evalutils]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-09 12:17:31] INFO root fetch - processPackages [pyved]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-09 12:17:31] INFO root fetch - processPackages [many-migrations]: New version: [0.3] Old Version: [0.2]
+[2023-06-09 12:17:31] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile]: New version: [14.0.1.1.2.dev6] Old Version: [14.0.1.1.2.dev5]
+[2023-06-09 12:17:31] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile-as-job]: New version: [14.0.1.1.1] Old Version: [14.0.1.1.0]
+[2023-06-09 12:17:31] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-06-09 12:17:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 12:17:31] INFO root fetch - processPackages [mctlib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-09 12:17:31] INFO root fetch - processPackages [many-migrations]: Downloading https://files.pythonhosted.org/packages/91/f1/887d7022aab08f1728681a044626ad21d699db5ecb585695395b946bc90b/many_migrations-0.2.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/74/0d/4ff772142ae68336f38de3f437593d7291bfb7099c49c733faf3d67ed576/oddrn_generator-0.1.82.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [pyved]: Downloading https://files.pythonhosted.org/packages/bc/b3/f9e489fafa0ecfbec8478eb8ea3fef2c19611c089980fd1ee3ee66f7df7f/pyved-0.0.5.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/d4/61/070b8e5f7f4d532dba89ab32fd0cc31fb16608199464a7892d9e873902b3/odoo14_addon_account_mass_reconcile-14.0.1.1.2.dev5-py3-none-any.whl
+[2023-06-09 12:17:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile-as-job]: Downloading https://files.pythonhosted.org/packages/e8/c9/ac6f4fb78fc2cd294ea1f07acfc15df1f19d9ac1018fe064dfc50fc656d6/odoo14_addon_account_mass_reconcile_as_job-14.0.1.1.0-py3-none-any.whl
+[2023-06-09 12:17:31] INFO root fetch - processPackages [evalutils]: Downloading https://files.pythonhosted.org/packages/25/64/64cbec9e0c5d8c07eb7340408ff34cfb7f70ce4d020307c55bd43de09e98/evalutils-0.4.1.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/14/44/7cf2a41304592d50c4bf4131f24a6143ff541eaaa7f5e0b47d17cf2a26d3/granny-pliers-0.0.5.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-09 12:17:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230609/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 12:17:31] INFO root fetch - processPackages [mctlib]: Downloading https://files.pythonhosted.org/packages/ba/b0/77d68d8e8622eba4f19586804d0720399d053e54286881fcc2e472cf746b/mctlib-0.0.1.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [many-migrations]: Downloading https://files.pythonhosted.org/packages/ee/5c/b6a9dbc8f1b385fc7d8af00e1e9dcab474ab2dd0222c11170b3acc281b64/many_migrations-0.3.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-06-09 12:17:31] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230609/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-06-09 12:17:31] INFO root fetch - processPackages [many-migrations]: executing diffoscope
+[2023-06-09 12:17:31] INFO root fetch - processPackages [many-migrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/many_migrations-0.2.tar.gz tmp/many_migrations-0.3.tar.gz --markdown 20230609/m/many-migrations/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-09 12:17:31] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/93/1e/8fe4c37a2bc5486d573b0d1793cece4c10a430ebdfd00c3633bd30f250bc/granny-pliers-0.0.6.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/2a/2e/c01483d58b0cf1c450eb92f93a9180e3d71bda2dfe4cbe678bad80d62bfb/oddrn-generator-0.1.9.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [granny-pliers]: executing diffoscope
+[2023-06-09 12:17:31] INFO root fetch - processPackages [granny-pliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granny-pliers-0.0.5.tar.gz tmp/granny-pliers-0.0.6.tar.gz --markdown 20230609/g/granny-pliers/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-09 12:17:31] INFO root fetch - processPackages [pyved]: Downloading https://files.pythonhosted.org/packages/c1/a1/1aca785f66d41ebe260b1569fc8f43616aec14b12b251d74c1a1781f8952/pyved-0.0.6.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile-as-job]: Downloading https://files.pythonhosted.org/packages/ed/a9/4b93e4e42a6f1a15ab58fe21d1693e7566bcfc79de4b1a04f4c552e46230/odoo14_addon_account_mass_reconcile_as_job-14.0.1.1.1-py3-none-any.whl
+[2023-06-09 12:17:31] INFO root fetch - processPackages [oddrn-generator]: executing diffoscope
+[2023-06-09 12:17:31] INFO root fetch - processPackages [oddrn-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oddrn_generator-0.1.82.tar.gz tmp/oddrn-generator-0.1.9.tar.gz --markdown 20230609/o/oddrn-generator/0.1.82-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 12:17:31] INFO root fetch - processPackages [mctlib]: Downloading https://files.pythonhosted.org/packages/90/ca/8203c96e058070bb958a984378cb8194797bb019bdbc00f2b3485b276b47/mctlib-0.0.2.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [evalutils]: Downloading https://files.pythonhosted.org/packages/d7/9c/b365d1e65a9c4f091386c3b373f7db109218ceb7dc341dfa4de440f428ac/evalutils-0.4.2.tar.gz
+[2023-06-09 12:17:31] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/c9/8e/af36ee295a7ba40f3828da81a51f645c9a73d0d41dc401c3f989be61e474/odoo14_addon_account_mass_reconcile-14.0.1.1.2.dev6-py3-none-any.whl
+[2023-06-09 12:17:31] INFO root fetch - processPackages [mctlib]: executing diffoscope
+[2023-06-09 12:17:31] INFO root fetch - processPackages [mctlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mctlib-0.0.1.tar.gz tmp/mctlib-0.0.2.tar.gz --markdown 20230609/m/mctlib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-09 12:17:31] INFO root fetch - processPackages [evalutils]: executing diffoscope
+[2023-06-09 12:17:31] INFO root fetch - processPackages [evalutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalutils-0.4.1.tar.gz tmp/evalutils-0.4.2.tar.gz --markdown 20230609/e/evalutils/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-09 12:17:31] INFO root fetch - processPackages [pyved]: executing diffoscope
+[2023-06-09 12:17:31] INFO root fetch - processPackages [pyved]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyved-0.0.5.tar.gz tmp/pyved-0.0.6.tar.gz --markdown 20230609/p/pyved/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-09 12:17:31] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile-as-job]: executing diffoscope
+[2023-06-09 12:17:31] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile-as-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_mass_reconcile_as_job-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_account_mass_reconcile_as_job-14.0.1.1.1-py3-none-any.whl.zip --markdown 20230609/o/odoo14-addon-account-mass-reconcile-as-job/14.0.1.1.0-14.0.1.1.1/diff.md --exclude *.pyd
+[2023-06-09 12:17:31] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile]: executing diffoscope
+[2023-06-09 12:17:31] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_mass_reconcile-14.0.1.1.2.dev5-py3-none-any.whl.zip tmp/odoo14_addon_account_mass_reconcile-14.0.1.1.2.dev6-py3-none-any.whl.zip --markdown 20230609/o/odoo14-addon-account-mass-reconcile/14.0.1.1.2.dev5-14.0.1.1.2.dev6/diff.md --exclude *.pyd
+[2023-06-09 12:17:32] INFO root fetch - processPackages [many-migrations]: Remove: archive file [/home/abi/fetcher/tmp/many_migrations-0.2.tar.gz]
+[2023-06-09 12:17:32] INFO root fetch - processPackages [many-migrations]: Remove: archive file [/home/abi/fetcher/tmp/many_migrations-0.3.tar.gz]
+[2023-06-09 12:17:32] INFO root fetch - processPackages [many-migrations]: Start processing: py-aioredis
+[2023-06-09 12:17:32] INFO root fetch - main [MainThread]: End processing [many-migrations]: success
+[2023-06-09 12:17:32] ERROR root fetch - processPackages [py-aioredis]: Unable to get metadata: No such project 'py-aioredis'
+[2023-06-09 12:17:32] INFO root fetch - processPackages [py-aioredis]: Start processing: robocorp-log
+[2023-06-09 12:17:32] INFO root fetch - main [MainThread]: End processing [py-aioredis] error
+[2023-06-09 12:17:33] INFO root fetch - processPackages [robocorp-log]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: ellar
+[2023-06-09 12:17:33] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-09 12:17:33] INFO root fetch - processPackages [ellar]: New version: [0.4.2] Old Version: [0.4.0]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [robocorp-log]: Downloading https://files.pythonhosted.org/packages/23/96/a9a2ed874509a704924e8f4e375a2ad89d98f0ab7b1e941cd728fefca832/robocorp_log-0.3.0.tar.gz
+[2023-06-09 12:17:33] INFO root fetch - processPackages [ellar]: Downloading https://files.pythonhosted.org/packages/d9/93/f7560498adfed414325929a7ac3a9f873cf6ffcecb507a3dd463b292c3e7/ellar-0.4.0.tar.gz
+[2023-06-09 12:17:33] INFO root fetch - processPackages [pyved]: Remove: archive file [/home/abi/fetcher/tmp/pyved-0.0.5.tar.gz]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [pyved]: Remove: archive file [/home/abi/fetcher/tmp/pyved-0.0.6.tar.gz]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [pyved]: Start processing: revChatGPT
+[2023-06-09 12:17:33] INFO root fetch - main [MainThread]: End processing [pyved]: success
+[2023-06-09 12:17:33] INFO root fetch - processPackages [mctlib]: Remove: archive file [/home/abi/fetcher/tmp/mctlib-0.0.1.tar.gz]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [mctlib]: Remove: archive file [/home/abi/fetcher/tmp/mctlib-0.0.2.tar.gz]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [mctlib]: Start processing: pyrfu
+[2023-06-09 12:17:33] INFO root fetch - main [MainThread]: End processing [mctlib]: success
+[2023-06-09 12:17:33] INFO root fetch - processPackages [pyrfu]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile-as-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_mass_reconcile_as_job-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile-as-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_mass_reconcile_as_job-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile-as-job]: Start processing: Supplier-API-tester
+[2023-06-09 12:17:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-mass-reconcile-as-job]: success
+[2023-06-09 12:17:33] INFO root fetch - processPackages [revChatGPT]: New version: [6.1.3] Old Version: [6.1.2]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn_generator-0.1.82.tar.gz]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn-generator-0.1.9.tar.gz]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [oddrn-generator]: Start processing: aries-cloudcontroller
+[2023-06-09 12:17:33] INFO root fetch - main [MainThread]: End processing [oddrn-generator]: success
+[2023-06-09 12:17:33] INFO root fetch - processPackages [Supplier-API-tester]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.8.1rc4] Old Version: [0.8.0rc9]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [robocorp-log]: Downloading https://files.pythonhosted.org/packages/47/be/390f28b7ae023031e3ba43765732c6a0a46288c6064ef3025cf94cee7465/robocorp_log-0.3.1.tar.gz
+[2023-06-09 12:17:33] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/b0/46/ed9c73be3d8aea599c39a69193a4c112fcaf339c925c3562aa9c0ef47afa/aries_cloudcontroller-0.8.0rc9.tar.gz
+[2023-06-09 12:17:33] INFO root fetch - processPackages [pyrfu]: Downloading https://files.pythonhosted.org/packages/00/1b/a9cce0b37f300d02ea02d6a482feb6852956232b628d51133834731767bf/pyrfu-2.3.9.tar.gz
+[2023-06-09 12:17:33] INFO root fetch - processPackages [robocorp-log]: executing diffoscope
+[2023-06-09 12:17:33] INFO root fetch - processPackages [robocorp-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_log-0.3.0.tar.gz tmp/robocorp_log-0.3.1.tar.gz --markdown 20230609/r/robocorp-log/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-09 12:17:33] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.5.tar.gz]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.6.tar.gz]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [granny-pliers]: Start processing: spacepackets
+[2023-06-09 12:17:33] INFO root fetch - main [MainThread]: End processing [granny-pliers]: success
+[2023-06-09 12:17:33] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/33/25/877f48fd2ec254109c098ab8c1808706152992c6cb9dcf10c7d3d25f0ef6/aries_cloudcontroller-0.8.1rc4.tar.gz
+[2023-06-09 12:17:33] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/a0/8e/b31fc80a4ad30c76834a10437d7ae9b4388f924e5d7f2680f24b9212d2fc/revChatGPT-6.1.2.tar.gz
+[2023-06-09 12:17:33] INFO root fetch - processPackages [Supplier-API-tester]: Downloading https://files.pythonhosted.org/packages/83/f6/84af4dd23c6fa093fd0bdc0747284b5e3d483333a1007b2a3b10bad48562/Supplier%20API%20tester-2.0.3.tar.gz
+[2023-06-09 12:17:33] WARNING root fetch - processPackages [pyrfu]: Skipping package: exceeds size limit 10579393>=10485760
+[2023-06-09 12:17:33] INFO root fetch - main [MainThread]: End processing [pyrfu] error
+[2023-06-09 12:17:33] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2023-06-09 12:17:33] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.8.0rc9.tar.gz tmp/aries_cloudcontroller-0.8.1rc4.tar.gz --markdown 20230609/a/aries-cloudcontroller/0.8.0rc9-0.8.1rc4/diff.md --exclude *.pyd
+[2023-06-09 12:17:33] INFO root fetch - processPackages [evalutils]: Remove: archive file [/home/abi/fetcher/tmp/evalutils-0.4.1.tar.gz]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [evalutils]: Remove: archive file [/home/abi/fetcher/tmp/evalutils-0.4.2.tar.gz]
+[2023-06-09 12:17:33] INFO root fetch - main [MainThread]: End processing [evalutils]: success
+[2023-06-09 12:17:33] INFO root fetch - processPackages [spacepackets]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/fa/22/fd2debd13815e43d97721ca80d820f655f742cd01c4b83d7b399128e3631/revChatGPT-6.1.3.tar.gz
+[2023-06-09 12:17:33] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_mass_reconcile-14.0.1.1.2.dev5-py3-none-any.whl.zip]
+[2023-06-09 12:17:33] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_mass_reconcile-14.0.1.1.2.dev6-py3-none-any.whl.zip]
+[2023-06-09 12:17:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-mass-reconcile]: success
+[2023-06-09 12:17:33] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-09 12:17:33] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.1.2.tar.gz tmp/revChatGPT-6.1.3.tar.gz --markdown 20230609/r/revChatGPT/6.1.2-6.1.3/diff.md --exclude *.pyd
+[2023-06-09 12:17:34] INFO root fetch - processPackages [Supplier-API-tester]: Downloading https://files.pythonhosted.org/packages/ab/a1/cc22778ac67435b92de94fa12071fdc4c53a967d1990c5062f564b5a25fc/Supplier%20API%20tester-2.0.4.tar.gz
+[2023-06-09 12:17:34] INFO root fetch - processPackages [spacepackets]: Downloading https://files.pythonhosted.org/packages/67/78/384a5ffad7eac5f8e6f7842bd2d4e81eb8f8bfefae020ec3b6d8403d5e32/spacepackets-0.8.1.tar.gz
+[2023-06-09 12:17:34] INFO root fetch - processPackages [Supplier-API-tester]: executing diffoscope
+[2023-06-09 12:17:34] INFO root fetch - processPackages [Supplier-API-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Supplier API tester-2.0.3.tar.gz tmp/Supplier API tester-2.0.4.tar.gz --markdown 20230609/S/Supplier-API-tester/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-09 12:17:34] INFO root fetch - processPackages [ellar]: Downloading https://files.pythonhosted.org/packages/a7/09/9809041f0b989a95972458d73c1e63f39b988179a31a897084f3328cd640/ellar-0.4.2.tar.gz
+[2023-06-09 12:17:34] INFO root fetch - processPackages [ellar]: executing diffoscope
+[2023-06-09 12:17:34] INFO root fetch - processPackages [ellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellar-0.4.0.tar.gz tmp/ellar-0.4.2.tar.gz --markdown 20230609/e/ellar/0.4.0-0.4.2/diff.md --exclude *.pyd
+[2023-06-09 12:17:34] INFO root fetch - processPackages [spacepackets]: Downloading https://files.pythonhosted.org/packages/5a/3a/0c57835afff418d02db88f9c0ee240e220431a0dffb7d13a3fad468fdafa/spacepackets-0.9.0.tar.gz
+[2023-06-09 12:17:34] INFO root fetch - processPackages [spacepackets]: executing diffoscope
+[2023-06-09 12:17:34] INFO root fetch - processPackages [spacepackets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacepackets-0.8.1.tar.gz tmp/spacepackets-0.9.0.tar.gz --markdown 20230609/s/spacepackets/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 12:17:35] INFO root fetch - processPackages [robocorp-log]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_log-0.3.0.tar.gz]
+[2023-06-09 12:17:35] INFO root fetch - processPackages [robocorp-log]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_log-0.3.1.tar.gz]
+[2023-06-09 12:17:35] INFO root fetch - main [MainThread]: End processing [robocorp-log]: success
+[2023-06-09 12:17:35] INFO root fetch - processPackages [Supplier-API-tester]: Remove: archive file [/home/abi/fetcher/tmp/Supplier API tester-2.0.3.tar.gz]
+[2023-06-09 12:17:35] INFO root fetch - processPackages [Supplier-API-tester]: Remove: archive file [/home/abi/fetcher/tmp/Supplier API tester-2.0.4.tar.gz]
+[2023-06-09 12:17:35] INFO root fetch - main [MainThread]: End processing [Supplier-API-tester]: success
+[2023-06-09 12:17:35] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.1.2.tar.gz]
+[2023-06-09 12:17:35] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.1.3.tar.gz]
+[2023-06-09 12:17:35] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-09 12:17:35] INFO root fetch - processPackages [spacepackets]: Remove: archive file [/home/abi/fetcher/tmp/spacepackets-0.8.1.tar.gz]
+[2023-06-09 12:17:35] INFO root fetch - processPackages [spacepackets]: Remove: archive file [/home/abi/fetcher/tmp/spacepackets-0.9.0.tar.gz]
+[2023-06-09 12:17:35] INFO root fetch - main [MainThread]: End processing [spacepackets]: success
+[2023-06-09 12:17:37] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.8.tar.gz]
+[2023-06-09 12:17:37] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
+[2023-06-09 12:17:37] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-06-09 12:17:39] INFO root fetch - processPackages [ellar]: Remove: archive file [/home/abi/fetcher/tmp/ellar-0.4.0.tar.gz]
+[2023-06-09 12:17:39] INFO root fetch - processPackages [ellar]: Remove: archive file [/home/abi/fetcher/tmp/ellar-0.4.2.tar.gz]
+[2023-06-09 12:17:39] INFO root fetch - main [MainThread]: End processing [ellar]: success
+[2023-06-09 12:17:42] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.0rc9.tar.gz]
+[2023-06-09 12:17:42] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc4.tar.gz]
+[2023-06-09 12:17:42] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2023-06-09 12:17:42] INFO root fetch - main [MainThread]: Store serial: [18439288]
