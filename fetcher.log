@@ -15457,3 +15457,131 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 07:45:05] INFO root fetch - processPackages [odoo14-addon-hotel-reservation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hotel_reservation-14.0.1.0.1.dev8-py3-none-any.whl.zip]
 [2023-06-09 07:45:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hotel-reservation]: success
 [2023-06-09 07:45:05] INFO root fetch - main [MainThread]: Store serial: [18436883]
+[2023-06-09 07:50:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436883]
+[2023-06-09 07:50:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-09 07:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-assistant
+[2023-06-09 07:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eqmicro
+[2023-06-09 07:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-civo
+[2023-06-09 07:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-akamai
+[2023-06-09 07:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-auth0
+[2023-06-09 07:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ironbot
+[2023-06-09 07:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xenoslib
+[2023-06-09 07:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-cloudinit
+[2023-06-09 07:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: automation-file
+[2023-06-09 07:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo9-addon-website-forum-censored
+[2023-06-09 07:50:14] WARNING root fetch - processPackages [eqmicro]: Skipping, unable to determine old version
+[2023-06-09 07:50:14] INFO root fetch - processPackages [eqmicro]: Start processing: hosgdSims
+[2023-06-09 07:50:14] INFO root fetch - main [MainThread]: End processing [eqmicro] error
+[2023-06-09 07:50:14] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1686288009] Old Version: [2.4.0a1686049790]
+[2023-06-09 07:50:14] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-06-09 07:50:14] INFO root fetch - processPackages [ironbot]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-09 07:50:14] INFO root fetch - processPackages [xenoslib]: New version: [0.1.29.0] Old Version: [0.1.28.8]
+[2023-06-09 07:50:14] INFO root fetch - processPackages [odoo9-addon-website-forum-censored]: New version: [9.0.1.0.0.99.dev8] Old Version: [9.0.1.0.0.99.dev7]
+[2023-06-09 07:50:14] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.4.0a1686288032] Old Version: [1.4.0a1685164992]
+[2023-06-09 07:50:14] INFO root fetch - processPackages [pulumi-akamai]: New version: [4.6.0a1686287885] Old Version: [4.6.0a1685987992]
+[2023-06-09 07:50:14] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-06-09 07:50:14] INFO root fetch - processPackages [hosgdSims]: New version: [0.5.0] Old Version: [0.3.0]
+[2023-06-09 07:50:14] INFO root fetch - processPackages [automation-file]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-09 07:50:14] INFO root fetch - processPackages [odoo9-addon-website-forum-censored]: Downloading https://files.pythonhosted.org/packages/7c/c3/ff567ae0a1b8ab4b2e7272545743509ce552377fcf27dcb5899d9f20cc0d/odoo9_addon_website_forum_censored-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-09 07:50:14] INFO root fetch - processPackages [xenoslib]: Downloading https://files.pythonhosted.org/packages/6d/d3/4a43edba3493a533fc971e90cae9c3a79fe60ea5531a4c124199e130bcdd/xenoslib-0.1.28.8.tar.gz
+[2023-06-09 07:50:14] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/08/f3/a6ccb3b1847ab59cf55c67ca17ef5bef0257380d47219f2baab22dcddc8d/automation_file-0.0.5.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/1a/de/8b6a9bc142c59cae57109352044b97a300c98138df68c5378884171bcaf1/pulumi_civo-2.4.0a1686049790.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/3e/35/7d6e4499bceba97755c0134f6a13d88ed94dadff204afd15746602f4d885/pulumi_auth0-2.9.0a1651588791.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [hosgdSims]: Downloading https://files.pythonhosted.org/packages/b0/0c/9cf47632d28681157944521485a1725dc71f661c542144a87ba6997755ca/hosgdSims-0.3.0.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [ironbot]: Downloading https://files.pythonhosted.org/packages/d7/ef/dde81a91adcf061f9ac8e22a97b62f80868c6c28bd3378caf6bfd3a0498d/ironbot-0.0.4.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/97/44/b20bd94fac386e8e37a5c36d422e8f78f6de0c4222de825e8ff890f55a98/pulumi_akamai-4.6.0a1685987992.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/0d/5e/563709781e2588ec9127f653a3d3ffda695e6acaf756e7748d48564aff98/pulumi_cloudinit-1.4.0a1685164992.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [xenoslib]: Downloading https://files.pythonhosted.org/packages/22/3f/98df52def78b7b4c2700987d2a706682356f8135405eecb647eccb596195/xenoslib-0.1.29.0.tar.gz
+[2023-06-09 07:50:15] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-06-09 07:50:15] INFO root fetch - processPackages [music-assistant]: Start processing: py-Ayiin
+[2023-06-09 07:50:15] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-06-09 07:50:15] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/33/38/7556d52943b26d6024ac98342db2601aedbec1ce21c347934665d1175331/automation_file-0.0.6.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev9] Old Version: [0.4.4.dev8]
+[2023-06-09 07:50:15] INFO root fetch - processPackages [odoo9-addon-website-forum-censored]: Downloading https://files.pythonhosted.org/packages/38/8e/f613ecaa9002b2771b5d0d9d8a1271f5334ffbb052db10807e3eec950f21/odoo9_addon_website_forum_censored-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-09 07:50:15] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [xenoslib]: executing diffoscope
+[2023-06-09 07:50:15] INFO root fetch - processPackages [xenoslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenoslib-0.1.28.8.tar.gz tmp/xenoslib-0.1.29.0.tar.gz --markdown 20230609/x/xenoslib/0.1.28.8-0.1.29.0/diff.md --exclude *.pyd
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/94/76/f8b068fbe0ed405b871db211762f63d26396fcbd910287794ceff16fcf17/pulumi_civo-2.4.0a1686288009.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [automation-file]: executing diffoscope
+[2023-06-09 07:50:15] INFO root fetch - processPackages [automation-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file-0.0.5.tar.gz tmp/automation_file-0.0.6.tar.gz --markdown 20230609/a/automation-file/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-09 07:50:15] INFO root fetch - processPackages [ironbot]: Downloading https://files.pythonhosted.org/packages/e5/83/aa445ed7fd9ffd81ba74feeaf20684548a29250e04dd8f7a7a32778618da/ironbot-0.0.5.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/1b/bd/9cfc1eb7cfd7738f922a37c0f13f92d07d1becb470c7c07183174983ae3b/pulumi_cloudinit-1.4.0a1686288032.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/19/fc/57f01dd941ba0ec2ad79d6e6f06dc951a65e89280d974bb8be71b3a6bc6a/pulumi_auth0-2.9.0a1653604814.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/48/5e/6bd8f38ca45bfb27f55cb20aa4265e1f30687f277dee94b57621f30b2ae4/pulumi_akamai-4.6.0a1686287885.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [odoo9-addon-website-forum-censored]: executing diffoscope
+[2023-06-09 07:50:15] INFO root fetch - processPackages [odoo9-addon-website-forum-censored]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_website_forum_censored-9.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_website_forum_censored-9.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-website-forum-censored/9.0.1.0.0.99.dev7-9.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1686049790.tar.gz tmp/pulumi_civo-2.4.0a1686288009.tar.gz --markdown 20230609/p/pulumi-civo/2.4.0a1686049790-2.4.0a1686288009/diff.md --exclude *.pyd
+[2023-06-09 07:50:15] INFO root fetch - processPackages [ironbot]: executing diffoscope
+[2023-06-09 07:50:15] INFO root fetch - processPackages [ironbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ironbot-0.0.4.tar.gz tmp/ironbot-0.0.5.tar.gz --markdown 20230609/i/ironbot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-09 07:50:15] INFO root fetch - processPackages [hosgdSims]: Downloading https://files.pythonhosted.org/packages/b5/5c/fe5aa28b2b7da1c9cf9421a1236ee9ca298407098bf07bd4acfce92b7a4f/hosgdSims-0.5.0.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230609/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.4.0a1685164992.tar.gz tmp/pulumi_cloudinit-1.4.0a1686288032.tar.gz --markdown 20230609/p/pulumi-cloudinit/1.4.0a1685164992-1.4.0a1686288032/diff.md --exclude *.pyd
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-06-09 07:50:15] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-4.6.0a1685987992.tar.gz tmp/pulumi_akamai-4.6.0a1686287885.tar.gz --markdown 20230609/p/pulumi-akamai/4.6.0a1685987992-4.6.0a1686287885/diff.md --exclude *.pyd
+[2023-06-09 07:50:15] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/a8/a9/9f3a9694572196e70e9ba540e00d88c2d3b5944a2117d502feede8f8b138/py-Ayiin-0.4.4.dev9.tar.gz
+[2023-06-09 07:50:15] INFO root fetch - processPackages [hosgdSims]: executing diffoscope
+[2023-06-09 07:50:15] INFO root fetch - processPackages [hosgdSims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hosgdSims-0.3.0.tar.gz tmp/hosgdSims-0.5.0.tar.gz --markdown 20230609/h/hosgdSims/0.3.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-09 07:50:15] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 07:50:15] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev8.tar.gz tmp/py-Ayiin-0.4.4.dev9.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev8-0.4.4.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:50:16] INFO root fetch - processPackages [xenoslib]: Remove: archive file [/home/abi/fetcher/tmp/xenoslib-0.1.28.8.tar.gz]
+[2023-06-09 07:50:16] INFO root fetch - processPackages [xenoslib]: Remove: archive file [/home/abi/fetcher/tmp/xenoslib-0.1.29.0.tar.gz]
+[2023-06-09 07:50:16] INFO root fetch - processPackages [xenoslib]: Start processing: odoo8-addon-website-seo-redirection
+[2023-06-09 07:50:16] INFO root fetch - main [MainThread]: End processing [xenoslib]: success
+[2023-06-09 07:50:16] INFO root fetch - processPackages [odoo8-addon-website-seo-redirection]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-06-09 07:50:17] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.5.tar.gz]
+[2023-06-09 07:50:17] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.6.tar.gz]
+[2023-06-09 07:50:17] INFO root fetch - processPackages [automation-file]: Start processing: odoo8-addon-website-backend-views
+[2023-06-09 07:50:17] INFO root fetch - main [MainThread]: End processing [automation-file]: success
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo8-addon-website-seo-redirection]: Downloading https://files.pythonhosted.org/packages/e1/9a/3c7b064a8fe11bb17c6035d122d2998d8201c748c55614678586e751ae73/odoo8_addon_website_seo_redirection-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-06-09 07:50:17] INFO root fetch - processPackages [ironbot]: Remove: archive file [/home/abi/fetcher/tmp/ironbot-0.0.4.tar.gz]
+[2023-06-09 07:50:17] INFO root fetch - processPackages [ironbot]: Remove: archive file [/home/abi/fetcher/tmp/ironbot-0.0.5.tar.gz]
+[2023-06-09 07:50:17] INFO root fetch - processPackages [ironbot]: Start processing: odoo8-addon-website-country-localized-pages
+[2023-06-09 07:50:17] INFO root fetch - main [MainThread]: End processing [ironbot]: success
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo8-addon-website-backend-views]: New version: [8.0.1.0.0.99.dev21] Old Version: [8.0.1.0.0.99.dev20]
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo8-addon-website-country-localized-pages]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-06-09 07:50:17] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1686049790.tar.gz]
+[2023-06-09 07:50:17] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1686288009.tar.gz]
+[2023-06-09 07:50:17] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo9-addon-website-forum-censored]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_website_forum_censored-9.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo9-addon-website-forum-censored]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_website_forum_censored-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 07:50:17] INFO root fetch - main [MainThread]: End processing [odoo9-addon-website-forum-censored]: success
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo8-addon-website-backend-views]: Downloading https://files.pythonhosted.org/packages/00/dd/7de9ad39f472a4eb216039f85a4404efe33adef8f0b4b16dffcd31d00093/odoo8_addon_website_backend_views-8.0.1.0.0.99.dev20-py2-none-any.whl
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo8-addon-website-seo-redirection]: Downloading https://files.pythonhosted.org/packages/cc/74/53c6aec11fe76a072f52e82d0470502c2ad4c243a1351bfa75c50b67c909/odoo8_addon_website_seo_redirection-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-06-09 07:50:17] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.4.0a1685164992.tar.gz]
+[2023-06-09 07:50:17] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.4.0a1686288032.tar.gz]
+[2023-06-09 07:50:17] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo8-addon-website-country-localized-pages]: Downloading https://files.pythonhosted.org/packages/af/74/72a50f689b16c898711234e1ebd68223c23a1b33880e0a7837e47eeaae08/odoo8_addon_website_country_localized_pages-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo8-addon-website-seo-redirection]: executing diffoscope
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo8-addon-website-seo-redirection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_seo_redirection-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_website_seo_redirection-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo8-addon-website-seo-redirection/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo8-addon-website-country-localized-pages]: Downloading https://files.pythonhosted.org/packages/82/d8/020a3267b5e83e15cc97e2ba3da3942873fe1b696da55bc11d9a9f05938f/odoo8_addon_website_country_localized_pages-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo8-addon-website-backend-views]: Downloading https://files.pythonhosted.org/packages/a6/d0/f42f6ae04c03e6ad372dd1bec4b46c5e4307f08794cfbe0d8de14b0ee8cc/odoo8_addon_website_backend_views-8.0.1.0.0.99.dev21-py2-none-any.whl
+[2023-06-09 07:50:17] INFO root fetch - processPackages [hosgdSims]: Remove: archive file [/home/abi/fetcher/tmp/hosgdSims-0.3.0.tar.gz]
+[2023-06-09 07:50:17] INFO root fetch - processPackages [hosgdSims]: Remove: archive file [/home/abi/fetcher/tmp/hosgdSims-0.5.0.tar.gz]
+[2023-06-09 07:50:17] INFO root fetch - main [MainThread]: End processing [hosgdSims]: success
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo8-addon-website-country-localized-pages]: executing diffoscope
+[2023-06-09 07:50:17] INFO root fetch - processPackages [odoo8-addon-website-country-localized-pages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_country_localized_pages-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_website_country_localized_pages-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo8-addon-website-country-localized-pages/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:50:18] INFO root fetch - processPackages [odoo8-addon-website-backend-views]: executing diffoscope
+[2023-06-09 07:50:18] INFO root fetch - processPackages [odoo8-addon-website-backend-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_backend_views-8.0.1.0.0.99.dev20-py2-none-any.whl.zip tmp/odoo8_addon_website_backend_views-8.0.1.0.0.99.dev21-py2-none-any.whl.zip --markdown 20230609/o/odoo8-addon-website-backend-views/8.0.1.0.0.99.dev20-8.0.1.0.0.99.dev21/diff.md --exclude *.pyd
+[2023-06-09 07:50:18] INFO root fetch - processPackages [odoo8-addon-website-seo-redirection]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_seo_redirection-8.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 07:50:18] INFO root fetch - processPackages [odoo8-addon-website-seo-redirection]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_seo_redirection-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 07:50:18] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-seo-redirection]: success
+[2023-06-09 07:50:19] INFO root fetch - processPackages [odoo8-addon-website-country-localized-pages]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_country_localized_pages-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 07:50:19] INFO root fetch - processPackages [odoo8-addon-website-country-localized-pages]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_country_localized_pages-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 07:50:19] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-country-localized-pages]: success
+[2023-06-09 07:50:19] INFO root fetch - processPackages [odoo8-addon-website-backend-views]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_backend_views-8.0.1.0.0.99.dev20-py2-none-any.whl.zip]
+[2023-06-09 07:50:19] INFO root fetch - processPackages [odoo8-addon-website-backend-views]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_backend_views-8.0.1.0.0.99.dev21-py2-none-any.whl.zip]
+[2023-06-09 07:50:19] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-backend-views]: success
+[2023-06-09 07:50:20] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1651588791.tar.gz]
+[2023-06-09 07:50:20] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1653604814.tar.gz]
+[2023-06-09 07:50:20] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-06-09 07:50:20] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 07:50:20] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
+[2023-06-09 07:50:20] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 07:50:21] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-4.6.0a1685987992.tar.gz]
+[2023-06-09 07:50:21] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-4.6.0a1686287885.tar.gz]
+[2023-06-09 07:50:21] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-06-09 07:50:21] INFO root fetch - main [MainThread]: Store serial: [18436920]
