@@ -20269,3 +20269,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-09 11:23:23] INFO root fetch - processPackages [equinix-metal]: Remove: archive file [/home/abi/fetcher/tmp/equinix-metal-0.2.1.tar.gz]
 [2023-06-09 11:23:23] INFO root fetch - main [MainThread]: End processing [equinix-metal]: success
 [2023-06-09 11:23:23] INFO root fetch - main [MainThread]: Store serial: [18438817]
+[2023-06-09 11:28:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438817]
+[2023-06-09 11:28:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seaplane
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pix-framework
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub-airflow-plugin
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metldata
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-maintenance
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ns-lab-aws
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ewokscore
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ionicons-python
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: amass
+[2023-06-09 11:28:34] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ionicons-python]: New version: [1.0.2] Old Version: [0.1.4]
+[2023-06-09 11:28:34] INFO root fetch - processPackages [pix-framework]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-09 11:28:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 11:28:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-06-09 11:28:34] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ionicons-python]: Downloading https://files.pythonhosted.org/packages/7c/80/d29d225b7db6f623f1de4ef2313939564b458f5364e9c28d5e61df0e36fb/ionicons_python-0.1.4.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [amass]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ewokscore]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-06-09 11:28:34] WARNING root fetch - processPackages [ns-lab-aws]: Skipping, unable to determine old version
+[2023-06-09 11:28:34] INFO root fetch - main [MainThread]: End processing [ns-lab-aws] error
+[2023-06-09 11:28:34] INFO root fetch - processPackages [metldata]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-09 11:28:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ionicons-python]: Downloading https://files.pythonhosted.org/packages/bf/83/ee5f3a7377e2df1bf2df5bf010e1cd89507472c178f576c971a300674ecd/ionicons_python-1.0.2.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/9d/e6/8a972aa9c9859085b755194c0037299f51fc48e087358a1322154a97a5fd/pix_framework-0.8.8.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ionicons-python]: executing diffoscope
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ionicons-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ionicons_python-0.1.4.tar.gz tmp/ionicons_python-1.0.2.tar.gz --markdown 20230609/i/ionicons-python/0.1.4-1.0.2/diff.md --exclude *.pyd
+[2023-06-09 11:28:34] INFO root fetch - processPackages [amass]: Downloading https://files.pythonhosted.org/packages/7a/d7/e8715f06e64bd3fa12072b44b57e8c564387c8eb8a4aed303a3cfc1fb9eb/amass-0.3.1.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-06-09 11:28:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230609/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-06-09 11:28:34] INFO root fetch - processPackages [ewokscore]: Downloading https://files.pythonhosted.org/packages/94/24/fc1c800f385d69a448c2f7e9e49458986c4f5120c53dff4048b871033aae/ewokscore-0.4.3.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-09 11:28:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230609/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 11:28:34] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-06-09 11:28:34] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230609/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-06-09 11:28:34] INFO root fetch - processPackages [metldata]: Downloading https://files.pythonhosted.org/packages/e3/ea/e8099fd10d2cebb29156f68270527b8ed7f709e04cab4c63a21642dc5cdf/metldata-0.1.0.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/47/68/37abefa38da51ade8de17d0bcc3bacf761f776f9d20c2285b8a4a65f0cdf/pix_framework-0.8.9.tar.gz
+[2023-06-09 11:28:34] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-09 11:28:34] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230609/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-09 11:28:34] INFO root fetch - processPackages [pix-framework]: executing diffoscope
+[2023-06-09 11:28:34] INFO root fetch - processPackages [pix-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix_framework-0.8.8.tar.gz tmp/pix_framework-0.8.9.tar.gz --markdown 20230609/p/pix-framework/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-09 11:28:34] INFO root fetch - processPackages [amass]: Downloading https://files.pythonhosted.org/packages/39/b6/020c197f3eb4c5e0bfcd9ea9471867d62d2313adb1a70d88b125fed51bac/amass-0.3.2.tar.gz
+[2023-06-09 11:28:35] INFO root fetch - processPackages [ewokscore]: Downloading https://files.pythonhosted.org/packages/14/9f/0bf603769269abfbc940b63db92535ddc11c98786740268670fbbd32305b/ewokscore-0.5.0.tar.gz
+[2023-06-09 11:28:35] INFO root fetch - processPackages [metldata]: Downloading https://files.pythonhosted.org/packages/c9/24/6aca13cdbae7a5d9adc57f1d02965d5fdd72d83e5ad015e2ec5c16f85a5f/metldata-0.2.0.tar.gz
+[2023-06-09 11:28:35] INFO root fetch - processPackages [amass]: executing diffoscope
+[2023-06-09 11:28:35] INFO root fetch - processPackages [amass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amass-0.3.1.tar.gz tmp/amass-0.3.2.tar.gz --markdown 20230609/a/amass/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-09 11:28:35] INFO root fetch - processPackages [ewokscore]: executing diffoscope
+[2023-06-09 11:28:35] INFO root fetch - processPackages [ewokscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewokscore-0.4.3.tar.gz tmp/ewokscore-0.5.0.tar.gz --markdown 20230609/e/ewokscore/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-06-09 11:28:35] INFO root fetch - processPackages [metldata]: executing diffoscope
+[2023-06-09 11:28:35] INFO root fetch - processPackages [metldata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metldata-0.1.0.tar.gz tmp/metldata-0.2.0.tar.gz --markdown 20230609/m/metldata/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-09 11:28:36] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-06-09 11:28:36] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-06-09 11:28:36] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-06-09 11:28:36] INFO root fetch - processPackages [pix-framework]: Remove: archive file [/home/abi/fetcher/tmp/pix_framework-0.8.8.tar.gz]
+[2023-06-09 11:28:36] INFO root fetch - processPackages [pix-framework]: Remove: archive file [/home/abi/fetcher/tmp/pix_framework-0.8.9.tar.gz]
+[2023-06-09 11:28:36] INFO root fetch - main [MainThread]: End processing [pix-framework]: success
+[2023-06-09 11:28:36] INFO root fetch - processPackages [amass]: Remove: archive file [/home/abi/fetcher/tmp/amass-0.3.1.tar.gz]
+[2023-06-09 11:28:36] INFO root fetch - processPackages [amass]: Remove: archive file [/home/abi/fetcher/tmp/amass-0.3.2.tar.gz]
+[2023-06-09 11:28:36] INFO root fetch - main [MainThread]: End processing [amass]: success
+[2023-06-09 11:28:36] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-09 11:28:36] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-09 11:28:36] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-09 11:28:36] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-09 11:28:36] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-09 11:28:36] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-09 11:28:37] INFO root fetch - processPackages [ewokscore]: Remove: archive file [/home/abi/fetcher/tmp/ewokscore-0.4.3.tar.gz]
+[2023-06-09 11:28:37] INFO root fetch - processPackages [ewokscore]: Remove: archive file [/home/abi/fetcher/tmp/ewokscore-0.5.0.tar.gz]
+[2023-06-09 11:28:37] INFO root fetch - main [MainThread]: End processing [ewokscore]: success
+[2023-06-09 11:28:37] INFO root fetch - processPackages [metldata]: Remove: archive file [/home/abi/fetcher/tmp/metldata-0.1.0.tar.gz]
+[2023-06-09 11:28:37] INFO root fetch - processPackages [metldata]: Remove: archive file [/home/abi/fetcher/tmp/metldata-0.2.0.tar.gz]
+[2023-06-09 11:28:37] INFO root fetch - main [MainThread]: End processing [metldata]: success
+[2023-06-09 11:28:42] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-06-09 11:28:42] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-06-09 11:28:42] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-06-09 11:28:54] INFO root fetch - processPackages [ionicons-python]: Remove: archive file [/home/abi/fetcher/tmp/ionicons_python-0.1.4.tar.gz]
+[2023-06-09 11:28:54] INFO root fetch - processPackages [ionicons-python]: Remove: archive file [/home/abi/fetcher/tmp/ionicons_python-1.0.2.tar.gz]
+[2023-06-09 11:28:54] INFO root fetch - main [MainThread]: End processing [ionicons-python]: success
+[2023-06-09 11:28:54] INFO root fetch - main [MainThread]: Store serial: [18438850]
