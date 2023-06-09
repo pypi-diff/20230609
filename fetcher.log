@@ -2960,3 +2960,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 02:44:16] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
 [2023-06-09 02:44:16] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
 [2023-06-09 02:44:16] INFO root fetch - main [MainThread]: Store serial: [18432820]
+[2023-06-09 02:49:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18432820]
+[2023-06-09 02:49:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-09 02:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpg-workflows
+[2023-06-09 02:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mrpyconvert
+[2023-06-09 02:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awstuff
+[2023-06-09 02:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: captif-cpx-config
+[2023-06-09 02:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zeno-build
+[2023-06-09 02:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfds-nightly
+[2023-06-09 02:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aistock
+[2023-06-09 02:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dvc-data
+[2023-06-09 02:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vaai-body
+[2023-06-09 02:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vector2dggs
+[2023-06-09 02:49:25] INFO root fetch - processPackages [mrpyconvert]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 02:49:25] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306080044] Old Version: [4.9.2.dev202306070045]
+[2023-06-09 02:49:25] INFO root fetch - processPackages [mrpyconvert]: Downloading https://files.pythonhosted.org/packages/54/3f/c9d339e5edae9c3006f1f918e46a21b8cdb45fc18bf28f5d3b37a82cd884/mrpyconvert-0.1.8.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [awstuff]: New version: [0.211] Old Version: [0.21]
+[2023-06-09 02:49:25] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-09 02:49:25] INFO root fetch - processPackages [captif-cpx-config]: New version: [0.5] Old Version: [0.4]
+[2023-06-09 02:49:25] WARNING root fetch - processPackages [aistock]: Skipping, unable to determine old version
+[2023-06-09 02:49:25] WARNING root fetch - processPackages [vaai-body]: Skipping, unable to determine old version
+[2023-06-09 02:49:25] INFO root fetch - processPackages [aistock]: Start processing: kubric-nightly
+[2023-06-09 02:49:25] INFO root fetch - processPackages [zeno-build]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-09 02:49:25] INFO root fetch - main [MainThread]: End processing [aistock] error
+[2023-06-09 02:49:25] INFO root fetch - processPackages [vaai-body]: Start processing: solver4mpi
+[2023-06-09 02:49:25] INFO root fetch - main [MainThread]: End processing [vaai-body] error
+[2023-06-09 02:49:25] INFO root fetch - processPackages [vector2dggs]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-09 02:49:25] INFO root fetch - processPackages [dvc-data]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-09 02:49:25] INFO root fetch - processPackages [mrpyconvert]: Downloading https://files.pythonhosted.org/packages/16/6e/b026da03a13cd6075dafdff77f95cddaea5524d18d1aa084cc02f7598990/mrpyconvert-0.1.9.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.8] Old Version: [2023.6.7]
+[2023-06-09 02:49:25] INFO root fetch - processPackages [captif-cpx-config]: Downloading https://files.pythonhosted.org/packages/e8/47/c0d9e53caf739cf4ce2ca77cb48c0bf52c35a490fa53ea642eb363b3f35b/captif_cpx_config-0.4.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [solver4mpi]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-06-09 02:49:25] INFO root fetch - processPackages [mrpyconvert]: executing diffoscope
+[2023-06-09 02:49:25] INFO root fetch - processPackages [mrpyconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrpyconvert-0.1.8.tar.gz tmp/mrpyconvert-0.1.9.tar.gz --markdown 20230609/m/mrpyconvert/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 02:49:25] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/ea/0c/a1221f3ea78e38c28215371d7a062e405aa1849161dcb08c29b96b136913/kubric-nightly-2023.6.7.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/b1/63/f5f2fe30863185d5b751a86f39b18720a772cc4c00f437b90f88de859fef/tfds-nightly-4.9.2.dev202306070045.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [solver4mpi]: Downloading https://files.pythonhosted.org/packages/4f/69/1f71b0e06ab81eff618daaf00ef1131e196431a846c524daa5221edf9dda/solver4mpi-3.2.5.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [zeno-build]: Downloading https://files.pythonhosted.org/packages/74/8c/e4119764b14e649a0b122b95e01898c23d41d9ce4ca0f8abb4d41b9fb5e7/zeno_build-0.0.1.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [awstuff]: Downloading https://files.pythonhosted.org/packages/90/ba/8f1d8ceef515cd888a49d500ab9cf928f6ba63c62ad9aa4979d9a0e526cf/awstuff-0.21.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/5f/16/8e648eae090ad784ce4e601872b6808696088da29301c573853b7966cda5/vector2dggs-0.4.0.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/03/d5/0752bbc3e82edd356b4f0c69a11c9711eb09deabd1a6a8f948e2da46818d/dvc-data-0.8.0.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [captif-cpx-config]: Downloading https://files.pythonhosted.org/packages/9f/34/a3141e25ba79dbca6c8a10e2864061c570d0d67c117c62f96c34d26c75c6/captif_cpx_config-0.5.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [captif-cpx-config]: executing diffoscope
+[2023-06-09 02:49:25] INFO root fetch - processPackages [captif-cpx-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_config-0.4.tar.gz tmp/captif_cpx_config-0.5.tar.gz --markdown 20230609/c/captif-cpx-config/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-09 02:49:25] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [zeno-build]: Downloading https://files.pythonhosted.org/packages/79/8b/35cf8c6d6fc41ef224e0357fcdb96e9036952ede0ebee323a7841d4fa580/zeno_build-0.0.2.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/56/5a/4fbaf878ae5cc6ef82848ea399b20f022d753f3b22a2ece288f690e67f2b/tfds-nightly-4.9.2.dev202306080044.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [awstuff]: Downloading https://files.pythonhosted.org/packages/f8/a5/9d1863dea64df10d5cd3575e283a254654a3075a57d67b67f53114a023cc/awstuff-0.211.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/8c/65/1d133c2ce7da48539e36d2edda0ae3f74534e639f26efaef0c696860e8c2/dvc-data-0.9.0.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [solver4mpi]: Downloading https://files.pythonhosted.org/packages/26/cf/84e1344552db4409ae1c04ad7078692ca6d457fa7d6581644549e915fa9c/solver4mpi-3.2.6.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/74/09/36fbfaf60bedad12c43b96e8def90610bd8f54bdbea5fd1f81e5ca43057e/vector2dggs-0.5.0.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-09 02:49:25] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-0.8.0.tar.gz tmp/dvc-data-0.9.0.tar.gz --markdown 20230609/d/dvc-data/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 02:49:25] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-09 02:49:25] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.7.tar.gz tmp/kubric-nightly-2023.6.8.tar.gz --markdown 20230609/k/kubric-nightly/2023.6.7-2023.6.8/diff.md --exclude *.pyd
+[2023-06-09 02:49:25] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2023-06-09 02:49:25] INFO root fetch - processPackages [zeno-build]: executing diffoscope
+[2023-06-09 02:49:25] INFO root fetch - processPackages [zeno-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeno_build-0.0.1.tar.gz tmp/zeno_build-0.0.2.tar.gz --markdown 20230609/z/zeno-build/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-09 02:49:25] INFO root fetch - processPackages [awstuff]: executing diffoscope
+[2023-06-09 02:49:25] INFO root fetch - processPackages [awstuff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awstuff-0.21.tar.gz tmp/awstuff-0.211.tar.gz --markdown 20230609/a/awstuff/0.21-0.211/diff.md --exclude *.pyd
+[2023-06-09 02:49:26] INFO root fetch - processPackages [vector2dggs]: executing diffoscope
+[2023-06-09 02:49:26] INFO root fetch - processPackages [vector2dggs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector2dggs-0.4.0.tar.gz tmp/vector2dggs-0.5.0.tar.gz --markdown 20230609/v/vector2dggs/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-09 02:49:26] INFO root fetch - processPackages [solver4mpi]: executing diffoscope
+[2023-06-09 02:49:26] INFO root fetch - processPackages [solver4mpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solver4mpi-3.2.5.tar.gz tmp/solver4mpi-3.2.6.tar.gz --markdown 20230609/s/solver4mpi/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-06-09 02:49:26] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-09 02:49:26] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306070045.tar.gz tmp/tfds-nightly-4.9.2.dev202306080044.tar.gz --markdown 20230609/t/tfds-nightly/4.9.2.dev202306070045-4.9.2.dev202306080044/diff.md --exclude *.pyd
+[2023-06-09 02:49:26] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2023-06-09 02:49:26] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20230609/c/cpg-workflows/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-09 02:49:26] INFO root fetch - processPackages [mrpyconvert]: Remove: archive file [/home/abi/fetcher/tmp/mrpyconvert-0.1.8.tar.gz]
+[2023-06-09 02:49:26] INFO root fetch - processPackages [mrpyconvert]: Remove: archive file [/home/abi/fetcher/tmp/mrpyconvert-0.1.9.tar.gz]
+[2023-06-09 02:49:26] INFO root fetch - main [MainThread]: End processing [mrpyconvert]: success
+[2023-06-09 02:49:27] INFO root fetch - processPackages [captif-cpx-config]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_config-0.4.tar.gz]
+[2023-06-09 02:49:27] INFO root fetch - processPackages [captif-cpx-config]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_config-0.5.tar.gz]
+[2023-06-09 02:49:27] INFO root fetch - main [MainThread]: End processing [captif-cpx-config]: success
+[2023-06-09 02:49:27] INFO root fetch - processPackages [awstuff]: Remove: archive file [/home/abi/fetcher/tmp/awstuff-0.21.tar.gz]
+[2023-06-09 02:49:27] INFO root fetch - processPackages [awstuff]: Remove: archive file [/home/abi/fetcher/tmp/awstuff-0.211.tar.gz]
+[2023-06-09 02:49:27] INFO root fetch - main [MainThread]: End processing [awstuff]: success
+[2023-06-09 02:49:27] INFO root fetch - processPackages [solver4mpi]: Remove: archive file [/home/abi/fetcher/tmp/solver4mpi-3.2.5.tar.gz]
+[2023-06-09 02:49:27] INFO root fetch - processPackages [solver4mpi]: Remove: archive file [/home/abi/fetcher/tmp/solver4mpi-3.2.6.tar.gz]
+[2023-06-09 02:49:27] INFO root fetch - main [MainThread]: End processing [solver4mpi]: success
+[2023-06-09 02:49:27] INFO root fetch - processPackages [vector2dggs]: Remove: archive file [/home/abi/fetcher/tmp/vector2dggs-0.4.0.tar.gz]
+[2023-06-09 02:49:27] INFO root fetch - processPackages [vector2dggs]: Remove: archive file [/home/abi/fetcher/tmp/vector2dggs-0.5.0.tar.gz]
+[2023-06-09 02:49:27] INFO root fetch - main [MainThread]: End processing [vector2dggs]: success
+[2023-06-09 02:49:28] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-0.8.0.tar.gz]
+[2023-06-09 02:49:28] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-0.9.0.tar.gz]
+[2023-06-09 02:49:28] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-09 02:49:28] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.7.tar.gz]
+[2023-06-09 02:49:28] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-09 02:49:28] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-09 02:49:29] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2023-06-09 02:49:29] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2023-06-09 02:49:29] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2023-06-09 02:49:42] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306070045.tar.gz]
+[2023-06-09 02:49:42] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306080044.tar.gz]
+[2023-06-09 02:49:42] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-09 02:50:19] INFO root fetch - processPackages [zeno-build]: Remove: archive file [/home/abi/fetcher/tmp/zeno_build-0.0.1.tar.gz]
+[2023-06-09 02:50:19] INFO root fetch - processPackages [zeno-build]: Remove: archive file [/home/abi/fetcher/tmp/zeno_build-0.0.2.tar.gz]
+[2023-06-09 02:50:19] INFO root fetch - main [MainThread]: End processing [zeno-build]: success
+[2023-06-09 02:50:19] INFO root fetch - main [MainThread]: Store serial: [18432857]
