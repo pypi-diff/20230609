@@ -18065,3 +18065,95 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 09:44:13] INFO root fetch - processPackages [gfs-dynamical-core]: Remove: archive file [/home/abi/fetcher/tmp/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-09 09:44:13] INFO root fetch - main [MainThread]: End processing [gfs-dynamical-core]: success
 [2023-06-09 09:44:13] INFO root fetch - main [MainThread]: Store serial: [18437943]
+[2023-06-09 09:49:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437943]
+[2023-06-09 09:49:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-09 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dknovautils
+[2023-06-09 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmt
+[2023-06-09 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isilon-sdk-thaonv
+[2023-06-09 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-Ayiin
+[2023-06-09 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: muffin-rest
+[2023-06-09 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: momotor-django
+[2023-06-09 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wavebreaking
+[2023-06-09 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keras-nightly
+[2023-06-09 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tejapi
+[2023-06-09 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tap-tiktok-ads
+[2023-06-09 09:49:25] INFO root fetch - processPackages [dknovautils]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-09 09:49:25] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev9] Old Version: [0.4.4.dev8]
+[2023-06-09 09:49:25] INFO root fetch - processPackages [momotor-django]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-06-09 09:49:25] INFO root fetch - processPackages [tmt]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-09 09:49:25] WARNING root fetch - processPackages [isilon-sdk-thaonv]: Skipping, unable to determine old version
+[2023-06-09 09:49:25] INFO root fetch - processPackages [isilon-sdk-thaonv]: Start processing: nonebot-bison-migang
+[2023-06-09 09:49:25] INFO root fetch - main [MainThread]: End processing [isilon-sdk-thaonv] error
+[2023-06-09 09:49:25] INFO root fetch - processPackages [wavebreaking]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-09 09:49:25] INFO root fetch - processPackages [tejapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 09:49:25] INFO root fetch - processPackages [muffin-rest]: New version: [5.1.8] Old Version: [5.1.7]
+[2023-06-09 09:49:25] INFO root fetch - processPackages [tap-tiktok-ads]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-09 09:49:25] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-09 09:49:25] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 09:49:25] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-09 09:49:25] INFO root fetch - processPackages [nonebot-bison-migang]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-09 09:49:25] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/e6/cd/d1188fa5e22ddae2d0c43f902f54381fee4947355d5ca1221e9b994b88b0/dknovautils-0.1.6.tar.gz
+[2023-06-09 09:49:25] INFO root fetch - processPackages [tmt]: Downloading https://files.pythonhosted.org/packages/5f/7e/f7e9241769799015dcbae5d8845176dd3e9421cdd2542f620fb0dd918e09/tmt-1.8.0-py3-none-any.whl
+[2023-06-09 09:49:25] INFO root fetch - processPackages [momotor-django]: Downloading https://files.pythonhosted.org/packages/63/08/e631358c9bad2c8e6effb79800d452ce0d961ff4696ed0764200f3239d61/momotor-django-4.0.0.tar.gz
+[2023-06-09 09:49:25] INFO root fetch - processPackages [tap-tiktok-ads]: Downloading https://files.pythonhosted.org/packages/cc/27/2b4a93c6794881374e86ce939b13286ef164392c1529c9ed214a041472b2/tap-tiktok-ads-0.2.1.tar.gz
+[2023-06-09 09:49:26] INFO root fetch - processPackages [tejapi]: Downloading https://files.pythonhosted.org/packages/a2/f8/ecd3a6c88cbf49e61b643ce730730348501a9d699375594af1758f1f18c0/tejapi-0.1.8.tar.gz
+[2023-06-09 09:49:26] INFO root fetch - processPackages [nonebot-bison-migang]: Downloading https://files.pythonhosted.org/packages/66/2e/f10cecf368c48817ca08659896cd232b29ee174b759d6deb8641e3816827/nonebot_bison_migang-0.0.3.tar.gz
+[2023-06-09 09:49:26] INFO root fetch - processPackages [wavebreaking]: Downloading https://files.pythonhosted.org/packages/8d/2b/6d78c602137b5e045688376e63cda2467d4409c9f3782bb1ad4386bbc6ad/wavebreaking-0.3.4.tar.gz
+[2023-06-09 09:49:26] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/98/86/4cc0f19ece5608dbbb93697acfdc58bc6317d09d0ef9d34daccc45766607/muffin_rest-5.1.7.tar.gz
+[2023-06-09 09:49:26] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/a8/a9/9f3a9694572196e70e9ba540e00d88c2d3b5944a2117d502feede8f8b138/py-Ayiin-0.4.4.dev9.tar.gz
+[2023-06-09 09:49:26] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/72/47/8be36d2daace1996f44cca59ec573f26e8f717ff44ef0926481755fb4564/dknovautils-0.1.7.tar.gz
+[2023-06-09 09:49:26] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-06-09 09:49:26] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.1.6.tar.gz tmp/dknovautils-0.1.7.tar.gz --markdown 20230609/d/dknovautils/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-09 09:49:26] WARNING root fetch - processPackages [wavebreaking]: Skipping package: exceeds size limit 11109491>=10485760
+[2023-06-09 09:49:26] INFO root fetch - main [MainThread]: End processing [wavebreaking] error
+[2023-06-09 09:49:26] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 09:49:26] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev8.tar.gz tmp/py-Ayiin-0.4.4.dev9.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev8-0.4.4.dev9/diff.md --exclude *.pyd
+[2023-06-09 09:49:26] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/40/1c/9add12b350a8aac7e0e8fa3668fe349f9fd1dbb4e2ea9f006133f124c8cd/muffin_rest-5.1.8.tar.gz
+[2023-06-09 09:49:26] INFO root fetch - processPackages [tmt]: Downloading https://files.pythonhosted.org/packages/cb/c2/6437879ae74d655601098cb95fb0fabbb0f572238944ba0d0dd91fd25c7d/tmt-1.9.0-py3-none-any.whl
+[2023-06-09 09:49:26] INFO root fetch - processPackages [tap-tiktok-ads]: Downloading https://files.pythonhosted.org/packages/37/05/caf08629d4655525f6a5aede409f622331f836a6ab6d2efe151e7fa35414/tap-tiktok-ads-0.3.0.tar.gz
+[2023-06-09 09:49:26] INFO root fetch - processPackages [momotor-django]: Downloading https://files.pythonhosted.org/packages/c5/de/bae3dab56c2fc9d8d9da68658ff28c95959011e812fe2b7c51e06e52a4fb/momotor-django-4.1.0.tar.gz
+[2023-06-09 09:49:26] INFO root fetch - processPackages [tejapi]: Downloading https://files.pythonhosted.org/packages/9c/50/d570accf7223270797303b2ec9e43d8aa46e8e47d9ea923122cc1f9d06d6/tejapi-0.1.9.tar.gz
+[2023-06-09 09:49:26] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-09 09:49:26] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-06-09 09:49:26] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-5.1.7.tar.gz tmp/muffin_rest-5.1.8.tar.gz --markdown 20230609/m/muffin-rest/5.1.7-5.1.8/diff.md --exclude *.pyd
+[2023-06-09 09:49:26] INFO root fetch - processPackages [tap-tiktok-ads]: executing diffoscope
+[2023-06-09 09:49:26] INFO root fetch - processPackages [tap-tiktok-ads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-tiktok-ads-0.2.1.tar.gz tmp/tap-tiktok-ads-0.3.0.tar.gz --markdown 20230609/t/tap-tiktok-ads/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-09 09:49:26] INFO root fetch - processPackages [nonebot-bison-migang]: Downloading https://files.pythonhosted.org/packages/aa/14/843c5f183f4ca228d799641aaa18a0f66d8978d7d237c0735a2ea5d07e38/nonebot_bison_migang-0.0.4.tar.gz
+[2023-06-09 09:49:26] INFO root fetch - processPackages [momotor-django]: executing diffoscope
+[2023-06-09 09:49:26] INFO root fetch - processPackages [momotor-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momotor-django-4.0.0.tar.gz tmp/momotor-django-4.1.0.tar.gz --markdown 20230609/m/momotor-django/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-06-09 09:49:26] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-09 09:49:26] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230609/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-09 09:49:26] INFO root fetch - processPackages [tmt]: executing diffoscope
+[2023-06-09 09:49:26] INFO root fetch - processPackages [tmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmt-1.8.0-py3-none-any.whl.zip tmp/tmt-1.9.0-py3-none-any.whl.zip --markdown 20230609/t/tmt/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-09 09:49:26] INFO root fetch - processPackages [nonebot-bison-migang]: executing diffoscope
+[2023-06-09 09:49:26] INFO root fetch - processPackages [nonebot-bison-migang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_bison_migang-0.0.3.tar.gz tmp/nonebot_bison_migang-0.0.4.tar.gz --markdown 20230609/n/nonebot-bison-migang/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-09 09:49:26] INFO root fetch - processPackages [tejapi]: executing diffoscope
+[2023-06-09 09:49:26] INFO root fetch - processPackages [tejapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tejapi-0.1.8.tar.gz tmp/tejapi-0.1.9.tar.gz --markdown 20230609/t/tejapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 09:49:27] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.6.tar.gz]
+[2023-06-09 09:49:27] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.7.tar.gz]
+[2023-06-09 09:49:27] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-06-09 09:49:27] INFO root fetch - processPackages [tap-tiktok-ads]: Remove: archive file [/home/abi/fetcher/tmp/tap-tiktok-ads-0.2.1.tar.gz]
+[2023-06-09 09:49:27] INFO root fetch - processPackages [tap-tiktok-ads]: Remove: archive file [/home/abi/fetcher/tmp/tap-tiktok-ads-0.3.0.tar.gz]
+[2023-06-09 09:49:27] INFO root fetch - main [MainThread]: End processing [tap-tiktok-ads]: success
+[2023-06-09 09:49:27] INFO root fetch - processPackages [momotor-django]: Remove: archive file [/home/abi/fetcher/tmp/momotor-django-4.0.0.tar.gz]
+[2023-06-09 09:49:27] INFO root fetch - processPackages [momotor-django]: Remove: archive file [/home/abi/fetcher/tmp/momotor-django-4.1.0.tar.gz]
+[2023-06-09 09:49:27] INFO root fetch - main [MainThread]: End processing [momotor-django]: success
+[2023-06-09 09:49:28] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.7.tar.gz]
+[2023-06-09 09:49:28] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.8.tar.gz]
+[2023-06-09 09:49:28] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-06-09 09:49:28] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 09:49:28] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
+[2023-06-09 09:49:28] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 09:49:28] INFO root fetch - processPackages [tejapi]: Remove: archive file [/home/abi/fetcher/tmp/tejapi-0.1.8.tar.gz]
+[2023-06-09 09:49:28] INFO root fetch - processPackages [tejapi]: Remove: archive file [/home/abi/fetcher/tmp/tejapi-0.1.9.tar.gz]
+[2023-06-09 09:49:28] INFO root fetch - main [MainThread]: End processing [tejapi]: success
+[2023-06-09 09:49:28] INFO root fetch - processPackages [tmt]: Remove: archive file [/home/abi/fetcher/tmp/tmt-1.8.0-py3-none-any.whl.zip]
+[2023-06-09 09:49:28] INFO root fetch - processPackages [tmt]: Remove: archive file [/home/abi/fetcher/tmp/tmt-1.9.0-py3-none-any.whl.zip]
+[2023-06-09 09:49:28] INFO root fetch - main [MainThread]: End processing [tmt]: success
+[2023-06-09 09:49:35] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-09 09:49:35] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-09 09:49:35] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-09 09:50:23] INFO root fetch - processPackages [nonebot-bison-migang]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_bison_migang-0.0.3.tar.gz]
+[2023-06-09 09:50:23] INFO root fetch - processPackages [nonebot-bison-migang]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_bison_migang-0.0.4.tar.gz]
+[2023-06-09 09:50:23] INFO root fetch - main [MainThread]: End processing [nonebot-bison-migang]: success
+[2023-06-09 09:50:23] INFO root fetch - main [MainThread]: Store serial: [18437980]
