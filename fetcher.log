@@ -18923,3 +18923,124 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-06-09 10:23:43] INFO root fetch - main [MainThread]: End processing [pycde] error
 [2023-06-09 10:23:43] INFO root fetch - main [MainThread]: Store serial: [18438277]
+[2023-06-09 10:28:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438277]
+[2023-06-09 10:28:54] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-09 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etos-lib
+[2023-06-09 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mltlk
+[2023-06-09 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tartube
+[2023-06-09 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: returnn
+[2023-06-09 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pcdl
+[2023-06-09 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tempest
+[2023-06-09 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-model-optimization-nightly
+[2023-06-09 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clipped-chicken-samwich
+[2023-06-09 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-Ayiin
+[2023-06-09 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: starlite-users
+[2023-06-09 10:28:54] INFO root fetch - processPackages [returnn]: New version: [1.20230609.82609] Old Version: [1.20230603.803]
+[2023-06-09 10:28:54] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/98/60/00d095a3b198b53f51680ba5ca036b34ab6bc0f8aea9bd44f5eb7fe4befa/returnn-1.20230603.803.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [etos-lib]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-06-09 10:28:54] INFO root fetch - processPackages [starlite-users]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-09 10:28:54] INFO root fetch - processPackages [pcdl]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-09 10:28:54] WARNING root fetch - processPackages [clipped-chicken-samwich]: Skipping, unable to determine old version
+[2023-06-09 10:28:54] INFO root fetch - processPackages [clipped-chicken-samwich]: Start processing: pcdl
+[2023-06-09 10:28:54] INFO root fetch - main [MainThread]: End processing [clipped-chicken-samwich] error
+[2023-06-09 10:28:54] INFO root fetch - processPackages [tempest]: New version: [35.0.0] Old Version: [34.2.0]
+[2023-06-09 10:28:54] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-09 10:28:54] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230609] Old Version: [0.7.5.dev20230608]
+[2023-06-09 10:28:54] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev9] Old Version: [0.4.4.dev8]
+[2023-06-09 10:28:54] INFO root fetch - processPackages [tartube]: New version: [2.4.93] Old Version: [2.4.8]
+[2023-06-09 10:28:54] INFO root fetch - processPackages [pcdl]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-09 10:28:54] INFO root fetch - processPackages [tartube]: Downloading https://files.pythonhosted.org/packages/5b/2e/b8c25a1e8f40c4a287b24d28815b07ff2ca0979f2596748e98781e3fd6bb/tartube-2.4.8.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/e8/ac/1df8a89115b23e3293df3558cde1106ca46097b6a2928546c000694fa09f/etos_lib-3.2.0.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/c6/00/cc6063bfb1a8bb0db2fb94a245fb7d4dd658222e4419f3ac37ec7dde784e/returnn-1.20230609.82609.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [starlite-users]: Downloading https://files.pythonhosted.org/packages/8a/40/8c703050c66a0deb2d5674bd9ca6c0ccf61ad8f661c5adc4bff4e4891b65/starlite_users-0.7.0.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/47/6b/a1a17a7213d07066e186a8709b694b3baa705ac66d362410f27197053dd1/pcdl-3.1.0.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/47/6b/a1a17a7213d07066e186a8709b694b3baa705ac66d362410f27197053dd1/pcdl-3.1.0.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [tempest]: Downloading https://files.pythonhosted.org/packages/d0/af/bf731e9e87d0688206191b0558c1ce732d7303f47f4ef0ea9c9af5695835/tempest-34.2.0.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b9/9804867ca3a5f209d396af27b5b71ff516eb011af1b6d8d91b9dbdb94b4f/tf_model_optimization_nightly-0.7.5.dev20230608-py2.py3-none-any.whl
+[2023-06-09 10:28:54] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-06-09 10:28:54] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230603.803.tar.gz tmp/returnn-1.20230609.82609.tar.gz --markdown 20230609/r/returnn/1.20230603.803-1.20230609.82609/diff.md --exclude *.pyd
+[2023-06-09 10:28:54] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/a8/a9/9f3a9694572196e70e9ba540e00d88c2d3b5944a2117d502feede8f8b138/py-Ayiin-0.4.4.dev9.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/f8/a2/bc24958bf1b4ee56c8d4ca03fbac2ea2059c33dccc7fad1e4e05cb56d95b/etos_lib-3.2.1.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 10:28:54] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev8.tar.gz tmp/py-Ayiin-0.4.4.dev9.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev8-0.4.4.dev9/diff.md --exclude *.pyd
+[2023-06-09 10:28:54] INFO root fetch - processPackages [starlite-users]: Downloading https://files.pythonhosted.org/packages/3c/3b/bfac0a0fa91fa4558d454044cbf8a8c8433eb07e4126fa33894c34e5def1/starlite_users-0.7.1.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [etos-lib]: executing diffoscope
+[2023-06-09 10:28:54] INFO root fetch - processPackages [etos-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_lib-3.2.0.tar.gz tmp/etos_lib-3.2.1.tar.gz --markdown 20230609/e/etos-lib/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-06-09 10:28:54] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/d1/7c/b6b743cfcf535def40f5083927cecc6969bdc82e3f7b469b3083cc431e91/pcdl-3.1.1.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/d1/7c/b6b743cfcf535def40f5083927cecc6969bdc82e3f7b469b3083cc431e91/pcdl-3.1.1.tar.gz
+[2023-06-09 10:28:54] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/4e/6c/7798e711468e640316ce0f214b94508428242879cef7b677fd2e8de770c6/tf_model_optimization_nightly-0.7.5.dev20230609-py2.py3-none-any.whl
+[2023-06-09 10:28:54] INFO root fetch - processPackages [starlite-users]: executing diffoscope
+[2023-06-09 10:28:54] INFO root fetch - processPackages [starlite-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlite_users-0.7.0.tar.gz tmp/starlite_users-0.7.1.tar.gz --markdown 20230609/s/starlite-users/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-09 10:28:54] INFO root fetch - processPackages [tempest]: Downloading https://files.pythonhosted.org/packages/67/ad/194d16a8f4028f55babd6bcb04b529ad7ffe91d899527cbaef0c3cd907d8/tempest-35.0.0.tar.gz
+[2023-06-09 10:28:55] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-06-09 10:28:55] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230608-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230609-py2.py3-none-any.whl.zip --markdown 20230609/t/tf-model-optimization-nightly/0.7.5.dev20230608-0.7.5.dev20230609/diff.md --exclude *.pyd
+[2023-06-09 10:28:55] INFO root fetch - processPackages [pcdl]: executing diffoscope
+[2023-06-09 10:28:55] INFO root fetch - processPackages [pcdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcdl-3.1.0.tar.gz tmp/pcdl-3.1.1.tar.gz --markdown 20230609/p/pcdl/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-09 10:28:55] INFO root fetch - processPackages [pcdl]: executing diffoscope
+[2023-06-09 10:28:55] INFO root fetch - processPackages [pcdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcdl-3.1.0.tar.gz tmp/pcdl-3.1.1.tar.gz --markdown 20230609/p/pcdl/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-09 10:28:55] INFO root fetch - processPackages [tempest]: executing diffoscope
+[2023-06-09 10:28:55] INFO root fetch - processPackages [tempest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempest-34.2.0.tar.gz tmp/tempest-35.0.0.tar.gz --markdown 20230609/t/tempest/34.2.0-35.0.0/diff.md --exclude *.pyd
+[2023-06-09 10:28:55] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-09 10:28:55] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-09 10:28:55] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230609/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-09 10:28:56] INFO root fetch - processPackages [starlite-users]: Remove: archive file [/home/abi/fetcher/tmp/starlite_users-0.7.0.tar.gz]
+[2023-06-09 10:28:56] INFO root fetch - processPackages [starlite-users]: Remove: archive file [/home/abi/fetcher/tmp/starlite_users-0.7.1.tar.gz]
+[2023-06-09 10:28:56] INFO root fetch - processPackages [starlite-users]: Start processing: kalm
+[2023-06-09 10:28:56] INFO root fetch - main [MainThread]: End processing [starlite-users]: success
+[2023-06-09 10:28:56] INFO root fetch - processPackages [tartube]: Downloading https://files.pythonhosted.org/packages/f9/ec/e2bfdd9302a52757fbf0a83ce41fc44410435ec0c6cc07fad131aa742c6b/tartube-2.4.93.tar.gz
+[2023-06-09 10:28:56] INFO root fetch - processPackages [kalm]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-09 10:28:56] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/08/d6/afbd93ab17a860658e3f78d89626ca0ad442f18d7058216f69066b2b251d/kalm-0.6.8.tar.gz
+[2023-06-09 10:28:56] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f3/ee/21230318a80577b7a92a016e6f1cf516735d553ff6164c13ff461de986aa/kalm-0.6.9.tar.gz
+[2023-06-09 10:28:56] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-09 10:28:56] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.8.tar.gz tmp/kalm-0.6.9.tar.gz --markdown 20230609/k/kalm/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-09 10:28:56] INFO root fetch - processPackages [etos-lib]: Remove: archive file [/home/abi/fetcher/tmp/etos_lib-3.2.0.tar.gz]
+[2023-06-09 10:28:56] INFO root fetch - processPackages [etos-lib]: Remove: archive file [/home/abi/fetcher/tmp/etos_lib-3.2.1.tar.gz]
+[2023-06-09 10:28:56] INFO root fetch - processPackages [etos-lib]: Start processing: libretrofuzz
+[2023-06-09 10:28:56] INFO root fetch - main [MainThread]: End processing [etos-lib]: success
+[2023-06-09 10:28:56] INFO root fetch - processPackages [libretrofuzz]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-09 10:28:56] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/ed/f5/6cb5963553a01dc662528d72b94f056eb8ae4151ce9210e703ba4e62749d/libretrofuzz-3.0.0.tar.gz
+[2023-06-09 10:28:57] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230608-py2.py3-none-any.whl.zip]
+[2023-06-09 10:28:57] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230609-py2.py3-none-any.whl.zip]
+[2023-06-09 10:28:57] INFO root fetch - processPackages [tf-model-optimization-nightly]: Start processing: Appium-Python-Client
+[2023-06-09 10:28:57] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-06-09 10:28:57] INFO root fetch - processPackages [Appium-Python-Client]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-09 10:28:57] INFO root fetch - processPackages [Appium-Python-Client]: Downloading https://files.pythonhosted.org/packages/d8/be/c517d6b438a842f66a8685d02d7a379345af11c11b986659bec185c1759a/Appium-Python-Client-2.8.1.tar.gz
+[2023-06-09 10:28:57] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-06-09 10:28:57] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-06-09 10:28:57] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-09 10:28:57] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/47/16/c9b90907f0297632401d76f27b43930a3b56f30ceee7d54ab661768a60c3/libretrofuzz-3.0.1.tar.gz
+[2023-06-09 10:28:57] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-09 10:28:57] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-3.0.0.tar.gz tmp/libretrofuzz-3.0.1.tar.gz --markdown 20230609/l/libretrofuzz/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-09 10:28:57] INFO root fetch - processPackages [tartube]: executing diffoscope
+[2023-06-09 10:28:57] INFO root fetch - processPackages [tartube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tartube-2.4.8.tar.gz tmp/tartube-2.4.93.tar.gz --markdown 20230609/t/tartube/2.4.8-2.4.93/diff.md --exclude *.pyd
+[2023-06-09 10:28:57] INFO root fetch - processPackages [Appium-Python-Client]: Downloading https://files.pythonhosted.org/packages/e3/bd/ed36966337d80d66fb2b794320b765b065a6656befa5c4e9232728fd15cd/Appium-Python-Client-2.9.0.tar.gz
+[2023-06-09 10:28:57] INFO root fetch - processPackages [Appium-Python-Client]: executing diffoscope
+[2023-06-09 10:28:57] INFO root fetch - processPackages [Appium-Python-Client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Appium-Python-Client-2.8.1.tar.gz tmp/Appium-Python-Client-2.9.0.tar.gz --markdown 20230609/A/Appium-Python-Client/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-09 10:28:57] INFO root fetch - processPackages [pcdl]: Remove: archive file [/home/abi/fetcher/tmp/pcdl-3.1.0.tar.gz]
+[2023-06-09 10:28:57] INFO root fetch - processPackages [pcdl]: Remove: archive file [/home/abi/fetcher/tmp/pcdl-3.1.1.tar.gz]
+[2023-06-09 10:28:57] INFO root fetch - main [MainThread]: End processing [pcdl]: success
+[2023-06-09 10:28:57] INFO root fetch - main [MainThread]: End processing [pcdl]: success
+[2023-06-09 10:28:58] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.8.tar.gz]
+[2023-06-09 10:28:58] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.9.tar.gz]
+[2023-06-09 10:28:58] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-09 10:28:58] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.0.tar.gz]
+[2023-06-09 10:28:58] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.1.tar.gz]
+[2023-06-09 10:28:58] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-09 10:28:59] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 10:28:59] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
+[2023-06-09 10:28:59] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 10:28:59] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230603.803.tar.gz]
+[2023-06-09 10:28:59] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230609.82609.tar.gz]
+[2023-06-09 10:28:59] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-06-09 10:29:01] INFO root fetch - processPackages [Appium-Python-Client]: Remove: archive file [/home/abi/fetcher/tmp/Appium-Python-Client-2.8.1.tar.gz]
+[2023-06-09 10:29:01] INFO root fetch - processPackages [Appium-Python-Client]: Remove: archive file [/home/abi/fetcher/tmp/Appium-Python-Client-2.9.0.tar.gz]
+[2023-06-09 10:29:01] INFO root fetch - main [MainThread]: End processing [Appium-Python-Client]: success
+[2023-06-09 10:29:04] INFO root fetch - processPackages [tartube]: Remove: archive file [/home/abi/fetcher/tmp/tartube-2.4.8.tar.gz]
+[2023-06-09 10:29:04] INFO root fetch - processPackages [tartube]: Remove: archive file [/home/abi/fetcher/tmp/tartube-2.4.93.tar.gz]
+[2023-06-09 10:29:04] INFO root fetch - main [MainThread]: End processing [tartube]: success
+[2023-06-09 10:29:16] INFO root fetch - processPackages [tempest]: Remove: archive file [/home/abi/fetcher/tmp/tempest-34.2.0.tar.gz]
+[2023-06-09 10:29:16] INFO root fetch - processPackages [tempest]: Remove: archive file [/home/abi/fetcher/tmp/tempest-35.0.0.tar.gz]
+[2023-06-09 10:29:16] INFO root fetch - main [MainThread]: End processing [tempest]: success
+[2023-06-09 10:29:16] INFO root fetch - main [MainThread]: Store serial: [18438327]
