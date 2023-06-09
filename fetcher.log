@@ -7185,3 +7185,79 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 04:01:28] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.99.tar.gz]
 [2023-06-09 04:01:28] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-06-09 04:01:28] INFO root fetch - main [MainThread]: Store serial: [18434298]
+[2023-06-09 04:06:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18434298]
+[2023-06-09 04:06:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 04:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openi-test
+[2023-06-09 04:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duckdb
+[2023-06-09 04:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tiledb
+[2023-06-09 04:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudvault
+[2023-06-09 04:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcrx-api
+[2023-06-09 04:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libretrofuzz
+[2023-06-09 04:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openi-test
+[2023-06-09 04:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spaceone-core
+[2023-06-09 04:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: homeassistant-stubs
+[2023-06-09 04:06:37] INFO root fetch - processPackages [libretrofuzz]: New version: [3.0.0] Old Version: [2.9.9]
+[2023-06-09 04:06:37] INFO root fetch - processPackages [openi-test]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-09 04:06:37] INFO root fetch - processPackages [openi-test]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-09 04:06:37] INFO root fetch - processPackages [dcrx-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-09 04:06:37] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-09 04:06:37] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.6.0b6] Old Version: [2023.6.0b5]
+[2023-06-09 04:06:37] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/26/06/7d63e6d0caeea0d9254642ef0655c9d03f584040aea72997b4d21418687e/openi-test-0.0.6.tar.gz
+[2023-06-09 04:06:37] WARNING root fetch - processPackages [cloudvault]: Skipping, unable to determine old version
+[2023-06-09 04:06:37] INFO root fetch - main [MainThread]: End processing [cloudvault] error
+[2023-06-09 04:06:37] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/67/5e/1baae1daef4aebc0f0808cfdbe526714525f833677083216dfc04a8f679d/dcrx-api-0.0.5.tar.gz
+[2023-06-09 04:06:37] INFO root fetch - processPackages [tiledb]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-09 04:06:37] INFO root fetch - processPackages [duckdb]: New version: [0.8.1.dev407] Old Version: [0.8.1.dev355]
+[2023-06-09 04:06:37] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/26/06/7d63e6d0caeea0d9254642ef0655c9d03f584040aea72997b4d21418687e/openi-test-0.0.6.tar.gz
+[2023-06-09 04:06:37] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/c4/69/3dc43957ad2b060874d3080814d3073e7c355be49d135908f75c30eefded/libretrofuzz-2.9.9.tar.gz
+[2023-06-09 04:06:37] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-09 04:06:37] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/33/51/163bf52b57c14a90c367f52063e5894812bd03ac584c07ed7b3bd4148050/dcrx-api-0.0.6.tar.gz
+[2023-06-09 04:06:37] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/90/19/0feb9d13d410d241665e78085b90be4838ef7289ed4399f2580a2b4dd8b3/homeassistant_stubs-2023.6.0b5.tar.gz
+[2023-06-09 04:06:37] INFO root fetch - processPackages [tiledb]: Downloading https://files.pythonhosted.org/packages/a6/bb/0b224f95554a746b8b636f3022ddc5a851deefae6fd90452b6ab95bd9de1/tiledb-0.9.4.tar.gz
+[2023-06-09 04:06:38] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/c6/a4/3a8035503846dc5933d67e20908f78312612911d0683be6808fe1220e536/openi-test-0.0.7.tar.gz
+[2023-06-09 04:06:38] INFO root fetch - processPackages [openi-test]: Downloading https://files.pythonhosted.org/packages/c6/a4/3a8035503846dc5933d67e20908f78312612911d0683be6808fe1220e536/openi-test-0.0.7.tar.gz
+[2023-06-09 04:06:38] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-09 04:06:38] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/b1/7d/e541957c0a1d4bfdc3b63c97565e16d641a71c20f7ed2fca4fa70360d8a6/duckdb-0.8.1.dev355.tar.gz
+[2023-06-09 04:06:38] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-09 04:06:38] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.0.5.tar.gz tmp/dcrx-api-0.0.6.tar.gz --markdown 20230609/d/dcrx-api/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-09 04:06:38] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/9f/dd/b35d6d5011b25c088677527f39d883311378404b22fc3dac5511b3031d1c/homeassistant_stubs-2023.6.0b6.tar.gz
+[2023-06-09 04:06:38] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-09 04:06:38] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230609/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-09 04:06:38] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-06-09 04:06:38] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.6.0b5.tar.gz tmp/homeassistant_stubs-2023.6.0b6.tar.gz --markdown 20230609/h/homeassistant-stubs/2023.6.0b5-2023.6.0b6/diff.md --exclude *.pyd
+[2023-06-09 04:06:38] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/ed/f5/6cb5963553a01dc662528d72b94f056eb8ae4151ce9210e703ba4e62749d/libretrofuzz-3.0.0.tar.gz
+[2023-06-09 04:06:38] INFO root fetch - processPackages [openi-test]: executing diffoscope
+[2023-06-09 04:06:38] INFO root fetch - processPackages [openi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-test-0.0.6.tar.gz tmp/openi-test-0.0.7.tar.gz --markdown 20230609/o/openi-test/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-09 04:06:38] INFO root fetch - processPackages [openi-test]: executing diffoscope
+[2023-06-09 04:06:38] INFO root fetch - processPackages [openi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-test-0.0.6.tar.gz tmp/openi-test-0.0.7.tar.gz --markdown 20230609/o/openi-test/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-09 04:06:38] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-09 04:06:38] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-2.9.9.tar.gz tmp/libretrofuzz-3.0.0.tar.gz --markdown 20230609/l/libretrofuzz/2.9.9-3.0.0/diff.md --exclude *.pyd
+[2023-06-09 04:06:38] INFO root fetch - processPackages [tiledb]: Downloading https://files.pythonhosted.org/packages/f8/e1/999448b6ef9ee22f6171c37306b83f59ccf699de7fee4ed271b7e06a796c/tiledb-0.9.5.tar.gz
+[2023-06-09 04:06:38] INFO root fetch - processPackages [tiledb]: executing diffoscope
+[2023-06-09 04:06:38] INFO root fetch - processPackages [tiledb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb-0.9.4.tar.gz tmp/tiledb-0.9.5.tar.gz --markdown 20230609/t/tiledb/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-09 04:06:39] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.0.5.tar.gz]
+[2023-06-09 04:06:39] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.0.6.tar.gz]
+[2023-06-09 04:06:39] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-09 04:06:39] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi-test-0.0.6.tar.gz]
+[2023-06-09 04:06:39] INFO root fetch - processPackages [openi-test]: Remove: archive file [/home/abi/fetcher/tmp/openi-test-0.0.7.tar.gz]
+[2023-06-09 04:06:39] INFO root fetch - main [MainThread]: End processing [openi-test]: success
+[2023-06-09 04:06:39] INFO root fetch - main [MainThread]: End processing [openi-test]: success
+[2023-06-09 04:06:39] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/d7/bd/c956485a5fca83edcd2902117aac051742c9467b8beeeace5aa1de55f239/duckdb-0.8.1.dev407-cp37-cp37m-win_amd64.whl
+[2023-06-09 04:06:39] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-09 04:06:39] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-09 04:06:39] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-09 04:06:39] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-2.9.9.tar.gz]
+[2023-06-09 04:06:39] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.0.tar.gz]
+[2023-06-09 04:06:39] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-09 04:06:40] INFO root fetch - processPackages [tiledb]: Remove: archive file [/home/abi/fetcher/tmp/tiledb-0.9.4.tar.gz]
+[2023-06-09 04:06:40] INFO root fetch - processPackages [tiledb]: Remove: archive file [/home/abi/fetcher/tmp/tiledb-0.9.5.tar.gz]
+[2023-06-09 04:06:40] INFO root fetch - main [MainThread]: End processing [tiledb]: success
+[2023-06-09 04:06:41] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-06-09 04:06:41] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.1.dev355.tar.gz tmp/duckdb-0.8.1.dev407-cp37-cp37m-win_amd64.whl.zip --markdown 20230609/d/duckdb/0.8.1.dev355-0.8.1.dev407/diff.md --exclude *.pyd
+[2023-06-09 04:06:43] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.1.dev355.tar.gz]
+[2023-06-09 04:06:43] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.1.dev407-cp37-cp37m-win_amd64.whl.zip]
+[2023-06-09 04:06:43] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-06-09 04:07:25] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.6.0b5.tar.gz]
+[2023-06-09 04:07:25] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.6.0b6.tar.gz]
+[2023-06-09 04:07:25] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-06-09 04:07:25] INFO root fetch - main [MainThread]: Store serial: [18434348]
