@@ -14165,3 +14165,250 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 07:05:24] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.2.97.tar.gz]
 [2023-06-09 07:05:24] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2023-06-09 07:05:24] INFO root fetch - main [MainThread]: Store serial: [18436518]
+[2023-06-09 07:10:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436518]
+[2023-06-09 07:10:34] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-09 07:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyagrum-nightly
+[2023-06-09 07:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mario-airflow-utils
+[2023-06-09 07:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multi-model-server
+[2023-06-09 07:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo11-addon-auth-brute-force
+[2023-06-09 07:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-users-ldap-populate
+[2023-06-09 07:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo11-addon-keychain
+[2023-06-09 07:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo11-addon-auth-totp
+[2023-06-09 07:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dask-cuda
+[2023-06-09 07:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-auth-totp
+[2023-06-09 07:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dask-cuda
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-auth-brute-force]: New version: [11.0.1.2.0.99.dev9] Old Version: [11.0.1.2.0.99.dev15]
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo12-addon-users-ldap-populate]: New version: [12.0.1.0.2.99.dev3] Old Version: [12.0.1.0.2.99.dev2]
+[2023-06-09 07:10:34] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-auth-totp]: New version: [11.0.1.1.0.99.dev5] Old Version: [11.0.1.1.0.99.dev4]
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-keychain]: New version: [11.0.3.0.0.99.dev7] Old Version: [11.0.3.0.0.99.dev6]
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo12-addon-auth-totp]: New version: [12.0.1.1.0.99.dev5] Old Version: [12.0.1.1.0.99.dev4]
+[2023-06-09 07:10:34] INFO root fetch - processPackages [mario-airflow-utils]: New version: [0.5.0] Old Version: [0.3.0]
+[2023-06-09 07:10:34] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230609] Old Version: [23.8.0a230608]
+[2023-06-09 07:10:34] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230609] Old Version: [23.8.0a230608]
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-auth-brute-force]: Downloading https://files.pythonhosted.org/packages/03/30/4724fcedeafd4453aaac997d31e8077a1ced486e32818b571fc99ca84bc8/odoo11_addon_auth_brute_force-11.0.1.2.0.99.dev15-py2.py3-none-any.whl
+[2023-06-09 07:10:34] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-09 07:10:34] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230609/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-keychain]: Downloading https://files.pythonhosted.org/packages/20/3b/cc780e603bd8ae3c5199bb1c0edc0584199009dab0bc7f57fd57fcbd0258/odoo11_addon_keychain-11.0.3.0.0.99.dev6-py2.py3-none-any.whl
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo12-addon-auth-totp]: Downloading https://files.pythonhosted.org/packages/ce/b3/fb6e3f8a27a14c6fe478dffb44fda74a1ed4828e21f31beab6d57eabd34d/odoo12_addon_auth_totp-12.0.1.1.0.99.dev4-py3-none-any.whl
+[2023-06-09 07:10:34] INFO root fetch - processPackages [mario-airflow-utils]: Downloading https://files.pythonhosted.org/packages/1f/1e/97d84bd67c3d594916e44d05a18faf7bc7561a2f29d8a22ee6e3428e6326/mario_airflow_utils-0.3.0.tar.gz
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo12-addon-users-ldap-populate]: Downloading https://files.pythonhosted.org/packages/b9/cf/c450155fc4aeecf75ebfa2c0ef10d9f81d2208d3a9aa03ba415e1529366f/odoo12_addon_users_ldap_populate-12.0.1.0.2.99.dev2-py3-none-any.whl
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-auth-totp]: Downloading https://files.pythonhosted.org/packages/2c/21/06f67d78fc6c1e9749087abe6f171d4df5a24c10a2440247068b91cf96b3/odoo11_addon_auth_totp-11.0.1.1.0.99.dev4-py2.py3-none-any.whl
+[2023-06-09 07:10:34] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/17/d0/fbc653cf53a2451f26dee5b32ed125a251d1b4a05d9382dc7f69f872cf1c/dask-cuda-23.8.0a230608.tar.gz
+[2023-06-09 07:10:34] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/17/d0/fbc653cf53a2451f26dee5b32ed125a251d1b4a05d9382dc7f69f872cf1c/dask-cuda-23.8.0a230608.tar.gz
+[2023-06-09 07:10:34] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.2.dev202306031685623169] Old Version: [1.8.2.dev202306021685623169]
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-auth-brute-force]: Downloading https://files.pythonhosted.org/packages/bb/bb/37ea41077186ca89ca39344ebbf8a64ba51ec78f19ac22a4b0393f9992e7/odoo11_addon_auth_brute_force-11.0.1.2.0.99.dev9-py2.py3-none-any.whl
+[2023-06-09 07:10:34] INFO root fetch - processPackages [mario-airflow-utils]: Downloading https://files.pythonhosted.org/packages/8e/f1/432de4437cbb76061add3ccbf1101a483057968a952e7bede443f50c6c7a/mario_airflow_utils-0.5.0.tar.gz
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo12-addon-users-ldap-populate]: Downloading https://files.pythonhosted.org/packages/a7/8e/a1bcae6aca1956486a3af8240a38d3a6b1a767168064cc490ee256c9f8b1/odoo12_addon_users_ldap_populate-12.0.1.0.2.99.dev3-py3-none-any.whl
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-keychain]: Downloading https://files.pythonhosted.org/packages/14/15/1d5212964b21139814309258f68958a0eddd9999f2096ae03ccbe384d3a5/odoo11_addon_keychain-11.0.3.0.0.99.dev7-py2.py3-none-any.whl
+[2023-06-09 07:10:34] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/59/93/964ce2764a2f839a2786f2a72ec25771f7441d8cd0407a54aec2074bc275/pyAgrum_nightly-1.8.2.dev202306021685623169-cp39-cp39-win_amd64.whl
+[2023-06-09 07:10:34] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/bc/81/338e87193c41d57a160d416912e2f7cdadba857c8d0b059e564b0638e83e/dask-cuda-23.8.0a230609.tar.gz
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo12-addon-auth-totp]: Downloading https://files.pythonhosted.org/packages/10/aa/1b10e7f74194590ed4a2dc4fb9e1c1de99ef17d6f573fbaf036bfeb8cd22/odoo12_addon_auth_totp-12.0.1.1.0.99.dev5-py3-none-any.whl
+[2023-06-09 07:10:34] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/bc/81/338e87193c41d57a160d416912e2f7cdadba857c8d0b059e564b0638e83e/dask-cuda-23.8.0a230609.tar.gz
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-auth-totp]: Downloading https://files.pythonhosted.org/packages/66/71/f2bf7ebb8dbe89b3175ee88813ac5c6881e04e1a11c116a59610cfda5895/odoo11_addon_auth_totp-11.0.1.1.0.99.dev5-py2.py3-none-any.whl
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo12-addon-users-ldap-populate]: executing diffoscope
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo12-addon-users-ldap-populate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_users_ldap_populate-12.0.1.0.2.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_users_ldap_populate-12.0.1.0.2.99.dev3-py3-none-any.whl.zip --markdown 20230609/o/odoo12-addon-users-ldap-populate/12.0.1.0.2.99.dev2-12.0.1.0.2.99.dev3/diff.md --exclude *.pyd
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo12-addon-auth-totp]: executing diffoscope
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo12-addon-auth-totp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_auth_totp-12.0.1.1.0.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_auth_totp-12.0.1.1.0.99.dev5-py3-none-any.whl.zip --markdown 20230609/o/odoo12-addon-auth-totp/12.0.1.1.0.99.dev4-12.0.1.1.0.99.dev5/diff.md --exclude *.pyd
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-auth-totp]: executing diffoscope
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-auth-totp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_auth_totp-11.0.1.1.0.99.dev4-py2.py3-none-any.whl.zip tmp/odoo11_addon_auth_totp-11.0.1.1.0.99.dev5-py2.py3-none-any.whl.zip --markdown 20230609/o/odoo11-addon-auth-totp/11.0.1.1.0.99.dev4-11.0.1.1.0.99.dev5/diff.md --exclude *.pyd
+[2023-06-09 07:10:34] INFO root fetch - processPackages [mario-airflow-utils]: executing diffoscope
+[2023-06-09 07:10:34] INFO root fetch - processPackages [mario-airflow-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mario_airflow_utils-0.3.0.tar.gz tmp/mario_airflow_utils-0.5.0.tar.gz --markdown 20230609/m/mario-airflow-utils/0.3.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-09 07:10:34] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-09 07:10:34] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230608.tar.gz tmp/dask-cuda-23.8.0a230609.tar.gz --markdown 20230609/d/dask-cuda/23.8.0a230608-23.8.0a230609/diff.md --exclude *.pyd
+[2023-06-09 07:10:34] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-09 07:10:34] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230608.tar.gz tmp/dask-cuda-23.8.0a230609.tar.gz --markdown 20230609/d/dask-cuda/23.8.0a230608-23.8.0a230609/diff.md --exclude *.pyd
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-keychain]: executing diffoscope
+[2023-06-09 07:10:34] INFO root fetch - processPackages [odoo11-addon-keychain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_keychain-11.0.3.0.0.99.dev6-py2.py3-none-any.whl.zip tmp/odoo11_addon_keychain-11.0.3.0.0.99.dev7-py2.py3-none-any.whl.zip --markdown 20230609/o/odoo11-addon-keychain/11.0.3.0.0.99.dev6-11.0.3.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-09 07:10:35] INFO root fetch - processPackages [odoo11-addon-auth-brute-force]: executing diffoscope
+[2023-06-09 07:10:35] INFO root fetch - processPackages [odoo11-addon-auth-brute-force]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_auth_brute_force-11.0.1.2.0.99.dev15-py2.py3-none-any.whl.zip tmp/odoo11_addon_auth_brute_force-11.0.1.2.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20230609/o/odoo11-addon-auth-brute-force/11.0.1.2.0.99.dev15-11.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:10:35] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/cf/19/965871154e761b0e3f521f9a54bf2dc0574105abe30b034c4f0d818a6ffe/pyAgrum_nightly-1.8.2.dev202306031685623169-cp39-cp39-win_amd64.whl
+[2023-06-09 07:10:35] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-09 07:10:35] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.2.dev202306021685623169-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.2.dev202306031685623169-cp39-cp39-win_amd64.whl.zip --markdown 20230609/p/pyagrum-nightly/1.8.2.dev202306021685623169-1.8.2.dev202306031685623169/diff.md --exclude *.pyd
+[2023-06-09 07:10:36] INFO root fetch - processPackages [mario-airflow-utils]: Remove: archive file [/home/abi/fetcher/tmp/mario_airflow_utils-0.3.0.tar.gz]
+[2023-06-09 07:10:36] INFO root fetch - processPackages [mario-airflow-utils]: Remove: archive file [/home/abi/fetcher/tmp/mario_airflow_utils-0.5.0.tar.gz]
+[2023-06-09 07:10:36] INFO root fetch - processPackages [mario-airflow-utils]: Start processing: tflite-model-maker-nightly
+[2023-06-09 07:10:36] INFO root fetch - main [MainThread]: End processing [mario-airflow-utils]: success
+[2023-06-09 07:10:36] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306080508] Old Version: [0.4.3.dev202306070508]
+[2023-06-09 07:10:36] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/cf/c3/2f1e5ba8396418f866dd32c54725411c0e3ac739d2be0deabc9e0de9f626/tflite-model-maker-nightly-0.4.3.dev202306070508.tar.gz
+[2023-06-09 07:10:36] INFO root fetch - processPackages [odoo12-addon-users-ldap-populate]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_users_ldap_populate-12.0.1.0.2.99.dev2-py3-none-any.whl.zip]
+[2023-06-09 07:10:36] INFO root fetch - processPackages [odoo12-addon-users-ldap-populate]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_users_ldap_populate-12.0.1.0.2.99.dev3-py3-none-any.whl.zip]
+[2023-06-09 07:10:36] INFO root fetch - processPackages [odoo12-addon-users-ldap-populate]: Start processing: dingtalk-stream
+[2023-06-09 07:10:36] INFO root fetch - main [MainThread]: End processing [odoo12-addon-users-ldap-populate]: success
+[2023-06-09 07:10:36] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-09 07:10:36] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/8b/02/0607515be9afc1e807aa4e811c617d5899bbc77eeaf5f3ba83d6ce397155/tflite-model-maker-nightly-0.4.3.dev202306080508.tar.gz
+[2023-06-09 07:10:36] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-09 07:10:36] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306070508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306080508.tar.gz --markdown 20230609/t/tflite-model-maker-nightly/0.4.3.dev202306070508-0.4.3.dev202306080508/diff.md --exclude *.pyd
+[2023-06-09 07:10:36] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230608.tar.gz]
+[2023-06-09 07:10:36] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230609.tar.gz]
+[2023-06-09 07:10:36] INFO root fetch - processPackages [dask-cuda]: Start processing: netunicorn-library
+[2023-06-09 07:10:36] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-09 07:10:36] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/f3/cb/daea8470f240af4cb15f91ee8aef6f866dcb0abe71819aad4ac5abcc9ed1/dingtalk-stream-0.3.0.tar.gz
+[2023-06-09 07:10:36] INFO root fetch - processPackages [netunicorn-library]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-09 07:10:36] INFO root fetch - processPackages [odoo11-addon-keychain]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_keychain-11.0.3.0.0.99.dev6-py2.py3-none-any.whl.zip]
+[2023-06-09 07:10:36] INFO root fetch - processPackages [odoo11-addon-keychain]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_keychain-11.0.3.0.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-06-09 07:10:36] INFO root fetch - processPackages [odoo11-addon-keychain]: Start processing: odoo11-addon-base-external-dbsource
+[2023-06-09 07:10:36] INFO root fetch - main [MainThread]: End processing [odoo11-addon-keychain]: success
+[2023-06-09 07:10:36] INFO root fetch - processPackages [odoo11-addon-base-external-dbsource]: New version: [11.0.1.0.1.99.dev9] Old Version: [11.0.1.0.1.99.dev8]
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo11-addon-auth-totp]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_auth_totp-11.0.1.1.0.99.dev4-py2.py3-none-any.whl.zip]
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo11-addon-auth-totp]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_auth_totp-11.0.1.1.0.99.dev5-py2.py3-none-any.whl.zip]
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo11-addon-auth-totp]: Start processing: odoo12-addon-base-external-dbsource
+[2023-06-09 07:10:37] INFO root fetch - main [MainThread]: End processing [odoo11-addon-auth-totp]: success
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo12-addon-base-external-dbsource]: New version: [12.0.1.1.0.99.dev7] Old Version: [12.0.1.1.0.99.dev6]
+[2023-06-09 07:10:37] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/40/00/212d46cf6af542e446e8aa041526ddc8cf008ee81c5e241be9e44e3ef89e/dingtalk-stream-0.4.0.tar.gz
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo12-addon-auth-totp]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_auth_totp-12.0.1.1.0.99.dev4-py3-none-any.whl.zip]
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo12-addon-auth-totp]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_auth_totp-12.0.1.1.0.99.dev5-py3-none-any.whl.zip]
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo12-addon-auth-totp]: Start processing: odoo11-addon-base-user-role
+[2023-06-09 07:10:37] INFO root fetch - main [MainThread]: End processing [odoo12-addon-auth-totp]: success
+[2023-06-09 07:10:37] INFO root fetch - processPackages [netunicorn-library]: Downloading https://files.pythonhosted.org/packages/d0/69/a7d1d85341d08c88259cf7305d62343fd576a61aa0c12ef0a8782a74e98a/netunicorn-library-0.3.0.tar.gz
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo11-addon-base-user-role]: New version: [11.0.1.0.1.99.dev9] Old Version: [11.0.1.0.1.99.dev6]
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo11-addon-base-external-dbsource]: Downloading https://files.pythonhosted.org/packages/52/e7/b8775fe93b81477d051963a4c77bafe43d78666fa0f8c4a3df0bb4ab05f8/odoo11_addon_base_external_dbsource-11.0.1.0.1.99.dev8-py2.py3-none-any.whl
+[2023-06-09 07:10:37] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2023-06-09 07:10:37] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.3.0.tar.gz tmp/dingtalk-stream-0.4.0.tar.gz --markdown 20230609/d/dingtalk-stream/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo12-addon-base-external-dbsource]: Downloading https://files.pythonhosted.org/packages/3a/65/e4c5e018800b21813bc209aac0fd9ad8b72e26473116576fcc89e3e4f606/odoo12_addon_base_external_dbsource-12.0.1.1.0.99.dev6-py3-none-any.whl
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo11-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/f3/b2/a583c37af599f3afac2593d50776cdc7f28a8462f9e1219a2fd4211ffd5f/odoo11_addon_base_user_role-11.0.1.0.1.99.dev6-py2.py3-none-any.whl
+[2023-06-09 07:10:37] INFO root fetch - processPackages [netunicorn-library]: Downloading https://files.pythonhosted.org/packages/a9/06/0aaab024c63dadbf923bfef07f91cb6d30f22a4b69029642bf3b77794982/netunicorn-library-0.3.1.tar.gz
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo11-addon-base-external-dbsource]: Downloading https://files.pythonhosted.org/packages/1e/c0/9bc9978544684261f297d376744f8bdb380e0fcf98a6d5d4aff7e4bf623a/odoo11_addon_base_external_dbsource-11.0.1.0.1.99.dev9-py2.py3-none-any.whl
+[2023-06-09 07:10:37] ERROR root fetch - processPackages [dask-cuda]: Diffoscope failed: gzip: tmp/dask-cuda-23.8.0a230609.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/dask-cuda-23.8.0a230609.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-09 07:10:37] INFO root fetch - processPackages [dask-cuda]: Start processing: odoo12-addon-base-import-match
+[2023-06-09 07:10:37] INFO root fetch - main [MainThread]: End processing [dask-cuda] error
+[2023-06-09 07:10:37] INFO root fetch - processPackages [netunicorn-library]: executing diffoscope
+[2023-06-09 07:10:37] INFO root fetch - processPackages [netunicorn-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-library-0.3.0.tar.gz tmp/netunicorn-library-0.3.1.tar.gz --markdown 20230609/n/netunicorn-library/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-09 07:10:37] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.2.dev202306021685623169-cp39-cp39-win_amd64.whl.zip]
+[2023-06-09 07:10:37] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.2.dev202306031685623169-cp39-cp39-win_amd64.whl.zip]
+[2023-06-09 07:10:37] INFO root fetch - processPackages [pyagrum-nightly]: Start processing: pydantic-yaml-parser
+[2023-06-09 07:10:37] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo12-addon-base-import-match]: New version: [12.0.1.1.0.99.dev4] Old Version: [12.0.1.1.0.99.dev3]
+[2023-06-09 07:10:37] INFO root fetch - processPackages [pydantic-yaml-parser]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo12-addon-base-external-dbsource]: Downloading https://files.pythonhosted.org/packages/5d/47/b1e553b4bef8426ba73f7910bd0c12783898ec215dc08bdd6c4d4ec90b38/odoo12_addon_base_external_dbsource-12.0.1.1.0.99.dev7-py3-none-any.whl
+[2023-06-09 07:10:37] INFO root fetch - processPackages [pydantic-yaml-parser]: Downloading https://files.pythonhosted.org/packages/24/88/120c13c55f19b821343c33b5628b31e1ab591979df0bd6b0306448bdc448/pydantic-yaml-parser-0.0.3.tar.gz
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo11-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/3f/e4/19cb0895fb4bef8c587ffe4f59eb2d1d28dc437ceae389a0b1675c7eedb6/odoo11_addon_base_user_role-11.0.1.0.1.99.dev9-py2.py3-none-any.whl
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo11-addon-auth-brute-force]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_auth_brute_force-11.0.1.2.0.99.dev15-py2.py3-none-any.whl.zip]
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo11-addon-auth-brute-force]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_auth_brute_force-11.0.1.2.0.99.dev9-py2.py3-none-any.whl.zip]
+[2023-06-09 07:10:37] INFO root fetch - main [MainThread]: End processing [odoo11-addon-auth-brute-force]: success
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo12-addon-base-import-match]: Downloading https://files.pythonhosted.org/packages/59/37/ff3e7c015b2e027ca1a0de60d18aef473734b2da2b0c92af85b7e28d3a3e/odoo12_addon_base_import_match-12.0.1.1.0.99.dev3-py3-none-any.whl
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo11-addon-base-user-role]: executing diffoscope
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo11-addon-base-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_base_user_role-11.0.1.0.1.99.dev6-py2.py3-none-any.whl.zip tmp/odoo11_addon_base_user_role-11.0.1.0.1.99.dev9-py2.py3-none-any.whl.zip --markdown 20230609/o/odoo11-addon-base-user-role/11.0.1.0.1.99.dev6-11.0.1.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:10:37] INFO root fetch - processPackages [pydantic-yaml-parser]: Downloading https://files.pythonhosted.org/packages/8a/26/ce6824701a4eab87bfafd20abac45823bfcce578080b8284f9a407da41ec/pydantic-yaml-parser-0.0.4.tar.gz
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo12-addon-base-external-dbsource]: executing diffoscope
+[2023-06-09 07:10:37] INFO root fetch - processPackages [odoo12-addon-base-external-dbsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_base_external_dbsource-12.0.1.1.0.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_base_external_dbsource-12.0.1.1.0.99.dev7-py3-none-any.whl.zip --markdown 20230609/o/odoo12-addon-base-external-dbsource/12.0.1.1.0.99.dev6-12.0.1.1.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-09 07:10:38] INFO root fetch - processPackages [odoo11-addon-base-external-dbsource]: executing diffoscope
+[2023-06-09 07:10:38] INFO root fetch - processPackages [odoo11-addon-base-external-dbsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_base_external_dbsource-11.0.1.0.1.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_base_external_dbsource-11.0.1.0.1.99.dev9-py2.py3-none-any.whl.zip --markdown 20230609/o/odoo11-addon-base-external-dbsource/11.0.1.0.1.99.dev8-11.0.1.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:10:38] INFO root fetch - processPackages [odoo12-addon-base-import-match]: Downloading https://files.pythonhosted.org/packages/ae/4d/6593310669b6480915c5fd35c7a164b8b77a8fba07ef3f379c21cec89df2/odoo12_addon_base_import_match-12.0.1.1.0.99.dev4-py3-none-any.whl
+[2023-06-09 07:10:38] INFO root fetch - processPackages [pydantic-yaml-parser]: executing diffoscope
+[2023-06-09 07:10:38] INFO root fetch - processPackages [pydantic-yaml-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-yaml-parser-0.0.3.tar.gz tmp/pydantic-yaml-parser-0.0.4.tar.gz --markdown 20230609/p/pydantic-yaml-parser/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-09 07:10:38] INFO root fetch - processPackages [odoo12-addon-base-import-match]: executing diffoscope
+[2023-06-09 07:10:38] INFO root fetch - processPackages [odoo12-addon-base-import-match]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_base_import_match-12.0.1.1.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_base_import_match-12.0.1.1.0.99.dev4-py3-none-any.whl.zip --markdown 20230609/o/odoo12-addon-base-import-match/12.0.1.1.0.99.dev3-12.0.1.1.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-09 07:10:38] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.3.0.tar.gz]
+[2023-06-09 07:10:38] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.4.0.tar.gz]
+[2023-06-09 07:10:38] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2023-06-09 07:10:39] INFO root fetch - processPackages [pydantic-yaml-parser]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-yaml-parser-0.0.3.tar.gz]
+[2023-06-09 07:10:39] INFO root fetch - processPackages [pydantic-yaml-parser]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-yaml-parser-0.0.4.tar.gz]
+[2023-06-09 07:10:39] INFO root fetch - main [MainThread]: End processing [pydantic-yaml-parser]: success
+[2023-06-09 07:10:39] INFO root fetch - processPackages [odoo12-addon-base-external-dbsource]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_base_external_dbsource-12.0.1.1.0.99.dev6-py3-none-any.whl.zip]
+[2023-06-09 07:10:39] INFO root fetch - processPackages [odoo12-addon-base-external-dbsource]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_base_external_dbsource-12.0.1.1.0.99.dev7-py3-none-any.whl.zip]
+[2023-06-09 07:10:39] INFO root fetch - main [MainThread]: End processing [odoo12-addon-base-external-dbsource]: success
+[2023-06-09 07:10:39] INFO root fetch - processPackages [netunicorn-library]: Remove: archive file [/home/abi/fetcher/tmp/netunicorn-library-0.3.0.tar.gz]
+[2023-06-09 07:10:39] INFO root fetch - processPackages [netunicorn-library]: Remove: archive file [/home/abi/fetcher/tmp/netunicorn-library-0.3.1.tar.gz]
+[2023-06-09 07:10:39] INFO root fetch - main [MainThread]: End processing [netunicorn-library]: success
+[2023-06-09 07:10:39] INFO root fetch - processPackages [odoo11-addon-base-external-dbsource]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_base_external_dbsource-11.0.1.0.1.99.dev8-py2.py3-none-any.whl.zip]
+[2023-06-09 07:10:39] INFO root fetch - processPackages [odoo11-addon-base-external-dbsource]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_base_external_dbsource-11.0.1.0.1.99.dev9-py2.py3-none-any.whl.zip]
+[2023-06-09 07:10:39] INFO root fetch - main [MainThread]: End processing [odoo11-addon-base-external-dbsource]: success
+[2023-06-09 07:10:40] INFO root fetch - processPackages [odoo11-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_base_user_role-11.0.1.0.1.99.dev6-py2.py3-none-any.whl.zip]
+[2023-06-09 07:10:40] INFO root fetch - processPackages [odoo11-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_base_user_role-11.0.1.0.1.99.dev9-py2.py3-none-any.whl.zip]
+[2023-06-09 07:10:40] INFO root fetch - main [MainThread]: End processing [odoo11-addon-base-user-role]: success
+[2023-06-09 07:10:40] INFO root fetch - processPackages [odoo12-addon-base-import-match]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_base_import_match-12.0.1.1.0.99.dev3-py3-none-any.whl.zip]
+[2023-06-09 07:10:40] INFO root fetch - processPackages [odoo12-addon-base-import-match]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_base_import_match-12.0.1.1.0.99.dev4-py3-none-any.whl.zip]
+[2023-06-09 07:10:40] INFO root fetch - main [MainThread]: End processing [odoo12-addon-base-import-match]: success
+[2023-06-09 07:10:40] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306070508.tar.gz]
+[2023-06-09 07:10:40] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306080508.tar.gz]
+[2023-06-09 07:10:40] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-09 07:13:34] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-09 07:13:34] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-09 07:13:34] INFO root fetch - main [MainThread]: Store serial: [18436573]
