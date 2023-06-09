@@ -17975,3 +17975,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 09:38:40] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
 [2023-06-09 09:38:40] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
 [2023-06-09 09:38:40] INFO root fetch - main [MainThread]: Store serial: [18437871]
+[2023-06-09 09:43:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437871]
+[2023-06-09 09:43:49] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-09 09:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypothesis
+[2023-06-09 09:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FoxitPDFConversionSDKPython3
+[2023-06-09 09:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gfs-dynamical-core
+[2023-06-09 09:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlplatformutils
+[2023-06-09 09:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml2json
+[2023-06-09 09:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-chatgpt-plus
+[2023-06-09 09:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: callmebot
+[2023-06-09 09:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: weconnect
+[2023-06-09 09:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arithmetica-py
+[2023-06-09 09:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: freeqdsk
+[2023-06-09 09:43:49] INFO root fetch - processPackages [FoxitPDFConversionSDKPython3]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-09 09:43:49] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.1.7] Old Version: [0.9.1.6]
+[2023-06-09 09:43:49] INFO root fetch - processPackages [gfs-dynamical-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 09:43:49] WARNING root fetch - processPackages [callmebot]: Skipping, unable to determine old version
+[2023-06-09 09:43:49] INFO root fetch - processPackages [callmebot]: Start processing: dknovautils
+[2023-06-09 09:43:49] INFO root fetch - main [MainThread]: End processing [callmebot] error
+[2023-06-09 09:43:49] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-09 09:43:49] WARNING root fetch - processPackages [ml2json]: Skipping, unable to determine old version
+[2023-06-09 09:43:49] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-09 09:43:49] INFO root fetch - main [MainThread]: End processing [ml2json] error
+[2023-06-09 09:43:49] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/6c/bd/8e643f69ffe772561a779766bdaffaca0f73fa3ba2d5be5c096f3777c0ae/mlplatformutils-0.9.1.6.tar.gz
+[2023-06-09 09:43:49] INFO root fetch - processPackages [arithmetica-py]: New version: [1.0.211] Old Version: [1.0.210]
+[2023-06-09 09:43:49] INFO root fetch - processPackages [freeqdsk]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-09 09:43:49] INFO root fetch - processPackages [weconnect]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-09 09:43:49] INFO root fetch - processPackages [dknovautils]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-09 09:43:49] INFO root fetch - processPackages [FoxitPDFConversionSDKPython3]: Downloading https://files.pythonhosted.org/packages/32/0e/863e51b8a12aa540ce711f65b5bd9829da2f4a40cc9b511be78dc09c10b4/FoxitPDFConversionSDKPython3-1.2.0-cp39-cp39-win_amd64.whl
+[2023-06-09 09:43:49] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/7f/6d/b9bbedc3182dc250e0dfd12900d901c43c06afa15baa3071a1cc311022d8/arithmetica-py-1.0.210.tar.gz
+[2023-06-09 09:43:49] INFO root fetch - processPackages [gfs-dynamical-core]: Downloading https://files.pythonhosted.org/packages/27/74/e6cedf4b9d67d1f39c455316d838b4f95ffc158a1b616090a659532dda1d/gfs_dynamical_core-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-09 09:43:49] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/21/51/090644a56a1ccd0bd639535632ae004a14748414c625a4ee110764a147f5/hypothesis-6.9.1.tar.gz
+[2023-06-09 09:43:49] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: Downloading https://files.pythonhosted.org/packages/ab/36/93540e8a4526ad5b85fbd17b8cb0eb3afa9f9a87a2c8904dab27b67a177c/nonebot-plugin-chatgpt-plus-0.8.6.tar.gz
+[2023-06-09 09:43:49] INFO root fetch - processPackages [freeqdsk]: Downloading https://files.pythonhosted.org/packages/c9/ec/8ab32bb2abbe7ae3fbb4114c8126004ecb5f50f7a27fdb85358afd7d60ab/freeqdsk-0.3.0.tar.gz
+[2023-06-09 09:43:49] INFO root fetch - processPackages [weconnect]: Downloading https://files.pythonhosted.org/packages/98/5d/fd6fc5ebe1c0ada72e060a0cb952fa9ad1c6cba57c65b0b572ad85262736/weconnect-0.9.0.tar.gz
+[2023-06-09 09:43:49] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/2f/9e/2b6ff0c9c82d5c606d20e3a516634211ae28582078aeb539d5365ccf90d7/mlplatformutils-0.9.1.7.tar.gz
+[2023-06-09 09:43:49] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/e6/cd/d1188fa5e22ddae2d0c43f902f54381fee4947355d5ca1221e9b994b88b0/dknovautils-0.1.6.tar.gz
+[2023-06-09 09:43:49] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-09 09:43:49] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.1.6.tar.gz tmp/mlplatformutils-0.9.1.7.tar.gz --markdown 20230609/m/mlplatformutils/0.9.1.6-0.9.1.7/diff.md --exclude *.pyd
+[2023-06-09 09:43:50] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/3d/3e/52d0425742b3a69557b368ce72a87f4c5524cce4bc069cb5e26218b64fcd/arithmetica-py-1.0.211.tar.gz
+[2023-06-09 09:43:50] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: Downloading https://files.pythonhosted.org/packages/7c/b3/01848cb0a7ff89de4584fa1406f35c7577f961984dbc006a37dc602622cc/nonebot-plugin-chatgpt-plus-0.8.7.tar.gz
+[2023-06-09 09:43:50] INFO root fetch - processPackages [freeqdsk]: Downloading https://files.pythonhosted.org/packages/e9/a7/eea8c88586125939d447944c3e5db8504bb5b4835ba1eba029c789359683/freeqdsk-0.3.1.tar.gz
+[2023-06-09 09:43:50] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/9f/55/ca134a35ade2848ccb6a38038cbdc144c8d975ba9f8535f980233784f3a5/hypothesis-6.9.2.tar.gz
+[2023-06-09 09:43:50] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/72/47/8be36d2daace1996f44cca59ec573f26e8f717ff44ef0926481755fb4564/dknovautils-0.1.7.tar.gz
+[2023-06-09 09:43:50] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: executing diffoscope
+[2023-06-09 09:43:50] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-chatgpt-plus-0.8.6.tar.gz tmp/nonebot-plugin-chatgpt-plus-0.8.7.tar.gz --markdown 20230609/n/nonebot-plugin-chatgpt-plus/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-09 09:43:50] INFO root fetch - processPackages [arithmetica-py]: executing diffoscope
+[2023-06-09 09:43:50] INFO root fetch - processPackages [arithmetica-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arithmetica-py-1.0.210.tar.gz tmp/arithmetica-py-1.0.211.tar.gz --markdown 20230609/a/arithmetica-py/1.0.210-1.0.211/diff.md --exclude *.pyd
+[2023-06-09 09:43:50] INFO root fetch - processPackages [freeqdsk]: executing diffoscope
+[2023-06-09 09:43:50] INFO root fetch - processPackages [freeqdsk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeqdsk-0.3.0.tar.gz tmp/freeqdsk-0.3.1.tar.gz --markdown 20230609/f/freeqdsk/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-09 09:43:50] INFO root fetch - processPackages [weconnect]: Downloading https://files.pythonhosted.org/packages/39/4c/48cecd311d6d4dc3b5164d03a8f9b847ae9b4ce2459f0c5e494b4d4d8c3d/weconnect-0.9.1.tar.gz
+[2023-06-09 09:43:50] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-06-09 09:43:50] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230609/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-09 09:43:50] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-06-09 09:43:50] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.1.6.tar.gz tmp/dknovautils-0.1.7.tar.gz --markdown 20230609/d/dknovautils/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-09 09:43:50] INFO root fetch - processPackages [gfs-dynamical-core]: Downloading https://files.pythonhosted.org/packages/0e/54/969a86c8ebdf4ac854a47d8845bdcb970317a8a4a0c7ba1fb04fba0d705b/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-09 09:43:50] INFO root fetch - processPackages [weconnect]: executing diffoscope
+[2023-06-09 09:43:50] INFO root fetch - processPackages [weconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weconnect-0.9.0.tar.gz tmp/weconnect-0.9.1.tar.gz --markdown 20230609/w/weconnect/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-09 09:43:51] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.1.6.tar.gz]
+[2023-06-09 09:43:51] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.1.7.tar.gz]
+[2023-06-09 09:43:51] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-09 09:43:51] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-chatgpt-plus-0.8.6.tar.gz]
+[2023-06-09 09:43:51] INFO root fetch - processPackages [nonebot-plugin-chatgpt-plus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-chatgpt-plus-0.8.7.tar.gz]
+[2023-06-09 09:43:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-chatgpt-plus]: success
+[2023-06-09 09:43:51] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.6.tar.gz]
+[2023-06-09 09:43:51] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.7.tar.gz]
+[2023-06-09 09:43:51] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-06-09 09:43:51] INFO root fetch - processPackages [gfs-dynamical-core]: executing diffoscope
+[2023-06-09 09:43:51] INFO root fetch - processPackages [gfs-dynamical-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfs_dynamical_core-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230609/g/gfs-dynamical-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 09:43:51] INFO root fetch - processPackages [weconnect]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-0.9.0.tar.gz]
+[2023-06-09 09:43:51] INFO root fetch - processPackages [weconnect]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-0.9.1.tar.gz]
+[2023-06-09 09:43:51] INFO root fetch - main [MainThread]: End processing [weconnect]: success
+[2023-06-09 09:43:51] INFO root fetch - processPackages [FoxitPDFConversionSDKPython3]: Downloading https://files.pythonhosted.org/packages/96/5d/d49ac9db9c5da8058967e52c8204cb5f02e291fa12818685dc4a2132e5ca/FoxitPDFConversionSDKPython3-1.3.0-cp39-cp39-win_amd64.whl
+[2023-06-09 09:43:52] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.1.tar.gz]
+[2023-06-09 09:43:52] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.2.tar.gz]
+[2023-06-09 09:43:52] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-06-09 09:43:52] INFO root fetch - processPackages [arithmetica-py]: Remove: archive file [/home/abi/fetcher/tmp/arithmetica-py-1.0.210.tar.gz]
+[2023-06-09 09:43:52] INFO root fetch - processPackages [arithmetica-py]: Remove: archive file [/home/abi/fetcher/tmp/arithmetica-py-1.0.211.tar.gz]
+[2023-06-09 09:43:52] INFO root fetch - main [MainThread]: End processing [arithmetica-py]: success
+[2023-06-09 09:43:52] INFO root fetch - processPackages [freeqdsk]: Remove: archive file [/home/abi/fetcher/tmp/freeqdsk-0.3.0.tar.gz]
+[2023-06-09 09:43:52] INFO root fetch - processPackages [freeqdsk]: Remove: archive file [/home/abi/fetcher/tmp/freeqdsk-0.3.1.tar.gz]
+[2023-06-09 09:43:52] INFO root fetch - main [MainThread]: End processing [freeqdsk]: success
+[2023-06-09 09:43:53] INFO root fetch - processPackages [FoxitPDFConversionSDKPython3]: executing diffoscope
+[2023-06-09 09:43:53] INFO root fetch - processPackages [FoxitPDFConversionSDKPython3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FoxitPDFConversionSDKPython3-1.2.0-cp39-cp39-win_amd64.whl.zip tmp/FoxitPDFConversionSDKPython3-1.3.0-cp39-cp39-win_amd64.whl.zip --markdown 20230609/F/FoxitPDFConversionSDKPython3/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-09 09:43:54] INFO root fetch - processPackages [FoxitPDFConversionSDKPython3]: Remove: archive file [/home/abi/fetcher/tmp/FoxitPDFConversionSDKPython3-1.2.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-09 09:43:54] INFO root fetch - processPackages [FoxitPDFConversionSDKPython3]: Remove: archive file [/home/abi/fetcher/tmp/FoxitPDFConversionSDKPython3-1.3.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-09 09:43:54] INFO root fetch - main [MainThread]: End processing [FoxitPDFConversionSDKPython3]: success
+[2023-06-09 09:44:13] INFO root fetch - processPackages [gfs-dynamical-core]: Remove: archive file [/home/abi/fetcher/tmp/gfs_dynamical_core-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-09 09:44:13] INFO root fetch - processPackages [gfs-dynamical-core]: Remove: archive file [/home/abi/fetcher/tmp/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-09 09:44:13] INFO root fetch - main [MainThread]: End processing [gfs-dynamical-core]: success
+[2023-06-09 09:44:13] INFO root fetch - main [MainThread]: Store serial: [18437943]
