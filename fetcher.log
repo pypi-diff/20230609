@@ -19225,3 +19225,178 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-09 10:40:07] INFO root fetch - processPackages [basxconnect]: Remove: archive file [/home/abi/fetcher/tmp/basxconnect-0.4.7.tar.gz]
 [2023-06-09 10:40:07] INFO root fetch - main [MainThread]: End processing [basxconnect]: success
 [2023-06-09 10:40:07] INFO root fetch - main [MainThread]: Store serial: [18438408]
+[2023-06-09 10:45:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438408]
+[2023-06-09 10:45:17] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-09 10:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awkward
+[2023-06-09 10:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tff-nightly
+[2023-06-09 10:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: a2
+[2023-06-09 10:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: z4d-certified-devices
+[2023-06-09 10:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramodels
+[2023-06-09 10:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-osubot
+[2023-06-09 10:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chaostoolkit-datadog
+[2023-06-09 10:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dream-river
+[2023-06-09 10:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly
+[2023-06-09 10:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: steam-pysigma
+[2023-06-09 10:45:18] INFO root fetch - processPackages [a2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-09 10:45:18] INFO root fetch - processPackages [dream-river]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-09 10:45:18] INFO root fetch - processPackages [chaostoolkit-datadog]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-09 10:45:18] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [2.0.0.post2] Old Version: [2.0.0.post1]
+[2023-06-09 10:45:18] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.6.4] Old Version: [2023.6.3]
+[2023-06-09 10:45:18] INFO root fetch - processPackages [z4d-certified-devices]: New version: [2.66] Old Version: [2.65]
+[2023-06-09 10:45:18] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230608] Old Version: [0.0.1.dev20230607]
+[2023-06-09 10:45:18] INFO root fetch - processPackages [awkward]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-06-09 10:45:18] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-09 10:45:18] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/10/c4/4d15ff29912d32ea52cd9aacfbad1b8a30dbf09c6e3efb3b84695fc25537/a2-0.3.8.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [dream-river]: Downloading https://files.pythonhosted.org/packages/8b/16/6534fd19eea3c459ca0a019de569cbdf35f06d552a28724a65320aa47cfa/dream_river-0.0.4.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/54/95/7e0e094dc733e0d7928b6135ca5b392758c76a5cb7c06af1283d1ca084a9/tff_nightly-0.0.1.dev20230607-py2.py3-none-any.whl
+[2023-06-09 10:45:18] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230609] Old Version: [2.14.0.dev20230608]
+[2023-06-09 10:45:18] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/17/fe/f4b0ae56049caca953cecf95b3be982d465790fed51d7bc1b27923076dba/steam-pysigma-2023.6.3.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/c0/1a/f41f6609d1f9777247872ab4d73c4b10fcb8055d47e0a6521a266acb04a0/nonebot-plugin-osubot-2.0.0.post1.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [awkward]: Downloading https://files.pythonhosted.org/packages/f9/88/3a8951a6e53ad197b073f5296f115b44a70e4ef2e531188647992130d504/awkward-2.2.1.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [chaostoolkit-datadog]: Downloading https://files.pythonhosted.org/packages/78/b3/82949d1f890406823a67a4f9c567f8b4b82bb2a42f7d189abb5a2e6cac58/chaostoolkit-datadog-0.1.1.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/6a/14/de4772a6c002b64af2f03ae99d54b63503531a64e11b4cf6fae7122d0ee3/z4d-certified-devices-2.65.tar.gz
+[2023-06-09 10:45:18] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29656912>=10485760
+[2023-06-09 10:45:18] INFO root fetch - processPackages [nonebot-plugin-osubot]: Start processing: warframe.py
+[2023-06-09 10:45:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2023-06-09 10:45:18] INFO root fetch - processPackages [warframe.py]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-09 10:45:18] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/83/99/644ef1f2608e65e9d6cb271c4e9865fd0b3a9e666ad5365f0579a61b1a8b/tf_nightly-2.14.0.dev20230608-cp39-cp39-win_amd64.whl
+[2023-06-09 10:45:18] INFO root fetch - processPackages [dream-river]: Downloading https://files.pythonhosted.org/packages/74/ea/b5371f02c5e6beab3d89ead070a3f69d7340ec227d7b2c4f499297ec58e9/dream_river-0.0.5.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/c5/ea/30a5aa65f221d2fa836f68cf1ba1dcc4e374a8abad48e522a4030a3604b0/a2-0.3.9.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/65/4d/486563cf023283cb3b27f47d37b0f02e8ddfa7631af297f8656489bf7807/tff_nightly-0.0.1.dev20230608-py2.py3-none-any.whl
+[2023-06-09 10:45:18] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/f9/6a/38957b12e9e8f7ccc02b50568fda35eb945361ddb4a81fa0c3596689c2ac/warframe.py-0.1.3-py3-none-any.whl
+[2023-06-09 10:45:18] INFO root fetch - processPackages [a2]: executing diffoscope
+[2023-06-09 10:45:18] INFO root fetch - processPackages [a2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2-0.3.8.tar.gz tmp/a2-0.3.9.tar.gz --markdown 20230609/a/a2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-09 10:45:18] INFO root fetch - processPackages [dream-river]: executing diffoscope
+[2023-06-09 10:45:18] INFO root fetch - processPackages [dream-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream_river-0.0.4.tar.gz tmp/dream_river-0.0.5.tar.gz --markdown 20230609/d/dream-river/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-09 10:45:18] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-09 10:45:18] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230609/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-09 10:45:18] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/27/76/5bc9771fb77a3a625401231d4f3beaa5c3adacffffd1d0b0b27880dc8b33/steam-pysigma-2023.6.4.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [chaostoolkit-datadog]: Downloading https://files.pythonhosted.org/packages/81/bf/6b9a3f9787fb906dc853f0d97d63b9d998b2faedda4a4f3a9888e4c6b208/chaostoolkit-datadog-0.2.0.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/f7/48/c7c8e048f2c82832780f254660e9d13958cefe794dcaff0f40d8b1bb5887/z4d-certified-devices-2.66.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/e6/4d/9089acd584008b4b32385a8cdfa81d92e2f0edaf98f6ab532af2e690d9e4/tf_nightly-2.14.0.dev20230609-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-09 10:45:18] INFO root fetch - processPackages [steam-pysigma]: executing diffoscope
+[2023-06-09 10:45:18] INFO root fetch - processPackages [steam-pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-pysigma-2023.6.3.tar.gz tmp/steam-pysigma-2023.6.4.tar.gz --markdown 20230609/s/steam-pysigma/2023.6.3-2023.6.4/diff.md --exclude *.pyd
+[2023-06-09 10:45:18] INFO root fetch - processPackages [chaostoolkit-datadog]: executing diffoscope
+[2023-06-09 10:45:18] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/cd/ce/5c798091e301583f189ac9a79b1400cae705be4cdbada9fe297321ef4652/warframe.py-0.2.0.tar.gz
+[2023-06-09 10:45:18] INFO root fetch - processPackages [chaostoolkit-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-datadog-0.1.1.tar.gz tmp/chaostoolkit-datadog-0.2.0.tar.gz --markdown 20230609/c/chaostoolkit-datadog/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-09 10:45:18] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-09 10:45:18] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230607-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230608-py2.py3-none-any.whl.zip --markdown 20230609/t/tff-nightly/0.0.1.dev20230607-0.0.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-09 10:45:18] INFO root fetch - processPackages [z4d-certified-devices]: executing diffoscope
+[2023-06-09 10:45:18] INFO root fetch - processPackages [z4d-certified-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z4d-certified-devices-2.65.tar.gz tmp/z4d-certified-devices-2.66.tar.gz --markdown 20230609/z/z4d-certified-devices/2.65-2.66/diff.md --exclude *.pyd
+[2023-06-09 10:45:19] INFO root fetch - processPackages [warframe.py]: executing diffoscope
+[2023-06-09 10:45:19] INFO root fetch - processPackages [warframe.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warframe.py-0.1.3-py3-none-any.whl.zip tmp/warframe.py-0.2.0.tar.gz --markdown 20230609/w/warframe.py/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-09 10:45:19] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 489727475>=10485760
+[2023-06-09 10:45:19] INFO root fetch - processPackages [tf-nightly]: Start processing: odoo13-addon-auditlog
+[2023-06-09 10:45:19] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-09 10:45:19] INFO root fetch - processPackages [odoo13-addon-auditlog]: New version: [13.0.1.2.0] Old Version: [13.0.1.1.1.dev1]
+[2023-06-09 10:45:19] INFO root fetch - processPackages [awkward]: Downloading https://files.pythonhosted.org/packages/8c/e0/50293ea4092d243285893394ce7965b36c7e9978c09aa1c64e8f2614a831/awkward-2.2.2.tar.gz
+[2023-06-09 10:45:19] INFO root fetch - processPackages [odoo13-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/9a/bd/19e36e7f39ebb813a199a40699d0799eeeaf3872d7c0439eb8088ec6e3cc/odoo13_addon_auditlog-13.0.1.1.1.dev1-py3-none-any.whl
+[2023-06-09 10:45:19] INFO root fetch - processPackages [odoo13-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/5b/d5/da3a4fccd407cf02becc79442b9427cc91484e81b79522ea2da10b92b13b/odoo13_addon_auditlog-13.0.1.2.0-py3-none-any.whl
+[2023-06-09 10:45:19] INFO root fetch - processPackages [awkward]: executing diffoscope
+[2023-06-09 10:45:19] INFO root fetch - processPackages [awkward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awkward-2.2.1.tar.gz tmp/awkward-2.2.2.tar.gz --markdown 20230609/a/awkward/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-06-09 10:45:19] INFO root fetch - processPackages [odoo13-addon-auditlog]: executing diffoscope
+[2023-06-09 10:45:19] INFO root fetch - processPackages [odoo13-addon-auditlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_auditlog-13.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo13_addon_auditlog-13.0.1.2.0-py3-none-any.whl.zip --markdown 20230609/o/odoo13-addon-auditlog/13.0.1.1.1.dev1-13.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-09 10:45:20] INFO root fetch - processPackages [dream-river]: Remove: archive file [/home/abi/fetcher/tmp/dream_river-0.0.4.tar.gz]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [dream-river]: Remove: archive file [/home/abi/fetcher/tmp/dream_river-0.0.5.tar.gz]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [dream-river]: Start processing: odoo-filter-addons
+[2023-06-09 10:45:20] INFO root fetch - main [MainThread]: End processing [dream-river]: success
+[2023-06-09 10:45:20] INFO root fetch - processPackages [odoo-filter-addons]: New version: [1.2.0rc1] Old Version: [1.1.0]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [steam-pysigma]: Remove: archive file [/home/abi/fetcher/tmp/steam-pysigma-2023.6.3.tar.gz]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [steam-pysigma]: Remove: archive file [/home/abi/fetcher/tmp/steam-pysigma-2023.6.4.tar.gz]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [steam-pysigma]: Start processing: neffint
+[2023-06-09 10:45:20] INFO root fetch - main [MainThread]: End processing [steam-pysigma]: success
+[2023-06-09 10:45:20] WARNING root fetch - processPackages [neffint]: Skipping, unable to determine old version
+[2023-06-09 10:45:20] INFO root fetch - processPackages [neffint]: Start processing: kalm
+[2023-06-09 10:45:20] INFO root fetch - main [MainThread]: End processing [neffint] error
+[2023-06-09 10:45:20] INFO root fetch - processPackages [odoo-filter-addons]: Downloading https://files.pythonhosted.org/packages/5f/98/7fc0937de846ea0ff32ca229aa4384c82b4b61ca6b089faff1731de59317/odoo_filter_addons-1.1.0.tar.gz
+[2023-06-09 10:45:20] INFO root fetch - processPackages [kalm]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [ramodels]: Start processing: py-Ayiin
+[2023-06-09 10:45:20] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-09 10:45:20] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev9] Old Version: [0.4.4.dev8]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/08/d6/afbd93ab17a860658e3f78d89626ca0ad442f18d7058216f69066b2b251d/kalm-0.6.8.tar.gz
+[2023-06-09 10:45:20] INFO root fetch - processPackages [chaostoolkit-datadog]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-datadog-0.1.1.tar.gz]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [chaostoolkit-datadog]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-datadog-0.2.0.tar.gz]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [chaostoolkit-datadog]: Start processing: kedm
+[2023-06-09 10:45:20] INFO root fetch - main [MainThread]: End processing [chaostoolkit-datadog]: success
+[2023-06-09 10:45:20] INFO root fetch - processPackages [kedm]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 10:45:20] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.1.3-py3-none-any.whl.zip]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.2.0.tar.gz]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [warframe.py]: Start processing: subaligner
+[2023-06-09 10:45:20] INFO root fetch - main [MainThread]: End processing [warframe.py]: success
+[2023-06-09 10:45:20] INFO root fetch - processPackages [subaligner]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-09 10:45:20] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f3/ee/21230318a80577b7a92a016e6f1cf516735d553ff6164c13ff461de986aa/kalm-0.6.9.tar.gz
+[2023-06-09 10:45:20] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-09 10:45:20] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.8.tar.gz tmp/kalm-0.6.9.tar.gz --markdown 20230609/k/kalm/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-09 10:45:20] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/a8/a9/9f3a9694572196e70e9ba540e00d88c2d3b5944a2117d502feede8f8b138/py-Ayiin-0.4.4.dev9.tar.gz
+[2023-06-09 10:45:20] INFO root fetch - processPackages [kedm]: Downloading https://files.pythonhosted.org/packages/c1/ec/07f3f9d84365660ebe543cc2dc0e874ee10dde6893b51ec566ee4ea4b28c/kedm-0.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-09 10:45:20] INFO root fetch - processPackages [odoo-filter-addons]: Downloading https://files.pythonhosted.org/packages/d1/ab/a666bbad778866943e10f1a19aaf9d3d31871703283e4f381c3ae3a228ac/odoo_filter_addons-1.2.0rc1.tar.gz
+[2023-06-09 10:45:20] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 10:45:20] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev8.tar.gz tmp/py-Ayiin-0.4.4.dev9.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev8-0.4.4.dev9/diff.md --exclude *.pyd
+[2023-06-09 10:45:20] INFO root fetch - processPackages [subaligner]: Downloading https://files.pythonhosted.org/packages/9e/d6/186ad2893cae664cdec61e6789fadbecfa5d1b84700d74b30ce2de7a5a66/subaligner-0.3.1.tar.gz
+[2023-06-09 10:45:20] INFO root fetch - processPackages [odoo-filter-addons]: executing diffoscope
+[2023-06-09 10:45:20] INFO root fetch - processPackages [odoo-filter-addons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_filter_addons-1.1.0.tar.gz tmp/odoo_filter_addons-1.2.0rc1.tar.gz --markdown 20230609/o/odoo-filter-addons/1.1.0-1.2.0rc1/diff.md --exclude *.pyd
+[2023-06-09 10:45:21] WARNING root fetch - processPackages [kedm]: Skipping package: exceeds size limit 10916672>=10485760
+[2023-06-09 10:45:21] INFO root fetch - processPackages [kedm]: Start processing: appstream-python
+[2023-06-09 10:45:21] INFO root fetch - main [MainThread]: End processing [kedm] error
+[2023-06-09 10:45:21] INFO root fetch - processPackages [appstream-python]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-09 10:45:21] INFO root fetch - processPackages [appstream-python]: Downloading https://files.pythonhosted.org/packages/53/7f/f4beb3de4f06789f9a7943d701dc52891ca5b50b6ce8a48ef402ff4b3a44/appstream-python-0.6.1.tar.gz
+[2023-06-09 10:45:21] INFO root fetch - processPackages [subaligner]: Downloading https://files.pythonhosted.org/packages/2e/a5/cd2030e8319250b4eb3c3b84b2edcfb00dfb39fae54312f5ed43d0824135/subaligner-0.3.2.tar.gz
+[2023-06-09 10:45:21] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.8.tar.gz]
+[2023-06-09 10:45:21] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.9.tar.gz]
+[2023-06-09 10:45:21] INFO root fetch - processPackages [kalm]: Start processing: Concern
+[2023-06-09 10:45:21] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-09 10:45:21] INFO root fetch - processPackages [Concern]: New version: [9] Old Version: [8]
+[2023-06-09 10:45:21] INFO root fetch - processPackages [appstream-python]: Downloading https://files.pythonhosted.org/packages/76/32/5903fae9469a3aae29b1fba84748313c96cbbe15e27c30646c7b9576a02e/appstream-python-0.6.2.tar.gz
+[2023-06-09 10:45:21] INFO root fetch - processPackages [subaligner]: executing diffoscope
+[2023-06-09 10:45:21] INFO root fetch - processPackages [subaligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subaligner-0.3.1.tar.gz tmp/subaligner-0.3.2.tar.gz --markdown 20230609/s/subaligner/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-09 10:45:21] INFO root fetch - processPackages [Concern]: Downloading https://files.pythonhosted.org/packages/fb/b2/dfed4ec8f876887fa0d094ff5d22fdd6f926eadbfaf86d89212e95a7022b/Concern-8.tar.gz
+[2023-06-09 10:45:21] INFO root fetch - processPackages [appstream-python]: executing diffoscope
+[2023-06-09 10:45:21] INFO root fetch - processPackages [appstream-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appstream-python-0.6.1.tar.gz tmp/appstream-python-0.6.2.tar.gz --markdown 20230609/a/appstream-python/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-09 10:45:21] INFO root fetch - processPackages [odoo-filter-addons]: Remove: archive file [/home/abi/fetcher/tmp/odoo_filter_addons-1.1.0.tar.gz]
+[2023-06-09 10:45:21] INFO root fetch - processPackages [odoo-filter-addons]: Remove: archive file [/home/abi/fetcher/tmp/odoo_filter_addons-1.2.0rc1.tar.gz]
+[2023-06-09 10:45:21] INFO root fetch - processPackages [odoo-filter-addons]: Start processing: cic-contracts
+[2023-06-09 10:45:21] INFO root fetch - main [MainThread]: End processing [odoo-filter-addons]: success
+[2023-06-09 10:45:21] INFO root fetch - processPackages [cic-contracts]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-09 10:45:21] INFO root fetch - processPackages [cic-contracts]: Downloading https://files.pythonhosted.org/packages/ce/d0/033294c70f92ca987e1af787da98cafa0118f9a0482e6809a7a8d3faede9/cic-contracts-0.3.5.tar.gz
+[2023-06-09 10:45:21] INFO root fetch - processPackages [odoo13-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_auditlog-13.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-06-09 10:45:21] INFO root fetch - processPackages [odoo13-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_auditlog-13.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-09 10:45:21] INFO root fetch - main [MainThread]: End processing [odoo13-addon-auditlog]: success
+[2023-06-09 10:45:22] INFO root fetch - processPackages [Concern]: Downloading https://files.pythonhosted.org/packages/24/bb/6f0aadcc845d144fb7d3159c8a482d4f1465f8c4090cd1196bb68e4ee9ac/Concern-9.tar.gz
+[2023-06-09 10:45:22] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230607-py2.py3-none-any.whl.zip]
+[2023-06-09 10:45:22] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230608-py2.py3-none-any.whl.zip]
+[2023-06-09 10:45:22] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-09 10:45:22] INFO root fetch - processPackages [cic-contracts]: Downloading https://files.pythonhosted.org/packages/96/af/0fad3c91f3cb46a0f68fa4b720b00943daa39586eaf677fb139f407d43c6/cic-contracts-0.3.6.tar.gz
+[2023-06-09 10:45:22] INFO root fetch - processPackages [Concern]: executing diffoscope
+[2023-06-09 10:45:22] INFO root fetch - processPackages [Concern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Concern-8.tar.gz tmp/Concern-9.tar.gz --markdown 20230609/C/Concern/8-9/diff.md --exclude *.pyd
+[2023-06-09 10:45:22] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 10:45:22] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
+[2023-06-09 10:45:22] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 10:45:22] INFO root fetch - processPackages [cic-contracts]: executing diffoscope
+[2023-06-09 10:45:22] INFO root fetch - processPackages [cic-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cic-contracts-0.3.5.tar.gz tmp/cic-contracts-0.3.6.tar.gz --markdown 20230609/c/cic-contracts/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-09 10:45:23] INFO root fetch - processPackages [subaligner]: Remove: archive file [/home/abi/fetcher/tmp/subaligner-0.3.1.tar.gz]
+[2023-06-09 10:45:23] INFO root fetch - processPackages [subaligner]: Remove: archive file [/home/abi/fetcher/tmp/subaligner-0.3.2.tar.gz]
+[2023-06-09 10:45:23] INFO root fetch - main [MainThread]: End processing [subaligner]: success
+[2023-06-09 10:45:23] INFO root fetch - processPackages [Concern]: Remove: archive file [/home/abi/fetcher/tmp/Concern-8.tar.gz]
+[2023-06-09 10:45:23] INFO root fetch - processPackages [Concern]: Remove: archive file [/home/abi/fetcher/tmp/Concern-9.tar.gz]
+[2023-06-09 10:45:23] INFO root fetch - main [MainThread]: End processing [Concern]: success
+[2023-06-09 10:45:23] INFO root fetch - processPackages [appstream-python]: Remove: archive file [/home/abi/fetcher/tmp/appstream-python-0.6.1.tar.gz]
+[2023-06-09 10:45:23] INFO root fetch - processPackages [appstream-python]: Remove: archive file [/home/abi/fetcher/tmp/appstream-python-0.6.2.tar.gz]
+[2023-06-09 10:45:23] INFO root fetch - main [MainThread]: End processing [appstream-python]: success
+[2023-06-09 10:45:23] INFO root fetch - processPackages [cic-contracts]: Remove: archive file [/home/abi/fetcher/tmp/cic-contracts-0.3.5.tar.gz]
+[2023-06-09 10:45:23] INFO root fetch - processPackages [cic-contracts]: Remove: archive file [/home/abi/fetcher/tmp/cic-contracts-0.3.6.tar.gz]
+[2023-06-09 10:45:23] INFO root fetch - main [MainThread]: End processing [cic-contracts]: success
+[2023-06-09 10:45:24] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.65.tar.gz]
+[2023-06-09 10:45:24] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.66.tar.gz]
+[2023-06-09 10:45:24] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
+[2023-06-09 10:45:34] INFO root fetch - processPackages [awkward]: Remove: archive file [/home/abi/fetcher/tmp/awkward-2.2.1.tar.gz]
+[2023-06-09 10:45:34] INFO root fetch - processPackages [awkward]: Remove: archive file [/home/abi/fetcher/tmp/awkward-2.2.2.tar.gz]
+[2023-06-09 10:45:34] INFO root fetch - main [MainThread]: End processing [awkward]: success
+[2023-06-09 10:45:57] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.8.tar.gz]
+[2023-06-09 10:45:57] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.9.tar.gz]
+[2023-06-09 10:45:57] INFO root fetch - main [MainThread]: End processing [a2]: success
+[2023-06-09 10:45:57] INFO root fetch - main [MainThread]: Store serial: [18438484]
