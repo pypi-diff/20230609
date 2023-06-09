@@ -18694,3 +18694,232 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 10:17:46] INFO root fetch - processPackages [spacy]: Remove: archive file [/home/abi/fetcher/tmp/spacy-4.0.0.dev0.tar.gz]
 [2023-06-09 10:17:46] INFO root fetch - main [MainThread]: End processing [spacy]: success
 [2023-06-09 10:17:46] INFO root fetch - main [MainThread]: Store serial: [18438225]
+[2023-06-09 10:22:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438225]
+[2023-06-09 10:22:56] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-09 10:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CUQIpy
+[2023-06-09 10:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: patio-rabbitmq
+[2023-06-09 10:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub
+[2023-06-09 10:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multireg
+[2023-06-09 10:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-enroll
+[2023-06-09 10:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dop-integration-libs
+[2023-06-09 10:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: patio-redis
+[2023-06-09 10:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: acryl-datahub-airflow-plugin
+[2023-06-09 10:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jinaai
+[2023-06-09 10:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-azure
+[2023-06-09 10:22:56] INFO root fetch - processPackages [patio-rabbitmq]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-09 10:22:56] INFO root fetch - processPackages [patio-redis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-09 10:22:56] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-09 10:22:56] INFO root fetch - processPackages [multireg]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-09 10:22:56] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 10:22:56] WARNING root fetch - processPackages [jinaai]: Skipping, unable to determine old version
+[2023-06-09 10:22:56] INFO root fetch - processPackages [jinaai]: Start processing: canonicalwebteam-store-base
+[2023-06-09 10:22:56] INFO root fetch - main [MainThread]: End processing [jinaai] error
+[2023-06-09 10:22:56] INFO root fetch - processPackages [CUQIpy]: New version: [0.4.0.post0.dev19] Old Version: [0.4.0]
+[2023-06-09 10:22:56] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-06-09 10:22:56] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-06-09 10:22:56] INFO root fetch - processPackages [canonicalwebteam-store-base]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-09 10:22:56] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-06-09 10:22:56] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-06-09 10:22:56] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/c6/7a/d860e583876cf1adeb72ffc76d3363b91388a5fe506b33d75987cc178449/multireg-0.0.0.tar.gz
+[2023-06-09 10:22:56] INFO root fetch - processPackages [patio-redis]: Downloading https://files.pythonhosted.org/packages/c7/79/0e84d1521229c80d85ca793220891f692b240da88305ed648dd5ba975d4f/patio_redis-0.1.0.tar.gz
+[2023-06-09 10:22:56] INFO root fetch - processPackages [patio-rabbitmq]: Downloading https://files.pythonhosted.org/packages/1b/1d/8690789ede166e61c77205fbe9c7852a80e97b8eb09b1cc029302865b9b6/patio_rabbitmq-0.1.0.tar.gz
+[2023-06-09 10:22:56] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/33/5a/7ebe0143425bf41cfe97658efe3add2dfc47e5e92b54170ebae213adf297/CUQIpy-0.4.0.tar.gz
+[2023-06-09 10:22:56] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-06-09 10:22:57] INFO root fetch - processPackages [canonicalwebteam-store-base]: Downloading https://files.pythonhosted.org/packages/ef/36/d9bb4dbdf8ed97cd3eeac58e370162d83b2455c214d99a28b28d610cbb9a/canonicalwebteam_store_base-0.0.2.tar.gz
+[2023-06-09 10:22:57] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-06-09 10:22:57] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2023-06-09 10:22:57] INFO root fetch - processPackages [dop-integration-libs]: Downloading https://files.pythonhosted.org/packages/38/f1/bc23be91e084aa547e8c34ae1a7861c50b6e729c3885a6de0dd44e75ec72/dop_integration_libs-0.1.8.tar.gz
+[2023-06-09 10:22:57] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-06-09 10:22:57] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230609/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-09 10:22:57] INFO root fetch - processPackages [patio-redis]: Downloading https://files.pythonhosted.org/packages/0b/cd/103b03eca157939f931fffa6e199680afe03ca0c2dacc94c246c26447450/patio_redis-0.1.1.tar.gz
+[2023-06-09 10:22:57] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/02/f4/26f242725e2420aa62b44528025d6fb22d93434953d04a7a16fd8e26c0a7/CUQIpy-0.4.0.post0.dev19.tar.gz
+[2023-06-09 10:22:57] INFO root fetch - processPackages [canonicalwebteam-store-base]: Downloading https://files.pythonhosted.org/packages/c8/0f/fba03772e39d76e02bbceb5411e59fb129b73eff3ed3e8af62102a4d67a7/canonicalwebteam_store_base-0.0.3.tar.gz
+[2023-06-09 10:22:57] INFO root fetch - processPackages [patio-redis]: executing diffoscope
+[2023-06-09 10:22:57] INFO root fetch - processPackages [patio-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patio_redis-0.1.0.tar.gz tmp/patio_redis-0.1.1.tar.gz --markdown 20230609/p/patio-redis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-09 10:22:57] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/0e/6c/42641ea4d4b9a047c739160b3a0637d5868ed1e6503e0e320a0ef8126774/multireg-0.0.1.tar.gz
+[2023-06-09 10:22:57] INFO root fetch - processPackages [patio-rabbitmq]: Downloading https://files.pythonhosted.org/packages/af/09/2152cb4bc2d9f2181d0f745211ad2b56e07e599da82e59bb0efc43c140eb/patio_rabbitmq-0.1.1.tar.gz
+[2023-06-09 10:22:57] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-06-09 10:22:57] INFO root fetch - processPackages [canonicalwebteam-store-base]: executing diffoscope
+[2023-06-09 10:22:57] INFO root fetch - processPackages [canonicalwebteam-store-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canonicalwebteam_store_base-0.0.2.tar.gz tmp/canonicalwebteam_store_base-0.0.3.tar.gz --markdown 20230609/c/canonicalwebteam-store-base/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-09 10:22:57] INFO root fetch - processPackages [patio-rabbitmq]: executing diffoscope
+[2023-06-09 10:22:57] INFO root fetch - processPackages [patio-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patio_rabbitmq-0.1.0.tar.gz tmp/patio_rabbitmq-0.1.1.tar.gz --markdown 20230609/p/patio-rabbitmq/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-09 10:22:57] INFO root fetch - processPackages [multireg]: executing diffoscope
+[2023-06-09 10:22:57] INFO root fetch - processPackages [multireg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multireg-0.0.0.tar.gz tmp/multireg-0.0.1.tar.gz --markdown 20230609/m/multireg/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-09 10:22:57] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-06-09 10:22:57] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230609/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-06-09 10:22:57] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2023-06-09 10:22:57] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-06-09 10:22:57] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230609/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-06-09 10:22:57] INFO root fetch - processPackages [CUQIpy]: executing diffoscope
+[2023-06-09 10:22:57] INFO root fetch - processPackages [CUQIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-0.4.0.tar.gz tmp/CUQIpy-0.4.0.post0.dev19.tar.gz --markdown 20230609/C/CUQIpy/0.4.0-0.4.0.post0.dev19/diff.md --exclude *.pyd
+[2023-06-09 10:22:57] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-06-09 10:22:58] INFO root fetch - processPackages [dop-integration-libs]: Downloading https://files.pythonhosted.org/packages/e7/f0/39af1af4e964476dc9c3ae6c1ab240702fef5edc6306252ed5b3a40574c7/dop_integration_libs-0.1.9.tar.gz
+[2023-06-09 10:22:58] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-06-09 10:22:58] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230609/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 10:22:58] INFO root fetch - processPackages [patio-redis]: Remove: archive file [/home/abi/fetcher/tmp/patio_redis-0.1.0.tar.gz]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [patio-redis]: Remove: archive file [/home/abi/fetcher/tmp/patio_redis-0.1.1.tar.gz]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [patio-redis]: Start processing: eyes-soatra
+[2023-06-09 10:22:58] INFO root fetch - main [MainThread]: End processing [patio-redis]: success
+[2023-06-09 10:22:58] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [canonicalwebteam-store-base]: Remove: archive file [/home/abi/fetcher/tmp/canonicalwebteam_store_base-0.0.2.tar.gz]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [canonicalwebteam-store-base]: Remove: archive file [/home/abi/fetcher/tmp/canonicalwebteam_store_base-0.0.3.tar.gz]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [canonicalwebteam-store-base]: Start processing: pycde
+[2023-06-09 10:22:58] INFO root fetch - main [MainThread]: End processing [canonicalwebteam-store-base]: success
+[2023-06-09 10:22:58] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev80]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/65/49/a8d94c7a8a5eb8b0bf0e578cc6c7299b85f8bad03f42453edebec6df0ca6/eyes_soatra-0.0.28.tar.gz
+[2023-06-09 10:22:58] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Start processing: solver4mpi
+[2023-06-09 10:22:58] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-06-09 10:22:58] INFO root fetch - processPackages [solver4mpi]: New version: [3.4.1] Old Version: [3.4]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [solver4mpi]: Downloading https://files.pythonhosted.org/packages/34/65/1373b42969ebb7bc14e27f6e729bd40c0e6ef7d866ba5085464678a9d9ed/solver4mpi-3.4.tar.gz
+[2023-06-09 10:22:58] INFO root fetch - processPackages [patio-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/patio_rabbitmq-0.1.0.tar.gz]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [patio-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/patio_rabbitmq-0.1.1.tar.gz]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [patio-rabbitmq]: Start processing: pipeline-feature
+[2023-06-09 10:22:58] INFO root fetch - main [MainThread]: End processing [patio-rabbitmq]: success
+[2023-06-09 10:22:58] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-06-09 10:22:58] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.0.tar.gz]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.1.tar.gz]
+[2023-06-09 10:22:58] INFO root fetch - processPackages [multireg]: Start processing: gurobi-optimods
+[2023-06-09 10:22:58] INFO root fetch - main [MainThread]: End processing [multireg]: success
+[2023-06-09 10:22:58] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-09 10:22:58] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-06-09 10:22:58] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230609/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-06-09 10:22:58] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/db/00/ec7338288cdf728b5901663be337c3b66e7da2a1d7780bfccc6b6eefc511/pycde-0.2.1.dev80-cp39-cp39-win_amd64.whl
+[2023-06-09 10:22:59] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/a4/31/121d2a02df9d0bea3a0080c64b766acaf8ff5c1cf7aa00a32ba042d754ee/eyes_soatra-0.0.29.tar.gz
+[2023-06-09 10:22:59] INFO root fetch - processPackages [gurobi-optimods]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-09 10:22:59] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-06-09 10:22:59] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.28.tar.gz tmp/eyes_soatra-0.0.29.tar.gz --markdown 20230609/e/eyes-soatra/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-06-09 10:22:59] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-09 10:22:59] INFO root fetch - processPackages [solver4mpi]: Downloading https://files.pythonhosted.org/packages/65/1f/e92bbf0d1e30a0d9d456ae4e0c0b1a97735bf90ae915b12907a7c67c4db7/solver4mpi-3.4.1.tar.gz
+[2023-06-09 10:22:59] INFO root fetch - processPackages [solver4mpi]: executing diffoscope
+[2023-06-09 10:22:59] INFO root fetch - processPackages [solver4mpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solver4mpi-3.4.tar.gz tmp/solver4mpi-3.4.1.tar.gz --markdown 20230609/s/solver4mpi/3.4-3.4.1/diff.md --exclude *.pyd
+[2023-06-09 10:22:59] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-09 10:22:59] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-06-09 10:22:59] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230609/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 10:22:59] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-06-09 10:22:59] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-06-09 10:22:59] INFO root fetch - processPackages [gurobi-optimods]: Downloading https://files.pythonhosted.org/packages/10/2c/0d76aab9878d5082f8d03141643164fc56035151a6d443cffca4168dedbf/gurobi_optimods-0.2.0.tar.gz
+[2023-06-09 10:22:59] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-0.4.0.tar.gz]
+[2023-06-09 10:22:59] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-0.4.0.post0.dev19.tar.gz]
+[2023-06-09 10:22:59] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
+[2023-06-09 10:22:59] INFO root fetch - processPackages [gurobi-optimods]: Downloading https://files.pythonhosted.org/packages/f6/7d/df356e8bd1780aeed57b429607dfc840c387fac1c3c3366a08c24253d3cb/gurobi_optimods-1.0.0.tar.gz
+[2023-06-09 10:22:59] INFO root fetch - processPackages [dop-integration-libs]: Remove: archive file [/home/abi/fetcher/tmp/dop_integration_libs-0.1.8.tar.gz]
+[2023-06-09 10:22:59] INFO root fetch - processPackages [dop-integration-libs]: Remove: archive file [/home/abi/fetcher/tmp/dop_integration_libs-0.1.9.tar.gz]
+[2023-06-09 10:22:59] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-06-09 10:22:59] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/02/67/a0802e854af7f826dd695e46eb4ae1d0ab14c4a75671d50c34a7eb8074a8/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl
+[2023-06-09 10:22:59] INFO root fetch - processPackages [gurobi-optimods]: executing diffoscope
+[2023-06-09 10:22:59] INFO root fetch - processPackages [gurobi-optimods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gurobi_optimods-0.2.0.tar.gz tmp/gurobi_optimods-1.0.0.tar.gz --markdown 20230609/g/gurobi-optimods/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-09 10:23:00] INFO root fetch - processPackages [solver4mpi]: Remove: archive file [/home/abi/fetcher/tmp/solver4mpi-3.4.tar.gz]
+[2023-06-09 10:23:00] INFO root fetch - processPackages [solver4mpi]: Remove: archive file [/home/abi/fetcher/tmp/solver4mpi-3.4.1.tar.gz]
+[2023-06-09 10:23:00] INFO root fetch - main [MainThread]: End processing [solver4mpi]: success
+[2023-06-09 10:23:00] INFO root fetch - processPackages [eyes-soatra]: Remove: archive file [/home/abi/fetcher/tmp/eyes_soatra-0.0.28.tar.gz]
+[2023-06-09 10:23:00] INFO root fetch - processPackages [eyes-soatra]: Remove: archive file [/home/abi/fetcher/tmp/eyes_soatra-0.0.29.tar.gz]
+[2023-06-09 10:23:00] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-06-09 10:23:00] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-09 10:23:00] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-09 10:23:00] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-09 10:23:00] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-06-09 10:23:00] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev80-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230609/p/pycde/0.2.1.dev80-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-09 10:23:01] INFO root fetch - processPackages [gurobi-optimods]: Remove: archive file [/home/abi/fetcher/tmp/gurobi_optimods-0.2.0.tar.gz]
+[2023-06-09 10:23:01] INFO root fetch - processPackages [gurobi-optimods]: Remove: archive file [/home/abi/fetcher/tmp/gurobi_optimods-1.0.0.tar.gz]
+[2023-06-09 10:23:01] INFO root fetch - main [MainThread]: End processing [gurobi-optimods]: success
+[2023-06-09 10:23:04] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-06-09 10:23:04] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-06-09 10:23:04] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-06-09 10:23:24] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2023-06-09 10:23:24] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2023-06-09 10:23:24] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-06-09 10:23:43] ERROR root fetch - processPackages [pycde]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139954864791920)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139954730569136)
+
+[2023-06-09 10:23:43] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-06-09 10:23:43] INFO root fetch - main [MainThread]: Store serial: [18438277]
