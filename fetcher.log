@@ -21920,3 +21920,125 @@ AssertionError: tmp/satellitevu-1.5.0.tar.gz does not exist
 [2023-06-09 12:45:06] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230609.82609.tar.gz]
 [2023-06-09 12:45:06] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-06-09 12:45:06] INFO root fetch - main [MainThread]: Store serial: [18439504]
+[2023-06-09 12:50:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18439504]
+[2023-06-09 12:50:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orbit-component-zerodocs
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rhoova
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelbit
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: course-work-oop
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orbit-component-base
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ewoks
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: music-assistant
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ns-lab-aws
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tt-wizard-core
+[2023-06-09 12:50:16] INFO root fetch - processPackages [orbit-component-zerodocs]: New version: [1.0.9] Old Version: [1.0.11]
+[2023-06-09 12:50:16] INFO root fetch - processPackages [orbit-component-base]: New version: [1.0.9] Old Version: [1.0.11]
+[2023-06-09 12:50:16] INFO root fetch - processPackages [course-work-oop]: New version: [2.0] Old Version: [1.0]
+[2023-06-09 12:50:16] INFO root fetch - processPackages [rhoova]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 12:50:16] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-06-09 12:50:16] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ns-lab-aws]: New version: [23.6.9.post1248] Old Version: [23.6.9]
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ewoks]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-09 12:50:16] INFO root fetch - processPackages [tt-wizard-core]: New version: [0.1.1b0] Old Version: [0.0.1]
+[2023-06-09 12:50:16] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-09 12:50:16] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-06-09 12:50:16] INFO root fetch - processPackages [orbit-component-zerodocs]: Downloading https://files.pythonhosted.org/packages/e0/e5/97921fe2df4330c94ba775fea840fc65396d98df17c9a27cf354934201b9/orbit_component_zerodocs-1.0.11.tar.gz
+[2023-06-09 12:50:16] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/3b/de/7a5147b7eed2289a1448564bd9985ac7ce675087887d26d267377f420b77/orbit_component_base-1.0.11.tar.gz
+[2023-06-09 12:50:16] INFO root fetch - processPackages [rhoova]: Downloading https://files.pythonhosted.org/packages/6c/9d/23d42f50b513180bbe605934659277bed20f20376bb2e9f7af134dbc6016/rhoova-0.0.8.tar.gz
+[2023-06-09 12:50:16] INFO root fetch - processPackages [course-work-oop]: Downloading https://files.pythonhosted.org/packages/db/82/1489c63bb16f4985137b47fbabfd3195e920f247672974c61a7285b9d2c7/course_work_oop-1.0.tar.gz
+[2023-06-09 12:50:16] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ns-lab-aws]: Downloading https://files.pythonhosted.org/packages/65/27/3d5859830e4ad501f3300e35d1f9e6ce5e8e948ffccb1e2800976ab0880d/ns_lab_aws-23.6.9.tar.gz
+[2023-06-09 12:50:16] INFO root fetch - processPackages [music-assistant]: Start processing: quantile-estimator
+[2023-06-09 12:50:16] INFO root fetch - processPackages [orbit-component-zerodocs]: Downloading https://files.pythonhosted.org/packages/04/2c/8c8531b18da66a5bff50cef3ed436d05cbc4cd0c86ce2edb050974cd4cbd/orbit_component_zerodocs-1.0.9.tar.gz
+[2023-06-09 12:50:16] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-06-09 12:50:16] INFO root fetch - processPackages [tt-wizard-core]: Downloading https://files.pythonhosted.org/packages/7a/98/e8e0d8ad466679e22db89b7e13e8a91365a6cf94925e8f55bf1bb7761562/tt_wizard_core-0.0.1.tar.gz
+[2023-06-09 12:50:16] WARNING root fetch - processPackages [quantile-estimator]: Skipping, unable to determine old version
+[2023-06-09 12:50:16] INFO root fetch - processPackages [quantile-estimator]: Start processing: FriendlyAPI
+[2023-06-09 12:50:16] INFO root fetch - main [MainThread]: End processing [quantile-estimator] error
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ewoks]: Downloading https://files.pythonhosted.org/packages/e4/c2/22bf131d1fa205d149372304694fb29e8f656ebd8042c5d3b6e2b4c375a4/ewoks-0.2.0.tar.gz
+[2023-06-09 12:50:16] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-09 12:50:16] INFO root fetch - processPackages [orbit-component-zerodocs]: executing diffoscope
+[2023-06-09 12:50:16] INFO root fetch - processPackages [orbit-component-zerodocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_zerodocs-1.0.11.tar.gz tmp/orbit_component_zerodocs-1.0.9.tar.gz --markdown 20230609/o/orbit-component-zerodocs/1.0.11-1.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:50:16] WARNING root fetch - processPackages [FriendlyAPI]: Skipping, unable to determine old version
+[2023-06-09 12:50:16] INFO root fetch - processPackages [FriendlyAPI]: Start processing: ms-salesforce-api
+[2023-06-09 12:50:16] INFO root fetch - main [MainThread]: End processing [FriendlyAPI] error
+[2023-06-09 12:50:16] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-06-09 12:50:16] INFO root fetch - processPackages [ms-salesforce-api]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-06-09 12:50:17] INFO root fetch - processPackages [course-work-oop]: Downloading https://files.pythonhosted.org/packages/05/6e/69689ff92c4a975b6d752baf3accdd7ac3b9fe6176bcc550fb909bb5dcf9/course_work_oop-2.0.tar.gz
+[2023-06-09 12:50:17] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/d2/67/10fc0971fd85e0d95f32c6146a0e2bd1c6ac0e19c2823b8712f3d6c6e918/orbit_component_base-1.0.9.tar.gz
+[2023-06-09 12:50:17] INFO root fetch - processPackages [tt-wizard-core]: Downloading https://files.pythonhosted.org/packages/55/80/f39a3bef7645b4bda2e8cdfa9e4acb3a97ece01532b4bc25986029e98b3a/tt_wizard_core-0.1.1b0.tar.gz
+[2023-06-09 12:50:17] INFO root fetch - processPackages [course-work-oop]: executing diffoscope
+[2023-06-09 12:50:17] INFO root fetch - processPackages [course-work-oop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/course_work_oop-1.0.tar.gz tmp/course_work_oop-2.0.tar.gz --markdown 20230609/c/course-work-oop/1.0-2.0/diff.md --exclude *.pyd
+[2023-06-09 12:50:17] INFO root fetch - processPackages [ns-lab-aws]: Downloading https://files.pythonhosted.org/packages/7b/3c/5097527c5d5ce98f6225a622933df061d06cd2bf06a40ab105add81bffc1/ns_lab_aws-23.6.9.post1248.tar.gz
+[2023-06-09 12:50:17] INFO root fetch - processPackages [ns-lab-aws]: executing diffoscope
+[2023-06-09 12:50:17] INFO root fetch - processPackages [ns-lab-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_lab_aws-23.6.9.tar.gz tmp/ns_lab_aws-23.6.9.post1248.tar.gz --markdown 20230609/n/ns-lab-aws/23.6.9-23.6.9.post1248/diff.md --exclude *.pyd
+[2023-06-09 12:50:17] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/ae/68/ad5f54328e11720b5b7cd9d5eb337430a5ae3943d3040de6facaef46fbb3/ms_salesforce_api-0.0.42.tar.gz
+[2023-06-09 12:50:17] INFO root fetch - processPackages [rhoova]: Downloading https://files.pythonhosted.org/packages/50/79/5fa87504adf3aae9081b2ec48a4ba2f663b64e015719aff6e4ed694285ae/rhoova-0.0.9.tar.gz
+[2023-06-09 12:50:17] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-09 12:50:17] INFO root fetch - processPackages [orbit-component-base]: executing diffoscope
+[2023-06-09 12:50:17] INFO root fetch - processPackages [orbit-component-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_base-1.0.11.tar.gz tmp/orbit_component_base-1.0.9.tar.gz --markdown 20230609/o/orbit-component-base/1.0.11-1.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:50:17] INFO root fetch - processPackages [ewoks]: Downloading https://files.pythonhosted.org/packages/cc/76/a887c3088bd9cc4bf65ca34a2aae871b0f29e4df0b68a08d033b9818dfd3/ewoks-0.3.0.tar.gz
+[2023-06-09 12:50:17] INFO root fetch - processPackages [tt-wizard-core]: executing diffoscope
+[2023-06-09 12:50:17] INFO root fetch - processPackages [tt-wizard-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tt_wizard_core-0.0.1.tar.gz tmp/tt_wizard_core-0.1.1b0.tar.gz --markdown 20230609/t/tt-wizard-core/0.0.1-0.1.1b0/diff.md --exclude *.pyd
+[2023-06-09 12:50:17] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-09 12:50:17] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230609/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-09 12:50:17] ERROR root fetch - processPackages [ns-lab-aws]: Diffoscope failed: Error: error creating container storage: the container name "hopeful_sanderson" is already in use by "b7b63504d6cc83d857150d411d8f225c17483e4456c4521766d1ce64c61d3b5c". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-09 12:50:17] INFO root fetch - processPackages [ewoks]: executing diffoscope
+[2023-06-09 12:50:17] INFO root fetch - processPackages [ns-lab-aws]: Start processing: absl-extra
+[2023-06-09 12:50:17] INFO root fetch - main [MainThread]: End processing [ns-lab-aws] error
+[2023-06-09 12:50:17] INFO root fetch - processPackages [ewoks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoks-0.2.0.tar.gz tmp/ewoks-0.3.0.tar.gz --markdown 20230609/e/ewoks/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-09 12:50:17] INFO root fetch - processPackages [rhoova]: executing diffoscope
+[2023-06-09 12:50:17] INFO root fetch - processPackages [rhoova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhoova-0.0.8.tar.gz tmp/rhoova-0.0.9.tar.gz --markdown 20230609/r/rhoova/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:50:17] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-06-09 12:50:17] INFO root fetch - processPackages [absl-extra]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 12:50:17] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/d8/4a/f7690c2f1c599616486148a6a6d88a21f26e054d0e3e08aa2a8428059e53/ms_salesforce_api-0.0.43.tar.gz
+[2023-06-09 12:50:17] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/29/c2/2963a9d6af04f01e35537596dae79293de441ce549712ff30add2367a97e/absl_extra-0.0.8.tar.gz
+[2023-06-09 12:50:17] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2023-06-09 12:50:17] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-0.0.42.tar.gz tmp/ms_salesforce_api-0.0.43.tar.gz --markdown 20230609/m/ms-salesforce-api/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-06-09 12:50:17] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-06-09 12:50:17] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230609/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-09 12:50:17] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/77/5e/479618372d66392b53074e5ea5029923827042b97d6e1bea363d3ab81d91/absl_extra-0.0.9.tar.gz
+[2023-06-09 12:50:17] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-06-09 12:50:17] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.8.tar.gz tmp/absl_extra-0.0.9.tar.gz --markdown 20230609/a/absl-extra/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:50:18] INFO root fetch - processPackages [orbit-component-zerodocs]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_zerodocs-1.0.11.tar.gz]
+[2023-06-09 12:50:18] INFO root fetch - processPackages [orbit-component-zerodocs]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_zerodocs-1.0.9.tar.gz]
+[2023-06-09 12:50:18] INFO root fetch - processPackages [orbit-component-zerodocs]: Start processing: coge
+[2023-06-09 12:50:18] INFO root fetch - main [MainThread]: End processing [orbit-component-zerodocs]: success
+[2023-06-09 12:50:18] INFO root fetch - processPackages [coge]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 12:50:18] INFO root fetch - processPackages [course-work-oop]: Remove: archive file [/home/abi/fetcher/tmp/course_work_oop-1.0.tar.gz]
+[2023-06-09 12:50:18] INFO root fetch - processPackages [course-work-oop]: Remove: archive file [/home/abi/fetcher/tmp/course_work_oop-2.0.tar.gz]
+[2023-06-09 12:50:18] INFO root fetch - main [MainThread]: End processing [course-work-oop]: success
+[2023-06-09 12:50:18] INFO root fetch - processPackages [orbit-component-base]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_base-1.0.11.tar.gz]
+[2023-06-09 12:50:18] INFO root fetch - processPackages [orbit-component-base]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_base-1.0.9.tar.gz]
+[2023-06-09 12:50:18] INFO root fetch - main [MainThread]: End processing [orbit-component-base]: success
+[2023-06-09 12:50:18] INFO root fetch - processPackages [tt-wizard-core]: Remove: archive file [/home/abi/fetcher/tmp/tt_wizard_core-0.0.1.tar.gz]
+[2023-06-09 12:50:18] INFO root fetch - processPackages [tt-wizard-core]: Remove: archive file [/home/abi/fetcher/tmp/tt_wizard_core-0.1.1b0.tar.gz]
+[2023-06-09 12:50:18] INFO root fetch - main [MainThread]: End processing [tt-wizard-core]: success
+[2023-06-09 12:50:18] INFO root fetch - processPackages [coge]: Downloading https://files.pythonhosted.org/packages/cd/6e/adc51212ffd25ecc760842388702e8cb375485209969d6867c66537c1abb/coge-0.1.8-py2.py3-none-any.whl
+[2023-06-09 12:50:18] INFO root fetch - processPackages [rhoova]: Remove: archive file [/home/abi/fetcher/tmp/rhoova-0.0.8.tar.gz]
+[2023-06-09 12:50:18] INFO root fetch - processPackages [rhoova]: Remove: archive file [/home/abi/fetcher/tmp/rhoova-0.0.9.tar.gz]
+[2023-06-09 12:50:18] INFO root fetch - main [MainThread]: End processing [rhoova]: success
+[2023-06-09 12:50:18] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-09 12:50:18] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-09 12:50:18] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-09 12:50:19] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.8.tar.gz]
+[2023-06-09 12:50:19] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.9.tar.gz]
+[2023-06-09 12:50:19] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-06-09 12:50:19] INFO root fetch - processPackages [ewoks]: Remove: archive file [/home/abi/fetcher/tmp/ewoks-0.2.0.tar.gz]
+[2023-06-09 12:50:19] INFO root fetch - processPackages [ewoks]: Remove: archive file [/home/abi/fetcher/tmp/ewoks-0.3.0.tar.gz]
+[2023-06-09 12:50:19] INFO root fetch - main [MainThread]: End processing [ewoks]: success
+[2023-06-09 12:50:19] INFO root fetch - processPackages [coge]: Downloading https://files.pythonhosted.org/packages/72/8f/6faeea48e90157890924fe7cfc2ac7a23233c503048c9159dd2b8ea689e8/coge-0.1.9-py2.py3-none-any.whl
+[2023-06-09 12:50:19] INFO root fetch - processPackages [coge]: executing diffoscope
+[2023-06-09 12:50:19] INFO root fetch - processPackages [coge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coge-0.1.8-py2.py3-none-any.whl.zip tmp/coge-0.1.9-py2.py3-none-any.whl.zip --markdown 20230609/c/coge/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 12:50:19] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-0.0.42.tar.gz]
+[2023-06-09 12:50:19] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-0.0.43.tar.gz]
+[2023-06-09 12:50:19] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2023-06-09 12:50:19] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-06-09 12:50:19] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-06-09 12:50:19] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-06-09 12:50:20] INFO root fetch - processPackages [coge]: Remove: archive file [/home/abi/fetcher/tmp/coge-0.1.8-py2.py3-none-any.whl.zip]
+[2023-06-09 12:50:20] INFO root fetch - processPackages [coge]: Remove: archive file [/home/abi/fetcher/tmp/coge-0.1.9-py2.py3-none-any.whl.zip]
+[2023-06-09 12:50:20] INFO root fetch - main [MainThread]: End processing [coge]: success
+[2023-06-09 12:50:20] INFO root fetch - main [MainThread]: Store serial: [18439561]
