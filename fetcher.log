@@ -15798,3 +15798,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 08:00:57] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.7.3.tar.gz]
 [2023-06-09 08:00:57] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-06-09 08:00:57] INFO root fetch - main [MainThread]: Store serial: [18437021]
+[2023-06-09 08:06:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437021]
+[2023-06-09 08:06:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-databricks
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chunked-uploads-attentive
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytk-net
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aliyun-python-sdk-eventbridge
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: etos-lib
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-minio
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ensta
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ant1Interface
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seven-framework
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: settngs
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pytk-net]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-09 08:06:06] INFO root fetch - processPackages [etos-lib]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-06-09 08:06:06] INFO root fetch - processPackages [aliyun-python-sdk-eventbridge]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-09 08:06:06] INFO root fetch - processPackages [settngs]: New version: [0.7.0] Old Version: [0.6.5]
+[2023-06-09 08:06:06] INFO root fetch - processPackages [chunked-uploads-attentive]: New version: [1.0.0] Old Version: [0.0.7]
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ensta]: New version: [1.3] Old Version: [1.2]
+[2023-06-09 08:06:06] INFO root fetch - processPackages [seven-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/22/db/097dbb02a5b9d30c9c19e875a78564d7347c8ca6bde29f7db2b9e480f4c6/ensta-1.2.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/bd/20/a3219ee871657017db9e186ef8a1183527efafe5942a5177b1dacdba3708/etos_lib-3.1.0.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [chunked-uploads-attentive]: Downloading https://files.pythonhosted.org/packages/43/ce/567d2ed042ee349ab49f9dd91de113814f1a6856036c002bc6f3a6e645f2/chunked-uploads-attentive-0.0.7.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/c5/90/a263e79c8956f8479a6020bbf68125e4123466929ff9a80cdfeb7e9d40b1/pytk_net-0.0.2.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [aliyun-python-sdk-eventbridge]: Downloading https://files.pythonhosted.org/packages/27/27/bacbbbedac24b2f386e265929d77d64438d570b2067a70ad9cf8a01d8f74/aliyun-python-sdk-eventbridge-1.0.8.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [settngs]: Downloading https://files.pythonhosted.org/packages/44/9f/c953966119e5cd833eea9d7a2848eb613bc56d929a5aaffa0d0006417bee/settngs-0.6.5.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [seven-framework]: Downloading https://files.pythonhosted.org/packages/7f/6a/8dd7364d2a60d0b5147d14dcf9083999ee4ad4942275a8800135cac11a2c/seven_framework-1.1.8.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/ec/88/3a42ef13eeb70e156d3cf4e296adf9012fbef15a7685742aedf921da4911/ant1Interface-0.0.7-py3-none-any.whl
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/2a/95/9f78b7033f9610d10c9c38c15f28f64a3ca5e9343c66662ef2fcad793047/ensta-1.3.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20230609/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/diff.md --exclude *.pyd
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ensta]: executing diffoscope
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ensta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensta-1.2.tar.gz tmp/ensta-1.3.tar.gz --markdown 20230609/e/ensta/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-09 08:06:06] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/e8/ac/1df8a89115b23e3293df3558cde1106ca46097b6a2928546c000694fa09f/etos_lib-3.2.0.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [aliyun-python-sdk-eventbridge]: Downloading https://files.pythonhosted.org/packages/7d/b2/75bb9b93f750bb644fe5f6a2b6a839c6d3895e6eb9ca9a02d4bb203fc666/aliyun-python-sdk-eventbridge-1.0.9.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/9c/66/9fb02cde1389793ad9d9622eff4a8c9fd37820e8add94d3de9d5874faf0a/pytk_net-0.0.3.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [settngs]: Downloading https://files.pythonhosted.org/packages/bf/5f/b69155f1a82e24b248eb3e7e8bd904a73d23afeb40784ae47068426337ce/settngs-0.7.0.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230609/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-06-09 08:06:06] INFO root fetch - processPackages [chunked-uploads-attentive]: Downloading https://files.pythonhosted.org/packages/cb/d6/bdaf21ce46b35bae1830e77bc7e845c895788aaf27429c95492d5ab1d4d0/chunked-uploads-attentive-1.0.0.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/cf/d2/fcb6e1b2a714653f4642d8b21e4ee22b1b4ffbf9e9a950b6433053e972f8/ant1Interface-0.0.9-py3-none-any.whl
+[2023-06-09 08:06:06] INFO root fetch - processPackages [seven-framework]: Downloading https://files.pythonhosted.org/packages/28/c0/458db664a69b4b4618ad287bbb4ab4422019f23d75759d591959d27422be/seven_framework-1.1.9.tar.gz
+[2023-06-09 08:06:06] INFO root fetch - processPackages [etos-lib]: executing diffoscope
+[2023-06-09 08:06:06] INFO root fetch - processPackages [etos-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_lib-3.1.0.tar.gz tmp/etos_lib-3.2.0.tar.gz --markdown 20230609/e/etos-lib/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-06-09 08:06:06] INFO root fetch - processPackages [chunked-uploads-attentive]: executing diffoscope
+[2023-06-09 08:06:06] INFO root fetch - processPackages [chunked-uploads-attentive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chunked-uploads-attentive-0.0.7.tar.gz tmp/chunked-uploads-attentive-1.0.0.tar.gz --markdown 20230609/c/chunked-uploads-attentive/0.0.7-1.0.0/diff.md --exclude *.pyd
+[2023-06-09 08:06:06] INFO root fetch - processPackages [aliyun-python-sdk-eventbridge]: executing diffoscope
+[2023-06-09 08:06:06] INFO root fetch - processPackages [aliyun-python-sdk-eventbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-eventbridge-1.0.8.tar.gz tmp/aliyun-python-sdk-eventbridge-1.0.9.tar.gz --markdown 20230609/a/aliyun-python-sdk-eventbridge/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pytk-net]: executing diffoscope
+[2023-06-09 08:06:06] INFO root fetch - processPackages [pytk-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytk_net-0.0.2.tar.gz tmp/pytk_net-0.0.3.tar.gz --markdown 20230609/p/pytk-net/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-09 08:06:07] INFO root fetch - processPackages [settngs]: executing diffoscope
+[2023-06-09 08:06:07] INFO root fetch - processPackages [settngs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/settngs-0.6.5.tar.gz tmp/settngs-0.7.0.tar.gz --markdown 20230609/s/settngs/0.6.5-0.7.0/diff.md --exclude *.pyd
+[2023-06-09 08:06:07] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-06-09 08:06:07] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.7-py3-none-any.whl.zip tmp/ant1Interface-0.0.9-py3-none-any.whl.zip --markdown 20230609/a/ant1Interface/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 08:06:07] INFO root fetch - processPackages [seven-framework]: executing diffoscope
+[2023-06-09 08:06:07] INFO root fetch - processPackages [seven-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_framework-1.1.8.tar.gz tmp/seven_framework-1.1.9.tar.gz --markdown 20230609/s/seven-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-09 08:06:08] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-1.2.tar.gz]
+[2023-06-09 08:06:08] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-1.3.tar.gz]
+[2023-06-09 08:06:08] INFO root fetch - processPackages [ensta]: Start processing: pulumi-fastly
+[2023-06-09 08:06:08] INFO root fetch - main [MainThread]: End processing [ensta]: success
+[2023-06-09 08:06:08] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.1.0a1686288746] Old Version: [8.1.0a1686000123]
+[2023-06-09 08:06:08] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/5e/6a/a2761aa56f74b50c4d3e7e5934d155b8bd38a43543922c1f83be94d512e9/pulumi_fastly-8.1.0a1686000123.tar.gz
+[2023-06-09 08:06:08] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.0.2.tar.gz]
+[2023-06-09 08:06:08] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.0.3.tar.gz]
+[2023-06-09 08:06:08] INFO root fetch - processPackages [pytk-net]: Start processing: pyg-nightly
+[2023-06-09 08:06:08] INFO root fetch - main [MainThread]: End processing [pytk-net]: success
+[2023-06-09 08:06:08] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230608] Old Version: [2.4.0.dev20230607]
+[2023-06-09 08:06:08] INFO root fetch - processPackages [chunked-uploads-attentive]: Remove: archive file [/home/abi/fetcher/tmp/chunked-uploads-attentive-0.0.7.tar.gz]
+[2023-06-09 08:06:08] INFO root fetch - processPackages [chunked-uploads-attentive]: Remove: archive file [/home/abi/fetcher/tmp/chunked-uploads-attentive-1.0.0.tar.gz]
+[2023-06-09 08:06:08] INFO root fetch - main [MainThread]: End processing [chunked-uploads-attentive]: success
+[2023-06-09 08:06:08] INFO root fetch - processPackages [etos-lib]: Remove: archive file [/home/abi/fetcher/tmp/etos_lib-3.1.0.tar.gz]
+[2023-06-09 08:06:08] INFO root fetch - processPackages [etos-lib]: Remove: archive file [/home/abi/fetcher/tmp/etos_lib-3.2.0.tar.gz]
+[2023-06-09 08:06:08] INFO root fetch - main [MainThread]: End processing [etos-lib]: success
+[2023-06-09 08:06:08] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/3d/48/39b34d870585a7fb7e313d681693bffdd22348efe8c46f33e3bff31c0115/pulumi_fastly-8.1.0a1686288746.tar.gz
+[2023-06-09 08:06:08] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/cc/ae/c8edaafecd955b9b52c5c32ac44892161e872b38a25d8e10407ea4e71a81/pyg_nightly-2.4.0.dev20230607.tar.gz
+[2023-06-09 08:06:08] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-06-09 08:06:08] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.1.0a1686000123.tar.gz tmp/pulumi_fastly-8.1.0a1686288746.tar.gz --markdown 20230609/p/pulumi-fastly/8.1.0a1686000123-8.1.0a1686288746/diff.md --exclude *.pyd
+[2023-06-09 08:06:08] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/4b/3b/5c52f2a05d799058deb70bdfd3b7e267371a50ced0da1f9658423a73c14e/pyg_nightly-2.4.0.dev20230608.tar.gz
+[2023-06-09 08:06:09] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-09 08:06:09] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230607.tar.gz tmp/pyg_nightly-2.4.0.dev20230608.tar.gz --markdown 20230609/p/pyg-nightly/2.4.0.dev20230607-2.4.0.dev20230608/diff.md --exclude *.pyd
+[2023-06-09 08:06:09] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.7-py3-none-any.whl.zip]
+[2023-06-09 08:06:09] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.9-py3-none-any.whl.zip]
+[2023-06-09 08:06:09] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-06-09 08:06:09] INFO root fetch - processPackages [aliyun-python-sdk-eventbridge]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eventbridge-1.0.8.tar.gz]
+[2023-06-09 08:06:09] INFO root fetch - processPackages [aliyun-python-sdk-eventbridge]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eventbridge-1.0.9.tar.gz]
+[2023-06-09 08:06:09] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-eventbridge]: success
+[2023-06-09 08:06:09] INFO root fetch - processPackages [settngs]: Remove: archive file [/home/abi/fetcher/tmp/settngs-0.6.5.tar.gz]
+[2023-06-09 08:06:09] INFO root fetch - processPackages [settngs]: Remove: archive file [/home/abi/fetcher/tmp/settngs-0.7.0.tar.gz]
+[2023-06-09 08:06:09] INFO root fetch - main [MainThread]: End processing [settngs]: success
+[2023-06-09 08:06:09] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2023-06-09 08:06:09] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2023-06-09 08:06:09] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-06-09 08:06:09] INFO root fetch - processPackages [seven-framework]: Remove: archive file [/home/abi/fetcher/tmp/seven_framework-1.1.8.tar.gz]
+[2023-06-09 08:06:09] INFO root fetch - processPackages [seven-framework]: Remove: archive file [/home/abi/fetcher/tmp/seven_framework-1.1.9.tar.gz]
+[2023-06-09 08:06:09] INFO root fetch - main [MainThread]: End processing [seven-framework]: success
+[2023-06-09 08:06:10] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.1.0a1686000123.tar.gz]
+[2023-06-09 08:06:10] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.1.0a1686288746.tar.gz]
+[2023-06-09 08:06:10] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-06-09 08:06:11] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2023-06-09 08:06:11] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2023-06-09 08:06:11] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2023-06-09 08:06:14] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230607.tar.gz]
+[2023-06-09 08:06:14] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230608.tar.gz]
+[2023-06-09 08:06:14] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-09 08:06:14] INFO root fetch - main [MainThread]: Store serial: [18437055]
