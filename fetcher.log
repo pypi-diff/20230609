@@ -1939,3 +1939,113 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 02:03:25] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.1.0.tar.gz]
 [2023-06-09 02:03:25] INFO root fetch - main [MainThread]: End processing [Bgolearn]: success
 [2023-06-09 02:03:25] INFO root fetch - main [MainThread]: Store serial: [18432413]
+[2023-06-09 02:08:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18432413]
+[2023-06-09 02:08:34] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-09 02:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comicbox
+[2023-06-09 02:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recognize
+[2023-06-09 02:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchdatasets-nightly
+[2023-06-09 02:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: comai
+[2023-06-09 02:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-nightly
+[2023-06-09 02:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lasfile
+[2023-06-09 02:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxkern-nightly
+[2023-06-09 02:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TheengsDecoder
+[2023-06-09 02:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-bigquery
+[2023-06-09 02:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pinecone-client-nightly
+[2023-06-09 02:08:34] INFO root fetch - processPackages [comai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 02:08:34] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1686182603] Old Version: [1686096203]
+[2023-06-09 02:08:34] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-09 02:08:34] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-06-09 02:08:34] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/15/16/97490c39f95f97f1b8de896b5ed7cb784948f9a52a6891755c41f74302a8/mct-nightly-1.8.0.9042023.post411.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [comai]: Downloading https://files.pythonhosted.org/packages/8b/fb/205ecbd767ca17eb0c26dd1ae565ccad17c106a3f9c94ef86d0c8cd4e738/comai-0.0.8.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/88/c9/e430ab4db3cf7b7822ffb4f918eb07a7ef52e8920e6db2c1631bd6a98862/torchdatasets-nightly-1686096203.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [comicbox]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-09 02:08:34] INFO root fetch - processPackages [TheengsDecoder]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-06-09 02:08:34] INFO root fetch - processPackages [recognize]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 02:08:34] INFO root fetch - processPackages [lasfile]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 02:08:34] WARNING root fetch - processPackages [pinecone-client-nightly]: Skipping, unable to determine old version
+[2023-06-09 02:08:34] INFO root fetch - processPackages [pinecone-client-nightly]: Start processing: jaxutils-nightly
+[2023-06-09 02:08:34] INFO root fetch - main [MainThread]: End processing [pinecone-client-nightly] error
+[2023-06-09 02:08:34] INFO root fetch - processPackages [dbt-bigquery]: New version: [1.6.0b3] Old Version: [1.6.0b2]
+[2023-06-09 02:08:34] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230609] Old Version: [0.0.8.dev20230608]
+[2023-06-09 02:08:34] INFO root fetch - processPackages [comicbox]: Downloading https://files.pythonhosted.org/packages/bd/ed/63aa9756f8f44ae37d80b98f2912ba1a84803871b1c03cbf80b41e0603bb/comicbox-0.9.0.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/40/75/963960f9236ff152d95ce8541330a5c1c55a1023a23c60d5e6d8cadd5cbb/recognize-0.1.8.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-09 02:08:34] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230609/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-09 02:08:34] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/60/b5/e3e47c040022d78e9dfbf0a5335f03064e46be17ccdb6c3deb969737332b/jaxutils-nightly-0.0.8.dev20230608.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/b5/e1/115512b936351ea5a0d69a3d92bc1470092e53c6fd2f76e38573e86b589e/dbt-bigquery-1.6.0b2.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [TheengsDecoder]: Downloading https://files.pythonhosted.org/packages/51/0b/10e4adb05ff98e56a85c996c28d3b586d07d19931466b52ec7563b7454bc/TheengsDecoder-1.4.2.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [comai]: Downloading https://files.pythonhosted.org/packages/2f/d7/e4c49640cae492a4d4972dbb00245505154a77a7828d6f19ff5e8c4e9616/comai-0.0.9.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/d5/64/ec9a7cc9d411e7c7da40b3dad36030498cc079c8f4f65beae1c5d32d33fc/lasfile-0.1.8.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/39/fa/63c23125514f4ccbde477ead4854e4d29c9cacdb45efe98739c07a78a9a1/mct-nightly-1.8.0.9052023.post348.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/97/75/30fbb4b9fb738bc35e225e46024f9ea6eeea138cb90be33245309f2790a5/torchdatasets-nightly-1686182603.tar.gz
+[2023-06-09 02:08:34] WARNING root fetch - processPackages [comicbox]: Skipping package: exceeds size limit 78948885>=10485760
+[2023-06-09 02:08:34] INFO root fetch - processPackages [comicbox]: Start processing: torchlayers-nightly
+[2023-06-09 02:08:34] INFO root fetch - main [MainThread]: End processing [comicbox] error
+[2023-06-09 02:08:34] INFO root fetch - processPackages [comai]: executing diffoscope
+[2023-06-09 02:08:34] INFO root fetch - processPackages [comai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comai-0.0.8.tar.gz tmp/comai-0.0.9.tar.gz --markdown 20230609/c/comai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 02:08:34] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-09 02:08:34] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230609/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-06-09 02:08:34] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-09 02:08:34] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1686096203.tar.gz tmp/torchdatasets-nightly-1686182603.tar.gz --markdown 20230609/t/torchdatasets-nightly/1686096203-1686182603/diff.md --exclude *.pyd
+[2023-06-09 02:08:34] INFO root fetch - processPackages [TheengsDecoder]: Downloading https://files.pythonhosted.org/packages/a4/6f/76135a7558fd4a4a4c8a090753593e8a4bcca7072943772e2e0fe29ee9d9/TheengsDecoder-1.5.0.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/ce/4b/fe6d07356022c8d8e4e25f1a224e6b9102fcedf9e913667bff8654076c21/jaxutils-nightly-0.0.8.dev20230609.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1686269234] Old Version: [1686182849]
+[2023-06-09 02:08:34] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/90/11/44165d25dc6f6929091933caec158f7e7a1da9f6e2594a3b2c9180d8d7e3/recognize-0.1.9.tar.gz
+[2023-06-09 02:08:34] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/05/ca/5665aa192cb516736561c62d6ac57a32d7706d9306b5068378547b277e1d/dbt-bigquery-1.6.0b3.tar.gz
+[2023-06-09 02:08:35] INFO root fetch - processPackages [TheengsDecoder]: executing diffoscope
+[2023-06-09 02:08:35] INFO root fetch - processPackages [TheengsDecoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheengsDecoder-1.4.2.tar.gz tmp/TheengsDecoder-1.5.0.tar.gz --markdown 20230609/T/TheengsDecoder/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-06-09 02:08:35] INFO root fetch - processPackages [recognize]: executing diffoscope
+[2023-06-09 02:08:35] INFO root fetch - processPackages [recognize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recognize-0.1.8.tar.gz tmp/recognize-0.1.9.tar.gz --markdown 20230609/r/recognize/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 02:08:35] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-09 02:08:35] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230608.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230609.tar.gz --markdown 20230609/j/jaxutils-nightly/0.0.8.dev20230608-0.0.8.dev20230609/diff.md --exclude *.pyd
+[2023-06-09 02:08:35] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/81/46/99cbc4f9407daa16b3fe90802004647de4ec0eb60dfa6c1a4e06fbe5d312/lasfile-0.1.9.tar.gz
+[2023-06-09 02:08:35] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/67/d5/1873fe01f928360c8d60b7e0783f67e119bc0e29ea06cfaaebfccc8f4ac4/torchlayers-nightly-1686182849.tar.gz
+[2023-06-09 02:08:35] INFO root fetch - processPackages [dbt-bigquery]: executing diffoscope
+[2023-06-09 02:08:35] INFO root fetch - processPackages [dbt-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-bigquery-1.6.0b2.tar.gz tmp/dbt-bigquery-1.6.0b3.tar.gz --markdown 20230609/d/dbt-bigquery/1.6.0b2-1.6.0b3/diff.md --exclude *.pyd
+[2023-06-09 02:08:35] INFO root fetch - processPackages [lasfile]: executing diffoscope
+[2023-06-09 02:08:35] INFO root fetch - processPackages [lasfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasfile-0.1.8.tar.gz tmp/lasfile-0.1.9.tar.gz --markdown 20230609/l/lasfile/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 02:08:35] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/02/ac/cda811064b8b5aab4d57b157b76b400d583f4c4ca689752f986f30f3d44f/torchlayers-nightly-1686269234.tar.gz
+[2023-06-09 02:08:35] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-09 02:08:35] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1686182849.tar.gz tmp/torchlayers-nightly-1686269234.tar.gz --markdown 20230609/t/torchlayers-nightly/1686182849-1686269234/diff.md --exclude *.pyd
+[2023-06-09 02:08:35] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-09 02:08:35] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-09 02:08:35] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: cdk-aws-discord-notifiers
+[2023-06-09 02:08:35] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-09 02:08:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.90] Old Version: [0.0.9]
+[2023-06-09 02:08:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/64/4d/d26eadf6d10a1bd3e3d1a120851cb7b19a0875a9b579875d43952d28eaa6/cdk-aws-discord-notifiers-0.0.9.tar.gz
+[2023-06-09 02:08:36] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686096203.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686182603.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-09 02:08:36] INFO root fetch - processPackages [comai]: Remove: archive file [/home/abi/fetcher/tmp/comai-0.0.8.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - processPackages [comai]: Remove: archive file [/home/abi/fetcher/tmp/comai-0.0.9.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - main [MainThread]: End processing [comai]: success
+[2023-06-09 02:08:36] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.8.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.9.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - main [MainThread]: End processing [recognize]: success
+[2023-06-09 02:08:36] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.8.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.9.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - main [MainThread]: End processing [lasfile]: success
+[2023-06-09 02:08:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/b1/af/0be1f19f2451200fdf971678c7e26536c5ba030c5c799bdfd2a11f68ec9a/cdk-aws-discord-notifiers-0.0.90.tar.gz
+[2023-06-09 02:08:36] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230608.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230609.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-09 02:08:36] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686182849.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686269234.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-09 02:08:36] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bigquery-1.6.0b2.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bigquery-1.6.0b3.tar.gz]
+[2023-06-09 02:08:36] INFO root fetch - main [MainThread]: End processing [dbt-bigquery]: success
+[2023-06-09 02:08:37] INFO root fetch - processPackages [TheengsDecoder]: Remove: archive file [/home/abi/fetcher/tmp/TheengsDecoder-1.4.2.tar.gz]
+[2023-06-09 02:08:37] INFO root fetch - processPackages [TheengsDecoder]: Remove: archive file [/home/abi/fetcher/tmp/TheengsDecoder-1.5.0.tar.gz]
+[2023-06-09 02:08:37] INFO root fetch - main [MainThread]: End processing [TheengsDecoder]: success
+[2023-06-09 02:08:38] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-09 02:08:38] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.9.tar.gz tmp/cdk-aws-discord-notifiers-0.0.90.tar.gz --markdown 20230609/c/cdk-aws-discord-notifiers/0.0.9-0.0.90/diff.md --exclude *.pyd
+[2023-06-09 02:08:39] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.9.tar.gz]
+[2023-06-09 02:08:39] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.90.tar.gz]
+[2023-06-09 02:08:39] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-09 02:08:43] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9042023.post411.tar.gz]
+[2023-06-09 02:08:43] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
+[2023-06-09 02:08:43] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-09 02:08:43] INFO root fetch - main [MainThread]: Store serial: [18432450]
