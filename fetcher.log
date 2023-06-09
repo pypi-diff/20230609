@@ -13153,3 +13153,179 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 06:26:18] INFO root fetch - processPackages [ionicons-python]: Remove: archive file [/home/abi/fetcher/tmp/ionicons_python-0.1.5.tar.gz]
 [2023-06-09 06:26:18] INFO root fetch - main [MainThread]: End processing [ionicons-python]: success
 [2023-06-09 06:26:18] INFO root fetch - main [MainThread]: Store serial: [18436195]
+[2023-06-09 06:31:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436195]
+[2023-06-09 06:31:28] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-09 06:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: villa
+[2023-06-09 06:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-stock-operating-unit
+[2023-06-09 06:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: federa
+[2023-06-09 06:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-operating-unit
+[2023-06-09 06:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-partner-contact-nutrition-diet
+[2023-06-09 06:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo9-addon-partner-changeset
+[2023-06-09 06:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo9-addon-partner-sector
+[2023-06-09 06:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: json-file-split
+[2023-06-09 06:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fsai-shared-funcs
+[2023-06-09 06:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: geopix
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-06-09 06:31:28] INFO root fetch - processPackages [villa]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: New version: [16.0.20230605.0] Old Version: [16.0.20230412.0]
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-changeset]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-contact-nutrition-diet]: New version: [9.0.1.0.0.99.dev8] Old Version: [9.0.1.0.0.99.dev7]
+[2023-06-09 06:31:28] WARNING root fetch - processPackages [federa]: Skipping, unable to determine old version
+[2023-06-09 06:31:28] INFO root fetch - processPackages [federa]: Start processing: cvat-manifest-builder
+[2023-06-09 06:31:28] INFO root fetch - main [MainThread]: End processing [federa] error
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-sector]: New version: [9.0.2.0.0.99.dev8] Old Version: [9.0.2.0.0.99.dev7]
+[2023-06-09 06:31:28] INFO root fetch - processPackages [geopix]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 06:31:28] INFO root fetch - processPackages [json-file-split]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 06:31:28] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/41/81/6f9e16e784c549b58d28b92caa2ad65b24689bc6e2152d99fa209c810873/villa-0.1.1.tar.gz
+[2023-06-09 06:31:28] INFO root fetch - processPackages [fsai-shared-funcs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-contact-nutrition-diet]: Downloading https://files.pythonhosted.org/packages/0f/30/d26ecb8703117767900c90c346d337d032352dad95b19e305cebef3949b2/odoo9_addon_partner_contact_nutrition_diet-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-09 06:31:28] INFO root fetch - processPackages [cvat-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-sector]: Downloading https://files.pythonhosted.org/packages/47/0d/2bffa3801d7a79583c7c10b31803d902d453aa37c4f96348d296b0b33357/odoo9_addon_partner_sector-9.0.2.0.0.99.dev7-py2-none-any.whl
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/d4/75/4e6dc4e4229eaf1ceb3f94112e231d1c76033caea05029f5da522ce01af1/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: Downloading https://files.pythonhosted.org/packages/68/39/02339bf66e04a14708bb319a102d6df1cb63a7daad69b9c95cf6b645b427/odoo_addon_sale_stock_operating_unit-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-09 06:31:28] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/b6/a3/41b4f581e7463e3bce55e79579de9bf1f2c828011573c06bf7ab33a974bd/geopix-0.0.98.tar.gz
+[2023-06-09 06:31:28] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/61/bc/39412ebc8deaeb66f457caebc15c02bc1fe07bc33108672e4bf143d64e3b/fsai_shared_funcs-0.0.98.tar.gz
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-changeset]: Downloading https://files.pythonhosted.org/packages/08/e5/80063c1ef10aaab69648dfb661098c118f73dd9a44e15bb9acc5e7128bb0/odoo9_addon_partner_changeset-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-09 06:31:28] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/99/d8/622632db80b721cb33feb5bafb9759e9b295589e09234724044a35a985ba/json_file_split-0.0.98.tar.gz
+[2023-06-09 06:31:28] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/4d/53/ceeb4be50300cbb9ab2e0de8699ddef9fb20be70ac60f72cac3097f0efc9/cvat_manifest_builder-0.0.98.tar.gz
+[2023-06-09 06:31:28] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/0e/a6/444cd5df5b1ed775cf6a31187fc4dca8c77abb3768abf4b2f9d32d13de2c/villa-0.1.2.tar.gz
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-contact-nutrition-diet]: Downloading https://files.pythonhosted.org/packages/7a/a6/151d9bc74ce3f2e39ac3175dbee64652d2f0372a95c7c4bbf9c0737e8ed8/odoo9_addon_partner_contact_nutrition_diet-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/66/ec/53d7027c4000ae985cb73eb18e08a82bbdcf666cee81f732f9ccbe46f856/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-sector]: Downloading https://files.pythonhosted.org/packages/14/15/f21621a3b272d1b8a3897b090ca04c94c45c527a0368f471047509b6f64f/odoo9_addon_partner_sector-9.0.2.0.0.99.dev8-py2-none-any.whl
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-contact-nutrition-diet]: executing diffoscope
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-contact-nutrition-diet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_partner_contact_nutrition_diet-9.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_partner_contact_nutrition_diet-9.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-partner-contact-nutrition-diet/9.0.1.0.0.99.dev7-9.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: Downloading https://files.pythonhosted.org/packages/4e/72/b76b3c740113a6a944c8369ce8c9ba03265ebfcf124c4bc78db507b65663/odoo_addon_sale_stock_operating_unit-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-09 06:31:28] INFO root fetch - processPackages [villa]: executing diffoscope
+[2023-06-09 06:31:28] INFO root fetch - processPackages [villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/villa-0.1.1.tar.gz tmp/villa-0.1.2.tar.gz --markdown 20230609/v/villa/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-09 06:31:28] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/6a/35/1c90409a83c347836b8e4e5b2ad3d6ad6534718a8977dd9b3a646edd5e26/geopix-0.0.99.tar.gz
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: executing diffoscope
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl.zip tmp/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl.zip --markdown 20230609/o/odoo-addons-oca-operating-unit/16.0.20230412.0-16.0.20230605.0/diff.md --exclude *.pyd
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-changeset]: Downloading https://files.pythonhosted.org/packages/ec/18/3e53eb0a73bed1e53e9b152cd59c08662be40ac17abb6d932b83b49745fb/odoo9_addon_partner_changeset-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-09 06:31:28] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/a0/bb/0991effbd14e0114fac9146f11da815fc866dc9e12a179cdfc204af7bd99/json_file_split-0.0.99.tar.gz
+[2023-06-09 06:31:28] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/2d/fd/8ffcf4ea6e13da75ab842cd4fdacad9222d483a9b210dbc27e9c251f6a20/cvat_manifest_builder-0.0.99.tar.gz
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-sector]: executing diffoscope
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-sector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_partner_sector-9.0.2.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_partner_sector-9.0.2.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-partner-sector/9.0.2.0.0.99.dev7-9.0.2.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-09 06:31:28] INFO root fetch - processPackages [geopix]: executing diffoscope
+[2023-06-09 06:31:28] INFO root fetch - processPackages [geopix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopix-0.0.98.tar.gz tmp/geopix-0.0.99.tar.gz --markdown 20230609/g/geopix/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 06:31:28] INFO root fetch - processPackages [json-file-split]: executing diffoscope
+[2023-06-09 06:31:28] INFO root fetch - processPackages [json-file-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_file_split-0.0.98.tar.gz tmp/json_file_split-0.0.99.tar.gz --markdown 20230609/j/json-file-split/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-changeset]: executing diffoscope
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo9-addon-partner-changeset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_partner_changeset-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_partner_changeset-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-partner-changeset/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: executing diffoscope
+[2023-06-09 06:31:28] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_stock_operating_unit-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_stock_operating_unit-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-sale-stock-operating-unit/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-09 06:31:28] INFO root fetch - processPackages [cvat-manifest-builder]: executing diffoscope
+[2023-06-09 06:31:28] INFO root fetch - processPackages [cvat-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_manifest_builder-0.0.98.tar.gz tmp/cvat_manifest_builder-0.0.99.tar.gz --markdown 20230609/c/cvat-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 06:31:29] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/3d/ad/0128c444d5b95fa3b9882d63404069f05fbee06ab63f54a541348c51a445/fsai_shared_funcs-0.0.99.tar.gz
+[2023-06-09 06:31:29] INFO root fetch - processPackages [fsai-shared-funcs]: executing diffoscope
+[2023-06-09 06:31:29] INFO root fetch - processPackages [fsai-shared-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_shared_funcs-0.0.98.tar.gz tmp/fsai_shared_funcs-0.0.99.tar.gz --markdown 20230609/f/fsai-shared-funcs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 06:31:30] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl.zip]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl.zip]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Start processing: recursive-validator
+[2023-06-09 06:31:30] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-operating-unit]: success
+[2023-06-09 06:31:30] INFO root fetch - processPackages [recursive-validator]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.98.tar.gz]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.99.tar.gz]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [geopix]: Start processing: fsai-grpc-api
+[2023-06-09 06:31:30] INFO root fetch - main [MainThread]: End processing [geopix]: success
+[2023-06-09 06:31:30] INFO root fetch - processPackages [fsai-grpc-api]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/44/24/6e3f27033069680d4ad07aee3e1d535e1b3444f1ce72e8df548e8a16dc8e/recursive_validator-0.0.98.tar.gz
+[2023-06-09 06:31:30] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.1.1.tar.gz]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.1.2.tar.gz]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [villa]: Start processing: iwx-manifest-builder
+[2023-06-09 06:31:30] INFO root fetch - main [MainThread]: End processing [villa]: success
+[2023-06-09 06:31:30] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.98.tar.gz]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.99.tar.gz]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [json-file-split]: Start processing: awpr
+[2023-06-09 06:31:30] INFO root fetch - main [MainThread]: End processing [json-file-split]: success
+[2023-06-09 06:31:30] INFO root fetch - processPackages [iwx-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [awpr]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/08/a7/9a7ebe38ab432231655f1bfd81e702be8be178baa4b6a212002bdcf3cd96/fsai_grpc_api-0.0.98.tar.gz
+[2023-06-09 06:31:30] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.98.tar.gz]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.99.tar.gz]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [cvat-manifest-builder]: Start processing: semvecpy
+[2023-06-09 06:31:30] INFO root fetch - main [MainThread]: End processing [cvat-manifest-builder]: success
+[2023-06-09 06:31:30] INFO root fetch - processPackages [semvecpy]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [odoo9-addon-partner-contact-nutrition-diet]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_partner_contact_nutrition_diet-9.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [odoo9-addon-partner-contact-nutrition-diet]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_partner_contact_nutrition_diet-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [odoo9-addon-partner-contact-nutrition-diet]: Start processing: xarray-spatial
+[2023-06-09 06:31:30] INFO root fetch - main [MainThread]: End processing [odoo9-addon-partner-contact-nutrition-diet]: success
+[2023-06-09 06:31:30] INFO root fetch - processPackages [xarray-spatial]: New version: [0.3.7] Old Version: [0.3.5]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/20/69/15c65a62a3a988a3178f156c6296d17502891a9da8e386979e511c8bd639/awpr-0.0.98.tar.gz
+[2023-06-09 06:31:30] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/33/bf/02ba356059e9069f6db9f027bf1bd97a4c1de39fe82e72814ed2f73f3c39/iwx_manifest_builder-0.0.98.tar.gz
+[2023-06-09 06:31:30] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/3a/cc/f8feacbe20ac476d11c94a3c866b32fb9b4dde5694a5194843b6b0dde0eb/recursive_validator-0.0.99.tar.gz
+[2023-06-09 06:31:30] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_operating_unit-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_operating_unit-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: Start processing: poetry-plugin-package-info
+[2023-06-09 06:31:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-operating-unit]: success
+[2023-06-09 06:31:30] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.98.tar.gz]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.99.tar.gz]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [fsai-shared-funcs]: Start processing: cabinet
+[2023-06-09 06:31:30] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
+[2023-06-09 06:31:30] WARNING root fetch - processPackages [poetry-plugin-package-info]: Skipping, unable to determine old version
+[2023-06-09 06:31:30] INFO root fetch - processPackages [poetry-plugin-package-info]: Start processing: pypinterest
+[2023-06-09 06:31:30] INFO root fetch - main [MainThread]: End processing [poetry-plugin-package-info] error
+[2023-06-09 06:31:30] INFO root fetch - processPackages [pypinterest]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [cabinet]: New version: [2023.6.8.1] Old Version: [2023.5.31.3]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [semvecpy]: Downloading https://files.pythonhosted.org/packages/75/5a/8c5308287ddefda7ed4ccb9bf1fe38892cc72dd7db245ebf7e6b1a03de25/semvecpy-0.1.6.tar.gz
+[2023-06-09 06:31:30] INFO root fetch - processPackages [odoo9-addon-partner-sector]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_partner_sector-9.0.2.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [odoo9-addon-partner-sector]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_partner_sector-9.0.2.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [odoo9-addon-partner-sector]: Start processing: pipeline-feature
+[2023-06-09 06:31:30] INFO root fetch - main [MainThread]: End processing [odoo9-addon-partner-sector]: success
+[2023-06-09 06:31:30] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 06:31:30] INFO root fetch - processPackages [pypinterest]: Downloading https://files.pythonhosted.org/packages/cc/f0/532d8faa482d4e015e79f2b2d944e92ebaa48d2bce07b3c9549406648f6f/pypinterest-0.1.0.tar.gz
+[2023-06-09 06:31:30] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/9b/76/8a69144e2e7db3d7b70f7a9a6458e71d63b921d67ca39c9f646ee438e103/fsai_grpc_api-0.0.99.tar.gz
+[2023-06-09 06:31:30] INFO root fetch - processPackages [xarray-spatial]: Downloading https://files.pythonhosted.org/packages/ca/7f/dc517f394fe22b38d083a030fba22fa915ae64a54bac64a33760507e6780/xarray-spatial-0.3.5.tar.gz
+[2023-06-09 06:31:30] INFO root fetch - processPackages [recursive-validator]: executing diffoscope
+[2023-06-09 06:31:30] INFO root fetch - processPackages [recursive-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursive_validator-0.0.98.tar.gz tmp/recursive_validator-0.0.99.tar.gz --markdown 20230609/r/recursive-validator/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 06:31:30] WARNING root fetch - processPackages [xarray-spatial]: Skipping package: exceeds size limit 65498314>=10485760
+[2023-06-09 06:31:30] INFO root fetch - main [MainThread]: End processing [xarray-spatial] error
+[2023-06-09 06:31:30] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-09 06:31:31] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/d7/d6/4db840a6915c649204176fabdc1a7d70a4fdf7a1d3bd33ddd8cd11c02111/iwx_manifest_builder-0.0.99.tar.gz
+[2023-06-09 06:31:31] INFO root fetch - processPackages [odoo9-addon-partner-changeset]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_partner_changeset-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 06:31:31] INFO root fetch - processPackages [odoo9-addon-partner-changeset]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_partner_changeset-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 06:31:31] INFO root fetch - main [MainThread]: End processing [odoo9-addon-partner-changeset]: success
+[2023-06-09 06:31:31] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/72/e3/fad685052fd307c45b32fda1244ca86ed2ee7b95b7436b4a605a6b442744/cabinet-2023.5.31.3.tar.gz
+[2023-06-09 06:31:31] INFO root fetch - processPackages [fsai-grpc-api]: executing diffoscope
+[2023-06-09 06:31:31] INFO root fetch - processPackages [fsai-grpc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_grpc_api-0.0.98.tar.gz tmp/fsai_grpc_api-0.0.99.tar.gz --markdown 20230609/f/fsai-grpc-api/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 06:31:31] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-09 06:31:31] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/43/6a/a5e099ae1a88431e28ea793094495025f2a78ac4d52ea49d8aad0e55cf8c/awpr-0.0.99.tar.gz
+[2023-06-09 06:31:31] INFO root fetch - processPackages [pypinterest]: Downloading https://files.pythonhosted.org/packages/dd/48/4a777aea87e1a965288ba5be1e6aa16121b3a139d511a07ffcff73b5ad5f/pypinterest-0.1.1.tar.gz
+[2023-06-09 06:31:31] INFO root fetch - processPackages [semvecpy]: Downloading https://files.pythonhosted.org/packages/f8/ee/62d99136d82b49c4cfe33ee428021c29dbfd8e1a0804754f0a5a19cd5496/semvecpy-0.1.8.tar.gz
+[2023-06-09 06:31:31] INFO root fetch - processPackages [iwx-manifest-builder]: executing diffoscope
+[2023-06-09 06:31:31] INFO root fetch - processPackages [iwx-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwx_manifest_builder-0.0.98.tar.gz tmp/iwx_manifest_builder-0.0.99.tar.gz --markdown 20230609/i/iwx-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 06:31:31] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-09 06:31:31] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230609/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 06:31:31] INFO root fetch - processPackages [semvecpy]: executing diffoscope
+[2023-06-09 06:31:31] INFO root fetch - processPackages [semvecpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semvecpy-0.1.6.tar.gz tmp/semvecpy-0.1.8.tar.gz --markdown 20230609/s/semvecpy/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-09 06:31:31] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-06-09 06:31:31] INFO root fetch - processPackages [pypinterest]: executing diffoscope
+[2023-06-09 06:31:31] INFO root fetch - processPackages [pypinterest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypinterest-0.1.0.tar.gz tmp/pypinterest-0.1.1.tar.gz --markdown 20230609/p/pypinterest/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-09 06:31:31] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-06-09 06:31:31] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.5.31.3.tar.gz tmp/cabinet-2023.6.8.1.tar.gz --markdown 20230609/c/cabinet/2023.5.31.3-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-09 06:31:31] ERROR root fetch - processPackages [semvecpy]: Diffoscope failed: Error: error creating container storage: the container name "thirsty_stonebraker" is already in use by "22fbef2f2cdb9cfa08f096011877761806b4e5559e19186aa8096756c840a06b". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-09 06:31:31] INFO root fetch - main [MainThread]: End processing [semvecpy] error
+[2023-06-09 06:31:31] INFO root fetch - processPackages [awpr]: executing diffoscope
+[2023-06-09 06:31:31] INFO root fetch - processPackages [awpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awpr-0.0.98.tar.gz tmp/awpr-0.0.99.tar.gz --markdown 20230609/a/awpr/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 06:31:32] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.98.tar.gz]
+[2023-06-09 06:31:32] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.99.tar.gz]
+[2023-06-09 06:31:32] INFO root fetch - main [MainThread]: End processing [recursive-validator]: success
+[2023-06-09 06:31:32] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.98.tar.gz]
+[2023-06-09 06:31:32] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.99.tar.gz]
+[2023-06-09 06:31:32] INFO root fetch - main [MainThread]: End processing [iwx-manifest-builder]: success
+[2023-06-09 06:31:32] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-09 06:31:32] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-09 06:31:32] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-09 06:31:32] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.98.tar.gz]
+[2023-06-09 06:31:32] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.99.tar.gz]
+[2023-06-09 06:31:32] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
+[2023-06-09 06:31:32] INFO root fetch - processPackages [pypinterest]: Remove: archive file [/home/abi/fetcher/tmp/pypinterest-0.1.0.tar.gz]
+[2023-06-09 06:31:32] INFO root fetch - processPackages [pypinterest]: Remove: archive file [/home/abi/fetcher/tmp/pypinterest-0.1.1.tar.gz]
+[2023-06-09 06:31:32] INFO root fetch - main [MainThread]: End processing [pypinterest]: success
+[2023-06-09 06:31:32] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.5.31.3.tar.gz]
+[2023-06-09 06:31:32] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.8.1.tar.gz]
+[2023-06-09 06:31:32] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-06-09 06:32:25] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.98.tar.gz]
+[2023-06-09 06:32:25] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.99.tar.gz]
+[2023-06-09 06:32:25] INFO root fetch - main [MainThread]: End processing [awpr]: success
+[2023-06-09 06:32:25] INFO root fetch - main [MainThread]: Store serial: [18436260]
