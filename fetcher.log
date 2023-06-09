@@ -22042,3 +22042,97 @@ AssertionError: tmp/satellitevu-1.5.0.tar.gz does not exist
 [2023-06-09 12:50:20] INFO root fetch - processPackages [coge]: Remove: archive file [/home/abi/fetcher/tmp/coge-0.1.9-py2.py3-none-any.whl.zip]
 [2023-06-09 12:50:20] INFO root fetch - main [MainThread]: End processing [coge]: success
 [2023-06-09 12:50:20] INFO root fetch - main [MainThread]: Store serial: [18439561]
+[2023-06-09 12:55:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18439561]
+[2023-06-09 12:55:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bmarimaruplayer
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mir-ml-utils
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tract
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: q2gui
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capellambse
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-maintenance
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lnschema_core
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantile-estimator
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ns-lab-aws
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: capellambse
+[2023-06-09 12:55:29] WARNING root fetch - processPackages [bmarimaruplayer]: Skipping, unable to determine old version
+[2023-06-09 12:55:29] INFO root fetch - processPackages [bmarimaruplayer]: Start processing: tt-wizard-core
+[2023-06-09 12:55:29] INFO root fetch - main [MainThread]: End processing [bmarimaruplayer] error
+[2023-06-09 12:55:29] INFO root fetch - processPackages [mir-ml-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 12:55:29] INFO root fetch - processPackages [q2gui]: New version: [0.1.9] Old Version: [0.1.89]
+[2023-06-09 12:55:29] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ns-lab-aws]: New version: [23.6.9.post1248] Old Version: [23.6.9]
+[2023-06-09 12:55:29] WARNING root fetch - processPackages [quantile-estimator]: Skipping, unable to determine old version
+[2023-06-09 12:55:29] INFO root fetch - processPackages [quantile-estimator]: Start processing: helloWorldTESTLKRIST
+[2023-06-09 12:55:29] INFO root fetch - main [MainThread]: End processing [quantile-estimator] error
+[2023-06-09 12:55:29] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-06-09 12:55:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 12:55:29] INFO root fetch - processPackages [tt-wizard-core]: New version: [0.1.1b0] Old Version: [0.0.1]
+[2023-06-09 12:55:29] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-06-09 12:55:29] INFO root fetch - processPackages [tract]: New version: [0.20.6] Old Version: [0.20.5]
+[2023-06-09 12:55:29] WARNING root fetch - processPackages [helloWorldTESTLKRIST]: Skipping, unable to determine old version
+[2023-06-09 12:55:29] INFO root fetch - processPackages [helloWorldTESTLKRIST]: Start processing: amiyabot
+[2023-06-09 12:55:29] INFO root fetch - main [MainThread]: End processing [helloWorldTESTLKRIST] error
+[2023-06-09 12:55:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-09 12:55:29] INFO root fetch - processPackages [tt-wizard-core]: Downloading https://files.pythonhosted.org/packages/7a/98/e8e0d8ad466679e22db89b7e13e8a91365a6cf94925e8f55bf1bb7761562/tt_wizard_core-0.0.1.tar.gz
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ns-lab-aws]: executing diffoscope
+[2023-06-09 12:55:29] INFO root fetch - processPackages [ns-lab-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_lab_aws-23.6.9.tar.gz tmp/ns_lab_aws-23.6.9.post1248.tar.gz --markdown 20230609/n/ns-lab-aws/23.6.9-23.6.9.post1248/diff.md --exclude *.pyd
+[2023-06-09 12:55:29] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/f8/79/674b171aef2114d68a37ea4fc71e82750d90845c2475c09c9a4bf74f6ada/q2gui-0.1.89.tar.gz
+[2023-06-09 12:55:29] INFO root fetch - processPackages [amiyabot]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-06-09 12:55:29] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-06-09 12:55:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-09 12:55:29] INFO root fetch - processPackages [tt-wizard-core]: Downloading https://files.pythonhosted.org/packages/55/80/f39a3bef7645b4bda2e8cdfa9e4acb3a97ece01532b4bc25986029e98b3a/tt_wizard_core-0.1.1b0.tar.gz
+[2023-06-09 12:55:29] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-06-09 12:55:29] INFO root fetch - processPackages [mir-ml-utils]: Downloading https://files.pythonhosted.org/packages/d6/3b/f9dcdf18399371f0617002bb3c4ee491d179cd35797fc149a9a10dfa99b0/mir_ml_utils-0.0.8.tar.gz
+[2023-06-09 12:55:29] INFO root fetch - processPackages [tract]: Downloading https://files.pythonhosted.org/packages/b3/a1/ea6267b079af79095b05ff5b2785ebc92efae67d153cf8542cca94bd6e34/tract-0.20.5.tar.gz
+[2023-06-09 12:55:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-09 12:55:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230609/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 12:55:29] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-06-09 12:55:29] INFO root fetch - processPackages [tt-wizard-core]: executing diffoscope
+[2023-06-09 12:55:29] INFO root fetch - processPackages [tt-wizard-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tt_wizard_core-0.0.1.tar.gz tmp/tt_wizard_core-0.1.1b0.tar.gz --markdown 20230609/t/tt-wizard-core/0.0.1-0.1.1b0/diff.md --exclude *.pyd
+[2023-06-09 12:55:29] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-06-09 12:55:29] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/48/33/6b034a6bbb6fef989408ef10700b9365c9cc047dd376f06b4db069ac535b/amiyabot-1.4.9-py3-none-any.whl
+[2023-06-09 12:55:29] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-06-09 12:55:29] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230609/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 12:55:29] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/b5/70/466f2fbec4a72f00c6f07fdce89a2bfb0a1200b6742c61d2c09e405775c6/q2gui-0.1.9.tar.gz
+[2023-06-09 12:55:29] INFO root fetch - processPackages [tract]: Downloading https://files.pythonhosted.org/packages/1d/8f/ec55a612ccb5e06826b3c331f8a19df6a16a5ac3bff239f0bddb158fe3a7/tract-0.20.6.tar.gz
+[2023-06-09 12:55:30] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-06-09 12:55:30] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.89.tar.gz tmp/q2gui-0.1.9.tar.gz --markdown 20230609/q/q2gui/0.1.89-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 12:55:30] INFO root fetch - processPackages [tract]: executing diffoscope
+[2023-06-09 12:55:30] INFO root fetch - processPackages [tract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tract-0.20.5.tar.gz tmp/tract-0.20.6.tar.gz --markdown 20230609/t/tract/0.20.5-0.20.6/diff.md --exclude *.pyd
+[2023-06-09 12:55:30] INFO root fetch - processPackages [mir-ml-utils]: Downloading https://files.pythonhosted.org/packages/12/b6/ea0bbe05d6dfed7479bc43394889ebc96ddb67046de76522436132064481/mir_ml_utils-0.0.9.tar.gz
+[2023-06-09 12:55:30] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11299140>=10485760
+[2023-06-09 12:55:30] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-06-09 12:55:30] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-06-09 12:55:30] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-06-09 12:55:30] INFO root fetch - processPackages [ns-lab-aws]: Remove: archive file [/home/abi/fetcher/tmp/ns_lab_aws-23.6.9.tar.gz]
+[2023-06-09 12:55:30] INFO root fetch - processPackages [ns-lab-aws]: Remove: archive file [/home/abi/fetcher/tmp/ns_lab_aws-23.6.9.post1248.tar.gz]
+[2023-06-09 12:55:30] INFO root fetch - main [MainThread]: End processing [ns-lab-aws]: success
+[2023-06-09 12:55:30] INFO root fetch - processPackages [tt-wizard-core]: Remove: archive file [/home/abi/fetcher/tmp/tt_wizard_core-0.0.1.tar.gz]
+[2023-06-09 12:55:30] INFO root fetch - processPackages [tt-wizard-core]: Remove: archive file [/home/abi/fetcher/tmp/tt_wizard_core-0.1.1b0.tar.gz]
+[2023-06-09 12:55:30] INFO root fetch - main [MainThread]: End processing [tt-wizard-core]: success
+[2023-06-09 12:55:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-09 12:55:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-09 12:55:30] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-09 12:55:31] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-06-09 12:55:31] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-06-09 12:55:31] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-06-09 12:55:31] INFO root fetch - processPackages [tract]: Remove: archive file [/home/abi/fetcher/tmp/tract-0.20.5.tar.gz]
+[2023-06-09 12:55:31] INFO root fetch - processPackages [tract]: Remove: archive file [/home/abi/fetcher/tmp/tract-0.20.6.tar.gz]
+[2023-06-09 12:55:31] INFO root fetch - main [MainThread]: End processing [tract]: success
+[2023-06-09 12:55:31] INFO root fetch - processPackages [mir-ml-utils]: executing diffoscope
+[2023-06-09 12:55:31] INFO root fetch - processPackages [mir-ml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mir_ml_utils-0.0.8.tar.gz tmp/mir_ml_utils-0.0.9.tar.gz --markdown 20230609/m/mir-ml-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:55:31] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.89.tar.gz]
+[2023-06-09 12:55:31] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.9.tar.gz]
+[2023-06-09 12:55:31] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-06-09 12:55:31] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-06-09 12:55:31] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230609/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-06-09 12:55:31] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-06-09 12:55:31] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230609/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-06-09 12:55:33] INFO root fetch - processPackages [mir-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/mir_ml_utils-0.0.8.tar.gz]
+[2023-06-09 12:55:33] INFO root fetch - processPackages [mir-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/mir_ml_utils-0.0.9.tar.gz]
+[2023-06-09 12:55:33] INFO root fetch - main [MainThread]: End processing [mir-ml-utils]: success
+[2023-06-09 12:55:38] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2023-06-09 12:55:38] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2023-06-09 12:55:38] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-06-09 12:55:38] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-06-09 12:55:38] INFO root fetch - main [MainThread]: Store serial: [18439648]
