@@ -1904,3 +1904,38 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 01:58:14] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230609.0-py3-none-any.whl.zip]
 [2023-06-09 01:58:14] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
 [2023-06-09 01:58:14] INFO root fetch - main [MainThread]: Store serial: [18432401]
+[2023-06-09 02:03:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18432401]
+[2023-06-09 02:03:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-09 02:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comai
+[2023-06-09 02:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: music-assistant
+[2023-06-09 02:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-databricks
+[2023-06-09 02:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Bgolearn
+[2023-06-09 02:03:23] INFO root fetch - processPackages [dbt-databricks]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-09 02:03:23] INFO root fetch - processPackages [dbt-databricks]: Downloading https://files.pythonhosted.org/packages/2f/ef/14a21a2177f557321486a787c73881e8d658211869a080f881648ebdc5ec/dbt-databricks-1.5.2.tar.gz
+[2023-06-09 02:03:23] INFO root fetch - processPackages [Bgolearn]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-09 02:03:23] INFO root fetch - processPackages [comai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 02:03:23] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-06-09 02:03:23] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/4b/d8/94957f205c476e60d83583a96ffdd1df2c0d277011bceb5a123eedcac0ea/Bgolearn-2.0.0.tar.gz
+[2023-06-09 02:03:23] INFO root fetch - processPackages [comai]: Downloading https://files.pythonhosted.org/packages/8b/fb/205ecbd767ca17eb0c26dd1ae565ccad17c106a3f9c94ef86d0c8cd4e738/comai-0.0.8.tar.gz
+[2023-06-09 02:03:23] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-06-09 02:03:23] INFO root fetch - processPackages [dbt-databricks]: Downloading https://files.pythonhosted.org/packages/46/73/11a96f54590475b89931b044ffa5b6bc9515da2e1db7a29e004e6f2002d2/dbt-databricks-1.5.3.tar.gz
+[2023-06-09 02:03:23] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-06-09 02:03:23] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-06-09 02:03:23] INFO root fetch - processPackages [dbt-databricks]: executing diffoscope
+[2023-06-09 02:03:23] INFO root fetch - processPackages [dbt-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-databricks-1.5.2.tar.gz tmp/dbt-databricks-1.5.3.tar.gz --markdown 20230609/d/dbt-databricks/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-09 02:03:24] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/fe/3d/6004a386fba89b4de5e10083ad8151a1ba85734e7ebefd7b6e5ba888f38f/Bgolearn-2.1.0.tar.gz
+[2023-06-09 02:03:24] INFO root fetch - processPackages [comai]: Downloading https://files.pythonhosted.org/packages/2f/d7/e4c49640cae492a4d4972dbb00245505154a77a7828d6f19ff5e8c4e9616/comai-0.0.9.tar.gz
+[2023-06-09 02:03:24] INFO root fetch - processPackages [comai]: executing diffoscope
+[2023-06-09 02:03:24] INFO root fetch - processPackages [comai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comai-0.0.8.tar.gz tmp/comai-0.0.9.tar.gz --markdown 20230609/c/comai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 02:03:24] INFO root fetch - processPackages [Bgolearn]: executing diffoscope
+[2023-06-09 02:03:24] INFO root fetch - processPackages [Bgolearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bgolearn-2.0.0.tar.gz tmp/Bgolearn-2.1.0.tar.gz --markdown 20230609/B/Bgolearn/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-09 02:03:25] INFO root fetch - processPackages [dbt-databricks]: Remove: archive file [/home/abi/fetcher/tmp/dbt-databricks-1.5.2.tar.gz]
+[2023-06-09 02:03:25] INFO root fetch - processPackages [dbt-databricks]: Remove: archive file [/home/abi/fetcher/tmp/dbt-databricks-1.5.3.tar.gz]
+[2023-06-09 02:03:25] INFO root fetch - main [MainThread]: End processing [dbt-databricks]: success
+[2023-06-09 02:03:25] INFO root fetch - processPackages [comai]: Remove: archive file [/home/abi/fetcher/tmp/comai-0.0.8.tar.gz]
+[2023-06-09 02:03:25] INFO root fetch - processPackages [comai]: Remove: archive file [/home/abi/fetcher/tmp/comai-0.0.9.tar.gz]
+[2023-06-09 02:03:25] INFO root fetch - main [MainThread]: End processing [comai]: success
+[2023-06-09 02:03:25] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.0.0.tar.gz]
+[2023-06-09 02:03:25] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.1.0.tar.gz]
+[2023-06-09 02:03:25] INFO root fetch - main [MainThread]: End processing [Bgolearn]: success
+[2023-06-09 02:03:25] INFO root fetch - main [MainThread]: Store serial: [18432413]
