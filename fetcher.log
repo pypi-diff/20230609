@@ -17471,3 +17471,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 09:10:56] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-06-09 09:10:56] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-06-09 09:10:56] INFO root fetch - main [MainThread]: Store serial: [18437640]
+[2023-06-09 09:16:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437640]
+[2023-06-09 09:16:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-09 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wmill
+[2023-06-09 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wmill-pg
+[2023-06-09 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cashocs
+[2023-06-09 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyee
+[2023-06-09 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-dingtalk
+[2023-06-09 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tikit
+[2023-06-09 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UzEduCorpus
+[2023-06-09 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: beets-beatport4
+[2023-06-09 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: piwaterflow
+[2023-06-09 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: GraphCASE
+[2023-06-09 09:16:06] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-09 09:16:06] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-09 09:16:06] INFO root fetch - processPackages [pyee]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-06-09 09:16:06] INFO root fetch - processPackages [UzEduCorpus]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-09 09:16:06] INFO root fetch - processPackages [tikit]: New version: [1.4.7.230609] Old Version: [1.4.6.230527]
+[2023-06-09 09:16:06] INFO root fetch - processPackages [beets-beatport4]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-09 09:16:06] INFO root fetch - processPackages [GraphCASE]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 09:16:06] INFO root fetch - processPackages [cashocs]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-09 09:16:06] INFO root fetch - processPackages [piwaterflow]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-09 09:16:06] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.19] Old Version: [2.0.18]
+[2023-06-09 09:16:06] INFO root fetch - processPackages [UzEduCorpus]: Downloading https://files.pythonhosted.org/packages/58/20/2688afff6aaa7c6ddd7b4441c11427df04965846c745e37dba6d04564dfa/UzEduCorpus-0.0.3.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [pyee]: Downloading https://files.pythonhosted.org/packages/df/aa/503e2857e5be360251f894f4f4833d54d3f85b1ac8d8865bcc95d7d4fbfb/pyee-9.1.0.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [pyee]: Downloading https://files.pythonhosted.org/packages/eb/2c/ebe4fd8213b3d720b193a62f07169607e945dd02a08edc45b28ca52fbe07/pyee-9.1.1.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [GraphCASE]: Downloading https://files.pythonhosted.org/packages/76/10/66176d808224b83aa6f4491fa0e0b5104cbdece8bcb68ce27fab29c74b07/GraphCASE-0.0.8.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [beets-beatport4]: Downloading https://files.pythonhosted.org/packages/d0/68/c49ca4bfcaf68106f1f57e4ff5fff1b6bb4d587af0a1910e50029183a600/beets-beatport4-0.3.2.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [cashocs]: Downloading https://files.pythonhosted.org/packages/03/8e/d77ec7e36ac0cd7de479ba863eafaec329d78493661a0b07e78165c961a5/cashocs-2.0.3.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/66/df/85ac908888229e2fd0e73e4714ca152cbccd22e30fb695175410863ca90c/piwaterflow-0.5.8.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/be/ce/66dadedc702940a40f41886bac03d7364a23d533f1f25cb7ee508c5bb9d0/alibabacloud_dingtalk-2.0.18.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [tikit]: Downloading https://files.pythonhosted.org/packages/b6/ed/c631e59a13c17137f6f4d9f0734c35673d722058338d880deac17f6848b7/tikit-1.4.6.230527.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [pyee]: executing diffoscope
+[2023-06-09 09:16:06] INFO root fetch - processPackages [pyee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyee-9.1.0.tar.gz tmp/pyee-9.1.1.tar.gz --markdown 20230609/p/pyee/9.1.0-9.1.1/diff.md --exclude *.pyd
+[2023-06-09 09:16:06] INFO root fetch - processPackages [UzEduCorpus]: Downloading https://files.pythonhosted.org/packages/4b/59/94258273922360ba8a3c6a4b075ca1606773e46b7a48f3ae351ddd970ab0/UzEduCorpus-0.0.4.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [cashocs]: Downloading https://files.pythonhosted.org/packages/37/12/91730a90d890ee4ccb24827f1b984e81cfe123379c47764cea391b2c1525/cashocs-2.0.4.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/82/51/517c4aa51b97a44fef6bad6a62754225b3145ea1eedb4aee131daf72ea1f/piwaterflow-0.5.9.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [beets-beatport4]: Downloading https://files.pythonhosted.org/packages/68/ff/a263f3d461246c03c2944983ff95f1db6672e17cc4386a45d3de013ef8d8/beets-beatport4-0.3.3.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [GraphCASE]: Downloading https://files.pythonhosted.org/packages/ea/17/b88946823f0a85c4af54f7b8361d511bec6d01f12a2669bf85a2e484bd6b/GraphCASE-0.0.9.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [tikit]: Downloading https://files.pythonhosted.org/packages/53/08/0bf19797ac8413f700509af901cbff8a34c2d09b82de417796d0a8cc69ae/tikit-1.4.7.230609.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [UzEduCorpus]: executing diffoscope
+[2023-06-09 09:16:06] INFO root fetch - processPackages [UzEduCorpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UzEduCorpus-0.0.3.tar.gz tmp/UzEduCorpus-0.0.4.tar.gz --markdown 20230609/U/UzEduCorpus/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-09 09:16:06] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/cc/b2/d0f70a09ec11fcf53a546cd21321c9e3efd75c892a6f56e40297083bf493/alibabacloud_dingtalk-2.0.19.tar.gz
+[2023-06-09 09:16:06] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-06-09 09:16:06] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230609/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-09 09:16:06] INFO root fetch - processPackages [piwaterflow]: executing diffoscope
+[2023-06-09 09:16:06] INFO root fetch - processPackages [piwaterflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwaterflow-0.5.8.tar.gz tmp/piwaterflow-0.5.9.tar.gz --markdown 20230609/p/piwaterflow/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-09 09:16:06] INFO root fetch - processPackages [beets-beatport4]: executing diffoscope
+[2023-06-09 09:16:06] INFO root fetch - processPackages [beets-beatport4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beets-beatport4-0.3.2.tar.gz tmp/beets-beatport4-0.3.3.tar.gz --markdown 20230609/b/beets-beatport4/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-09 09:16:06] INFO root fetch - processPackages [GraphCASE]: executing diffoscope
+[2023-06-09 09:16:06] INFO root fetch - processPackages [GraphCASE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GraphCASE-0.0.8.tar.gz tmp/GraphCASE-0.0.9.tar.gz --markdown 20230609/G/GraphCASE/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 09:16:06] INFO root fetch - processPackages [tikit]: executing diffoscope
+[2023-06-09 09:16:06] INFO root fetch - processPackages [tikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tikit-1.4.6.230527.tar.gz tmp/tikit-1.4.7.230609.tar.gz --markdown 20230609/t/tikit/1.4.6.230527-1.4.7.230609/diff.md --exclude *.pyd
+[2023-06-09 09:16:06] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2023-06-09 09:16:06] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.18.tar.gz tmp/alibabacloud_dingtalk-2.0.19.tar.gz --markdown 20230609/a/alibabacloud-dingtalk/2.0.18-2.0.19/diff.md --exclude *.pyd
+[2023-06-09 09:16:06] INFO root fetch - processPackages [cashocs]: executing diffoscope
+[2023-06-09 09:16:06] INFO root fetch - processPackages [cashocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashocs-2.0.3.tar.gz tmp/cashocs-2.0.4.tar.gz --markdown 20230609/c/cashocs/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-09 09:16:07] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-06-09 09:16:07] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230609/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-09 09:16:07] INFO root fetch - processPackages [pyee]: Remove: archive file [/home/abi/fetcher/tmp/pyee-9.1.0.tar.gz]
+[2023-06-09 09:16:07] INFO root fetch - processPackages [pyee]: Remove: archive file [/home/abi/fetcher/tmp/pyee-9.1.1.tar.gz]
+[2023-06-09 09:16:07] INFO root fetch - processPackages [pyee]: Start processing: ytsaurus-yson
+[2023-06-09 09:16:07] INFO root fetch - main [MainThread]: End processing [pyee]: success
+[2023-06-09 09:16:07] INFO root fetch - processPackages [ytsaurus-yson]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-09 09:16:08] INFO root fetch - processPackages [ytsaurus-yson]: Downloading https://files.pythonhosted.org/packages/45/77/f11bd851b61380095ad1358061b36b137d2bd0ca319063f826bda8d52ac7/ytsaurus_yson-0.4.2-cp34-abi3-manylinux1_x86_64.whl
+[2023-06-09 09:16:08] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-06-09 09:16:08] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-06-09 09:16:08] INFO root fetch - processPackages [wmill]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-09 09:16:08] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-06-09 09:16:08] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-09 09:16:08] INFO root fetch - processPackages [UzEduCorpus]: Remove: archive file [/home/abi/fetcher/tmp/UzEduCorpus-0.0.3.tar.gz]
+[2023-06-09 09:16:08] INFO root fetch - processPackages [UzEduCorpus]: Remove: archive file [/home/abi/fetcher/tmp/UzEduCorpus-0.0.4.tar.gz]
+[2023-06-09 09:16:08] INFO root fetch - processPackages [UzEduCorpus]: Start processing: tf-hub-nightly
+[2023-06-09 09:16:08] INFO root fetch - main [MainThread]: End processing [UzEduCorpus]: success
+[2023-06-09 09:16:08] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-09 09:16:08] INFO root fetch - processPackages [ytsaurus-yson]: Downloading https://files.pythonhosted.org/packages/43/05/217b690306fc1e2174d749c47ef6a23daa64593602d8d0c3d29e08d5d304/ytsaurus_yson-0.4.3-cp34-abi3-manylinux1_x86_64.whl
+[2023-06-09 09:16:08] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-09 09:16:08] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-06-09 09:16:08] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-06-09 09:16:08] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-06-09 09:16:08] INFO root fetch - processPackages [ytsaurus-yson]: executing diffoscope
+[2023-06-09 09:16:08] INFO root fetch - processPackages [ytsaurus-yson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus_yson-0.4.2-cp34-abi3-manylinux1_x86_64.whl.zip tmp/ytsaurus_yson-0.4.3-cp34-abi3-manylinux1_x86_64.whl.zip --markdown 20230609/y/ytsaurus-yson/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-09 09:16:08] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-09 09:16:08] INFO root fetch - processPackages [piwaterflow]: Remove: archive file [/home/abi/fetcher/tmp/piwaterflow-0.5.8.tar.gz]
+[2023-06-09 09:16:08] INFO root fetch - processPackages [piwaterflow]: Remove: archive file [/home/abi/fetcher/tmp/piwaterflow-0.5.9.tar.gz]
+[2023-06-09 09:16:08] INFO root fetch - main [MainThread]: End processing [piwaterflow]: success
+[2023-06-09 09:16:08] INFO root fetch - processPackages [beets-beatport4]: Remove: archive file [/home/abi/fetcher/tmp/beets-beatport4-0.3.2.tar.gz]
+[2023-06-09 09:16:08] INFO root fetch - processPackages [beets-beatport4]: Remove: archive file [/home/abi/fetcher/tmp/beets-beatport4-0.3.3.tar.gz]
+[2023-06-09 09:16:08] INFO root fetch - main [MainThread]: End processing [beets-beatport4]: success
+[2023-06-09 09:16:08] INFO root fetch - processPackages [GraphCASE]: Remove: archive file [/home/abi/fetcher/tmp/GraphCASE-0.0.8.tar.gz]
+[2023-06-09 09:16:08] INFO root fetch - processPackages [GraphCASE]: Remove: archive file [/home/abi/fetcher/tmp/GraphCASE-0.0.9.tar.gz]
+[2023-06-09 09:16:08] INFO root fetch - main [MainThread]: End processing [GraphCASE]: success
+[2023-06-09 09:16:08] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-09 09:16:09] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-09 09:16:09] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230609/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-09 09:16:09] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-09 09:16:10] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-09 09:16:10] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-09 09:16:10] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-09 09:16:10] INFO root fetch - processPackages [tikit]: Remove: archive file [/home/abi/fetcher/tmp/tikit-1.4.6.230527.tar.gz]
+[2023-06-09 09:16:10] INFO root fetch - processPackages [tikit]: Remove: archive file [/home/abi/fetcher/tmp/tikit-1.4.7.230609.tar.gz]
+[2023-06-09 09:16:10] INFO root fetch - main [MainThread]: End processing [tikit]: success
+[2023-06-09 09:16:10] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-09 09:16:10] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230609/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 09:16:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-09 09:16:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-09 09:16:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-09 09:16:12] INFO root fetch - processPackages [cashocs]: Remove: archive file [/home/abi/fetcher/tmp/cashocs-2.0.3.tar.gz]
+[2023-06-09 09:16:12] INFO root fetch - processPackages [cashocs]: Remove: archive file [/home/abi/fetcher/tmp/cashocs-2.0.4.tar.gz]
+[2023-06-09 09:16:12] INFO root fetch - main [MainThread]: End processing [cashocs]: success
+[2023-06-09 09:16:13] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.18.tar.gz]
+[2023-06-09 09:16:13] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.19.tar.gz]
+[2023-06-09 09:16:13] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2023-06-09 09:16:46] INFO root fetch - processPackages [ytsaurus-yson]: Remove: archive file [/home/abi/fetcher/tmp/ytsaurus_yson-0.4.2-cp34-abi3-manylinux1_x86_64.whl.zip]
+[2023-06-09 09:16:46] INFO root fetch - processPackages [ytsaurus-yson]: Remove: archive file [/home/abi/fetcher/tmp/ytsaurus_yson-0.4.3-cp34-abi3-manylinux1_x86_64.whl.zip]
+[2023-06-09 09:16:46] INFO root fetch - main [MainThread]: End processing [ytsaurus-yson]: success
+[2023-06-09 09:16:46] INFO root fetch - main [MainThread]: Store serial: [18437678]
