@@ -18157,3 +18157,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 09:50:23] INFO root fetch - processPackages [nonebot-bison-migang]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_bison_migang-0.0.4.tar.gz]
 [2023-06-09 09:50:23] INFO root fetch - main [MainThread]: End processing [nonebot-bison-migang]: success
 [2023-06-09 09:50:23] INFO root fetch - main [MainThread]: Store serial: [18437980]
+[2023-06-09 09:55:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437980]
+[2023-06-09 09:55:32] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: learnMSA
+[2023-06-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: steam-sdk
+[2023-06-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibm-watson-openscale-cli-tool
+[2023-06-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dknovautils
+[2023-06-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cyeva
+[2023-06-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-cpu
+[2023-06-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sparrow-order-lib
+[2023-06-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cythonbuilder
+[2023-06-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vnpy-xex
+[2023-06-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: a2
+[2023-06-09 09:55:33] INFO root fetch - processPackages [a2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-09 09:55:33] INFO root fetch - processPackages [cythonbuilder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 09:55:33] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/10/c4/4d15ff29912d32ea52cd9aacfbad1b8a30dbf09c6e3efb3b84695fc25537/a2-0.3.8.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [cythonbuilder]: Downloading https://files.pythonhosted.org/packages/40/54/48d93eaf1cef7df3a34d4265dfe8876f9796b93ae82f1bd947ef05439b05/cythonbuilder-0.1.8.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [cyeva]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-09 09:55:33] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: New version: [3.5.52] Old Version: [3.5.51]
+[2023-06-09 09:55:33] INFO root fetch - processPackages [learnMSA]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-06-09 09:55:33] INFO root fetch - processPackages [dknovautils]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-09 09:55:33] INFO root fetch - processPackages [steam-sdk]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-09 09:55:33] INFO root fetch - processPackages [vnpy-xex]: New version: [2023.6.9.1] Old Version: [2023.6.8.1]
+[2023-06-09 09:55:33] INFO root fetch - processPackages [sparrow-order-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-09 09:55:33] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230609] Old Version: [2.14.0.dev20230608]
+[2023-06-09 09:55:33] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/72/47/8be36d2daace1996f44cca59ec573f26e8f717ff44ef0926481755fb4564/dknovautils-0.1.7.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [cythonbuilder]: Downloading https://files.pythonhosted.org/packages/2c/9e/d799cbbb9ce6912aa83db8f57805ea54b9b7f742728c0b31a222c5f9fd07/cythonbuilder-0.1.9.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/60/2c/3c21c0815edf029e79c95d2f5fccd2a2f589a21e648b6c3ea6a2a61d7c1e/steam-sdk-2023.6.8.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [cyeva]: Downloading https://files.pythonhosted.org/packages/7c/66/69489407e7abe6c5222afdc90627a6dc2ec250547580de66b79c6d0fce3b/cyeva-0.1.0b8.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/4a/25/85f6b4b35ae742259f326b2572ad0be4c10e38d631991a5bc3c795aec095/vnpy_xex-2023.6.8.1.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/f6/6d/89feeae81a08f9543a5a0f9e3b8ee3d73582abd7038d07f7fc5975f03bc4/sparrow-order-lib-0.1.98.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: Downloading https://files.pythonhosted.org/packages/16/1c/a670b14c60dabea0fe8a218dd9386a3d58de0d1a35f5ed9bb356048f7c9b/ibm-watson-openscale-cli-tool-3.5.51.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [learnMSA]: Downloading https://files.pythonhosted.org/packages/0e/b9/3f1642e67a2a58fbf83d286dacc06294505eac08d8490cbfb89a16d62d3d/learnMSA-1.1.2.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/fa/c9/663a5157b2b71ac16fca5c437d18965eed535a4099fb5b9a2bab08c8a7f4/tf_nightly_cpu-2.14.0.dev20230608-cp39-cp39-win_amd64.whl
+[2023-06-09 09:55:33] INFO root fetch - processPackages [cythonbuilder]: executing diffoscope
+[2023-06-09 09:55:33] INFO root fetch - processPackages [cythonbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythonbuilder-0.1.8.tar.gz tmp/cythonbuilder-0.1.9.tar.gz --markdown 20230609/c/cythonbuilder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 09:55:33] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/43/90/9530dbd8dc28262f9ad2bc828e11be41c7ccc70719b738b38b110a57d47f/dknovautils-0.1.8.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/81/0d/ae3a48b3355e4a558aaf59e5c0de4727fcfc4cf17b9f6b916876e483d10b/vnpy_xex-2023.6.9.1.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/cf/10/2b634f09e25cfaaa5b5c4ea8889e69240ff6c0ad61d248fcbfd14e6aa988/steam-sdk-2023.6.9.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e7/74/3f1c64266aaa974f90280d90a766003861118e85e858c972ca6bcd149ff0/tf_nightly_cpu-2.14.0.dev20230609-cp39-cp39-win_amd64.whl
+[2023-06-09 09:55:33] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/ca/0d/b7dbf59c3e714bf905111836b75d9dc0961d62f2f52f79293e7ce5685010/sparrow-order-lib-0.1.99.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-06-09 09:55:33] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.1.7.tar.gz tmp/dknovautils-0.1.8.tar.gz --markdown 20230609/d/dknovautils/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-09 09:55:33] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-06-09 09:55:33] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.6.8.tar.gz tmp/steam-sdk-2023.6.9.tar.gz --markdown 20230609/s/steam-sdk/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-09 09:55:33] INFO root fetch - processPackages [vnpy-xex]: executing diffoscope
+[2023-06-09 09:55:33] INFO root fetch - processPackages [vnpy-xex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_xex-2023.6.8.1.tar.gz tmp/vnpy_xex-2023.6.9.1.tar.gz --markdown 20230609/v/vnpy-xex/2023.6.8.1-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-09 09:55:33] INFO root fetch - processPackages [cyeva]: Downloading https://files.pythonhosted.org/packages/c1/b8/78e44a2d5ab5008c0c118f92f29d922eda1e13a4a4bc8a0a351d5d960994/cyeva-0.1.0b9.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [learnMSA]: Downloading https://files.pythonhosted.org/packages/44/ee/e3461c1c88135b9a9648a40761bc77b25adf1d417e2b4afc393387c5b05e/learnMSA-1.2.0.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [sparrow-order-lib]: executing diffoscope
+[2023-06-09 09:55:33] INFO root fetch - processPackages [sparrow-order-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-order-lib-0.1.98.tar.gz tmp/sparrow-order-lib-0.1.99.tar.gz --markdown 20230609/s/sparrow-order-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-09 09:55:33] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-09 09:55:33] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230608-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230609-cp39-cp39-win_amd64.whl.zip --markdown 20230609/t/tf-nightly-cpu/2.14.0.dev20230608-2.14.0.dev20230609/diff.md --exclude *.pyd
+[2023-06-09 09:55:33] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/c5/ea/30a5aa65f221d2fa836f68cf1ba1dcc4e374a8abad48e522a4030a3604b0/a2-0.3.9.tar.gz
+[2023-06-09 09:55:33] INFO root fetch - processPackages [cyeva]: executing diffoscope
+[2023-06-09 09:55:33] INFO root fetch - processPackages [cyeva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyeva-0.1.0b8.tar.gz tmp/cyeva-0.1.0b9.tar.gz --markdown 20230609/c/cyeva/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-09 09:55:34] INFO root fetch - processPackages [learnMSA]: executing diffoscope
+[2023-06-09 09:55:34] INFO root fetch - processPackages [learnMSA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learnMSA-1.1.2.tar.gz tmp/learnMSA-1.2.0.tar.gz --markdown 20230609/l/learnMSA/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-06-09 09:55:34] INFO root fetch - processPackages [a2]: executing diffoscope
+[2023-06-09 09:55:34] INFO root fetch - processPackages [a2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2-0.3.8.tar.gz tmp/a2-0.3.9.tar.gz --markdown 20230609/a/a2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-09 09:55:34] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: Downloading https://files.pythonhosted.org/packages/29/19/1999f94ee0e71aebdfaa993d1528e9087e848a7a5ade8f514115e2529b9b/ibm-watson-openscale-cli-tool-3.5.52.tar.gz
+[2023-06-09 09:55:35] INFO root fetch - processPackages [cythonbuilder]: Remove: archive file [/home/abi/fetcher/tmp/cythonbuilder-0.1.8.tar.gz]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [cythonbuilder]: Remove: archive file [/home/abi/fetcher/tmp/cythonbuilder-0.1.9.tar.gz]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [cythonbuilder]: Start processing: gdsfactory
+[2023-06-09 09:55:35] INFO root fetch - main [MainThread]: End processing [cythonbuilder]: success
+[2023-06-09 09:55:35] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.8.1.tar.gz]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.9.1.tar.gz]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [vnpy-xex]: Start processing: daisytuner
+[2023-06-09 09:55:35] INFO root fetch - main [MainThread]: End processing [vnpy-xex]: success
+[2023-06-09 09:55:35] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-06-09 09:55:35] WARNING root fetch - processPackages [daisytuner]: Skipping, unable to determine old version
+[2023-06-09 09:55:35] INFO root fetch - processPackages [daisytuner]: Start processing: dream-river
+[2023-06-09 09:55:35] INFO root fetch - main [MainThread]: End processing [daisytuner] error
+[2023-06-09 09:55:35] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230608-cp39-cp39-win_amd64.whl.zip]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230609-cp39-cp39-win_amd64.whl.zip]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: gaohn-common-utils
+[2023-06-09 09:55:35] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-09 09:55:35] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-06-09 09:55:35] WARNING root fetch - processPackages [dream-river]: Skipping, unable to determine old version
+[2023-06-09 09:55:35] INFO root fetch - processPackages [dream-river]: Start processing: frouros
+[2023-06-09 09:55:35] INFO root fetch - main [MainThread]: End processing [dream-river] error
+[2023-06-09 09:55:35] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/24/3b/597896317be2f498231ac0d08a38ddd700eeb801fdd98b60e8d9823e5138/gaohn-common-utils-0.0.32.tar.gz
+[2023-06-09 09:55:35] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-09 09:55:35] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230609/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-09 09:55:35] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.7.tar.gz]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.8.tar.gz]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [dknovautils]: Start processing: py-Ayiin
+[2023-06-09 09:55:35] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-06-09 09:55:35] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev9] Old Version: [0.4.4.dev8]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [cyeva]: Remove: archive file [/home/abi/fetcher/tmp/cyeva-0.1.0b8.tar.gz]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [cyeva]: Remove: archive file [/home/abi/fetcher/tmp/cyeva-0.1.0b9.tar.gz]
+[2023-06-09 09:55:35] INFO root fetch - main [MainThread]: End processing [cyeva]: success
+[2023-06-09 09:55:35] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/93/f2/b558e63f8968ae3b403220af95551c84870f2d9719759d469dad3c0d5c92/gaohn-common-utils-0.0.33.tar.gz
+[2023-06-09 09:55:35] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 09:55:35] INFO root fetch - processPackages [frouros]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-09 09:55:35] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-09 09:55:35] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.32.tar.gz tmp/gaohn-common-utils-0.0.33.tar.gz --markdown 20230609/g/gaohn-common-utils/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-06-09 09:55:35] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/a8/a9/9f3a9694572196e70e9ba540e00d88c2d3b5944a2117d502feede8f8b138/py-Ayiin-0.4.4.dev9.tar.gz
+[2023-06-09 09:55:35] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/b8/08/62944d2f1c9fe82e0ce15dd10d4ab2832d613cd12fae901be8e8b7240196/frouros-0.3.1.tar.gz
+[2023-06-09 09:55:35] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 09:55:35] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev8.tar.gz tmp/py-Ayiin-0.4.4.dev9.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev8-0.4.4.dev9/diff.md --exclude *.pyd
+[2023-06-09 09:55:35] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: executing diffoscope
+[2023-06-09 09:55:35] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-watson-openscale-cli-tool-3.5.51.tar.gz tmp/ibm-watson-openscale-cli-tool-3.5.52.tar.gz --markdown 20230609/i/ibm-watson-openscale-cli-tool/3.5.51-3.5.52/diff.md --exclude *.pyd
+[2023-06-09 09:55:35] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/79/bd/d4fbff13ec622c5209dcac03cb743ac9e2075f7fafb76b1a7515cbd2bbcc/frouros-0.3.2.tar.gz
+[2023-06-09 09:55:36] INFO root fetch - processPackages [frouros]: executing diffoscope
+[2023-06-09 09:55:36] INFO root fetch - processPackages [frouros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frouros-0.3.1.tar.gz tmp/frouros-0.3.2.tar.gz --markdown 20230609/f/frouros/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-09 09:55:36] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.32.tar.gz]
+[2023-06-09 09:55:36] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.33.tar.gz]
+[2023-06-09 09:55:36] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-09 09:55:37] INFO root fetch - processPackages [sparrow-order-lib]: Remove: archive file [/home/abi/fetcher/tmp/sparrow-order-lib-0.1.98.tar.gz]
+[2023-06-09 09:55:37] INFO root fetch - processPackages [sparrow-order-lib]: Remove: archive file [/home/abi/fetcher/tmp/sparrow-order-lib-0.1.99.tar.gz]
+[2023-06-09 09:55:37] INFO root fetch - main [MainThread]: End processing [sparrow-order-lib]: success
+[2023-06-09 09:55:37] INFO root fetch - processPackages [learnMSA]: Remove: archive file [/home/abi/fetcher/tmp/learnMSA-1.1.2.tar.gz]
+[2023-06-09 09:55:37] INFO root fetch - processPackages [learnMSA]: Remove: archive file [/home/abi/fetcher/tmp/learnMSA-1.2.0.tar.gz]
+[2023-06-09 09:55:37] INFO root fetch - main [MainThread]: End processing [learnMSA]: success
+[2023-06-09 09:55:37] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.8.tar.gz]
+[2023-06-09 09:55:37] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.9.tar.gz]
+[2023-06-09 09:55:37] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-06-09 09:55:38] INFO root fetch - processPackages [frouros]: Remove: archive file [/home/abi/fetcher/tmp/frouros-0.3.1.tar.gz]
+[2023-06-09 09:55:38] INFO root fetch - processPackages [frouros]: Remove: archive file [/home/abi/fetcher/tmp/frouros-0.3.2.tar.gz]
+[2023-06-09 09:55:38] INFO root fetch - main [MainThread]: End processing [frouros]: success
+[2023-06-09 09:55:39] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 09:55:39] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
+[2023-06-09 09:55:39] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 09:55:45] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-06-09 09:55:45] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-06-09 09:55:45] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-09 09:55:47] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: Remove: archive file [/home/abi/fetcher/tmp/ibm-watson-openscale-cli-tool-3.5.51.tar.gz]
+[2023-06-09 09:55:47] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: Remove: archive file [/home/abi/fetcher/tmp/ibm-watson-openscale-cli-tool-3.5.52.tar.gz]
+[2023-06-09 09:55:47] INFO root fetch - main [MainThread]: End processing [ibm-watson-openscale-cli-tool]: success
+[2023-06-09 09:56:10] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.8.tar.gz]
+[2023-06-09 09:56:10] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.9.tar.gz]
+[2023-06-09 09:56:10] INFO root fetch - main [MainThread]: End processing [a2]: success
+[2023-06-09 09:56:10] INFO root fetch - main [MainThread]: Store serial: [18438033]
