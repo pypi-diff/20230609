@@ -17904,3 +17904,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 09:33:28] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-0.9.1a1677791364.tar.gz]
 [2023-06-09 09:33:28] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-06-09 09:33:28] INFO root fetch - main [MainThread]: Store serial: [18437822]
+[2023-06-09 09:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437822]
+[2023-06-09 09:38:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 09:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: folder-tree-generator
+[2023-06-09 09:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragas
+[2023-06-09 09:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kalm
+[2023-06-09 09:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cadencepy
+[2023-06-09 09:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DLMS-SPODES
+[2023-06-09 09:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: callmebot
+[2023-06-09 09:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-Ayiin
+[2023-06-09 09:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lalsuite
+[2023-06-09 09:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mikeio
+[2023-06-09 09:38:37] INFO root fetch - processPackages [folder-tree-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 09:38:37] INFO root fetch - processPackages [kalm]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-09 09:38:37] INFO root fetch - processPackages [ragas]: New version: [0.0.3rc1] Old Version: [0.0.2]
+[2023-06-09 09:38:37] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-09 09:38:37] INFO root fetch - processPackages [callmebot]: New version: [1.2.3] Old Version: [1.1.1]
+[2023-06-09 09:38:37] INFO root fetch - processPackages [cadencepy]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-09 09:38:37] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev9] Old Version: [0.4.4.dev8]
+[2023-06-09 09:38:37] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-06-09 09:38:37] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-06-09 09:38:37] INFO root fetch - processPackages [mikeio]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-09 09:38:38] INFO root fetch - processPackages [cadencepy]: Downloading https://files.pythonhosted.org/packages/5a/f9/c53233e900545bfb68e3d2a89467131b32c427840d567c062df222f37b1d/cadencepy-0.0.9.tar.gz
+[2023-06-09 09:38:38] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 09:38:38] ERROR root fetch - processPackages [callmebot]: Unable to fetch info: No such project/version 'callmebot' 1.1.1
+[2023-06-09 09:38:38] INFO root fetch - main [MainThread]: End processing [callmebot] error
+[2023-06-09 09:38:38] INFO root fetch - processPackages [folder-tree-generator]: Downloading https://files.pythonhosted.org/packages/6c/fe/bbc18edb4187500d38a41b5bbd275a36f684740caa02fa0947b731655f19/folder_tree_generator-0.1.8.tar.gz
+[2023-06-09 09:38:38] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/08/d6/afbd93ab17a860658e3f78d89626ca0ad442f18d7058216f69066b2b251d/kalm-0.6.8.tar.gz
+[2023-06-09 09:38:38] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/ca/6f/db92024ef2e09c96670c80d54592acd2249baed14c562ec6ca3c1070adcd/ragas-0.0.2.tar.gz
+[2023-06-09 09:38:38] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f3/ee/21230318a80577b7a92a016e6f1cf516735d553ff6164c13ff461de986aa/kalm-0.6.9.tar.gz
+[2023-06-09 09:38:38] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-09 09:38:38] INFO root fetch - processPackages [mikeio]: Downloading https://files.pythonhosted.org/packages/02/8d/37a7d4d80445b602b3a9ab27ba62389fde1b2fd0f5b92689daac3f3eb58c/mikeio-1.6.0.tar.gz
+[2023-06-09 09:38:38] INFO root fetch - processPackages [cadencepy]: Downloading https://files.pythonhosted.org/packages/af/c0/2d0d532736637063a7580ac60a6d663d2e2adde6b1dc9459a546aa3757dc/cadencepy-0.1.0.tar.gz
+[2023-06-09 09:38:38] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/a8/a9/9f3a9694572196e70e9ba540e00d88c2d3b5944a2117d502feede8f8b138/py-Ayiin-0.4.4.dev9.tar.gz
+[2023-06-09 09:38:38] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-06-09 09:38:38] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-06-09 09:38:38] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-06-09 09:38:38] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-09 09:38:38] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230609/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 09:38:38] WARNING root fetch - processPackages [mikeio]: Skipping package: exceeds size limit 21194601>=10485760
+[2023-06-09 09:38:38] INFO root fetch - main [MainThread]: End processing [mikeio] error
+[2023-06-09 09:38:38] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-09 09:38:38] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.8.tar.gz tmp/kalm-0.6.9.tar.gz --markdown 20230609/k/kalm/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-09 09:38:38] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 09:38:38] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev8.tar.gz tmp/py-Ayiin-0.4.4.dev9.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev8-0.4.4.dev9/diff.md --exclude *.pyd
+[2023-06-09 09:38:38] INFO root fetch - processPackages [folder-tree-generator]: Downloading https://files.pythonhosted.org/packages/af/8c/6fbaa1474b672735423e92f428a9a5f54acdd7e0a9603ee7ba1e08bb0d71/folder_tree_generator-0.1.9.tar.gz
+[2023-06-09 09:38:38] INFO root fetch - processPackages [cadencepy]: executing diffoscope
+[2023-06-09 09:38:38] INFO root fetch - processPackages [cadencepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadencepy-0.0.9.tar.gz tmp/cadencepy-0.1.0.tar.gz --markdown 20230609/c/cadencepy/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-09 09:38:38] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/75/46/9d4af42ff6c45a26e57a59323dc2404bb2ba5b782b11c5b724d12f1d2113/ragas-0.0.3rc1.tar.gz
+[2023-06-09 09:38:38] INFO root fetch - processPackages [folder-tree-generator]: executing diffoscope
+[2023-06-09 09:38:38] INFO root fetch - processPackages [folder-tree-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folder_tree_generator-0.1.8.tar.gz tmp/folder_tree_generator-0.1.9.tar.gz --markdown 20230609/f/folder-tree-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 09:38:38] INFO root fetch - processPackages [ragas]: executing diffoscope
+[2023-06-09 09:38:38] INFO root fetch - processPackages [ragas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragas-0.0.2.tar.gz tmp/ragas-0.0.3rc1.tar.gz --markdown 20230609/r/ragas/0.0.2-0.0.3rc1/diff.md --exclude *.pyd
+[2023-06-09 09:38:39] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.8.tar.gz]
+[2023-06-09 09:38:39] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.9.tar.gz]
+[2023-06-09 09:38:39] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-09 09:38:39] INFO root fetch - processPackages [folder-tree-generator]: Remove: archive file [/home/abi/fetcher/tmp/folder_tree_generator-0.1.8.tar.gz]
+[2023-06-09 09:38:39] INFO root fetch - processPackages [folder-tree-generator]: Remove: archive file [/home/abi/fetcher/tmp/folder_tree_generator-0.1.9.tar.gz]
+[2023-06-09 09:38:39] INFO root fetch - main [MainThread]: End processing [folder-tree-generator]: success
+[2023-06-09 09:38:39] INFO root fetch - processPackages [cadencepy]: Remove: archive file [/home/abi/fetcher/tmp/cadencepy-0.0.9.tar.gz]
+[2023-06-09 09:38:39] INFO root fetch - processPackages [cadencepy]: Remove: archive file [/home/abi/fetcher/tmp/cadencepy-0.1.0.tar.gz]
+[2023-06-09 09:38:39] INFO root fetch - main [MainThread]: End processing [cadencepy]: success
+[2023-06-09 09:38:40] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-06-09 09:38:40] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-06-09 09:38:40] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-09 09:38:40] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.2.tar.gz]
+[2023-06-09 09:38:40] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.3rc1.tar.gz]
+[2023-06-09 09:38:40] INFO root fetch - main [MainThread]: End processing [ragas]: success
+[2023-06-09 09:38:40] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 09:38:40] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
+[2023-06-09 09:38:40] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 09:38:40] INFO root fetch - main [MainThread]: Store serial: [18437871]
