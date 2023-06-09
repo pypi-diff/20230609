@@ -16059,3 +16059,115 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 08:11:31] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.6.1.tar.gz]
 [2023-06-09 08:11:31] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-06-09 08:11:31] INFO root fetch - main [MainThread]: Store serial: [18437108]
+[2023-06-09 08:16:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437108]
+[2023-06-09 08:16:40] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-09 08:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scirpy
+[2023-06-09 08:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipen-report
+[2023-06-09 08:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dartrig
+[2023-06-09 08:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DynamicForms
+[2023-06-09 08:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyee
+[2023-06-09 08:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chrono-chatgpt
+[2023-06-09 08:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: daisytuner-likwid
+[2023-06-09 08:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Envoy-Cloud
+[2023-06-09 08:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aliyun-python-sdk-resourcecenter
+[2023-06-09 08:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-libvirt
+[2023-06-09 08:16:40] WARNING root fetch - processPackages [daisytuner-likwid]: Skipping, unable to determine old version
+[2023-06-09 08:16:40] INFO root fetch - processPackages [daisytuner-likwid]: Start processing: pulumi-keycloak
+[2023-06-09 08:16:40] INFO root fetch - main [MainThread]: End processing [daisytuner-likwid] error
+[2023-06-09 08:16:40] INFO root fetch - processPackages [scirpy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-09 08:16:40] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.1a1686289194] Old Version: [0.4.1a1685165964]
+[2023-06-09 08:16:40] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 08:16:40] INFO root fetch - processPackages [aliyun-python-sdk-resourcecenter]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-09 08:16:40] WARNING root fetch - processPackages [Envoy-Cloud]: Skipping, unable to determine old version
+[2023-06-09 08:16:40] INFO root fetch - processPackages [Envoy-Cloud]: Start processing: nucleus-driver
+[2023-06-09 08:16:40] INFO root fetch - main [MainThread]: End processing [Envoy-Cloud] error
+[2023-06-09 08:16:40] WARNING root fetch - processPackages [chrono-chatgpt]: Skipping, unable to determine old version
+[2023-06-09 08:16:40] INFO root fetch - processPackages [pipen-report]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-09 08:16:40] INFO root fetch - processPackages [chrono-chatgpt]: Start processing: krutils
+[2023-06-09 08:16:40] INFO root fetch - main [MainThread]: End processing [chrono-chatgpt] error
+[2023-06-09 08:16:40] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-09 08:16:40] INFO root fetch - processPackages [pyee]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-06-09 08:16:40] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.3.0a1686289194] Old Version: [5.2.0a1686176633]
+[2023-06-09 08:16:40] INFO root fetch - processPackages [nucleus-driver]: New version: [1.5.0] Old Version: [1.4.7]
+[2023-06-09 08:16:40] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-06-09 08:16:40] INFO root fetch - processPackages [krutils]: New version: [0.20230609.1515] Old Version: [0.20230607.2323]
+[2023-06-09 08:16:40] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/2a/f8/a0f425a519f798bc1694d682da76134d19feb8c61af1db9cfc3bb596e710/pulumi_libvirt-0.4.1a1685165964.tar.gz
+[2023-06-09 08:16:40] INFO root fetch - processPackages [scirpy]: Downloading https://files.pythonhosted.org/packages/d9/6e/fe4eb190bc89f54014dd60ff6ea0154bce51a6b57417fd6fe6229a1fefc9/scirpy-0.9.0.tar.gz
+[2023-06-09 08:16:40] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/95/93/0003c3e63e809e98d18242999380721f577baec8ccf697071faca8e8b6ec/dartrig-0.1.9.tar.gz
+[2023-06-09 08:16:40] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/45/ad/d0a36993a0ce782fdc04e53841948eb805007f7f541d2e404157fa84b0b5/pulumi_keycloak-5.2.0a1686176633.tar.gz
+[2023-06-09 08:16:40] INFO root fetch - processPackages [aliyun-python-sdk-resourcecenter]: Downloading https://files.pythonhosted.org/packages/a7/ce/62b3ca2d0d4d085bafe61f788d7c20644c434e24d1005d305d3a94dd8283/aliyun-python-sdk-resourcecenter-1.0.2.tar.gz
+[2023-06-09 08:16:40] INFO root fetch - processPackages [pipen-report]: Downloading https://files.pythonhosted.org/packages/f9/ce/1478680d76ea4b3e79258f5024b603b8fc36ed02144fbd0682120be69689/pipen_report-0.8.0.tar.gz
+[2023-06-09 08:16:40] INFO root fetch - processPackages [pyee]: Downloading https://files.pythonhosted.org/packages/df/aa/503e2857e5be360251f894f4f4833d54d3f85b1ac8d8865bcc95d7d4fbfb/pyee-9.1.0.tar.gz
+[2023-06-09 08:16:40] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2023-06-09 08:16:40] INFO root fetch - processPackages [nucleus-driver]: Downloading https://files.pythonhosted.org/packages/8e/75/2ff05ab3afe82467df5e91a757faec95f8bc8c1e79e1fb8c2594856bdf67/nucleus_driver-1.4.7.tar.gz
+[2023-06-09 08:16:40] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-09 08:16:40] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230609/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 08:16:40] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/e7/f7/50fd6382e0033e7dbce23f5bacce6b75245e17d9edc2ebcc87325bc5562a/krutils-0.20230607.2323.tar.gz
+[2023-06-09 08:16:41] INFO root fetch - processPackages [aliyun-python-sdk-resourcecenter]: Downloading https://files.pythonhosted.org/packages/d4/dd/6ddb411a070d6e06e577aca1b165cdd5ca4f23e26f250aba08e51b883cab/aliyun-python-sdk-resourcecenter-1.0.3.tar.gz
+[2023-06-09 08:16:41] INFO root fetch - processPackages [pyee]: Downloading https://files.pythonhosted.org/packages/eb/2c/ebe4fd8213b3d720b193a62f07169607e945dd02a08edc45b28ca52fbe07/pyee-9.1.1.tar.gz
+[2023-06-09 08:16:41] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/ae/7b/3bcdb1f0613031e9140b15ae203536a2dfab5170ecc2e78ae8ef93c94210/pulumi_keycloak-5.3.0a1686289194.tar.gz
+[2023-06-09 08:16:41] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/ca/06/6fb5edb0e74e8da6fc07158f2ae594ae9da9913519dc82b40b4adf12b331/pulumi_libvirt-0.4.1a1686289194.tar.gz
+[2023-06-09 08:16:41] INFO root fetch - processPackages [pyee]: executing diffoscope
+[2023-06-09 08:16:41] INFO root fetch - processPackages [pyee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyee-9.1.0.tar.gz tmp/pyee-9.1.1.tar.gz --markdown 20230609/p/pyee/9.1.0-9.1.1/diff.md --exclude *.pyd
+[2023-06-09 08:16:41] INFO root fetch - processPackages [nucleus-driver]: Downloading https://files.pythonhosted.org/packages/b5/16/4c6cd0d615276b6653cdcb8fd51e6abfcd8f1428a9a4b3e7135b440465b8/nucleus_driver-1.5.0.tar.gz
+[2023-06-09 08:16:41] INFO root fetch - processPackages [pipen-report]: Downloading https://files.pythonhosted.org/packages/bd/42/f6e3acca8f25830d56abb0eb2e88b3f896a8c3bf694365bb5ca73fd739d1/pipen_report-0.9.0.tar.gz
+[2023-06-09 08:16:41] INFO root fetch - processPackages [aliyun-python-sdk-resourcecenter]: executing diffoscope
+[2023-06-09 08:16:41] INFO root fetch - processPackages [aliyun-python-sdk-resourcecenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-resourcecenter-1.0.2.tar.gz tmp/aliyun-python-sdk-resourcecenter-1.0.3.tar.gz --markdown 20230609/a/aliyun-python-sdk-resourcecenter/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-09 08:16:41] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/b2/4a/3ae808c1c6b014ba76f3144b16d5bbfcaa21fdfa9e29340a9b7fe48976da/krutils-0.20230609.1515.tar.gz
+[2023-06-09 08:16:41] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2023-06-09 08:16:41] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.1a1685165964.tar.gz tmp/pulumi_libvirt-0.4.1a1686289194.tar.gz --markdown 20230609/p/pulumi-libvirt/0.4.1a1685165964-0.4.1a1686289194/diff.md --exclude *.pyd
+[2023-06-09 08:16:41] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2023-06-09 08:16:41] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.2.0a1686176633.tar.gz tmp/pulumi_keycloak-5.3.0a1686289194.tar.gz --markdown 20230609/p/pulumi-keycloak/5.2.0a1686176633-5.3.0a1686289194/diff.md --exclude *.pyd
+[2023-06-09 08:16:41] INFO root fetch - processPackages [nucleus-driver]: executing diffoscope
+[2023-06-09 08:16:41] INFO root fetch - processPackages [nucleus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucleus_driver-1.4.7.tar.gz tmp/nucleus_driver-1.5.0.tar.gz --markdown 20230609/n/nucleus-driver/1.4.7-1.5.0/diff.md --exclude *.pyd
+[2023-06-09 08:16:41] INFO root fetch - processPackages [pipen-report]: executing diffoscope
+[2023-06-09 08:16:41] INFO root fetch - processPackages [pipen-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_report-0.8.0.tar.gz tmp/pipen_report-0.9.0.tar.gz --markdown 20230609/p/pipen-report/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 08:16:41] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2023-06-09 08:16:41] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-06-09 08:16:41] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230607.2323.tar.gz tmp/krutils-0.20230609.1515.tar.gz --markdown 20230609/k/krutils/0.20230607.2323-0.20230609.1515/diff.md --exclude *.pyd
+[2023-06-09 08:16:41] WARNING root fetch - processPackages [scirpy]: Skipping package: exceeds size limit 24701008>=10485760
+[2023-06-09 08:16:41] INFO root fetch - processPackages [scirpy]: Start processing: specctl
+[2023-06-09 08:16:41] INFO root fetch - main [MainThread]: End processing [scirpy] error
+[2023-06-09 08:16:41] INFO root fetch - processPackages [specctl]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-09 08:16:41] INFO root fetch - processPackages [specctl]: Downloading https://files.pythonhosted.org/packages/e5/d7/fe2261b8d3d1d2eab56f717a0d4326d6abaf4267c5484080a07f8ae12d2c/specctl-0.1.4.tar.gz
+[2023-06-09 08:16:41] INFO root fetch - processPackages [specctl]: Downloading https://files.pythonhosted.org/packages/2f/8b/e2d89be684d7455418244c39a5675c7633dbe373c44945d5cf6fa48c289d/specctl-0.1.5.tar.gz
+[2023-06-09 08:16:41] INFO root fetch - processPackages [specctl]: executing diffoscope
+[2023-06-09 08:16:41] INFO root fetch - processPackages [specctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specctl-0.1.4.tar.gz tmp/specctl-0.1.5.tar.gz --markdown 20230609/s/specctl/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-09 08:16:42] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2023-06-09 08:16:42] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20230609/D/DynamicForms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-09 08:16:42] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.8.tar.gz]
+[2023-06-09 08:16:42] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
+[2023-06-09 08:16:42] INFO root fetch - processPackages [dartrig]: Start processing: zhousf-lib
+[2023-06-09 08:16:42] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-09 08:16:42] INFO root fetch - processPackages [zhousf-lib]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-09 08:16:42] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/0f/87/62a3312b76801929de059d1ec1c68e4fa3fdd9d3a25dbc65214de894998a/zhousf-lib-0.6.1.tar.gz
+[2023-06-09 08:16:42] WARNING root fetch - processPackages [zhousf-lib]: Skipping package: exceeds size limit 14956083>=10485760
+[2023-06-09 08:16:42] INFO root fetch - main [MainThread]: End processing [zhousf-lib] error
+[2023-06-09 08:16:42] INFO root fetch - processPackages [aliyun-python-sdk-resourcecenter]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-resourcecenter-1.0.2.tar.gz]
+[2023-06-09 08:16:42] INFO root fetch - processPackages [aliyun-python-sdk-resourcecenter]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-resourcecenter-1.0.3.tar.gz]
+[2023-06-09 08:16:42] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-resourcecenter]: success
+[2023-06-09 08:16:42] INFO root fetch - processPackages [pyee]: Remove: archive file [/home/abi/fetcher/tmp/pyee-9.1.0.tar.gz]
+[2023-06-09 08:16:42] INFO root fetch - processPackages [pyee]: Remove: archive file [/home/abi/fetcher/tmp/pyee-9.1.1.tar.gz]
+[2023-06-09 08:16:42] INFO root fetch - main [MainThread]: End processing [pyee]: success
+[2023-06-09 08:16:43] INFO root fetch - processPackages [specctl]: Remove: archive file [/home/abi/fetcher/tmp/specctl-0.1.4.tar.gz]
+[2023-06-09 08:16:43] INFO root fetch - processPackages [specctl]: Remove: archive file [/home/abi/fetcher/tmp/specctl-0.1.5.tar.gz]
+[2023-06-09 08:16:43] INFO root fetch - main [MainThread]: End processing [specctl]: success
+[2023-06-09 08:16:43] INFO root fetch - processPackages [krutils]: Remove: archive file [/home/abi/fetcher/tmp/krutils-0.20230607.2323.tar.gz]
+[2023-06-09 08:16:43] INFO root fetch - processPackages [krutils]: Remove: archive file [/home/abi/fetcher/tmp/krutils-0.20230609.1515.tar.gz]
+[2023-06-09 08:16:43] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-06-09 08:16:44] INFO root fetch - processPackages [nucleus-driver]: Remove: archive file [/home/abi/fetcher/tmp/nucleus_driver-1.4.7.tar.gz]
+[2023-06-09 08:16:44] INFO root fetch - processPackages [nucleus-driver]: Remove: archive file [/home/abi/fetcher/tmp/nucleus_driver-1.5.0.tar.gz]
+[2023-06-09 08:16:44] INFO root fetch - main [MainThread]: End processing [nucleus-driver]: success
+[2023-06-09 08:16:44] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1685165964.tar.gz]
+[2023-06-09 08:16:44] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1686289194.tar.gz]
+[2023-06-09 08:16:44] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2023-06-09 08:16:45] INFO root fetch - processPackages [pipen-report]: Remove: archive file [/home/abi/fetcher/tmp/pipen_report-0.8.0.tar.gz]
+[2023-06-09 08:16:45] INFO root fetch - processPackages [pipen-report]: Remove: archive file [/home/abi/fetcher/tmp/pipen_report-0.9.0.tar.gz]
+[2023-06-09 08:16:45] INFO root fetch - main [MainThread]: End processing [pipen-report]: success
+[2023-06-09 08:16:45] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.2.0a1686176633.tar.gz]
+[2023-06-09 08:16:45] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1686289194.tar.gz]
+[2023-06-09 08:16:45] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2023-06-09 08:16:47] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2023-06-09 08:16:47] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2023-06-09 08:16:47] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2023-06-09 08:16:47] INFO root fetch - main [MainThread]: Store serial: [18437162]
