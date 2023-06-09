@@ -18382,3 +18382,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 10:01:25] INFO root fetch - processPackages [towhee.models]: Remove: archive file [/home/abi/fetcher/tmp/towhee.models-1.1.0-py3-none-any.whl.zip]
 [2023-06-09 10:01:25] INFO root fetch - main [MainThread]: End processing [towhee.models]: success
 [2023-06-09 10:01:25] INFO root fetch - main [MainThread]: Store serial: [18438067]
+[2023-06-09 10:06:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438067]
+[2023-06-09 10:06:35] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-09 10:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2023-06-09 10:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agxclick
+[2023-06-09 10:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pclick
+[2023-06-09 10:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: homewizard-climate-ws
+[2023-06-09 10:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multireg
+[2023-06-09 10:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tradingview-screener
+[2023-06-09 10:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpaw
+[2023-06-09 10:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-photovoltaic-api
+[2023-06-09 10:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kiara-plugin.tabular
+[2023-06-09 10:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rockrl
+[2023-06-09 10:06:35] WARNING root fetch - processPackages [agxclick]: Skipping, unable to determine old version
+[2023-06-09 10:06:35] INFO root fetch - processPackages [agxclick]: Start processing: pipeline-feature
+[2023-06-09 10:06:35] INFO root fetch - main [MainThread]: End processing [agxclick] error
+[2023-06-09 10:06:35] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 10:06:35] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-09 10:06:35] INFO root fetch - processPackages [tradingview-screener]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-09 10:06:35] WARNING root fetch - processPackages [pclick]: Skipping, unable to determine old version
+[2023-06-09 10:06:35] INFO root fetch - processPackages [pclick]: Start processing: aioslimproto
+[2023-06-09 10:06:35] INFO root fetch - main [MainThread]: End processing [pclick] error
+[2023-06-09 10:06:35] WARNING root fetch - processPackages [rockrl]: Skipping, unable to determine old version
+[2023-06-09 10:06:35] INFO root fetch - processPackages [gpaw]: New version: [23.6.0] Old Version: [22.8.0]
+[2023-06-09 10:06:35] INFO root fetch - processPackages [homewizard-climate-ws]: New version: [0.0.9] Old Version: [0.0.21]
+[2023-06-09 10:06:35] INFO root fetch - processPackages [rockrl]: Start processing: groupdocs-conversion-cloud
+[2023-06-09 10:06:35] INFO root fetch - main [MainThread]: End processing [rockrl] error
+[2023-06-09 10:06:35] INFO root fetch - processPackages [yplib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 10:06:35] WARNING root fetch - processPackages [multireg]: Skipping, unable to determine old version
+[2023-06-09 10:06:35] INFO root fetch - processPackages [multireg]: Start processing: tracebloc-package-dev
+[2023-06-09 10:06:35] INFO root fetch - main [MainThread]: End processing [multireg] error
+[2023-06-09 10:06:35] INFO root fetch - processPackages [kiara-plugin.tabular]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-09 10:06:35] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: New version: [13.0.1.1.3] Old Version: [13.0.1.1.2]
+[2023-06-09 10:06:35] INFO root fetch - processPackages [aioslimproto]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-09 10:06:35] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-09 10:06:35] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-09 10:06:35] INFO root fetch - processPackages [groupdocs-conversion-cloud]: New version: [23.6] Old Version: [23.4]
+[2023-06-09 10:06:35] INFO root fetch - processPackages [aioslimproto]: Downloading https://files.pythonhosted.org/packages/80/c3/e2ac4bff2f9149487c0a09a2bad7a14510bc78b127f7a695f754ec76c263/aioslimproto-2.3.0.tar.gz
+[2023-06-09 10:06:35] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/5b/c1/a598e23f7223cbe5519e02af6c7ec944cbbbee09f5ccbaf15603d4694b44/tracebloc_package-dev-0.4.5.tar.gz
+[2023-06-09 10:06:35] INFO root fetch - processPackages [homewizard-climate-ws]: Downloading https://files.pythonhosted.org/packages/f2/97/1b1b81bf1574cc1caa04245be6b42f9b4980f8aa179be725b071bd2aaa77/homewizard_climate_ws-0.0.21.tar.gz
+[2023-06-09 10:06:35] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-09 10:06:35] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230609/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 10:06:35] INFO root fetch - processPackages [tradingview-screener]: Downloading https://files.pythonhosted.org/packages/4a/8b/c214b5e74738c701ea0ae5704cbcaf52baa782134b7e62e558d46e894f34/tradingview_screener-0.1.0.tar.gz
+[2023-06-09 10:06:35] INFO root fetch - processPackages [gpaw]: Downloading https://files.pythonhosted.org/packages/96/7c/202dab075d578a2140774e6026fbb23adf83a2bc06dab9c33cc128f41030/gpaw-22.8.0.tar.gz
+[2023-06-09 10:06:35] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/62/e6/65816d35e6cc7ad0e4fea44ced9d8b457789508ae25827d9b6935bf107c7/odoo13-addon-photovoltaic_api-13.0.1.1.2.tar.gz
+[2023-06-09 10:06:35] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/55/17/0487df4bacb51108389eb3e8bc4cfd08e8fb7f421ebf3e3fb1295ce5a9a8/yplib-0.1.8.tar.gz
+[2023-06-09 10:06:35] INFO root fetch - processPackages [kiara-plugin.tabular]: Downloading https://files.pythonhosted.org/packages/8e/e9/0b21e5742a9e2e4172b29f51badbd5646d0fd2f0448cec209a28211e4929/kiara_plugin.tabular-0.4.8.tar.gz
+[2023-06-09 10:06:36] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Downloading https://files.pythonhosted.org/packages/1a/3a/38e2807c3579c35cf4ad67a08cdb0395312c9ccef1509fc09a87aa29395c/groupdocs-conversion-cloud-23.4.tar.gz
+[2023-06-09 10:06:36] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/0b/9a/e17445f95fc0f4e57f1d54d7af11bd39cf674d1efb23cb9d15321c4626f5/tracebloc_package-dev-0.4.6.tar.gz
+[2023-06-09 10:06:36] INFO root fetch - processPackages [aioslimproto]: Downloading https://files.pythonhosted.org/packages/d1/09/f7a7518b1767e04d5ba82a91de791debcd4f6db4536e27e648e92934872b/aioslimproto-2.3.1.tar.gz
+[2023-06-09 10:06:36] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/1c/4b/684959c0f60ea371be920eff005a730e0c9aadc57afe0edecba76be0df09/yplib-0.1.9.tar.gz
+[2023-06-09 10:06:36] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-06-09 10:06:36] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.4.5.tar.gz tmp/tracebloc_package-dev-0.4.6.tar.gz --markdown 20230609/t/tracebloc-package-dev/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-09 10:06:36] INFO root fetch - processPackages [aioslimproto]: executing diffoscope
+[2023-06-09 10:06:36] INFO root fetch - processPackages [aioslimproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioslimproto-2.3.0.tar.gz tmp/aioslimproto-2.3.1.tar.gz --markdown 20230609/a/aioslimproto/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-09 10:06:36] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-09 10:06:36] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.1.8.tar.gz tmp/yplib-0.1.9.tar.gz --markdown 20230609/y/yplib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 10:06:36] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/c7/6f/aab7df0c0515c90b1ac48e732fb3b4262b93d473d7f0b84bd696e3537783/odoo13-addon-photovoltaic_api-13.0.1.1.3.tar.gz
+[2023-06-09 10:06:36] INFO root fetch - processPackages [tradingview-screener]: Downloading https://files.pythonhosted.org/packages/a3/d9/30607c76d3f4840f012c447d718fbc4f1cf304288eeb2e2bac6346dad53d/tradingview_screener-1.0.0.tar.gz
+[2023-06-09 10:06:36] INFO root fetch - processPackages [gpaw]: Downloading https://files.pythonhosted.org/packages/70/60/d1c25fc9e4e171559ad4ff5bbf257e4b5102ab81c669d34a833423f609b9/gpaw-23.6.0.tar.gz
+[2023-06-09 10:06:36] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: executing diffoscope
+[2023-06-09 10:06:36] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13-addon-photovoltaic_api-13.0.1.1.2.tar.gz tmp/odoo13-addon-photovoltaic_api-13.0.1.1.3.tar.gz --markdown 20230609/o/odoo13-addon-photovoltaic-api/13.0.1.1.2-13.0.1.1.3/diff.md --exclude *.pyd
+[2023-06-09 10:06:36] INFO root fetch - processPackages [kiara-plugin.tabular]: Downloading https://files.pythonhosted.org/packages/ea/e5/eb641d760e93d7cecc1d4c05801550ab0157d160fbd0c2f4c1d8d1026517/kiara_plugin.tabular-0.4.9.tar.gz
+[2023-06-09 10:06:36] INFO root fetch - processPackages [homewizard-climate-ws]: Downloading https://files.pythonhosted.org/packages/79/8f/3bbd7f985f8504a9d180fdd7893b148fa4a4b73cdbe0efb972f24ac5ec5b/homewizard_climate_ws-0.0.9.tar.gz
+[2023-06-09 10:06:36] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Downloading https://files.pythonhosted.org/packages/c8/79/f4e751e439a32b4b945940d4e9e98092c7df26afbdac5cdb02fe0f2dbbac/groupdocs-conversion-cloud-23.6.tar.gz
+[2023-06-09 10:06:36] INFO root fetch - processPackages [tradingview-screener]: executing diffoscope
+[2023-06-09 10:06:36] INFO root fetch - processPackages [tradingview-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradingview_screener-0.1.0.tar.gz tmp/tradingview_screener-1.0.0.tar.gz --markdown 20230609/t/tradingview-screener/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-09 10:06:36] INFO root fetch - processPackages [groupdocs-conversion-cloud]: executing diffoscope
+[2023-06-09 10:06:36] INFO root fetch - processPackages [groupdocs-conversion-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groupdocs-conversion-cloud-23.4.tar.gz tmp/groupdocs-conversion-cloud-23.6.tar.gz --markdown 20230609/g/groupdocs-conversion-cloud/23.4-23.6/diff.md --exclude *.pyd
+[2023-06-09 10:06:36] INFO root fetch - processPackages [homewizard-climate-ws]: executing diffoscope
+[2023-06-09 10:06:36] INFO root fetch - processPackages [homewizard-climate-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homewizard_climate_ws-0.0.21.tar.gz tmp/homewizard_climate_ws-0.0.9.tar.gz --markdown 20230609/h/homewizard-climate-ws/0.0.21-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 10:06:36] INFO root fetch - processPackages [kiara-plugin.tabular]: executing diffoscope
+[2023-06-09 10:06:36] INFO root fetch - processPackages [kiara-plugin.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.tabular-0.4.8.tar.gz tmp/kiara_plugin.tabular-0.4.9.tar.gz --markdown 20230609/k/kiara-plugin.tabular/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-09 10:06:36] INFO root fetch - processPackages [gpaw]: executing diffoscope
+[2023-06-09 10:06:36] INFO root fetch - processPackages [gpaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpaw-22.8.0.tar.gz tmp/gpaw-23.6.0.tar.gz --markdown 20230609/g/gpaw/22.8.0-23.6.0/diff.md --exclude *.pyd
+[2023-06-09 10:06:37] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-09 10:06:37] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-09 10:06:37] INFO root fetch - processPackages [pipeline-feature]: Start processing: odoo-addon-account-invoice-pricelist-sale
+[2023-06-09 10:06:37] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-09 10:06:37] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist-sale]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-06-09 10:06:37] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist-sale]: Downloading https://files.pythonhosted.org/packages/9a/1c/6cec5f06a076315ce1f9a8d787ca2117bf788f85e61c6bdbe0f8cb9b48f0/odoo_addon_account_invoice_pricelist_sale-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-09 10:06:37] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.1.8.tar.gz]
+[2023-06-09 10:06:37] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.1.9.tar.gz]
+[2023-06-09 10:06:37] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-09 10:06:37] INFO root fetch - processPackages [tradingview-screener]: Remove: archive file [/home/abi/fetcher/tmp/tradingview_screener-0.1.0.tar.gz]
+[2023-06-09 10:06:37] INFO root fetch - processPackages [tradingview-screener]: Remove: archive file [/home/abi/fetcher/tmp/tradingview_screener-1.0.0.tar.gz]
+[2023-06-09 10:06:37] INFO root fetch - main [MainThread]: End processing [tradingview-screener]: success
+[2023-06-09 10:06:37] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist-sale]: Downloading https://files.pythonhosted.org/packages/e6/3e/223d332676e509110805c4283241d188032ab216430526ebeeb026e7c76c/odoo_addon_account_invoice_pricelist_sale-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-09 10:06:37] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.4.5.tar.gz]
+[2023-06-09 10:06:37] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.4.6.tar.gz]
+[2023-06-09 10:06:37] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-06-09 10:06:38] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist-sale]: executing diffoscope
+[2023-06-09 10:06:38] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_pricelist_sale-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_pricelist_sale-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-account-invoice-pricelist-sale/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-09 10:06:38] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_api-13.0.1.1.2.tar.gz]
+[2023-06-09 10:06:38] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_api-13.0.1.1.3.tar.gz]
+[2023-06-09 10:06:38] INFO root fetch - main [MainThread]: End processing [odoo13-addon-photovoltaic-api]: success
+[2023-06-09 10:06:38] INFO root fetch - processPackages [homewizard-climate-ws]: Remove: archive file [/home/abi/fetcher/tmp/homewizard_climate_ws-0.0.21.tar.gz]
+[2023-06-09 10:06:38] INFO root fetch - processPackages [homewizard-climate-ws]: Remove: archive file [/home/abi/fetcher/tmp/homewizard_climate_ws-0.0.9.tar.gz]
+[2023-06-09 10:06:38] INFO root fetch - main [MainThread]: End processing [homewizard-climate-ws]: success
+[2023-06-09 10:06:38] INFO root fetch - processPackages [kiara-plugin.tabular]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.tabular-0.4.8.tar.gz]
+[2023-06-09 10:06:38] INFO root fetch - processPackages [kiara-plugin.tabular]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.tabular-0.4.9.tar.gz]
+[2023-06-09 10:06:38] INFO root fetch - main [MainThread]: End processing [kiara-plugin.tabular]: success
+[2023-06-09 10:06:39] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_pricelist_sale-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-09 10:06:39] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_pricelist_sale-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-09 10:06:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-pricelist-sale]: success
+[2023-06-09 10:06:39] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-conversion-cloud-23.4.tar.gz]
+[2023-06-09 10:06:39] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-conversion-cloud-23.6.tar.gz]
+[2023-06-09 10:06:39] INFO root fetch - main [MainThread]: End processing [groupdocs-conversion-cloud]: success
+[2023-06-09 10:06:40] INFO root fetch - processPackages [aioslimproto]: Remove: archive file [/home/abi/fetcher/tmp/aioslimproto-2.3.0.tar.gz]
+[2023-06-09 10:06:40] INFO root fetch - processPackages [aioslimproto]: Remove: archive file [/home/abi/fetcher/tmp/aioslimproto-2.3.1.tar.gz]
+[2023-06-09 10:06:40] INFO root fetch - main [MainThread]: End processing [aioslimproto]: success
+[2023-06-09 10:06:59] INFO root fetch - processPackages [gpaw]: Remove: archive file [/home/abi/fetcher/tmp/gpaw-22.8.0.tar.gz]
+[2023-06-09 10:06:59] INFO root fetch - processPackages [gpaw]: Remove: archive file [/home/abi/fetcher/tmp/gpaw-23.6.0.tar.gz]
+[2023-06-09 10:06:59] INFO root fetch - main [MainThread]: End processing [gpaw]: success
+[2023-06-09 10:06:59] INFO root fetch - main [MainThread]: Store serial: [18438120]
