@@ -20434,3 +20434,116 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-09 11:34:10] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-06-09 11:34:10] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-06-09 11:34:10] INFO root fetch - main [MainThread]: Store serial: [18438881]
+[2023-06-09 11:39:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438881]
+[2023-06-09 11:39:20] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-09 11:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-strategies-breezeconnect
+[2023-06-09 11:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rekuest
+[2023-06-09 11:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mikro
+[2023-06-09 11:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eth-owned
+[2023-06-09 11:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wowipy
+[2023-06-09 11:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wowipy
+[2023-06-09 11:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymisp
+[2023-06-09 11:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hm-pyhelper
+[2023-06-09 11:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dendrox
+[2023-06-09 11:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: starrailres
+[2023-06-09 11:39:20] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 11:39:20] WARNING root fetch - processPackages [python-strategies-breezeconnect]: Skipping, unable to determine old version
+[2023-06-09 11:39:20] INFO root fetch - processPackages [python-strategies-breezeconnect]: Start processing: pyilz
+[2023-06-09 11:39:20] INFO root fetch - main [MainThread]: End processing [python-strategies-breezeconnect] error
+[2023-06-09 11:39:20] INFO root fetch - processPackages [eth-owned]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-09 11:39:20] INFO root fetch - processPackages [wowipy]: New version: [1.1.0] Old Version: [0.0.1]
+[2023-06-09 11:39:20] INFO root fetch - processPackages [wowipy]: New version: [1.1.0] Old Version: [0.0.1]
+[2023-06-09 11:39:20] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-09 11:39:20] WARNING root fetch - processPackages [dendrox]: Skipping, unable to determine old version
+[2023-06-09 11:39:20] INFO root fetch - processPackages [starrailres]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-09 11:39:20] INFO root fetch - processPackages [pyilz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 11:39:20] INFO root fetch - processPackages [dendrox]: Start processing: rysk-client
+[2023-06-09 11:39:20] INFO root fetch - main [MainThread]: End processing [dendrox] error
+[2023-06-09 11:39:20] INFO root fetch - processPackages [hm-pyhelper]: New version: [0.8.9] Old Version: [0.8.13]
+[2023-06-09 11:39:20] INFO root fetch - processPackages [pymisp]: New version: [2.4.99] Old Version: [2.4.98]
+[2023-06-09 11:39:20] INFO root fetch - processPackages [rysk-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 11:39:20] INFO root fetch - processPackages [pyilz]: Downloading https://files.pythonhosted.org/packages/37/7a/114c838cef9c045f8814283c518613d96dbd100b5c90695136e5b4e752a2/pyilz-0.0.8.tar.gz
+[2023-06-09 11:39:20] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/bb/61/7d0e0712bc9861247aa133af06d7b362588129fca57f4a7132acfcf0106c/wowipy-0.0.1.tar.gz
+[2023-06-09 11:39:20] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/bb/61/7d0e0712bc9861247aa133af06d7b362588129fca57f4a7132acfcf0106c/wowipy-0.0.1.tar.gz
+[2023-06-09 11:39:20] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/48/f2/3190b6c553e57d0d7cdd24d76862ef45faae7ac9eff40cae2c066106ab77/rekuest-0.1.8.tar.gz
+[2023-06-09 11:39:20] INFO root fetch - processPackages [eth-owned]: Downloading https://files.pythonhosted.org/packages/db/13/eaa97f62ada2793df54def6e07224dcec50ca938d1fa44498a5f00b6199f/eth-owned-0.1.1.tar.gz
+[2023-06-09 11:39:20] INFO root fetch - processPackages [mikro]: Downloading https://files.pythonhosted.org/packages/da/db/ba3f2a6a19c4fe4587c28d1c120e23982141fa95b4e06ebe64308502e82f/mikro-0.3.8.tar.gz
+[2023-06-09 11:39:20] INFO root fetch - processPackages [starrailres]: Downloading https://files.pythonhosted.org/packages/f2/5e/854acee5493b3e17794c67d680c3b48d0c2d2bf88d9e1d3e168e437aa917/starrailres-1.0.1.tar.gz
+[2023-06-09 11:39:20] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/9b/4b/edc7e8852a6293842940cad780b7da899e6155718c56447e5f3b731575dc/hm_pyhelper-0.8.13.tar.gz
+[2023-06-09 11:39:20] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/ec/87/8825242810bf37cbf44b2e96166cf8a529053b5b1e7f66b67ebf1c5e5592/rysk_client-0.1.8.tar.gz
+[2023-06-09 11:39:20] INFO root fetch - processPackages [pymisp]: Downloading https://files.pythonhosted.org/packages/32/19/f2d78346e3750b7467c1e65c2260eacb925199f89b4c2184ab360e413770/pymisp-2.4.98.tar.gz
+[2023-06-09 11:39:20] INFO root fetch - processPackages [pyilz]: Downloading https://files.pythonhosted.org/packages/a3/6c/e16df3d96f2df68a3608c527521de81ad9bee84af7f3de3dabeecc744720/pyilz-0.0.9.tar.gz
+[2023-06-09 11:39:21] INFO root fetch - processPackages [pyilz]: executing diffoscope
+[2023-06-09 11:39:21] INFO root fetch - processPackages [pyilz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyilz-0.0.8.tar.gz tmp/pyilz-0.0.9.tar.gz --markdown 20230609/p/pyilz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 11:39:21] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/c7/6e/bcea729c864b4bbd4c9c26534b40f4ebed9f00eb63aeb606692eb0667517/rekuest-0.1.9.tar.gz
+[2023-06-09 11:39:21] INFO root fetch - processPackages [mikro]: Downloading https://files.pythonhosted.org/packages/26/a6/7ee733ac462341b8ca4423365288b9a6988a89d4d02f56e536dd8f8672a7/mikro-0.3.9.tar.gz
+[2023-06-09 11:39:21] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/ee/6f/9c72c521679dd2093b9d2b2e45f3203cc5de25dc6ab47b76370012c2b6b1/wowipy-1.1.0.tar.gz
+[2023-06-09 11:39:21] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/ee/6f/9c72c521679dd2093b9d2b2e45f3203cc5de25dc6ab47b76370012c2b6b1/wowipy-1.1.0.tar.gz
+[2023-06-09 11:39:21] INFO root fetch - processPackages [eth-owned]: Downloading https://files.pythonhosted.org/packages/2a/a2/5bb97015a46cb349e237f8e26507c61c500ecfea927b2f336eb957981a43/eth-owned-0.1.2.tar.gz
+[2023-06-09 11:39:21] INFO root fetch - processPackages [starrailres]: Downloading https://files.pythonhosted.org/packages/82/74/1bd8c5f99736626aaf24bc48f1eec3799e89109dac25e517b1a62d001f0b/starrailres-1.1.0.tar.gz
+[2023-06-09 11:39:21] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-06-09 11:39:21] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230609/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-09 11:39:21] INFO root fetch - processPackages [eth-owned]: executing diffoscope
+[2023-06-09 11:39:21] INFO root fetch - processPackages [eth-owned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-owned-0.1.1.tar.gz tmp/eth-owned-0.1.2.tar.gz --markdown 20230609/e/eth-owned/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-09 11:39:21] INFO root fetch - processPackages [wowipy]: executing diffoscope
+[2023-06-09 11:39:21] INFO root fetch - processPackages [wowipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wowipy-0.0.1.tar.gz tmp/wowipy-1.1.0.tar.gz --markdown 20230609/w/wowipy/0.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-09 11:39:21] INFO root fetch - processPackages [wowipy]: executing diffoscope
+[2023-06-09 11:39:21] INFO root fetch - processPackages [wowipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wowipy-0.0.1.tar.gz tmp/wowipy-1.1.0.tar.gz --markdown 20230609/w/wowipy/0.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-09 11:39:21] INFO root fetch - processPackages [starrailres]: executing diffoscope
+[2023-06-09 11:39:21] INFO root fetch - processPackages [starrailres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrailres-1.0.1.tar.gz tmp/starrailres-1.1.0.tar.gz --markdown 20230609/s/starrailres/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-09 11:39:21] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/fe/af/4780000cc063f64a5ff4b11485674e9fc9a33637ef6803482431e5840c11/rysk_client-0.1.9.tar.gz
+[2023-06-09 11:39:21] INFO root fetch - processPackages [pymisp]: Downloading https://files.pythonhosted.org/packages/74/20/acd9637c4e60fd8e1b28fb5b24b31dcd7b41f7fcd542494bde4753facec9/pymisp-2.4.99.tar.gz
+[2023-06-09 11:39:21] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-06-09 11:39:21] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230609/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 11:39:21] INFO root fetch - processPackages [rysk-client]: executing diffoscope
+[2023-06-09 11:39:21] INFO root fetch - processPackages [rysk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rysk_client-0.1.8.tar.gz tmp/rysk_client-0.1.9.tar.gz --markdown 20230609/r/rysk-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 11:39:21] INFO root fetch - processPackages [pymisp]: executing diffoscope
+[2023-06-09 11:39:21] INFO root fetch - processPackages [pymisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymisp-2.4.98.tar.gz tmp/pymisp-2.4.99.tar.gz --markdown 20230609/p/pymisp/2.4.98-2.4.99/diff.md --exclude *.pyd
+[2023-06-09 11:39:21] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/5c/c0/bdb90181854669b92d6865c451e6de030723d3440e6446b8d80df6be04f2/hm_pyhelper-0.8.9.tar.gz
+[2023-06-09 11:39:22] INFO root fetch - processPackages [hm-pyhelper]: executing diffoscope
+[2023-06-09 11:39:22] INFO root fetch - processPackages [hm-pyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hm_pyhelper-0.8.13.tar.gz tmp/hm_pyhelper-0.8.9.tar.gz --markdown 20230609/h/hm-pyhelper/0.8.13-0.8.9/diff.md --exclude *.pyd
+[2023-06-09 11:39:22] INFO root fetch - processPackages [starrailres]: Remove: archive file [/home/abi/fetcher/tmp/starrailres-1.0.1.tar.gz]
+[2023-06-09 11:39:22] INFO root fetch - processPackages [starrailres]: Remove: archive file [/home/abi/fetcher/tmp/starrailres-1.1.0.tar.gz]
+[2023-06-09 11:39:22] INFO root fetch - processPackages [starrailres]: Start processing: rekuest
+[2023-06-09 11:39:22] INFO root fetch - main [MainThread]: End processing [starrailres]: success
+[2023-06-09 11:39:22] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-0.0.1.tar.gz]
+[2023-06-09 11:39:22] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.0.tar.gz]
+[2023-06-09 11:39:22] INFO root fetch - processPackages [wowipy]: Start processing: mikro
+[2023-06-09 11:39:22] INFO root fetch - main [MainThread]: End processing [wowipy]: success
+[2023-06-09 11:39:22] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 11:39:22] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-09 11:39:22] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-06-09 11:39:22] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230609/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 11:39:22] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-06-09 11:39:22] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230609/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-09 11:39:22] INFO root fetch - processPackages [mikro]: Remove: archive file [/home/abi/fetcher/tmp/mikro-0.3.8.tar.gz]
+[2023-06-09 11:39:22] INFO root fetch - processPackages [mikro]: Remove: archive file [/home/abi/fetcher/tmp/mikro-0.3.9.tar.gz]
+[2023-06-09 11:39:22] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-06-09 11:39:23] INFO root fetch - processPackages [eth-owned]: Remove: archive file [/home/abi/fetcher/tmp/eth-owned-0.1.1.tar.gz]
+[2023-06-09 11:39:23] INFO root fetch - processPackages [eth-owned]: Remove: archive file [/home/abi/fetcher/tmp/eth-owned-0.1.2.tar.gz]
+[2023-06-09 11:39:23] INFO root fetch - main [MainThread]: End processing [eth-owned]: success
+[2023-06-09 11:39:23] INFO root fetch - processPackages [rekuest]: Remove: archive file [/home/abi/fetcher/tmp/rekuest-0.1.8.tar.gz]
+[2023-06-09 11:39:23] INFO root fetch - processPackages [rekuest]: Remove: archive file [/home/abi/fetcher/tmp/rekuest-0.1.9.tar.gz]
+[2023-06-09 11:39:23] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-06-09 11:39:23] INFO root fetch - main [MainThread]: End processing [wowipy]: success
+[2023-06-09 11:39:23] INFO root fetch - processPackages [pyilz]: Remove: archive file [/home/abi/fetcher/tmp/pyilz-0.0.8.tar.gz]
+[2023-06-09 11:39:23] INFO root fetch - processPackages [pyilz]: Remove: archive file [/home/abi/fetcher/tmp/pyilz-0.0.9.tar.gz]
+[2023-06-09 11:39:23] INFO root fetch - main [MainThread]: End processing [pyilz]: success
+[2023-06-09 11:39:23] ERROR root fetch - processPackages [mikro]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/mikro-0.3.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mikro-0.3.9.tar.gz: No such file or directory
+
+[2023-06-09 11:39:23] INFO root fetch - main [MainThread]: End processing [mikro] error
+[2023-06-09 11:39:23] ERROR root fetch - processPackages [rekuest]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/rekuest-0.1.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/rekuest-0.1.9.tar.gz: No such file or directory
+
+[2023-06-09 11:39:23] INFO root fetch - main [MainThread]: End processing [rekuest] error
+[2023-06-09 11:39:24] INFO root fetch - processPackages [pymisp]: Remove: archive file [/home/abi/fetcher/tmp/pymisp-2.4.98.tar.gz]
+[2023-06-09 11:39:24] INFO root fetch - processPackages [pymisp]: Remove: archive file [/home/abi/fetcher/tmp/pymisp-2.4.99.tar.gz]
+[2023-06-09 11:39:24] INFO root fetch - main [MainThread]: End processing [pymisp]: success
+[2023-06-09 11:39:25] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.1.8.tar.gz]
+[2023-06-09 11:39:25] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.1.9.tar.gz]
+[2023-06-09 11:39:25] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
+[2023-06-09 11:39:39] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.13.tar.gz]
+[2023-06-09 11:39:39] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.9.tar.gz]
+[2023-06-09 11:39:39] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
+[2023-06-09 11:39:39] INFO root fetch - main [MainThread]: Store serial: [18438929]
