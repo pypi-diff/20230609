@@ -3295,3 +3295,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 03:06:12] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-09 03:06:12] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-09 03:06:12] INFO root fetch - main [MainThread]: Store serial: [18432963]
+[2023-06-09 03:11:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18432963]
+[2023-06-09 03:11:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 03:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptx
+[2023-06-09 03:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gravitas
+[2023-06-09 03:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-09 03:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azureml-rag
+[2023-06-09 03:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: muon
+[2023-06-09 03:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-curl
+[2023-06-09 03:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aemcmc-nightly
+[2023-06-09 03:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metricspace
+[2023-06-09 03:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: structure-py
+[2023-06-09 03:11:21] INFO root fetch - processPackages [metricspace]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-09 03:11:21] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230608] Old Version: [0.0.8.dev20230607]
+[2023-06-09 03:11:21] INFO root fetch - processPackages [structure-py]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-06-09 03:11:21] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-09 03:11:21] INFO root fetch - processPackages [metricspace]: Downloading https://files.pythonhosted.org/packages/22/78/a887e0a21680b30c5c80d85bf62149c1185886e00b83f114a137108f8035/metricspace-0.5.0.tar.gz
+[2023-06-09 03:11:21] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/ab/54/301df64e96dfc4a5c71842f38f38cbb5c9b1f036bedfb8ce5c29f3c78523/structure_py-0.8.4-py3-none-any.whl
+[2023-06-09 03:11:21] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/b6/93/d50e76525e92bf30f97fefb0ad4f919a036c1fa626266534a98eda390eae/aemcmc-nightly-0.0.8.dev20230607.tar.gz
+[2023-06-09 03:11:21] INFO root fetch - processPackages [promptx]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-09 03:11:21] INFO root fetch - processPackages [gravitas]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-09 03:11:21] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-09 03:11:21] INFO root fetch - processPackages [azureml-rag]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-09 03:11:21] INFO root fetch - processPackages [muon]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-09 03:11:21] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-09 03:11:21] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-09 03:11:21] INFO root fetch - processPackages [promptx]: Downloading https://files.pythonhosted.org/packages/02/b8/9a5f70f8ec5b89741721bd9377f0951980b894b4da4a69d4ac37706b5fa5/promptx-0.0.6.tar.gz
+[2023-06-09 03:11:22] INFO root fetch - processPackages [metricspace]: Downloading https://files.pythonhosted.org/packages/65/cd/d1fd628196a9788740a9b2f82c2283dd6d4df69923374254a79922b5202e/metricspace-0.6.0.tar.gz
+[2023-06-09 03:11:22] INFO root fetch - processPackages [gravitas]: Downloading https://files.pythonhosted.org/packages/92/bc/50ea3040745cb28fc9f59df80d74d223ba72bbcfb087317d6d896aecbdfd/gravitas-0.1.7.tar.gz
+[2023-06-09 03:11:22] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/24/89/7bbc38d5cbc0ffa3b9aa25c946f045395e1bf7c8c9dc642ef96724010b6c/azureml_rag-0.1.6-py3-none-any.whl
+[2023-06-09 03:11:22] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/0f/85/1ab213ff840868a019c87efcd61fa79b1973e9668cea8b8790f3d79636ed/aemcmc-nightly-0.0.8.dev20230608.tar.gz
+[2023-06-09 03:11:22] INFO root fetch - processPackages [muon]: Downloading https://files.pythonhosted.org/packages/c3/2b/837390615c37292ac96adfd79fb3c72bba1f748c1aab130cfa6869d8e7cc/muon-0.1.4.tar.gz
+[2023-06-09 03:11:22] INFO root fetch - processPackages [metricspace]: executing diffoscope
+[2023-06-09 03:11:22] INFO root fetch - processPackages [metricspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricspace-0.5.0.tar.gz tmp/metricspace-0.6.0.tar.gz --markdown 20230609/m/metricspace/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-09 03:11:22] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-09 03:11:22] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230607.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230608.tar.gz --markdown 20230609/a/aemcmc-nightly/0.0.8.dev20230607-0.0.8.dev20230608/diff.md --exclude *.pyd
+[2023-06-09 03:11:22] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-09 03:11:22] INFO root fetch - processPackages [promptx]: Downloading https://files.pythonhosted.org/packages/c5/c4/30b5610c109d1413a1a72bfb692f77014e7c94fa9dfb36c3dfba8c5866b8/promptx-0.0.7.tar.gz
+[2023-06-09 03:11:22] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/8d/92/a7d43fa14b0c037858faaa7892641504b86cbe2ab08bed3f179e912c73cc/azureml_rag-0.1.7-py3-none-any.whl
+[2023-06-09 03:11:22] INFO root fetch - processPackages [gravitas]: Downloading https://files.pythonhosted.org/packages/94/dd/d58fdb3812f62f10cec7a5b0ac3d03695b90284ae0d225aa96e9921ac6ab/gravitas-0.1.9.tar.gz
+[2023-06-09 03:11:22] INFO root fetch - processPackages [muon]: Downloading https://files.pythonhosted.org/packages/41/9f/22a0ba1b931df69fbf4d1b71f5db31bcbcde1a3be466142fe399db9a5489/muon-0.1.5.tar.gz
+[2023-06-09 03:11:22] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-09 03:11:22] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230609/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-09 03:11:22] INFO root fetch - processPackages [promptx]: executing diffoscope
+[2023-06-09 03:11:22] INFO root fetch - processPackages [promptx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptx-0.0.6.tar.gz tmp/promptx-0.0.7.tar.gz --markdown 20230609/p/promptx/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-09 03:11:22] INFO root fetch - processPackages [azureml-rag]: executing diffoscope
+[2023-06-09 03:11:22] INFO root fetch - processPackages [azureml-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_rag-0.1.6-py3-none-any.whl.zip tmp/azureml_rag-0.1.7-py3-none-any.whl.zip --markdown 20230609/a/azureml-rag/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-09 03:11:22] INFO root fetch - processPackages [gravitas]: executing diffoscope
+[2023-06-09 03:11:22] INFO root fetch - processPackages [gravitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitas-0.1.7.tar.gz tmp/gravitas-0.1.9.tar.gz --markdown 20230609/g/gravitas/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 03:11:22] INFO root fetch - processPackages [muon]: executing diffoscope
+[2023-06-09 03:11:22] INFO root fetch - processPackages [muon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muon-0.1.4.tar.gz tmp/muon-0.1.5.tar.gz --markdown 20230609/m/muon/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-09 03:11:22] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/a3/6e/98234b66c3ce7d92f6b957ee2fd5b07749190eed5bd99f47651d736e0bc7/structure_py-0.9.0.tar.gz
+[2023-06-09 03:11:22] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-09 03:11:22] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-06-09 03:11:22] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.8.4-py3-none-any.whl.zip tmp/structure_py-0.9.0.tar.gz --markdown 20230609/s/structure-py/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 03:11:23] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-09 03:11:23] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230609/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-09 03:11:23] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230607.tar.gz]
+[2023-06-09 03:11:23] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230608.tar.gz]
+[2023-06-09 03:11:23] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-09 03:11:23] INFO root fetch - processPackages [metricspace]: Remove: archive file [/home/abi/fetcher/tmp/metricspace-0.5.0.tar.gz]
+[2023-06-09 03:11:23] INFO root fetch - processPackages [metricspace]: Remove: archive file [/home/abi/fetcher/tmp/metricspace-0.6.0.tar.gz]
+[2023-06-09 03:11:23] INFO root fetch - main [MainThread]: End processing [metricspace]: success
+[2023-06-09 03:11:23] INFO root fetch - processPackages [promptx]: Remove: archive file [/home/abi/fetcher/tmp/promptx-0.0.6.tar.gz]
+[2023-06-09 03:11:23] INFO root fetch - processPackages [promptx]: Remove: archive file [/home/abi/fetcher/tmp/promptx-0.0.7.tar.gz]
+[2023-06-09 03:11:23] INFO root fetch - main [MainThread]: End processing [promptx]: success
+[2023-06-09 03:11:23] INFO root fetch - processPackages [structure-py]: Remove: archive file [/home/abi/fetcher/tmp/structure_py-0.8.4-py3-none-any.whl.zip]
+[2023-06-09 03:11:23] INFO root fetch - processPackages [structure-py]: Remove: archive file [/home/abi/fetcher/tmp/structure_py-0.9.0.tar.gz]
+[2023-06-09 03:11:23] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-06-09 03:11:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-09 03:11:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-09 03:11:24] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-09 03:11:24] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.1.6-py3-none-any.whl.zip]
+[2023-06-09 03:11:24] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.1.7-py3-none-any.whl.zip]
+[2023-06-09 03:11:24] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
+[2023-06-09 03:11:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-09 03:11:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-09 03:11:24] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-09 03:11:25] INFO root fetch - processPackages [gravitas]: Remove: archive file [/home/abi/fetcher/tmp/gravitas-0.1.7.tar.gz]
+[2023-06-09 03:11:25] INFO root fetch - processPackages [gravitas]: Remove: archive file [/home/abi/fetcher/tmp/gravitas-0.1.9.tar.gz]
+[2023-06-09 03:11:25] INFO root fetch - main [MainThread]: End processing [gravitas]: success
+[2023-06-09 03:11:27] INFO root fetch - processPackages [muon]: Remove: archive file [/home/abi/fetcher/tmp/muon-0.1.4.tar.gz]
+[2023-06-09 03:11:27] INFO root fetch - processPackages [muon]: Remove: archive file [/home/abi/fetcher/tmp/muon-0.1.5.tar.gz]
+[2023-06-09 03:11:27] INFO root fetch - main [MainThread]: End processing [muon]: success
+[2023-06-09 03:11:27] INFO root fetch - main [MainThread]: Store serial: [18433002]
