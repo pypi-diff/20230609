@@ -13958,3 +13958,54 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 06:48:46] INFO root fetch - processPackages [ionicons-python]: Remove: archive file [/home/abi/fetcher/tmp/ionicons_python-1.0.1.tar.gz]
 [2023-06-09 06:48:46] INFO root fetch - main [MainThread]: End processing [ionicons-python]: success
 [2023-06-09 06:48:46] INFO root fetch - main [MainThread]: Store serial: [18436433]
+[2023-06-09 06:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436433]
+[2023-06-09 06:53:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-09 06:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-eipanycast
+[2023-06-09 06:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipeline-feature
+[2023-06-09 06:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrchive
+[2023-06-09 06:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo9-addon-report-wkhtmltopdf-param
+[2023-06-09 06:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: covalent
+[2023-06-09 06:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyatv
+[2023-06-09 06:53:55] INFO root fetch - processPackages [covalent]: New version: [0.224.0rc0] Old Version: [0.223.1rc0]
+[2023-06-09 06:53:55] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 06:53:55] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-09 06:53:55] WARNING root fetch - processPackages [pyrchive]: Skipping, unable to determine old version
+[2023-06-09 06:53:55] INFO root fetch - main [MainThread]: End processing [pyrchive] error
+[2023-06-09 06:53:55] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-09 06:53:55] INFO root fetch - processPackages [odoo9-addon-report-wkhtmltopdf-param]: New version: [9.0.1.0.0.99.dev8] Old Version: [9.0.1.0.0.99.dev7]
+[2023-06-09 06:53:55] INFO root fetch - processPackages [pyatv]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-09 06:53:55] INFO root fetch - processPackages [covalent]: Downloading https://files.pythonhosted.org/packages/53/03/6ee03dcd1af0cbc3e3075a899f3a28491123bb4920d2f479ea51dc18562c/covalent-0.223.1rc0.tar.gz
+[2023-06-09 06:53:55] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: Downloading https://files.pythonhosted.org/packages/b7/59/ae845943ab8c2d54c59ddab21dbafc30dcb0e9e8a140bb4d1565fc2c4319/aliyun-python-sdk-eipanycast-1.0.3.tar.gz
+[2023-06-09 06:53:55] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-09 06:53:55] INFO root fetch - processPackages [odoo9-addon-report-wkhtmltopdf-param]: Downloading https://files.pythonhosted.org/packages/df/3f/f34338608216915a512bb0aded50ed5280839a8692919c95ede80e5780e4/odoo9_addon_report_wkhtmltopdf_param-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-09 06:53:56] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-09 06:53:56] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230609/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 06:53:56] INFO root fetch - processPackages [pyatv]: Downloading https://files.pythonhosted.org/packages/f7/fc/d232f4317a5767ece7839d0aa2bd1f067b35c1f55a9ad7c3d5ea7dabd022/pyatv-0.9.7.tar.gz
+[2023-06-09 06:53:56] INFO root fetch - processPackages [covalent]: Downloading https://files.pythonhosted.org/packages/f7/41/628697e765b132deca8ca46f9cc4a1c4db4d9894ad4653011206a2260488/covalent-0.224.0rc0.tar.gz
+[2023-06-09 06:53:56] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: Downloading https://files.pythonhosted.org/packages/f5/cd/b7750931a848a560a11f00a9fb9101e79687d1af223d90f92cb949ad9983/aliyun-python-sdk-eipanycast-1.0.4.tar.gz
+[2023-06-09 06:53:56] INFO root fetch - processPackages [odoo9-addon-report-wkhtmltopdf-param]: Downloading https://files.pythonhosted.org/packages/1e/6e/55a35291487a438d373644faea359e7f25ce390befbf2e975fdef607be17/odoo9_addon_report_wkhtmltopdf_param-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-09 06:53:56] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: executing diffoscope
+[2023-06-09 06:53:56] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-eipanycast-1.0.3.tar.gz tmp/aliyun-python-sdk-eipanycast-1.0.4.tar.gz --markdown 20230609/a/aliyun-python-sdk-eipanycast/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-09 06:53:56] INFO root fetch - processPackages [odoo9-addon-report-wkhtmltopdf-param]: executing diffoscope
+[2023-06-09 06:53:56] INFO root fetch - processPackages [odoo9-addon-report-wkhtmltopdf-param]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_report_wkhtmltopdf_param-9.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_report_wkhtmltopdf_param-9.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-report-wkhtmltopdf-param/9.0.1.0.0.99.dev7-9.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-09 06:53:56] INFO root fetch - processPackages [covalent]: executing diffoscope
+[2023-06-09 06:53:56] INFO root fetch - processPackages [covalent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-0.223.1rc0.tar.gz tmp/covalent-0.224.0rc0.tar.gz --markdown 20230609/c/covalent/0.223.1rc0-0.224.0rc0/diff.md --exclude *.pyd
+[2023-06-09 06:53:56] INFO root fetch - processPackages [pyatv]: Downloading https://files.pythonhosted.org/packages/63/c8/992890d7deb53136f27bf96d788bf2b4b45c7af07e93e7d07fa88114a155/pyatv-0.9.8.tar.gz
+[2023-06-09 06:53:56] INFO root fetch - processPackages [pyatv]: executing diffoscope
+[2023-06-09 06:53:56] INFO root fetch - processPackages [pyatv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatv-0.9.7.tar.gz tmp/pyatv-0.9.8.tar.gz --markdown 20230609/p/pyatv/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-09 06:53:57] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-09 06:53:57] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-09 06:53:57] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-09 06:53:57] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eipanycast-1.0.3.tar.gz]
+[2023-06-09 06:53:57] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eipanycast-1.0.4.tar.gz]
+[2023-06-09 06:53:57] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-eipanycast]: success
+[2023-06-09 06:53:57] INFO root fetch - processPackages [odoo9-addon-report-wkhtmltopdf-param]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_report_wkhtmltopdf_param-9.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-09 06:53:57] INFO root fetch - processPackages [odoo9-addon-report-wkhtmltopdf-param]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_report_wkhtmltopdf_param-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 06:53:57] INFO root fetch - main [MainThread]: End processing [odoo9-addon-report-wkhtmltopdf-param]: success
+[2023-06-09 06:54:02] INFO root fetch - processPackages [pyatv]: Remove: archive file [/home/abi/fetcher/tmp/pyatv-0.9.7.tar.gz]
+[2023-06-09 06:54:02] INFO root fetch - processPackages [pyatv]: Remove: archive file [/home/abi/fetcher/tmp/pyatv-0.9.8.tar.gz]
+[2023-06-09 06:54:02] INFO root fetch - main [MainThread]: End processing [pyatv]: success
+[2023-06-09 06:54:37] INFO root fetch - processPackages [covalent]: Remove: archive file [/home/abi/fetcher/tmp/covalent-0.223.1rc0.tar.gz]
+[2023-06-09 06:54:37] INFO root fetch - processPackages [covalent]: Remove: archive file [/home/abi/fetcher/tmp/covalent-0.224.0rc0.tar.gz]
+[2023-06-09 06:54:37] INFO root fetch - main [MainThread]: End processing [covalent]: success
+[2023-06-09 06:54:37] INFO root fetch - main [MainThread]: Store serial: [18436454]
