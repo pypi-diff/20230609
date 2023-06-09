@@ -18496,3 +18496,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 10:06:59] INFO root fetch - processPackages [gpaw]: Remove: archive file [/home/abi/fetcher/tmp/gpaw-23.6.0.tar.gz]
 [2023-06-09 10:06:59] INFO root fetch - main [MainThread]: End processing [gpaw]: success
 [2023-06-09 10:06:59] INFO root fetch - main [MainThread]: Store serial: [18438120]
+[2023-06-09 10:12:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438120]
+[2023-06-09 10:12:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 10:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2023-06-09 10:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tengu-py
+[2023-06-09 10:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tkmatrix
+[2023-06-09 10:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: succulent
+[2023-06-09 10:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xiaowupkg
+[2023-06-09 10:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: heygptcli
+[2023-06-09 10:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tigerblog
+[2023-06-09 10:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: roadrecon
+[2023-06-09 10:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipeline-feature
+[2023-06-09 10:12:09] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 10:12:09] INFO root fetch - processPackages [tengu-py]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-09 10:12:09] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-09 10:12:09] INFO root fetch - processPackages [tkmatrix]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-09 10:12:09] INFO root fetch - processPackages [xiaowupkg]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-09 10:12:09] INFO root fetch - processPackages [tigerblog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 10:12:09] WARNING root fetch - processPackages [heygptcli]: Skipping, unable to determine old version
+[2023-06-09 10:12:09] INFO root fetch - processPackages [succulent]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-09 10:12:09] INFO root fetch - processPackages [roadrecon]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-09 10:12:09] INFO root fetch - main [MainThread]: End processing [heygptcli] error
+[2023-06-09 10:12:09] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230609] Old Version: [0.3.1.dev20230608]
+[2023-06-09 10:12:09] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/d5/99/fd77fe29751d7ad30c59c46bc41bd3537b82491d52e960220f9a9bc041ab/tengu_py-0.3.0.tar.gz
+[2023-06-09 10:12:09] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-09 10:12:09] INFO root fetch - processPackages [xiaowupkg]: Downloading https://files.pythonhosted.org/packages/ed/a2/d6575f94ff945b762c2638c17d4043dfb2f24e30bf0725c19e0e5f04a7b8/xiaowupkg-1.0.3.tar.gz
+[2023-06-09 10:12:09] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/b6/1f/99d7e75f9b78c86b5f90c83a64054f3b34b5ed82c7a78bf51fd86095cdba/tigerblog-0.1.8.tar.gz
+[2023-06-09 10:12:09] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-09 10:12:09] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230609/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 10:12:09] INFO root fetch - processPackages [tkmatrix]: Downloading https://files.pythonhosted.org/packages/03/6a/39d9770bf6225582b688c3b8d9638a8e42a2bc94b8d3e24a63f56a2b4b5a/tkmatrix-0.6.3.tar.gz
+[2023-06-09 10:12:09] INFO root fetch - processPackages [roadrecon]: Downloading https://files.pythonhosted.org/packages/9c/51/f190ecc6bc8c754685fdf08ea1a88f3c5b754d701e18ebef5a0a27ba53cb/roadrecon-1.1.0.tar.gz
+[2023-06-09 10:12:09] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/84/15/bccc37b7dde0ad8f5ce7496be5ae33edc20721c8d9fc459825d8c07b8595/pyglove-0.3.1.dev20230608.tar.gz
+[2023-06-09 10:12:09] INFO root fetch - processPackages [succulent]: Downloading https://files.pythonhosted.org/packages/9d/35/bd395e02e93c1254b02d4a3948803073e1a27cebc8a23555a4a469220746/succulent-0.2.2.tar.gz
+[2023-06-09 10:12:09] INFO root fetch - processPackages [xiaowupkg]: Downloading https://files.pythonhosted.org/packages/60/49/4b61a2490665efae86ea646f0c6e3fec5cbf46f8991f652f48918ec68ead/xiaowupkg-1.0.4.tar.gz
+[2023-06-09 10:12:10] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/40/57/5287427f5ef4f46500b5528f0068c495d2ff3cc9e012a63b3d2b0b903ff5/tengu_py-0.4.0.tar.gz
+[2023-06-09 10:12:10] INFO root fetch - processPackages [succulent]: Downloading https://files.pythonhosted.org/packages/80/e2/dd45045f06980507a3b2449de51b4c6742b328dff00de25c5d9d3d374ba7/succulent-0.2.3.tar.gz
+[2023-06-09 10:12:10] INFO root fetch - processPackages [xiaowupkg]: executing diffoscope
+[2023-06-09 10:12:10] INFO root fetch - processPackages [xiaowupkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaowupkg-1.0.3.tar.gz tmp/xiaowupkg-1.0.4.tar.gz --markdown 20230609/x/xiaowupkg/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-09 10:12:10] INFO root fetch - processPackages [tkmatrix]: Downloading https://files.pythonhosted.org/packages/f3/fd/f751712dccdb2fc4c4198f93def817cf38559775244f6a35b27b0136388f/tkmatrix-0.6.4.tar.gz
+[2023-06-09 10:12:10] INFO root fetch - processPackages [roadrecon]: Downloading https://files.pythonhosted.org/packages/ba/04/600ccfeef3e98b94374e2d12700e5cd1c2a44b3a6e668a3b8c9eb296d0f9/roadrecon-1.1.1.tar.gz
+[2023-06-09 10:12:10] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/29/be/9fc3abbbf0ed909cae65992ba178521756da0d12fca50f6470c82a898002/pyglove-0.3.1.dev20230609.tar.gz
+[2023-06-09 10:12:10] INFO root fetch - processPackages [tengu-py]: executing diffoscope
+[2023-06-09 10:12:10] INFO root fetch - processPackages [tengu-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tengu_py-0.3.0.tar.gz tmp/tengu_py-0.4.0.tar.gz --markdown 20230609/t/tengu-py/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-09 10:12:10] INFO root fetch - processPackages [succulent]: executing diffoscope
+[2023-06-09 10:12:10] INFO root fetch - processPackages [succulent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/succulent-0.2.2.tar.gz tmp/succulent-0.2.3.tar.gz --markdown 20230609/s/succulent/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-09 10:12:10] INFO root fetch - processPackages [tkmatrix]: executing diffoscope
+[2023-06-09 10:12:10] INFO root fetch - processPackages [tkmatrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkmatrix-0.6.3.tar.gz tmp/tkmatrix-0.6.4.tar.gz --markdown 20230609/t/tkmatrix/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-09 10:12:10] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-09 10:12:10] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230608.tar.gz tmp/pyglove-0.3.1.dev20230609.tar.gz --markdown 20230609/p/pyglove/0.3.1.dev20230608-0.3.1.dev20230609/diff.md --exclude *.pyd
+[2023-06-09 10:12:10] INFO root fetch - processPackages [roadrecon]: executing diffoscope
+[2023-06-09 10:12:10] INFO root fetch - processPackages [roadrecon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roadrecon-1.1.0.tar.gz tmp/roadrecon-1.1.1.tar.gz --markdown 20230609/r/roadrecon/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-09 10:12:10] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/23/0f/6a0fec4b0cafdb4c1a9f42e93a456ba31cc0b1f03240d001db6df1ee282d/tigerblog-0.1.9.tar.gz
+[2023-06-09 10:12:10] INFO root fetch - processPackages [tigerblog]: executing diffoscope
+[2023-06-09 10:12:10] INFO root fetch - processPackages [tigerblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigerblog-0.1.8.tar.gz tmp/tigerblog-0.1.9.tar.gz --markdown 20230609/t/tigerblog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 10:12:11] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-09 10:12:11] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-09 10:12:11] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-09 10:12:11] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.3.0.tar.gz]
+[2023-06-09 10:12:11] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.4.0.tar.gz]
+[2023-06-09 10:12:11] INFO root fetch - main [MainThread]: End processing [tengu-py]: success
+[2023-06-09 10:12:11] INFO root fetch - processPackages [xiaowupkg]: Remove: archive file [/home/abi/fetcher/tmp/xiaowupkg-1.0.3.tar.gz]
+[2023-06-09 10:12:11] INFO root fetch - processPackages [xiaowupkg]: Remove: archive file [/home/abi/fetcher/tmp/xiaowupkg-1.0.4.tar.gz]
+[2023-06-09 10:12:11] INFO root fetch - main [MainThread]: End processing [xiaowupkg]: success
+[2023-06-09 10:12:11] INFO root fetch - processPackages [succulent]: Remove: archive file [/home/abi/fetcher/tmp/succulent-0.2.2.tar.gz]
+[2023-06-09 10:12:11] INFO root fetch - processPackages [succulent]: Remove: archive file [/home/abi/fetcher/tmp/succulent-0.2.3.tar.gz]
+[2023-06-09 10:12:11] INFO root fetch - main [MainThread]: End processing [succulent]: success
+[2023-06-09 10:12:11] INFO root fetch - processPackages [tkmatrix]: Remove: archive file [/home/abi/fetcher/tmp/tkmatrix-0.6.3.tar.gz]
+[2023-06-09 10:12:11] INFO root fetch - processPackages [tkmatrix]: Remove: archive file [/home/abi/fetcher/tmp/tkmatrix-0.6.4.tar.gz]
+[2023-06-09 10:12:11] INFO root fetch - main [MainThread]: End processing [tkmatrix]: success
+[2023-06-09 10:12:12] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.8.tar.gz]
+[2023-06-09 10:12:12] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.9.tar.gz]
+[2023-06-09 10:12:12] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
+[2023-06-09 10:12:12] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230608.tar.gz]
+[2023-06-09 10:12:12] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230609.tar.gz]
+[2023-06-09 10:12:12] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-09 10:12:22] INFO root fetch - processPackages [roadrecon]: Remove: archive file [/home/abi/fetcher/tmp/roadrecon-1.1.0.tar.gz]
+[2023-06-09 10:12:22] INFO root fetch - processPackages [roadrecon]: Remove: archive file [/home/abi/fetcher/tmp/roadrecon-1.1.1.tar.gz]
+[2023-06-09 10:12:22] INFO root fetch - main [MainThread]: End processing [roadrecon]: success
+[2023-06-09 10:12:22] INFO root fetch - main [MainThread]: Store serial: [18438148]
