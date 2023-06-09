@@ -21181,3 +21181,78 @@ AssertionError: tmp/satellitevu-1.5.0.tar.gz does not exist
 [2023-06-09 12:06:09] INFO root fetch - processPackages [hello_jupyter_proxy]: Remove: archive file [/home/abi/fetcher/tmp/hello_jupyter_proxy-0.2.tar.gz]
 [2023-06-09 12:06:09] INFO root fetch - main [MainThread]: End processing [hello_jupyter_proxy]: success
 [2023-06-09 12:06:09] INFO root fetch - main [MainThread]: Store serial: [18439201]
+[2023-06-09 12:11:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18439201]
+[2023-06-09 12:11:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-09 12:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trackplot
+[2023-06-09 12:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cerebrium
+[2023-06-09 12:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybsn
+[2023-06-09 12:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: renumics-spotlight
+[2023-06-09 12:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: backstage
+[2023-06-09 12:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dm-reverb-nightly
+[2023-06-09 12:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seaplane
+[2023-06-09 12:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: helixd
+[2023-06-09 12:11:19] INFO root fetch - processPackages [trackplot]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-09 12:11:19] INFO root fetch - processPackages [renumics-spotlight]: New version: [1.2.0rc1] Old Version: [1.1.0]
+[2023-06-09 12:11:19] INFO root fetch - processPackages [backstage]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 12:11:19] INFO root fetch - processPackages [cerebrium]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-09 12:11:19] INFO root fetch - processPackages [pybsn]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-09 12:11:19] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-09 12:11:19] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-09 12:11:19] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/5c/bf/c727f8b41d02fabf88a36ba2f8399e4b8be9053be1d8d932f915433d4dbb/cerebrium-1.0.5.tar.gz
+[2023-06-09 12:11:19] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-09 12:11:20] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-09 12:11:20] INFO root fetch - processPackages [helixd]: New version: [0.14.0] Old Version: [0.13.0]
+[2023-06-09 12:11:20] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/1b/8d/6e2c4264d4cc5432dd9aced883d37b553636836d1f3bd1b5eb8edec8db13/trackplot-0.2.4.tar.gz
+[2023-06-09 12:11:20] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/15/aa/c2030e47b13830c72db89c102aa6622e744cdbb26aee9cd7ee0617a25303/renumics_spotlight-1.1.0-py3-none-any.whl
+[2023-06-09 12:11:20] INFO root fetch - processPackages [backstage]: Downloading https://files.pythonhosted.org/packages/46/5d/5892046e23f640e348238c5129326965d499b7c3c8bfbec903f8c3b331e8/backstage-0.0.8.tar.gz
+[2023-06-09 12:11:20] INFO root fetch - processPackages [pybsn]: Downloading https://files.pythonhosted.org/packages/b4/04/a2868cc91dc800322eb3dae90f373bd154f63e5c94d065e3a0e24f25ddea/pybsn-0.3.3.tar.gz
+[2023-06-09 12:11:20] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-09 12:11:20] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-09 12:11:20] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230609/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-09 12:11:20] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/82/ab/a7675433eb8a3bf0ac45fc92d322a512ddd9076cc30122384337d1e84bb7/cerebrium-1.0.6.tar.gz
+[2023-06-09 12:11:20] INFO root fetch - processPackages [helixd]: Downloading https://files.pythonhosted.org/packages/c2/bc/54ea7e693865e94730fb1c43355bad1c42615eb99175543a5288256f7308/helixd-0.13.0.tar.gz
+[2023-06-09 12:11:20] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-06-09 12:11:20] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-1.0.5.tar.gz tmp/cerebrium-1.0.6.tar.gz --markdown 20230609/c/cerebrium/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-09 12:11:20] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/c1/d9/3b5f1e88c0561972c7cd0dde4502aedf3ae7c4301f26b2e79d796defcc27/trackplot-0.2.5.tar.gz
+[2023-06-09 12:11:20] INFO root fetch - processPackages [pybsn]: Downloading https://files.pythonhosted.org/packages/23/c7/979e7027d9105a2eccba316bc518b6fb21e7d4919b2e0013899e21c83251/pybsn-0.4.0.tar.gz
+[2023-06-09 12:11:20] INFO root fetch - processPackages [trackplot]: executing diffoscope
+[2023-06-09 12:11:20] INFO root fetch - processPackages [trackplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackplot-0.2.4.tar.gz tmp/trackplot-0.2.5.tar.gz --markdown 20230609/t/trackplot/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-09 12:11:20] INFO root fetch - processPackages [backstage]: Downloading https://files.pythonhosted.org/packages/4e/31/5ab40768abd1c5a1f694502051e93804d144dc3ff089bb6fdfcac8b04c6b/backstage-0.0.9.tar.gz
+[2023-06-09 12:11:20] INFO root fetch - processPackages [pybsn]: executing diffoscope
+[2023-06-09 12:11:20] INFO root fetch - processPackages [pybsn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybsn-0.3.3.tar.gz tmp/pybsn-0.4.0.tar.gz --markdown 20230609/p/pybsn/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-09 12:11:20] INFO root fetch - processPackages [helixd]: Downloading https://files.pythonhosted.org/packages/b8/e9/b092952fc2abda1f1a024a27944ce99d2f8f7d2f84ad4d3a7841b7132a13/helixd-0.14.0.tar.gz
+[2023-06-09 12:11:20] INFO root fetch - processPackages [backstage]: executing diffoscope
+[2023-06-09 12:11:20] INFO root fetch - processPackages [backstage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backstage-0.0.8.tar.gz tmp/backstage-0.0.9.tar.gz --markdown 20230609/b/backstage/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:11:20] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/71/4f/5af83f421c4a89ff8a0c2336b4ba93f250282f7b418acfa8caea3fd5e0ba/renumics_spotlight-1.2.0rc1-py3-none-any.whl
+[2023-06-09 12:11:20] INFO root fetch - processPackages [helixd]: executing diffoscope
+[2023-06-09 12:11:20] INFO root fetch - processPackages [helixd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helixd-0.13.0.tar.gz tmp/helixd-0.14.0.tar.gz --markdown 20230609/h/helixd/0.13.0-0.14.0/diff.md --exclude *.pyd
+[2023-06-09 12:11:20] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-09 12:11:21] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-09 12:11:21] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230609/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-09 12:11:21] INFO root fetch - processPackages [renumics-spotlight]: executing diffoscope
+[2023-06-09 12:11:21] INFO root fetch - processPackages [renumics-spotlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renumics_spotlight-1.1.0-py3-none-any.whl.zip tmp/renumics_spotlight-1.2.0rc1-py3-none-any.whl.zip --markdown 20230609/r/renumics-spotlight/1.1.0-1.2.0rc1/diff.md --exclude *.pyd
+[2023-06-09 12:11:21] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-09 12:11:21] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-09 12:11:21] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-09 12:11:21] INFO root fetch - processPackages [pybsn]: Remove: archive file [/home/abi/fetcher/tmp/pybsn-0.3.3.tar.gz]
+[2023-06-09 12:11:21] INFO root fetch - processPackages [pybsn]: Remove: archive file [/home/abi/fetcher/tmp/pybsn-0.4.0.tar.gz]
+[2023-06-09 12:11:21] INFO root fetch - main [MainThread]: End processing [pybsn]: success
+[2023-06-09 12:11:21] INFO root fetch - processPackages [trackplot]: Remove: archive file [/home/abi/fetcher/tmp/trackplot-0.2.4.tar.gz]
+[2023-06-09 12:11:21] INFO root fetch - processPackages [trackplot]: Remove: archive file [/home/abi/fetcher/tmp/trackplot-0.2.5.tar.gz]
+[2023-06-09 12:11:21] INFO root fetch - main [MainThread]: End processing [trackplot]: success
+[2023-06-09 12:11:22] INFO root fetch - processPackages [cerebrium]: Remove: archive file [/home/abi/fetcher/tmp/cerebrium-1.0.5.tar.gz]
+[2023-06-09 12:11:22] INFO root fetch - processPackages [cerebrium]: Remove: archive file [/home/abi/fetcher/tmp/cerebrium-1.0.6.tar.gz]
+[2023-06-09 12:11:22] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-06-09 12:11:22] INFO root fetch - processPackages [backstage]: Remove: archive file [/home/abi/fetcher/tmp/backstage-0.0.8.tar.gz]
+[2023-06-09 12:11:22] INFO root fetch - processPackages [backstage]: Remove: archive file [/home/abi/fetcher/tmp/backstage-0.0.9.tar.gz]
+[2023-06-09 12:11:22] INFO root fetch - main [MainThread]: End processing [backstage]: success
+[2023-06-09 12:11:22] INFO root fetch - processPackages [helixd]: Remove: archive file [/home/abi/fetcher/tmp/helixd-0.13.0.tar.gz]
+[2023-06-09 12:11:22] INFO root fetch - processPackages [helixd]: Remove: archive file [/home/abi/fetcher/tmp/helixd-0.14.0.tar.gz]
+[2023-06-09 12:11:22] INFO root fetch - main [MainThread]: End processing [helixd]: success
+[2023-06-09 12:11:56] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.1.0-py3-none-any.whl.zip]
+[2023-06-09 12:11:56] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.2.0rc1-py3-none-any.whl.zip]
+[2023-06-09 12:11:56] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
+[2023-06-09 12:12:14] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-09 12:12:14] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-09 12:12:14] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-09 12:12:14] INFO root fetch - main [MainThread]: Store serial: [18439226]
