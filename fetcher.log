@@ -17297,3 +17297,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 09:00:16] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-1.5.0a1686292403.tar.gz]
 [2023-06-09 09:00:16] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
 [2023-06-09 09:00:16] INFO root fetch - main [MainThread]: Store serial: [18437569]
+[2023-06-09 09:05:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437569]
+[2023-06-09 09:05:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-09 09:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cythonbuilder
+[2023-06-09 09:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipen-board
+[2023-06-09 09:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: extract-office-content
+[2023-06-09 09:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pisoundtrack
+[2023-06-09 09:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: UzEduCorpus
+[2023-06-09 09:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqio-nightly
+[2023-06-09 09:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yplib
+[2023-06-09 09:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-check
+[2023-06-09 09:05:25] INFO root fetch - processPackages [cythonbuilder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 09:05:25] WARNING root fetch - processPackages [extract-office-content]: Skipping, unable to determine old version
+[2023-06-09 09:05:25] INFO root fetch - main [MainThread]: End processing [extract-office-content] error
+[2023-06-09 09:05:25] INFO root fetch - processPackages [pisoundtrack]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-09 09:05:25] INFO root fetch - processPackages [pipen-board]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-09 09:05:25] INFO root fetch - processPackages [data-check]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-09 09:05:25] INFO root fetch - processPackages [yplib]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-09 09:05:25] INFO root fetch - processPackages [UzEduCorpus]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-09 09:05:25] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/3b/50/5ad8e23a82bf1662871ddd0dd66c084d36ec0ca97251817155fe674fe09a/yplib-0.1.7.tar.gz
+[2023-06-09 09:05:25] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-09 09:05:25] INFO root fetch - processPackages [cythonbuilder]: Downloading https://files.pythonhosted.org/packages/40/54/48d93eaf1cef7df3a34d4265dfe8876f9796b93ae82f1bd947ef05439b05/cythonbuilder-0.1.8.tar.gz
+[2023-06-09 09:05:25] INFO root fetch - processPackages [pisoundtrack]: Downloading https://files.pythonhosted.org/packages/c0/fe/f8f7cbcd3db6c11f6aee83d1917a437223ea829fe6660f2008e6077e0631/pisoundtrack-0.2.4.tar.gz
+[2023-06-09 09:05:25] INFO root fetch - processPackages [UzEduCorpus]: Downloading https://files.pythonhosted.org/packages/33/d7/96dad48e33872f92c87088d6adf8b4999260855adbc748b84b78d0d012d0/UzEduCorpus-0.0.2.tar.gz
+[2023-06-09 09:05:25] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-09 09:05:25] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/bc/ae/5b164548cf361f21bb5f9de6b83455e298178cc1d8b823b71e792a1e3cf1/pipen_board-0.4.0.tar.gz
+[2023-06-09 09:05:25] INFO root fetch - processPackages [data-check]: Downloading https://files.pythonhosted.org/packages/b0/70/a385e9902603c77eccae72fc2f9ec61df682afd0860d07f12acfcd8d9ab7/data_check-0.8.0.tar.gz
+[2023-06-09 09:05:26] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/55/17/0487df4bacb51108389eb3e8bc4cfd08e8fb7f421ebf3e3fb1295ce5a9a8/yplib-0.1.8.tar.gz
+[2023-06-09 09:05:26] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-09 09:05:26] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-09 09:05:26] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.1.7.tar.gz tmp/yplib-0.1.8.tar.gz --markdown 20230609/y/yplib/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-09 09:05:26] INFO root fetch - processPackages [pisoundtrack]: Downloading https://files.pythonhosted.org/packages/aa/b1/27af55a7ab2ef0824aab0fc2dc710cbfa78cf4deff67aeb0db595d0378e0/pisoundtrack-0.2.5.tar.gz
+[2023-06-09 09:05:26] INFO root fetch - processPackages [UzEduCorpus]: Downloading https://files.pythonhosted.org/packages/58/20/2688afff6aaa7c6ddd7b4441c11427df04965846c745e37dba6d04564dfa/UzEduCorpus-0.0.3.tar.gz
+[2023-06-09 09:05:26] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-09 09:05:26] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230609/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-09 09:05:26] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/23/32/7c4aca5043949637226aa5461bb2dd4defb71c6be3c8ca5640eedda29a09/pipen_board-0.5.0.tar.gz
+[2023-06-09 09:05:26] INFO root fetch - processPackages [pisoundtrack]: executing diffoscope
+[2023-06-09 09:05:26] INFO root fetch - processPackages [pisoundtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisoundtrack-0.2.4.tar.gz tmp/pisoundtrack-0.2.5.tar.gz --markdown 20230609/p/pisoundtrack/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-09 09:05:26] INFO root fetch - processPackages [data-check]: Downloading https://files.pythonhosted.org/packages/fa/08/6401cbfedf9b0b1bf273ff4a2de0ae683a93d45473ac6fcaee3aad703ef8/data_check-0.9.0.tar.gz
+[2023-06-09 09:05:26] INFO root fetch - processPackages [cythonbuilder]: Downloading https://files.pythonhosted.org/packages/2c/9e/d799cbbb9ce6912aa83db8f57805ea54b9b7f742728c0b31a222c5f9fd07/cythonbuilder-0.1.9.tar.gz
+[2023-06-09 09:05:26] INFO root fetch - processPackages [UzEduCorpus]: executing diffoscope
+[2023-06-09 09:05:26] INFO root fetch - processPackages [UzEduCorpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UzEduCorpus-0.0.2.tar.gz tmp/UzEduCorpus-0.0.3.tar.gz --markdown 20230609/U/UzEduCorpus/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-09 09:05:26] INFO root fetch - processPackages [data-check]: executing diffoscope
+[2023-06-09 09:05:26] INFO root fetch - processPackages [data-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_check-0.8.0.tar.gz tmp/data_check-0.9.0.tar.gz --markdown 20230609/d/data-check/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 09:05:26] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-06-09 09:05:26] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.4.0.tar.gz tmp/pipen_board-0.5.0.tar.gz --markdown 20230609/p/pipen-board/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-09 09:05:26] INFO root fetch - processPackages [cythonbuilder]: executing diffoscope
+[2023-06-09 09:05:26] INFO root fetch - processPackages [cythonbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythonbuilder-0.1.8.tar.gz tmp/cythonbuilder-0.1.9.tar.gz --markdown 20230609/c/cythonbuilder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 09:05:27] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.1.7.tar.gz]
+[2023-06-09 09:05:27] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.1.8.tar.gz]
+[2023-06-09 09:05:27] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-09 09:05:27] INFO root fetch - processPackages [pisoundtrack]: Remove: archive file [/home/abi/fetcher/tmp/pisoundtrack-0.2.4.tar.gz]
+[2023-06-09 09:05:27] INFO root fetch - processPackages [pisoundtrack]: Remove: archive file [/home/abi/fetcher/tmp/pisoundtrack-0.2.5.tar.gz]
+[2023-06-09 09:05:27] INFO root fetch - main [MainThread]: End processing [pisoundtrack]: success
+[2023-06-09 09:05:27] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.4.0.tar.gz]
+[2023-06-09 09:05:27] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.5.0.tar.gz]
+[2023-06-09 09:05:27] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-06-09 09:05:27] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-09 09:05:27] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-09 09:05:27] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-09 09:05:27] INFO root fetch - processPackages [UzEduCorpus]: Remove: archive file [/home/abi/fetcher/tmp/UzEduCorpus-0.0.2.tar.gz]
+[2023-06-09 09:05:27] INFO root fetch - processPackages [UzEduCorpus]: Remove: archive file [/home/abi/fetcher/tmp/UzEduCorpus-0.0.3.tar.gz]
+[2023-06-09 09:05:27] INFO root fetch - main [MainThread]: End processing [UzEduCorpus]: success
+[2023-06-09 09:05:27] INFO root fetch - processPackages [cythonbuilder]: Remove: archive file [/home/abi/fetcher/tmp/cythonbuilder-0.1.8.tar.gz]
+[2023-06-09 09:05:27] INFO root fetch - processPackages [cythonbuilder]: Remove: archive file [/home/abi/fetcher/tmp/cythonbuilder-0.1.9.tar.gz]
+[2023-06-09 09:05:27] INFO root fetch - main [MainThread]: End processing [cythonbuilder]: success
+[2023-06-09 09:05:28] INFO root fetch - processPackages [data-check]: Remove: archive file [/home/abi/fetcher/tmp/data_check-0.8.0.tar.gz]
+[2023-06-09 09:05:28] INFO root fetch - processPackages [data-check]: Remove: archive file [/home/abi/fetcher/tmp/data_check-0.9.0.tar.gz]
+[2023-06-09 09:05:28] INFO root fetch - main [MainThread]: End processing [data-check]: success
+[2023-06-09 09:05:28] INFO root fetch - main [MainThread]: Store serial: [18437604]
