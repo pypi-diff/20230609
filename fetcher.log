@@ -17802,3 +17802,105 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 09:27:34] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-09 09:27:34] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-09 09:27:34] INFO root fetch - main [MainThread]: Store serial: [18437788]
+[2023-06-09 09:32:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437788]
+[2023-06-09 09:32:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: callmebot
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fast-captcha
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-Ayiin
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ango
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th2-grpc-lw-data-provider
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudoll
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gaohn-common-utils
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymycobot
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trailblazer
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-oci
+[2023-06-09 09:32:43] INFO root fetch - processPackages [callmebot]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ango]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-09 09:32:43] INFO root fetch - processPackages [fast-captcha]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-09 09:32:43] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-06-09 09:32:43] INFO root fetch - processPackages [pymycobot]: New version: [3.1.0b1] Old Version: [3.1.0]
+[2023-06-09 09:32:43] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-06-09 09:32:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5219395420]
+[2023-06-09 09:32:43] INFO root fetch - processPackages [cloudoll]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-09 09:32:43] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev9] Old Version: [0.4.4.dev8]
+[2023-06-09 09:32:43] INFO root fetch - processPackages [callmebot]: Downloading https://files.pythonhosted.org/packages/16/88/1aae5c6385e4e42a4a6f209a94ca4702deaa3d5fdd31496367cecdef330a/callmebot-1.1.2.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/24/3b/597896317be2f498231ac0d08a38ddd700eeb801fdd98b60e8d9823e5138/gaohn-common-utils-0.0.32.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/34/14/ab6b0d5aedb198f9cc6c7c30e1c4b61cf8f9900a2a154604b812d72ed50f/cloudoll-2.0.0.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/42/02/7a1d4309aca1e923f4d0282d1174646adb1f9241d0795eae906d9efdf356/ango-1.0.9.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [pulumi-oci]: New version: [0.9.1a1677791364] Old Version: [0.9.0]
+[2023-06-09 09:32:43] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/40/a5/e575e71e5053f1ced59366d024bc5b17afa365b339f0efad832c88291d68/pymycobot-3.1.0.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [fast-captcha]: Downloading https://files.pythonhosted.org/packages/d4/9c/82ddcc94171ed86e12f1c9261f5fd9532e4794bd18f9229233f26d467255/fast_captcha-0.1.3.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/d3/5a/b17390a1c0025964a9b9798cfc36c989e3e407188424b8e15b3e0a6c6663/th2_grpc_lw_data_provider-2.0.0.dev5219395420.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/a8/a9/9f3a9694572196e70e9ba540e00d88c2d3b5944a2117d502feede8f8b138/py-Ayiin-0.4.4.dev9.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-06-09 09:32:43] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230609/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-06-09 09:32:43] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/c2/de/1f1e18389f923dc91b70a4e3499aff21a0e25cdf6f8e38d41b52d513d7ba/pulumi_oci-0.9.0.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/b9/7c/f780887fac64bac23b6100587d9942571d4da0a1dda1a00bf9789ba58b29/ango-1.1.0.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 09:32:43] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev8.tar.gz tmp/py-Ayiin-0.4.4.dev9.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev8-0.4.4.dev9/diff.md --exclude *.pyd
+[2023-06-09 09:32:43] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/62/a0/02c1e5417a1c7066e89243213073bd6311ea16c29878c16e2f4edac8dc5f/cloudoll-2.0.1.tar.gz
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ango]: executing diffoscope
+[2023-06-09 09:32:43] INFO root fetch - processPackages [ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ango-1.0.9.tar.gz tmp/ango-1.1.0.tar.gz --markdown 20230609/a/ango/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-09 09:32:44] INFO root fetch - processPackages [cloudoll]: executing diffoscope
+[2023-06-09 09:32:44] INFO root fetch - processPackages [cloudoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudoll-2.0.0.tar.gz tmp/cloudoll-2.0.1.tar.gz --markdown 20230609/c/cloudoll/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-09 09:32:44] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/93/f2/b558e63f8968ae3b403220af95551c84870f2d9719759d469dad3c0d5c92/gaohn-common-utils-0.0.33.tar.gz
+[2023-06-09 09:32:44] INFO root fetch - processPackages [callmebot]: Downloading https://files.pythonhosted.org/packages/64/b1/9a2fcbefdcf2d0a857100cf6d3135657a0f943c83091bff9745128119c61/callmebot-1.1.4.tar.gz
+[2023-06-09 09:32:44] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/56/87/89dfc92a07d035353c1f7e25c32c66706e75ac92999640898b015cd43b66/pymycobot-3.1.0b1.tar.gz
+[2023-06-09 09:32:44] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-09 09:32:44] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.32.tar.gz tmp/gaohn-common-utils-0.0.33.tar.gz --markdown 20230609/g/gaohn-common-utils/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-06-09 09:32:44] INFO root fetch - processPackages [callmebot]: executing diffoscope
+[2023-06-09 09:32:44] INFO root fetch - processPackages [callmebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callmebot-1.1.2.tar.gz tmp/callmebot-1.1.4.tar.gz --markdown 20230609/c/callmebot/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-06-09 09:32:44] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-09 09:32:44] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2023-06-09 09:32:44] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.1.0.tar.gz tmp/pymycobot-3.1.0b1.tar.gz --markdown 20230609/p/pymycobot/3.1.0-3.1.0b1/diff.md --exclude *.pyd
+[2023-06-09 09:32:44] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-09 09:32:44] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5219395420.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230609/t/th2-grpc-lw-data-provider/2.0.0.dev5219395420-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-09 09:32:44] INFO root fetch - processPackages [fast-captcha]: Downloading https://files.pythonhosted.org/packages/43/0d/da25d01818dac26f7c268c41c6f1648ea1e84526045819cf9df92e527499/fast_captcha-0.2.0.tar.gz
+[2023-06-09 09:32:44] INFO root fetch - processPackages [fast-captcha]: executing diffoscope
+[2023-06-09 09:32:44] INFO root fetch - processPackages [fast-captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_captcha-0.1.3.tar.gz tmp/fast_captcha-0.2.0.tar.gz --markdown 20230609/f/fast-captcha/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-09 09:32:44] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/86/ea/282f83d0758757c8cabe17bc90aa9af50c1f1b9aa736f9ad87ee2c19659e/pulumi_oci-0.9.1a1677791364.tar.gz
+[2023-06-09 09:32:45] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-06-09 09:32:45] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-06-09 09:32:45] INFO root fetch - processPackages [trailblazer]: Start processing: odoo-addon-storage-image-product
+[2023-06-09 09:32:45] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-06-09 09:32:45] INFO root fetch - processPackages [odoo-addon-storage-image-product]: New version: [15.0.1.1.0.2] Old Version: [15.0.1.0.0.2]
+[2023-06-09 09:32:45] INFO root fetch - processPackages [ango]: Remove: archive file [/home/abi/fetcher/tmp/ango-1.0.9.tar.gz]
+[2023-06-09 09:32:45] INFO root fetch - processPackages [ango]: Remove: archive file [/home/abi/fetcher/tmp/ango-1.1.0.tar.gz]
+[2023-06-09 09:32:45] INFO root fetch - main [MainThread]: End processing [ango]: success
+[2023-06-09 09:32:45] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.32.tar.gz]
+[2023-06-09 09:32:45] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.33.tar.gz]
+[2023-06-09 09:32:45] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-09 09:32:45] INFO root fetch - processPackages [odoo-addon-storage-image-product]: Downloading https://files.pythonhosted.org/packages/73/ff/999c6925f3df4f32a56bd2e0ac6c747a21e22016ce3f3c90341dc5584049/odoo_addon_storage_image_product-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-09 09:32:45] INFO root fetch - processPackages [callmebot]: Remove: archive file [/home/abi/fetcher/tmp/callmebot-1.1.2.tar.gz]
+[2023-06-09 09:32:45] INFO root fetch - processPackages [callmebot]: Remove: archive file [/home/abi/fetcher/tmp/callmebot-1.1.4.tar.gz]
+[2023-06-09 09:32:45] INFO root fetch - main [MainThread]: End processing [callmebot]: success
+[2023-06-09 09:32:45] INFO root fetch - processPackages [fast-captcha]: Remove: archive file [/home/abi/fetcher/tmp/fast_captcha-0.1.3.tar.gz]
+[2023-06-09 09:32:45] INFO root fetch - processPackages [fast-captcha]: Remove: archive file [/home/abi/fetcher/tmp/fast_captcha-0.2.0.tar.gz]
+[2023-06-09 09:32:45] INFO root fetch - main [MainThread]: End processing [fast-captcha]: success
+[2023-06-09 09:32:45] INFO root fetch - processPackages [odoo-addon-storage-image-product]: Downloading https://files.pythonhosted.org/packages/6a/64/825c7c658931ee6d88caa24b4cd2d645475f52049f30b313b21cd3190797/odoo_addon_storage_image_product-15.0.1.1.0.2-py3-none-any.whl
+[2023-06-09 09:32:45] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5219395420.tar.gz]
+[2023-06-09 09:32:45] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-09 09:32:45] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-09 09:32:46] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.0.tar.gz]
+[2023-06-09 09:32:46] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.1.tar.gz]
+[2023-06-09 09:32:46] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
+[2023-06-09 09:32:46] INFO root fetch - processPackages [odoo-addon-storage-image-product]: executing diffoscope
+[2023-06-09 09:32:46] INFO root fetch - processPackages [odoo-addon-storage-image-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_storage_image_product-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_storage_image_product-15.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-storage-image-product/15.0.1.0.0.2-15.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-06-09 09:32:46] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-06-09 09:32:46] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-0.9.0.tar.gz tmp/pulumi_oci-0.9.1a1677791364.tar.gz --markdown 20230609/p/pulumi-oci/0.9.0-0.9.1a1677791364/diff.md --exclude *.pyd
+[2023-06-09 09:32:46] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.0.tar.gz]
+[2023-06-09 09:32:46] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.0b1.tar.gz]
+[2023-06-09 09:32:46] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2023-06-09 09:32:47] INFO root fetch - processPackages [odoo-addon-storage-image-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_storage_image_product-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-09 09:32:47] INFO root fetch - processPackages [odoo-addon-storage-image-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_storage_image_product-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-09 09:32:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-storage-image-product]: success
+[2023-06-09 09:32:48] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 09:32:48] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
+[2023-06-09 09:32:48] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 09:33:28] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-0.9.0.tar.gz]
+[2023-06-09 09:33:28] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-0.9.1a1677791364.tar.gz]
+[2023-06-09 09:33:28] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-06-09 09:33:28] INFO root fetch - main [MainThread]: Store serial: [18437822]
