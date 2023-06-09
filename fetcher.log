@@ -21480,3 +21480,135 @@ AssertionError: tmp/satellitevu-1.5.0.tar.gz does not exist
 [2023-06-09 12:23:03] INFO root fetch - processPackages [PyRVC]: Remove: archive file [/home/abi/fetcher/tmp/PyRVC-1.7.1.3-cp38-cp38-win_amd64.whl.zip]
 [2023-06-09 12:23:03] INFO root fetch - main [MainThread]: End processing [PyRVC]: success
 [2023-06-09 12:23:03] INFO root fetch - main [MainThread]: Store serial: [18439309]
+[2023-06-09 12:28:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18439309]
+[2023-06-09 12:28:16] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-09 12:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-pyaioredis
+[2023-06-09 12:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-bison-migang
+[2023-06-09 12:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aflabs-test
+[2023-06-09 12:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepdataspace
+[2023-06-09 12:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emid
+[2023-06-09 12:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tenyks-cli
+[2023-06-09 12:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nsqdriver
+[2023-06-09 12:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tca-beam
+[2023-06-09 12:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: test-upsruge
+[2023-06-09 12:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: EdgeGPT
+[2023-06-09 12:28:16] WARNING root fetch - processPackages [aflabs-test]: Skipping, unable to determine old version
+[2023-06-09 12:28:16] INFO root fetch - processPackages [aflabs-test]: Start processing: hdn-research-environment
+[2023-06-09 12:28:16] INFO root fetch - main [MainThread]: End processing [aflabs-test] error
+[2023-06-09 12:28:16] INFO root fetch - processPackages [tenyks-cli]: New version: [0.2.46] Old Version: [0.2.45]
+[2023-06-09 12:28:16] INFO root fetch - processPackages [deepdataspace]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-09 12:28:16] INFO root fetch - processPackages [nonebot-bison-migang]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-09 12:28:16] WARNING root fetch - processPackages [py-pyaioredis]: Skipping, unable to determine old version
+[2023-06-09 12:28:16] INFO root fetch - processPackages [py-pyaioredis]: Start processing: pyaioredis
+[2023-06-09 12:28:16] INFO root fetch - main [MainThread]: End processing [py-pyaioredis] error
+[2023-06-09 12:28:16] WARNING root fetch - processPackages [test-upsruge]: Skipping, unable to determine old version
+[2023-06-09 12:28:16] INFO root fetch - processPackages [emid]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-09 12:28:16] INFO root fetch - processPackages [test-upsruge]: Start processing: volstreet
+[2023-06-09 12:28:16] INFO root fetch - main [MainThread]: End processing [test-upsruge] error
+[2023-06-09 12:28:16] INFO root fetch - processPackages [tca-beam]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-06-09 12:28:16] INFO root fetch - processPackages [nsqdriver]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-09 12:28:16] WARNING root fetch - processPackages [pyaioredis]: Skipping, unable to determine old version
+[2023-06-09 12:28:16] INFO root fetch - processPackages [pyaioredis]: Start processing: robocorp-tasks
+[2023-06-09 12:28:16] INFO root fetch - main [MainThread]: End processing [pyaioredis] error
+[2023-06-09 12:28:16] INFO root fetch - processPackages [EdgeGPT]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-09 12:28:16] INFO root fetch - processPackages [hdn-research-environment]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-06-09 12:28:16] INFO root fetch - processPackages [volstreet]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-09 12:28:16] INFO root fetch - processPackages [robocorp-tasks]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-09 12:28:16] INFO root fetch - processPackages [nonebot-bison-migang]: Downloading https://files.pythonhosted.org/packages/aa/14/843c5f183f4ca228d799641aaa18a0f66d8978d7d237c0735a2ea5d07e38/nonebot_bison_migang-0.0.4.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [emid]: Downloading https://files.pythonhosted.org/packages/36/3b/615294df19cb500361e51d64bd302d8ac9f90975c3731dcc8c0bbded80e6/emid-0.0.7.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [deepdataspace]: Downloading https://files.pythonhosted.org/packages/86/6d/8c504abd82ee255aff0a1bfaaeed6968500eb678ee2a1b18d26320caf5dc/deepdataspace-0.1.1.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [robocorp-tasks]: Downloading https://files.pythonhosted.org/packages/50/8b/277eb65f14b198082230b40ff0304bee060f28f1f040e530398c67b33673/robocorp_tasks-0.4.0.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [tenyks-cli]: Downloading https://files.pythonhosted.org/packages/03/04/ebe0abccd303cb2bf06f9df6b892a64c9a2f20ce2b551b24552643ddce39/tenyks-cli-0.2.45.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/f6/61/94c382c6fd831ab2dc6947877fe274dfecb447456760288df397324cbfb0/nsqdriver-0.3.0.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [tca-beam]: Downloading https://files.pythonhosted.org/packages/d6/e1/697ea3ce58e7e1650d752f2741b16d45b56d8028ae88a909438c60ca5f74/tca_beam-0.6.3.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/59/d9/25892a9f8b91eb39729c929efbbe0b84e890d5108ee5f84df943669c33e0/hdn-research-environment-2.1.4.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/d7/29/f3e955f076747e360e385767e052138c8bbb1b5b8564bb0a8e3ac80aa517/EdgeGPT-0.9.1.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [nonebot-bison-migang]: Downloading https://files.pythonhosted.org/packages/31/a9/358fa0cad3c7ce0ab0a8ecf5fea547f1766fba8198be0a85020395849a85/nonebot_bison_migang-0.0.5.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/63/42/058779bdb1d07c42722389ed9765043c752d496d18e94098e3eb0f6bdcbf/volstreet-0.9.5.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [nonebot-bison-migang]: executing diffoscope
+[2023-06-09 12:28:16] INFO root fetch - processPackages [nonebot-bison-migang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_bison_migang-0.0.4.tar.gz tmp/nonebot_bison_migang-0.0.5.tar.gz --markdown 20230609/n/nonebot-bison-migang/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-09 12:28:16] INFO root fetch - processPackages [emid]: Downloading https://files.pythonhosted.org/packages/bb/e5/6bdbe17bb60d938cd5b3c38db08242b10f86a3043e098b65a1b8faff0210/emid-0.0.8.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/e6/92/b531df85feea41c0bea9eea53201b28f3b47eac633d5b812920b1ea29ba6/hdn-research-environment-2.1.5.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/e1/6a/24e02098165492dd7fb3e240d410104b7f09a689154f8fc86ac4fde5f1e9/nsqdriver-0.3.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-09 12:28:16] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/cd/5b/21684fc9845465c26158f409058121cb077ae7db9cd74c4027491d8a2a42/EdgeGPT-0.9.2.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [tenyks-cli]: Downloading https://files.pythonhosted.org/packages/96/c2/84cc70993ae819d04fb982b064d33eccd404304fdc2d2054aad9b2988973/tenyks-cli-0.2.46.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2023-06-09 12:28:16] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-2.1.4.tar.gz tmp/hdn-research-environment-2.1.5.tar.gz --markdown 20230609/h/hdn-research-environment/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-06-09 12:28:16] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/f2/d8/1f3cc212bdea406efa90e035edc8dfbce6ec6c6e9a00c73b4b51e26e94c8/volstreet-0.9.6.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [tca-beam]: Downloading https://files.pythonhosted.org/packages/c5/b4/2606b637a5db38086ba79c0941c2ab8dc1dbff16b6115a296e66b98590a5/tca_beam-0.7.0.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [emid]: executing diffoscope
+[2023-06-09 12:28:16] INFO root fetch - processPackages [emid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emid-0.0.7.tar.gz tmp/emid-0.0.8.tar.gz --markdown 20230609/e/emid/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-09 12:28:16] INFO root fetch - processPackages [robocorp-tasks]: Downloading https://files.pythonhosted.org/packages/48/a0/2e990551b68d17453e57802b185c9735cdce23f1f85c3a49df89f76ab217/robocorp_tasks-0.4.1.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-09 12:28:16] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.9.1.tar.gz tmp/EdgeGPT-0.9.2.tar.gz --markdown 20230609/E/EdgeGPT/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-09 12:28:16] INFO root fetch - processPackages [tenyks-cli]: executing diffoscope
+[2023-06-09 12:28:16] INFO root fetch - processPackages [tenyks-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenyks-cli-0.2.45.tar.gz tmp/tenyks-cli-0.2.46.tar.gz --markdown 20230609/t/tenyks-cli/0.2.45-0.2.46/diff.md --exclude *.pyd
+[2023-06-09 12:28:16] INFO root fetch - processPackages [nsqdriver]: executing diffoscope
+[2023-06-09 12:28:16] INFO root fetch - processPackages [nsqdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsqdriver-0.3.0.tar.gz tmp/nsqdriver-0.3.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230609/n/nsqdriver/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-09 12:28:16] INFO root fetch - processPackages [deepdataspace]: Downloading https://files.pythonhosted.org/packages/9a/d3/9339eb52c48f358dc6e43fbe24b5cc87bc40d16fe5cab0042895395d6137/deepdataspace-0.2.0.tar.gz
+[2023-06-09 12:28:16] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-06-09 12:28:16] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-0.9.5.tar.gz tmp/volstreet-0.9.6.tar.gz --markdown 20230609/v/volstreet/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-09 12:28:16] INFO root fetch - processPackages [tca-beam]: executing diffoscope
+[2023-06-09 12:28:16] INFO root fetch - processPackages [tca-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tca_beam-0.6.3.tar.gz tmp/tca_beam-0.7.0.tar.gz --markdown 20230609/t/tca-beam/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-06-09 12:28:16] INFO root fetch - processPackages [robocorp-tasks]: executing diffoscope
+[2023-06-09 12:28:16] INFO root fetch - processPackages [robocorp-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_tasks-0.4.0.tar.gz tmp/robocorp_tasks-0.4.1.tar.gz --markdown 20230609/r/robocorp-tasks/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-09 12:28:16] INFO root fetch - processPackages [deepdataspace]: executing diffoscope
+[2023-06-09 12:28:16] INFO root fetch - processPackages [deepdataspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdataspace-0.1.1.tar.gz tmp/deepdataspace-0.2.0.tar.gz --markdown 20230609/d/deepdataspace/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-09 12:28:18] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.3.0.tar.gz]
+[2023-06-09 12:28:18] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.3.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-09 12:28:18] INFO root fetch - processPackages [nsqdriver]: Start processing: simpledft
+[2023-06-09 12:28:18] INFO root fetch - main [MainThread]: End processing [nsqdriver]: success
+[2023-06-09 12:28:18] INFO root fetch - processPackages [simpledft]: New version: [2.5] Old Version: [2.2]
+[2023-06-09 12:28:18] INFO root fetch - processPackages [tenyks-cli]: Remove: archive file [/home/abi/fetcher/tmp/tenyks-cli-0.2.45.tar.gz]
+[2023-06-09 12:28:18] INFO root fetch - processPackages [tenyks-cli]: Remove: archive file [/home/abi/fetcher/tmp/tenyks-cli-0.2.46.tar.gz]
+[2023-06-09 12:28:18] INFO root fetch - processPackages [tenyks-cli]: Start processing: seaplane
+[2023-06-09 12:28:18] INFO root fetch - main [MainThread]: End processing [tenyks-cli]: success
+[2023-06-09 12:28:18] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-09 12:28:18] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-09 12:28:18] INFO root fetch - processPackages [simpledft]: Downloading https://files.pythonhosted.org/packages/fd/89/18f8c3bb7236941c4a137249e41c6d2367155c9ffe8ba235983d1268ff9b/simpledft-2.2.tar.gz
+[2023-06-09 12:28:18] INFO root fetch - processPackages [tca-beam]: Remove: archive file [/home/abi/fetcher/tmp/tca_beam-0.6.3.tar.gz]
+[2023-06-09 12:28:18] INFO root fetch - processPackages [tca-beam]: Remove: archive file [/home/abi/fetcher/tmp/tca_beam-0.7.0.tar.gz]
+[2023-06-09 12:28:18] INFO root fetch - processPackages [tca-beam]: Start processing: lazysdk
+[2023-06-09 12:28:18] INFO root fetch - main [MainThread]: End processing [tca-beam]: success
+[2023-06-09 12:28:18] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-09 12:28:18] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 12:28:18] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-06-09 12:28:18] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-09 12:28:18] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230609/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-09 12:28:18] INFO root fetch - processPackages [robocorp-tasks]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_tasks-0.4.0.tar.gz]
+[2023-06-09 12:28:18] INFO root fetch - processPackages [robocorp-tasks]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_tasks-0.4.1.tar.gz]
+[2023-06-09 12:28:18] INFO root fetch - main [MainThread]: End processing [robocorp-tasks]: success
+[2023-06-09 12:28:18] INFO root fetch - processPackages [simpledft]: Downloading https://files.pythonhosted.org/packages/0f/48/e9d0c30048680e5d1f63c8b20e35a0019b8e384e5cf196a187a221f4dbbd/simpledft-2.5.tar.gz
+[2023-06-09 12:28:18] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-06-09 12:28:18] INFO root fetch - processPackages [simpledft]: executing diffoscope
+[2023-06-09 12:28:18] INFO root fetch - processPackages [simpledft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpledft-2.2.tar.gz tmp/simpledft-2.5.tar.gz --markdown 20230609/s/simpledft/2.2-2.5/diff.md --exclude *.pyd
+[2023-06-09 12:28:18] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-06-09 12:28:18] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230609/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 12:28:18] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.1.tar.gz]
+[2023-06-09 12:28:18] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.2.tar.gz]
+[2023-06-09 12:28:18] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-09 12:28:19] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.5.tar.gz]
+[2023-06-09 12:28:19] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.6.tar.gz]
+[2023-06-09 12:28:19] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-06-09 12:28:19] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.1.4.tar.gz]
+[2023-06-09 12:28:19] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.1.5.tar.gz]
+[2023-06-09 12:28:19] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2023-06-09 12:28:19] INFO root fetch - processPackages [simpledft]: Remove: archive file [/home/abi/fetcher/tmp/simpledft-2.2.tar.gz]
+[2023-06-09 12:28:19] INFO root fetch - processPackages [simpledft]: Remove: archive file [/home/abi/fetcher/tmp/simpledft-2.5.tar.gz]
+[2023-06-09 12:28:19] INFO root fetch - main [MainThread]: End processing [simpledft]: success
+[2023-06-09 12:28:20] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-09 12:28:20] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-09 12:28:20] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-09 12:28:20] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-06-09 12:28:20] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-06-09 12:28:20] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-06-09 12:28:22] INFO root fetch - processPackages [emid]: Remove: archive file [/home/abi/fetcher/tmp/emid-0.0.7.tar.gz]
+[2023-06-09 12:28:22] INFO root fetch - processPackages [emid]: Remove: archive file [/home/abi/fetcher/tmp/emid-0.0.8.tar.gz]
+[2023-06-09 12:28:22] INFO root fetch - main [MainThread]: End processing [emid]: success
+[2023-06-09 12:28:41] INFO root fetch - processPackages [deepdataspace]: Remove: archive file [/home/abi/fetcher/tmp/deepdataspace-0.1.1.tar.gz]
+[2023-06-09 12:28:41] INFO root fetch - processPackages [deepdataspace]: Remove: archive file [/home/abi/fetcher/tmp/deepdataspace-0.2.0.tar.gz]
+[2023-06-09 12:28:41] INFO root fetch - main [MainThread]: End processing [deepdataspace]: success
+[2023-06-09 12:29:15] INFO root fetch - processPackages [nonebot-bison-migang]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_bison_migang-0.0.4.tar.gz]
+[2023-06-09 12:29:15] INFO root fetch - processPackages [nonebot-bison-migang]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_bison_migang-0.0.5.tar.gz]
+[2023-06-09 12:29:15] INFO root fetch - main [MainThread]: End processing [nonebot-bison-migang]: success
+[2023-06-09 12:29:15] INFO root fetch - main [MainThread]: Store serial: [18439375]
