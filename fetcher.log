@@ -12473,3 +12473,42 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 05:54:40] INFO root fetch - processPackages [odoo8-addon-l10n-it-ateco]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_it_ateco-8.0.1.0.1.99.dev3-py2-none-any.whl.zip]
 [2023-06-09 05:54:40] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-it-ateco]: success
 [2023-06-09 05:54:40] INFO root fetch - main [MainThread]: Store serial: [18435994]
+[2023-06-09 05:59:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18435994]
+[2023-06-09 05:59:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-09 05:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rongdavbaaddins
+[2023-06-09 05:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sfpl
+[2023-06-09 05:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: procuret
+[2023-06-09 05:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mr4mp
+[2023-06-09 05:59:49] INFO root fetch - processPackages [sfpl]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-09 05:59:49] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.1.1] Old Version: [0.0.0.9]
+[2023-06-09 05:59:49] INFO root fetch - processPackages [procuret]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 05:59:49] INFO root fetch - processPackages [mr4mp]: New version: [2.7.0] Old Version: [2.6.3]
+[2023-06-09 05:59:49] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/9a/fd/8e3655c1a9fb6a355899bd8c0e71fe210fb46d00bfc7b0a651c91204c0c2/rongdavbaaddins-0.0.0.9.tar.gz
+[2023-06-09 05:59:49] INFO root fetch - processPackages [sfpl]: Downloading https://files.pythonhosted.org/packages/76/f8/4edc5aeafd16b27b330c34cb9252e3139915d3fbd214f5623e9f5deecca5/sfpl-1.5.5-py3-none-any.whl
+[2023-06-09 05:59:49] INFO root fetch - processPackages [procuret]: Downloading https://files.pythonhosted.org/packages/db/55/e814ec1276674fee30cda18258fe788724ffe5176e4ac40a05e6d3d3c1e2/procuret-0.0.8.tar.gz
+[2023-06-09 05:59:49] INFO root fetch - processPackages [mr4mp]: Downloading https://files.pythonhosted.org/packages/56/99/fe4382f9cf702924221e5b9e02e67c24f014b2c9e417dc321369b305f00c/mr4mp-2.6.3.tar.gz
+[2023-06-09 05:59:49] INFO root fetch - processPackages [procuret]: Downloading https://files.pythonhosted.org/packages/0f/55/4a26771cff6e711310604e04c804960bb8e7d3c0ef512ace7476955047a4/procuret-0.0.9.tar.gz
+[2023-06-09 05:59:50] INFO root fetch - processPackages [procuret]: executing diffoscope
+[2023-06-09 05:59:50] INFO root fetch - processPackages [procuret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procuret-0.0.8.tar.gz tmp/procuret-0.0.9.tar.gz --markdown 20230609/p/procuret/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 05:59:50] INFO root fetch - processPackages [sfpl]: Downloading https://files.pythonhosted.org/packages/c1/f1/951bfef3124fe41be74b1cd26d095811df6a125281e86ce2946945ffcdba/sfpl-1.5.6-py3-none-any.whl
+[2023-06-09 05:59:50] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/5b/77/9dac1d1e5bd7c6b8072afc33e7b4818c5f7a5c7ae457e9caeeb271ccb9e5/rongdavbaaddins-0.0.1.1.tar.gz
+[2023-06-09 05:59:50] INFO root fetch - processPackages [sfpl]: executing diffoscope
+[2023-06-09 05:59:50] INFO root fetch - processPackages [sfpl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfpl-1.5.5-py3-none-any.whl.zip tmp/sfpl-1.5.6-py3-none-any.whl.zip --markdown 20230609/s/sfpl/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-06-09 05:59:50] INFO root fetch - processPackages [mr4mp]: Downloading https://files.pythonhosted.org/packages/16/c0/732e60688eb7db6669bb5e1d1d86035195cdab61b6731d693508ef7bae4c/mr4mp-2.7.0.tar.gz
+[2023-06-09 05:59:50] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-06-09 05:59:50] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.0.9.tar.gz tmp/rongdavbaaddins-0.0.1.1.tar.gz --markdown 20230609/r/rongdavbaaddins/0.0.0.9-0.0.1.1/diff.md --exclude *.pyd
+[2023-06-09 05:59:50] INFO root fetch - processPackages [mr4mp]: executing diffoscope
+[2023-06-09 05:59:50] INFO root fetch - processPackages [mr4mp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mr4mp-2.6.3.tar.gz tmp/mr4mp-2.7.0.tar.gz --markdown 20230609/m/mr4mp/2.6.3-2.7.0/diff.md --exclude *.pyd
+[2023-06-09 05:59:51] INFO root fetch - processPackages [sfpl]: Remove: archive file [/home/abi/fetcher/tmp/sfpl-1.5.5-py3-none-any.whl.zip]
+[2023-06-09 05:59:51] INFO root fetch - processPackages [sfpl]: Remove: archive file [/home/abi/fetcher/tmp/sfpl-1.5.6-py3-none-any.whl.zip]
+[2023-06-09 05:59:51] INFO root fetch - main [MainThread]: End processing [sfpl]: success
+[2023-06-09 05:59:51] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.0.9.tar.gz]
+[2023-06-09 05:59:51] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.1.1.tar.gz]
+[2023-06-09 05:59:51] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-06-09 05:59:51] INFO root fetch - processPackages [mr4mp]: Remove: archive file [/home/abi/fetcher/tmp/mr4mp-2.6.3.tar.gz]
+[2023-06-09 05:59:51] INFO root fetch - processPackages [mr4mp]: Remove: archive file [/home/abi/fetcher/tmp/mr4mp-2.7.0.tar.gz]
+[2023-06-09 05:59:51] INFO root fetch - main [MainThread]: End processing [mr4mp]: success
+[2023-06-09 05:59:51] INFO root fetch - processPackages [procuret]: Remove: archive file [/home/abi/fetcher/tmp/procuret-0.0.8.tar.gz]
+[2023-06-09 05:59:51] INFO root fetch - processPackages [procuret]: Remove: archive file [/home/abi/fetcher/tmp/procuret-0.0.9.tar.gz]
+[2023-06-09 05:59:51] INFO root fetch - main [MainThread]: End processing [procuret]: success
+[2023-06-09 05:59:51] INFO root fetch - main [MainThread]: Store serial: [18436004]
