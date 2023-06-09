@@ -15909,3 +15909,153 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 08:06:14] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230608.tar.gz]
 [2023-06-09 08:06:14] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-09 08:06:14] INFO root fetch - main [MainThread]: Store serial: [18437055]
+[2023-06-09 08:11:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437055]
+[2023-06-09 08:11:23] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-09 08:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biliarchiver
+[2023-06-09 08:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhipuai
+[2023-06-09 08:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SpinderTools
+[2023-06-09 08:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pancollection
+[2023-06-09 08:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EduCorpus
+[2023-06-09 08:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartchart
+[2023-06-09 08:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-aiven
+[2023-06-09 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-manifest
+[2023-06-09 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-data-services
+[2023-06-09 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Envoy-ChatGPT
+[2023-06-09 08:11:24] INFO root fetch - processPackages [biliarchiver]: New version: [0.0.9] Old Version: [0.0.13]
+[2023-06-09 08:11:24] INFO root fetch - processPackages [smartchart]: New version: [6.6.6.1] Old Version: [6.6.6]
+[2023-06-09 08:11:24] INFO root fetch - processPackages [zhipuai]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-09 08:11:24] WARNING root fetch - processPackages [EduCorpus]: Skipping, unable to determine old version
+[2023-06-09 08:11:24] INFO root fetch - processPackages [EduCorpus]: Start processing: pulumi-ec
+[2023-06-09 08:11:24] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5218798347] Old Version: [2.0.0.dev5133539304]
+[2023-06-09 08:11:24] INFO root fetch - processPackages [python-manifest]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-09 08:11:24] INFO root fetch - main [MainThread]: End processing [EduCorpus] error
+[2023-06-09 08:11:24] ERROR root fetch - processPackages [SpinderTools]: Unable to get metadata: No such project 'SpinderTools'
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pancollection]: New version: [0.2a0] Old Version: [0.2]
+[2023-06-09 08:11:24] INFO root fetch - processPackages [SpinderTools]: Start processing: pulumi-github
+[2023-06-09 08:11:24] INFO root fetch - main [MainThread]: End processing [SpinderTools] error
+[2023-06-09 08:11:24] WARNING root fetch - processPackages [Envoy-ChatGPT]: Skipping, unable to determine old version
+[2023-06-09 08:11:24] INFO root fetch - processPackages [Envoy-ChatGPT]: Start processing: pulumi-mailgun
+[2023-06-09 08:11:24] INFO root fetch - main [MainThread]: End processing [Envoy-ChatGPT] error
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.4.0a1686288461] Old Version: [6.4.0a1685987925]
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1686288783] Old Version: [0.5.2a1685165737]
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.1] Old Version: [5.9.0a1683752304]
+[2023-06-09 08:11:24] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/1e/6b/474ad7ac37322228353641d534a04f41c473603ba54a0b21ae6d8a2b65fd/zhipuai-1.0.3.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.5.0a1686289049] Old Version: [3.5.0a1685166293]
+[2023-06-09 08:11:24] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/1d/56/2407640e1932e2e54db6f7739f2e7c155be1243de3b6a6203ec53d832877/biliarchiver-0.0.13.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/80/e8/71bcdac6daac6da25ee97d7c08c6efd287a23a27570613c7c413e9c595fc/python_manifest-1.0.2-py3-none-any.whl
+[2023-06-09 08:11:24] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/f7/b5/6af6f8168ddb9975bd9a498e23f37b8e04e23d0c7c1cc1de90a7404b459f/smartchart-6.6.6.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/9a/55/ba57bd259486a6127bd078ed40b30aee2eb63b75dcf03c49bcb9734fc5d0/th2_data_services-2.0.0.dev5133539304.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/ad/cd/c0079de88d9b9f1924ec4b58781cb8b2dfdf63f113261b83072908232d5c/pulumi_aiven-6.4.0a1685987925.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/71/f7/eaa84d99ab1ef2c7ba4386dcf82b53be32a8d4f24eb73e70daf4ee8f3c5a/pulumi_ec-0.5.2a1685165737.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/32/ed/961d0285211aa15049b6c58f7c819b33844f2916f9a913ccf0bfb1e54b4c/pulumi_github-5.9.0a1683752304.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/4e/ab/730bb69f34bde6c1670372bf8ce62ebaa3440149a8d7ba365f1902586702/pulumi_mailgun-3.5.0a1685166293.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pancollection]: Downloading https://files.pythonhosted.org/packages/57/36/14dd3c6609e88f0dfc5482272f7e564d897da05406b257e06b1c6c4d93ee/pancollection-0.2.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/be/fb/8bc33fd98fbd687b156300b0cbc856ff963291391458ada50713c576b5b7/zhipuai-1.0.4.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [zhipuai]: executing diffoscope
+[2023-06-09 08:11:24] INFO root fetch - processPackages [zhipuai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhipuai-1.0.3.tar.gz tmp/zhipuai-1.0.4.tar.gz --markdown 20230609/z/zhipuai/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-09 08:11:24] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/75/6f/a07bee6d23ed240047e737c1e393aadca816e9e1cc7c1aaa81457a4885da/biliarchiver-0.0.9.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/fa/f2/dce9c345791e6231ac3d6d5e39864adca8d6dbcafa79ab8b54930a2e339e/th2_data_services-2.0.0.dev5218798347.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/a5/6a/ebd2cb8a0b55e14012431a141787016cec9fa6d90ce9dc6cfac43dc1a6e2/python_manifest-1.0.3-py3-none-any.whl
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/bb/39/c001a9ad1bac48581dcfcebe33264e656e94ae620fddc0f931d45667861c/pulumi_aiven-6.4.0a1686288461.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/f1/fa/b6748108afdbef2ebd677b588fdfb2afb508c421932cad99659e8be51066/pulumi_mailgun-3.5.0a1686289049.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pancollection]: Downloading https://files.pythonhosted.org/packages/ab/dc/9ecbbba0461816a272dd5798d57aa73eb821903f5878bf8b931346a0d028/pancollection-0.2a0.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/86/f0/43fe82e45f1fa2ecc03a95bc62c0738c630dd754123dad1a1d024d01b2f4/pulumi_ec-0.5.2a1686288783.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/c9/c7/93ab5613466154b7124ec8eae861573f6b499bd2807accd6d08c5fa08291/pulumi_github-5.9.1.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [biliarchiver]: executing diffoscope
+[2023-06-09 08:11:24] INFO root fetch - processPackages [biliarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliarchiver-0.0.13.tar.gz tmp/biliarchiver-0.0.9.tar.gz --markdown 20230609/b/biliarchiver/0.0.13-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 08:11:24] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-06-09 08:11:24] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5133539304.tar.gz tmp/th2_data_services-2.0.0.dev5218798347.tar.gz --markdown 20230609/t/th2-data-services/2.0.0.dev5133539304-2.0.0.dev5218798347/diff.md --exclude *.pyd
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.4.0a1685987925.tar.gz tmp/pulumi_aiven-6.4.0a1686288461.tar.gz --markdown 20230609/p/pulumi-aiven/6.4.0a1685987925-6.4.0a1686288461/diff.md --exclude *.pyd
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pancollection]: executing diffoscope
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pancollection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pancollection-0.2.tar.gz tmp/pancollection-0.2a0.tar.gz --markdown 20230609/p/pancollection/0.2-0.2a0/diff.md --exclude *.pyd
+[2023-06-09 08:11:24] INFO root fetch - processPackages [python-manifest]: executing diffoscope
+[2023-06-09 08:11:24] INFO root fetch - processPackages [python-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_manifest-1.0.2-py3-none-any.whl.zip tmp/python_manifest-1.0.3-py3-none-any.whl.zip --markdown 20230609/p/python-manifest/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.5.0a1685166293.tar.gz tmp/pulumi_mailgun-3.5.0a1686289049.tar.gz --markdown 20230609/p/pulumi-mailgun/3.5.0a1685166293-3.5.0a1686289049/diff.md --exclude *.pyd
+[2023-06-09 08:11:24] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/4a/17/a322566e5183df3e05b6348d2179a66f63618738d29128dd0444d31b4fb2/smartchart-6.6.6.1.tar.gz
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1685165737.tar.gz tmp/pulumi_ec-0.5.2a1686288783.tar.gz --markdown 20230609/p/pulumi-ec/0.5.2a1685165737-0.5.2a1686288783/diff.md --exclude *.pyd
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-06-09 08:11:24] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683752304.tar.gz tmp/pulumi_github-5.9.1.tar.gz --markdown 20230609/p/pulumi-github/5.9.0a1683752304-5.9.1/diff.md --exclude *.pyd
+[2023-06-09 08:11:25] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-06-09 08:11:25] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.6.tar.gz tmp/smartchart-6.6.6.1.tar.gz --markdown 20230609/s/smartchart/6.6.6-6.6.6.1/diff.md --exclude *.pyd
+[2023-06-09 08:11:25] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-1.0.3.tar.gz]
+[2023-06-09 08:11:25] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-1.0.4.tar.gz]
+[2023-06-09 08:11:25] INFO root fetch - processPackages [zhipuai]: Start processing: pulumi-digitalocean
+[2023-06-09 08:11:25] INFO root fetch - main [MainThread]: End processing [zhipuai]: success
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.13.tar.gz]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.9.tar.gz]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [biliarchiver]: Start processing: pulumi-confluentcloud
+[2023-06-09 08:11:26] INFO root fetch - main [MainThread]: End processing [biliarchiver]: success
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-06-09 08:11:26] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-1.0.2-py3-none-any.whl.zip]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-1.0.3-py3-none-any.whl.zip]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [python-manifest]: Start processing: daisytuner-likwid
+[2023-06-09 08:11:26] INFO root fetch - main [MainThread]: End processing [python-manifest]: success
+[2023-06-09 08:11:26] WARNING root fetch - processPackages [daisytuner-likwid]: Skipping, unable to determine old version
+[2023-06-09 08:11:26] INFO root fetch - processPackages [daisytuner-likwid]: Start processing: pulumi-hcloud
+[2023-06-09 08:11:26] INFO root fetch - main [MainThread]: End processing [daisytuner-likwid] error
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.5.0a1685166293.tar.gz]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.5.0a1686289049.tar.gz]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-mailgun]: Start processing: pulumi-gitlab
+[2023-06-09 08:11:26] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.1.0a1686288783] Old Version: [6.1.0a1685769920]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2023-06-09 08:11:26] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5133539304.tar.gz]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5218798347.tar.gz]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [th2-data-services]: Start processing: pulumi-kafka
+[2023-06-09 08:11:26] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20230609/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/diff.md --exclude *.pyd
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.5.0a1686288963] Old Version: [3.5.0a1685165866]
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230609/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/65/c3/c0adbcb3175cf7eb1a2e93b46fd0f6f4778f48d265e2ee1bca31fd9ebe39/pulumi_gitlab-6.1.0a1685769920.tar.gz
+[2023-06-09 08:11:26] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/9d/3a/7bd758fb1fd2246e7829c25d3ce0d2eece86ff5a010a97f936269e498916/pulumi_kafka-3.5.0a1685165866.tar.gz
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pancollection]: Remove: archive file [/home/abi/fetcher/tmp/pancollection-0.2.tar.gz]
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pancollection]: Remove: archive file [/home/abi/fetcher/tmp/pancollection-0.2a0.tar.gz]
+[2023-06-09 08:11:27] INFO root fetch - main [MainThread]: End processing [pancollection]: success
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/db/c4/ea86ee6fc37ad5ffe820df6d54bfa79bf008d6d0c60bdd05446b073dae21/pulumi_gitlab-6.1.0a1686288783.tar.gz
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230609/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/41/1a/4f981981821cc8c0b53b3377b57d09eb524371ae06ad67d5ec757b3e99b9/pulumi_kafka-3.5.0a1686288963.tar.gz
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.1.0a1685769920.tar.gz tmp/pulumi_gitlab-6.1.0a1686288783.tar.gz --markdown 20230609/p/pulumi-gitlab/6.1.0a1685769920-6.1.0a1686288783/diff.md --exclude *.pyd
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.5.0a1685165866.tar.gz tmp/pulumi_kafka-3.5.0a1686288963.tar.gz --markdown 20230609/p/pulumi-kafka/3.5.0a1685165866-3.5.0a1686288963/diff.md --exclude *.pyd
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.0a1683752304.tar.gz]
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
+[2023-06-09 08:11:27] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.4.0a1685987925.tar.gz]
+[2023-06-09 08:11:27] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.4.0a1686288461.tar.gz]
+[2023-06-09 08:11:27] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-06-09 08:11:28] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1685165737.tar.gz]
+[2023-06-09 08:11:28] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1686288783.tar.gz]
+[2023-06-09 08:11:28] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-06-09 08:11:28] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-06-09 08:11:28] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-06-09 08:11:28] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-06-09 08:11:28] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2023-06-09 08:11:28] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2023-06-09 08:11:28] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-06-09 08:11:29] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.5.0a1685165866.tar.gz]
+[2023-06-09 08:11:29] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.5.0a1686288963.tar.gz]
+[2023-06-09 08:11:29] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2023-06-09 08:11:29] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1685769920.tar.gz]
+[2023-06-09 08:11:29] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1686288783.tar.gz]
+[2023-06-09 08:11:29] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-06-09 08:11:30] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2023-06-09 08:11:30] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2023-06-09 08:11:30] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2023-06-09 08:11:31] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.6.tar.gz]
+[2023-06-09 08:11:31] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.6.1.tar.gz]
+[2023-06-09 08:11:31] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-06-09 08:11:31] INFO root fetch - main [MainThread]: Store serial: [18437108]
