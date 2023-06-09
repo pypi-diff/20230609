@@ -11897,3 +11897,87 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 05:33:43] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
 [2023-06-09 05:33:43] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2023-06-09 05:33:43] INFO root fetch - main [MainThread]: Store serial: [18435854]
+[2023-06-09 05:38:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18435854]
+[2023-06-09 05:38:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 05:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latch
+[2023-06-09 05:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crop-utils
+[2023-06-09 05:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-iot-template-oca
+[2023-06-09 05:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo9-addon-knowledge
+[2023-06-09 05:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-document-url
+[2023-06-09 05:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo10-addon-knowledge
+[2023-06-09 05:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo10-addon-document-page
+[2023-06-09 05:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo11-addon-document-page
+[2023-06-09 05:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo11-addon-document-url
+[2023-06-09 05:38:53] INFO root fetch - processPackages [crop-utils]: New version: [4.3.3] Old Version: [4.3.2]
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: New version: [15.0.1.0.1.9] Old Version: [15.0.1.0.1.8]
+[2023-06-09 05:38:53] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo10-addon-knowledge]: New version: [10.0.1.0.0.99.dev9] Old Version: [10.0.1.0.0.99.dev8]
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo11-addon-document-url]: New version: [11.0.1.0.0.99.dev9] Old Version: [11.0.1.0.0.99.dev8]
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo10-addon-document-page]: New version: [10.0.2.1.0.99.dev8] Old Version: [10.0.2.1.0.99.dev7]
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo9-addon-document-url]: New version: [9.0.2.0.2.99.dev4] Old Version: [9.0.2.0.2.99.dev3]
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo9-addon-knowledge]: New version: [9.0.1.1.0.99.dev9] Old Version: [9.0.1.1.0.99.dev8]
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo11-addon-document-page]: New version: [11.0.2.4.0.99.dev7] Old Version: [11.0.2.4.0.99.dev6]
+[2023-06-09 05:38:53] INFO root fetch - processPackages [crop-utils]: Downloading https://files.pythonhosted.org/packages/d4/60/5d0480651dca6cf63665789d36dcbb5875d128dc52a25febbeea89b2e50d/crop_utils-4.3.2.tar.gz
+[2023-06-09 05:38:53] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo9-addon-document-url]: Downloading https://files.pythonhosted.org/packages/a9/d5/b2e6e8be20f6ac1303c482fcb75df49eb5bd55d66c65f9535841d6e5bb8c/odoo9_addon_document_url-9.0.2.0.2.99.dev3-py2-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo11-addon-document-url]: Downloading https://files.pythonhosted.org/packages/2e/7a/bbe383ac2e93ed5c95a6afd10e75b72a97c0c9b7ce3bc99d7948599654c8/odoo11_addon_document_url-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo10-addon-document-page]: Downloading https://files.pythonhosted.org/packages/6e/15/4da041438fbfebbbdffb782bce690742debbb8ee37901221d9a80b86666c/odoo10_addon_document_page-10.0.2.1.0.99.dev7-py2-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo9-addon-knowledge]: Downloading https://files.pythonhosted.org/packages/7a/61/3686b90becef3e299ef31dead3c49f16d3e899733064b364c6822e76bc4a/odoo9_addon_knowledge-9.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo10-addon-knowledge]: Downloading https://files.pythonhosted.org/packages/f9/00/4fdbd4dba12280ba3c7ff115fa38765d352fa7a922a6aab33cbbdac5db4d/odoo10_addon_knowledge-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Downloading https://files.pythonhosted.org/packages/56/ff/4b9b3c7502e9505f0e4d31d379992e6c7d00b8a5bce8e211aa26fa0e7da3/odoo_addon_iot_template_oca-15.0.1.0.1.8-py3-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo11-addon-document-page]: Downloading https://files.pythonhosted.org/packages/1c/8a/7c6a249d01543d211918f3de402e1abe547287cb7f1a6b5052af7fecf61d/odoo11_addon_document_page-11.0.2.4.0.99.dev6-py2.py3-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [crop-utils]: Downloading https://files.pythonhosted.org/packages/83/02/ef4195f9129eb5c76504c7fc436b943b09a6bb1d07234bc69a83fdec4f7f/crop_utils-4.3.3.tar.gz
+[2023-06-09 05:38:53] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo9-addon-document-url]: Downloading https://files.pythonhosted.org/packages/e6/3c/6013a8e58fb0ce8f91e771b3ff842052d8033d68da9c24f8b93afa7b67b8/odoo9_addon_document_url-9.0.2.0.2.99.dev4-py2-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-09 05:38:53] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230609/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-09 05:38:53] INFO root fetch - processPackages [crop-utils]: executing diffoscope
+[2023-06-09 05:38:53] INFO root fetch - processPackages [crop-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crop_utils-4.3.2.tar.gz tmp/crop_utils-4.3.3.tar.gz --markdown 20230609/c/crop-utils/4.3.2-4.3.3/diff.md --exclude *.pyd
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo11-addon-document-url]: Downloading https://files.pythonhosted.org/packages/54/9d/a468fbfde2a30083dc148947a10db5b3f58d03c843d8822f26fe96000329/odoo11_addon_document_url-11.0.1.0.0.99.dev9-py2.py3-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo9-addon-knowledge]: Downloading https://files.pythonhosted.org/packages/98/94/96330bc9f5cdaa85cb5a2b29021d7545c034d400146557c8087ee2896703/odoo9_addon_knowledge-9.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Downloading https://files.pythonhosted.org/packages/22/96/0d71a13d497f1916afa80639b1d90cab63f680ec3c8863864efe0f2b881a/odoo_addon_iot_template_oca-15.0.1.0.1.9-py3-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo9-addon-document-url]: executing diffoscope
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo9-addon-document-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_document_url-9.0.2.0.2.99.dev3-py2-none-any.whl.zip tmp/odoo9_addon_document_url-9.0.2.0.2.99.dev4-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-document-url/9.0.2.0.2.99.dev3-9.0.2.0.2.99.dev4/diff.md --exclude *.pyd
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo11-addon-document-page]: Downloading https://files.pythonhosted.org/packages/06/a7/336ee27a659f660669d2cfd028a1ab392491b5f31cd9acaa965ca51c5917/odoo11_addon_document_page-11.0.2.4.0.99.dev7-py2.py3-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo10-addon-document-page]: Downloading https://files.pythonhosted.org/packages/b7/f2/e6bf986b5222ac22ce2936c57b5521c09c713242319a1cd959590938914b/odoo10_addon_document_page-10.0.2.1.0.99.dev8-py2-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo11-addon-document-url]: executing diffoscope
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo11-addon-document-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_document_url-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_document_url-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20230609/o/odoo11-addon-document-url/11.0.1.0.0.99.dev8-11.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: executing diffoscope
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo9-addon-knowledge]: executing diffoscope
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo9-addon-knowledge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_knowledge-9.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_knowledge-9.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-knowledge/9.0.1.1.0.99.dev8-9.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_iot_template_oca-15.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_iot_template_oca-15.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-iot-template-oca/15.0.1.0.1.8-15.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo10-addon-knowledge]: Downloading https://files.pythonhosted.org/packages/13/14/a1e02e337819485a64cecfe0fb6fbbafe5ab4ab8ef6485200936cb78e7bc/odoo10_addon_knowledge-10.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo11-addon-document-page]: executing diffoscope
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo11-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_document_page-11.0.2.4.0.99.dev6-py2.py3-none-any.whl.zip tmp/odoo11_addon_document_page-11.0.2.4.0.99.dev7-py2.py3-none-any.whl.zip --markdown 20230609/o/odoo11-addon-document-page/11.0.2.4.0.99.dev6-11.0.2.4.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo10-addon-document-page]: executing diffoscope
+[2023-06-09 05:38:53] INFO root fetch - processPackages [odoo10-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_document_page-10.0.2.1.0.99.dev7-py2-none-any.whl.zip tmp/odoo10_addon_document_page-10.0.2.1.0.99.dev8-py2-none-any.whl.zip --markdown 20230609/o/odoo10-addon-document-page/10.0.2.1.0.99.dev7-10.0.2.1.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-09 05:38:54] INFO root fetch - processPackages [odoo10-addon-knowledge]: executing diffoscope
+[2023-06-09 05:38:54] INFO root fetch - processPackages [odoo10-addon-knowledge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_knowledge-10.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_knowledge-10.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo10-addon-knowledge/10.0.1.0.0.99.dev8-10.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_template_oca-15.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_template_oca-15.0.1.0.1.9-py3-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-template-oca]: success
+[2023-06-09 05:38:55] INFO root fetch - processPackages [crop-utils]: Remove: archive file [/home/abi/fetcher/tmp/crop_utils-4.3.2.tar.gz]
+[2023-06-09 05:38:55] INFO root fetch - processPackages [crop-utils]: Remove: archive file [/home/abi/fetcher/tmp/crop_utils-4.3.3.tar.gz]
+[2023-06-09 05:38:55] INFO root fetch - main [MainThread]: End processing [crop-utils]: success
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo9-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_url-9.0.2.0.2.99.dev3-py2-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo9-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_url-9.0.2.0.2.99.dev4-py2-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - main [MainThread]: End processing [odoo9-addon-document-url]: success
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo11-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_document_url-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo11-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_document_url-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - main [MainThread]: End processing [odoo11-addon-document-url]: success
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo9-addon-knowledge]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_knowledge-9.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo9-addon-knowledge]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_knowledge-9.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - main [MainThread]: End processing [odoo9-addon-knowledge]: success
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo10-addon-knowledge]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_knowledge-10.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo10-addon-knowledge]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_knowledge-10.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - main [MainThread]: End processing [odoo10-addon-knowledge]: success
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo11-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_document_page-11.0.2.4.0.99.dev6-py2.py3-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo11-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_document_page-11.0.2.4.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - main [MainThread]: End processing [odoo11-addon-document-page]: success
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo10-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_document_page-10.0.2.1.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - processPackages [odoo10-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_document_page-10.0.2.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 05:38:55] INFO root fetch - main [MainThread]: End processing [odoo10-addon-document-page]: success
+[2023-06-09 05:38:56] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-09 05:38:56] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-09 05:38:56] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-09 05:38:56] INFO root fetch - main [MainThread]: Store serial: [18435874]
