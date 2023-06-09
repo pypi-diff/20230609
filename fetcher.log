@@ -12786,3 +12786,139 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 06:10:19] INFO root fetch - processPackages [odoo11-addon-l10n-ch-fds-postfinance]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_ch_fds_postfinance-11.0.1.0.2.99.dev9-py2.py3-none-any.whl.zip]
 [2023-06-09 06:10:19] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-ch-fds-postfinance]: success
 [2023-06-09 06:10:19] INFO root fetch - main [MainThread]: Store serial: [18436090]
+[2023-06-09 06:15:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436090]
+[2023-06-09 06:15:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-09 06:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-adapter-villa
+[2023-06-09 06:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evadb
+[2023-06-09 06:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo11-addon-maintenance-equipment-status
+[2023-06-09 06:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: samna
+[2023-06-09 06:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brainsurf
+[2023-06-09 06:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-maintenance-project
+[2023-06-09 06:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-maintenance
+[2023-06-09 06:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gaohn-common-utils
+[2023-06-09 06:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo9-addon-mgmtsystem-claim
+[2023-06-09 06:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo9-addon-mgmtsystem-probability
+[2023-06-09 06:15:28] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: New version: [11.0.1.0.0.99.dev8] Old Version: [11.0.1.0.0.99.dev4]
+[2023-06-09 06:15:28] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo-addon-maintenance-project]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-09 06:15:28] INFO root fetch - processPackages [brainsurf]: New version: [7.0.0] Old Version: [6.0]
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: New version: [9.0.1.1.1.99.dev9] Old Version: [9.0.1.1.1.99.dev8]
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: New version: [16.0.20230608.0] Old Version: [16.0.20221228.0]
+[2023-06-09 06:15:28] INFO root fetch - processPackages [evadb]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-probability]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-09 06:15:28] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/ca/f9/c5eb749fed5158b7b21c173cc7cbe8cf1c359de8b8b65fc7906b187c5f8e/odoo9_addon_mgmtsystem_claim-9.0.1.1.1.99.dev8-py2-none-any.whl
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo-addon-maintenance-project]: Downloading https://files.pythonhosted.org/packages/46/d1/197387ed6d06b855b3c8936aa86488952fa6b829056fb6e6b7a13d9aa9c8/odoo_addon_maintenance_project-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-09 06:15:28] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/da/e9/f50e9989b209433152c8072db466c0b6fab8c07ed9259248508567a958ea/gaohn-common-utils-0.0.29.tar.gz
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-probability]: Downloading https://files.pythonhosted.org/packages/b2/b3/b5724a721b1722f89a61378ca4f134bfaeaa2d81b0848db56217436ffd64/odoo9_addon_mgmtsystem_probability-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-09 06:15:28] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/7d/08/dcec9635bb0589e47a747a8a37e44d63ca67394329fa9ddc5d54e3b22639/nonebot_adapter_villa-0.1.1.tar.gz
+[2023-06-09 06:15:28] INFO root fetch - processPackages [brainsurf]: Downloading https://files.pythonhosted.org/packages/69/33/06e20bcc6b1db81ab8850e8561f736e5970019757b77c8ecee7182862017/brainsurf-6.0.tar.gz
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/3a/f6/0b30f8fda2a27725d66e0aa33cf688b626ee3044e5eefe49947a2b8c9119/odoo11_addon_maintenance_equipment_status-11.0.1.0.0.99.dev4-py2.py3-none-any.whl
+[2023-06-09 06:15:28] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/b6/a5/bd4cf1f8343e52a2e2308ea3f1dc15b1558ffa2376be48c14af85c5c8711/evadb-0.2.7.tar.gz
+[2023-06-09 06:15:28] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/0b/29/d53ca892702013bdd053a5165af435a1895fa9b0652eb18652744ff862d4/odoo_addons_oca_maintenance-16.0.20221228.0-py3-none-any.whl
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-probability]: Downloading https://files.pythonhosted.org/packages/9a/3b/3c65472b15a265710974e611828d015a1e97aae13ad81158f8ff25fbd8da/odoo9_addon_mgmtsystem_probability-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/fd/b2/ace1929f5eb27b23695833408d96c721026d889b38a7f1e7be83ddd8f15c/odoo9_addon_mgmtsystem_claim-9.0.1.1.1.99.dev9-py2-none-any.whl
+[2023-06-09 06:15:28] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/2f/c5/f999cd0e656bc953d7b91972848d2b90c4f18c411df08eaec909187ced34/gaohn-common-utils-0.0.30.tar.gz
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo-addon-maintenance-project]: Downloading https://files.pythonhosted.org/packages/6f/fe/42f2f4d80049e9ffda84c5ae56da8cdc711b0f5623c33d17df1126ed3afe/odoo_addon_maintenance_project-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-probability]: executing diffoscope
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-probability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_mgmtsystem_probability-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_mgmtsystem_probability-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-mgmtsystem-probability/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: executing diffoscope
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_mgmtsystem_claim-9.0.1.1.1.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_mgmtsystem_claim-9.0.1.1.1.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-mgmtsystem-claim/9.0.1.1.1.99.dev8-9.0.1.1.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 06:15:28] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/09/06/52a8af4d7c2ef1e54f05764c86226f3184bb4e7739663adec73086ee1e78/nonebot_adapter_villa-0.1.2.tar.gz
+[2023-06-09 06:15:28] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/36/2a/b011391b0b716711a9dd0a1ed09310f5d6a6148e82cad3ba3bbbde11a19f/odoo11_addon_maintenance_equipment_status-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-06-09 06:15:28] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/9d/93/b37b1cb993eeea7065f6708036ebd25c4d5313713a14dfbb763623451a3f/evadb-0.2.8.tar.gz
+[2023-06-09 06:15:29] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-09 06:15:29] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.29.tar.gz tmp/gaohn-common-utils-0.0.30.tar.gz --markdown 20230609/g/gaohn-common-utils/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-06-09 06:15:29] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-06-09 06:15:29] INFO root fetch - processPackages [odoo-addon-maintenance-project]: executing diffoscope
+[2023-06-09 06:15:29] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.1.1.tar.gz tmp/nonebot_adapter_villa-0.1.2.tar.gz --markdown 20230609/n/nonebot-adapter-villa/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-09 06:15:29] INFO root fetch - processPackages [odoo-addon-maintenance-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_project-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_maintenance_project-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-maintenance-project/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-09 06:15:29] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/ef/34/820dc8e89fc0ee9ab0d13fa3b19bba963aae85ca2c9b65b51b1ad8fa6d19/odoo_addons_oca_maintenance-16.0.20230608.0-py3-none-any.whl
+[2023-06-09 06:15:29] INFO root fetch - processPackages [brainsurf]: Downloading https://files.pythonhosted.org/packages/51/ee/0faf7f315b8684dfe8ce02b0a11af1ed274239d5a8220e1f1fcd0e0d9497/brainsurf-7.0.0.tar.gz
+[2023-06-09 06:15:29] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-06-09 06:15:29] INFO root fetch - processPackages [evadb]: executing diffoscope
+[2023-06-09 06:15:29] INFO root fetch - processPackages [evadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evadb-0.2.7.tar.gz tmp/evadb-0.2.8.tar.gz --markdown 20230609/e/evadb/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-09 06:15:29] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: executing diffoscope
+[2023-06-09 06:15:29] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_maintenance-16.0.20221228.0-py3-none-any.whl.zip tmp/odoo_addons_oca_maintenance-16.0.20230608.0-py3-none-any.whl.zip --markdown 20230609/o/odoo-addons-oca-maintenance/16.0.20221228.0-16.0.20230608.0/diff.md --exclude *.pyd
+[2023-06-09 06:15:29] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: executing diffoscope
+[2023-06-09 06:15:29] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_maintenance_equipment_status-11.0.1.0.0.99.dev4-py2.py3-none-any.whl.zip tmp/odoo11_addon_maintenance_equipment_status-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip --markdown 20230609/o/odoo11-addon-maintenance-equipment-status/11.0.1.0.0.99.dev4-11.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-09 06:15:29] INFO root fetch - processPackages [brainsurf]: executing diffoscope
+[2023-06-09 06:15:29] INFO root fetch - processPackages [brainsurf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainsurf-6.0.tar.gz tmp/brainsurf-7.0.0.tar.gz --markdown 20230609/b/brainsurf/6.0-7.0.0/diff.md --exclude *.pyd
+[2023-06-09 06:15:29] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-06-09 06:15:29] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230609/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-06-09 06:15:30] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.1.1.tar.gz]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.29.tar.gz]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.1.2.tar.gz]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.30.tar.gz]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [nonebot-adapter-villa]: Start processing: odoo9-addon-mgmtsystem-severity
+[2023-06-09 06:15:30] INFO root fetch - processPackages [gaohn-common-utils]: Start processing: py-Ayiin
+[2023-06-09 06:15:30] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-06-09 06:15:30] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-09 06:15:30] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-severity]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev8] Old Version: [0.4.4.dev7]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [odoo-addon-maintenance-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_project-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [odoo-addon-maintenance-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_project-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [odoo-addon-maintenance-project]: Start processing: alicechess
+[2023-06-09 06:15:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-project]: success
+[2023-06-09 06:15:30] INFO root fetch - processPackages [alicechess]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20221228.0-py3-none-any.whl.zip]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20230608.0-py3-none-any.whl.zip]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Start processing: odoo-addon-mgmtsystem-claim
+[2023-06-09 06:15:30] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-maintenance]: success
+[2023-06-09 06:15:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_maintenance_equipment_status-11.0.1.0.0.99.dev4-py2.py3-none-any.whl.zip]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_maintenance_equipment_status-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-06-09 06:15:30] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: Start processing: odoo-addon-mgmtsystem-claim
+[2023-06-09 06:15:30] INFO root fetch - main [MainThread]: End processing [odoo11-addon-maintenance-equipment-status]: success
+[2023-06-09 06:15:30] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-severity]: Downloading https://files.pythonhosted.org/packages/ac/74/b9ee4e1d143463be02bce3016ac7541e35203638a261136d3f1bc3e964a9/odoo9_addon_mgmtsystem_severity-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-09 06:15:30] INFO root fetch - processPackages [alicechess]: Downloading https://files.pythonhosted.org/packages/6b/7c/de145547d085742018343bcef6dd93c0ddba0f43a1adc8e10a411d60a578/alicechess-1.0.0.tar.gz
+[2023-06-09 06:15:31] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/d1/63/5833b5149d584b5211019f9735358b269911534ec3cac9fcaa934c7b30bb/py-Ayiin-0.4.4.dev7.tar.gz
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-probability]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_mgmtsystem_probability-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-probability]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_mgmtsystem_probability-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 06:15:31] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mgmtsystem-probability]: success
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_mgmtsystem_claim-9.0.1.1.1.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_mgmtsystem_claim-9.0.1.1.1.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 06:15:31] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mgmtsystem-claim]: success
+[2023-06-09 06:15:31] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-06-09 06:15:31] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-06-09 06:15:31] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-severity]: Downloading https://files.pythonhosted.org/packages/a8/b3/2a8c3880bdf33a011e099ad48820c2802d692907b58dcdddcf6d6184d295/odoo9_addon_mgmtsystem_severity-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/68/f8/1aca352b71926aead871709ebd4f19fab968505c4d568d874c71765930c8/odoo_addon_mgmtsystem_claim-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/68/f8/1aca352b71926aead871709ebd4f19fab968505c4d568d874c71765930c8/odoo_addon_mgmtsystem_claim-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-severity]: executing diffoscope
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-severity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_mgmtsystem_severity-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_mgmtsystem_severity-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-mgmtsystem-severity/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 06:15:31] INFO root fetch - processPackages [alicechess]: Downloading https://files.pythonhosted.org/packages/16/04/5bbc2947925e609c91970e2a5d13726719854d41564527d3242faf148dd6/alicechess-1.0.1.tar.gz
+[2023-06-09 06:15:31] INFO root fetch - processPackages [brainsurf]: Remove: archive file [/home/abi/fetcher/tmp/brainsurf-6.0.tar.gz]
+[2023-06-09 06:15:31] INFO root fetch - processPackages [brainsurf]: Remove: archive file [/home/abi/fetcher/tmp/brainsurf-7.0.0.tar.gz]
+[2023-06-09 06:15:31] INFO root fetch - main [MainThread]: End processing [brainsurf]: success
+[2023-06-09 06:15:31] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 06:15:31] INFO root fetch - processPackages [alicechess]: executing diffoscope
+[2023-06-09 06:15:31] INFO root fetch - processPackages [alicechess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alicechess-1.0.0.tar.gz tmp/alicechess-1.0.1.tar.gz --markdown 20230609/a/alicechess/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/32/fd/80401e39d19b44848cfb39efb34f674f29f3956523ff61af5e26b5370cd2/odoo_addon_mgmtsystem_claim-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/32/fd/80401e39d19b44848cfb39efb34f674f29f3956523ff61af5e26b5370cd2/odoo_addon_mgmtsystem_claim-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: executing diffoscope
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_claim-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_claim-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-mgmtsystem-claim/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: executing diffoscope
+[2023-06-09 06:15:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_claim-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_claim-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-mgmtsystem-claim/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-09 06:15:31] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 06:15:31] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev7.tar.gz tmp/py-Ayiin-0.4.4.dev8.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev7-0.4.4.dev8/diff.md --exclude *.pyd
+[2023-06-09 06:15:32] INFO root fetch - processPackages [alicechess]: Remove: archive file [/home/abi/fetcher/tmp/alicechess-1.0.0.tar.gz]
+[2023-06-09 06:15:32] INFO root fetch - processPackages [alicechess]: Remove: archive file [/home/abi/fetcher/tmp/alicechess-1.0.1.tar.gz]
+[2023-06-09 06:15:32] INFO root fetch - main [MainThread]: End processing [alicechess]: success
+[2023-06-09 06:15:32] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-severity]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_mgmtsystem_severity-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 06:15:32] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-severity]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_mgmtsystem_severity-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 06:15:32] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mgmtsystem-severity]: success
+[2023-06-09 06:15:32] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_claim-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-09 06:15:32] INFO root fetch - processPackages [odoo-addon-mgmtsystem-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_claim-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-09 06:15:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-claim]: success
+[2023-06-09 06:15:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-claim]: success
+[2023-06-09 06:15:33] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev7.tar.gz]
+[2023-06-09 06:15:33] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 06:15:33] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 06:15:38] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.7.tar.gz]
+[2023-06-09 06:15:38] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.8.tar.gz]
+[2023-06-09 06:15:38] INFO root fetch - main [MainThread]: End processing [evadb]: success
+[2023-06-09 06:15:38] INFO root fetch - main [MainThread]: Store serial: [18436126]
