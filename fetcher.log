@@ -16556,3 +16556,180 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 08:33:30] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz]
 [2023-06-09 08:33:30] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
 [2023-06-09 08:33:30] INFO root fetch - main [MainThread]: Store serial: [18437298]
+[2023-06-09 08:38:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437298]
+[2023-06-09 08:38:41] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-09 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyutils-hyutil-hoyun-lab
+[2023-06-09 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-opsgenie
+[2023-06-09 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-slack
+[2023-06-09 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-postgresql
+[2023-06-09 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fastapi
+[2023-06-09 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-rabbitmq
+[2023-06-09 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipen-dry
+[2023-06-09 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xj-enroll
+[2023-06-09 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: carefree-toolkit
+[2023-06-09 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scipion-em
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1686290440] Old Version: [1.3.0a1686075673]
+[2023-06-09 08:38:41] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-09 08:38:41] INFO root fetch - processPackages [odoo-addon-fastapi]: New version: [16.0.0.0.1.30] Old Version: [16.0.0.0.1.27]
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1686290819] Old Version: [3.9.0a1685167828]
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.3a1686291082] Old Version: [0.4.3a1685168529]
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1686290911] Old Version: [3.4.0a1685167925]
+[2023-06-09 08:38:41] INFO root fetch - processPackages [carefree-toolkit]: New version: [0.3.6.3] Old Version: [0.3.6.2]
+[2023-06-09 08:38:41] INFO root fetch - processPackages [scipion-em]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pipen-dry]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-09 08:38:41] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-09 08:38:41] INFO root fetch - processPackages [odoo-addon-fastapi]: Downloading https://files.pythonhosted.org/packages/b2/87/4c7f70b57f92f335d77522cfa04e606f2e0486eef5ee90a00dc5e31f7211/odoo_addon_fastapi-16.0.0.0.1.27-py3-none-any.whl
+[2023-06-09 08:38:41] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/81/95/c3d4d6d2f1a146542006f78da02555680fe15434f1a9f1dce708105544df/hyutils-hyutil-hoyun-lab-0.0.3.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pipen-dry]: Downloading https://files.pythonhosted.org/packages/e0/f5/d383e30b0d5a02d6bc3f7fdbc2ef19aa38837b948bd0e24cbad3bfbf3130/pipen_dry-0.5.0.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/df/25/d7d32a15c0296a9916711f71287e1cd2f628d53c62548766aa6b9c0ce738/pulumi_opsgenie-1.3.0a1686075673.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [scipion-em]: Downloading https://files.pythonhosted.org/packages/9b/6f/7704c3461b1f7d27c1e2c937d58add7b582f56ccaaa853b83457fb2cb33b/scipion-em-3.0.8.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/56/eb/6930606920a22b7c2427e08a7cb3753598e8ecb67ff4b926b3d3c7bcb003/pulumi_rabbitmq-3.4.0a1685167925.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/83/5c/db0108aa17d074b8e68dc8a1cf42382e6689fcb5fb20de9ababb2b636267/pulumi_slack-0.4.3a1685168529.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/f6/6c/4748f50417326214405ad6a6e7b66fa8f3edc7d8d7dbebf35b156f93fd60/pulumi_postgresql-3.9.0a1685167828.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [carefree-toolkit]: Downloading https://files.pythonhosted.org/packages/b0/a4/36e76093015c8f9fab4be802329c4a3b098f2877c109f03f76d64e87b116/carefree-toolkit-0.3.6.2.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/cb/51/c58a63d89a90f590f0c3e00f442da6632a82cba7af5caad9a80f54866a9f/hyutils-hyutil-hoyun-lab-0.0.4.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [odoo-addon-fastapi]: Downloading https://files.pythonhosted.org/packages/e7/5e/921933b250d3befd091cd9d2ec482b33ed5c6b2cbaabb35e9b9b0c0f3e6b/odoo_addon_fastapi-16.0.0.0.1.30-py3-none-any.whl
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pipen-dry]: Downloading https://files.pythonhosted.org/packages/3b/8c/e9f351f2991fded2f5a893f74293ad3d62844a3891a428f34bce665ff6e2/pipen_dry-0.6.0.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/55/07/2b266938986d67e1e5fe25c3f90a41cd3debfac8d6ad53d4aa41a187aa36/pulumi_rabbitmq-3.4.0a1686290911.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/9b/b0/3feb390f3e516be525d663237ba8eb6d8025fe000487b50d856414ad824d/pulumi_slack-0.4.3a1686291082.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [scipion-em]: Downloading https://files.pythonhosted.org/packages/08/8a/23357ef1524e9d7564598f3f80aacf38b42fb76b8d5208f64f0114ae8353/scipion-em-3.0.9.tar.gz
+[2023-06-09 08:38:41] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: executing diffoscope
+[2023-06-09 08:38:41] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyutils-hyutil-hoyun-lab-0.0.3.tar.gz tmp/hyutils-hyutil-hoyun-lab-0.0.4.tar.gz --markdown 20230609/h/hyutils-hyutil-hoyun-lab/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-09 08:38:41] INFO root fetch - processPackages [carefree-toolkit]: Downloading https://files.pythonhosted.org/packages/78/e0/43a9f2df448676b2409554593c8aab595a647ad5503e19d76ede9d5e72e7/carefree-toolkit-0.3.6.3.tar.gz
+[2023-06-09 08:38:42] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/05/88/0e815f84cc54e7407b2a575804591e5a25dab92ab7f687e225d88266838c/pulumi_opsgenie-1.3.0a1686290440.tar.gz
+[2023-06-09 08:38:42] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/51/00/fba299f234b3e431467a389e28a13cb5fa4823812a71b01b2194b4b3e5e1/pulumi_postgresql-3.9.0a1686290819.tar.gz
+[2023-06-09 08:38:42] INFO root fetch - processPackages [pipen-dry]: executing diffoscope
+[2023-06-09 08:38:42] INFO root fetch - processPackages [pipen-dry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_dry-0.5.0.tar.gz tmp/pipen_dry-0.6.0.tar.gz --markdown 20230609/p/pipen-dry/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-09 08:38:42] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2023-06-09 08:38:42] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1685167925.tar.gz tmp/pulumi_rabbitmq-3.4.0a1686290911.tar.gz --markdown 20230609/p/pulumi-rabbitmq/3.4.0a1685167925-3.4.0a1686290911/diff.md --exclude *.pyd
+[2023-06-09 08:38:42] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2023-06-09 08:38:42] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.3a1685168529.tar.gz tmp/pulumi_slack-0.4.3a1686291082.tar.gz --markdown 20230609/p/pulumi-slack/0.4.3a1685168529-0.4.3a1686291082/diff.md --exclude *.pyd
+[2023-06-09 08:38:42] INFO root fetch - processPackages [odoo-addon-fastapi]: executing diffoscope
+[2023-06-09 08:38:42] INFO root fetch - processPackages [odoo-addon-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fastapi-16.0.0.0.1.27-py3-none-any.whl.zip tmp/odoo_addon_fastapi-16.0.0.0.1.30-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-fastapi/16.0.0.0.1.27-16.0.0.0.1.30/diff.md --exclude *.pyd
+[2023-06-09 08:38:42] INFO root fetch - processPackages [scipion-em]: executing diffoscope
+[2023-06-09 08:38:42] INFO root fetch - processPackages [scipion-em]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-3.0.8.tar.gz tmp/scipion-em-3.0.9.tar.gz --markdown 20230609/s/scipion-em/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-09 08:38:42] INFO root fetch - processPackages [carefree-toolkit]: executing diffoscope
+[2023-06-09 08:38:42] INFO root fetch - processPackages [carefree-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-toolkit-0.3.6.2.tar.gz tmp/carefree-toolkit-0.3.6.3.tar.gz --markdown 20230609/c/carefree-toolkit/0.3.6.2-0.3.6.3/diff.md --exclude *.pyd
+[2023-06-09 08:38:42] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-06-09 08:38:42] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2023-06-09 08:38:42] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1685167828.tar.gz tmp/pulumi_postgresql-3.9.0a1686290819.tar.gz --markdown 20230609/p/pulumi-postgresql/3.9.0a1685167828-3.9.0a1686290819/diff.md --exclude *.pyd
+[2023-06-09 08:38:42] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-06-09 08:38:42] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1686075673.tar.gz tmp/pulumi_opsgenie-1.3.0a1686290440.tar.gz --markdown 20230609/p/pulumi-opsgenie/1.3.0a1686075673-1.3.0a1686290440/diff.md --exclude *.pyd
+[2023-06-09 08:38:42] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-06-09 08:38:42] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230609/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pipen-dry]: Remove: archive file [/home/abi/fetcher/tmp/pipen_dry-0.5.0.tar.gz]
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pipen-dry]: Remove: archive file [/home/abi/fetcher/tmp/pipen_dry-0.6.0.tar.gz]
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pipen-dry]: Start processing: cloudoll
+[2023-06-09 08:38:43] INFO root fetch - main [MainThread]: End processing [pipen-dry]: success
+[2023-06-09 08:38:43] INFO root fetch - processPackages [cloudoll]: New version: [2.0.0] Old Version: [0.1.6]
+[2023-06-09 08:38:43] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.3.tar.gz]
+[2023-06-09 08:38:43] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.4.tar.gz]
+[2023-06-09 08:38:43] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Start processing: pyarmor-webui
+[2023-06-09 08:38:43] INFO root fetch - main [MainThread]: End processing [hyutils-hyutil-hoyun-lab]: success
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pyarmor-webui]: New version: [2.1] Old Version: [2.0]
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.3a1685168529.tar.gz]
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.3a1686291082.tar.gz]
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pulumi-slack]: Start processing: pipeline-feature
+[2023-06-09 08:38:43] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2023-06-09 08:38:43] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/df/a2/acda36fa10bb71d6bd84d6b66ec0c93d7a9831c54462c874b28684606948/cloudoll-0.1.6.tar.gz
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pyarmor-webui]: Downloading https://files.pythonhosted.org/packages/29/3c/b72a9c996d1df4ea1a988bb8883af63cabd8860662cee56170e97c07f51f/pyarmor-webui-2.0.zip
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1685167925.tar.gz]
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1686290911.tar.gz]
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pulumi-rabbitmq]: Start processing: bagbag
+[2023-06-09 08:38:43] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2023-06-09 08:38:43] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-09 08:38:43] INFO root fetch - processPackages [bagbag]: New version: [0.60.1] Old Version: [0.60.0]
+[2023-06-09 08:38:43] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/34/14/ab6b0d5aedb198f9cc6c7c30e1c4b61cf8f9900a2a154604b812d72ed50f/cloudoll-2.0.0.tar.gz
+[2023-06-09 08:38:43] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/48/14/b46fcf4a01dd7724de6372809becfd1d709dfca0f589f98a8f68f37281af/bagbag-0.60.0.tar.gz
+[2023-06-09 08:38:44] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-09 08:38:44] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230609/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 08:38:44] INFO root fetch - processPackages [cloudoll]: executing diffoscope
+[2023-06-09 08:38:44] INFO root fetch - processPackages [cloudoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudoll-0.1.6.tar.gz tmp/cloudoll-2.0.0.tar.gz --markdown 20230609/c/cloudoll/0.1.6-2.0.0/diff.md --exclude *.pyd
+[2023-06-09 08:38:44] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1685167828.tar.gz]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1686290819.tar.gz]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [pulumi-postgresql]: Start processing: xj-captcha
+[2023-06-09 08:38:44] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2023-06-09 08:38:44] INFO root fetch - processPackages [pyarmor-webui]: Downloading https://files.pythonhosted.org/packages/5f/6e/42bca6cb14608bcaeddd612b2a02295b95502f32136c224d745d23576844/pyarmor-webui-2.1.zip
+[2023-06-09 08:38:44] INFO root fetch - processPackages [xj-captcha]: New version: [1.0.9] Old Version: [1.0.6]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [carefree-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/carefree-toolkit-0.3.6.2.tar.gz]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [carefree-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/carefree-toolkit-0.3.6.3.tar.gz]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [carefree-toolkit]: Start processing: pyNekobin
+[2023-06-09 08:38:44] INFO root fetch - main [MainThread]: End processing [carefree-toolkit]: success
+[2023-06-09 08:38:44] WARNING root fetch - processPackages [pyNekobin]: Skipping, unable to determine old version
+[2023-06-09 08:38:44] INFO root fetch - processPackages [xj-captcha]: Downloading https://files.pythonhosted.org/packages/00/a5/84a3749279294e1932267ab065a6fc338830d2d6353b264a0aa3faa9cf89/xj_captcha-1.0.6.tar.gz
+[2023-06-09 08:38:44] INFO root fetch - processPackages [pyNekobin]: Start processing: bulma-sphinx-theme
+[2023-06-09 08:38:44] INFO root fetch - main [MainThread]: End processing [pyNekobin] error
+[2023-06-09 08:38:44] INFO root fetch - processPackages [bulma-sphinx-theme]: New version: [0.1.0rc1] Old Version: [0.1.0]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [pyarmor-webui]: executing diffoscope
+[2023-06-09 08:38:44] INFO root fetch - processPackages [pyarmor-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-webui-2.0.zip tmp/pyarmor-webui-2.1.zip --markdown 20230609/p/pyarmor-webui/2.0-2.1/diff.md --exclude *.pyd
+[2023-06-09 08:38:44] INFO root fetch - processPackages [xj-captcha]: Downloading https://files.pythonhosted.org/packages/e9/a2/939aae9f244db14f395894bf0d0ca874c2c2608148ec272fa37055697d26/xj_captcha-1.0.9.tar.gz
+[2023-06-09 08:38:44] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [xj-enroll]: Start processing: architector
+[2023-06-09 08:38:44] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-06-09 08:38:44] INFO root fetch - processPackages [bulma-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/eb/41/9a983269b975a7d97ed00301c5d7dae5073d93490cb5dfddcb2464081f92/bulma_sphinx_theme-0.1.0.tar.gz
+[2023-06-09 08:38:44] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c8/a2/67b4a6d66e3ca7b47fe5e4768ddd34f858cdfaac1521bef1532724cef22d/bagbag-0.60.1.tar.gz
+[2023-06-09 08:38:44] INFO root fetch - processPackages [architector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [xj-captcha]: executing diffoscope
+[2023-06-09 08:38:44] INFO root fetch - processPackages [xj-captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_captcha-1.0.6.tar.gz tmp/xj_captcha-1.0.9.tar.gz --markdown 20230609/x/xj-captcha/1.0.6-1.0.9/diff.md --exclude *.pyd
+[2023-06-09 08:38:44] INFO root fetch - processPackages [odoo-addon-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi-16.0.0.0.1.27-py3-none-any.whl.zip]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [odoo-addon-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi-16.0.0.0.1.30-py3-none-any.whl.zip]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [odoo-addon-fastapi]: Start processing: refaci
+[2023-06-09 08:38:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-fastapi]: success
+[2023-06-09 08:38:44] INFO root fetch - processPackages [refaci]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [architector]: Downloading https://files.pythonhosted.org/packages/9f/be/95024ad26d1efbe795a4c92cad5c6bf237350ec313b1406965f642289a7f/architector-0.0.8.tar.gz
+[2023-06-09 08:38:44] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-09 08:38:44] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.0.tar.gz tmp/bagbag-0.60.1.tar.gz --markdown 20230609/b/bagbag/0.60.0-0.60.1/diff.md --exclude *.pyd
+[2023-06-09 08:38:44] INFO root fetch - processPackages [bulma-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/31/a0/a4e8a925f89e57d658881df3b3230e32ea5c48fd2b40d90e00b02fc314b2/bulma_sphinx_theme-0.1.0rc1.tar.gz
+[2023-06-09 08:38:44] INFO root fetch - processPackages [refaci]: Downloading https://files.pythonhosted.org/packages/c0/b9/b875d94279c3096e54eee1b750c276490a619813d55d8b2e907fdcc40a07/refaci-0.6.0.tar.gz
+[2023-06-09 08:38:44] INFO root fetch - processPackages [scipion-em]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-3.0.8.tar.gz]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [scipion-em]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-3.0.9.tar.gz]
+[2023-06-09 08:38:44] INFO root fetch - processPackages [scipion-em]: Start processing: alibabacloud-eventbridge20200401
+[2023-06-09 08:38:44] INFO root fetch - main [MainThread]: End processing [scipion-em]: success
+[2023-06-09 08:38:44] INFO root fetch - processPackages [bulma-sphinx-theme]: executing diffoscope
+[2023-06-09 08:38:44] INFO root fetch - processPackages [bulma-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulma_sphinx_theme-0.1.0.tar.gz tmp/bulma_sphinx_theme-0.1.0rc1.tar.gz --markdown 20230609/b/bulma-sphinx-theme/0.1.0-0.1.0rc1/diff.md --exclude *.pyd
+[2023-06-09 08:38:44] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: New version: [2.0.0] Old Version: [1.0.8]
+[2023-06-09 08:38:45] INFO root fetch - processPackages [refaci]: Downloading https://files.pythonhosted.org/packages/c2/b3/08ff66c2de03c7dcec0e680e60b2e4d6bb4356d2005ee7a86360b4c309a1/refaci-0.6.1.tar.gz
+[2023-06-09 08:38:45] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: Downloading https://files.pythonhosted.org/packages/09/69/ebb8c6a3f7f23852ca6733a282f8c8c981578bc95318d0a3da65c4692f49/alibabacloud_eventbridge20200401-1.0.8.tar.gz
+[2023-06-09 08:38:45] INFO root fetch - processPackages [architector]: Downloading https://files.pythonhosted.org/packages/6e/44/43cb215ed7d9e66b6414ba0e172cd5d27dc399082ac31c2cd87b30019bdf/architector-0.0.9.tar.gz
+[2023-06-09 08:38:45] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-09 08:38:45] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-09 08:38:45] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-09 08:38:45] INFO root fetch - processPackages [refaci]: executing diffoscope
+[2023-06-09 08:38:45] INFO root fetch - processPackages [refaci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refaci-0.6.0.tar.gz tmp/refaci-0.6.1.tar.gz --markdown 20230609/r/refaci/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-09 08:38:45] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: Downloading https://files.pythonhosted.org/packages/b4/96/ef7b2767d76b887cde4e61a0f2c067133d99146f7c00fb4f828819b86c7e/alibabacloud_eventbridge20200401-2.0.0.tar.gz
+[2023-06-09 08:38:45] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: executing diffoscope
+[2023-06-09 08:38:45] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_eventbridge20200401-1.0.8.tar.gz tmp/alibabacloud_eventbridge20200401-2.0.0.tar.gz --markdown 20230609/a/alibabacloud-eventbridge20200401/1.0.8-2.0.0/diff.md --exclude *.pyd
+[2023-06-09 08:38:45] INFO root fetch - processPackages [xj-captcha]: Remove: archive file [/home/abi/fetcher/tmp/xj_captcha-1.0.6.tar.gz]
+[2023-06-09 08:38:45] INFO root fetch - processPackages [xj-captcha]: Remove: archive file [/home/abi/fetcher/tmp/xj_captcha-1.0.9.tar.gz]
+[2023-06-09 08:38:45] INFO root fetch - main [MainThread]: End processing [xj-captcha]: success
+[2023-06-09 08:38:45] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-0.1.6.tar.gz]
+[2023-06-09 08:38:45] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.0.tar.gz]
+[2023-06-09 08:38:45] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
+[2023-06-09 08:38:46] INFO root fetch - processPackages [architector]: executing diffoscope
+[2023-06-09 08:38:46] INFO root fetch - processPackages [architector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/architector-0.0.8.tar.gz tmp/architector-0.0.9.tar.gz --markdown 20230609/a/architector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 08:38:46] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1686075673.tar.gz]
+[2023-06-09 08:38:46] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1686290440.tar.gz]
+[2023-06-09 08:38:46] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-06-09 08:38:46] INFO root fetch - processPackages [refaci]: Remove: archive file [/home/abi/fetcher/tmp/refaci-0.6.0.tar.gz]
+[2023-06-09 08:38:46] INFO root fetch - processPackages [refaci]: Remove: archive file [/home/abi/fetcher/tmp/refaci-0.6.1.tar.gz]
+[2023-06-09 08:38:46] INFO root fetch - main [MainThread]: End processing [refaci]: success
+[2023-06-09 08:38:47] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.0.tar.gz]
+[2023-06-09 08:38:47] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.1.tar.gz]
+[2023-06-09 08:38:47] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-09 08:38:47] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eventbridge20200401-1.0.8.tar.gz]
+[2023-06-09 08:38:47] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eventbridge20200401-2.0.0.tar.gz]
+[2023-06-09 08:38:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-eventbridge20200401]: success
+[2023-06-09 08:38:48] INFO root fetch - processPackages [architector]: Remove: archive file [/home/abi/fetcher/tmp/architector-0.0.8.tar.gz]
+[2023-06-09 08:38:48] INFO root fetch - processPackages [architector]: Remove: archive file [/home/abi/fetcher/tmp/architector-0.0.9.tar.gz]
+[2023-06-09 08:38:48] INFO root fetch - main [MainThread]: End processing [architector]: success
+[2023-06-09 08:38:49] INFO root fetch - processPackages [bulma-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/bulma_sphinx_theme-0.1.0.tar.gz]
+[2023-06-09 08:38:49] INFO root fetch - processPackages [bulma-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/bulma_sphinx_theme-0.1.0rc1.tar.gz]
+[2023-06-09 08:38:49] INFO root fetch - main [MainThread]: End processing [bulma-sphinx-theme]: success
+[2023-06-09 08:38:53] INFO root fetch - processPackages [pyarmor-webui]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-webui-2.0.zip]
+[2023-06-09 08:38:53] INFO root fetch - processPackages [pyarmor-webui]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-webui-2.1.zip]
+[2023-06-09 08:38:53] INFO root fetch - main [MainThread]: End processing [pyarmor-webui]: success
+[2023-06-09 08:38:53] INFO root fetch - main [MainThread]: Store serial: [18437361]
