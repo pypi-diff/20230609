@@ -3564,3 +3564,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 03:27:04] INFO root fetch - processPackages [pyalarmdotcomajax]: Remove: archive file [/home/abi/fetcher/tmp/pyalarmdotcomajax-0.5.3.tar.gz]
 [2023-06-09 03:27:04] INFO root fetch - main [MainThread]: End processing [pyalarmdotcomajax]: success
 [2023-06-09 03:27:04] INFO root fetch - main [MainThread]: Store serial: [18433073]
+[2023-06-09 03:32:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18433073]
+[2023-06-09 03:32:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-09 03:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libpymcr
+[2023-06-09 03:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stable-ts
+[2023-06-09 03:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-subminute
+[2023-06-09 03:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jag-panzer
+[2023-06-09 03:32:13] INFO root fetch - processPackages [jag-panzer]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-06-09 03:32:13] INFO root fetch - processPackages [libpymcr]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-09 03:32:13] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-09 03:32:13] INFO root fetch - processPackages [stable-ts]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-06-09 03:32:13] INFO root fetch - processPackages [libpymcr]: Downloading https://files.pythonhosted.org/packages/c3/05/f8840d6942add8544d405659236b70094f99df0701bcbb23e7b96625c1aa/libpymcr-0.1.1-cp39-cp39-win_amd64.whl
+[2023-06-09 03:32:13] INFO root fetch - processPackages [jag-panzer]: Downloading https://files.pythonhosted.org/packages/02/60/9795d1b53bf8fec757f6583e27d671b63711e13dcf064b9a522381e66308/jag-panzer-0.0.3.tar.gz
+[2023-06-09 03:32:13] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/31/70/a235e03475703159f59f5881e5059cc9fa03f4e311fccb627d775c45ed7c/stable-ts-2.6.2.tar.gz
+[2023-06-09 03:32:13] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-09 03:32:13] INFO root fetch - processPackages [jag-panzer]: Downloading https://files.pythonhosted.org/packages/81/13/8c6861eb9085e5eacd15490994e67645173b05bd8e175275102eeeb15ea9/jag-panzer-0.0.5.tar.gz
+[2023-06-09 03:32:13] INFO root fetch - processPackages [libpymcr]: Downloading https://files.pythonhosted.org/packages/4e/a2/3a6ce178e49a308d3157e5eb49574291efb7833be7befada9d9e4e93c12d/libpymcr-0.1.2-cp39-cp39-win_amd64.whl
+[2023-06-09 03:32:13] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/21/03/2c4b550dd0e3a2f21eebef71a651f7ecfd75a26fe03da96347f6cd62dd24/stable-ts-2.6.3.tar.gz
+[2023-06-09 03:32:13] INFO root fetch - processPackages [libpymcr]: executing diffoscope
+[2023-06-09 03:32:13] INFO root fetch - processPackages [libpymcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libpymcr-0.1.1-cp39-cp39-win_amd64.whl.zip tmp/libpymcr-0.1.2-cp39-cp39-win_amd64.whl.zip --markdown 20230609/l/libpymcr/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-09 03:32:13] INFO root fetch - processPackages [jag-panzer]: executing diffoscope
+[2023-06-09 03:32:13] INFO root fetch - processPackages [jag-panzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jag-panzer-0.0.3.tar.gz tmp/jag-panzer-0.0.5.tar.gz --markdown 20230609/j/jag-panzer/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-06-09 03:32:13] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-09 03:32:13] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-09 03:32:13] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230609/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-09 03:32:13] INFO root fetch - processPackages [stable-ts]: executing diffoscope
+[2023-06-09 03:32:13] INFO root fetch - processPackages [stable-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable-ts-2.6.2.tar.gz tmp/stable-ts-2.6.3.tar.gz --markdown 20230609/s/stable-ts/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-06-09 03:32:14] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-09 03:32:14] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-09 03:32:14] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-09 03:32:14] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.0.3.tar.gz]
+[2023-06-09 03:32:14] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.0.5.tar.gz]
+[2023-06-09 03:32:14] INFO root fetch - main [MainThread]: End processing [jag-panzer]: success
+[2023-06-09 03:32:15] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.6.2.tar.gz]
+[2023-06-09 03:32:15] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.6.3.tar.gz]
+[2023-06-09 03:32:15] INFO root fetch - main [MainThread]: End processing [stable-ts]: success
+[2023-06-09 03:32:15] INFO root fetch - processPackages [libpymcr]: Remove: archive file [/home/abi/fetcher/tmp/libpymcr-0.1.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-09 03:32:15] INFO root fetch - processPackages [libpymcr]: Remove: archive file [/home/abi/fetcher/tmp/libpymcr-0.1.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-09 03:32:15] INFO root fetch - main [MainThread]: End processing [libpymcr]: success
+[2023-06-09 03:32:15] INFO root fetch - main [MainThread]: Store serial: [18433098]
