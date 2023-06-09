@@ -16733,3 +16733,159 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 08:38:53] INFO root fetch - processPackages [pyarmor-webui]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-webui-2.1.zip]
 [2023-06-09 08:38:53] INFO root fetch - main [MainThread]: End processing [pyarmor-webui]: success
 [2023-06-09 08:38:53] INFO root fetch - main [MainThread]: Store serial: [18437361]
+[2023-06-09 08:43:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437361]
+[2023-06-09 08:44:03] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-09 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-signalfx
+[2023-06-09 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qdrant-tools
+[2023-06-09 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fractal-toolkit
+[2023-06-09 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eotdl-cli
+[2023-06-09 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shakenfist-agent
+[2023-06-09 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhijiang
+[2023-06-09 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trailblazer
+[2023-06-09 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyNekobin
+[2023-06-09 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-data-services
+[2023-06-09 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chrono-chatgpt
+[2023-06-09 08:44:03] INFO root fetch - processPackages [pulumi-signalfx]: New version: [5.9.0a1678179334] Old Version: [5.9.0a1678129624]
+[2023-06-09 08:44:03] INFO root fetch - processPackages [eotdl-cli]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-09 08:44:03] INFO root fetch - processPackages [fractal-toolkit]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-09 08:44:03] INFO root fetch - processPackages [pyNekobin]: New version: [2.3] Old Version: [2.2]
+[2023-06-09 08:44:03] INFO root fetch - processPackages [chrono-chatgpt]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-09 08:44:03] INFO root fetch - processPackages [qdrant-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-09 08:44:03] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/ac/a0/66b67a4cfefa0a7dd50def0e2152e881c6f3fd62447006a9c1e1bfcc69bc/eotdl-cli-2023.6.8.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [shakenfist-agent]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-09 08:44:03] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-06-09 08:44:03] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5219029506] Old Version: [2.0.0.dev5218798347]
+[2023-06-09 08:44:03] INFO root fetch - processPackages [zhijiang]: New version: [0.2] Old Version: [0.1]
+[2023-06-09 08:44:03] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/fa/f2/dce9c345791e6231ac3d6d5e39864adca8d6dbcafa79ab8b54930a2e339e/th2_data_services-2.0.0.dev5218798347.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/29/28/44e3dc79179249f99d5b97df28bd8df48bb78d568992127a06d686669e9f/zhijiang-0.1-py3-none-any.whl
+[2023-06-09 08:44:03] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/af/75/3101307f31488256611725b95199fce1404901ecc564246e854a6788f6e9/shakenfist-agent-0.3.7.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [pyNekobin]: Downloading https://files.pythonhosted.org/packages/2f/ee/417a0dd94920c2a520d965971d76af41ef9cc04064c5105bee510a20bf21/pyNekobin-2.2.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [chrono-chatgpt]: Downloading https://files.pythonhosted.org/packages/26/71/eab4fc08370e572a2e8d697661b98fc6e62db613282384a873e6a4feafaf/chrono-chatgpt-0.1.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [fractal-toolkit]: Downloading https://files.pythonhosted.org/packages/65/ad/73f03906eb19ab2f29b95db0084f87564fd4ca11bddf23e8513ad36095ce/fractal_toolkit-4.0.0.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/7e/61/ade4c59b6ce7c16df044d071b13218024e861c7693bfa058bbc2391d3850/pulumi_signalfx-5.9.0a1678129624.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [qdrant-tools]: Downloading https://files.pythonhosted.org/packages/62/26/26bc00af712f48fb015787581d147f4138249250750ae6e107ce338b3f5c/qdrant_tools-0.0.1.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/dc/ce/1407424fb5591f51a655db5df9d899080e7cbfc8eb9ff72599d9081fbe9d/th2_data_services-2.0.0.dev5219029506.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/44/e3/51f1ea9dce2ed636cce64809918116e7d16aad6c784910df3b8212ea7ba6/eotdl-cli-2023.6.9.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/94/0f/ca7a033c40c103fd51fd04d7792656a5d8c96da48440e5a03bd1a45a9aa4/zhijiang-0.2-py3-none-any.whl
+[2023-06-09 08:44:03] INFO root fetch - processPackages [pyNekobin]: Downloading https://files.pythonhosted.org/packages/f4/fc/dbceb5904cdc58b6907e1767f4737e40bd57ac2edce888a2c54b138d96f4/pyNekobin-2.3.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/1b/9d/8e86760dedc977eaad2d9a2b5c4b27400c70f0c4ec38ab513b7cf312f996/shakenfist-agent-0.3.8.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [chrono-chatgpt]: Downloading https://files.pythonhosted.org/packages/c2/83/f604219a6ecbd108d5348145f8fd13e0d039d132743905915f8d37637be8/chrono_chatgpt-0.1.1.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-06-09 08:44:03] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230609/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-06-09 08:44:03] INFO root fetch - processPackages [qdrant-tools]: Downloading https://files.pythonhosted.org/packages/60/ce/7b7dcbce177c20aea136442b34014505e89a009be147ff277426f724736a/qdrant_tools-0.0.2.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-06-09 08:44:03] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5218798347.tar.gz tmp/th2_data_services-2.0.0.dev5219029506.tar.gz --markdown 20230609/t/th2-data-services/2.0.0.dev5218798347-2.0.0.dev5219029506/diff.md --exclude *.pyd
+[2023-06-09 08:44:03] INFO root fetch - processPackages [eotdl-cli]: executing diffoscope
+[2023-06-09 08:44:03] INFO root fetch - processPackages [eotdl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl-cli-2023.6.8.tar.gz tmp/eotdl-cli-2023.6.9.tar.gz --markdown 20230609/e/eotdl-cli/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-09 08:44:03] INFO root fetch - processPackages [shakenfist-agent]: executing diffoscope
+[2023-06-09 08:44:03] INFO root fetch - processPackages [shakenfist-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-agent-0.3.7.tar.gz tmp/shakenfist-agent-0.3.8.tar.gz --markdown 20230609/s/shakenfist-agent/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-09 08:44:03] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2023-06-09 08:44:03] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.1-py3-none-any.whl.zip tmp/zhijiang-0.2-py3-none-any.whl.zip --markdown 20230609/z/zhijiang/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-09 08:44:03] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/de/fa/3f3b9230a1ef9eea16d4715b365d7651076d7530dc754902f930cb2a83cc/pulumi_signalfx-5.9.0a1678179334.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [fractal-toolkit]: Downloading https://files.pythonhosted.org/packages/bd/f6/45fb5b8969c772ca77f2eb7fbf1aac5b27ff78309ad38f2d8c1439d5ca3d/fractal_toolkit-4.0.1.tar.gz
+[2023-06-09 08:44:03] INFO root fetch - processPackages [pyNekobin]: executing diffoscope
+[2023-06-09 08:44:03] INFO root fetch - processPackages [pyNekobin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyNekobin-2.2.tar.gz tmp/pyNekobin-2.3.tar.gz --markdown 20230609/p/pyNekobin/2.2-2.3/diff.md --exclude *.pyd
+[2023-06-09 08:44:03] INFO root fetch - processPackages [chrono-chatgpt]: executing diffoscope
+[2023-06-09 08:44:03] INFO root fetch - processPackages [qdrant-tools]: executing diffoscope
+[2023-06-09 08:44:03] INFO root fetch - processPackages [qdrant-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrant_tools-0.0.1.tar.gz tmp/qdrant_tools-0.0.2.tar.gz --markdown 20230609/q/qdrant-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-09 08:44:03] INFO root fetch - processPackages [chrono-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrono-chatgpt-0.1.tar.gz tmp/chrono_chatgpt-0.1.1.tar.gz --markdown 20230609/c/chrono-chatgpt/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-09 08:44:04] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-06-09 08:44:04] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz --markdown 20230609/p/pulumi-signalfx/5.9.0a1678129624-5.9.0a1678179334/diff.md --exclude *.pyd
+[2023-06-09 08:44:04] INFO root fetch - processPackages [fractal-toolkit]: executing diffoscope
+[2023-06-09 08:44:04] INFO root fetch - processPackages [fractal-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_toolkit-4.0.0.tar.gz tmp/fractal_toolkit-4.0.1.tar.gz --markdown 20230609/f/fractal-toolkit/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-09 08:44:05] INFO root fetch - processPackages [chrono-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/chrono-chatgpt-0.1.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [chrono-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/chrono_chatgpt-0.1.1.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [chrono-chatgpt]: Start processing: deepdoctection
+[2023-06-09 08:44:05] INFO root fetch - main [MainThread]: End processing [chrono-chatgpt]: success
+[2023-06-09 08:44:05] INFO root fetch - processPackages [deepdoctection]: New version: [0.24] Old Version: [0.23]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.2.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.3.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [pyNekobin]: Start processing: pulumi-snowflake
+[2023-06-09 08:44:05] INFO root fetch - main [MainThread]: End processing [pyNekobin]: success
+[2023-06-09 08:44:05] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.7.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.8.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [shakenfist-agent]: Start processing: timeoff
+[2023-06-09 08:44:05] INFO root fetch - main [MainThread]: End processing [shakenfist-agent]: success
+[2023-06-09 08:44:05] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.1-py3-none-any.whl.zip]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.2-py3-none-any.whl.zip]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [zhijiang]: Start processing: pulumi-splunk
+[2023-06-09 08:44:05] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2023-06-09 08:44:05] INFO root fetch - processPackages [timeoff]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1686291512] Old Version: [1.3.0a1685168804]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5218798347.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5219029506.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [th2-data-services]: Start processing: gaohn-common-utils
+[2023-06-09 08:44:05] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-06-09 08:44:05] INFO root fetch - processPackages [qdrant-tools]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_tools-0.0.1.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [qdrant-tools]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_tools-0.0.2.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [qdrant-tools]: Start processing: rongdavbaaddins
+[2023-06-09 08:44:05] INFO root fetch - main [MainThread]: End processing [qdrant-tools]: success
+[2023-06-09 08:44:05] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [trailblazer]: Start processing: patio
+[2023-06-09 08:44:05] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-06-09 08:44:05] INFO root fetch - processPackages [eotdl-cli]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-cli-2023.6.8.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [eotdl-cli]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-cli-2023.6.9.tar.gz]
+[2023-06-09 08:44:05] INFO root fetch - main [MainThread]: End processing [eotdl-cli]: success
+[2023-06-09 08:44:05] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.1.2] Old Version: [0.0.1.1]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [patio]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-09 08:44:05] INFO root fetch - processPackages [deepdoctection]: Downloading https://files.pythonhosted.org/packages/73/2f/7642b1bf2a34b80ba8bec4b7c2f62058248e7238ee87a88d68a60e9a32a3/deepdoctection-0.23.tar.gz
+[2023-06-09 08:44:05] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/2f/c5/f999cd0e656bc953d7b91972848d2b90c4f18c411df08eaec909187ced34/gaohn-common-utils-0.0.30.tar.gz
+[2023-06-09 08:44:05] INFO root fetch - processPackages [patio]: Downloading https://files.pythonhosted.org/packages/a6/77/9a5d80153f40814501629641ca3736a83ceb9ea7da02ae070894bb36cb48/patio-0.1.2.tar.gz
+[2023-06-09 08:44:05] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/5b/77/9dac1d1e5bd7c6b8072afc33e7b4818c5f7a5c7ae457e9caeeb271ccb9e5/rongdavbaaddins-0.0.1.1.tar.gz
+[2023-06-09 08:44:05] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-06-09 08:44:05] INFO root fetch - processPackages [timeoff]: Downloading https://files.pythonhosted.org/packages/96/97/ed0355cd4772dde97fa3f232259509b4fe06d5d8da98cfd30e994d8850a7/timeoff-0.0.2.tar.gz
+[2023-06-09 08:44:06] INFO root fetch - processPackages [patio]: Downloading https://files.pythonhosted.org/packages/9a/fb/0d733a913de7ad18e510a013e73e3626473332a1f465cbb58f626e29c66f/patio-0.1.3.tar.gz
+[2023-06-09 08:44:06] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/e6/37/1c23ea94293126d8398cb1501c9c33919d2dc4d3f094b25819c9c41bb2d2/gaohn-common-utils-0.0.31.tar.gz
+[2023-06-09 08:44:06] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/d0/50/4d905c1b5be7329ce19973d1292f7d6fa32a7239b3d9ba2f821e4f5e40c3/pulumi_splunk-1.3.0a1685168804.tar.gz
+[2023-06-09 08:44:06] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/ad/49/5951c9c10de0461dfc843f89c88ed6e7c1f5d5e1fc4edee4bda643e19b4d/rongdavbaaddins-0.0.1.2.tar.gz
+[2023-06-09 08:44:06] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz]
+[2023-06-09 08:44:06] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz]
+[2023-06-09 08:44:06] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-06-09 08:44:06] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-09 08:44:06] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.30.tar.gz tmp/gaohn-common-utils-0.0.31.tar.gz --markdown 20230609/g/gaohn-common-utils/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-06-09 08:44:06] INFO root fetch - processPackages [timeoff]: Downloading https://files.pythonhosted.org/packages/c9/4c/601042df096f86c0c097ae4ddac0772e90acee6917ecf680ae04a5ec21f3/timeoff-0.0.3.tar.gz
+[2023-06-09 08:44:06] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-06-09 08:44:06] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.1.1.tar.gz tmp/rongdavbaaddins-0.0.1.2.tar.gz --markdown 20230609/r/rongdavbaaddins/0.0.1.1-0.0.1.2/diff.md --exclude *.pyd
+[2023-06-09 08:44:06] INFO root fetch - processPackages [fractal-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fractal_toolkit-4.0.0.tar.gz]
+[2023-06-09 08:44:06] INFO root fetch - processPackages [fractal-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fractal_toolkit-4.0.1.tar.gz]
+[2023-06-09 08:44:06] INFO root fetch - main [MainThread]: End processing [fractal-toolkit]: success
+[2023-06-09 08:44:06] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-06-09 08:44:06] INFO root fetch - processPackages [patio]: executing diffoscope
+[2023-06-09 08:44:06] INFO root fetch - processPackages [patio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patio-0.1.2.tar.gz tmp/patio-0.1.3.tar.gz --markdown 20230609/p/patio/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-09 08:44:06] INFO root fetch - processPackages [timeoff]: executing diffoscope
+[2023-06-09 08:44:06] INFO root fetch - processPackages [timeoff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeoff-0.0.2.tar.gz tmp/timeoff-0.0.3.tar.gz --markdown 20230609/t/timeoff/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-09 08:44:06] INFO root fetch - processPackages [deepdoctection]: Downloading https://files.pythonhosted.org/packages/9d/9a/89f3f3f6c73466229af8002838b364b624a8b1631b9548ed7f33b189bb74/deepdoctection-0.24.tar.gz
+[2023-06-09 08:44:06] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/cc/90/43bb12c1e4181d726595a9b02027b5ac4db03b5f7ebd5154fc2364112f42/pulumi_splunk-1.3.0a1686291512.tar.gz
+[2023-06-09 08:44:06] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-06-09 08:44:06] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230609/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-06-09 08:44:06] INFO root fetch - processPackages [deepdoctection]: executing diffoscope
+[2023-06-09 08:44:06] INFO root fetch - processPackages [deepdoctection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdoctection-0.23.tar.gz tmp/deepdoctection-0.24.tar.gz --markdown 20230609/d/deepdoctection/0.23-0.24/diff.md --exclude *.pyd
+[2023-06-09 08:44:06] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2023-06-09 08:44:06] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1685168804.tar.gz tmp/pulumi_splunk-1.3.0a1686291512.tar.gz --markdown 20230609/p/pulumi-splunk/1.3.0a1685168804-1.3.0a1686291512/diff.md --exclude *.pyd
+[2023-06-09 08:44:07] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.30.tar.gz]
+[2023-06-09 08:44:07] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.31.tar.gz]
+[2023-06-09 08:44:07] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-09 08:44:07] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.1.1.tar.gz]
+[2023-06-09 08:44:07] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.1.2.tar.gz]
+[2023-06-09 08:44:07] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-06-09 08:44:07] INFO root fetch - processPackages [patio]: Remove: archive file [/home/abi/fetcher/tmp/patio-0.1.2.tar.gz]
+[2023-06-09 08:44:07] INFO root fetch - processPackages [patio]: Remove: archive file [/home/abi/fetcher/tmp/patio-0.1.3.tar.gz]
+[2023-06-09 08:44:07] INFO root fetch - main [MainThread]: End processing [patio]: success
+[2023-06-09 08:44:07] INFO root fetch - processPackages [timeoff]: Remove: archive file [/home/abi/fetcher/tmp/timeoff-0.0.2.tar.gz]
+[2023-06-09 08:44:07] INFO root fetch - processPackages [timeoff]: Remove: archive file [/home/abi/fetcher/tmp/timeoff-0.0.3.tar.gz]
+[2023-06-09 08:44:07] INFO root fetch - main [MainThread]: End processing [timeoff]: success
+[2023-06-09 08:44:08] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1685168804.tar.gz]
+[2023-06-09 08:44:08] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1686291512.tar.gz]
+[2023-06-09 08:44:08] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2023-06-09 08:44:09] INFO root fetch - processPackages [deepdoctection]: Remove: archive file [/home/abi/fetcher/tmp/deepdoctection-0.23.tar.gz]
+[2023-06-09 08:44:09] INFO root fetch - processPackages [deepdoctection]: Remove: archive file [/home/abi/fetcher/tmp/deepdoctection-0.24.tar.gz]
+[2023-06-09 08:44:09] INFO root fetch - main [MainThread]: End processing [deepdoctection]: success
+[2023-06-09 08:44:09] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2023-06-09 08:44:09] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2023-06-09 08:44:09] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-06-09 08:44:09] INFO root fetch - main [MainThread]: Store serial: [18437409]
