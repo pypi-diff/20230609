@@ -17366,3 +17366,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 09:05:28] INFO root fetch - processPackages [data-check]: Remove: archive file [/home/abi/fetcher/tmp/data_check-0.9.0.tar.gz]
 [2023-06-09 09:05:28] INFO root fetch - main [MainThread]: End processing [data-check]: success
 [2023-06-09 09:05:28] INFO root fetch - main [MainThread]: Store serial: [18437604]
+[2023-06-09 09:10:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437604]
+[2023-06-09 09:10:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudq
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thug
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelon-impact-client
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geospacelab
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: half-orm
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: patio
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ocellus
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Spider-Toolkit
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: irene-pro
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ocellus]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 09:10:37] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-09 09:10:37] WARNING root fetch - processPackages [Spider-Toolkit]: Skipping, unable to determine old version
+[2023-06-09 09:10:37] INFO root fetch - processPackages [cloudq]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-09 09:10:37] INFO root fetch - processPackages [Spider-Toolkit]: Start processing: pulumi-rke
+[2023-06-09 09:10:37] INFO root fetch - main [MainThread]: End processing [Spider-Toolkit] error
+[2023-06-09 09:10:37] INFO root fetch - processPackages [geospacelab]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-09 09:10:37] INFO root fetch - processPackages [irene-pro]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-06-09 09:10:37] INFO root fetch - processPackages [half-orm]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-09 09:10:37] INFO root fetch - processPackages [thug]: New version: [5.1] Old Version: [5.0.1]
+[2023-06-09 09:10:37] INFO root fetch - processPackages [pulumi-rke]: New version: [3.3.0a1686291919] Old Version: [3.3.0a1685168877]
+[2023-06-09 09:10:37] INFO root fetch - processPackages [patio]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-09 09:10:37] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ocellus]: Downloading https://files.pythonhosted.org/packages/72/ef/a223f62b12bf84e783e7f0eff96182e4184c33ebf4d7ec02218cc74fa0d1/ocellus-0.1.8.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/40/ff/1924f28d989f2eef0f82642a65749a6564122645277eb9461037a767696e/modelon_impact_client-3.0.1.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/4e/5a/42392e0dc903de7dc15820aebac490c29983a8d0f3bef0e530a5997cef4e/irene_pro-0.0.62.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [patio]: Downloading https://files.pythonhosted.org/packages/9a/fb/0d733a913de7ad18e510a013e73e3626473332a1f465cbb58f626e29c66f/patio-0.1.3.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [thug]: Downloading https://files.pythonhosted.org/packages/44/e8/5d40ca06c688978589a6ddf44df25dd588a86d1a17c4bea12f63e728714c/thug-5.0.1.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [cloudq]: Downloading https://files.pythonhosted.org/packages/d0/a1/a7502417c4a092999d447c3035bb4a396b165a9436a6aa4363e8f20f299a/cloudq-1.1.1-py3-none-any.whl
+[2023-06-09 09:10:37] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/bd/8c/2b659d64b41ae06768111912733b5232482b98be461be43e8534415354ea/pulumi_rke-3.3.0a1685168877.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [half-orm]: Downloading https://files.pythonhosted.org/packages/a5/ab/de2fcfeaab640d03da19ea9402f6caa398274a5a475e1356d715112bc09e/half_orm-0.9.1.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [geospacelab]: Downloading https://files.pythonhosted.org/packages/c4/a2/4cc701c4a0072d4109c7c335540a093e1c712e0d39bebe9312a203d2846b/geospacelab-0.6.2.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [patio]: Downloading https://files.pythonhosted.org/packages/e5/05/7a3d5fa3a04102e20bbab95202ac15b435a88e3bf3ae4a77c00449ac927f/patio-0.1.4.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/01/3a/3d28c69c72f5a96741a94431b7a11cec61cc6ed000463f115f42bfc400b2/modelon_impact_client-3.0.2.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/3e/1b/18f19051953aa24466e7931688538e2f1e07b3731c918d73704503850fb2/irene_pro-0.0.63.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-09 09:10:37] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230609/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-09 09:10:37] INFO root fetch - processPackages [patio]: executing diffoscope
+[2023-06-09 09:10:37] INFO root fetch - processPackages [patio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patio-0.1.3.tar.gz tmp/patio-0.1.4.tar.gz --markdown 20230609/p/patio/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-09 09:10:37] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2023-06-09 09:10:37] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.0.1.tar.gz tmp/modelon_impact_client-3.0.2.tar.gz --markdown 20230609/m/modelon-impact-client/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-09 09:10:37] INFO root fetch - processPackages [ocellus]: Downloading https://files.pythonhosted.org/packages/f3/63/285743adccf20de528ee014f0adc6558116e656fd4eb4e90ba81deab4a6e/ocellus-0.1.9.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/a5/f8/d2f5ca51d5ab2dbfeb1a4514ffddc48cbb4d1caeb4e3a68a00fe91207fd7/pulumi_rke-3.3.0a1686291919.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-09 09:10:37] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.62.tar.gz tmp/irene_pro-0.0.63.tar.gz --markdown 20230609/i/irene-pro/0.0.62-0.0.63/diff.md --exclude *.pyd
+[2023-06-09 09:10:37] INFO root fetch - processPackages [half-orm]: Downloading https://files.pythonhosted.org/packages/ec/a8/99c4a73a0badc2afc376d44db180ecacd22ade1e7cecfefa3ef17ed246e8/half_orm-0.9.2.tar.gz
+[2023-06-09 09:10:37] INFO root fetch - processPackages [thug]: Downloading https://files.pythonhosted.org/packages/5f/2d/89f0d6996f7ec2b00465c8bf6fa34b68ccce6a07954400ca7aefe0583824/thug-5.1.tar.gz
+[2023-06-09 09:10:38] INFO root fetch - processPackages [geospacelab]: Downloading https://files.pythonhosted.org/packages/ca/92/1ba1c70b52c653e232469759cfedc4b7568467a41cdbc55a15c596b6dc13/geospacelab-0.6.3.tar.gz
+[2023-06-09 09:10:38] INFO root fetch - processPackages [ocellus]: executing diffoscope
+[2023-06-09 09:10:38] INFO root fetch - processPackages [ocellus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocellus-0.1.8.tar.gz tmp/ocellus-0.1.9.tar.gz --markdown 20230609/o/ocellus/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 09:10:38] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2023-06-09 09:10:38] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.3.0a1685168877.tar.gz tmp/pulumi_rke-3.3.0a1686291919.tar.gz --markdown 20230609/p/pulumi-rke/3.3.0a1685168877-3.3.0a1686291919/diff.md --exclude *.pyd
+[2023-06-09 09:10:38] INFO root fetch - processPackages [cloudq]: Downloading https://files.pythonhosted.org/packages/42/b2/98553a5d31baeed44a25ca784769821b47cd49e49171791900671659fa31/cloudq-1.2.0-py3-none-any.whl
+[2023-06-09 09:10:38] INFO root fetch - processPackages [half-orm]: executing diffoscope
+[2023-06-09 09:10:38] INFO root fetch - processPackages [half-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/half_orm-0.9.1.tar.gz tmp/half_orm-0.9.2.tar.gz --markdown 20230609/h/half-orm/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-09 09:10:38] INFO root fetch - processPackages [thug]: executing diffoscope
+[2023-06-09 09:10:38] INFO root fetch - processPackages [thug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thug-5.0.1.tar.gz tmp/thug-5.1.tar.gz --markdown 20230609/t/thug/5.0.1-5.1/diff.md --exclude *.pyd
+[2023-06-09 09:10:38] INFO root fetch - processPackages [cloudq]: executing diffoscope
+[2023-06-09 09:10:38] INFO root fetch - processPackages [cloudq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudq-1.1.1-py3-none-any.whl.zip tmp/cloudq-1.2.0-py3-none-any.whl.zip --markdown 20230609/c/cloudq/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-09 09:10:38] INFO root fetch - processPackages [geospacelab]: executing diffoscope
+[2023-06-09 09:10:38] INFO root fetch - processPackages [geospacelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geospacelab-0.6.2.tar.gz tmp/geospacelab-0.6.3.tar.gz --markdown 20230609/g/geospacelab/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-09 09:10:39] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.62.tar.gz]
+[2023-06-09 09:10:39] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.63.tar.gz]
+[2023-06-09 09:10:39] INFO root fetch - processPackages [irene-pro]: Start processing: windmill-api
+[2023-06-09 09:10:39] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-09 09:10:39] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-09 09:10:39] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-09 09:10:39] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-09 09:10:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-09 09:10:39] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1685168877.tar.gz]
+[2023-06-09 09:10:39] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1686291919.tar.gz]
+[2023-06-09 09:10:39] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2023-06-09 09:10:39] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.0.1.tar.gz]
+[2023-06-09 09:10:39] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.0.2.tar.gz]
+[2023-06-09 09:10:39] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2023-06-09 09:10:39] INFO root fetch - processPackages [patio]: Remove: archive file [/home/abi/fetcher/tmp/patio-0.1.3.tar.gz]
+[2023-06-09 09:10:39] INFO root fetch - processPackages [patio]: Remove: archive file [/home/abi/fetcher/tmp/patio-0.1.4.tar.gz]
+[2023-06-09 09:10:39] INFO root fetch - main [MainThread]: End processing [patio]: success
+[2023-06-09 09:10:39] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-06-09 09:10:40] INFO root fetch - processPackages [half-orm]: Remove: archive file [/home/abi/fetcher/tmp/half_orm-0.9.1.tar.gz]
+[2023-06-09 09:10:40] INFO root fetch - processPackages [half-orm]: Remove: archive file [/home/abi/fetcher/tmp/half_orm-0.9.2.tar.gz]
+[2023-06-09 09:10:40] INFO root fetch - main [MainThread]: End processing [half-orm]: success
+[2023-06-09 09:10:40] INFO root fetch - processPackages [cloudq]: Remove: archive file [/home/abi/fetcher/tmp/cloudq-1.1.1-py3-none-any.whl.zip]
+[2023-06-09 09:10:40] INFO root fetch - processPackages [cloudq]: Remove: archive file [/home/abi/fetcher/tmp/cloudq-1.2.0-py3-none-any.whl.zip]
+[2023-06-09 09:10:40] INFO root fetch - main [MainThread]: End processing [cloudq]: success
+[2023-06-09 09:10:40] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-06-09 09:10:40] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-06-09 09:10:40] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230609/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-09 09:10:40] INFO root fetch - processPackages [ocellus]: Remove: archive file [/home/abi/fetcher/tmp/ocellus-0.1.8.tar.gz]
+[2023-06-09 09:10:40] INFO root fetch - processPackages [ocellus]: Remove: archive file [/home/abi/fetcher/tmp/ocellus-0.1.9.tar.gz]
+[2023-06-09 09:10:40] INFO root fetch - main [MainThread]: End processing [ocellus]: success
+[2023-06-09 09:10:41] INFO root fetch - processPackages [geospacelab]: Remove: archive file [/home/abi/fetcher/tmp/geospacelab-0.6.2.tar.gz]
+[2023-06-09 09:10:41] INFO root fetch - processPackages [geospacelab]: Remove: archive file [/home/abi/fetcher/tmp/geospacelab-0.6.3.tar.gz]
+[2023-06-09 09:10:41] INFO root fetch - main [MainThread]: End processing [geospacelab]: success
+[2023-06-09 09:10:43] INFO root fetch - processPackages [thug]: Remove: archive file [/home/abi/fetcher/tmp/thug-5.0.1.tar.gz]
+[2023-06-09 09:10:43] INFO root fetch - processPackages [thug]: Remove: archive file [/home/abi/fetcher/tmp/thug-5.1.tar.gz]
+[2023-06-09 09:10:43] INFO root fetch - main [MainThread]: End processing [thug]: success
+[2023-06-09 09:10:56] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-06-09 09:10:56] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-06-09 09:10:56] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-06-09 09:10:56] INFO root fetch - main [MainThread]: Store serial: [18437640]
