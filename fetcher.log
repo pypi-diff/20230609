@@ -3603,3 +3603,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 03:32:15] INFO root fetch - processPackages [libpymcr]: Remove: archive file [/home/abi/fetcher/tmp/libpymcr-0.1.2-cp39-cp39-win_amd64.whl.zip]
 [2023-06-09 03:32:15] INFO root fetch - main [MainThread]: End processing [libpymcr]: success
 [2023-06-09 03:32:15] INFO root fetch - main [MainThread]: Store serial: [18433098]
+[2023-06-09 03:37:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18433098]
+[2023-06-09 03:37:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-09 03:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-utils
+[2023-06-09 03:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2023-06-09 03:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fenics-smart
+[2023-06-09 03:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: magnify
+[2023-06-09 03:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-stdlib
+[2023-06-09 03:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-spark
+[2023-06-09 03:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scotthsieh-projen-statemachine
+[2023-06-09 03:37:24] INFO root fetch - processPackages [ovos-utils]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-06-09 03:37:24] INFO root fetch - processPackages [magnify]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-09 03:37:24] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-09 03:37:24] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 03:37:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-09 03:37:24] INFO root fetch - processPackages [dbt-spark]: New version: [1.6.0b3] Old Version: [1.6.0b2]
+[2023-06-09 03:37:24] INFO root fetch - processPackages [fenics-smart]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-06-09 03:37:24] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [ovos-utils]: Downloading https://files.pythonhosted.org/packages/d7/4b/e499972fb3bf80dfa8a9dd2f431fcad633697e759fa8f256a9945e45a75e/ovos_utils-0.0.9.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/30/b0/eb09b0f96bf75daaed574e859af9fb17a53ba0bdacdf3dea027ec007dba2/magnify-0.3.0.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [dbt-spark]: Downloading https://files.pythonhosted.org/packages/2a/9c/62779dffe55f726f4be6605a882d76c671669f1c16727f0b7623416ac74a/dbt-spark-1.6.0b2.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [fenics-smart]: Downloading https://files.pythonhosted.org/packages/7c/6d/35f83236001cba58d8c51246972412e1f78cf2a24fe33ea450e932e5aa99/fenics-smart-2.0.1.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [ovos-utils]: Downloading https://files.pythonhosted.org/packages/87/ec/09417f2334058aa6de64c90cd4a839ddd15a671ba16f1bed26c98da17d31/ovos_utils-0.0.9a1.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/86/cf/f177e827ceb38833a0d3848af3c5d3cba4693f710bdbc3218acca35699a5/magnify-0.3.1.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [ovos-utils]: executing diffoscope
+[2023-06-09 03:37:24] INFO root fetch - processPackages [ovos-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_utils-0.0.9.tar.gz tmp/ovos_utils-0.0.9a1.tar.gz --markdown 20230609/o/ovos-utils/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-06-09 03:37:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-09 03:37:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230609/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-09 03:37:24] INFO root fetch - processPackages [magnify]: executing diffoscope
+[2023-06-09 03:37:24] INFO root fetch - processPackages [magnify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnify-0.3.0.tar.gz tmp/magnify-0.3.1.tar.gz --markdown 20230609/m/magnify/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-09 03:37:24] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-06-09 03:37:24] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230609/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-09 03:37:24] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [fenics-smart]: Downloading https://files.pythonhosted.org/packages/79/8b/72f74daf79de8709a42e2564de64cda06f55dbbd61044fde840223ea9139/fenics-smart-2.1.0.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [dbt-spark]: Downloading https://files.pythonhosted.org/packages/09/cf/ca9dc2832d556813d85f8fb82062a0bd011977849631082654aadd5fbd8f/dbt-spark-1.6.0b3.tar.gz
+[2023-06-09 03:37:24] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-09 03:37:24] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230609/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 03:37:25] INFO root fetch - processPackages [dbt-spark]: executing diffoscope
+[2023-06-09 03:37:25] INFO root fetch - processPackages [dbt-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-spark-1.6.0b2.tar.gz tmp/dbt-spark-1.6.0b3.tar.gz --markdown 20230609/d/dbt-spark/1.6.0b2-1.6.0b3/diff.md --exclude *.pyd
+[2023-06-09 03:37:25] INFO root fetch - processPackages [fenics-smart]: executing diffoscope
+[2023-06-09 03:37:25] INFO root fetch - processPackages [fenics-smart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenics-smart-2.0.1.tar.gz tmp/fenics-smart-2.1.0.tar.gz --markdown 20230609/f/fenics-smart/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-06-09 03:37:26] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-06-09 03:37:26] INFO root fetch - processPackages [magnify]: Remove: archive file [/home/abi/fetcher/tmp/magnify-0.3.0.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - processPackages [magnify]: Remove: archive file [/home/abi/fetcher/tmp/magnify-0.3.1.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - main [MainThread]: End processing [magnify]: success
+[2023-06-09 03:37:26] INFO root fetch - processPackages [fenics-smart]: Remove: archive file [/home/abi/fetcher/tmp/fenics-smart-2.0.1.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - processPackages [fenics-smart]: Remove: archive file [/home/abi/fetcher/tmp/fenics-smart-2.1.0.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - main [MainThread]: End processing [fenics-smart]: success
+[2023-06-09 03:37:26] INFO root fetch - processPackages [ovos-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovos_utils-0.0.9.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - processPackages [ovos-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovos_utils-0.0.9a1.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - main [MainThread]: End processing [ovos-utils]: success
+[2023-06-09 03:37:26] INFO root fetch - processPackages [dbt-spark]: Remove: archive file [/home/abi/fetcher/tmp/dbt-spark-1.6.0b2.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - processPackages [dbt-spark]: Remove: archive file [/home/abi/fetcher/tmp/dbt-spark-1.6.0b3.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - main [MainThread]: End processing [dbt-spark]: success
+[2023-06-09 03:37:26] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-09 03:37:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-09 03:37:26] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-09 03:37:26] INFO root fetch - main [MainThread]: Store serial: [18433120]
