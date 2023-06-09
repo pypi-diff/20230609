@@ -16466,3 +16466,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 08:27:26] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-06-09 08:27:26] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-06-09 08:27:26] INFO root fetch - main [MainThread]: Store serial: [18437268]
+[2023-06-09 08:32:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437268]
+[2023-06-09 08:32:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-09 08:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-pagerduty
+[2023-06-09 08:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastqueue-lib
+[2023-06-09 08:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-Ayiin
+[2023-06-09 08:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-openstack
+[2023-06-09 08:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kally
+[2023-06-09 08:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: affinda
+[2023-06-09 08:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: daisytuner-likwid
+[2023-06-09 08:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eradicate
+[2023-06-09 08:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipen-cli-run
+[2023-06-09 08:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-fn
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-06-09 08:32:36] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev9] Old Version: [0.4.4.dev8]
+[2023-06-09 08:32:36] INFO root fetch - processPackages [daisytuner-likwid]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-09 08:32:36] WARNING root fetch - processPackages [kally]: Skipping, unable to determine old version
+[2023-06-09 08:32:36] INFO root fetch - processPackages [fastqueue-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 08:32:36] INFO root fetch - processPackages [kally]: Start processing: DLMS-SPODES
+[2023-06-09 08:32:36] INFO root fetch - main [MainThread]: End processing [kally] error
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2023-06-09 08:32:36] INFO root fetch - processPackages [affinda]: New version: [4.5.0] Old Version: [4.4.0]
+[2023-06-09 08:32:36] INFO root fetch - processPackages [eradicate]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-09 08:32:36] WARNING root fetch - processPackages [gpt-fn]: Skipping, unable to determine old version
+[2023-06-09 08:32:36] INFO root fetch - main [MainThread]: End processing [gpt-fn] error
+[2023-06-09 08:32:36] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/e3/fb/cfd0770cc238f4c5d0519a47c0dfe5476a67ad16fc40bc8e1152c8898f91/pulumi_pagerduty-3.9.0a1678231019.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pipen-cli-run]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [eradicate]: Downloading https://files.pythonhosted.org/packages/6c/a7/cc917ac6fcd91e9fcb4ff2a1137e20ededbad15377527b7f23536a96e736/eradicate-2.2.0.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/2f/29/fd7fbb9ea42d1d906b12b905c2491564c082c04627e2cfd32a191b599a58/affinda-4.4.0.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/e9/ad/c0b005e75a58ccc5ab669dc67ad93d87b7e19472940cf79bf44cb7a3212d/fastqueue-lib-0.0.8.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/b2/77/786140b79d0946ee18e80ac92af9889e190480f889211497d09069a9f0fa/pulumi_pagerduty-3.9.0a1678824312.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [daisytuner-likwid]: Downloading https://files.pythonhosted.org/packages/49/38/9bea077b39a5b9a34fbfc6b50dbca46e5be7053aea1763fda1c8352a2fb8/daisytuner-likwid-0.0.1.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pipen-cli-run]: Downloading https://files.pythonhosted.org/packages/65/68/4b1a462d2833b3acbcbb8d11ecd1525fbf9aa76195b09081261195693697/pipen_cli_run-0.8.1.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230609/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-06-09 08:32:36] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-09 08:32:36] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230609/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [eradicate]: Downloading https://files.pythonhosted.org/packages/7a/e1/665186aedea2d6ebf0415cf97c0629c8123a721e7afc417deeade5598215/eradicate-2.3.0.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [daisytuner-likwid]: Downloading https://files.pythonhosted.org/packages/0c/4d/05ffab076cfbe42bc371a81afaeb4e42ce64ec451fb7d34bfd4991f26e39/daisytuner-likwid-0.0.2.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/90/0e/8d1c85dc3048c9317a1d0c2a09052983b539361fad0929f07f514a609d03/fastqueue-lib-0.0.9.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [eradicate]: executing diffoscope
+[2023-06-09 08:32:36] INFO root fetch - processPackages [eradicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eradicate-2.2.0.tar.gz tmp/eradicate-2.3.0.tar.gz --markdown 20230609/e/eradicate/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-09 08:32:36] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/fe/59/b60d9a1cc1641cd76f7ce40c08c85e6755d89d7235b9acecaf89fedbc5c0/affinda-4.5.0.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pipen-cli-run]: Downloading https://files.pythonhosted.org/packages/e0/d3/1e7be3d829bca2bb8a625c3c0af3d9ec3a6f695d7d7c5157629af9d225a8/pipen_cli_run-0.9.0.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [daisytuner-likwid]: executing diffoscope
+[2023-06-09 08:32:36] INFO root fetch - processPackages [daisytuner-likwid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daisytuner-likwid-0.0.1.tar.gz tmp/daisytuner-likwid-0.0.2.tar.gz --markdown 20230609/d/daisytuner-likwid/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-09 08:32:36] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/a8/a9/9f3a9694572196e70e9ba540e00d88c2d3b5944a2117d502feede8f8b138/py-Ayiin-0.4.4.dev9.tar.gz
+[2023-06-09 08:32:36] INFO root fetch - processPackages [fastqueue-lib]: executing diffoscope
+[2023-06-09 08:32:36] INFO root fetch - processPackages [fastqueue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastqueue-lib-0.0.8.tar.gz tmp/fastqueue-lib-0.0.9.tar.gz --markdown 20230609/f/fastqueue-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20230609/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/diff.md --exclude *.pyd
+[2023-06-09 08:32:36] INFO root fetch - processPackages [affinda]: executing diffoscope
+[2023-06-09 08:32:36] INFO root fetch - processPackages [affinda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affinda-4.4.0.tar.gz tmp/affinda-4.5.0.tar.gz --markdown 20230609/a/affinda/4.4.0-4.5.0/diff.md --exclude *.pyd
+[2023-06-09 08:32:36] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 08:32:36] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev8.tar.gz tmp/py-Ayiin-0.4.4.dev9.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev8-0.4.4.dev9/diff.md --exclude *.pyd
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pipen-cli-run]: executing diffoscope
+[2023-06-09 08:32:36] INFO root fetch - processPackages [pipen-cli-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_cli_run-0.8.1.tar.gz tmp/pipen_cli_run-0.9.0.tar.gz --markdown 20230609/p/pipen-cli-run/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 08:32:38] INFO root fetch - processPackages [daisytuner-likwid]: Remove: archive file [/home/abi/fetcher/tmp/daisytuner-likwid-0.0.1.tar.gz]
+[2023-06-09 08:32:38] INFO root fetch - processPackages [daisytuner-likwid]: Remove: archive file [/home/abi/fetcher/tmp/daisytuner-likwid-0.0.2.tar.gz]
+[2023-06-09 08:32:38] INFO root fetch - main [MainThread]: End processing [daisytuner-likwid]: success
+[2023-06-09 08:32:38] INFO root fetch - processPackages [eradicate]: Remove: archive file [/home/abi/fetcher/tmp/eradicate-2.2.0.tar.gz]
+[2023-06-09 08:32:38] INFO root fetch - processPackages [eradicate]: Remove: archive file [/home/abi/fetcher/tmp/eradicate-2.3.0.tar.gz]
+[2023-06-09 08:32:38] INFO root fetch - main [MainThread]: End processing [eradicate]: success
+[2023-06-09 08:32:38] INFO root fetch - processPackages [fastqueue-lib]: Remove: archive file [/home/abi/fetcher/tmp/fastqueue-lib-0.0.8.tar.gz]
+[2023-06-09 08:32:38] INFO root fetch - processPackages [fastqueue-lib]: Remove: archive file [/home/abi/fetcher/tmp/fastqueue-lib-0.0.9.tar.gz]
+[2023-06-09 08:32:38] INFO root fetch - main [MainThread]: End processing [fastqueue-lib]: success
+[2023-06-09 08:32:38] INFO root fetch - processPackages [pipen-cli-run]: Remove: archive file [/home/abi/fetcher/tmp/pipen_cli_run-0.8.1.tar.gz]
+[2023-06-09 08:32:38] INFO root fetch - processPackages [pipen-cli-run]: Remove: archive file [/home/abi/fetcher/tmp/pipen_cli_run-0.9.0.tar.gz]
+[2023-06-09 08:32:38] INFO root fetch - main [MainThread]: End processing [pipen-cli-run]: success
+[2023-06-09 08:32:38] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-06-09 08:32:38] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-06-09 08:32:38] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-09 08:32:38] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 08:32:38] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
+[2023-06-09 08:32:38] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 08:32:42] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1654086724.tar.gz]
+[2023-06-09 08:32:42] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
+[2023-06-09 08:32:42] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2023-06-09 08:32:43] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.4.0.tar.gz]
+[2023-06-09 08:32:43] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.5.0.tar.gz]
+[2023-06-09 08:32:43] INFO root fetch - main [MainThread]: End processing [affinda]: success
+[2023-06-09 08:33:30] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz]
+[2023-06-09 08:33:30] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz]
+[2023-06-09 08:33:30] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-06-09 08:33:30] INFO root fetch - main [MainThread]: Store serial: [18437298]
