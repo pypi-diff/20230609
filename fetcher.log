@@ -16889,3 +16889,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 08:44:09] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
 [2023-06-09 08:44:09] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
 [2023-06-09 08:44:09] INFO root fetch - main [MainThread]: Store serial: [18437409]
+[2023-06-09 08:49:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437409]
+[2023-06-09 08:49:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vaaibody
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: puan-pv-rs
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-tailscale
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: microservicebus-py
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ngql-gen
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaohn-common-utils
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SpinderTools
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spacetool
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: UzEduCorpus
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dingdong-sonos
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ngql-gen]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-06-09 08:49:19] INFO root fetch - processPackages [vaaibody]: New version: [0.0.1] Old Version: [0.0.0.5]
+[2023-06-09 08:49:19] WARNING root fetch - processPackages [SpinderTools]: Skipping, unable to determine old version
+[2023-06-09 08:49:19] INFO root fetch - processPackages [SpinderTools]: Start processing: mynacode
+[2023-06-09 08:49:19] INFO root fetch - main [MainThread]: End processing [SpinderTools] error
+[2023-06-09 08:49:19] INFO root fetch - processPackages [dingdong-sonos]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-09 08:49:19] INFO root fetch - processPackages [microservicebus-py]: New version: [0.9.5] Old Version: [0.9.3]
+[2023-06-09 08:49:19] ERROR root fetch - processPackages [UzEduCorpus]: Unable to get metadata: No such project 'UzEduCorpus'
+[2023-06-09 08:49:19] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-06-09 08:49:19] INFO root fetch - processPackages [puan-pv-rs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-09 08:49:19] INFO root fetch - processPackages [UzEduCorpus]: Start processing: pulumi-tls
+[2023-06-09 08:49:19] INFO root fetch - main [MainThread]: End processing [UzEduCorpus] error
+[2023-06-09 08:49:19] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2023-06-09 08:49:19] INFO root fetch - processPackages [spacetool]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-09 08:49:19] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-09 08:49:19] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1686291590] Old Version: [5.1.0a1685168898]
+[2023-06-09 08:49:19] INFO root fetch - processPackages [puan-pv-rs]: Downloading https://files.pythonhosted.org/packages/94/fc/63656607f80e1502555a33ee7cf797a545973595ef1f49a46dfd6b8c5e24/puan_pv_rs-0.1.2.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/e6/37/1c23ea94293126d8398cb1501c9c33919d2dc4d3f094b25819c9c41bb2d2/gaohn-common-utils-0.0.31.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [microservicebus-py]: Downloading https://files.pythonhosted.org/packages/ab/60/d1b60c4c90f631cb9720020cdd33a7379f05c15261dd156f1f160da29553/microservicebus-py-0.9.3.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ngql-gen]: Downloading https://files.pythonhosted.org/packages/b1/66/2f2b407005e9d3e3a9534a9c2920e70d2b0e8ac61abb26cca9365300bd99/ngql_gen-0.0.3.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [vaaibody]: Downloading https://files.pythonhosted.org/packages/2b/32/1f9d92a999c61d5b5b86bdbd33329adafa959b3504b9e12a5e81eaf9946d/vaaibody-0.0.0.5.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [dingdong-sonos]: Downloading https://files.pythonhosted.org/packages/fc/a1/dcffa754db731cb16a21c0785daf5861f94e6e152d3d48d09f8d7dd92462/dingdong_sonos-0.1.2.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-09 08:49:19] INFO root fetch - processPackages [spacetool]: Downloading https://files.pythonhosted.org/packages/ae/1a/6375f322810ee3858a48cd1c51723c2e554914ad454b5e74aab88602e195/spacetool-1.0.7.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/5d/99/bf73d24e12cb22c137e623588150b47b5d84d0b6ac4158c60fd7f4963da3/pulumi_tls-5.1.0a1685168898.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [puan-pv-rs]: Downloading https://files.pythonhosted.org/packages/73/98/0da2cbc92fa4264048d6a4df2c2be3a6c8788326343071f14751a717b81a/puan_pv_rs-0.1.3.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/24/3b/597896317be2f498231ac0d08a38ddd700eeb801fdd98b60e8d9823e5138/gaohn-common-utils-0.0.32.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [microservicebus-py]: Downloading https://files.pythonhosted.org/packages/d4/b3/47f7861d72df294fd97e0b6411599c30d398800d7bddf2cdb8630c3c4ca1/microservicebus-py-0.9.5.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-09 08:49:19] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.31.tar.gz tmp/gaohn-common-utils-0.0.32.tar.gz --markdown 20230609/g/gaohn-common-utils/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-06-09 08:49:19] INFO root fetch - processPackages [ngql-gen]: Downloading https://files.pythonhosted.org/packages/4e/c7/1c7a690dda4350d11879f57bdd06afd3909068472f05c4d6280377d669a1/ngql_gen-0.0.5.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [puan-pv-rs]: executing diffoscope
+[2023-06-09 08:49:19] INFO root fetch - processPackages [puan-pv-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puan_pv_rs-0.1.2.tar.gz tmp/puan_pv_rs-0.1.3.tar.gz --markdown 20230609/p/puan-pv-rs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-09 08:49:19] INFO root fetch - processPackages [vaaibody]: Downloading https://files.pythonhosted.org/packages/fb/38/2e1f1bad42f6a13de1ff94fd99a5147988c470feb3954555a8af7e54c89c/vaaibody-0.0.1.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [spacetool]: Downloading https://files.pythonhosted.org/packages/f1/89/066c5f2bd3d1e6c666850dcb0a196ecd2969ac147adb1a7f6c0eca3af345/spacetool-1.0.8.tar.gz
+[2023-06-09 08:49:19] INFO root fetch - processPackages [microservicebus-py]: executing diffoscope
+[2023-06-09 08:49:19] INFO root fetch - processPackages [microservicebus-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservicebus-py-0.9.3.tar.gz tmp/microservicebus-py-0.9.5.tar.gz --markdown 20230609/m/microservicebus-py/0.9.3-0.9.5/diff.md --exclude *.pyd
+[2023-06-09 08:49:19] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-09 08:49:19] INFO root fetch - processPackages [dingdong-sonos]: Downloading https://files.pythonhosted.org/packages/6e/5c/0c200b90a22f33e828529cddde53b7932374a599753d3941f94fa9bff2bc/dingdong_sonos-0.1.3.tar.gz
+[2023-06-09 08:49:20] INFO root fetch - processPackages [ngql-gen]: executing diffoscope
+[2023-06-09 08:49:20] INFO root fetch - processPackages [ngql-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngql_gen-0.0.3.tar.gz tmp/ngql_gen-0.0.5.tar.gz --markdown 20230609/n/ngql-gen/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-06-09 08:49:20] INFO root fetch - processPackages [spacetool]: executing diffoscope
+[2023-06-09 08:49:20] INFO root fetch - processPackages [spacetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetool-1.0.7.tar.gz tmp/spacetool-1.0.8.tar.gz --markdown 20230609/s/spacetool/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-09 08:49:20] INFO root fetch - processPackages [vaaibody]: executing diffoscope
+[2023-06-09 08:49:20] INFO root fetch - processPackages [vaaibody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaaibody-0.0.0.5.tar.gz tmp/vaaibody-0.0.1.tar.gz --markdown 20230609/v/vaaibody/0.0.0.5-0.0.1/diff.md --exclude *.pyd
+[2023-06-09 08:49:20] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/4a/8e/704053915ed106a7829e3e13018cf2f27b150bfe67495719bd45aa90dea1/pulumi_tls-5.1.0a1686291590.tar.gz
+[2023-06-09 08:49:20] INFO root fetch - processPackages [dingdong-sonos]: executing diffoscope
+[2023-06-09 08:49:20] INFO root fetch - processPackages [dingdong-sonos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingdong_sonos-0.1.2.tar.gz tmp/dingdong_sonos-0.1.3.tar.gz --markdown 20230609/d/dingdong-sonos/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-09 08:49:20] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2023-06-09 08:49:20] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-09 08:49:20] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2023-06-09 08:49:20] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230609/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-09 08:49:20] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1685168898.tar.gz tmp/pulumi_tls-5.1.0a1686291590.tar.gz --markdown 20230609/p/pulumi-tls/5.1.0a1685168898-5.1.0a1686291590/diff.md --exclude *.pyd
+[2023-06-09 08:49:20] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2023-06-09 08:49:20] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20230609/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/diff.md --exclude *.pyd
+[2023-06-09 08:49:21] INFO root fetch - processPackages [puan-pv-rs]: Remove: archive file [/home/abi/fetcher/tmp/puan_pv_rs-0.1.2.tar.gz]
+[2023-06-09 08:49:21] INFO root fetch - processPackages [puan-pv-rs]: Remove: archive file [/home/abi/fetcher/tmp/puan_pv_rs-0.1.3.tar.gz]
+[2023-06-09 08:49:21] INFO root fetch - processPackages [puan-pv-rs]: Start processing: seven-cloudapp
+[2023-06-09 08:49:21] INFO root fetch - main [MainThread]: End processing [puan-pv-rs]: success
+[2023-06-09 08:49:21] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.31.tar.gz]
+[2023-06-09 08:49:21] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.32.tar.gz]
+[2023-06-09 08:49:21] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-09 08:49:21] INFO root fetch - processPackages [seven-cloudapp]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-09 08:49:21] INFO root fetch - processPackages [microservicebus-py]: Remove: archive file [/home/abi/fetcher/tmp/microservicebus-py-0.9.3.tar.gz]
+[2023-06-09 08:49:21] INFO root fetch - processPackages [microservicebus-py]: Remove: archive file [/home/abi/fetcher/tmp/microservicebus-py-0.9.5.tar.gz]
+[2023-06-09 08:49:21] INFO root fetch - main [MainThread]: End processing [microservicebus-py]: success
+[2023-06-09 08:49:21] INFO root fetch - processPackages [ngql-gen]: Remove: archive file [/home/abi/fetcher/tmp/ngql_gen-0.0.3.tar.gz]
+[2023-06-09 08:49:21] INFO root fetch - processPackages [ngql-gen]: Remove: archive file [/home/abi/fetcher/tmp/ngql_gen-0.0.5.tar.gz]
+[2023-06-09 08:49:21] INFO root fetch - main [MainThread]: End processing [ngql-gen]: success
+[2023-06-09 08:49:21] INFO root fetch - processPackages [spacetool]: Remove: archive file [/home/abi/fetcher/tmp/spacetool-1.0.7.tar.gz]
+[2023-06-09 08:49:21] INFO root fetch - processPackages [spacetool]: Remove: archive file [/home/abi/fetcher/tmp/spacetool-1.0.8.tar.gz]
+[2023-06-09 08:49:21] INFO root fetch - main [MainThread]: End processing [spacetool]: success
+[2023-06-09 08:49:21] INFO root fetch - processPackages [seven-cloudapp]: Downloading https://files.pythonhosted.org/packages/11/cd/204e5dc922a956fdc22247cdebae035363755c6a7446f5dafd5378038200/seven_cloudapp-1.0.98.tar.gz
+[2023-06-09 08:49:21] INFO root fetch - processPackages [dingdong-sonos]: Remove: archive file [/home/abi/fetcher/tmp/dingdong_sonos-0.1.2.tar.gz]
+[2023-06-09 08:49:21] INFO root fetch - processPackages [dingdong-sonos]: Remove: archive file [/home/abi/fetcher/tmp/dingdong_sonos-0.1.3.tar.gz]
+[2023-06-09 08:49:21] INFO root fetch - main [MainThread]: End processing [dingdong-sonos]: success
+[2023-06-09 08:49:21] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-09 08:49:21] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-09 08:49:21] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-09 08:49:22] INFO root fetch - processPackages [seven-cloudapp]: Downloading https://files.pythonhosted.org/packages/8b/6f/c310d61fbdac55236c71290229ee9cf615d7df1928c32089ec9df5e3a305/seven_cloudapp-1.0.99.tar.gz
+[2023-06-09 08:49:22] INFO root fetch - processPackages [seven-cloudapp]: executing diffoscope
+[2023-06-09 08:49:22] INFO root fetch - processPackages [seven-cloudapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp-1.0.98.tar.gz tmp/seven_cloudapp-1.0.99.tar.gz --markdown 20230609/s/seven-cloudapp/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-09 08:49:22] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2023-06-09 08:49:22] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2023-06-09 08:49:22] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2023-06-09 08:49:23] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1685168898.tar.gz]
+[2023-06-09 08:49:23] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1686291590.tar.gz]
+[2023-06-09 08:49:23] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2023-06-09 08:49:23] INFO root fetch - processPackages [seven-cloudapp]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp-1.0.98.tar.gz]
+[2023-06-09 08:49:23] INFO root fetch - processPackages [seven-cloudapp]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp-1.0.99.tar.gz]
+[2023-06-09 08:49:23] INFO root fetch - main [MainThread]: End processing [seven-cloudapp]: success
+[2023-06-09 08:49:24] INFO root fetch - processPackages [vaaibody]: Remove: archive file [/home/abi/fetcher/tmp/vaaibody-0.0.0.5.tar.gz]
+[2023-06-09 08:49:24] INFO root fetch - processPackages [vaaibody]: Remove: archive file [/home/abi/fetcher/tmp/vaaibody-0.0.1.tar.gz]
+[2023-06-09 08:49:24] INFO root fetch - main [MainThread]: End processing [vaaibody]: success
+[2023-06-09 08:49:24] INFO root fetch - main [MainThread]: Store serial: [18437461]
