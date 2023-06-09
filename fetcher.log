@@ -11981,3 +11981,90 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 05:38:56] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
 [2023-06-09 05:38:56] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2023-06-09 05:38:56] INFO root fetch - main [MainThread]: Store serial: [18435874]
+[2023-06-09 05:44:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18435874]
+[2023-06-09 05:44:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-09 05:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-document-page
+[2023-06-09 05:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-document-url
+[2023-06-09 05:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-document-page
+[2023-06-09 05:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-document-url
+[2023-06-09 05:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlplatformutils
+[2023-06-09 05:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-document-url
+[2023-06-09 05:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-python-sdk-avatar
+[2023-06-09 05:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MINARI-airflow-utils-pip
+[2023-06-09 05:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mtbase
+[2023-06-09 05:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rongdavbaaddins
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo12-addon-document-url]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev8]
+[2023-06-09 05:44:05] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.1.3] Old Version: [0.9.1.2]
+[2023-06-09 05:44:05] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: New version: [1.0.9] Old Version: [1.0.20]
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo13-addon-document-page]: New version: [13.0.1.1.1.dev9] Old Version: [13.0.1.1.1.dev8]
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo12-addon-document-page]: New version: [12.0.1.4.0.99.dev9] Old Version: [12.0.1.4.0.99.dev8]
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo13-addon-document-url]: New version: [13.0.1.0.2.dev3] Old Version: [13.0.1.0.2.dev2]
+[2023-06-09 05:44:05] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo-addon-document-url]: New version: [16.0.1.0.2.1] Old Version: [16.0.1.0.2]
+[2023-06-09 05:44:05] WARNING root fetch - processPackages [MINARI-airflow-utils-pip]: Skipping, unable to determine old version
+[2023-06-09 05:44:05] INFO root fetch - main [MainThread]: End processing [MINARI-airflow-utils-pip] error
+[2023-06-09 05:44:05] INFO root fetch - processPackages [mtbase]: New version: [4.6.202306090341] Old Version: [4.5.202306081934]
+[2023-06-09 05:44:05] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/a5/a0/5d23f5ad4ce17abf096816b656830780caf157bce31ea7b343ae10fc114f/rongdavbaaddins-0.0.0.8.tar.gz
+[2023-06-09 05:44:05] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/2a/cf/7bcd9dd648dcb1d8a945fc126525820ca42843825177c58e4fe6a5aef728/mtbase-4.5.202306081934-py3-none-any.whl
+[2023-06-09 05:44:05] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Downloading https://files.pythonhosted.org/packages/06/5c/a88550f3f0672ef45c0cc4188f588d2770137f0a60d678c0fda90e948be0/aliyun-python-sdk-avatar-1.0.20.tar.gz
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo12-addon-document-url]: Downloading https://files.pythonhosted.org/packages/66/08/dce0bfd180b7c9628668e912d7c1a98331b53d397d1a58b120c31fba69ed/odoo12_addon_document_url-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo13-addon-document-url]: Downloading https://files.pythonhosted.org/packages/c5/46/2dd27d66a312c456e89296da99b5a90853d10fdf3b563da1af1d4e966844/odoo13_addon_document_url-13.0.1.0.2.dev2-py3-none-any.whl
+[2023-06-09 05:44:05] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/2a/8c/21622d293ef6d090af1627d8ee784b188f9fc2076c206055543bcff91a28/mlplatformutils-0.9.1.2.tar.gz
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo13-addon-document-page]: Downloading https://files.pythonhosted.org/packages/4a/e1/719a6d27c344d7c15a3bd6738cfe93ecc2c0c30a61bb9516a962ee8002d7/odoo13_addon_document_page-13.0.1.1.1.dev8-py3-none-any.whl
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo-addon-document-url]: Downloading https://files.pythonhosted.org/packages/35/42/cbcd69f0c76628c5bf3e6da3cff7bd23464226433f498733ab5838bf50bb/odoo_addon_document_url-16.0.1.0.2-py3-none-any.whl
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/02/32/a0f9f5abe41539077cccd81d1880ff837f67e1a6dcd8cc3dd0f7ab8ec812/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl
+[2023-06-09 05:44:05] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Downloading https://files.pythonhosted.org/packages/ff/e8/ba9744da258b0e71cdc1b7fe1a4f25a7bd3d9806ce5911f0b24f0f754815/aliyun-python-sdk-avatar-1.0.9.tar.gz
+[2023-06-09 05:44:05] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/30/e2/4647fb2765bcb6ec1650ef5f5e438b3843f6f561c4dae977e5397c6e66ac/mtbase-4.6.202306090341-py3-none-any.whl
+[2023-06-09 05:44:05] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/f5/b7/ef51ee1149d432844ba56d3562876ee67bf25ad73dd0c19048b7740227ff/mlplatformutils-0.9.1.3.tar.gz
+[2023-06-09 05:44:05] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/9a/fd/8e3655c1a9fb6a355899bd8c0e71fe210fb46d00bfc7b0a651c91204c0c2/rongdavbaaddins-0.0.0.9.tar.gz
+[2023-06-09 05:44:05] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: executing diffoscope
+[2023-06-09 05:44:05] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-avatar-1.0.20.tar.gz tmp/aliyun-python-sdk-avatar-1.0.9.tar.gz --markdown 20230609/a/aliyun-python-sdk-avatar/1.0.20-1.0.9/diff.md --exclude *.pyd
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo13-addon-document-url]: Downloading https://files.pythonhosted.org/packages/73/db/20432643b42757ef9902d3d8b9bf5efd0181888b4fecf50e01620e3bfeaf/odoo13_addon_document_url-13.0.1.0.2.dev3-py3-none-any.whl
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo12-addon-document-url]: Downloading https://files.pythonhosted.org/packages/ff/e1/c876a6c3bddf87dedd322cf2863edc14caf2c45a44390a2c981edf2074cf/odoo12_addon_document_url-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo13-addon-document-page]: Downloading https://files.pythonhosted.org/packages/15/36/1f5f6f5de0d2f6785920878e3f14c4fa01774323ce17274f0ae866586ab1/odoo13_addon_document_page-13.0.1.1.1.dev9-py3-none-any.whl
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo-addon-document-url]: Downloading https://files.pythonhosted.org/packages/fe/86/8a380424c4da67922ed01cc57ef2134b9340292548680fb0fd9957ccecc6/odoo_addon_document_url-16.0.1.0.2.1-py3-none-any.whl
+[2023-06-09 05:44:05] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-09 05:44:05] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.1.2.tar.gz tmp/mlplatformutils-0.9.1.3.tar.gz --markdown 20230609/m/mlplatformutils/0.9.1.2-0.9.1.3/diff.md --exclude *.pyd
+[2023-06-09 05:44:05] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-06-09 05:44:05] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.0.8.tar.gz tmp/rongdavbaaddins-0.0.0.9.tar.gz --markdown 20230609/r/rongdavbaaddins/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo12-addon-document-url]: executing diffoscope
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo12-addon-document-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_document_url-12.0.1.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_document_url-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230609/o/odoo12-addon-document-url/12.0.1.0.0.99.dev8-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 05:44:05] INFO root fetch - processPackages [mtbase]: executing diffoscope
+[2023-06-09 05:44:05] INFO root fetch - processPackages [mtbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtbase-4.5.202306081934-py3-none-any.whl.zip tmp/mtbase-4.6.202306090341-py3-none-any.whl.zip --markdown 20230609/m/mtbase/4.5.202306081934-4.6.202306090341/diff.md --exclude *.pyd
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo13-addon-document-url]: executing diffoscope
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo13-addon-document-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_document_url-13.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo13_addon_document_url-13.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230609/o/odoo13-addon-document-url/13.0.1.0.2.dev2-13.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/66/84/d4e81b566901a7741533ce200b9c2d435cda7138bd8f3a5ab2b1399e9e98/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo-addon-document-url]: executing diffoscope
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo-addon-document-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_url-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_document_url-16.0.1.0.2.1-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-document-url/16.0.1.0.2-16.0.1.0.2.1/diff.md --exclude *.pyd
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo13-addon-document-page]: executing diffoscope
+[2023-06-09 05:44:05] INFO root fetch - processPackages [odoo13-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_document_page-13.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_document_page-13.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20230609/o/odoo13-addon-document-page/13.0.1.1.1.dev8-13.0.1.1.1.dev9/diff.md --exclude *.pyd
+[2023-06-09 05:44:06] INFO root fetch - processPackages [odoo12-addon-document-page]: executing diffoscope
+[2023-06-09 05:44:06] INFO root fetch - processPackages [odoo12-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl.zip --markdown 20230609/o/odoo12-addon-document-page/12.0.1.4.0.99.dev8-12.0.1.4.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 05:44:07] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.1.2.tar.gz]
+[2023-06-09 05:44:07] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.1.3.tar.gz]
+[2023-06-09 05:44:07] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-09 05:44:07] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-avatar-1.0.20.tar.gz]
+[2023-06-09 05:44:07] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-avatar-1.0.9.tar.gz]
+[2023-06-09 05:44:07] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-avatar]: success
+[2023-06-09 05:44:07] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.5.202306081934-py3-none-any.whl.zip]
+[2023-06-09 05:44:07] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.6.202306090341-py3-none-any.whl.zip]
+[2023-06-09 05:44:07] INFO root fetch - main [MainThread]: End processing [mtbase]: success
+[2023-06-09 05:44:07] INFO root fetch - processPackages [odoo12-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_url-12.0.1.0.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-09 05:44:07] INFO root fetch - processPackages [odoo12-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_url-12.0.1.0.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-09 05:44:07] INFO root fetch - main [MainThread]: End processing [odoo12-addon-document-url]: success
+[2023-06-09 05:44:07] INFO root fetch - processPackages [odoo13-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_url-13.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-06-09 05:44:07] INFO root fetch - processPackages [odoo13-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_url-13.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-06-09 05:44:07] INFO root fetch - main [MainThread]: End processing [odoo13-addon-document-url]: success
+[2023-06-09 05:44:08] INFO root fetch - processPackages [odoo13-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_page-13.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2023-06-09 05:44:08] INFO root fetch - processPackages [odoo13-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_page-13.0.1.1.1.dev9-py3-none-any.whl.zip]
+[2023-06-09 05:44:08] INFO root fetch - main [MainThread]: End processing [odoo13-addon-document-page]: success
+[2023-06-09 05:44:08] INFO root fetch - processPackages [odoo12-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-09 05:44:08] INFO root fetch - processPackages [odoo12-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-09 05:44:08] INFO root fetch - main [MainThread]: End processing [odoo12-addon-document-page]: success
+[2023-06-09 05:44:08] INFO root fetch - processPackages [odoo-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_url-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-09 05:44:08] INFO root fetch - processPackages [odoo-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_url-16.0.1.0.2.1-py3-none-any.whl.zip]
+[2023-06-09 05:44:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-url]: success
+[2023-06-09 05:44:08] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.0.8.tar.gz]
+[2023-06-09 05:44:08] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.0.9.tar.gz]
+[2023-06-09 05:44:08] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-06-09 05:44:08] INFO root fetch - main [MainThread]: Store serial: [18435899]
