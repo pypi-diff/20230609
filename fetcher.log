@@ -21414,3 +21414,69 @@ AssertionError: tmp/satellitevu-1.5.0.tar.gz does not exist
 [2023-06-09 12:17:42] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc4.tar.gz]
 [2023-06-09 12:17:42] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
 [2023-06-09 12:17:42] INFO root fetch - main [MainThread]: Store serial: [18439288]
+[2023-06-09 12:22:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18439288]
+[2023-06-09 12:22:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-09 12:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cf-deploy
+[2023-06-09 12:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyRVC
+[2023-06-09 12:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emrecharge
+[2023-06-09 12:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apis-bibsonomy
+[2023-06-09 12:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-log-outgoing-requests
+[2023-06-09 12:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GoogleBard
+[2023-06-09 12:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyclpu
+[2023-06-09 12:22:53] INFO root fetch - processPackages [PyRVC]: New version: [1.7.1.3] Old Version: [1.7.1.2]
+[2023-06-09 12:22:53] INFO root fetch - processPackages [django-log-outgoing-requests]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-09 12:22:53] INFO root fetch - processPackages [emrecharge]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 12:22:53] INFO root fetch - processPackages [cf-deploy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 12:22:53] INFO root fetch - processPackages [apis-bibsonomy]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-09 12:22:53] INFO root fetch - processPackages [GoogleBard]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-09 12:22:53] INFO root fetch - processPackages [pyclpu]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-09 12:22:53] INFO root fetch - processPackages [PyRVC]: Downloading https://files.pythonhosted.org/packages/8b/af/e28767056f658a7321f086d9f1382d55e67b52ea2cdb200090fc20205d61/PyRVC-1.7.1.2-cp39-cp39-win_amd64.whl
+[2023-06-09 12:22:53] INFO root fetch - processPackages [emrecharge]: Downloading https://files.pythonhosted.org/packages/cb/a6/b4c08409da13cf099a4ab17efdfdad541b89952d28696b7a037a344eace5/emrecharge-0.0.8.tar.gz
+[2023-06-09 12:22:53] INFO root fetch - processPackages [apis-bibsonomy]: Downloading https://files.pythonhosted.org/packages/a2/d8/555d5d6ec63b142d7158b005b8b02aace7596973acfc06feaeea0bbbb1bb/apis_bibsonomy-0.7.0.tar.gz
+[2023-06-09 12:22:53] INFO root fetch - processPackages [django-log-outgoing-requests]: Downloading https://files.pythonhosted.org/packages/df/21/53b2e895e87600db5b3d4e180a09734243c369494d0ec1b67ce4b0adc42c/django-log-outgoing-requests-0.3.0.tar.gz
+[2023-06-09 12:22:53] INFO root fetch - processPackages [cf-deploy]: Downloading https://files.pythonhosted.org/packages/5f/b4/80914e66b3d2421004e6153c7e82f50f6c194fd736ef183b090abbd5e798/cf_deploy-0.1.8.tar.gz
+[2023-06-09 12:22:53] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/07/85/8eae2d0e7e6eff113f36e304e484385740b932f3d1b5a2c67c60fac4ef49/GoogleBard-1.3.0.tar.gz
+[2023-06-09 12:22:53] INFO root fetch - processPackages [pyclpu]: Downloading https://files.pythonhosted.org/packages/b7/db/a1bdc9adbfdc09eb9563aa9911fd19f239db330aa15ba9190b31333e1bc2/pyclpu-1.0.1.tar.gz
+[2023-06-09 12:22:54] INFO root fetch - processPackages [cf-deploy]: Downloading https://files.pythonhosted.org/packages/e5/5f/c1080016400e67671af90cd9f789866f0ad8fb9d3464a30d3b7a9460b5f1/cf_deploy-0.1.9.tar.gz
+[2023-06-09 12:22:54] INFO root fetch - processPackages [django-log-outgoing-requests]: Downloading https://files.pythonhosted.org/packages/f2/f4/fd93d384c54532c1ea6c4908ca1974bf40f5b4ec1fca7023c7b87059ccca/django-log-outgoing-requests-0.4.0.tar.gz
+[2023-06-09 12:22:54] INFO root fetch - processPackages [apis-bibsonomy]: Downloading https://files.pythonhosted.org/packages/51/d9/807fd0866b93d3bd603c13f09864e5c3634a499d6e29abb557a0d327b83e/apis_bibsonomy-0.7.1.tar.gz
+[2023-06-09 12:22:54] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/34/8d/30ac39681aadc566cdec82151789890c032d7fd27ab77d3836a5d5836f37/GoogleBard-1.3.1.tar.gz
+[2023-06-09 12:22:54] INFO root fetch - processPackages [cf-deploy]: executing diffoscope
+[2023-06-09 12:22:54] INFO root fetch - processPackages [cf-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_deploy-0.1.8.tar.gz tmp/cf_deploy-0.1.9.tar.gz --markdown 20230609/c/cf-deploy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 12:22:54] INFO root fetch - processPackages [pyclpu]: Downloading https://files.pythonhosted.org/packages/a8/5f/aaa85831cb42d04583231e88107b8095cf07c06a17f3fbad953127a3fcc5/pyclpu-1.0.2.tar.gz
+[2023-06-09 12:22:54] INFO root fetch - processPackages [emrecharge]: Downloading https://files.pythonhosted.org/packages/5a/4b/83269b709db4f9b3b0700c6a58057f1c87ef0377fb2f51bdf8c963125106/emrecharge-0.0.9.tar.gz
+[2023-06-09 12:22:54] INFO root fetch - processPackages [django-log-outgoing-requests]: executing diffoscope
+[2023-06-09 12:22:54] INFO root fetch - processPackages [django-log-outgoing-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-log-outgoing-requests-0.3.0.tar.gz tmp/django-log-outgoing-requests-0.4.0.tar.gz --markdown 20230609/d/django-log-outgoing-requests/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-09 12:22:54] INFO root fetch - processPackages [GoogleBard]: executing diffoscope
+[2023-06-09 12:22:54] INFO root fetch - processPackages [GoogleBard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoogleBard-1.3.0.tar.gz tmp/GoogleBard-1.3.1.tar.gz --markdown 20230609/G/GoogleBard/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-09 12:22:54] INFO root fetch - processPackages [apis-bibsonomy]: executing diffoscope
+[2023-06-09 12:22:54] INFO root fetch - processPackages [apis-bibsonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apis_bibsonomy-0.7.0.tar.gz tmp/apis_bibsonomy-0.7.1.tar.gz --markdown 20230609/a/apis-bibsonomy/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-09 12:22:54] INFO root fetch - processPackages [pyclpu]: executing diffoscope
+[2023-06-09 12:22:54] INFO root fetch - processPackages [pyclpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclpu-1.0.1.tar.gz tmp/pyclpu-1.0.2.tar.gz --markdown 20230609/p/pyclpu/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-09 12:22:54] INFO root fetch - processPackages [emrecharge]: executing diffoscope
+[2023-06-09 12:22:54] INFO root fetch - processPackages [emrecharge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emrecharge-0.0.8.tar.gz tmp/emrecharge-0.0.9.tar.gz --markdown 20230609/e/emrecharge/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:22:54] INFO root fetch - processPackages [PyRVC]: Downloading https://files.pythonhosted.org/packages/c0/fe/7f3e196519abdbfe1f55d0451e0ebacf1cb8afbf7ef6b0a86b96fe3f9745/PyRVC-1.7.1.3-cp38-cp38-win_amd64.whl
+[2023-06-09 12:22:55] INFO root fetch - processPackages [cf-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cf_deploy-0.1.8.tar.gz]
+[2023-06-09 12:22:55] INFO root fetch - processPackages [cf-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cf_deploy-0.1.9.tar.gz]
+[2023-06-09 12:22:55] INFO root fetch - main [MainThread]: End processing [cf-deploy]: success
+[2023-06-09 12:22:55] INFO root fetch - processPackages [PyRVC]: executing diffoscope
+[2023-06-09 12:22:55] INFO root fetch - processPackages [PyRVC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyRVC-1.7.1.2-cp39-cp39-win_amd64.whl.zip tmp/PyRVC-1.7.1.3-cp38-cp38-win_amd64.whl.zip --markdown 20230609/P/PyRVC/1.7.1.2-1.7.1.3/diff.md --exclude *.pyd
+[2023-06-09 12:22:55] INFO root fetch - processPackages [GoogleBard]: Remove: archive file [/home/abi/fetcher/tmp/GoogleBard-1.3.0.tar.gz]
+[2023-06-09 12:22:55] INFO root fetch - processPackages [GoogleBard]: Remove: archive file [/home/abi/fetcher/tmp/GoogleBard-1.3.1.tar.gz]
+[2023-06-09 12:22:55] INFO root fetch - main [MainThread]: End processing [GoogleBard]: success
+[2023-06-09 12:22:55] INFO root fetch - processPackages [apis-bibsonomy]: Remove: archive file [/home/abi/fetcher/tmp/apis_bibsonomy-0.7.0.tar.gz]
+[2023-06-09 12:22:55] INFO root fetch - processPackages [apis-bibsonomy]: Remove: archive file [/home/abi/fetcher/tmp/apis_bibsonomy-0.7.1.tar.gz]
+[2023-06-09 12:22:55] INFO root fetch - main [MainThread]: End processing [apis-bibsonomy]: success
+[2023-06-09 12:22:55] INFO root fetch - processPackages [emrecharge]: Remove: archive file [/home/abi/fetcher/tmp/emrecharge-0.0.8.tar.gz]
+[2023-06-09 12:22:55] INFO root fetch - processPackages [emrecharge]: Remove: archive file [/home/abi/fetcher/tmp/emrecharge-0.0.9.tar.gz]
+[2023-06-09 12:22:55] INFO root fetch - main [MainThread]: End processing [emrecharge]: success
+[2023-06-09 12:22:55] INFO root fetch - processPackages [pyclpu]: Remove: archive file [/home/abi/fetcher/tmp/pyclpu-1.0.1.tar.gz]
+[2023-06-09 12:22:55] INFO root fetch - processPackages [pyclpu]: Remove: archive file [/home/abi/fetcher/tmp/pyclpu-1.0.2.tar.gz]
+[2023-06-09 12:22:55] INFO root fetch - main [MainThread]: End processing [pyclpu]: success
+[2023-06-09 12:22:55] INFO root fetch - processPackages [django-log-outgoing-requests]: Remove: archive file [/home/abi/fetcher/tmp/django-log-outgoing-requests-0.3.0.tar.gz]
+[2023-06-09 12:22:55] INFO root fetch - processPackages [django-log-outgoing-requests]: Remove: archive file [/home/abi/fetcher/tmp/django-log-outgoing-requests-0.4.0.tar.gz]
+[2023-06-09 12:22:55] INFO root fetch - main [MainThread]: End processing [django-log-outgoing-requests]: success
+[2023-06-09 12:23:03] INFO root fetch - processPackages [PyRVC]: Remove: archive file [/home/abi/fetcher/tmp/PyRVC-1.7.1.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-09 12:23:03] INFO root fetch - processPackages [PyRVC]: Remove: archive file [/home/abi/fetcher/tmp/PyRVC-1.7.1.3-cp38-cp38-win_amd64.whl.zip]
+[2023-06-09 12:23:03] INFO root fetch - main [MainThread]: End processing [PyRVC]: success
+[2023-06-09 12:23:03] INFO root fetch - main [MainThread]: Store serial: [18439309]
