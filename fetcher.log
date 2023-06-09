@@ -21113,3 +21113,71 @@ AssertionError: tmp/satellitevu-1.5.0.tar.gz does not exist
 [2023-06-09 12:00:56] INFO root fetch - processPackages [copasi-basico]: Remove: archive file [/home/abi/fetcher/tmp/copasi_basico-0.9.tar.gz]
 [2023-06-09 12:00:56] INFO root fetch - main [MainThread]: End processing [copasi-basico]: success
 [2023-06-09 12:00:56] INFO root fetch - main [MainThread]: Store serial: [18439170]
+[2023-06-09 12:06:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18439170]
+[2023-06-09 12:06:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 12:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: signalsnap
+[2023-06-09 12:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starmerx-url
+[2023-06-09 12:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wow-ai-ml
+[2023-06-09 12:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proxyctx
+[2023-06-09 12:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: physio
+[2023-06-09 12:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hello_jupyter_proxy
+[2023-06-09 12:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-06-09 12:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvidia-dali-nightly-cuda110
+[2023-06-09 12:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jinbase
+[2023-06-09 12:06:07] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.27.0.dev20230608] Old Version: [1.27.0.dev20230607]
+[2023-06-09 12:06:07] INFO root fetch - processPackages [wow-ai-ml]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-09 12:06:07] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.27.0.dev20230608] Old Version: [1.27.0.dev20230607]
+[2023-06-09 12:06:07] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/c1/70/e88485750b4a2c192e7d6855d8615d261d1fa4fceb160379ed7ebc3e6458/nvidia-dali-nightly-cuda110-1.27.0.dev20230607.tar.gz
+[2023-06-09 12:06:07] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/f6/30/849d21b9897825addc2a0ad1dc1428ddc841034396930ad060687addaf6c/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230607.tar.gz
+[2023-06-09 12:06:07] WARNING root fetch - processPackages [proxyctx]: Skipping, unable to determine old version
+[2023-06-09 12:06:07] INFO root fetch - main [MainThread]: End processing [proxyctx] error
+[2023-06-09 12:06:07] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/a9/81/0162ae9b7ff87981e3c7385e066652ce8f5294939f51c936211d07e7e885/wow_ai_ml-0.2.0.tar.gz
+[2023-06-09 12:06:07] INFO root fetch - processPackages [hello_jupyter_proxy]: New version: [0.2] Old Version: [0.1]
+[2023-06-09 12:06:07] INFO root fetch - processPackages [physio]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-09 12:06:07] INFO root fetch - processPackages [signalsnap]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 12:06:07] WARNING root fetch - processPackages [jinbase]: Skipping, unable to determine old version
+[2023-06-09 12:06:07] INFO root fetch - main [MainThread]: End processing [jinbase] error
+[2023-06-09 12:06:07] INFO root fetch - processPackages [starmerx-url]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-09 12:06:07] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/ba/a5/45c0c79230dc0a3c831303767f0414b4f1f24398355543081fcc3850e403/wow_ai_ml-0.2.1.tar.gz
+[2023-06-09 12:06:08] INFO root fetch - processPackages [wow-ai-ml]: executing diffoscope
+[2023-06-09 12:06:08] INFO root fetch - processPackages [wow-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_ml-0.2.0.tar.gz tmp/wow_ai_ml-0.2.1.tar.gz --markdown 20230609/w/wow-ai-ml/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-09 12:06:08] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/5a/b9/576094ed113275cabe9887ffdb2dbaeab33af8877e9c6f9f09dee0e4ac89/nvidia-dali-nightly-cuda110-1.27.0.dev20230608.tar.gz
+[2023-06-09 12:06:08] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/25/39/d4a758660b05a973a38b572240b0c1d1557348c101b278fa174bcf84f291/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230608.tar.gz
+[2023-06-09 12:06:08] INFO root fetch - processPackages [signalsnap]: Downloading https://files.pythonhosted.org/packages/bf/ec/5bd60cf118bfe6b8645656d8546c1598b6889642dbb1da33605c4e02f57a/signalsnap-0.1.8.tar.gz
+[2023-06-09 12:06:08] INFO root fetch - processPackages [physio]: Downloading https://files.pythonhosted.org/packages/fa/94/38c8a4d7b5b3b0f941b2ea515b8200cb740a4a6b941279793f5ec4defcd1/physio-0.0.1.tar.gz
+[2023-06-09 12:06:08] INFO root fetch - processPackages [hello_jupyter_proxy]: Downloading https://files.pythonhosted.org/packages/fe/54/a64ec3e457961c9f42e07d2c07e7048a9d4e0e468ff6a7a165e3bea3a777/hello_jupyter_proxy-0.1.tar.gz
+[2023-06-09 12:06:08] INFO root fetch - processPackages [starmerx-url]: Downloading https://files.pythonhosted.org/packages/da/00/e4dbd77751a0ce57d3e78c05560fff01bce53826384bb9dbb9a40b6e4262/starmerx_url-0.1.3.tar.gz
+[2023-06-09 12:06:08] WARNING root fetch - processPackages [signalsnap]: Skipping package: exceeds size limit 32154085>=10485760
+[2023-06-09 12:06:08] INFO root fetch - main [MainThread]: End processing [signalsnap] error
+[2023-06-09 12:06:08] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-06-09 12:06:08] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230607.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230608.tar.gz --markdown 20230609/n/nvidia-dali-tf-plugin-nightly-cuda110/1.27.0.dev20230607-1.27.0.dev20230608/diff.md --exclude *.pyd
+[2023-06-09 12:06:08] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2023-06-09 12:06:08] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda110-1.27.0.dev20230607.tar.gz tmp/nvidia-dali-nightly-cuda110-1.27.0.dev20230608.tar.gz --markdown 20230609/n/nvidia-dali-nightly-cuda110/1.27.0.dev20230607-1.27.0.dev20230608/diff.md --exclude *.pyd
+[2023-06-09 12:06:08] INFO root fetch - processPackages [starmerx-url]: Downloading https://files.pythonhosted.org/packages/14/21/bf42a0327e231120f014a83280ba11e70b024f295885569c8e8e464fbedd/starmerx_url-0.1.4.tar.gz
+[2023-06-09 12:06:08] INFO root fetch - processPackages [hello_jupyter_proxy]: Downloading https://files.pythonhosted.org/packages/08/bf/8fe7f271bf508a251e8505b591d97862d238b797a725d9b8ebb23072f153/hello_jupyter_proxy-0.2.tar.gz
+[2023-06-09 12:06:08] INFO root fetch - processPackages [physio]: Downloading https://files.pythonhosted.org/packages/10/16/f7214043e63f860e9856e1c5442e4a3f7b95e0611ac3fa560ab5e0477c2e/physio-0.1.0.tar.gz
+[2023-06-09 12:06:08] INFO root fetch - processPackages [starmerx-url]: executing diffoscope
+[2023-06-09 12:06:08] INFO root fetch - processPackages [starmerx-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmerx_url-0.1.3.tar.gz tmp/starmerx_url-0.1.4.tar.gz --markdown 20230609/s/starmerx-url/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-09 12:06:08] INFO root fetch - processPackages [hello_jupyter_proxy]: executing diffoscope
+[2023-06-09 12:06:08] INFO root fetch - processPackages [hello_jupyter_proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello_jupyter_proxy-0.1.tar.gz tmp/hello_jupyter_proxy-0.2.tar.gz --markdown 20230609/h/hello_jupyter_proxy/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-09 12:06:08] INFO root fetch - processPackages [physio]: executing diffoscope
+[2023-06-09 12:06:08] INFO root fetch - processPackages [physio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physio-0.0.1.tar.gz tmp/physio-0.1.0.tar.gz --markdown 20230609/p/physio/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-09 12:06:09] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230607.tar.gz]
+[2023-06-09 12:06:09] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230608.tar.gz]
+[2023-06-09 12:06:09] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-06-09 12:06:09] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.27.0.dev20230607.tar.gz]
+[2023-06-09 12:06:09] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.27.0.dev20230608.tar.gz]
+[2023-06-09 12:06:09] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2023-06-09 12:06:09] INFO root fetch - processPackages [physio]: Remove: archive file [/home/abi/fetcher/tmp/physio-0.0.1.tar.gz]
+[2023-06-09 12:06:09] INFO root fetch - processPackages [physio]: Remove: archive file [/home/abi/fetcher/tmp/physio-0.1.0.tar.gz]
+[2023-06-09 12:06:09] INFO root fetch - main [MainThread]: End processing [physio]: success
+[2023-06-09 12:06:09] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.0.tar.gz]
+[2023-06-09 12:06:09] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.1.tar.gz]
+[2023-06-09 12:06:09] INFO root fetch - main [MainThread]: End processing [wow-ai-ml]: success
+[2023-06-09 12:06:09] INFO root fetch - processPackages [starmerx-url]: Remove: archive file [/home/abi/fetcher/tmp/starmerx_url-0.1.3.tar.gz]
+[2023-06-09 12:06:09] INFO root fetch - processPackages [starmerx-url]: Remove: archive file [/home/abi/fetcher/tmp/starmerx_url-0.1.4.tar.gz]
+[2023-06-09 12:06:09] INFO root fetch - main [MainThread]: End processing [starmerx-url]: success
+[2023-06-09 12:06:09] INFO root fetch - processPackages [hello_jupyter_proxy]: Remove: archive file [/home/abi/fetcher/tmp/hello_jupyter_proxy-0.1.tar.gz]
+[2023-06-09 12:06:09] INFO root fetch - processPackages [hello_jupyter_proxy]: Remove: archive file [/home/abi/fetcher/tmp/hello_jupyter_proxy-0.2.tar.gz]
+[2023-06-09 12:06:09] INFO root fetch - main [MainThread]: End processing [hello_jupyter_proxy]: success
+[2023-06-09 12:06:09] INFO root fetch - main [MainThread]: Store serial: [18439201]
