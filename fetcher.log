@@ -19044,3 +19044,91 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-09 10:29:16] INFO root fetch - processPackages [tempest]: Remove: archive file [/home/abi/fetcher/tmp/tempest-35.0.0.tar.gz]
 [2023-06-09 10:29:16] INFO root fetch - main [MainThread]: End processing [tempest]: success
 [2023-06-09 10:29:16] INFO root fetch - main [MainThread]: Store serial: [18438327]
+[2023-06-09 10:34:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438327]
+[2023-06-09 10:34:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-09 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: callmebot
+[2023-06-09 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verysimplemodule1102
+[2023-06-09 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sd-meh
+[2023-06-09 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: humanloop
+[2023-06-09 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dream-river
+[2023-06-09 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zipline-tej
+[2023-06-09 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-Ayiin
+[2023-06-09 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ytilities
+[2023-06-09 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arithmetica-py
+[2023-06-09 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: domain-admin
+[2023-06-09 10:34:28] WARNING root fetch - processPackages [verysimplemodule1102]: Skipping, unable to determine old version
+[2023-06-09 10:34:28] INFO root fetch - processPackages [verysimplemodule1102]: Start processing: arithmetica-py
+[2023-06-09 10:34:28] INFO root fetch - main [MainThread]: End processing [verysimplemodule1102] error
+[2023-06-09 10:34:28] INFO root fetch - processPackages [sd-meh]: New version: [0.6.1] Old Version: [0.5.0]
+[2023-06-09 10:34:28] INFO root fetch - processPackages [callmebot]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-09 10:34:28] INFO root fetch - processPackages [humanloop]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-09 10:34:28] INFO root fetch - processPackages [dream-river]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-09 10:34:28] WARNING root fetch - processPackages [ytilities]: Skipping, unable to determine old version
+[2023-06-09 10:34:28] INFO root fetch - main [MainThread]: End processing [ytilities] error
+[2023-06-09 10:34:28] INFO root fetch - processPackages [arithmetica-py]: New version: [1.0.212] Old Version: [1.0.211]
+[2023-06-09 10:34:28] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 10:34:28] INFO root fetch - processPackages [domain-admin]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-09 10:34:28] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev9] Old Version: [0.4.4.dev8]
+[2023-06-09 10:34:29] INFO root fetch - processPackages [arithmetica-py]: New version: [1.0.212] Old Version: [1.0.211]
+[2023-06-09 10:34:29] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/26/0b/6b0ef4af7d6b02dc9ca83552ae7c8a377391dc332ee14d948aebaf96bfd0/sd_meh-0.5.0.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/3d/3e/52d0425742b3a69557b368ce72a87f4c5524cce4bc069cb5e26218b64fcd/arithmetica-py-1.0.211.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/3d/3e/52d0425742b3a69557b368ce72a87f4c5524cce4bc069cb5e26218b64fcd/arithmetica-py-1.0.211.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [callmebot]: Downloading https://files.pythonhosted.org/packages/e7/eb/ab27b9c4e25cdef850196991be7e006351eed82fed645d4dd88313a12941/callmebot-1.2.4.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [dream-river]: Downloading https://files.pythonhosted.org/packages/7c/13/c78a5f6d892a09c1ccb7ecdbe005726dbaf4640a375d6db4770b7887f9e9/dream_river-0.0.2.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/e0/11/ef3dd568ef64a3670cb764213282c268e44074054a5effe640e37d87fced/humanloop-0.4.6.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/a8/a9/9f3a9694572196e70e9ba540e00d88c2d3b5944a2117d502feede8f8b138/py-Ayiin-0.4.4.dev9.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/74/39/e12936b47c9c9e95aae33585176c5f66d5d6561cc1a0eece993ed792a43a/domain-admin-1.3.3.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-09 10:34:29] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230609/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 10:34:29] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/dd/37/92acafdb551483b9af7c28d7812d9bae15f6eec245826d54d0ac465f560c/sd_meh-0.6.1.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [sd-meh]: executing diffoscope
+[2023-06-09 10:34:29] INFO root fetch - processPackages [sd-meh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd_meh-0.5.0.tar.gz tmp/sd_meh-0.6.1.tar.gz --markdown 20230609/s/sd-meh/0.5.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-09 10:34:29] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/90/76/c8acb9531f77a7c190f4ffe76fcf9076fa0cd6d6ae0ce1f398ed6fddf2d1/arithmetica-py-1.0.212.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 10:34:29] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/90/76/c8acb9531f77a7c190f4ffe76fcf9076fa0cd6d6ae0ce1f398ed6fddf2d1/arithmetica-py-1.0.212.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev8.tar.gz tmp/py-Ayiin-0.4.4.dev9.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev8-0.4.4.dev9/diff.md --exclude *.pyd
+[2023-06-09 10:34:29] INFO root fetch - processPackages [dream-river]: Downloading https://files.pythonhosted.org/packages/80/cb/080f7f93ab4ed90d0a7d87059a18a24aee14fa7f8920bc69851443e13fa9/dream_river-0.0.3.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [dream-river]: executing diffoscope
+[2023-06-09 10:34:29] INFO root fetch - processPackages [dream-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream_river-0.0.2.tar.gz tmp/dream_river-0.0.3.tar.gz --markdown 20230609/d/dream-river/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-09 10:34:29] INFO root fetch - processPackages [callmebot]: Downloading https://files.pythonhosted.org/packages/5e/9f/a9999957e57996d26cd6b07e081510af2502dc2b90278f536652d1bf0b23/callmebot-1.2.5.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [arithmetica-py]: executing diffoscope
+[2023-06-09 10:34:29] INFO root fetch - processPackages [arithmetica-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arithmetica-py-1.0.211.tar.gz tmp/arithmetica-py-1.0.212.tar.gz --markdown 20230609/a/arithmetica-py/1.0.211-1.0.212/diff.md --exclude *.pyd
+[2023-06-09 10:34:29] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/58/a7/237c050ff751ed7831a17374caa3bd7ca73c09c5a6477977a7649307282e/humanloop-0.4.7.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [arithmetica-py]: executing diffoscope
+[2023-06-09 10:34:29] INFO root fetch - processPackages [arithmetica-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arithmetica-py-1.0.211.tar.gz tmp/arithmetica-py-1.0.212.tar.gz --markdown 20230609/a/arithmetica-py/1.0.211-1.0.212/diff.md --exclude *.pyd
+[2023-06-09 10:34:29] INFO root fetch - processPackages [callmebot]: executing diffoscope
+[2023-06-09 10:34:29] INFO root fetch - processPackages [callmebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callmebot-1.2.4.tar.gz tmp/callmebot-1.2.5.tar.gz --markdown 20230609/c/callmebot/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-09 10:34:29] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2023-06-09 10:34:29] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.4.6.tar.gz tmp/humanloop-0.4.7.tar.gz --markdown 20230609/h/humanloop/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-09 10:34:29] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/e2/2d/4e6c0fbf22cd5f425bb7591b039f40853aa5e1d5e06e0ed939084d670880/domain-admin-1.3.4.tar.gz
+[2023-06-09 10:34:29] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-09 10:34:29] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.3.3.tar.gz tmp/domain-admin-1.3.4.tar.gz --markdown 20230609/d/domain-admin/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-09 10:34:30] INFO root fetch - processPackages [sd-meh]: Remove: archive file [/home/abi/fetcher/tmp/sd_meh-0.5.0.tar.gz]
+[2023-06-09 10:34:30] INFO root fetch - processPackages [sd-meh]: Remove: archive file [/home/abi/fetcher/tmp/sd_meh-0.6.1.tar.gz]
+[2023-06-09 10:34:30] INFO root fetch - main [MainThread]: End processing [sd-meh]: success
+[2023-06-09 10:34:30] INFO root fetch - processPackages [dream-river]: Remove: archive file [/home/abi/fetcher/tmp/dream_river-0.0.2.tar.gz]
+[2023-06-09 10:34:30] INFO root fetch - processPackages [dream-river]: Remove: archive file [/home/abi/fetcher/tmp/dream_river-0.0.3.tar.gz]
+[2023-06-09 10:34:30] INFO root fetch - main [MainThread]: End processing [dream-river]: success
+[2023-06-09 10:34:31] INFO root fetch - processPackages [callmebot]: Remove: archive file [/home/abi/fetcher/tmp/callmebot-1.2.4.tar.gz]
+[2023-06-09 10:34:31] INFO root fetch - processPackages [callmebot]: Remove: archive file [/home/abi/fetcher/tmp/callmebot-1.2.5.tar.gz]
+[2023-06-09 10:34:31] INFO root fetch - main [MainThread]: End processing [callmebot]: success
+[2023-06-09 10:34:31] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 10:34:31] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
+[2023-06-09 10:34:31] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 10:34:31] INFO root fetch - processPackages [arithmetica-py]: Remove: archive file [/home/abi/fetcher/tmp/arithmetica-py-1.0.211.tar.gz]
+[2023-06-09 10:34:31] INFO root fetch - processPackages [arithmetica-py]: Remove: archive file [/home/abi/fetcher/tmp/arithmetica-py-1.0.212.tar.gz]
+[2023-06-09 10:34:31] INFO root fetch - main [MainThread]: End processing [arithmetica-py]: success
+[2023-06-09 10:34:31] INFO root fetch - main [MainThread]: End processing [arithmetica-py]: success
+[2023-06-09 10:34:34] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-09 10:34:34] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-09 10:34:34] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-09 10:34:35] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.4.6.tar.gz]
+[2023-06-09 10:34:35] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.4.7.tar.gz]
+[2023-06-09 10:34:35] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2023-06-09 10:34:50] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.3.3.tar.gz]
+[2023-06-09 10:34:50] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.3.4.tar.gz]
+[2023-06-09 10:34:50] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-09 10:34:50] INFO root fetch - main [MainThread]: Store serial: [18438368]
