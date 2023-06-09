@@ -19653,3 +19653,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-09 10:56:46] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.18.2.tar.gz]
 [2023-06-09 10:56:46] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
 [2023-06-09 10:56:46] INFO root fetch - main [MainThread]: Store serial: [18438578]
+[2023-06-09 11:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438578]
+[2023-06-09 11:01:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biomappings
+[2023-06-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polars
+[2023-06-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solver4mpi
+[2023-06-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uat-breeze-connect
+[2023-06-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monotonic-nn
+[2023-06-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polars-lts-cpu
+[2023-06-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-miraie-ac
+[2023-06-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytrition
+[2023-06-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multireg
+[2023-06-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rpaframework-assistant
+[2023-06-09 11:01:57] INFO root fetch - processPackages [biomappings]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-09 11:01:57] INFO root fetch - processPackages [uat-breeze-connect]: New version: [1.0.14rc9] Old Version: [1.0.14rc8]
+[2023-06-09 11:01:57] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.18.2] Old Version: [0.18.1]
+[2023-06-09 11:01:57] INFO root fetch - processPackages [monotonic-nn]: New version: [0.3.2rc0] Old Version: [0.3.2]
+[2023-06-09 11:01:57] WARNING root fetch - processPackages [py-miraie-ac]: Skipping, unable to determine old version
+[2023-06-09 11:01:57] INFO root fetch - processPackages [solver4mpi]: New version: [3.4.4] Old Version: [3.4.3]
+[2023-06-09 11:01:57] INFO root fetch - main [MainThread]: End processing [py-miraie-ac] error
+[2023-06-09 11:01:57] WARNING root fetch - processPackages [pytrition]: Skipping, unable to determine old version
+[2023-06-09 11:01:57] INFO root fetch - processPackages [multireg]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-09 11:01:57] INFO root fetch - main [MainThread]: End processing [pytrition] error
+[2023-06-09 11:01:57] INFO root fetch - processPackages [rpaframework-assistant]: New version: [2.3.0] Old Version: [2.2.2]
+[2023-06-09 11:01:57] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-09 11:01:57] INFO root fetch - processPackages [solver4mpi]: Downloading https://files.pythonhosted.org/packages/1e/a3/6df1b333f44bb11c3d69c5c957b370142352a5eafbfa62fc43cc8fdc9ce5/solver4mpi-3.4.3.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/be/ed/56327b376d6bc1cd1a22cee2a515d1d2f03a85e47d0eb12e51f0e5f2661a/multireg-0.0.2.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [biomappings]: Downloading https://files.pythonhosted.org/packages/67/8a/96ef340e77cc07808de0c34403408826e0c18d385c13b93d4fc343f8a740/biomappings-0.3.0.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/2b/2b/f64ed7bfaefc3fdfb347021a7c6a92a6c82f7be2c64e7af78bcbb8d3c54a/monotonic-nn-0.3.2.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/9b/03/dd802566421dcd9465f7af95ae902df105cf90c68269ed72f09fe15e456c/uat-breeze-connect-1.0.14rc8.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [rpaframework-assistant]: Downloading https://files.pythonhosted.org/packages/84/1a/920ef55653ff920dabadbafae5b25c0902fcfea188c2171813bf82381804/rpaframework_assistant-2.2.2.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/e7/87/d9b28ede138dfbfa298446f324fd99a8c9f1229deeabc69024c8613d68f8/polars-0.9.8.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/01/a2/05d534c12512993c55554d6ef5bb4e5d5b0f8160c973b09e111e67942745/polars_lts_cpu-0.18.1.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [solver4mpi]: Downloading https://files.pythonhosted.org/packages/78/d5/7fc16e093b3a98b1dd23f003e63938ee3234978101661f9e82314773515c/solver4mpi-3.4.4.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/38/e5/1bbd40b2f11f6a087ec847d08439b69325923c58ed0914d3a0e2855166f1/monotonic-nn-0.3.2rc0.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/b8/57/473a7c10e3dfd31a1bea551dea879400d27130d0d9b906d7583790b8d485/multireg-0.0.3.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [monotonic-nn]: executing diffoscope
+[2023-06-09 11:01:57] INFO root fetch - processPackages [monotonic-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic-nn-0.3.2.tar.gz tmp/monotonic-nn-0.3.2rc0.tar.gz --markdown 20230609/m/monotonic-nn/0.3.2-0.3.2rc0/diff.md --exclude *.pyd
+[2023-06-09 11:01:57] INFO root fetch - processPackages [biomappings]: Downloading https://files.pythonhosted.org/packages/fa/90/6f8a3f1295218d73ac18943ba0085b47af9947b2032d701100e55fa14779/biomappings-0.3.1.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [solver4mpi]: executing diffoscope
+[2023-06-09 11:01:57] INFO root fetch - processPackages [solver4mpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solver4mpi-3.4.3.tar.gz tmp/solver4mpi-3.4.4.tar.gz --markdown 20230609/s/solver4mpi/3.4.3-3.4.4/diff.md --exclude *.pyd
+[2023-06-09 11:01:57] INFO root fetch - processPackages [rpaframework-assistant]: Downloading https://files.pythonhosted.org/packages/7f/c2/77618908d4ed339f0c0d535eb125007fdd437c52b54566fa18ec11b969a8/rpaframework_assistant-2.3.0.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/8d/f4/143a06fd8e018cb00bd508ba68c57b4b702472a3ed77f16bf9eff06069d3/polars_lts_cpu-0.18.2.tar.gz
+[2023-06-09 11:01:57] INFO root fetch - processPackages [multireg]: executing diffoscope
+[2023-06-09 11:01:57] INFO root fetch - processPackages [multireg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multireg-0.0.2.tar.gz tmp/multireg-0.0.3.tar.gz --markdown 20230609/m/multireg/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-09 11:01:58] INFO root fetch - processPackages [biomappings]: executing diffoscope
+[2023-06-09 11:01:58] INFO root fetch - processPackages [biomappings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biomappings-0.3.0.tar.gz tmp/biomappings-0.3.1.tar.gz --markdown 20230609/b/biomappings/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-09 11:01:58] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2023-06-09 11:01:58] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.18.1.tar.gz tmp/polars_lts_cpu-0.18.2.tar.gz --markdown 20230609/p/polars-lts-cpu/0.18.1-0.18.2/diff.md --exclude *.pyd
+[2023-06-09 11:01:58] INFO root fetch - processPackages [rpaframework-assistant]: executing diffoscope
+[2023-06-09 11:01:58] INFO root fetch - processPackages [rpaframework-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework_assistant-2.2.2.tar.gz tmp/rpaframework_assistant-2.3.0.tar.gz --markdown 20230609/r/rpaframework-assistant/2.2.2-2.3.0/diff.md --exclude *.pyd
+[2023-06-09 11:01:58] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/96/26/63076bebabb9ecbc73cd58cf48f924a3f05b871166f576b56d9935158194/polars-0.9.9.tar.gz
+[2023-06-09 11:01:58] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/85/e6/316aacb290fbe4ecb39fb9afbd06c44dd7de75f21614e5cd8e91e43358e9/uat-breeze-connect-1.0.14rc9.tar.gz
+[2023-06-09 11:01:58] INFO root fetch - processPackages [polars]: executing diffoscope
+[2023-06-09 11:01:58] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20230609/p/polars/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-09 11:01:58] INFO root fetch - processPackages [uat-breeze-connect]: executing diffoscope
+[2023-06-09 11:01:58] INFO root fetch - processPackages [uat-breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uat-breeze-connect-1.0.14rc8.tar.gz tmp/uat-breeze-connect-1.0.14rc9.tar.gz --markdown 20230609/u/uat-breeze-connect/1.0.14rc8-1.0.14rc9/diff.md --exclude *.pyd
+[2023-06-09 11:01:59] INFO root fetch - processPackages [solver4mpi]: Remove: archive file [/home/abi/fetcher/tmp/solver4mpi-3.4.3.tar.gz]
+[2023-06-09 11:01:59] INFO root fetch - processPackages [solver4mpi]: Remove: archive file [/home/abi/fetcher/tmp/solver4mpi-3.4.4.tar.gz]
+[2023-06-09 11:01:59] INFO root fetch - main [MainThread]: End processing [solver4mpi]: success
+[2023-06-09 11:01:59] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.3.2.tar.gz]
+[2023-06-09 11:01:59] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.3.2rc0.tar.gz]
+[2023-06-09 11:01:59] INFO root fetch - main [MainThread]: End processing [monotonic-nn]: success
+[2023-06-09 11:01:59] INFO root fetch - processPackages [rpaframework-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_assistant-2.2.2.tar.gz]
+[2023-06-09 11:01:59] INFO root fetch - processPackages [rpaframework-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_assistant-2.3.0.tar.gz]
+[2023-06-09 11:01:59] INFO root fetch - main [MainThread]: End processing [rpaframework-assistant]: success
+[2023-06-09 11:01:59] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.2.tar.gz]
+[2023-06-09 11:01:59] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.3.tar.gz]
+[2023-06-09 11:01:59] INFO root fetch - main [MainThread]: End processing [multireg]: success
+[2023-06-09 11:01:59] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat-breeze-connect-1.0.14rc8.tar.gz]
+[2023-06-09 11:01:59] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat-breeze-connect-1.0.14rc9.tar.gz]
+[2023-06-09 11:01:59] INFO root fetch - main [MainThread]: End processing [uat-breeze-connect]: success
+[2023-06-09 11:02:04] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.8.tar.gz]
+[2023-06-09 11:02:04] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.9.tar.gz]
+[2023-06-09 11:02:04] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2023-06-09 11:02:05] INFO root fetch - processPackages [biomappings]: Remove: archive file [/home/abi/fetcher/tmp/biomappings-0.3.0.tar.gz]
+[2023-06-09 11:02:05] INFO root fetch - processPackages [biomappings]: Remove: archive file [/home/abi/fetcher/tmp/biomappings-0.3.1.tar.gz]
+[2023-06-09 11:02:05] INFO root fetch - main [MainThread]: End processing [biomappings]: success
+[2023-06-09 11:02:15] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.18.1.tar.gz]
+[2023-06-09 11:02:15] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.18.2.tar.gz]
+[2023-06-09 11:02:15] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2023-06-09 11:02:15] INFO root fetch - main [MainThread]: Store serial: [18438611]
