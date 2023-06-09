@@ -21741,3 +21741,89 @@ AssertionError: tmp/satellitevu-1.5.0.tar.gz does not exist
 [2023-06-09 12:34:35] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230609.82609.tar.gz]
 [2023-06-09 12:34:35] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-06-09 12:34:35] INFO root fetch - main [MainThread]: Store serial: [18439427]
+[2023-06-09 12:39:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18439427]
+[2023-06-09 12:39:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-09 12:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-Ayiin
+[2023-06-09 12:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orbit-database
+[2023-06-09 12:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: course-work-oop
+[2023-06-09 12:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyliquibase
+[2023-06-09 12:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmtccmd
+[2023-06-09 12:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-graphene-firebase-auth
+[2023-06-09 12:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lofigui
+[2023-06-09 12:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cgsubmit
+[2023-06-09 12:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: orbit-component-base
+[2023-06-09 12:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pipeline-feature
+[2023-06-09 12:39:45] INFO root fetch - processPackages [orbit-database]: New version: [1.0.0] Old Version: [0.99.91]
+[2023-06-09 12:39:45] INFO root fetch - processPackages [pyliquibase]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-09 12:39:45] WARNING root fetch - processPackages [course-work-oop]: Skipping, unable to determine old version
+[2023-06-09 12:39:45] INFO root fetch - processPackages [course-work-oop]: Start processing: absl-extra
+[2023-06-09 12:39:45] INFO root fetch - main [MainThread]: End processing [course-work-oop] error
+[2023-06-09 12:39:45] INFO root fetch - processPackages [orbit-component-base]: New version: [1.0.9] Old Version: [1.0.10]
+[2023-06-09 12:39:45] INFO root fetch - processPackages [tmtccmd]: New version: [5.0.0rc0] Old Version: [5.0.0a0]
+[2023-06-09 12:39:45] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev9] Old Version: [0.4.4.dev8]
+[2023-06-09 12:39:45] INFO root fetch - processPackages [django-graphene-firebase-auth]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-09 12:39:45] INFO root fetch - processPackages [cgsubmit]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-09 12:39:45] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 12:39:45] WARNING root fetch - processPackages [lofigui]: Skipping, unable to determine old version
+[2023-06-09 12:39:45] INFO root fetch - main [MainThread]: End processing [lofigui] error
+[2023-06-09 12:39:45] INFO root fetch - processPackages [absl-extra]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 12:39:45] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 12:39:45] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/2c/ac/6e7a123009ed65a6bccdba2f3305a7c1e74bd4784506258829aa1794e001/orbit_component_base-1.0.10.tar.gz
+[2023-06-09 12:39:45] INFO root fetch - processPackages [pyliquibase]: Downloading https://files.pythonhosted.org/packages/e1/b5/3000e0e358a17b73e50eeb5d31cb55f8f66bcff2045470c3a6cf9243e0bd/pyliquibase-2.0.8.tar.gz
+[2023-06-09 12:39:45] INFO root fetch - processPackages [orbit-database]: Downloading https://files.pythonhosted.org/packages/71/ee/2d8fdbc7ab2e77a26ed4162745d8255a181c644ca5808830b1ded6e61f84/orbit_database-0.99.91.tar.gz
+[2023-06-09 12:39:45] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-09 12:39:45] INFO root fetch - processPackages [cgsubmit]: Downloading https://files.pythonhosted.org/packages/0b/ac/eed86b283a55534ce3fb854d1a7d5bd69111a072ceb58d423fbd75a19d07/cgsubmit-1.0.9.tar.gz
+[2023-06-09 12:39:45] INFO root fetch - processPackages [tmtccmd]: Downloading https://files.pythonhosted.org/packages/55/d4/e101b7a4ec33ab6fea36fda894387f7c9aada1c89d15a5eb490d1dfa6efc/tmtccmd-5.0.0a0.tar.gz
+[2023-06-09 12:39:45] INFO root fetch - processPackages [django-graphene-firebase-auth]: Downloading https://files.pythonhosted.org/packages/13/eb/73e1dd03b41ed6d0942189cf352b347785652d2a3e7a5f97106d31db1a17/django-graphene-firebase-auth-0.0.7.tar.gz
+[2023-06-09 12:39:45] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/29/c2/2963a9d6af04f01e35537596dae79293de441ce549712ff30add2367a97e/absl_extra-0.0.8.tar.gz
+[2023-06-09 12:39:45] WARNING root fetch - processPackages [pyliquibase]: Skipping package: exceeds size limit 74516601>=10485760
+[2023-06-09 12:39:45] INFO root fetch - main [MainThread]: End processing [pyliquibase] error
+[2023-06-09 12:39:45] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/d2/67/10fc0971fd85e0d95f32c6146a0e2bd1c6ac0e19c2823b8712f3d6c6e918/orbit_component_base-1.0.9.tar.gz
+[2023-06-09 12:39:45] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/a8/a9/9f3a9694572196e70e9ba540e00d88c2d3b5944a2117d502feede8f8b138/py-Ayiin-0.4.4.dev9.tar.gz
+[2023-06-09 12:39:45] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-09 12:39:46] INFO root fetch - processPackages [orbit-component-base]: executing diffoscope
+[2023-06-09 12:39:46] INFO root fetch - processPackages [orbit-component-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_base-1.0.10.tar.gz tmp/orbit_component_base-1.0.9.tar.gz --markdown 20230609/o/orbit-component-base/1.0.10-1.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:39:46] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-09 12:39:46] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230609/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:39:46] INFO root fetch - processPackages [cgsubmit]: Downloading https://files.pythonhosted.org/packages/70/50/e7fcff706e424a2f206e0b561c43d67a41851db8682eed6d3f53624099c5/cgsubmit-1.1.0.tar.gz
+[2023-06-09 12:39:46] INFO root fetch - processPackages [tmtccmd]: Downloading https://files.pythonhosted.org/packages/a8/45/4efdab11bf78b168346211e499060a8028c5b13a8f2870761aac20da4383/tmtccmd-5.0.0rc0.tar.gz
+[2023-06-09 12:39:46] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 12:39:46] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev8.tar.gz tmp/py-Ayiin-0.4.4.dev9.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev8-0.4.4.dev9/diff.md --exclude *.pyd
+[2023-06-09 12:39:46] INFO root fetch - processPackages [django-graphene-firebase-auth]: Downloading https://files.pythonhosted.org/packages/fb/97/84e55ee08062275a7586a1216c783120c3d3e6ab1fdec6fa5766e866b08d/django-graphene-firebase-auth-0.0.8.tar.gz
+[2023-06-09 12:39:46] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/77/5e/479618372d66392b53074e5ea5029923827042b97d6e1bea363d3ab81d91/absl_extra-0.0.9.tar.gz
+[2023-06-09 12:39:46] INFO root fetch - processPackages [orbit-database]: Downloading https://files.pythonhosted.org/packages/97/d5/266d154a2bc1af56e4a5c7682391f00ac1dea5edced81bccf614f1c9a337/orbit_database-1.0.0.tar.gz
+[2023-06-09 12:39:46] INFO root fetch - processPackages [cgsubmit]: executing diffoscope
+[2023-06-09 12:39:46] INFO root fetch - processPackages [cgsubmit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgsubmit-1.0.9.tar.gz tmp/cgsubmit-1.1.0.tar.gz --markdown 20230609/c/cgsubmit/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-09 12:39:46] INFO root fetch - processPackages [django-graphene-firebase-auth]: executing diffoscope
+[2023-06-09 12:39:46] INFO root fetch - processPackages [django-graphene-firebase-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-graphene-firebase-auth-0.0.7.tar.gz tmp/django-graphene-firebase-auth-0.0.8.tar.gz --markdown 20230609/d/django-graphene-firebase-auth/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-09 12:39:46] INFO root fetch - processPackages [tmtccmd]: executing diffoscope
+[2023-06-09 12:39:46] INFO root fetch - processPackages [tmtccmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmtccmd-5.0.0a0.tar.gz tmp/tmtccmd-5.0.0rc0.tar.gz --markdown 20230609/t/tmtccmd/5.0.0a0-5.0.0rc0/diff.md --exclude *.pyd
+[2023-06-09 12:39:46] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-06-09 12:39:46] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.8.tar.gz tmp/absl_extra-0.0.9.tar.gz --markdown 20230609/a/absl-extra/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:39:46] INFO root fetch - processPackages [orbit-database]: executing diffoscope
+[2023-06-09 12:39:46] INFO root fetch - processPackages [orbit-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_database-0.99.91.tar.gz tmp/orbit_database-1.0.0.tar.gz --markdown 20230609/o/orbit-database/0.99.91-1.0.0/diff.md --exclude *.pyd
+[2023-06-09 12:39:47] INFO root fetch - processPackages [orbit-component-base]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_base-1.0.10.tar.gz]
+[2023-06-09 12:39:47] INFO root fetch - processPackages [orbit-component-base]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_base-1.0.9.tar.gz]
+[2023-06-09 12:39:47] INFO root fetch - main [MainThread]: End processing [orbit-component-base]: success
+[2023-06-09 12:39:47] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-09 12:39:47] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-09 12:39:47] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-09 12:39:47] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.8.tar.gz]
+[2023-06-09 12:39:47] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.9.tar.gz]
+[2023-06-09 12:39:47] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-06-09 12:39:47] INFO root fetch - processPackages [cgsubmit]: Remove: archive file [/home/abi/fetcher/tmp/cgsubmit-1.0.9.tar.gz]
+[2023-06-09 12:39:47] INFO root fetch - processPackages [cgsubmit]: Remove: archive file [/home/abi/fetcher/tmp/cgsubmit-1.1.0.tar.gz]
+[2023-06-09 12:39:47] INFO root fetch - main [MainThread]: End processing [cgsubmit]: success
+[2023-06-09 12:39:47] INFO root fetch - processPackages [django-graphene-firebase-auth]: Remove: archive file [/home/abi/fetcher/tmp/django-graphene-firebase-auth-0.0.7.tar.gz]
+[2023-06-09 12:39:47] INFO root fetch - processPackages [django-graphene-firebase-auth]: Remove: archive file [/home/abi/fetcher/tmp/django-graphene-firebase-auth-0.0.8.tar.gz]
+[2023-06-09 12:39:47] INFO root fetch - main [MainThread]: End processing [django-graphene-firebase-auth]: success
+[2023-06-09 12:39:47] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 12:39:47] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
+[2023-06-09 12:39:47] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 12:39:48] INFO root fetch - processPackages [orbit-database]: Remove: archive file [/home/abi/fetcher/tmp/orbit_database-0.99.91.tar.gz]
+[2023-06-09 12:39:48] INFO root fetch - processPackages [orbit-database]: Remove: archive file [/home/abi/fetcher/tmp/orbit_database-1.0.0.tar.gz]
+[2023-06-09 12:39:48] INFO root fetch - main [MainThread]: End processing [orbit-database]: success
+[2023-06-09 12:39:50] INFO root fetch - processPackages [tmtccmd]: Remove: archive file [/home/abi/fetcher/tmp/tmtccmd-5.0.0a0.tar.gz]
+[2023-06-09 12:39:50] INFO root fetch - processPackages [tmtccmd]: Remove: archive file [/home/abi/fetcher/tmp/tmtccmd-5.0.0rc0.tar.gz]
+[2023-06-09 12:39:50] INFO root fetch - main [MainThread]: End processing [tmtccmd]: success
+[2023-06-09 12:39:50] INFO root fetch - main [MainThread]: Store serial: [18439463]
