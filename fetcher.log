@@ -20843,3 +20843,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-09 11:50:22] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.9.tar.gz]
 [2023-06-09 11:50:22] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2023-06-09 11:50:22] INFO root fetch - main [MainThread]: Store serial: [18439070]
+[2023-06-09 11:55:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18439070]
+[2023-06-09 11:55:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-09 11:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysoundanalyser
+[2023-06-09 11:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-all-in-one-accessibility
+[2023-06-09 11:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-gitlab
+[2023-06-09 11:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: altcos-common
+[2023-06-09 11:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyatp-buildkit
+[2023-06-09 11:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyautd3
+[2023-06-09 11:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libretrofuzz
+[2023-06-09 11:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyNekobin
+[2023-06-09 11:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MDRMF
+[2023-06-09 11:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-cisco-maintenance
+[2023-06-09 11:55:35] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-09 11:55:35] INFO root fetch - processPackages [libretrofuzz]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-09 11:55:35] INFO root fetch - processPackages [pyNekobin]: New version: [2.3] Old Version: [2.2]
+[2023-06-09 11:55:35] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 11:55:35] INFO root fetch - processPackages [pyatp-buildkit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-09 11:55:35] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2023-06-09 11:55:35] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/47/16/c9b90907f0297632401d76f27b43930a3b56f30ceee7d54ab661768a60c3/libretrofuzz-3.0.1.tar.gz
+[2023-06-09 11:55:35] INFO root fetch - processPackages [pyNekobin]: Downloading https://files.pythonhosted.org/packages/2f/ee/417a0dd94920c2a520d965971d76af41ef9cc04064c5105bee510a20bf21/pyNekobin-2.2.tar.gz
+[2023-06-09 11:55:35] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-09 11:55:35] INFO root fetch - processPackages [pysoundanalyser]: New version: [0.3.4] Old Version: [0.3.2]
+[2023-06-09 11:55:35] INFO root fetch - processPackages [pyatp-buildkit]: Downloading https://files.pythonhosted.org/packages/6c/08/9eaf81076b07d41e7e9c9abbabc05dc1beeb622cf2ab5128c207c71e49b0/pyatp_buildkit-1.1.8.tar.gz
+[2023-06-09 11:55:35] WARNING root fetch - processPackages [altcos-common]: Skipping, unable to determine old version
+[2023-06-09 11:55:35] INFO root fetch - main [MainThread]: End processing [altcos-common] error
+[2023-06-09 11:55:35] INFO root fetch - processPackages [django-all-in-one-accessibility]: New version: [1.3] Old Version: [1.2]
+[2023-06-09 11:55:35] INFO root fetch - processPackages [MDRMF]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-09 11:55:35] INFO root fetch - processPackages [python-gitlab]: New version: [3.9.0] Old Version: [3.8.1]
+[2023-06-09 11:55:35] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2023-06-09 11:55:35] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-06-09 11:55:35] INFO root fetch - processPackages [pyNekobin]: Downloading https://files.pythonhosted.org/packages/f4/fc/dbceb5904cdc58b6907e1767f4737e40bd57ac2edce888a2c54b138d96f4/pyNekobin-2.3.tar.gz
+[2023-06-09 11:55:35] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-09 11:55:35] INFO root fetch - processPackages [django-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/b8/27/d8149f72c587ea6604d2ca06d7612749e3d9c4a501f4c8db3f91ede65948/django-all-in-one-accessibility-1.2.tar.gz
+[2023-06-09 11:55:35] INFO root fetch - processPackages [pyatp-buildkit]: Downloading https://files.pythonhosted.org/packages/ec/53/064791acc7c62934344b9cda651ef95a8675c5e43c466e37b13e5f9b70db/pyatp_buildkit-1.1.9.tar.gz
+[2023-06-09 11:55:35] INFO root fetch - processPackages [MDRMF]: Downloading https://files.pythonhosted.org/packages/41/bb/70a56c79ae107a80dec76741e34f4d4e7fcf65cf299f02e98dc4352098c4/MDRMF-0.0.3.tar.gz
+[2023-06-09 11:55:35] INFO root fetch - processPackages [python-gitlab]: Downloading https://files.pythonhosted.org/packages/c4/b8/399c07ceb7322356d1e8d37728e3cdc2330bb3b201148daa12a7705e0c37/python-gitlab-3.8.1.tar.gz
+[2023-06-09 11:55:35] INFO root fetch - processPackages [pyNekobin]: executing diffoscope
+[2023-06-09 11:55:35] INFO root fetch - processPackages [pyNekobin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyNekobin-2.2.tar.gz tmp/pyNekobin-2.3.tar.gz --markdown 20230609/p/pyNekobin/2.2-2.3/diff.md --exclude *.pyd
+[2023-06-09 11:55:35] INFO root fetch - processPackages [pysoundanalyser]: Downloading https://files.pythonhosted.org/packages/f9/88/b62a145e78ac7fbc36d396ba728fec2627c4145a64fc792c1e4413192e4b/pysoundanalyser-0.3.2.tar.gz
+[2023-06-09 11:55:35] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-09 11:55:35] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230609/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 11:55:35] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/79/24/0b6cc71cb87cc1c1093a623badff8bdc8a19883f2e996bd870817c16220b/libretrofuzz-3.0.2.tar.gz
+[2023-06-09 11:55:36] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-09 11:55:36] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-3.0.1.tar.gz tmp/libretrofuzz-3.0.2.tar.gz --markdown 20230609/l/libretrofuzz/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-09 11:55:36] INFO root fetch - processPackages [django-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/43/e4/36864f41b2b619dbc2e16fb35037548b6f27a9f47488d40e565afdb67d73/django-all-in-one-accessibility-1.3.tar.gz
+[2023-06-09 11:55:36] INFO root fetch - processPackages [MDRMF]: Downloading https://files.pythonhosted.org/packages/b0/66/ab6ba344058cbf6d7c76280d64a32277c60c446dc2ede729a49bd44bec69/MDRMF-0.0.4.tar.gz
+[2023-06-09 11:55:36] INFO root fetch - processPackages [python-gitlab]: Downloading https://files.pythonhosted.org/packages/a8/9b/9406073c64d9a9cb066f75cb12590c436e2788f90b341dbb9346703e4334/python-gitlab-3.9.0.tar.gz
+[2023-06-09 11:55:36] INFO root fetch - processPackages [django-all-in-one-accessibility]: executing diffoscope
+[2023-06-09 11:55:36] INFO root fetch - processPackages [django-all-in-one-accessibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-all-in-one-accessibility-1.2.tar.gz tmp/django-all-in-one-accessibility-1.3.tar.gz --markdown 20230609/d/django-all-in-one-accessibility/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-09 11:55:36] INFO root fetch - processPackages [pysoundanalyser]: Downloading https://files.pythonhosted.org/packages/fe/c1/565985514c714cd122ce65b6a5f957cc334384296f114d9d3707cd512880/pysoundanalyser-0.3.4.tar.gz
+[2023-06-09 11:55:36] INFO root fetch - processPackages [python-gitlab]: executing diffoscope
+[2023-06-09 11:55:36] INFO root fetch - processPackages [python-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gitlab-3.8.1.tar.gz tmp/python-gitlab-3.9.0.tar.gz --markdown 20230609/p/python-gitlab/3.8.1-3.9.0/diff.md --exclude *.pyd
+[2023-06-09 11:55:36] INFO root fetch - processPackages [pysoundanalyser]: executing diffoscope
+[2023-06-09 11:55:36] INFO root fetch - processPackages [pysoundanalyser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysoundanalyser-0.3.2.tar.gz tmp/pysoundanalyser-0.3.4.tar.gz --markdown 20230609/p/pysoundanalyser/0.3.2-0.3.4/diff.md --exclude *.pyd
+[2023-06-09 11:55:36] INFO root fetch - processPackages [MDRMF]: executing diffoscope
+[2023-06-09 11:55:36] INFO root fetch - processPackages [MDRMF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDRMF-0.0.3.tar.gz tmp/MDRMF-0.0.4.tar.gz --markdown 20230609/M/MDRMF/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-09 11:55:36] INFO root fetch - processPackages [pyatp-buildkit]: executing diffoscope
+[2023-06-09 11:55:36] INFO root fetch - processPackages [pyatp-buildkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatp_buildkit-1.1.8.tar.gz tmp/pyatp_buildkit-1.1.9.tar.gz --markdown 20230609/p/pyatp-buildkit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-09 11:55:37] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.2.tar.gz]
+[2023-06-09 11:55:37] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.3.tar.gz]
+[2023-06-09 11:55:37] INFO root fetch - main [MainThread]: End processing [pyNekobin]: success
+[2023-06-09 11:55:37] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.1.tar.gz]
+[2023-06-09 11:55:37] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.2.tar.gz]
+[2023-06-09 11:55:37] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-09 11:55:37] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-09 11:55:37] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-09 11:55:37] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-09 11:55:37] INFO root fetch - processPackages [django-all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/django-all-in-one-accessibility-1.2.tar.gz]
+[2023-06-09 11:55:37] INFO root fetch - processPackages [django-all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/django-all-in-one-accessibility-1.3.tar.gz]
+[2023-06-09 11:55:37] INFO root fetch - main [MainThread]: End processing [django-all-in-one-accessibility]: success
+[2023-06-09 11:55:37] INFO root fetch - processPackages [MDRMF]: Remove: archive file [/home/abi/fetcher/tmp/MDRMF-0.0.3.tar.gz]
+[2023-06-09 11:55:37] INFO root fetch - processPackages [MDRMF]: Remove: archive file [/home/abi/fetcher/tmp/MDRMF-0.0.4.tar.gz]
+[2023-06-09 11:55:37] INFO root fetch - main [MainThread]: End processing [MDRMF]: success
+[2023-06-09 11:55:37] INFO root fetch - processPackages [pyatp-buildkit]: Remove: archive file [/home/abi/fetcher/tmp/pyatp_buildkit-1.1.8.tar.gz]
+[2023-06-09 11:55:37] INFO root fetch - processPackages [pyatp-buildkit]: Remove: archive file [/home/abi/fetcher/tmp/pyatp_buildkit-1.1.9.tar.gz]
+[2023-06-09 11:55:37] INFO root fetch - main [MainThread]: End processing [pyatp-buildkit]: success
+[2023-06-09 11:55:39] INFO root fetch - processPackages [pysoundanalyser]: Remove: archive file [/home/abi/fetcher/tmp/pysoundanalyser-0.3.2.tar.gz]
+[2023-06-09 11:55:39] INFO root fetch - processPackages [pysoundanalyser]: Remove: archive file [/home/abi/fetcher/tmp/pysoundanalyser-0.3.4.tar.gz]
+[2023-06-09 11:55:39] INFO root fetch - main [MainThread]: End processing [pysoundanalyser]: success
+[2023-06-09 11:55:39] INFO root fetch - processPackages [python-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/python-gitlab-3.8.1.tar.gz]
+[2023-06-09 11:55:39] INFO root fetch - processPackages [python-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/python-gitlab-3.9.0.tar.gz]
+[2023-06-09 11:55:39] INFO root fetch - main [MainThread]: End processing [python-gitlab]: success
+[2023-06-09 11:55:39] INFO root fetch - main [MainThread]: Store serial: [18439103]
