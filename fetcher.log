@@ -20107,3 +20107,165 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-09 11:18:06] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.12.8.tar.gz]
 [2023-06-09 11:18:06] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2023-06-09 11:18:06] INFO root fetch - main [MainThread]: Store serial: [18438757]
+[2023-06-09 11:23:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438757]
+[2023-06-09 11:23:15] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-09 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polarismesh-specification
+[2023-06-09 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osrsreboxed
+[2023-06-09 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rna
+[2023-06-09 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvc-data
+[2023-06-09 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tbp-nightly
+[2023-06-09 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-maintenance
+[2023-06-09 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: equinix-metal
+[2023-06-09 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-06-09 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ghga-datasteward-kit
+[2023-06-09 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: napari-boxmanager
+[2023-06-09 11:23:15] INFO root fetch - processPackages [dvc-data]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-09 11:23:15] WARNING root fetch - processPackages [ghga-datasteward-kit]: Skipping, unable to determine old version
+[2023-06-09 11:23:15] INFO root fetch - processPackages [ghga-datasteward-kit]: Start processing: spanishconjugator
+[2023-06-09 11:23:15] INFO root fetch - main [MainThread]: End processing [ghga-datasteward-kit] error
+[2023-06-09 11:23:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 11:23:15] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-09 11:23:15] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/03/d5/0752bbc3e82edd356b4f0c69a11c9711eb09deabd1a6a8f948e2da46818d/dvc-data-0.8.0.tar.gz
+[2023-06-09 11:23:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-09 11:23:15] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-09 11:23:15] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-09 11:23:15] INFO root fetch - processPackages [equinix-metal]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-09 11:23:15] INFO root fetch - processPackages [polarismesh-specification]: New version: [1.3.2a5] Old Version: [1.3.2a4]
+[2023-06-09 11:23:15] INFO root fetch - processPackages [rna]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-09 11:23:15] INFO root fetch - processPackages [napari-boxmanager]: New version: [0.4.0b4] Old Version: [0.4.0b3]
+[2023-06-09 11:23:15] INFO root fetch - processPackages [osrsreboxed]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-09 11:23:15] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-09 11:23:16] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/a8/48/45769c84ca94a5ef9f01d28e1a1de562c332b500e41bace8ecb0100cdf1b/polarismesh_specification-1.3.2a4.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/8c/65/1d133c2ce7da48539e36d2edda0ae3f74534e639f26efaef0c696860e8c2/dvc-data-0.9.0.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [equinix-metal]: Downloading https://files.pythonhosted.org/packages/e4/92/bcb8633dbcfe9e281ed96830b2f517ecd1dd44e9ed8b5f99109f565db645/equinix-metal-0.2.0.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [rna]: Downloading https://files.pythonhosted.org/packages/e7/5c/abf0cb118cab4f4d6b024917ba57ae16ddc9071b942730f1c385bcea19ac/rna-0.8.0-py3-none-any.whl
+[2023-06-09 11:23:16] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-09 11:23:16] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230609/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 11:23:16] INFO root fetch - processPackages [osrsreboxed]: Downloading https://files.pythonhosted.org/packages/91/1a/16ae9c074c1c99d6c4aa7ad991a23ad7ad5aab7b203cf59f1ac09e31cdc8/osrsreboxed-2.3.8.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-09 11:23:16] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-0.8.0.tar.gz tmp/dvc-data-0.9.0.tar.gz --markdown 20230609/d/dvc-data/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 11:23:16] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/eb/9f/43bcf53030ee1b5feb3dbd950666e988ad9e19e7405126be8ed5dd11baf6/napari_boxmanager-0.4.0b3.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-09 11:23:16] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230609/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-09 11:23:16] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-09 11:23:16] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230609/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-09 11:23:16] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/de/28/8d6874a5d8dc5b29acd054788b5b0b369e7dbd486665d0d6cc52827a3119/polarismesh_specification-1.3.2a5.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [rna]: Downloading https://files.pythonhosted.org/packages/60/c4/324af9e9b8f8f0030190aaf26904bbe66285bf7305b9bf4a4b15874815e0/rna-0.9.0-py3-none-any.whl
+[2023-06-09 11:23:16] INFO root fetch - processPackages [equinix-metal]: Downloading https://files.pythonhosted.org/packages/42/f6/059379083320600f13ef8b111ffe0fd6efc12b7ac7576beb771ea510e114/equinix-metal-0.2.1.tar.gz
+[2023-06-09 11:23:16] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-09 11:23:16] INFO root fetch - processPackages [polarismesh-specification]: executing diffoscope
+[2023-06-09 11:23:16] INFO root fetch - processPackages [polarismesh-specification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarismesh_specification-1.3.2a4.tar.gz tmp/polarismesh_specification-1.3.2a5.tar.gz --markdown 20230609/p/polarismesh-specification/1.3.2a4-1.3.2a5/diff.md --exclude *.pyd
+[2023-06-09 11:23:16] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230609/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-09 11:23:16] INFO root fetch - processPackages [rna]: executing diffoscope
+[2023-06-09 11:23:16] INFO root fetch - processPackages [rna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rna-0.8.0-py3-none-any.whl.zip tmp/rna-0.9.0-py3-none-any.whl.zip --markdown 20230609/r/rna/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 11:23:16] INFO root fetch - processPackages [equinix-metal]: executing diffoscope
+[2023-06-09 11:23:16] INFO root fetch - processPackages [equinix-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equinix-metal-0.2.0.tar.gz tmp/equinix-metal-0.2.1.tar.gz --markdown 20230609/e/equinix-metal/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-09 11:23:16] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/4c/5b/d7f9056b9c3bca6f350455bda283e66780193b648238e92ef282af5d2b90/napari_boxmanager-0.4.0b4.tar.gz
+[2023-06-09 11:23:17] WARNING root fetch - processPackages [osrsreboxed]: Skipping package: exceeds size limit 14949464>=10485760
+[2023-06-09 11:23:17] INFO root fetch - processPackages [osrsreboxed]: Start processing: hdn-research-environment
+[2023-06-09 11:23:17] INFO root fetch - main [MainThread]: End processing [osrsreboxed] error
+[2023-06-09 11:23:17] INFO root fetch - processPackages [hdn-research-environment]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-09 11:23:17] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/59/28/37a16085221841953ebf054eabeb6c2453dbaf45dcf6dc8b5cb858aebab2/hdn-research-environment-2.1.2.tar.gz
+[2023-06-09 11:23:17] INFO root fetch - processPackages [napari-boxmanager]: executing diffoscope
+[2023-06-09 11:23:17] INFO root fetch - processPackages [napari-boxmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_boxmanager-0.4.0b3.tar.gz tmp/napari_boxmanager-0.4.0b4.tar.gz --markdown 20230609/n/napari-boxmanager/0.4.0b3-0.4.0b4/diff.md --exclude *.pyd
+[2023-06-09 11:23:17] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-09 11:23:17] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-09 11:23:17] INFO root fetch - processPackages [spanishconjugator]: Start processing: gpt-fn
+[2023-06-09 11:23:17] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-09 11:23:17] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/87/12/a94b43736a601d0d6b5cd78ee1612aee95a599e0194f11f9dd25547497dc/hdn-research-environment-2.1.3.tar.gz
+[2023-06-09 11:23:17] INFO root fetch - processPackages [gpt-fn]: New version: [0.0.2] Old Version: [0.0.1.post2]
+[2023-06-09 11:23:17] INFO root fetch - processPackages [spanishconjugator]: Start processing: pyilz
+[2023-06-09 11:23:17] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-09 11:23:17] INFO root fetch - processPackages [pyilz]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-09 11:23:17] INFO root fetch - processPackages [pyilz]: Downloading https://files.pythonhosted.org/packages/4f/13/e77a1abd3776de291bfc659f439a45b0d355602b05370507f83d0fffb2d5/pyilz-0.0.7.tar.gz
+[2023-06-09 11:23:17] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2023-06-09 11:23:17] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-2.1.2.tar.gz tmp/hdn-research-environment-2.1.3.tar.gz --markdown 20230609/h/hdn-research-environment/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-09 11:23:18] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/e3/a0/7a268ec1e80f569dd18d20794f2b5f27abb3003e2a10b29a88086a50ad67/gpt_fn-0.0.1.post2.tar.gz
+[2023-06-09 11:23:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-09 11:23:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-09 11:23:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: coconut-develop
+[2023-06-09 11:23:18] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-09 11:23:18] INFO root fetch - processPackages [pyilz]: Downloading https://files.pythonhosted.org/packages/37/7a/114c838cef9c045f8814283c518613d96dbd100b5c90695136e5b4e752a2/pyilz-0.0.8.tar.gz
+[2023-06-09 11:23:18] INFO root fetch - processPackages [pyilz]: executing diffoscope
+[2023-06-09 11:23:18] INFO root fetch - processPackages [pyilz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyilz-0.0.7.tar.gz tmp/pyilz-0.0.8.tar.gz --markdown 20230609/p/pyilz/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-09 11:23:18] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.3.2a4.tar.gz]
+[2023-06-09 11:23:18] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.3.2a5.tar.gz]
+[2023-06-09 11:23:18] INFO root fetch - processPackages [polarismesh-specification]: Start processing: django-cloudspotlicense
+[2023-06-09 11:23:18] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
+[2023-06-09 11:23:18] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev5] Old Version: [3.0.2.post0.dev4]
+[2023-06-09 11:23:18] INFO root fetch - processPackages [django-cloudspotlicense]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-06-09 11:23:18] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/2e/cc/9022ec557022a28d29f9b28a993d4d2b032916a7582d1008463a702f2f3c/gpt_fn-0.0.2.tar.gz
+[2023-06-09 11:23:18] INFO root fetch - processPackages [rna]: Remove: archive file [/home/abi/fetcher/tmp/rna-0.8.0-py3-none-any.whl.zip]
+[2023-06-09 11:23:18] INFO root fetch - processPackages [rna]: Remove: archive file [/home/abi/fetcher/tmp/rna-0.9.0-py3-none-any.whl.zip]
+[2023-06-09 11:23:18] INFO root fetch - processPackages [rna]: Start processing: smartem
+[2023-06-09 11:23:18] INFO root fetch - main [MainThread]: End processing [rna]: success
+[2023-06-09 11:23:18] INFO root fetch - processPackages [gpt-fn]: executing diffoscope
+[2023-06-09 11:23:18] INFO root fetch - processPackages [gpt-fn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_fn-0.0.1.post2.tar.gz tmp/gpt_fn-0.0.2.tar.gz --markdown 20230609/g/gpt-fn/0.0.1.post2-0.0.2/diff.md --exclude *.pyd
+[2023-06-09 11:23:18] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/7b/36/b819898229598f765d5b4446ad55a1f887206f73f57273868d07cfdb7b77/coconut-develop-3.0.2.post0.dev4.tar.gz
+[2023-06-09 11:23:18] INFO root fetch - processPackages [smartem]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-09 11:23:18] INFO root fetch - processPackages [django-cloudspotlicense]: Downloading https://files.pythonhosted.org/packages/64/11/23d8e0f08c5b1d2afa319854919b43e17ac804f6a1979e946ac8f3538af3/django-cloudspotlicense-6.0.0.tar.gz
+[2023-06-09 11:23:18] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-0.8.0.tar.gz]
+[2023-06-09 11:23:18] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-0.9.0.tar.gz]
+[2023-06-09 11:23:18] INFO root fetch - processPackages [dvc-data]: Start processing: ultralytics
+[2023-06-09 11:23:18] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-09 11:23:18] INFO root fetch - processPackages [smartem]: Downloading https://files.pythonhosted.org/packages/e1/d9/86e4c30a92b337728ff7d3dd2807cb0c8a9015a8c60adcd5e71bbd141efa/smartem-0.1.2.tar.gz
+[2023-06-09 11:23:18] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/68/33/969f56fb64c4b77d662b43abf8e6a0a1282f31bcd665f363ae21dff424fb/coconut-develop-3.0.2.post0.dev5.tar.gz
+[2023-06-09 11:23:18] INFO root fetch - processPackages [django-cloudspotlicense]: Downloading https://files.pythonhosted.org/packages/b5/52/7a0377e612a4b3765a25be595271873865dcadbad4e346d289d65853199e/django-cloudspotlicense-6.1.0.tar.gz
+[2023-06-09 11:23:18] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-06-09 11:23:18] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-06-09 11:23:18] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev4.tar.gz tmp/coconut-develop-3.0.2.post0.dev5.tar.gz --markdown 20230609/c/coconut-develop/3.0.2.post0.dev4-3.0.2.post0.dev5/diff.md --exclude *.pyd
+[2023-06-09 11:23:18] INFO root fetch - processPackages [django-cloudspotlicense]: executing diffoscope
+[2023-06-09 11:23:18] INFO root fetch - processPackages [django-cloudspotlicense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cloudspotlicense-6.0.0.tar.gz tmp/django-cloudspotlicense-6.1.0.tar.gz --markdown 20230609/d/django-cloudspotlicense/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-06-09 11:23:18] INFO root fetch - processPackages [smartem]: Downloading https://files.pythonhosted.org/packages/c5/63/944d066e9b957f8aac9dee1f9787af99ec3494bc6415ec58e4d610895ba3/smartem-0.1.3.tar.gz
+[2023-06-09 11:23:19] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-06-09 11:23:19] INFO root fetch - processPackages [smartem]: executing diffoscope
+[2023-06-09 11:23:19] INFO root fetch - processPackages [smartem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartem-0.1.2.tar.gz tmp/smartem-0.1.3.tar.gz --markdown 20230609/s/smartem/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-09 11:23:19] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-06-09 11:23:19] INFO root fetch - processPackages [pyilz]: Remove: archive file [/home/abi/fetcher/tmp/pyilz-0.0.7.tar.gz]
+[2023-06-09 11:23:19] INFO root fetch - processPackages [pyilz]: Remove: archive file [/home/abi/fetcher/tmp/pyilz-0.0.8.tar.gz]
+[2023-06-09 11:23:19] INFO root fetch - processPackages [pyilz]: Start processing: multireg
+[2023-06-09 11:23:19] INFO root fetch - main [MainThread]: End processing [pyilz]: success
+[2023-06-09 11:23:19] INFO root fetch - processPackages [multireg]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-09 11:23:19] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/53/62/7fca7e4c4b49f723930052353a86063c1b788db4141b59bae16108023f4b/multireg-0.0.5.tar.gz
+[2023-06-09 11:23:19] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-06-09 11:23:19] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230609/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-06-09 11:23:19] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/52/44/00018d8312669299a80066ef3950369aa0ade7f8d64ba47a3343eb3f0053/multireg-0.0.6.tar.gz
+[2023-06-09 11:23:19] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.1.2.tar.gz]
+[2023-06-09 11:23:19] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.1.3.tar.gz]
+[2023-06-09 11:23:19] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2023-06-09 11:23:19] INFO root fetch - processPackages [multireg]: executing diffoscope
+[2023-06-09 11:23:19] INFO root fetch - processPackages [multireg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multireg-0.0.5.tar.gz tmp/multireg-0.0.6.tar.gz --markdown 20230609/m/multireg/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-09 11:23:19] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.1.post2.tar.gz]
+[2023-06-09 11:23:19] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.2.tar.gz]
+[2023-06-09 11:23:19] INFO root fetch - main [MainThread]: End processing [gpt-fn]: success
+[2023-06-09 11:23:19] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-09 11:23:19] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-09 11:23:19] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-09 11:23:20] INFO root fetch - processPackages [django-cloudspotlicense]: Remove: archive file [/home/abi/fetcher/tmp/django-cloudspotlicense-6.0.0.tar.gz]
+[2023-06-09 11:23:20] INFO root fetch - processPackages [django-cloudspotlicense]: Remove: archive file [/home/abi/fetcher/tmp/django-cloudspotlicense-6.1.0.tar.gz]
+[2023-06-09 11:23:20] INFO root fetch - main [MainThread]: End processing [django-cloudspotlicense]: success
+[2023-06-09 11:23:20] INFO root fetch - processPackages [smartem]: Remove: archive file [/home/abi/fetcher/tmp/smartem-0.1.2.tar.gz]
+[2023-06-09 11:23:20] INFO root fetch - processPackages [smartem]: Remove: archive file [/home/abi/fetcher/tmp/smartem-0.1.3.tar.gz]
+[2023-06-09 11:23:20] INFO root fetch - main [MainThread]: End processing [smartem]: success
+[2023-06-09 11:23:20] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.5.tar.gz]
+[2023-06-09 11:23:20] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.6.tar.gz]
+[2023-06-09 11:23:20] INFO root fetch - main [MainThread]: End processing [multireg]: success
+[2023-06-09 11:23:21] INFO root fetch - processPackages [napari-boxmanager]: Remove: archive file [/home/abi/fetcher/tmp/napari_boxmanager-0.4.0b3.tar.gz]
+[2023-06-09 11:23:21] INFO root fetch - processPackages [napari-boxmanager]: Remove: archive file [/home/abi/fetcher/tmp/napari_boxmanager-0.4.0b4.tar.gz]
+[2023-06-09 11:23:21] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
+[2023-06-09 11:23:22] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev4.tar.gz]
+[2023-06-09 11:23:22] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev5.tar.gz]
+[2023-06-09 11:23:22] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-06-09 11:23:23] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-06-09 11:23:23] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-06-09 11:23:23] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-06-09 11:23:23] INFO root fetch - processPackages [equinix-metal]: Remove: archive file [/home/abi/fetcher/tmp/equinix-metal-0.2.0.tar.gz]
+[2023-06-09 11:23:23] INFO root fetch - processPackages [equinix-metal]: Remove: archive file [/home/abi/fetcher/tmp/equinix-metal-0.2.1.tar.gz]
+[2023-06-09 11:23:23] INFO root fetch - main [MainThread]: End processing [equinix-metal]: success
+[2023-06-09 11:23:23] INFO root fetch - main [MainThread]: Store serial: [18438817]
