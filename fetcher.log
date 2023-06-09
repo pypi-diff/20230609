@@ -19999,3 +19999,111 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-09 11:12:51] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
 [2023-06-09 11:12:51] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2023-06-09 11:12:51] INFO root fetch - main [MainThread]: Store serial: [18438709]
+[2023-06-09 11:17:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438709]
+[2023-06-09 11:18:00] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-09 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-neat
+[2023-06-09 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solver4mpi
+[2023-06-09 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multireg
+[2023-06-09 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odd-collector-sdk
+[2023-06-09 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imerit-ango
+[2023-06-09 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenGeode-core
+[2023-06-09 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-pyinstaller
+[2023-06-09 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zoi-python-sdk
+[2023-06-09 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imerit-ango
+[2023-06-09 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bsb
+[2023-06-09 11:18:00] INFO root fetch - processPackages [solver4mpi]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-09 11:18:00] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.3.1rc4]
+[2023-06-09 11:18:00] INFO root fetch - processPackages [imerit-ango]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-09 11:18:00] INFO root fetch - processPackages [imerit-ango]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-09 11:18:00] INFO root fetch - processPackages [multireg]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-09 11:18:00] INFO root fetch - processPackages [cognite-neat]: New version: [0.12.8] Old Version: [0.12.7]
+[2023-06-09 11:18:00] INFO root fetch - processPackages [types-pyinstaller]: New version: [5.9.0.1] Old Version: [5.9.0.0]
+[2023-06-09 11:18:00] INFO root fetch - processPackages [odd-collector-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-09 11:18:00] WARNING root fetch - processPackages [zoi-python-sdk]: Skipping, unable to determine old version
+[2023-06-09 11:18:00] INFO root fetch - processPackages [zoi-python-sdk]: Start processing: pyatp-buildkit
+[2023-06-09 11:18:00] INFO root fetch - main [MainThread]: End processing [zoi-python-sdk] error
+[2023-06-09 11:18:00] INFO root fetch - processPackages [pyatp-buildkit]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-09 11:18:00] INFO root fetch - processPackages [solver4mpi]: Downloading https://files.pythonhosted.org/packages/a7/1d/21366659225a20e4c1a8f3ca3ae781a3880692f3de6d5a7df8060a4c3330/solver4mpi-3.4.5.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/53/62/7fca7e4c4b49f723930052353a86063c1b788db4141b59bae16108023f4b/multireg-0.0.5.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ba/ce865f52258c39c0b1d62ee3998decaf12b77f41fc74cc29f739aef2418a/odd-collector-sdk-0.3.8.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [bsb]: New version: [4.0.0a9] Old Version: [4.0.0a8]
+[2023-06-09 11:18:00] INFO root fetch - processPackages [pyatp-buildkit]: Downloading https://files.pythonhosted.org/packages/94/9e/04b0dc86f3262c2ee204090f41055f14d4d75ff3732ca3954b30b1a76680/pyatp_buildkit-1.1.6.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/59/f8/b6633a35b0e29df2cc171e2105295e80474829d2841e3aa49e4e86415271/imerit-ango-1.1.0.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/59/f8/b6633a35b0e29df2cc171e2105295e80474829d2841e3aa49e4e86415271/imerit-ango-1.1.0.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/fd/b7/1a9bc28aee4f194c13494c70b49abca61e2bba2396e5e6a052ea455339f7/OpenGeode_core-14.3.1rc4-cp38-cp38-manylinux2014_x86_64.whl
+[2023-06-09 11:18:00] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/b7/09/a072e072a86ba00164c8e4095f66211981ce5e1276abb17076ff23854b5d/odd_collector_sdk-0.3.9.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/cf/47/a3dc2c7681fcb64167a98bb9d9eb210758b34a7c7a5e8d343a61ae3abf1a/cognite_neat-0.12.7.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [types-pyinstaller]: Downloading https://files.pythonhosted.org/packages/c8/3b/bfa5022de4e182e0917aa29bd44a5c3931ebe084606f147210c1ff987e99/types-pyinstaller-5.9.0.0.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [odd-collector-sdk]: executing diffoscope
+[2023-06-09 11:18:00] INFO root fetch - processPackages [odd-collector-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-collector-sdk-0.3.8.tar.gz tmp/odd_collector_sdk-0.3.9.tar.gz --markdown 20230609/o/odd-collector-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-09 11:18:00] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/52/44/00018d8312669299a80066ef3950369aa0ade7f8d64ba47a3343eb3f0053/multireg-0.0.6.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [solver4mpi]: Downloading https://files.pythonhosted.org/packages/ac/be/092ce667082ad46d1f6c383920483bd4f59706bfb4f5a9747079a3daea53/solver4mpi-3.4.6.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [pyatp-buildkit]: Downloading https://files.pythonhosted.org/packages/86/e0/c4acdab21ba65cf0463faf5cf96abac0f76735e31a87bfad344f3b61bed1/pyatp_buildkit-1.1.7.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [bsb]: Downloading https://files.pythonhosted.org/packages/38/52/420c78fc2b397b958168cb667d37efbd630ec09de6bb73d4bb6888417236/bsb-4.0.0a8.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [multireg]: executing diffoscope
+[2023-06-09 11:18:00] INFO root fetch - processPackages [multireg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multireg-0.0.5.tar.gz tmp/multireg-0.0.6.tar.gz --markdown 20230609/m/multireg/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-09 11:18:00] INFO root fetch - processPackages [pyatp-buildkit]: executing diffoscope
+[2023-06-09 11:18:00] INFO root fetch - processPackages [pyatp-buildkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatp_buildkit-1.1.6.tar.gz tmp/pyatp_buildkit-1.1.7.tar.gz --markdown 20230609/p/pyatp-buildkit/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-09 11:18:00] INFO root fetch - processPackages [solver4mpi]: executing diffoscope
+[2023-06-09 11:18:00] INFO root fetch - processPackages [solver4mpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solver4mpi-3.4.5.tar.gz tmp/solver4mpi-3.4.6.tar.gz --markdown 20230609/s/solver4mpi/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-09 11:18:00] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 14076873>=10485760
+[2023-06-09 11:18:00] INFO root fetch - processPackages [OpenGeode-core]: Start processing: spiderx
+[2023-06-09 11:18:00] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-06-09 11:18:00] INFO root fetch - processPackages [types-pyinstaller]: Downloading https://files.pythonhosted.org/packages/a2/9c/f0da807194c7f9dc7b5631b6df9c030de97d9cb351e1aa3c876be0a7d274/types-pyinstaller-5.9.0.1.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/dd/8d/01d1da5aaac8b5f3b4e27d7c229529769e3c454118ddb4d0b8d591c95bba/imerit-ango-1.1.1.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-06-09 11:18:00] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/73/95/3da20fcc2cfe309d301ee33a607a933e79864997a5183cd22ddaa433490a/cognite_neat-0.12.8.tar.gz
+[2023-06-09 11:18:00] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/dd/8d/01d1da5aaac8b5f3b4e27d7c229529769e3c454118ddb4d0b8d591c95bba/imerit-ango-1.1.1.tar.gz
+[2023-06-09 11:18:01] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2023-06-09 11:18:01] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit-ango-1.1.0.tar.gz tmp/imerit-ango-1.1.1.tar.gz --markdown 20230609/i/imerit-ango/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-09 11:18:01] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2023-06-09 11:18:01] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit-ango-1.1.0.tar.gz tmp/imerit-ango-1.1.1.tar.gz --markdown 20230609/i/imerit-ango/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-09 11:18:01] INFO root fetch - processPackages [bsb]: Downloading https://files.pythonhosted.org/packages/fb/12/4e7cf5938b2d0ae8a2ffb33738ea7a5f3ca377c72889f61fbd2216f51be2/bsb-4.0.0a9-py3-none-any.whl
+[2023-06-09 11:18:01] INFO root fetch - processPackages [types-pyinstaller]: executing diffoscope
+[2023-06-09 11:18:01] INFO root fetch - processPackages [types-pyinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyinstaller-5.9.0.0.tar.gz tmp/types-pyinstaller-5.9.0.1.tar.gz --markdown 20230609/t/types-pyinstaller/5.9.0.0-5.9.0.1/diff.md --exclude *.pyd
+[2023-06-09 11:18:01] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-06-09 11:18:01] INFO root fetch - processPackages [bsb]: executing diffoscope
+[2023-06-09 11:18:01] INFO root fetch - processPackages [bsb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsb-4.0.0a8.tar.gz tmp/bsb-4.0.0a9-py3-none-any.whl.zip --markdown 20230609/b/bsb/4.0.0a8-4.0.0a9/diff.md --exclude *.pyd
+[2023-06-09 11:18:01] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-06-09 11:18:01] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.12.7.tar.gz tmp/cognite_neat-0.12.8.tar.gz --markdown 20230609/c/cognite-neat/0.12.7-0.12.8/diff.md --exclude *.pyd
+[2023-06-09 11:18:01] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-06-09 11:18:01] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd-collector-sdk-0.3.8.tar.gz]
+[2023-06-09 11:18:01] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd_collector_sdk-0.3.9.tar.gz]
+[2023-06-09 11:18:01] INFO root fetch - processPackages [odd-collector-sdk]: Start processing: morecantile
+[2023-06-09 11:18:01] INFO root fetch - main [MainThread]: End processing [odd-collector-sdk]: success
+[2023-06-09 11:18:01] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-06-09 11:18:01] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230609/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-06-09 11:18:02] INFO root fetch - processPackages [morecantile]: New version: [4.2.0] Old Version: [4.1.1]
+[2023-06-09 11:18:02] INFO root fetch - processPackages [morecantile]: Downloading https://files.pythonhosted.org/packages/4f/df/6e5ba21f2a74d56bad603bf6c07bc629b4ff23a6ea2a36763a7e21596b42/morecantile-4.1.1.tar.gz
+[2023-06-09 11:18:02] INFO root fetch - processPackages [solver4mpi]: Remove: archive file [/home/abi/fetcher/tmp/solver4mpi-3.4.5.tar.gz]
+[2023-06-09 11:18:02] INFO root fetch - processPackages [solver4mpi]: Remove: archive file [/home/abi/fetcher/tmp/solver4mpi-3.4.6.tar.gz]
+[2023-06-09 11:18:02] INFO root fetch - main [MainThread]: End processing [solver4mpi]: success
+[2023-06-09 11:18:02] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit-ango-1.1.0.tar.gz]
+[2023-06-09 11:18:02] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit-ango-1.1.1.tar.gz]
+[2023-06-09 11:18:02] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2023-06-09 11:18:02] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2023-06-09 11:18:02] INFO root fetch - processPackages [morecantile]: Downloading https://files.pythonhosted.org/packages/4e/21/7bb1b4ea0ed01e24bde58a106b167770e1558690b3ba65ccdc3c9e6aa95c/morecantile-4.2.0.tar.gz
+[2023-06-09 11:18:02] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.5.tar.gz]
+[2023-06-09 11:18:02] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.6.tar.gz]
+[2023-06-09 11:18:02] INFO root fetch - main [MainThread]: End processing [multireg]: success
+[2023-06-09 11:18:02] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-5.9.0.0.tar.gz]
+[2023-06-09 11:18:02] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-5.9.0.1.tar.gz]
+[2023-06-09 11:18:02] INFO root fetch - main [MainThread]: End processing [types-pyinstaller]: success
+[2023-06-09 11:18:02] INFO root fetch - processPackages [morecantile]: executing diffoscope
+[2023-06-09 11:18:02] INFO root fetch - processPackages [morecantile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morecantile-4.1.1.tar.gz tmp/morecantile-4.2.0.tar.gz --markdown 20230609/m/morecantile/4.1.1-4.2.0/diff.md --exclude *.pyd
+[2023-06-09 11:18:02] INFO root fetch - processPackages [bsb]: Remove: archive file [/home/abi/fetcher/tmp/bsb-4.0.0a8.tar.gz]
+[2023-06-09 11:18:02] INFO root fetch - processPackages [bsb]: Remove: archive file [/home/abi/fetcher/tmp/bsb-4.0.0a9-py3-none-any.whl.zip]
+[2023-06-09 11:18:02] INFO root fetch - main [MainThread]: End processing [bsb]: success
+[2023-06-09 11:18:03] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-06-09 11:18:03] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-06-09 11:18:03] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-06-09 11:18:03] INFO root fetch - processPackages [morecantile]: Remove: archive file [/home/abi/fetcher/tmp/morecantile-4.1.1.tar.gz]
+[2023-06-09 11:18:03] INFO root fetch - processPackages [morecantile]: Remove: archive file [/home/abi/fetcher/tmp/morecantile-4.2.0.tar.gz]
+[2023-06-09 11:18:03] INFO root fetch - main [MainThread]: End processing [morecantile]: success
+[2023-06-09 11:18:03] INFO root fetch - processPackages [pyatp-buildkit]: Remove: archive file [/home/abi/fetcher/tmp/pyatp_buildkit-1.1.6.tar.gz]
+[2023-06-09 11:18:03] INFO root fetch - processPackages [pyatp-buildkit]: Remove: archive file [/home/abi/fetcher/tmp/pyatp_buildkit-1.1.7.tar.gz]
+[2023-06-09 11:18:03] INFO root fetch - main [MainThread]: End processing [pyatp-buildkit]: success
+[2023-06-09 11:18:06] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.12.7.tar.gz]
+[2023-06-09 11:18:06] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.12.8.tar.gz]
+[2023-06-09 11:18:06] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-06-09 11:18:06] INFO root fetch - main [MainThread]: Store serial: [18438757]
