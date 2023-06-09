@@ -13087,3 +13087,69 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 06:20:52] INFO root fetch - processPackages [vaaibody]: Remove: archive file [/home/abi/fetcher/tmp/vaaibody-0.0.0.5.tar.gz]
 [2023-06-09 06:20:52] INFO root fetch - main [MainThread]: End processing [vaaibody]: success
 [2023-06-09 06:20:52] INFO root fetch - main [MainThread]: Store serial: [18436179]
+[2023-06-09 06:25:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436179]
+[2023-06-09 06:26:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-09 06:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-mis-builder
+[2023-06-09 06:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devchat
+[2023-06-09 06:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ionicons-python
+[2023-06-09 06:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstart-vdk
+[2023-06-09 06:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spoiltracker
+[2023-06-09 06:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microcat
+[2023-06-09 06:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nmdc-schema
+[2023-06-09 06:26:02] INFO root fetch - processPackages [odoo-addon-mis-builder]: New version: [16.0.5.1.1.5] Old Version: [16.0.5.1.1.4]
+[2023-06-09 06:26:02] INFO root fetch - processPackages [devchat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-09 06:26:02] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.894599572.dev11255] Old Version: [0.2.893910391.dev11244]
+[2023-06-09 06:26:02] INFO root fetch - processPackages [spoiltracker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 06:26:02] INFO root fetch - processPackages [ionicons-python]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-09 06:26:02] INFO root fetch - processPackages [nmdc-schema]: New version: [7.6.1] Old Version: [7.6.0]
+[2023-06-09 06:26:02] INFO root fetch - processPackages [microcat]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-09 06:26:02] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/c2/c5/0e58b43c483dafe675a02cbca16110b86582d21f08d7046288b5b1a22690/microcat-0.1.2.tar.gz
+[2023-06-09 06:26:02] INFO root fetch - processPackages [nmdc-schema]: Downloading https://files.pythonhosted.org/packages/6f/f1/6b0f5d3c3bad4e5d1559d42f920575885019e8b80ebbfb48bc3adc4e1879/nmdc_schema-7.6.0.tar.gz
+[2023-06-09 06:26:02] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/8c/9e/997b3370719629437f943615771632cf84284882e471f53ed38cf2cb9cb4/devchat-0.1.8.tar.gz
+[2023-06-09 06:26:02] INFO root fetch - processPackages [ionicons-python]: Downloading https://files.pythonhosted.org/packages/7c/80/d29d225b7db6f623f1de4ef2313939564b458f5364e9c28d5e61df0e36fb/ionicons_python-0.1.4.tar.gz
+[2023-06-09 06:26:02] INFO root fetch - processPackages [spoiltracker]: Downloading https://files.pythonhosted.org/packages/c1/51/a0b25d2d9e1cccd1524e01502d17e764061b6b99cefc60d79be5128d8b76/spoiltracker-0.0.8.tar.gz
+[2023-06-09 06:26:02] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/7b/bf/ad975505430c9d47628b4eec1018574e58c982e5db61e24dc5ca627cd8c2/quickstart-vdk-0.2.893910391.dev11244.tar.gz
+[2023-06-09 06:26:02] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/53/31/2398b75ef130d9311c89c1662e979e2b7203f3559a7c0ea89bb1f29e66c6/odoo_addon_mis_builder-16.0.5.1.1.4-py3-none-any.whl
+[2023-06-09 06:26:02] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/20/6f/4e427be52e14897fbca4b8752b02aa6157448373bcdaba56d0ef21eb0259/microcat-0.1.3.tar.gz
+[2023-06-09 06:26:02] INFO root fetch - processPackages [microcat]: executing diffoscope
+[2023-06-09 06:26:02] INFO root fetch - processPackages [microcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microcat-0.1.2.tar.gz tmp/microcat-0.1.3.tar.gz --markdown 20230609/m/microcat/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-09 06:26:02] INFO root fetch - processPackages [ionicons-python]: Downloading https://files.pythonhosted.org/packages/f9/1a/e16407960fa5e602feb7025748e1bc242265abcb7b7f341631ffea9804ed/ionicons_python-0.1.5.tar.gz
+[2023-06-09 06:26:02] INFO root fetch - processPackages [nmdc-schema]: Downloading https://files.pythonhosted.org/packages/de/b0/7780bade08b719f36d1387bd8b7066a64e7150a1b8b8096df2827d05ca12/nmdc_schema-7.6.1.tar.gz
+[2023-06-09 06:26:02] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/9b/87/21247886757125c5d16556fb577fb307e707741c72d7d2df55e46a66fd5b/quickstart-vdk-0.2.894599572.dev11255.tar.gz
+[2023-06-09 06:26:02] INFO root fetch - processPackages [spoiltracker]: Downloading https://files.pythonhosted.org/packages/62/5d/b930d310d5533e6b756f52297d4a670cd34643db3f069aa16ee51d7d2724/spoiltracker-0.0.9.tar.gz
+[2023-06-09 06:26:02] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/f3/61/920e416e3b6f168907abd78a183913dcd38186b961b9bb0a944ec3008ea5/devchat-0.1.9.tar.gz
+[2023-06-09 06:26:02] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/e1/74/20451a5712c05e6e9df2c85ef53fabd6e0aaa58630afcb60527c7dacbd03/odoo_addon_mis_builder-16.0.5.1.1.5-py3-none-any.whl
+[2023-06-09 06:26:02] INFO root fetch - processPackages [nmdc-schema]: executing diffoscope
+[2023-06-09 06:26:02] INFO root fetch - processPackages [nmdc-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmdc_schema-7.6.0.tar.gz tmp/nmdc_schema-7.6.1.tar.gz --markdown 20230609/n/nmdc-schema/7.6.0-7.6.1/diff.md --exclude *.pyd
+[2023-06-09 06:26:02] INFO root fetch - processPackages [ionicons-python]: executing diffoscope
+[2023-06-09 06:26:02] INFO root fetch - processPackages [ionicons-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ionicons_python-0.1.4.tar.gz tmp/ionicons_python-0.1.5.tar.gz --markdown 20230609/i/ionicons-python/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-09 06:26:02] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-09 06:26:02] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.893910391.dev11244.tar.gz tmp/quickstart-vdk-0.2.894599572.dev11255.tar.gz --markdown 20230609/q/quickstart-vdk/0.2.893910391.dev11244-0.2.894599572.dev11255/diff.md --exclude *.pyd
+[2023-06-09 06:26:02] INFO root fetch - processPackages [devchat]: executing diffoscope
+[2023-06-09 06:26:02] INFO root fetch - processPackages [devchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devchat-0.1.8.tar.gz tmp/devchat-0.1.9.tar.gz --markdown 20230609/d/devchat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-09 06:26:02] INFO root fetch - processPackages [spoiltracker]: executing diffoscope
+[2023-06-09 06:26:02] INFO root fetch - processPackages [spoiltracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spoiltracker-0.0.8.tar.gz tmp/spoiltracker-0.0.9.tar.gz --markdown 20230609/s/spoiltracker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 06:26:03] INFO root fetch - processPackages [odoo-addon-mis-builder]: executing diffoscope
+[2023-06-09 06:26:03] INFO root fetch - processPackages [odoo-addon-mis-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder-16.0.5.1.1.4-py3-none-any.whl.zip tmp/odoo_addon_mis_builder-16.0.5.1.1.5-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-mis-builder/16.0.5.1.1.4-16.0.5.1.1.5/diff.md --exclude *.pyd
+[2023-06-09 06:26:04] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.1.2.tar.gz]
+[2023-06-09 06:26:04] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.1.3.tar.gz]
+[2023-06-09 06:26:04] INFO root fetch - main [MainThread]: End processing [microcat]: success
+[2023-06-09 06:26:04] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.893910391.dev11244.tar.gz]
+[2023-06-09 06:26:04] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.894599572.dev11255.tar.gz]
+[2023-06-09 06:26:04] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-09 06:26:04] INFO root fetch - processPackages [spoiltracker]: Remove: archive file [/home/abi/fetcher/tmp/spoiltracker-0.0.8.tar.gz]
+[2023-06-09 06:26:04] INFO root fetch - processPackages [spoiltracker]: Remove: archive file [/home/abi/fetcher/tmp/spoiltracker-0.0.9.tar.gz]
+[2023-06-09 06:26:04] INFO root fetch - main [MainThread]: End processing [spoiltracker]: success
+[2023-06-09 06:26:04] INFO root fetch - processPackages [devchat]: Remove: archive file [/home/abi/fetcher/tmp/devchat-0.1.8.tar.gz]
+[2023-06-09 06:26:04] INFO root fetch - processPackages [devchat]: Remove: archive file [/home/abi/fetcher/tmp/devchat-0.1.9.tar.gz]
+[2023-06-09 06:26:04] INFO root fetch - main [MainThread]: End processing [devchat]: success
+[2023-06-09 06:26:05] INFO root fetch - processPackages [odoo-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder-16.0.5.1.1.4-py3-none-any.whl.zip]
+[2023-06-09 06:26:05] INFO root fetch - processPackages [odoo-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder-16.0.5.1.1.5-py3-none-any.whl.zip]
+[2023-06-09 06:26:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder]: success
+[2023-06-09 06:26:05] INFO root fetch - processPackages [nmdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_schema-7.6.0.tar.gz]
+[2023-06-09 06:26:05] INFO root fetch - processPackages [nmdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_schema-7.6.1.tar.gz]
+[2023-06-09 06:26:05] INFO root fetch - main [MainThread]: End processing [nmdc-schema]: success
+[2023-06-09 06:26:18] INFO root fetch - processPackages [ionicons-python]: Remove: archive file [/home/abi/fetcher/tmp/ionicons_python-0.1.4.tar.gz]
+[2023-06-09 06:26:18] INFO root fetch - processPackages [ionicons-python]: Remove: archive file [/home/abi/fetcher/tmp/ionicons_python-0.1.5.tar.gz]
+[2023-06-09 06:26:18] INFO root fetch - main [MainThread]: End processing [ionicons-python]: success
+[2023-06-09 06:26:18] INFO root fetch - main [MainThread]: Store serial: [18436195]
