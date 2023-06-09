@@ -3059,3 +3059,71 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 02:50:19] INFO root fetch - processPackages [zeno-build]: Remove: archive file [/home/abi/fetcher/tmp/zeno_build-0.0.2.tar.gz]
 [2023-06-09 02:50:19] INFO root fetch - main [MainThread]: End processing [zeno-build]: success
 [2023-06-09 02:50:19] INFO root fetch - main [MainThread]: Store serial: [18432857]
+[2023-06-09 02:55:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18432857]
+[2023-06-09 02:55:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 02:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: templateMF
+[2023-06-09 02:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mindsight-people-control-api
+[2023-06-09 02:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SpatialCluster
+[2023-06-09 02:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-comprehend-s3olap
+[2023-06-09 02:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solver4mpi
+[2023-06-09 02:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyentrp
+[2023-06-09 02:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py3d
+[2023-06-09 02:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FindSystemFontsFilename
+[2023-06-09 02:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vabody
+[2023-06-09 02:55:28] INFO root fetch - processPackages [mindsight-people-control-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-09 02:55:28] INFO root fetch - processPackages [solver4mpi]: New version: [3.2.7] Old Version: [3.2.6]
+[2023-06-09 02:55:28] INFO root fetch - processPackages [mindsight-people-control-api]: Downloading https://files.pythonhosted.org/packages/31/39/ad2ad17026cd86267c8910570a44bd485a031660f442e2bbdc35f7dce34d/mindsight_people_control_api-0.1.2.tar.gz
+[2023-06-09 02:55:28] INFO root fetch - processPackages [solver4mpi]: Downloading https://files.pythonhosted.org/packages/26/cf/84e1344552db4409ae1c04ad7078692ca6d457fa7d6581644549e915fa9c/solver4mpi-3.2.6.tar.gz
+[2023-06-09 02:55:28] WARNING root fetch - processPackages [templateMF]: Skipping, unable to determine old version
+[2023-06-09 02:55:28] INFO root fetch - main [MainThread]: End processing [templateMF] error
+[2023-06-09 02:55:28] WARNING root fetch - processPackages [vabody]: Skipping, unable to determine old version
+[2023-06-09 02:55:28] INFO root fetch - main [MainThread]: End processing [vabody] error
+[2023-06-09 02:55:28] INFO root fetch - processPackages [SpatialCluster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 02:55:28] INFO root fetch - processPackages [pyentrp]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-09 02:55:28] INFO root fetch - processPackages [py3d]: New version: [0.1.0] Old Version: [0.0.99]
+[2023-06-09 02:55:28] INFO root fetch - processPackages [FindSystemFontsFilename]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-09 02:55:28] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-09 02:55:28] INFO root fetch - processPackages [mindsight-people-control-api]: Downloading https://files.pythonhosted.org/packages/6a/39/caa02d4bce51bfb5cce85e5aaeb15ab23e1cf3c7ca35a299b9bc1686d766/mindsight_people_control_api-0.1.3.tar.gz
+[2023-06-09 02:55:28] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-09 02:55:28] INFO root fetch - processPackages [mindsight-people-control-api]: executing diffoscope
+[2023-06-09 02:55:28] INFO root fetch - processPackages [mindsight-people-control-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindsight_people_control_api-0.1.2.tar.gz tmp/mindsight_people_control_api-0.1.3.tar.gz --markdown 20230609/m/mindsight-people-control-api/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-09 02:55:28] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/d9/d7/a51c7bdf1e3bb01f187eb04b6f229c6cb047c3139e20ee8d06cb1de548c1/SpatialCluster-0.0.8.tar.gz
+[2023-06-09 02:55:28] INFO root fetch - processPackages [pyentrp]: Downloading https://files.pythonhosted.org/packages/02/a9/d4145253726d1658392cc5b4bd1df348e50607d8e0924f544afc5f324eee/pyentrp-0.8.2.tar.gz
+[2023-06-09 02:55:28] INFO root fetch - processPackages [FindSystemFontsFilename]: Downloading https://files.pythonhosted.org/packages/08/8b/9d512e7ce30d3a41871216290c0554df7c67103180157f9a42e4ce3851a7/FindSystemFontsFilename-0.0.4.tar.gz
+[2023-06-09 02:55:28] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/a5/47/a80bd2a40ac32cdf392bd82eea6dc58d6374dcc93005cf267a14958c9856/py3d-0.0.99.tar.gz
+[2023-06-09 02:55:28] INFO root fetch - processPackages [solver4mpi]: Downloading https://files.pythonhosted.org/packages/23/3d/4d6261d2f76b74d25348dbbd0026e6f30c7451784e5c510f8476197174f0/solver4mpi-3.2.7.tar.gz
+[2023-06-09 02:55:28] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-09 02:55:28] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-09 02:55:29] INFO root fetch - processPackages [solver4mpi]: executing diffoscope
+[2023-06-09 02:55:29] INFO root fetch - processPackages [solver4mpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solver4mpi-3.2.6.tar.gz tmp/solver4mpi-3.2.7.tar.gz --markdown 20230609/s/solver4mpi/3.2.6-3.2.7/diff.md --exclude *.pyd
+[2023-06-09 02:55:29] INFO root fetch - processPackages [pyentrp]: Downloading https://files.pythonhosted.org/packages/c3/f2/f7029b88fe7bf79e5156f5a6ed644c8c0045b1ce255fed08164c00245bc0/pyentrp-0.8.3.tar.gz
+[2023-06-09 02:55:29] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/19/c5/f6e799c8c2efbfc3c4c1164b0d33f1eeb8144eed8631587da4a98d29669e/py3d-0.1.0.tar.gz
+[2023-06-09 02:55:29] INFO root fetch - processPackages [FindSystemFontsFilename]: Downloading https://files.pythonhosted.org/packages/0b/7c/8c2c6b756804e49f5c356e0875ca3be32c896598542fc99590a2a6e24a81/FindSystemFontsFilename-0.1.0.tar.gz
+[2023-06-09 02:55:29] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/9a/12/7d550441bb0b8a09aa8b4ed03f2557ac00593b9de40598dc0797cdacced9/SpatialCluster-0.0.9.tar.gz
+[2023-06-09 02:55:29] INFO root fetch - processPackages [FindSystemFontsFilename]: executing diffoscope
+[2023-06-09 02:55:29] INFO root fetch - processPackages [FindSystemFontsFilename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FindSystemFontsFilename-0.0.4.tar.gz tmp/FindSystemFontsFilename-0.1.0.tar.gz --markdown 20230609/F/FindSystemFontsFilename/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-09 02:55:29] INFO root fetch - processPackages [SpatialCluster]: executing diffoscope
+[2023-06-09 02:55:29] INFO root fetch - processPackages [SpatialCluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpatialCluster-0.0.8.tar.gz tmp/SpatialCluster-0.0.9.tar.gz --markdown 20230609/S/SpatialCluster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 02:55:29] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-06-09 02:55:29] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.0.99.tar.gz tmp/py3d-0.1.0.tar.gz --markdown 20230609/p/py3d/0.0.99-0.1.0/diff.md --exclude *.pyd
+[2023-06-09 02:55:29] INFO root fetch - processPackages [pyentrp]: executing diffoscope
+[2023-06-09 02:55:29] INFO root fetch - processPackages [pyentrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyentrp-0.8.2.tar.gz tmp/pyentrp-0.8.3.tar.gz --markdown 20230609/p/pyentrp/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-09 02:55:30] INFO root fetch - processPackages [solver4mpi]: Remove: archive file [/home/abi/fetcher/tmp/solver4mpi-3.2.6.tar.gz]
+[2023-06-09 02:55:30] INFO root fetch - processPackages [solver4mpi]: Remove: archive file [/home/abi/fetcher/tmp/solver4mpi-3.2.7.tar.gz]
+[2023-06-09 02:55:30] INFO root fetch - main [MainThread]: End processing [solver4mpi]: success
+[2023-06-09 02:55:30] INFO root fetch - processPackages [mindsight-people-control-api]: Remove: archive file [/home/abi/fetcher/tmp/mindsight_people_control_api-0.1.2.tar.gz]
+[2023-06-09 02:55:30] INFO root fetch - processPackages [mindsight-people-control-api]: Remove: archive file [/home/abi/fetcher/tmp/mindsight_people_control_api-0.1.3.tar.gz]
+[2023-06-09 02:55:30] INFO root fetch - main [MainThread]: End processing [mindsight-people-control-api]: success
+[2023-06-09 02:55:30] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.8.tar.gz]
+[2023-06-09 02:55:30] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.9.tar.gz]
+[2023-06-09 02:55:30] INFO root fetch - main [MainThread]: End processing [SpatialCluster]: success
+[2023-06-09 02:55:30] INFO root fetch - processPackages [FindSystemFontsFilename]: Remove: archive file [/home/abi/fetcher/tmp/FindSystemFontsFilename-0.0.4.tar.gz]
+[2023-06-09 02:55:30] INFO root fetch - processPackages [FindSystemFontsFilename]: Remove: archive file [/home/abi/fetcher/tmp/FindSystemFontsFilename-0.1.0.tar.gz]
+[2023-06-09 02:55:30] INFO root fetch - main [MainThread]: End processing [FindSystemFontsFilename]: success
+[2023-06-09 02:55:30] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.0.99.tar.gz]
+[2023-06-09 02:55:30] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.0.tar.gz]
+[2023-06-09 02:55:30] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-06-09 02:55:30] INFO root fetch - processPackages [pyentrp]: Remove: archive file [/home/abi/fetcher/tmp/pyentrp-0.8.2.tar.gz]
+[2023-06-09 02:55:30] INFO root fetch - processPackages [pyentrp]: Remove: archive file [/home/abi/fetcher/tmp/pyentrp-0.8.3.tar.gz]
+[2023-06-09 02:55:30] INFO root fetch - main [MainThread]: End processing [pyentrp]: success
+[2023-06-09 02:55:30] INFO root fetch - main [MainThread]: Store serial: [18432898]
