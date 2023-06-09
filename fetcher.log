@@ -17591,3 +17591,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 09:16:46] INFO root fetch - processPackages [ytsaurus-yson]: Remove: archive file [/home/abi/fetcher/tmp/ytsaurus_yson-0.4.3-cp34-abi3-manylinux1_x86_64.whl.zip]
 [2023-06-09 09:16:46] INFO root fetch - main [MainThread]: End processing [ytsaurus-yson]: success
 [2023-06-09 09:16:46] INFO root fetch - main [MainThread]: Store serial: [18437678]
+[2023-06-09 09:21:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437678]
+[2023-06-09 09:21:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 09:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2023-06-09 09:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-Ayiin
+[2023-06-09 09:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voila-material-tuwien
+[2023-06-09 09:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coacd
+[2023-06-09 09:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tagreader
+[2023-06-09 09:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipeline-feature
+[2023-06-09 09:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gators
+[2023-06-09 09:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mysqlx
+[2023-06-09 09:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MT-PY-PerformanceLogging
+[2023-06-09 09:21:59] INFO root fetch - processPackages [mysqlx]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-09 09:21:59] INFO root fetch - processPackages [voila-material-tuwien]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-09 09:21:59] INFO root fetch - processPackages [gators]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-09 09:21:59] INFO root fetch - processPackages [tagreader]: New version: [4.0.3] Old Version: [4.0.1]
+[2023-06-09 09:21:59] INFO root fetch - processPackages [coacd]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-09 09:21:59] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 09:21:59] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-09 09:21:59] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev9] Old Version: [0.4.4.dev8]
+[2023-06-09 09:22:00] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-09 09:22:00] WARNING root fetch - processPackages [MT-PY-PerformanceLogging]: Skipping, unable to determine old version
+[2023-06-09 09:22:00] INFO root fetch - main [MainThread]: End processing [MT-PY-PerformanceLogging] error
+[2023-06-09 09:22:00] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/83/a0/ec5f1e015fdfe87078a81e00ae9c2ea4ee158dcbd761619e593f1d010383/mysqlx-1.2.3.tar.gz
+[2023-06-09 09:22:00] INFO root fetch - processPackages [voila-material-tuwien]: Downloading https://files.pythonhosted.org/packages/3f/98/46cdc133cea504571966fbd38582b4010e887f14d6d1eeb68c78d1edfeeb/voila-material-tuwien-0.4.4.tar.gz
+[2023-06-09 09:22:00] INFO root fetch - processPackages [gators]: Downloading https://files.pythonhosted.org/packages/53/16/a91751f627f67d7a3017786f283ab172288e75975c922ac9e85a01ccb8d1/gators-0.3.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-09 09:22:00] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 09:22:00] INFO root fetch - processPackages [tagreader]: Downloading https://files.pythonhosted.org/packages/34/5a/e99f7af48bdb9a71aa49d4879a598e384dcd4e07bd6ae1e06cedd893cce4/tagreader-4.0.1.tar.gz
+[2023-06-09 09:22:00] INFO root fetch - processPackages [coacd]: Downloading https://files.pythonhosted.org/packages/d4/7a/84bbf9d342a7727b6b4c6e7e538984a1c779ee0ffa0cfd8bbb67abfc548a/coacd-0.0.3-py3-none-win_amd64.whl
+[2023-06-09 09:22:00] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-09 09:22:00] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-09 09:22:00] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-09 09:22:00] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230609/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 09:22:00] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/07/3e/f1541b8e29acbe2df36af5280aaa398d16a941698cae690702bf2345cb90/mysqlx-1.2.4.tar.gz
+[2023-06-09 09:22:00] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-06-09 09:22:00] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.2.3.tar.gz tmp/mysqlx-1.2.4.tar.gz --markdown 20230609/m/mysqlx/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-09 09:22:00] INFO root fetch - processPackages [voila-material-tuwien]: Downloading https://files.pythonhosted.org/packages/d8/37/2a8ad9e58046394226a3e41d71740df069dc773fe888985f13f32fa3fc39/voila-material-tuwien-0.4.5.tar.gz
+[2023-06-09 09:22:00] INFO root fetch - processPackages [voila-material-tuwien]: executing diffoscope
+[2023-06-09 09:22:00] INFO root fetch - processPackages [voila-material-tuwien]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-material-tuwien-0.4.4.tar.gz tmp/voila-material-tuwien-0.4.5.tar.gz --markdown 20230609/v/voila-material-tuwien/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-09 09:22:00] INFO root fetch - processPackages [tagreader]: Downloading https://files.pythonhosted.org/packages/2a/96/3863fabbefd7d9609cf1eae828e2e74b78d2fbd5fdc70cdd020306ae5644/tagreader-4.0.3.tar.gz
+[2023-06-09 09:22:00] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-09 09:22:00] INFO root fetch - processPackages [tagreader]: executing diffoscope
+[2023-06-09 09:22:00] INFO root fetch - processPackages [tagreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tagreader-4.0.1.tar.gz tmp/tagreader-4.0.3.tar.gz --markdown 20230609/t/tagreader/4.0.1-4.0.3/diff.md --exclude *.pyd
+[2023-06-09 09:22:00] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/a8/a9/9f3a9694572196e70e9ba540e00d88c2d3b5944a2117d502feede8f8b138/py-Ayiin-0.4.4.dev9.tar.gz
+[2023-06-09 09:22:00] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-09 09:22:00] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230609/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-09 09:22:01] INFO root fetch - processPackages [coacd]: Downloading https://files.pythonhosted.org/packages/cc/85/3843f28d23869aff3af5e2abb88bb242102b0078f92664b901f12997f037/coacd-0.0.4-py3-none-win_amd64.whl
+[2023-06-09 09:22:01] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 09:22:01] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev8.tar.gz tmp/py-Ayiin-0.4.4.dev9.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev8-0.4.4.dev9/diff.md --exclude *.pyd
+[2023-06-09 09:22:01] INFO root fetch - processPackages [coacd]: executing diffoscope
+[2023-06-09 09:22:01] INFO root fetch - processPackages [coacd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coacd-0.0.3-py3-none-win_amd64.whl.zip tmp/coacd-0.0.4-py3-none-win_amd64.whl.zip --markdown 20230609/c/coacd/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-09 09:22:01] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-09 09:22:01] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-09 09:22:01] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-09 09:22:01] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.2.3.tar.gz]
+[2023-06-09 09:22:01] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.2.4.tar.gz]
+[2023-06-09 09:22:01] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-06-09 09:22:01] INFO root fetch - processPackages [voila-material-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-material-tuwien-0.4.4.tar.gz]
+[2023-06-09 09:22:01] INFO root fetch - processPackages [voila-material-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-material-tuwien-0.4.5.tar.gz]
+[2023-06-09 09:22:01] INFO root fetch - main [MainThread]: End processing [voila-material-tuwien]: success
+[2023-06-09 09:22:01] INFO root fetch - processPackages [gators]: Downloading https://files.pythonhosted.org/packages/25/a4/50ad2ccf47314a68f93b7d18cd9b25bcd550ccf550a92def76b265fecde4/gators-0.3.3-cp38-cp38-macosx_10_9_x86_64.whl
+[2023-06-09 09:22:02] INFO root fetch - processPackages [gators]: executing diffoscope
+[2023-06-09 09:22:02] INFO root fetch - processPackages [gators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gators-0.3.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/gators-0.3.3-cp38-cp38-macosx_10_9_x86_64.whl.zip --markdown 20230609/g/gators/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-09 09:22:02] INFO root fetch - processPackages [tagreader]: Remove: archive file [/home/abi/fetcher/tmp/tagreader-4.0.1.tar.gz]
+[2023-06-09 09:22:02] INFO root fetch - processPackages [tagreader]: Remove: archive file [/home/abi/fetcher/tmp/tagreader-4.0.3.tar.gz]
+[2023-06-09 09:22:02] INFO root fetch - main [MainThread]: End processing [tagreader]: success
+[2023-06-09 09:22:04] INFO root fetch - processPackages [coacd]: Remove: archive file [/home/abi/fetcher/tmp/coacd-0.0.3-py3-none-win_amd64.whl.zip]
+[2023-06-09 09:22:04] INFO root fetch - processPackages [coacd]: Remove: archive file [/home/abi/fetcher/tmp/coacd-0.0.4-py3-none-win_amd64.whl.zip]
+[2023-06-09 09:22:04] INFO root fetch - main [MainThread]: End processing [coacd]: success
+[2023-06-09 09:22:05] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 09:22:05] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
+[2023-06-09 09:22:05] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 09:22:05] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-09 09:22:05] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-09 09:22:05] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-09 09:22:11] INFO root fetch - processPackages [gators]: Remove: archive file [/home/abi/fetcher/tmp/gators-0.3.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-06-09 09:22:11] INFO root fetch - processPackages [gators]: Remove: archive file [/home/abi/fetcher/tmp/gators-0.3.3-cp38-cp38-macosx_10_9_x86_64.whl.zip]
+[2023-06-09 09:22:11] INFO root fetch - main [MainThread]: End processing [gators]: success
+[2023-06-09 09:22:11] INFO root fetch - main [MainThread]: Store serial: [18437723]
