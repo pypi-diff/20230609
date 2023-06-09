@@ -11514,3 +11514,63 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 05:11:53] INFO root fetch - processPackages [odoo12-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_currency_rate_update-12.0.1.3.0.99.dev9-py3-none-any.whl.zip]
 [2023-06-09 05:11:53] INFO root fetch - main [MainThread]: End processing [odoo12-addon-currency-rate-update]: success
 [2023-06-09 05:11:53] INFO root fetch - main [MainThread]: Store serial: [18435667]
+[2023-06-09 05:16:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18435667]
+[2023-06-09 05:17:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-09 05:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-pgstac
+[2023-06-09 05:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pg-purepy
+[2023-06-09 05:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fro-AI
+[2023-06-09 05:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zipline-tej
+[2023-06-09 05:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcrx-api
+[2023-06-09 05:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-module-register
+[2023-06-09 05:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GANDLF
+[2023-06-09 05:17:02] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 05:17:02] INFO root fetch - processPackages [fro-AI]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-06-09 05:17:02] INFO root fetch - processPackages [pg-purepy]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-09 05:17:02] INFO root fetch - processPackages [dcrx-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 05:17:02] WARNING root fetch - processPackages [fastapi-module-register]: Skipping, unable to determine old version
+[2023-06-09 05:17:02] INFO root fetch - main [MainThread]: End processing [fastapi-module-register] error
+[2023-06-09 05:17:02] INFO root fetch - processPackages [cdk-pgstac]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-06-09 05:17:02] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230609] Old Version: [0.0.17.dev20230608]
+[2023-06-09 05:17:02] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-09 05:17:02] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/88/d6/767efd0a8929790ff8fa130a2cfdf1f187615d7d12981ed81dc694673dc3/GANDLF-0.0.17.dev20230608.tar.gz
+[2023-06-09 05:17:02] INFO root fetch - processPackages [fro-AI]: Downloading https://files.pythonhosted.org/packages/2c/e1/8e7e5e39aac483244aae5abf2395c77f4026e065caf10068e4727bda7c1a/fro_AI-0.8.4.tar.gz
+[2023-06-09 05:17:02] INFO root fetch - processPackages [pg-purepy]: Downloading https://files.pythonhosted.org/packages/ca/40/14770d5778de4ca3a4d18da3fa7104f0189e4a334d67008133d3bfc24bf9/pg-purepy-0.8.1.tar.gz
+[2023-06-09 05:17:02] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/fc/56/a29275dfa9f68cd229aa15aa768cf26f7b9e58530de17f577ebac0121b30/dcrx-api-0.0.8.tar.gz
+[2023-06-09 05:17:02] INFO root fetch - processPackages [cdk-pgstac]: Downloading https://files.pythonhosted.org/packages/8f/8b/0308d8a9bf601068e608367df7be79462190d50fb925980767ccdfaee1a4/cdk-pgstac-4.1.0.tar.gz
+[2023-06-09 05:17:03] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/fe/c6/301a9abacd9599a7d99095a92e3bac50523566a26ee9ed31ad3edbfce583/GANDLF-0.0.17.dev20230609.tar.gz
+[2023-06-09 05:17:03] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-09 05:17:03] INFO root fetch - processPackages [pg-purepy]: Downloading https://files.pythonhosted.org/packages/39/08/15c4466a527a34acf3833c86f165c9a5dc93c59bc830770ce24d1b600079/pg_purepy-0.8.2.tar.gz
+[2023-06-09 05:17:03] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-09 05:17:03] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230609/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 05:17:03] INFO root fetch - processPackages [cdk-pgstac]: Downloading https://files.pythonhosted.org/packages/ba/38/2a85ab87048f3f4692532e53a459cc68c5c778c7fbad16a433dabcf2a09f/cdk-pgstac-4.2.0.tar.gz
+[2023-06-09 05:17:03] INFO root fetch - processPackages [pg-purepy]: executing diffoscope
+[2023-06-09 05:17:03] INFO root fetch - processPackages [pg-purepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg-purepy-0.8.1.tar.gz tmp/pg_purepy-0.8.2.tar.gz --markdown 20230609/p/pg-purepy/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-09 05:17:03] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/7c/28/1d5b1a02c6cb365e0423ff805dc7142282450992e99201b54f6b2acd0197/dcrx-api-0.0.9.tar.gz
+[2023-06-09 05:17:03] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-09 05:17:03] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230608.tar.gz tmp/GANDLF-0.0.17.dev20230609.tar.gz --markdown 20230609/G/GANDLF/0.0.17.dev20230608-0.0.17.dev20230609/diff.md --exclude *.pyd
+[2023-06-09 05:17:03] INFO root fetch - processPackages [fro-AI]: Downloading https://files.pythonhosted.org/packages/31/09/59f8f601a18d6a7ed27407cbd256de525c2382ab14e45af10803241882d1/fro_AI-0.9.0.tar.gz
+[2023-06-09 05:17:03] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-09 05:17:03] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.0.8.tar.gz tmp/dcrx-api-0.0.9.tar.gz --markdown 20230609/d/dcrx-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 05:17:03] INFO root fetch - processPackages [cdk-pgstac]: executing diffoscope
+[2023-06-09 05:17:03] INFO root fetch - processPackages [cdk-pgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-pgstac-4.1.0.tar.gz tmp/cdk-pgstac-4.2.0.tar.gz --markdown 20230609/c/cdk-pgstac/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-06-09 05:17:03] INFO root fetch - processPackages [fro-AI]: executing diffoscope
+[2023-06-09 05:17:03] INFO root fetch - processPackages [fro-AI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fro_AI-0.8.4.tar.gz tmp/fro_AI-0.9.0.tar.gz --markdown 20230609/f/fro-AI/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 05:17:04] INFO root fetch - processPackages [pg-purepy]: Remove: archive file [/home/abi/fetcher/tmp/pg-purepy-0.8.1.tar.gz]
+[2023-06-09 05:17:04] INFO root fetch - processPackages [pg-purepy]: Remove: archive file [/home/abi/fetcher/tmp/pg_purepy-0.8.2.tar.gz]
+[2023-06-09 05:17:04] INFO root fetch - main [MainThread]: End processing [pg-purepy]: success
+[2023-06-09 05:17:05] INFO root fetch - processPackages [cdk-pgstac]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pgstac-4.1.0.tar.gz]
+[2023-06-09 05:17:05] INFO root fetch - processPackages [cdk-pgstac]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pgstac-4.2.0.tar.gz]
+[2023-06-09 05:17:05] INFO root fetch - main [MainThread]: End processing [cdk-pgstac]: success
+[2023-06-09 05:17:05] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-09 05:17:05] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-09 05:17:05] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-09 05:17:06] INFO root fetch - processPackages [fro-AI]: Remove: archive file [/home/abi/fetcher/tmp/fro_AI-0.8.4.tar.gz]
+[2023-06-09 05:17:06] INFO root fetch - processPackages [fro-AI]: Remove: archive file [/home/abi/fetcher/tmp/fro_AI-0.9.0.tar.gz]
+[2023-06-09 05:17:06] INFO root fetch - main [MainThread]: End processing [fro-AI]: success
+[2023-06-09 05:17:07] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230608.tar.gz]
+[2023-06-09 05:17:07] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230609.tar.gz]
+[2023-06-09 05:17:07] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-09 05:17:57] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.0.8.tar.gz]
+[2023-06-09 05:17:57] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.0.9.tar.gz]
+[2023-06-09 05:17:57] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-09 05:17:57] INFO root fetch - main [MainThread]: Store serial: [18435694]
