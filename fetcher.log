@@ -11133,3 +11133,81 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 04:56:07] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230609.tar.gz]
 [2023-06-09 04:56:07] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-06-09 04:56:07] INFO root fetch - main [MainThread]: Store serial: [18435549]
+[2023-06-09 05:01:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18435549]
+[2023-06-09 05:01:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-brand-external-report-layout
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo10-addon-website-sale-commission-lead-geo-assign
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo11-addon-sale-commission
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-sale-commission
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-sale-commission
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lctutil
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ngql-gen
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Wavelink
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccdt
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: New version: [10.0.1.0.0.99.dev7] Old Version: [10.0.1.0.0.99.dev6]
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo11-addon-sale-commission]: New version: [11.0.2.3.0.99.dev9] Old Version: [11.0.2.3.0.99.dev8]
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.7]
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo13-addon-sale-commission]: New version: [13.0.1.8.1.dev9] Old Version: [13.0.1.8.1.dev8]
+[2023-06-09 05:01:17] INFO root fetch - processPackages [lctutil]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-09 05:01:17] INFO root fetch - processPackages [Wavelink]: New version: [2.4.0] Old Version: [2.3.1]
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo12-addon-sale-commission]: New version: [12.0.3.3.2.99.dev9] Old Version: [12.0.3.3.2.99.dev8]
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-09 05:01:17] WARNING root fetch - processPackages [ngql-gen]: Skipping, unable to determine old version
+[2023-06-09 05:01:17] INFO root fetch - main [MainThread]: End processing [ngql-gen] error
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo12-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/3e/9d/6208e6664ab9350db0f9f102b7495397e4fa2249e0c4ca1c80ca0431a95b/odoo12_addon_sale_commission-12.0.3.3.2.99.dev8-py3-none-any.whl
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo11-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/67/b7/b74401694f0b73a360341f5c25267a37061e564fe779f28a6f2bdd7a4f5d/odoo11_addon_sale_commission-11.0.2.3.0.99.dev8-py2.py3-none-any.whl
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo13-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/42/63/af124af572288fc9b52cc50bf309008b0ae4cb4312f0f3b6d94cc20df777/odoo13_addon_sale_commission-13.0.1.8.1.dev8-py3-none-any.whl
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: Downloading https://files.pythonhosted.org/packages/7f/e6/cfde606d7ffad97445e4c588782204103bafd3b15b2c03100611a06dc0d2/odoo_addon_brand_external_report_layout-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: Downloading https://files.pythonhosted.org/packages/2a/4b/ea148712317695001da54a4147e4e731e504702de8ff9881f6df187f0c1c/odoo10_addon_website_sale_commission_lead_geo_assign-10.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-06-09 05:01:17] INFO root fetch - processPackages [lctutil]: Downloading https://files.pythonhosted.org/packages/4a/ab/441e025bac8beb7823667bd031edd3848136fc59145dfc11d9d0dee873c2/lctutil-0.6.0.tar.gz
+[2023-06-09 05:01:17] INFO root fetch - processPackages [Wavelink]: Downloading https://files.pythonhosted.org/packages/5c/13/574bec9f9800376ca8d29f36b7d78aac327904ebe8762dccd12643b589a5/Wavelink-2.3.1.tar.gz
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo11-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/4a/01/d6cc3284ace845f14f14031ce76e7d12696f491d6f619120cbc65f5839d3/odoo11_addon_sale_commission-11.0.2.3.0.99.dev9-py2.py3-none-any.whl
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo11-addon-sale-commission]: executing diffoscope
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo11-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_sale_commission-11.0.2.3.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_sale_commission-11.0.2.3.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20230609/o/odoo11-addon-sale-commission/11.0.2.3.0.99.dev8-11.0.2.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo13-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/94/7c/d7b233d3e0aa7cf28d8428217e2297ca0c3f2d996dd4cd4bd49eb76c37f0/odoo13_addon_sale_commission-13.0.1.8.1.dev9-py3-none-any.whl
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-09 05:01:17] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230609/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo12-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/eb/76/4faec0410838803e5f15a6c9ff59d2dc1c5506bcbdcfb021afb334b99ae2/odoo12_addon_sale_commission-12.0.3.3.2.99.dev9-py3-none-any.whl
+[2023-06-09 05:01:17] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: Downloading https://files.pythonhosted.org/packages/42/e8/5ef7781152b4d7070ba19496bf32ef5ec967f81fb657fe5583c656f09d72/odoo10_addon_website_sale_commission_lead_geo_assign-10.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-09 05:01:18] INFO root fetch - processPackages [odoo13-addon-sale-commission]: executing diffoscope
+[2023-06-09 05:01:18] INFO root fetch - processPackages [odoo13-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_commission-13.0.1.8.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_sale_commission-13.0.1.8.1.dev9-py3-none-any.whl.zip --markdown 20230609/o/odoo13-addon-sale-commission/13.0.1.8.1.dev8-13.0.1.8.1.dev9/diff.md --exclude *.pyd
+[2023-06-09 05:01:18] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: Downloading https://files.pythonhosted.org/packages/af/60/89b9f02fcc298195c85f1d82187dc7ca1330fc7bde3147c2012fea041ce7/odoo_addon_brand_external_report_layout-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-09 05:01:18] INFO root fetch - processPackages [lctutil]: Downloading https://files.pythonhosted.org/packages/59/e4/73eb688d420eff09898e668e59ecc41364ddc4eaa72a9f8b5612e7250a41/lctutil-0.7.0.tar.gz
+[2023-06-09 05:01:18] INFO root fetch - processPackages [odoo12-addon-sale-commission]: executing diffoscope
+[2023-06-09 05:01:18] INFO root fetch - processPackages [odoo12-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_commission-12.0.3.3.2.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_sale_commission-12.0.3.3.2.99.dev9-py3-none-any.whl.zip --markdown 20230609/o/odoo12-addon-sale-commission/12.0.3.3.2.99.dev8-12.0.3.3.2.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 05:01:18] INFO root fetch - processPackages [Wavelink]: Downloading https://files.pythonhosted.org/packages/c1/2e/4339c8fb19858607926fabb3a3411e41306e5aa1bb44cba8307c3dc947fe/Wavelink-2.4.0.tar.gz
+[2023-06-09 05:01:18] INFO root fetch - processPackages [lctutil]: executing diffoscope
+[2023-06-09 05:01:18] INFO root fetch - processPackages [lctutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lctutil-0.6.0.tar.gz tmp/lctutil-0.7.0.tar.gz --markdown 20230609/l/lctutil/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-09 05:01:18] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: executing diffoscope
+[2023-06-09 05:01:18] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_brand_external_report_layout-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_brand_external_report_layout-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-brand-external-report-layout/16.0.1.0.0.7-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-09 05:01:18] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: executing diffoscope
+[2023-06-09 05:01:18] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_website_sale_commission_lead_geo_assign-10.0.1.0.0.99.dev6-py2-none-any.whl.zip tmp/odoo10_addon_website_sale_commission_lead_geo_assign-10.0.1.0.0.99.dev7-py2-none-any.whl.zip --markdown 20230609/o/odoo10-addon-website-sale-commission-lead-geo-assign/10.0.1.0.0.99.dev6-10.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-09 05:01:18] INFO root fetch - processPackages [Wavelink]: executing diffoscope
+[2023-06-09 05:01:18] INFO root fetch - processPackages [Wavelink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Wavelink-2.3.1.tar.gz tmp/Wavelink-2.4.0.tar.gz --markdown 20230609/W/Wavelink/2.3.1-2.4.0/diff.md --exclude *.pyd
+[2023-06-09 05:01:19] INFO root fetch - processPackages [lctutil]: Remove: archive file [/home/abi/fetcher/tmp/lctutil-0.6.0.tar.gz]
+[2023-06-09 05:01:19] INFO root fetch - processPackages [lctutil]: Remove: archive file [/home/abi/fetcher/tmp/lctutil-0.7.0.tar.gz]
+[2023-06-09 05:01:19] INFO root fetch - main [MainThread]: End processing [lctutil]: success
+[2023-06-09 05:01:19] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand_external_report_layout-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-09 05:01:19] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand_external_report_layout-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-09 05:01:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-brand-external-report-layout]: success
+[2023-06-09 05:01:19] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_website_sale_commission_lead_geo_assign-10.0.1.0.0.99.dev6-py2-none-any.whl.zip]
+[2023-06-09 05:01:19] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_website_sale_commission_lead_geo_assign-10.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-09 05:01:19] INFO root fetch - main [MainThread]: End processing [odoo10-addon-website-sale-commission-lead-geo-assign]: success
+[2023-06-09 05:01:19] INFO root fetch - processPackages [odoo12-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_commission-12.0.3.3.2.99.dev8-py3-none-any.whl.zip]
+[2023-06-09 05:01:19] INFO root fetch - processPackages [odoo12-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_commission-12.0.3.3.2.99.dev9-py3-none-any.whl.zip]
+[2023-06-09 05:01:19] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-commission]: success
+[2023-06-09 05:01:19] INFO root fetch - processPackages [Wavelink]: Remove: archive file [/home/abi/fetcher/tmp/Wavelink-2.3.1.tar.gz]
+[2023-06-09 05:01:19] INFO root fetch - processPackages [Wavelink]: Remove: archive file [/home/abi/fetcher/tmp/Wavelink-2.4.0.tar.gz]
+[2023-06-09 05:01:19] INFO root fetch - main [MainThread]: End processing [Wavelink]: success
+[2023-06-09 05:01:19] INFO root fetch - processPackages [odoo13-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_sale_commission-13.0.1.8.1.dev8-py3-none-any.whl.zip]
+[2023-06-09 05:01:19] INFO root fetch - processPackages [odoo13-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_sale_commission-13.0.1.8.1.dev9-py3-none-any.whl.zip]
+[2023-06-09 05:01:19] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-commission]: success
+[2023-06-09 05:01:20] INFO root fetch - processPackages [odoo11-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_sale_commission-11.0.2.3.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-06-09 05:01:20] INFO root fetch - processPackages [odoo11-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_sale_commission-11.0.2.3.0.99.dev9-py2.py3-none-any.whl.zip]
+[2023-06-09 05:01:20] INFO root fetch - main [MainThread]: End processing [odoo11-addon-sale-commission]: success
+[2023-06-09 05:01:20] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-06-09 05:01:20] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-06-09 05:01:20] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-09 05:01:20] INFO root fetch - main [MainThread]: Store serial: [18435571]
