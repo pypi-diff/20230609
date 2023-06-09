@@ -14081,3 +14081,87 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 07:00:12] INFO root fetch - processPackages [ionicons-python]: Remove: archive file [/home/abi/fetcher/tmp/ionicons_python-1.0.2.tar.gz]
 [2023-06-09 07:00:12] INFO root fetch - main [MainThread]: End processing [ionicons-python]: success
 [2023-06-09 07:00:12] INFO root fetch - main [MainThread]: Store serial: [18436485]
+[2023-06-09 07:05:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436485]
+[2023-06-09 07:05:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-09 07:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-sale-change-price
+[2023-06-09 07:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kofadateconverter
+[2023-06-09 07:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo9-addon-sale-order-variant-mgmt
+[2023-06-09 07:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-sale-properties-easy-creation
+[2023-06-09 07:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-sale-automatic-workflow
+[2023-06-09 07:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wzry1
+[2023-06-09 07:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo8-addon-sale-payment-method
+[2023-06-09 07:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantplay
+[2023-06-09 07:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Envoy-Cloud
+[2023-06-09 07:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlplatformutils
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: New version: [8.0.1.0.0.99.dev8] Old Version: [8.0.1.0.0.99.dev7]
+[2023-06-09 07:05:22] WARNING root fetch - processPackages [kofadateconverter]: Skipping, unable to determine old version
+[2023-06-09 07:05:22] INFO root fetch - processPackages [kofadateconverter]: Start processing: pydantic-yaml-parser
+[2023-06-09 07:05:22] INFO root fetch - main [MainThread]: End processing [kofadateconverter] error
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-properties-easy-creation]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev37]
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-payment-method]: New version: [8.0.0.2.1.99.dev9] Old Version: [8.0.0.2.1.99.dev8]
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo9-addon-sale-order-variant-mgmt]: New version: [9.0.1.0.0.99.dev6] Old Version: [9.0.1.0.0.99.dev5]
+[2023-06-09 07:05:22] WARNING root fetch - processPackages [wzry1]: Skipping, unable to determine old version
+[2023-06-09 07:05:22] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.1.5] Old Version: [0.9.1.4]
+[2023-06-09 07:05:22] INFO root fetch - main [MainThread]: End processing [wzry1] error
+[2023-06-09 07:05:22] INFO root fetch - processPackages [quantplay]: New version: [1.2.97] Old Version: [1.2.96]
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo9-addon-sale-automatic-workflow]: New version: [9.0.1.1.1.99.dev9] Old Version: [9.0.1.1.1.99.dev8]
+[2023-06-09 07:05:22] WARNING root fetch - processPackages [Envoy-Cloud]: Skipping, unable to determine old version
+[2023-06-09 07:05:22] INFO root fetch - main [MainThread]: End processing [Envoy-Cloud] error
+[2023-06-09 07:05:22] INFO root fetch - processPackages [pydantic-yaml-parser]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: Downloading https://files.pythonhosted.org/packages/57/30/36a58e86376b65c601100642a399e59d6e5518cb4afa6905923176b47a48/odoo8_addon_sale_change_price-8.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-payment-method]: Downloading https://files.pythonhosted.org/packages/05/aa/a4ba236cf315bd161a86ffb34edcfd6881becec17283f0636ee564280d4a/odoo8_addon_sale_payment_method-8.0.0.2.1.99.dev8-py2-none-any.whl
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo9-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/f7/83/e493500ac020d66e4675e26426acf47723a9ee09fc4949d0b4409b91eb9c/odoo9_addon_sale_automatic_workflow-9.0.1.1.1.99.dev8-py2-none-any.whl
+[2023-06-09 07:05:22] INFO root fetch - processPackages [pydantic-yaml-parser]: Downloading https://files.pythonhosted.org/packages/3b/15/4cd71b42e3beaff8838a41d82e761022780aef261806e7e801d1ba74e21f/pydantic-yaml-parser-0.0.2.tar.gz
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo9-addon-sale-order-variant-mgmt]: Downloading https://files.pythonhosted.org/packages/90/fa/fcde2df5c78393940284f4889879f0aefc11f9fbb98f4e8775d1ec781d58/odoo9_addon_sale_order_variant_mgmt-9.0.1.0.0.99.dev5-py2-none-any.whl
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-properties-easy-creation]: Downloading https://files.pythonhosted.org/packages/88/3e/979645c1cf8c82a1f5c520c8bdbab1280526d599b68d3b4b785e7c6a8e27/odoo8_addon_sale_properties_easy_creation-8.0.1.0.0.99.dev37-py2-none-any.whl
+[2023-06-09 07:05:22] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/05/da/e9e2cc2cb197fa1718a20d5127d55c3b1d308f61be30c0e2f1bc226bf1a1/quantplay-1.2.96.tar.gz
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: Downloading https://files.pythonhosted.org/packages/c2/ae/ea044f06f03f070425e014c3bd735860f2eb859a335749bb346ef5079842/odoo8_addon_sale_change_price-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-payment-method]: Downloading https://files.pythonhosted.org/packages/f6/6c/aa164f24127d7ae207737243daa70dfc91fd68dafe9a351f62c2f120ac7c/odoo8_addon_sale_payment_method-8.0.0.2.1.99.dev9-py2-none-any.whl
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: executing diffoscope
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_change_price-8.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_sale_change_price-8.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230609/o/odoo8-addon-sale-change-price/8.0.1.0.0.99.dev7-8.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo9-addon-sale-order-variant-mgmt]: Downloading https://files.pythonhosted.org/packages/44/a4/0dc358a5bee8972529ff3c394d551e087d9cc144c83dcc27d75e6eadaeb9/odoo9_addon_sale_order_variant_mgmt-9.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo9-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/5a/85/de15a81b0aa18dbc19ef1aea5dcfb8b53a2ca1c1ceaec247f9c313add2f4/odoo9_addon_sale_automatic_workflow-9.0.1.1.1.99.dev9-py2-none-any.whl
+[2023-06-09 07:05:22] INFO root fetch - processPackages [pydantic-yaml-parser]: Downloading https://files.pythonhosted.org/packages/24/88/120c13c55f19b821343c33b5628b31e1ab591979df0bd6b0306448bdc448/pydantic-yaml-parser-0.0.3.tar.gz
+[2023-06-09 07:05:22] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/eb/50/3c4c41b39c2b26bf735bc98cea0865dc083e91fe114d94d7eb877ec82c35/mlplatformutils-0.9.1.4.tar.gz
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-properties-easy-creation]: Downloading https://files.pythonhosted.org/packages/9b/da/fb4e44e56f56e394ab621552f9d08bb46ce5a7ccaddf1540ae1d12b175be/odoo8_addon_sale_properties_easy_creation-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-09 07:05:22] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/22/02/555b6524da2ff5d19ea3c0a2292273f9ebe12cfa5389690ec2c9ee39cd22/quantplay-1.2.97.tar.gz
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-properties-easy-creation]: executing diffoscope
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-properties-easy-creation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_properties_easy_creation-8.0.1.0.0.99.dev37-py2-none-any.whl.zip tmp/odoo8_addon_sale_properties_easy_creation-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo8-addon-sale-properties-easy-creation/8.0.1.0.0.99.dev37-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo9-addon-sale-order-variant-mgmt]: executing diffoscope
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo9-addon-sale-order-variant-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_sale_order_variant_mgmt-9.0.1.0.0.99.dev5-py2-none-any.whl.zip tmp/odoo9_addon_sale_order_variant_mgmt-9.0.1.0.0.99.dev6-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-sale-order-variant-mgmt/9.0.1.0.0.99.dev5-9.0.1.0.0.99.dev6/diff.md --exclude *.pyd
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo9-addon-sale-automatic-workflow]: executing diffoscope
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo9-addon-sale-automatic-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_sale_automatic_workflow-9.0.1.1.1.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_sale_automatic_workflow-9.0.1.1.1.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-sale-automatic-workflow/9.0.1.1.1.99.dev8-9.0.1.1.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:05:22] INFO root fetch - processPackages [pydantic-yaml-parser]: executing diffoscope
+[2023-06-09 07:05:22] INFO root fetch - processPackages [pydantic-yaml-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-yaml-parser-0.0.2.tar.gz tmp/pydantic-yaml-parser-0.0.3.tar.gz --markdown 20230609/p/pydantic-yaml-parser/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-payment-method]: executing diffoscope
+[2023-06-09 07:05:22] INFO root fetch - processPackages [odoo8-addon-sale-payment-method]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_payment_method-8.0.0.2.1.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sale_payment_method-8.0.0.2.1.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo8-addon-sale-payment-method/8.0.0.2.1.99.dev8-8.0.0.2.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:05:22] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-06-09 07:05:22] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.96.tar.gz tmp/quantplay-1.2.97.tar.gz --markdown 20230609/q/quantplay/1.2.96-1.2.97/diff.md --exclude *.pyd
+[2023-06-09 07:05:22] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/fa/0d/15944c93bd8972d604a0d95e4378bc09fe3b98f480e3aeb17e2cb6dad9a8/mlplatformutils-0.9.1.5.tar.gz
+[2023-06-09 07:05:23] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-09 07:05:23] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.1.4.tar.gz tmp/mlplatformutils-0.9.1.5.tar.gz --markdown 20230609/m/mlplatformutils/0.9.1.4-0.9.1.5/diff.md --exclude *.pyd
+[2023-06-09 07:05:24] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_change_price-8.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-09 07:05:24] INFO root fetch - processPackages [odoo8-addon-sale-change-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_change_price-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 07:05:24] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-change-price]: success
+[2023-06-09 07:05:24] INFO root fetch - processPackages [pydantic-yaml-parser]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-yaml-parser-0.0.2.tar.gz]
+[2023-06-09 07:05:24] INFO root fetch - processPackages [pydantic-yaml-parser]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-yaml-parser-0.0.3.tar.gz]
+[2023-06-09 07:05:24] INFO root fetch - main [MainThread]: End processing [pydantic-yaml-parser]: success
+[2023-06-09 07:05:24] INFO root fetch - processPackages [odoo8-addon-sale-properties-easy-creation]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_properties_easy_creation-8.0.1.0.0.99.dev37-py2-none-any.whl.zip]
+[2023-06-09 07:05:24] INFO root fetch - processPackages [odoo8-addon-sale-properties-easy-creation]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_properties_easy_creation-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 07:05:24] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-properties-easy-creation]: success
+[2023-06-09 07:05:24] INFO root fetch - processPackages [odoo9-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sale_automatic_workflow-9.0.1.1.1.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 07:05:24] INFO root fetch - processPackages [odoo9-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sale_automatic_workflow-9.0.1.1.1.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 07:05:24] INFO root fetch - main [MainThread]: End processing [odoo9-addon-sale-automatic-workflow]: success
+[2023-06-09 07:05:24] INFO root fetch - processPackages [odoo8-addon-sale-payment-method]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_payment_method-8.0.0.2.1.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 07:05:24] INFO root fetch - processPackages [odoo8-addon-sale-payment-method]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_payment_method-8.0.0.2.1.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 07:05:24] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-payment-method]: success
+[2023-06-09 07:05:24] INFO root fetch - processPackages [odoo9-addon-sale-order-variant-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sale_order_variant_mgmt-9.0.1.0.0.99.dev5-py2-none-any.whl.zip]
+[2023-06-09 07:05:24] INFO root fetch - processPackages [odoo9-addon-sale-order-variant-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sale_order_variant_mgmt-9.0.1.0.0.99.dev6-py2-none-any.whl.zip]
+[2023-06-09 07:05:24] INFO root fetch - main [MainThread]: End processing [odoo9-addon-sale-order-variant-mgmt]: success
+[2023-06-09 07:05:24] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.1.4.tar.gz]
+[2023-06-09 07:05:24] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.1.5.tar.gz]
+[2023-06-09 07:05:24] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-09 07:05:24] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.2.96.tar.gz]
+[2023-06-09 07:05:24] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.2.97.tar.gz]
+[2023-06-09 07:05:24] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-06-09 07:05:24] INFO root fetch - main [MainThread]: Store serial: [18436518]
