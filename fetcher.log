@@ -7128,3 +7128,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 03:56:17] INFO root fetch - processPackages [botocore-a-la-carte-iot]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iot-1.29.99.tar.gz]
 [2023-06-09 03:56:17] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-iot]: success
 [2023-06-09 03:56:17] INFO root fetch - main [MainThread]: Store serial: [18434275]
+[2023-06-09 04:01:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18434275]
+[2023-06-09 04:01:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-09 04:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magnify
+[2023-06-09 04:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solver4mpi
+[2023-06-09 04:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiokwikset
+[2023-06-09 04:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docmaptools
+[2023-06-09 04:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-wget
+[2023-06-09 04:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybash
+[2023-06-09 04:01:26] INFO root fetch - processPackages [magnify]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-09 04:01:26] INFO root fetch - processPackages [solver4mpi]: New version: [3.4] Old Version: [3.3]
+[2023-06-09 04:01:26] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-09 04:01:26] INFO root fetch - processPackages [solver4mpi]: Downloading https://files.pythonhosted.org/packages/5d/4a/7be14218a6cbe783b78039f609591eb26d6e303c96bd609575e9a5cca766/solver4mpi-3.3.tar.gz
+[2023-06-09 04:01:26] INFO root fetch - processPackages [aiokwikset]: New version: [0.2.2a1] Old Version: [0.2.1]
+[2023-06-09 04:01:26] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/86/cf/f177e827ceb38833a0d3848af3c5d3cba4693f710bdbc3218acca35699a5/magnify-0.3.1.tar.gz
+[2023-06-09 04:01:26] INFO root fetch - processPackages [docmaptools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-09 04:01:26] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/f8/35/e47c6ddfa64ed9ac5f5a4b035ea0cc02916916c4bdbbbb9cc31928af9582/cdk-lambda-layer-wget-2.0.98.tar.gz
+[2023-06-09 04:01:26] INFO root fetch - processPackages [pybash]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-09 04:01:27] INFO root fetch - processPackages [aiokwikset]: Downloading https://files.pythonhosted.org/packages/ad/09/5b0caafd8b2c8b7d771982167d639390c588266fd6bc3836f84c4ebef44f/aiokwikset-0.2.1.tar.gz
+[2023-06-09 04:01:27] INFO root fetch - processPackages [pybash]: Downloading https://files.pythonhosted.org/packages/00/a7/910157ff5b46a646450ce1f043e194a71db2b210e67b8c3b4566c9b7c278/pybash-0.3.2.tar.gz
+[2023-06-09 04:01:27] INFO root fetch - processPackages [docmaptools]: Downloading https://files.pythonhosted.org/packages/31/6f/08daa72287f63cf60ffc7962a2e73be6ca6c57c778306e6d5506b073b2c6/docmaptools-0.8.0.tar.gz
+[2023-06-09 04:01:27] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/98/52/07cb776b41ec70fb5cc0faffb812732ed10edeb529408976a37a888ef997/cdk-lambda-layer-wget-2.0.99.tar.gz
+[2023-06-09 04:01:27] INFO root fetch - processPackages [solver4mpi]: Downloading https://files.pythonhosted.org/packages/34/65/1373b42969ebb7bc14e27f6e729bd40c0e6ef7d866ba5085464678a9d9ed/solver4mpi-3.4.tar.gz
+[2023-06-09 04:01:27] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/9d/0e/7734e9e5a82bc87a16abe46bf06bedad5171d6dbf12beb0be60181d8d59f/magnify-0.3.2.tar.gz
+[2023-06-09 04:01:27] INFO root fetch - processPackages [solver4mpi]: executing diffoscope
+[2023-06-09 04:01:27] INFO root fetch - processPackages [solver4mpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solver4mpi-3.3.tar.gz tmp/solver4mpi-3.4.tar.gz --markdown 20230609/s/solver4mpi/3.3-3.4/diff.md --exclude *.pyd
+[2023-06-09 04:01:27] INFO root fetch - processPackages [magnify]: executing diffoscope
+[2023-06-09 04:01:27] INFO root fetch - processPackages [magnify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnify-0.3.1.tar.gz tmp/magnify-0.3.2.tar.gz --markdown 20230609/m/magnify/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-09 04:01:27] INFO root fetch - processPackages [aiokwikset]: Downloading https://files.pythonhosted.org/packages/17/eb/7d4e7e4959501a5eb04c36bc404dd266e6e7f3ad5aa9ac4423118810fadf/aiokwikset-0.2.2a1.tar.gz
+[2023-06-09 04:01:27] INFO root fetch - processPackages [docmaptools]: Downloading https://files.pythonhosted.org/packages/de/00/2f57c47c8af057a6ed15db8c947d94ab89ddba218a4b81aecf669e4eae22/docmaptools-0.9.0.tar.gz
+[2023-06-09 04:01:27] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-09 04:01:27] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230609/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-09 04:01:27] INFO root fetch - processPackages [pybash]: Downloading https://files.pythonhosted.org/packages/ec/5b/37348a9460e49a251ead01392f08d6434790098710123b76f57a89d5b0a6/pybash-0.3.3.tar.gz
+[2023-06-09 04:01:27] INFO root fetch - processPackages [docmaptools]: executing diffoscope
+[2023-06-09 04:01:27] INFO root fetch - processPackages [docmaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmaptools-0.8.0.tar.gz tmp/docmaptools-0.9.0.tar.gz --markdown 20230609/d/docmaptools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 04:01:27] INFO root fetch - processPackages [aiokwikset]: executing diffoscope
+[2023-06-09 04:01:27] INFO root fetch - processPackages [aiokwikset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokwikset-0.2.1.tar.gz tmp/aiokwikset-0.2.2a1.tar.gz --markdown 20230609/a/aiokwikset/0.2.1-0.2.2a1/diff.md --exclude *.pyd
+[2023-06-09 04:01:27] INFO root fetch - processPackages [pybash]: executing diffoscope
+[2023-06-09 04:01:27] INFO root fetch - processPackages [pybash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybash-0.3.2.tar.gz tmp/pybash-0.3.3.tar.gz --markdown 20230609/p/pybash/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-09 04:01:28] INFO root fetch - processPackages [solver4mpi]: Remove: archive file [/home/abi/fetcher/tmp/solver4mpi-3.3.tar.gz]
+[2023-06-09 04:01:28] INFO root fetch - processPackages [solver4mpi]: Remove: archive file [/home/abi/fetcher/tmp/solver4mpi-3.4.tar.gz]
+[2023-06-09 04:01:28] INFO root fetch - main [MainThread]: End processing [solver4mpi]: success
+[2023-06-09 04:01:28] INFO root fetch - processPackages [magnify]: Remove: archive file [/home/abi/fetcher/tmp/magnify-0.3.1.tar.gz]
+[2023-06-09 04:01:28] INFO root fetch - processPackages [magnify]: Remove: archive file [/home/abi/fetcher/tmp/magnify-0.3.2.tar.gz]
+[2023-06-09 04:01:28] INFO root fetch - main [MainThread]: End processing [magnify]: success
+[2023-06-09 04:01:28] INFO root fetch - processPackages [pybash]: Remove: archive file [/home/abi/fetcher/tmp/pybash-0.3.2.tar.gz]
+[2023-06-09 04:01:28] INFO root fetch - processPackages [pybash]: Remove: archive file [/home/abi/fetcher/tmp/pybash-0.3.3.tar.gz]
+[2023-06-09 04:01:28] INFO root fetch - main [MainThread]: End processing [pybash]: success
+[2023-06-09 04:01:28] INFO root fetch - processPackages [docmaptools]: Remove: archive file [/home/abi/fetcher/tmp/docmaptools-0.8.0.tar.gz]
+[2023-06-09 04:01:28] INFO root fetch - processPackages [docmaptools]: Remove: archive file [/home/abi/fetcher/tmp/docmaptools-0.9.0.tar.gz]
+[2023-06-09 04:01:28] INFO root fetch - main [MainThread]: End processing [docmaptools]: success
+[2023-06-09 04:01:28] INFO root fetch - processPackages [aiokwikset]: Remove: archive file [/home/abi/fetcher/tmp/aiokwikset-0.2.1.tar.gz]
+[2023-06-09 04:01:28] INFO root fetch - processPackages [aiokwikset]: Remove: archive file [/home/abi/fetcher/tmp/aiokwikset-0.2.2a1.tar.gz]
+[2023-06-09 04:01:28] INFO root fetch - main [MainThread]: End processing [aiokwikset]: success
+[2023-06-09 04:01:28] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.98.tar.gz]
+[2023-06-09 04:01:28] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.99.tar.gz]
+[2023-06-09 04:01:28] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-09 04:01:28] INFO root fetch - main [MainThread]: Store serial: [18434298]
