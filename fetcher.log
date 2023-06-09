@@ -19952,3 +19952,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-09 11:07:38] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
 [2023-06-09 11:07:38] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
 [2023-06-09 11:07:38] INFO root fetch - main [MainThread]: Store serial: [18438689]
+[2023-06-09 11:12:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438689]
+[2023-06-09 11:12:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-09 11:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multireg
+[2023-06-09 11:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libcnmc
+[2023-06-09 11:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepl
+[2023-06-09 11:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oebuild
+[2023-06-09 11:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyilz
+[2023-06-09 11:12:48] INFO root fetch - processPackages [deepl]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-09 11:12:48] INFO root fetch - processPackages [pyilz]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-09 11:12:48] INFO root fetch - processPackages [multireg]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-06-09 11:12:48] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 11:12:48] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-06-09 11:12:48] INFO root fetch - processPackages [deepl]: Downloading https://files.pythonhosted.org/packages/8e/61/ccac1037a2f7395dc015edc66a7ecdb91487f9b55f2f022136ce14e6be3f/deepl-1.8.0.tar.gz
+[2023-06-09 11:12:48] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/53/62/7fca7e4c4b49f723930052353a86063c1b788db4141b59bae16108023f4b/multireg-0.0.5.tar.gz
+[2023-06-09 11:12:48] INFO root fetch - processPackages [pyilz]: Downloading https://files.pythonhosted.org/packages/4f/13/e77a1abd3776de291bfc659f439a45b0d355602b05370507f83d0fffb2d5/pyilz-0.0.7.tar.gz
+[2023-06-09 11:12:48] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2023-06-09 11:12:48] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-06-09 11:12:48] INFO root fetch - processPackages [multireg]: executing diffoscope
+[2023-06-09 11:12:48] INFO root fetch - processPackages [multireg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multireg-0.0.1.tar.gz tmp/multireg-0.0.5.tar.gz --markdown 20230609/m/multireg/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-06-09 11:12:48] INFO root fetch - processPackages [pyilz]: Downloading https://files.pythonhosted.org/packages/37/7a/114c838cef9c045f8814283c518613d96dbd100b5c90695136e5b4e752a2/pyilz-0.0.8.tar.gz
+[2023-06-09 11:12:48] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2023-06-09 11:12:49] INFO root fetch - processPackages [pyilz]: executing diffoscope
+[2023-06-09 11:12:49] INFO root fetch - processPackages [pyilz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyilz-0.0.7.tar.gz tmp/pyilz-0.0.8.tar.gz --markdown 20230609/p/pyilz/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-09 11:12:49] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-06-09 11:12:49] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2023-06-09 11:12:49] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20230609/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 11:12:49] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-06-09 11:12:49] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230609/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-06-09 11:12:49] INFO root fetch - processPackages [deepl]: Downloading https://files.pythonhosted.org/packages/42/2c/ec4d4408acc436f0873fe3adabc7c3bd9aad634bba0066e6957aaa0f76ed/deepl-1.9.0.tar.gz
+[2023-06-09 11:12:49] INFO root fetch - processPackages [deepl]: executing diffoscope
+[2023-06-09 11:12:49] INFO root fetch - processPackages [deepl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl-1.8.0.tar.gz tmp/deepl-1.9.0.tar.gz --markdown 20230609/d/deepl/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-09 11:12:49] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.1.tar.gz]
+[2023-06-09 11:12:49] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.5.tar.gz]
+[2023-06-09 11:12:49] INFO root fetch - main [MainThread]: End processing [multireg]: success
+[2023-06-09 11:12:50] INFO root fetch - processPackages [pyilz]: Remove: archive file [/home/abi/fetcher/tmp/pyilz-0.0.7.tar.gz]
+[2023-06-09 11:12:50] INFO root fetch - processPackages [pyilz]: Remove: archive file [/home/abi/fetcher/tmp/pyilz-0.0.8.tar.gz]
+[2023-06-09 11:12:50] INFO root fetch - main [MainThread]: End processing [pyilz]: success
+[2023-06-09 11:12:50] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2023-06-09 11:12:50] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2023-06-09 11:12:50] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2023-06-09 11:12:51] INFO root fetch - processPackages [deepl]: Remove: archive file [/home/abi/fetcher/tmp/deepl-1.8.0.tar.gz]
+[2023-06-09 11:12:51] INFO root fetch - processPackages [deepl]: Remove: archive file [/home/abi/fetcher/tmp/deepl-1.9.0.tar.gz]
+[2023-06-09 11:12:51] INFO root fetch - main [MainThread]: End processing [deepl]: success
+[2023-06-09 11:12:51] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-06-09 11:12:51] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-06-09 11:12:51] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-06-09 11:12:51] INFO root fetch - main [MainThread]: Store serial: [18438709]
