@@ -20926,3 +20926,190 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-09 11:55:39] INFO root fetch - processPackages [python-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/python-gitlab-3.9.0.tar.gz]
 [2023-06-09 11:55:39] INFO root fetch - main [MainThread]: End processing [python-gitlab]: success
 [2023-06-09 11:55:39] INFO root fetch - main [MainThread]: Store serial: [18439103]
+[2023-06-09 12:00:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18439103]
+[2023-06-09 12:00:51] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foundation-cancer-image-biomarker
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elasticai-creator
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RobertCommonBasic
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aflabs-test-django
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-notifications-sdk-preview
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-opensky
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RobertCommonIO
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ogc-na
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unicboard-billing-sdk
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oasislmf
+[2023-06-09 12:00:51] WARNING root fetch - processPackages [aflabs-test-django]: Skipping, unable to determine old version
+[2023-06-09 12:00:51] INFO root fetch - processPackages [aflabs-test-django]: Start processing: RobertCommonSample
+[2023-06-09 12:00:51] INFO root fetch - main [MainThread]: End processing [aflabs-test-django] error
+[2023-06-09 12:00:51] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-06-09 12:00:51] INFO root fetch - processPackages [python-opensky]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 12:00:51] INFO root fetch - processPackages [RobertCommonIO]: New version: [0.1.42] Old Version: [0.1.41]
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-09 12:00:51] INFO root fetch - processPackages [elasticai-creator]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-06-09 12:00:51] INFO root fetch - processPackages [unicboard-billing-sdk]: New version: [2.0.2] Old Version: [2.0.0]
+[2023-06-09 12:00:51] WARNING root fetch - processPackages [RobertCommonSample]: Skipping, unable to determine old version
+[2023-06-09 12:00:51] INFO root fetch - processPackages [RobertCommonSample]: Start processing: deepset-cloud-sdk
+[2023-06-09 12:00:51] INFO root fetch - main [MainThread]: End processing [RobertCommonSample] error
+[2023-06-09 12:00:51] INFO root fetch - processPackages [oasislmf]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-09 12:00:51] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.731] Old Version: [0.1.723]
+[2023-06-09 12:00:51] INFO root fetch - processPackages [RobertCommonBasic]: New version: [0.1.41] Old Version: [0.1.40]
+[2023-06-09 12:00:51] INFO root fetch - processPackages [deepset-cloud-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/6f/1b/a35ac17c9749cc1cf599391bfd4eab6ac44746f5fbff779a67e85b5af2bb/ogc_na-0.2.8.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/f4/f4/3c8441508e7e4c9f560d0bb8bfbfc64a417b96a55a09af93424946816450/elasticai.creator-0.7.0.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/fb/e5/4d99252fefb8fc0875b79eec0934b67c4513d6c0f54053fb059256811990/foundation_cancer_image_biomarker-0.0.1a2.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [RobertCommonIO]: Downloading https://files.pythonhosted.org/packages/6d/32/881a9d5bfaf1a4979458da2f43de0cdde7c96caa088733a00261de476f5f/RobertCommonIO-0.1.41.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [unicboard-billing-sdk]: Downloading https://files.pythonhosted.org/packages/df/d9/23d38284a52f38636c09ccab5af5c849e7742ced688e9d5e9c2787e2113a/unicboard_billing_sdk-2.0.0.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [python-opensky]: Downloading https://files.pythonhosted.org/packages/3a/b7/9a1441afb51ecf9dafc6bdfcb437e9bd2d2c364125d96b4b17b25dddf05d/python_opensky-0.0.8.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/b1/71/3132b870a19b574c1b571c9b295c68953265044cdf60210dd0b110ad924d/RobertCommonBasic-0.1.40.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f0/a0/6671d465d144fd518e6524d8a03fb7fd35a3530cfecbe675c3c4727a866d/lusid-notifications-sdk-preview-0.1.723.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/bb/89/7a79dfa443184d2422ab56cd9d89df9a1ca6b30f6bb8a6cafea6a4c0937b/deepset_cloud_sdk-0.0.8.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/a6/ab/45657291419c43d4947b9cdecb6c9716293001edcf7717bd5a8e1c350df4/oasislmf-1.9.0.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/41/00/ecf6fd2903be8cf829d89408464d3338913631ab10066e0541a95b004b45/elasticai.creator-0.9.0.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [elasticai-creator]: executing diffoscope
+[2023-06-09 12:00:51] INFO root fetch - processPackages [elasticai-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticai.creator-0.7.0.tar.gz tmp/elasticai.creator-0.9.0.tar.gz --markdown 20230609/e/elasticai-creator/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-06-09 12:00:51] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230609/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-09 12:00:51] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/ad/83/7814defc2bdfff844598ae8a2e603220299b6527ca923b722b138594a7a9/foundation_cancer_image_biomarker-0.0.1a3.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [unicboard-billing-sdk]: Downloading https://files.pythonhosted.org/packages/d0/42/670ae5191fcbbc0769f0ec15087ef01af77b5c5d1852c40b6ccb089291d1/unicboard_billing_sdk-2.0.2.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [RobertCommonIO]: Downloading https://files.pythonhosted.org/packages/44/12/97f2160f50998aa94142a9343890a387964e39537641f383684e5e8a5ff3/RobertCommonIO-0.1.42.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/cc/e7/0c388ab459609b4ad2ee7117b3b04914cfd5dd7245a749ef1709330547f7/lusid-notifications-sdk-preview-0.1.731.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [python-opensky]: Downloading https://files.pythonhosted.org/packages/e6/3d/25e229d9939cb5c1bb3d644d0c9187192e12b344d411531125485f326cb7/python_opensky-0.0.9.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/aa/38/20f4824b35b2478c3935e508a30aed03f421d356a8fda076242f297dbe71/RobertCommonBasic-0.1.41.tar.gz
+[2023-06-09 12:00:51] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: executing diffoscope
+[2023-06-09 12:00:51] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation_cancer_image_biomarker-0.0.1a2.tar.gz tmp/foundation_cancer_image_biomarker-0.0.1a3.tar.gz --markdown 20230609/f/foundation-cancer-image-biomarker/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-06-09 12:00:51] INFO root fetch - processPackages [RobertCommonIO]: executing diffoscope
+[2023-06-09 12:00:51] INFO root fetch - processPackages [RobertCommonIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonIO-0.1.41.tar.gz tmp/RobertCommonIO-0.1.42.tar.gz --markdown 20230609/R/RobertCommonIO/0.1.41-0.1.42/diff.md --exclude *.pyd
+[2023-06-09 12:00:52] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-06-09 12:00:52] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.723.tar.gz tmp/lusid-notifications-sdk-preview-0.1.731.tar.gz --markdown 20230609/l/lusid-notifications-sdk-preview/0.1.723-0.1.731/diff.md --exclude *.pyd
+[2023-06-09 12:00:52] INFO root fetch - processPackages [python-opensky]: executing diffoscope
+[2023-06-09 12:00:52] INFO root fetch - processPackages [python-opensky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_opensky-0.0.8.tar.gz tmp/python_opensky-0.0.9.tar.gz --markdown 20230609/p/python-opensky/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:00:52] INFO root fetch - processPackages [unicboard-billing-sdk]: executing diffoscope
+[2023-06-09 12:00:52] INFO root fetch - processPackages [unicboard-billing-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicboard_billing_sdk-2.0.0.tar.gz tmp/unicboard_billing_sdk-2.0.2.tar.gz --markdown 20230609/u/unicboard-billing-sdk/2.0.0-2.0.2/diff.md --exclude *.pyd
+[2023-06-09 12:00:52] INFO root fetch - processPackages [RobertCommonBasic]: executing diffoscope
+[2023-06-09 12:00:52] INFO root fetch - processPackages [RobertCommonBasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonBasic-0.1.40.tar.gz tmp/RobertCommonBasic-0.1.41.tar.gz --markdown 20230609/R/RobertCommonBasic/0.1.40-0.1.41/diff.md --exclude *.pyd
+[2023-06-09 12:00:52] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/c0/a2/f54598bb29c68df6576f5c673975a6a6302c1490bb92ebfb5c0dafe8e6c4/oasislmf-1.9.1.tar.gz
+[2023-06-09 12:00:52] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/33/fd/ab1e82f0b8ab4c7e6f30c92135a88a4dff8a164768c68401129a7678bb5b/deepset_cloud_sdk-0.0.9.tar.gz
+[2023-06-09 12:00:52] INFO root fetch - processPackages [oasislmf]: executing diffoscope
+[2023-06-09 12:00:52] INFO root fetch - processPackages [oasislmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasislmf-1.9.0.tar.gz tmp/oasislmf-1.9.1.tar.gz --markdown 20230609/o/oasislmf/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-09 12:00:52] INFO root fetch - processPackages [deepset-cloud-sdk]: executing diffoscope
+[2023-06-09 12:00:52] INFO root fetch - processPackages [deepset-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepset_cloud_sdk-0.0.8.tar.gz tmp/deepset_cloud_sdk-0.0.9.tar.gz --markdown 20230609/d/deepset-cloud-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:00:53] INFO root fetch - processPackages [python-opensky]: Remove: archive file [/home/abi/fetcher/tmp/python_opensky-0.0.8.tar.gz]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [python-opensky]: Remove: archive file [/home/abi/fetcher/tmp/python_opensky-0.0.9.tar.gz]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [python-opensky]: Start processing: javaman
+[2023-06-09 12:00:53] INFO root fetch - main [MainThread]: End processing [python-opensky]: success
+[2023-06-09 12:00:53] INFO root fetch - processPackages [javaman]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [unicboard-billing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unicboard_billing_sdk-2.0.0.tar.gz]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [unicboard-billing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unicboard_billing_sdk-2.0.2.tar.gz]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [unicboard-billing-sdk]: Start processing: RobertCommonDriver
+[2023-06-09 12:00:53] INFO root fetch - main [MainThread]: End processing [unicboard-billing-sdk]: success
+[2023-06-09 12:00:53] INFO root fetch - processPackages [RobertCommonDriver]: New version: [0.1.42] Old Version: [0.1.41]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [RobertCommonIO]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonIO-0.1.41.tar.gz]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [RobertCommonIO]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonIO-0.1.42.tar.gz]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [RobertCommonIO]: Start processing: ant1Interface
+[2023-06-09 12:00:53] INFO root fetch - main [MainThread]: End processing [RobertCommonIO]: success
+[2023-06-09 12:00:53] INFO root fetch - processPackages [javaman]: Downloading https://files.pythonhosted.org/packages/3d/22/addb17301baafa0043f229b6252dfa81137199e42c035a17dda11747e714/javaman-1.0.8.tar.gz
+[2023-06-09 12:00:53] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/ec/88/3a42ef13eeb70e156d3cf4e296adf9012fbef15a7685742aedf921da4911/ant1Interface-0.0.7-py3-none-any.whl
+[2023-06-09 12:00:53] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/5d/7b/1be18d239d1576d7e647a35ce7d5948db045d6e741a80b94dec6ddf6c6ce/RobertCommonDriver-0.1.41.tar.gz
+[2023-06-09 12:00:53] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a2.tar.gz]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a3.tar.gz]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Start processing: satellitevu
+[2023-06-09 12:00:53] INFO root fetch - main [MainThread]: End processing [foundation-cancer-image-biomarker]: success
+[2023-06-09 12:00:53] INFO root fetch - processPackages [satellitevu]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/cf/d2/fcb6e1b2a714653f4642d8b21e4ee22b1b4ffbf9e9a950b6433053e972f8/ant1Interface-0.0.9-py3-none-any.whl
+[2023-06-09 12:00:53] INFO root fetch - processPackages [javaman]: Downloading https://files.pythonhosted.org/packages/e3/44/b2b08af05d517d9493e70979048cc38a51a9ee64952fbd4f9657628cf7c8/javaman-1.0.9.tar.gz
+[2023-06-09 12:00:53] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.7.0.tar.gz]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.9.0.tar.gz]
+[2023-06-09 12:00:53] INFO root fetch - processPackages [elasticai-creator]: Start processing: aspose-cells
+[2023-06-09 12:00:53] INFO root fetch - main [MainThread]: End processing [elasticai-creator]: success
+[2023-06-09 12:00:54] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.8.tar.gz]
+[2023-06-09 12:00:54] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
+[2023-06-09 12:00:54] INFO root fetch - processPackages [ogc-na]: Start processing: cr-pre-commit-hooks
+[2023-06-09 12:00:54] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-06-09 12:00:54] INFO root fetch - processPackages [satellitevu]: Downloading https://files.pythonhosted.org/packages/dd/23/9461e2bcbb41e87bd264b444c43bd706f18c26aa8414a83c7b393e264a0f/satellitevu-1.4.0.tar.gz
+[2023-06-09 12:00:54] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-06-09 12:00:54] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.7-py3-none-any.whl.zip tmp/ant1Interface-0.0.9-py3-none-any.whl.zip --markdown 20230609/a/ant1Interface/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:00:54] INFO root fetch - processPackages [aspose-cells]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-06-09 12:00:54] INFO root fetch - processPackages [RobertCommonBasic]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonBasic-0.1.40.tar.gz]
+[2023-06-09 12:00:54] INFO root fetch - processPackages [RobertCommonBasic]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonBasic-0.1.41.tar.gz]
+[2023-06-09 12:00:54] INFO root fetch - processPackages [RobertCommonBasic]: Start processing: jaxsim
+[2023-06-09 12:00:54] INFO root fetch - main [MainThread]: End processing [RobertCommonBasic]: success
+[2023-06-09 12:00:54] INFO root fetch - processPackages [javaman]: executing diffoscope
+[2023-06-09 12:00:54] INFO root fetch - processPackages [javaman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/javaman-1.0.8.tar.gz tmp/javaman-1.0.9.tar.gz --markdown 20230609/j/javaman/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-09 12:00:54] WARNING root fetch - processPackages [cr-pre-commit-hooks]: Skipping, unable to determine old version
+[2023-06-09 12:00:54] INFO root fetch - processPackages [cr-pre-commit-hooks]: Start processing: copasi-basico
+[2023-06-09 12:00:54] INFO root fetch - main [MainThread]: End processing [cr-pre-commit-hooks] error
+[2023-06-09 12:00:54] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/20/b8/b1aff7e4f0d7ec37cfd8cc19b7b92295e63a4b7c3f09daa57dd6ea2d4dde/RobertCommonDriver-0.1.42.tar.gz
+[2023-06-09 12:00:54] INFO root fetch - processPackages [jaxsim]: New version: [0.1.dev156] Old Version: [0.1.dev153]
+[2023-06-09 12:00:54] INFO root fetch - processPackages [aspose-cells]: Downloading https://files.pythonhosted.org/packages/d4/10/7187e62ef7843d3ba73f8d928837ebfe4005869333052713824e146f33e9/aspose-cells-23.5.0.tar.gz
+[2023-06-09 12:00:54] INFO root fetch - processPackages [satellitevu]: Downloading https://files.pythonhosted.org/packages/51/22/726002ccc9c1c23b90643f76abe16db2d4a0dd8af488ea4c8117f78b7169/satellitevu-1.5.0.tar.gz
+[2023-06-09 12:00:54] WARNING root fetch - processPackages [aspose-cells]: Skipping package: exceeds size limit 12376017>=10485760
+[2023-06-09 12:00:54] INFO root fetch - processPackages [aspose-cells]: Start processing: satellitevu
+[2023-06-09 12:00:54] INFO root fetch - main [MainThread]: End processing [aspose-cells] error
+[2023-06-09 12:00:54] INFO root fetch - processPackages [RobertCommonDriver]: executing diffoscope
+[2023-06-09 12:00:54] INFO root fetch - processPackages [RobertCommonDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonDriver-0.1.41.tar.gz tmp/RobertCommonDriver-0.1.42.tar.gz --markdown 20230609/R/RobertCommonDriver/0.1.41-0.1.42/diff.md --exclude *.pyd
+[2023-06-09 12:00:54] INFO root fetch - processPackages [copasi-basico]: New version: [0.9] Old Version: [0.8]
+[2023-06-09 12:00:54] INFO root fetch - processPackages [satellitevu]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-09 12:00:54] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.723.tar.gz]
+[2023-06-09 12:00:54] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.731.tar.gz]
+[2023-06-09 12:00:54] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-06-09 12:00:54] INFO root fetch - processPackages [satellitevu]: executing diffoscope
+[2023-06-09 12:00:54] INFO root fetch - processPackages [satellitevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satellitevu-1.4.0.tar.gz tmp/satellitevu-1.5.0.tar.gz --markdown 20230609/s/satellitevu/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-09 12:00:54] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/4b/7e/58e1b0a15169919a86bdad4e4066adc89bb3ffea68d6b7dea0d7dec30381/jaxsim-0.1.dev153.tar.gz
+[2023-06-09 12:00:54] INFO root fetch - processPackages [satellitevu]: Downloading https://files.pythonhosted.org/packages/4d/b9/d65d97a671dffb8efb59792464f679aacbaf5568a0bacba8811287615939/satellitevu-1.5.1.tar.gz
+[2023-06-09 12:00:54] INFO root fetch - processPackages [copasi-basico]: Downloading https://files.pythonhosted.org/packages/2c/06/652f88bbab57586dfe4ca1bc14ba17e1e81fcf9425df961eb214afb88eae/copasi_basico-0.8.tar.gz
+[2023-06-09 12:00:54] INFO root fetch - processPackages [satellitevu]: executing diffoscope
+[2023-06-09 12:00:54] INFO root fetch - processPackages [satellitevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satellitevu-1.5.0.tar.gz tmp/satellitevu-1.5.1.tar.gz --markdown 20230609/s/satellitevu/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-09 12:00:54] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/1b/c4/7c52abd7c6e9f5c44d5f590bf3d3bf249df5c78c0ed4fd023dbf72780e13/jaxsim-0.1.dev156.tar.gz
+[2023-06-09 12:00:54] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2023-06-09 12:00:54] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.1.dev153.tar.gz tmp/jaxsim-0.1.dev156.tar.gz --markdown 20230609/j/jaxsim/0.1.dev153-0.1.dev156/diff.md --exclude *.pyd
+[2023-06-09 12:00:54] INFO root fetch - processPackages [copasi-basico]: Downloading https://files.pythonhosted.org/packages/ad/c1/8141b5ce634d2722b7cc85f199f86f66248f1b3621113604bdfd49c590ab/copasi_basico-0.9.tar.gz
+[2023-06-09 12:00:54] INFO root fetch - processPackages [deepset-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepset_cloud_sdk-0.0.8.tar.gz]
+[2023-06-09 12:00:54] INFO root fetch - processPackages [deepset-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepset_cloud_sdk-0.0.9.tar.gz]
+[2023-06-09 12:00:54] INFO root fetch - main [MainThread]: End processing [deepset-cloud-sdk]: success
+[2023-06-09 12:00:54] INFO root fetch - processPackages [copasi-basico]: executing diffoscope
+[2023-06-09 12:00:54] INFO root fetch - processPackages [copasi-basico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copasi_basico-0.8.tar.gz tmp/copasi_basico-0.9.tar.gz --markdown 20230609/c/copasi-basico/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-09 12:00:55] INFO root fetch - processPackages [javaman]: Remove: archive file [/home/abi/fetcher/tmp/javaman-1.0.8.tar.gz]
+[2023-06-09 12:00:55] INFO root fetch - processPackages [javaman]: Remove: archive file [/home/abi/fetcher/tmp/javaman-1.0.9.tar.gz]
+[2023-06-09 12:00:55] INFO root fetch - main [MainThread]: End processing [javaman]: success
+[2023-06-09 12:00:55] INFO root fetch - processPackages [satellitevu]: Remove: archive file [/home/abi/fetcher/tmp/satellitevu-1.4.0.tar.gz]
+[2023-06-09 12:00:55] INFO root fetch - processPackages [satellitevu]: Remove: archive file [/home/abi/fetcher/tmp/satellitevu-1.5.0.tar.gz]
+[2023-06-09 12:00:55] INFO root fetch - main [MainThread]: End processing [satellitevu]: success
+[2023-06-09 12:00:55] ERROR root fetch - processPackages [satellitevu]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/satellitevu-1.5.0.tar.gz does not exist
+
+[2023-06-09 12:00:55] INFO root fetch - main [MainThread]: End processing [satellitevu] error
+[2023-06-09 12:00:55] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.7-py3-none-any.whl.zip]
+[2023-06-09 12:00:55] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.9-py3-none-any.whl.zip]
+[2023-06-09 12:00:55] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-06-09 12:00:56] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.1.dev153.tar.gz]
+[2023-06-09 12:00:56] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.1.dev156.tar.gz]
+[2023-06-09 12:00:56] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2023-06-09 12:00:56] INFO root fetch - processPackages [oasislmf]: Remove: archive file [/home/abi/fetcher/tmp/oasislmf-1.9.0.tar.gz]
+[2023-06-09 12:00:56] INFO root fetch - processPackages [oasislmf]: Remove: archive file [/home/abi/fetcher/tmp/oasislmf-1.9.1.tar.gz]
+[2023-06-09 12:00:56] INFO root fetch - main [MainThread]: End processing [oasislmf]: success
+[2023-06-09 12:00:56] INFO root fetch - processPackages [RobertCommonDriver]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonDriver-0.1.41.tar.gz]
+[2023-06-09 12:00:56] INFO root fetch - processPackages [RobertCommonDriver]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonDriver-0.1.42.tar.gz]
+[2023-06-09 12:00:56] INFO root fetch - main [MainThread]: End processing [RobertCommonDriver]: success
+[2023-06-09 12:00:56] INFO root fetch - processPackages [copasi-basico]: Remove: archive file [/home/abi/fetcher/tmp/copasi_basico-0.8.tar.gz]
+[2023-06-09 12:00:56] INFO root fetch - processPackages [copasi-basico]: Remove: archive file [/home/abi/fetcher/tmp/copasi_basico-0.9.tar.gz]
+[2023-06-09 12:00:56] INFO root fetch - main [MainThread]: End processing [copasi-basico]: success
+[2023-06-09 12:00:56] INFO root fetch - main [MainThread]: Store serial: [18439170]
