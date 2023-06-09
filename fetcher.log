@@ -14946,3 +14946,107 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 07:19:00] INFO root fetch - processPackages [odoo10-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_base_user_role-10.0.1.0.3.99.dev9-py2-none-any.whl.zip]
 [2023-06-09 07:19:00] INFO root fetch - main [MainThread]: End processing [odoo10-addon-base-user-role]: success
 [2023-06-09 07:19:00] INFO root fetch - main [MainThread]: Store serial: [18436724]
+[2023-06-09 07:24:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436724]
+[2023-06-09 07:24:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-09 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cashfree-lrs-client
+[2023-06-09 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-base-tier-validation
+[2023-06-09 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: defog
+[2023-06-09 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysurveycto
+[2023-06-09 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-mail-tracking
+[2023-06-09 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bullmq
+[2023-06-09 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: angola
+[2023-06-09 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: selutil
+[2023-06-09 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-mail-activity-team
+[2023-06-09 07:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-social
+[2023-06-09 07:24:10] INFO root fetch - processPackages [pysurveycto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 07:24:10] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo9-addon-mail-tracking]: New version: [9.0.3.0.2.99.dev9] Old Version: [9.0.3.0.2.99.dev8]
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo-addons-oca-social]: New version: [16.0.20230608.0] Old Version: [16.0.20230515.0]
+[2023-06-09 07:24:10] INFO root fetch - processPackages [cashfree-lrs-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-09 07:24:10] INFO root fetch - processPackages [bullmq]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-06-09 07:24:10] WARNING root fetch - processPackages [selutil]: Skipping, unable to determine old version
+[2023-06-09 07:24:10] INFO root fetch - processPackages [selutil]: Start processing: mario-airflow-utils
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: New version: [13.0.1.9.1.dev6] Old Version: [13.0.1.9.1.dev5]
+[2023-06-09 07:24:10] INFO root fetch - main [MainThread]: End processing [selutil] error
+[2023-06-09 07:24:10] INFO root fetch - processPackages [angola]: New version: [0.12.0] Old Version: [0.11.5]
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-09 07:24:10] INFO root fetch - processPackages [mario-airflow-utils]: New version: [0.6.4] Old Version: [0.6.0]
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo9-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/d5/e7/e15a43a962de28e001a4e0738d34bc1e780b7aee34765d560547a5ec284c/odoo9_addon_mail_tracking-9.0.3.0.2.99.dev8-py2-none-any.whl
+[2023-06-09 07:24:10] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/e2/2e/3a835b6c09cf3d145a70797bed2ffa40e15c82dea27fca22af9e90704eef/angola-0.11.5.tar.gz
+[2023-06-09 07:24:10] INFO root fetch - processPackages [pysurveycto]: Downloading https://files.pythonhosted.org/packages/ef/e7/98943db8d23e9f724d6a5b73de736eeeca3d256904d0434586e15668ce63/pysurveycto-0.0.8.tar.gz
+[2023-06-09 07:24:10] INFO root fetch - processPackages [mario-airflow-utils]: Downloading https://files.pythonhosted.org/packages/b2/4e/07e40fc7dea23063825d14ddd9d4181eea53aebbd6b2f1f786619ef5ecb1/mario_airflow_utils-0.6.0.tar.gz
+[2023-06-09 07:24:10] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2023-06-09 07:24:10] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/46/77/515d669bcd18efa3b3ad73243c063ea46dbcde0945163ad197298107f064/bullmq-0.4.3.tar.gz
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/a4/c0/ac63a8623eefa2a7db110364e9b6e3b5ad5812dd79bf011ce97c6d8c314a/odoo_addons_oca_social-16.0.20230515.0-py3-none-any.whl
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/eb/36/d01e1d026cc7916366edb296a18b68a7fc5723d4d2130499e9ed58c5ad94/odoo13_addon_base_tier_validation-13.0.1.9.1.dev5-py3-none-any.whl
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo9-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/18/12/111001de73c8e649d384ce79f31fcc22508cdaf2b030fa606a744a551c46/odoo9_addon_mail_tracking-9.0.3.0.2.99.dev9-py2-none-any.whl
+[2023-06-09 07:24:10] INFO root fetch - processPackages [cashfree-lrs-client]: Downloading https://files.pythonhosted.org/packages/00/a7/87dc9582b5009c149321eccdd73c6b8af2353064c1c03f842a7635f6f043/cashfree_lrs_client-1.0.8.tar.gz
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/3f/20/90e069cac4c4e1a1d22747da6d7a4141986b70c6e2adf05b89f66398c16b/odoo_addon_mail_activity_team-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-09 07:24:10] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/bb/12/7f9c828da668cdb0bf3cce1e42742ceb30a7af772585bafc2e94a9a5299f/angola-0.12.0.tar.gz
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo9-addon-mail-tracking]: executing diffoscope
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo9-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_mail_tracking-9.0.3.0.2.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_mail_tracking-9.0.3.0.2.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo9-addon-mail-tracking/9.0.3.0.2.99.dev8-9.0.3.0.2.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/3c/5a/d869dbf6247c4a2a5c6e46bf60031b952131cee5a3c88a3f620f41bb3951/odoo_addons_oca_social-16.0.20230608.0-py3-none-any.whl
+[2023-06-09 07:24:10] INFO root fetch - processPackages [pysurveycto]: Downloading https://files.pythonhosted.org/packages/aa/f0/5df7b3e7a5b494c8d879a90ecaf310a7a21df7e4530f7ad8a57c8bc71855/pysurveycto-0.0.9.tar.gz
+[2023-06-09 07:24:10] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/0e/57/c2cb7ae236edb9f57b172f63eabd6b09fc384a39f3790467c8976310ad67/bullmq-0.5.0.tar.gz
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/c1/31/b7356a24fca1c251239dfdce908379fe74e6df9173d91e98ae256f5852dd/odoo_addon_mail_activity_team-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-09 07:24:10] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2023-06-09 07:24:10] INFO root fetch - processPackages [mario-airflow-utils]: Downloading https://files.pythonhosted.org/packages/8d/21/71d664659f1e3c5d7e974e2d8aa73e919dcaea9d8ca4800f0da575876436/mario_airflow_utils-0.6.4.tar.gz
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/de/1d/82b0cb30c933266cd7f05c24de12453edd84c419238c15405fac1e4719a2/odoo13_addon_base_tier_validation-13.0.1.9.1.dev6-py3-none-any.whl
+[2023-06-09 07:24:10] INFO root fetch - processPackages [angola]: executing diffoscope
+[2023-06-09 07:24:10] INFO root fetch - processPackages [angola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angola-0.11.5.tar.gz tmp/angola-0.12.0.tar.gz --markdown 20230609/a/angola/0.11.5-0.12.0/diff.md --exclude *.pyd
+[2023-06-09 07:24:10] INFO root fetch - processPackages [bullmq]: executing diffoscope
+[2023-06-09 07:24:10] INFO root fetch - processPackages [bullmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullmq-0.4.3.tar.gz tmp/bullmq-0.5.0.tar.gz --markdown 20230609/b/bullmq/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-06-09 07:24:10] INFO root fetch - processPackages [pysurveycto]: executing diffoscope
+[2023-06-09 07:24:10] INFO root fetch - processPackages [pysurveycto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysurveycto-0.0.8.tar.gz tmp/pysurveycto-0.0.9.tar.gz --markdown 20230609/p/pysurveycto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 07:24:10] INFO root fetch - processPackages [cashfree-lrs-client]: Downloading https://files.pythonhosted.org/packages/e7/24/01a92af2e69e7b24fa6944b9a15b81cac2d412148653323c632f4495348f/cashfree_lrs_client-1.0.9.tar.gz
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: executing diffoscope
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_activity_team-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mail_activity_team-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230609/o/odoo-addon-mail-activity-team/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo-addons-oca-social]: executing diffoscope
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo-addons-oca-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_social-16.0.20230515.0-py3-none-any.whl.zip tmp/odoo_addons_oca_social-16.0.20230608.0-py3-none-any.whl.zip --markdown 20230609/o/odoo-addons-oca-social/16.0.20230515.0-16.0.20230608.0/diff.md --exclude *.pyd
+[2023-06-09 07:24:10] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-06-09 07:24:10] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230609/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-09 07:24:10] INFO root fetch - processPackages [mario-airflow-utils]: executing diffoscope
+[2023-06-09 07:24:10] INFO root fetch - processPackages [mario-airflow-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mario_airflow_utils-0.6.0.tar.gz tmp/mario_airflow_utils-0.6.4.tar.gz --markdown 20230609/m/mario-airflow-utils/0.6.0-0.6.4/diff.md --exclude *.pyd
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: executing diffoscope
+[2023-06-09 07:24:10] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_tier_validation-13.0.1.9.1.dev5-py3-none-any.whl.zip tmp/odoo13_addon_base_tier_validation-13.0.1.9.1.dev6-py3-none-any.whl.zip --markdown 20230609/o/odoo13-addon-base-tier-validation/13.0.1.9.1.dev5-13.0.1.9.1.dev6/diff.md --exclude *.pyd
+[2023-06-09 07:24:11] INFO root fetch - processPackages [cashfree-lrs-client]: executing diffoscope
+[2023-06-09 07:24:11] INFO root fetch - processPackages [cashfree-lrs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashfree_lrs_client-1.0.8.tar.gz tmp/cashfree_lrs_client-1.0.9.tar.gz --markdown 20230609/c/cashfree-lrs-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-09 07:24:12] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.11.5.tar.gz]
+[2023-06-09 07:24:12] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.12.0.tar.gz]
+[2023-06-09 07:24:12] INFO root fetch - processPackages [angola]: Start processing: mario-airflow-utils
+[2023-06-09 07:24:12] INFO root fetch - main [MainThread]: End processing [angola]: success
+[2023-06-09 07:24:12] INFO root fetch - processPackages [mario-airflow-utils]: New version: [0.6.4] Old Version: [0.6.0]
+[2023-06-09 07:24:12] INFO root fetch - processPackages [mario-airflow-utils]: executing diffoscope
+[2023-06-09 07:24:12] INFO root fetch - processPackages [mario-airflow-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mario_airflow_utils-0.6.0.tar.gz tmp/mario_airflow_utils-0.6.4.tar.gz --markdown 20230609/m/mario-airflow-utils/0.6.0-0.6.4/diff.md --exclude *.pyd
+[2023-06-09 07:24:12] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20230515.0-py3-none-any.whl.zip]
+[2023-06-09 07:24:12] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20230608.0-py3-none-any.whl.zip]
+[2023-06-09 07:24:12] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-social]: success
+[2023-06-09 07:24:12] INFO root fetch - processPackages [pysurveycto]: Remove: archive file [/home/abi/fetcher/tmp/pysurveycto-0.0.8.tar.gz]
+[2023-06-09 07:24:12] INFO root fetch - processPackages [pysurveycto]: Remove: archive file [/home/abi/fetcher/tmp/pysurveycto-0.0.9.tar.gz]
+[2023-06-09 07:24:12] INFO root fetch - main [MainThread]: End processing [pysurveycto]: success
+[2023-06-09 07:24:12] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_team-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-09 07:24:12] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_team-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-09 07:24:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-activity-team]: success
+[2023-06-09 07:24:12] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.1.tar.gz]
+[2023-06-09 07:24:12] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.2.tar.gz]
+[2023-06-09 07:24:12] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-06-09 07:24:12] INFO root fetch - processPackages [odoo9-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_mail_tracking-9.0.3.0.2.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 07:24:12] INFO root fetch - processPackages [odoo9-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_mail_tracking-9.0.3.0.2.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 07:24:12] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mail-tracking]: success
+[2023-06-09 07:24:12] INFO root fetch - processPackages [mario-airflow-utils]: Remove: archive file [/home/abi/fetcher/tmp/mario_airflow_utils-0.6.0.tar.gz]
+[2023-06-09 07:24:12] INFO root fetch - processPackages [mario-airflow-utils]: Remove: archive file [/home/abi/fetcher/tmp/mario_airflow_utils-0.6.4.tar.gz]
+[2023-06-09 07:24:12] INFO root fetch - main [MainThread]: End processing [mario-airflow-utils]: success
+[2023-06-09 07:24:13] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_tier_validation-13.0.1.9.1.dev5-py3-none-any.whl.zip]
+[2023-06-09 07:24:13] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_tier_validation-13.0.1.9.1.dev6-py3-none-any.whl.zip]
+[2023-06-09 07:24:13] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-tier-validation]: success
+[2023-06-09 07:24:13] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-0.4.3.tar.gz]
+[2023-06-09 07:24:13] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-0.5.0.tar.gz]
+[2023-06-09 07:24:13] INFO root fetch - main [MainThread]: End processing [bullmq]: success
+[2023-06-09 07:24:13] ERROR root fetch - processPackages [mario-airflow-utils]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/mario_airflow_utils-0.6.0.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mario_airflow_utils-0.6.4.tar.gz: No such file or directory
+
+[2023-06-09 07:24:13] INFO root fetch - main [MainThread]: End processing [mario-airflow-utils] error
+[2023-06-09 07:24:13] INFO root fetch - processPackages [cashfree-lrs-client]: Remove: archive file [/home/abi/fetcher/tmp/cashfree_lrs_client-1.0.8.tar.gz]
+[2023-06-09 07:24:13] INFO root fetch - processPackages [cashfree-lrs-client]: Remove: archive file [/home/abi/fetcher/tmp/cashfree_lrs_client-1.0.9.tar.gz]
+[2023-06-09 07:24:13] INFO root fetch - main [MainThread]: End processing [cashfree-lrs-client]: success
+[2023-06-09 07:24:13] INFO root fetch - main [MainThread]: Store serial: [18436762]
