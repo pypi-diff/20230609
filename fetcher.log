@@ -17669,3 +17669,136 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 09:22:11] INFO root fetch - processPackages [gators]: Remove: archive file [/home/abi/fetcher/tmp/gators-0.3.3-cp38-cp38-macosx_10_9_x86_64.whl.zip]
 [2023-06-09 09:22:11] INFO root fetch - main [MainThread]: End processing [gators]: success
 [2023-06-09 09:22:11] INFO root fetch - main [MainThread]: Store serial: [18437723]
+[2023-06-09 09:27:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18437723]
+[2023-06-09 09:27:20] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-09 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salure-helpers-profit
+[2023-06-09 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bquest
+[2023-06-09 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-09 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: isilon-sdk-thaonv
+[2023-06-09 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-assets
+[2023-06-09 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Montreal-Forced-Aligner
+[2023-06-09 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: callmebot
+[2023-06-09 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: callmebot
+[2023-06-09 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: koku-nise
+[2023-06-09 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: akshare
+[2023-06-09 09:27:20] INFO root fetch - processPackages [callmebot]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-09 09:27:20] INFO root fetch - processPackages [Montreal-Forced-Aligner]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-09 09:27:20] WARNING root fetch - processPackages [isilon-sdk-thaonv]: Skipping, unable to determine old version
+[2023-06-09 09:27:20] INFO root fetch - processPackages [isilon-sdk-thaonv]: Start processing: fin-hedge
+[2023-06-09 09:27:20] INFO root fetch - main [MainThread]: End processing [isilon-sdk-thaonv] error
+[2023-06-09 09:27:20] INFO root fetch - processPackages [callmebot]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-09 09:27:20] INFO root fetch - processPackages [invenio-assets]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-06-09 09:27:20] WARNING root fetch - processPackages [bquest]: Skipping, unable to determine old version
+[2023-06-09 09:27:20] INFO root fetch - processPackages [bquest]: Start processing: SecuriPy
+[2023-06-09 09:27:20] INFO root fetch - main [MainThread]: End processing [bquest] error
+[2023-06-09 09:27:20] INFO root fetch - processPackages [salure-helpers-profit]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-09 09:27:20] INFO root fetch - processPackages [koku-nise]: New version: [4.3.0] Old Version: [4.2.9]
+[2023-06-09 09:27:20] WARNING root fetch - processPackages [fin-hedge]: Skipping, unable to determine old version
+[2023-06-09 09:27:20] INFO root fetch - processPackages [fin-hedge]: Start processing: SecuriPy
+[2023-06-09 09:27:20] INFO root fetch - main [MainThread]: End processing [fin-hedge] error
+[2023-06-09 09:27:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-09 09:27:20] INFO root fetch - processPackages [SecuriPy]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-06-09 09:27:21] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-09 09:27:21] INFO root fetch - processPackages [SecuriPy]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-06-09 09:27:21] INFO root fetch - processPackages [callmebot]: Downloading https://files.pythonhosted.org/packages/16/88/1aae5c6385e4e42a4a6f209a94ca4702deaa3d5fdd31496367cecdef330a/callmebot-1.1.2.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [callmebot]: Downloading https://files.pythonhosted.org/packages/16/88/1aae5c6385e4e42a4a6f209a94ca4702deaa3d5fdd31496367cecdef330a/callmebot-1.1.2.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [Montreal-Forced-Aligner]: Downloading https://files.pythonhosted.org/packages/81/03/170711034ac23beefb266c5d631c12c137814c2647cdda2f9040a83de5dd/Montreal%20Forced%20Aligner-2.2.8.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [salure-helpers-profit]: Downloading https://files.pythonhosted.org/packages/71/3c/3516ac1e96b55393aeeb047fc3bd7c1234fafaceb6fadb3aebc396cad2ee/salure_helpers_profit-1.3.2.tar.gz
+[2023-06-09 09:27:21] WARNING root fetch - processPackages [Montreal-Forced-Aligner]: Skipping package: exceeds size limit 19085184>=10485760
+[2023-06-09 09:27:21] INFO root fetch - processPackages [Montreal-Forced-Aligner]: Start processing: Orange3-Prototypes
+[2023-06-09 09:27:21] INFO root fetch - main [MainThread]: End processing [Montreal-Forced-Aligner] error
+[2023-06-09 09:27:21] INFO root fetch - processPackages [invenio-assets]: Downloading https://files.pythonhosted.org/packages/e0/bd/d5aa76848c6202cb24a0088ea39a7d53bc044d9524c8a6a82d519a49185c/invenio-assets-2.0.0.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [SecuriPy]: Downloading https://files.pythonhosted.org/packages/1b/8d/e54e3bd456b36d77aa03c25e8082a0729e8872812fdbf86f5adf7d88e068/SecuriPy-1.1.2.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [SecuriPy]: Downloading https://files.pythonhosted.org/packages/1b/8d/e54e3bd456b36d77aa03c25e8082a0729e8872812fdbf86f5adf7d88e068/SecuriPy-1.1.2.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [koku-nise]: Downloading https://files.pythonhosted.org/packages/8a/e4/4c3ffcc2f642e43a68babafab3ef8653e50583e9437d6df5a98ce24c3662/koku-nise-4.2.9.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [Orange3-Prototypes]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-09 09:27:21] INFO root fetch - processPackages [callmebot]: Downloading https://files.pythonhosted.org/packages/03/65/0b2efb8cdf0abfd59e26af9eeb5f5364170e6edbde559721837ce23df8b7/callmebot-1.1.3.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [callmebot]: Downloading https://files.pythonhosted.org/packages/03/65/0b2efb8cdf0abfd59e26af9eeb5f5364170e6edbde559721837ce23df8b7/callmebot-1.1.3.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [Orange3-Prototypes]: Downloading https://files.pythonhosted.org/packages/11/0e/a6307b79f090e12d026d6ac0a250820e03b8af8549f8957cb02483325a83/Orange3-Prototypes-0.8.0.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [salure-helpers-profit]: Downloading https://files.pythonhosted.org/packages/6f/bb/dcabddd2fe891afc078e8561a86d18f12025188d009851b64a88e0732966/salure_helpers_profit-1.3.3.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [SecuriPy]: Downloading https://files.pythonhosted.org/packages/ed/b9/039cd0e84879a9f2a5d6a47b9042e3572590b1d68e308b0e715953795948/SecuriPy-1.1.4.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [callmebot]: executing diffoscope
+[2023-06-09 09:27:21] INFO root fetch - processPackages [callmebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callmebot-1.1.2.tar.gz tmp/callmebot-1.1.3.tar.gz --markdown 20230609/c/callmebot/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-09 09:27:21] INFO root fetch - processPackages [SecuriPy]: Downloading https://files.pythonhosted.org/packages/ed/b9/039cd0e84879a9f2a5d6a47b9042e3572590b1d68e308b0e715953795948/SecuriPy-1.1.4.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [koku-nise]: Downloading https://files.pythonhosted.org/packages/89/26/b3b664bf16fabe71d25816add7912ebb4ecbe9d48fb956d01252328c716f/koku-nise-4.3.0.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [callmebot]: executing diffoscope
+[2023-06-09 09:27:21] INFO root fetch - processPackages [callmebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callmebot-1.1.2.tar.gz tmp/callmebot-1.1.3.tar.gz --markdown 20230609/c/callmebot/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-09 09:27:21] INFO root fetch - processPackages [invenio-assets]: Downloading https://files.pythonhosted.org/packages/cb/0e/cd1f9cd0600154db1f5e007e2167fdc9756907bc5b157db7793baa50148e/invenio-assets-3.0.0.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [salure-helpers-profit]: executing diffoscope
+[2023-06-09 09:27:21] INFO root fetch - processPackages [salure-helpers-profit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_profit-1.3.2.tar.gz tmp/salure_helpers_profit-1.3.3.tar.gz --markdown 20230609/s/salure-helpers-profit/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-09 09:27:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-09 09:27:21] INFO root fetch - processPackages [SecuriPy]: executing diffoscope
+[2023-06-09 09:27:21] INFO root fetch - processPackages [SecuriPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SecuriPy-1.1.2.tar.gz tmp/SecuriPy-1.1.4.tar.gz --markdown 20230609/S/SecuriPy/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-06-09 09:27:21] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-09 09:27:21] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230609/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-09 09:27:21] INFO root fetch - processPackages [SecuriPy]: executing diffoscope
+[2023-06-09 09:27:21] INFO root fetch - processPackages [SecuriPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SecuriPy-1.1.2.tar.gz tmp/SecuriPy-1.1.4.tar.gz --markdown 20230609/S/SecuriPy/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-06-09 09:27:21] INFO root fetch - processPackages [koku-nise]: executing diffoscope
+[2023-06-09 09:27:21] INFO root fetch - processPackages [koku-nise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koku-nise-4.2.9.tar.gz tmp/koku-nise-4.3.0.tar.gz --markdown 20230609/k/koku-nise/4.2.9-4.3.0/diff.md --exclude *.pyd
+[2023-06-09 09:27:21] INFO root fetch - processPackages [invenio-assets]: executing diffoscope
+[2023-06-09 09:27:21] INFO root fetch - processPackages [invenio-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-assets-2.0.0.tar.gz tmp/invenio-assets-3.0.0.tar.gz --markdown 20230609/i/invenio-assets/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-09 09:27:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-09 09:27:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230609/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 09:27:21] INFO root fetch - processPackages [Orange3-Prototypes]: Downloading https://files.pythonhosted.org/packages/1a/08/2d8867370e8fbb8a8d5928b8ae6c263ac611aa258e9899c6e992779c0691/Orange3-Prototypes-0.9.0.tar.gz
+[2023-06-09 09:27:22] INFO root fetch - processPackages [Orange3-Prototypes]: executing diffoscope
+[2023-06-09 09:27:22] INFO root fetch - processPackages [Orange3-Prototypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Orange3-Prototypes-0.8.0.tar.gz tmp/Orange3-Prototypes-0.9.0.tar.gz --markdown 20230609/O/Orange3-Prototypes/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-09 09:27:22] INFO root fetch - processPackages [callmebot]: Remove: archive file [/home/abi/fetcher/tmp/callmebot-1.1.2.tar.gz]
+[2023-06-09 09:27:22] INFO root fetch - processPackages [callmebot]: Remove: archive file [/home/abi/fetcher/tmp/callmebot-1.1.3.tar.gz]
+[2023-06-09 09:27:22] INFO root fetch - processPackages [callmebot]: Start processing: streamlit-nightly
+[2023-06-09 09:27:22] INFO root fetch - main [MainThread]: End processing [callmebot]: success
+[2023-06-09 09:27:23] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-09 09:27:23] INFO root fetch - processPackages [callmebot]: Start processing: py-Ayiin
+[2023-06-09 09:27:23] INFO root fetch - main [MainThread]: End processing [callmebot]: success
+[2023-06-09 09:27:23] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.4.dev9] Old Version: [0.4.4.dev8]
+[2023-06-09 09:27:23] INFO root fetch - processPackages [salure-helpers-profit]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_profit-1.3.2.tar.gz]
+[2023-06-09 09:27:23] INFO root fetch - processPackages [salure-helpers-profit]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_profit-1.3.3.tar.gz]
+[2023-06-09 09:27:23] INFO root fetch - processPackages [salure-helpers-profit]: Start processing: cmind
+[2023-06-09 09:27:23] INFO root fetch - main [MainThread]: End processing [salure-helpers-profit]: success
+[2023-06-09 09:27:23] INFO root fetch - processPackages [SecuriPy]: Remove: archive file [/home/abi/fetcher/tmp/SecuriPy-1.1.2.tar.gz]
+[2023-06-09 09:27:23] INFO root fetch - processPackages [SecuriPy]: Remove: archive file [/home/abi/fetcher/tmp/SecuriPy-1.1.4.tar.gz]
+[2023-06-09 09:27:23] INFO root fetch - processPackages [SecuriPy]: Start processing: imerit-ango
+[2023-06-09 09:27:23] INFO root fetch - main [MainThread]: End processing [SecuriPy]: success
+[2023-06-09 09:27:23] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/44/fd/00fe7ef4ab1a0969eb8cd5e47fea9e3f17f0ef1237bbd1505c97a9a4b0b7/py-Ayiin-0.4.4.dev8.tar.gz
+[2023-06-09 09:27:23] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-09 09:27:23] INFO root fetch - processPackages [cmind]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-09 09:27:23] WARNING root fetch - processPackages [imerit-ango]: Skipping, unable to determine old version
+[2023-06-09 09:27:23] INFO root fetch - main [MainThread]: End processing [imerit-ango] error
+[2023-06-09 09:27:23] INFO root fetch - main [MainThread]: End processing [SecuriPy]: success
+[2023-06-09 09:27:23] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/a8/a9/9f3a9694572196e70e9ba540e00d88c2d3b5944a2117d502feede8f8b138/py-Ayiin-0.4.4.dev9.tar.gz
+[2023-06-09 09:27:23] INFO root fetch - processPackages [cmind]: Downloading https://files.pythonhosted.org/packages/10/a8/d3794cf3af6a1b305d077d6cf274075c627f09aefa8ad57a5655448ed420/cmind-1.4.0.tar.gz
+[2023-06-09 09:27:23] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-09 09:27:23] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.4.dev8.tar.gz tmp/py-Ayiin-0.4.4.dev9.tar.gz --markdown 20230609/p/py-Ayiin/0.4.4.dev8-0.4.4.dev9/diff.md --exclude *.pyd
+[2023-06-09 09:27:23] INFO root fetch - processPackages [cmind]: Downloading https://files.pythonhosted.org/packages/16/b5/91349acf02c431253b790b8a304836513a2ff580688d7a84999064d3eec3/cmind-1.4.1.tar.gz
+[2023-06-09 09:27:23] INFO root fetch - processPackages [invenio-assets]: Remove: archive file [/home/abi/fetcher/tmp/invenio-assets-2.0.0.tar.gz]
+[2023-06-09 09:27:23] INFO root fetch - processPackages [invenio-assets]: Remove: archive file [/home/abi/fetcher/tmp/invenio-assets-3.0.0.tar.gz]
+[2023-06-09 09:27:23] INFO root fetch - main [MainThread]: End processing [invenio-assets]: success
+[2023-06-09 09:27:23] INFO root fetch - processPackages [cmind]: executing diffoscope
+[2023-06-09 09:27:23] INFO root fetch - processPackages [cmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmind-1.4.0.tar.gz tmp/cmind-1.4.1.tar.gz --markdown 20230609/c/cmind/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-09 09:27:23] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-09 09:27:24] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-09 09:27:24] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230609/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-09 09:27:24] INFO root fetch - processPackages [Orange3-Prototypes]: Remove: archive file [/home/abi/fetcher/tmp/Orange3-Prototypes-0.8.0.tar.gz]
+[2023-06-09 09:27:24] INFO root fetch - processPackages [Orange3-Prototypes]: Remove: archive file [/home/abi/fetcher/tmp/Orange3-Prototypes-0.9.0.tar.gz]
+[2023-06-09 09:27:24] INFO root fetch - main [MainThread]: End processing [Orange3-Prototypes]: success
+[2023-06-09 09:27:25] INFO root fetch - processPackages [cmind]: Remove: archive file [/home/abi/fetcher/tmp/cmind-1.4.0.tar.gz]
+[2023-06-09 09:27:25] INFO root fetch - processPackages [cmind]: Remove: archive file [/home/abi/fetcher/tmp/cmind-1.4.1.tar.gz]
+[2023-06-09 09:27:25] INFO root fetch - main [MainThread]: End processing [cmind]: success
+[2023-06-09 09:27:25] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev8.tar.gz]
+[2023-06-09 09:27:25] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.4.dev9.tar.gz]
+[2023-06-09 09:27:25] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-09 09:27:25] INFO root fetch - processPackages [koku-nise]: Remove: archive file [/home/abi/fetcher/tmp/koku-nise-4.2.9.tar.gz]
+[2023-06-09 09:27:25] INFO root fetch - processPackages [koku-nise]: Remove: archive file [/home/abi/fetcher/tmp/koku-nise-4.3.0.tar.gz]
+[2023-06-09 09:27:25] INFO root fetch - main [MainThread]: End processing [koku-nise]: success
+[2023-06-09 09:27:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-09 09:27:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-09 09:27:27] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-09 09:27:29] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-09 09:27:29] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-09 09:27:29] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-09 09:27:34] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-09 09:27:34] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-09 09:27:34] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-09 09:27:34] INFO root fetch - main [MainThread]: Store serial: [18437788]
