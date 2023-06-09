@@ -2593,3 +2593,124 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 02:25:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
 [2023-06-09 02:25:33] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
 [2023-06-09 02:25:33] INFO root fetch - main [MainThread]: Store serial: [18432644]
+[2023-06-09 02:30:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18432644]
+[2023-06-09 02:30:42] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-09 02:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.ecs-codedeploy
+[2023-06-09 02:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fintekkers-ledger-models
+[2023-06-09 02:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foveatorch
+[2023-06-09 02:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-24
+[2023-06-09 02:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-github
+[2023-06-09 02:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-docker-image-deployment
+[2023-06-09 02:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cbirds
+[2023-06-09 02:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cbirds
+[2023-06-09 02:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: VelesResearch
+[2023-06-09 02:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cbirds
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-09 02:30:42] INFO root fetch - processPackages [fintekkers-ledger-models]: New version: [0.1.49] Old Version: [0.1.48]
+[2023-06-09 02:30:42] WARNING root fetch - processPackages [foveatorch]: Skipping, unable to determine old version
+[2023-06-09 02:30:42] INFO root fetch - processPackages [foveatorch]: Start processing: cdk-certbot-dns-route53
+[2023-06-09 02:30:42] INFO root fetch - main [MainThread]: End processing [foveatorch] error
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cbirds]: New version: [0.1.0] Old Version: [0.0.12]
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cbirds]: New version: [0.1.0] Old Version: [0.0.12]
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cbirds]: New version: [0.1.0] Old Version: [0.0.12]
+[2023-06-09 02:30:42] WARNING root fetch - processPackages [VelesResearch]: Skipping, unable to determine old version
+[2023-06-09 02:30:42] INFO root fetch - processPackages [VelesResearch]: Start processing: cdk8s-image
+[2023-06-09 02:30:42] INFO root fetch - main [MainThread]: End processing [VelesResearch] error
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-09 02:30:42] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-09 02:30:42] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cbirds]: Downloading https://files.pythonhosted.org/packages/91/b6/7547483dd4a279c4373b519609e743a32a1422a1a704d05e5c3464f3ad35/cbirds-0.0.12.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cbirds]: Downloading https://files.pythonhosted.org/packages/91/b6/7547483dd4a279c4373b519609e743a32a1422a1a704d05e5c3464f3ad35/cbirds-0.0.12.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cbirds]: Downloading https://files.pythonhosted.org/packages/91/b6/7547483dd4a279c4373b519609e743a32a1422a1a704d05e5c3464f3ad35/cbirds-0.0.12.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/1a/c6/4df99bf09885b9140e4d391075b0a0603c2db6bfb800ae1fe726c33f09e8/fintekkers-ledger-models-0.1.48.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/c6/34/cef791c667d067a7923df4169adb57934467590c903d5f58c9e5be5a7759/cdklabs.ecs-codedeploy-0.0.98.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230609/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-06-09 02:30:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230609/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-09 02:30:43] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/74/0f/ec9c44912432a0053fa0886aebc353f68741243d2f8390d0ca506b95ba77/fintekkers-ledger-models-0.1.49.tar.gz
+[2023-06-09 02:30:43] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-06-09 02:30:43] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230609/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cbirds]: Downloading https://files.pythonhosted.org/packages/bb/0c/d9091590e29cde059974356021a88c97801aa1eca8bc5705a882032c3ccb/cbirds-0.1.0.tar.gz
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cbirds]: Downloading https://files.pythonhosted.org/packages/bb/0c/d9091590e29cde059974356021a88c97801aa1eca8bc5705a882032c3ccb/cbirds-0.1.0.tar.gz
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cbirds]: Downloading https://files.pythonhosted.org/packages/bb/0c/d9091590e29cde059974356021a88c97801aa1eca8bc5705a882032c3ccb/cbirds-0.1.0.tar.gz
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/32/d6/43cc31093e5335204bbb8629fe11154ff7ebd2508f020ee399403b503b2c/cdklabs.ecs-codedeploy-0.0.99.tar.gz
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230609/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-09 02:30:43] INFO root fetch - processPackages [fintekkers-ledger-models]: executing diffoscope
+[2023-06-09 02:30:43] INFO root fetch - processPackages [fintekkers-ledger-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintekkers-ledger-models-0.1.48.tar.gz tmp/fintekkers-ledger-models-0.1.49.tar.gz --markdown 20230609/f/fintekkers-ledger-models/0.1.48-0.1.49/diff.md --exclude *.pyd
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cbirds]: executing diffoscope
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cbirds]: executing diffoscope
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cbirds]: executing diffoscope
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cbirds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbirds-0.0.12.tar.gz tmp/cbirds-0.1.0.tar.gz --markdown 20230609/c/cbirds/0.0.12-0.1.0/diff.md --exclude *.pyd
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cbirds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbirds-0.0.12.tar.gz tmp/cbirds-0.1.0.tar.gz --markdown 20230609/c/cbirds/0.0.12-0.1.0/diff.md --exclude *.pyd
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cbirds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbirds-0.0.12.tar.gz tmp/cbirds-0.1.0.tar.gz --markdown 20230609/c/cbirds/0.0.12-0.1.0/diff.md --exclude *.pyd
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: executing diffoscope
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz --markdown 20230609/c/cdklabs.ecs-codedeploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 02:30:43] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230609/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-09 02:30:44] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-06-09 02:30:44] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-06-09 02:30:44] INFO root fetch - processPackages [pepperize.cdk-github]: Start processing: django-pgtransaction
+[2023-06-09 02:30:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-06-09 02:30:44] INFO root fetch - processPackages [django-pgtransaction]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cbirds]: Remove: archive file [/home/abi/fetcher/tmp/cbirds-0.0.12.tar.gz]
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cbirds]: Remove: archive file [/home/abi/fetcher/tmp/cbirds-0.1.0.tar.gz]
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cbirds]: Start processing: couchbase
+[2023-06-09 02:30:44] INFO root fetch - main [MainThread]: End processing [cbirds]: success
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: cdk-tweet-queue
+[2023-06-09 02:30:44] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-06-09 02:30:44] INFO root fetch - processPackages [couchbase]: New version: [4.1.4] Old Version: [4.1.3]
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz]
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz]
+[2023-06-09 02:30:44] INFO root fetch - main [MainThread]: End processing [cdklabs.ecs-codedeploy]: success
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-06-09 02:30:44] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-06-09 02:30:44] INFO root fetch - processPackages [django-pgtransaction]: Downloading https://files.pythonhosted.org/packages/71/3e/0e4e2cd856581cedcc16a074575c3c4261d7143ab90bcf8f2ba912b776b8/django-pgtransaction-1.0.0.tar.gz
+[2023-06-09 02:30:44] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2023-06-09 02:30:44] INFO root fetch - main [MainThread]: End processing [cbirds]: success
+[2023-06-09 02:30:45] INFO root fetch - main [MainThread]: End processing [cbirds]: success
+[2023-06-09 02:30:45] INFO root fetch - processPackages [couchbase]: Downloading https://files.pythonhosted.org/packages/65/16/07a5cc49c60a32c5477bbb1c440856aa02205083aa8961f263eaf2c9f4ad/couchbase-4.1.3.tar.gz
+[2023-06-09 02:30:45] INFO root fetch - processPackages [django-pgtransaction]: Downloading https://files.pythonhosted.org/packages/26/15/3c3241ca44b511948762ba27c99a8d408c7cfb967d1edb83e35040d1ac74/django_pgtransaction-1.1.0.tar.gz
+[2023-06-09 02:30:45] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2023-06-09 02:30:45] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-09 02:30:45] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-09 02:30:45] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-09 02:30:45] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-06-09 02:30:45] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230609/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-09 02:30:45] INFO root fetch - processPackages [django-pgtransaction]: executing diffoscope
+[2023-06-09 02:30:45] INFO root fetch - processPackages [django-pgtransaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pgtransaction-1.0.0.tar.gz tmp/django_pgtransaction-1.1.0.tar.gz --markdown 20230609/d/django-pgtransaction/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-09 02:30:45] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.48.tar.gz]
+[2023-06-09 02:30:45] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.49.tar.gz]
+[2023-06-09 02:30:45] INFO root fetch - main [MainThread]: End processing [fintekkers-ledger-models]: success
+[2023-06-09 02:30:45] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.98.tar.gz]
+[2023-06-09 02:30:45] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
+[2023-06-09 02:30:45] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-06-09 02:30:46] INFO root fetch - processPackages [django-pgtransaction]: Remove: archive file [/home/abi/fetcher/tmp/django-pgtransaction-1.0.0.tar.gz]
+[2023-06-09 02:30:46] INFO root fetch - processPackages [django-pgtransaction]: Remove: archive file [/home/abi/fetcher/tmp/django_pgtransaction-1.1.0.tar.gz]
+[2023-06-09 02:30:46] INFO root fetch - main [MainThread]: End processing [django-pgtransaction]: success
+[2023-06-09 02:30:46] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2023-06-09 02:30:46] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2023-06-09 02:30:46] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-06-09 02:30:47] INFO root fetch - processPackages [couchbase]: Downloading https://files.pythonhosted.org/packages/22/f9/74dba20c3c6f1e6c75957d00fd6f41fca47a67a39d5e264b9c410a3ad117/couchbase-4.1.4.tar.gz
+[2023-06-09 02:30:47] INFO root fetch - processPackages [couchbase]: executing diffoscope
+[2023-06-09 02:30:47] INFO root fetch - processPackages [couchbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchbase-4.1.3.tar.gz tmp/couchbase-4.1.4.tar.gz --markdown 20230609/c/couchbase/4.1.3-4.1.4/diff.md --exclude *.pyd
+[2023-06-09 02:33:47] ERROR root fetch - processPackages [couchbase]: Timeout during execution of pkgdiff
+[2023-06-09 02:33:47] INFO root fetch - main [MainThread]: End processing [couchbase] error
+[2023-06-09 02:33:47] INFO root fetch - main [MainThread]: Store serial: [18432699]
