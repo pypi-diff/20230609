@@ -11574,3 +11574,92 @@ AssertionError: tmp/odoo_addon_account_payment_term_extension-16.0.1.0.0.7-py3-n
 [2023-06-09 05:17:57] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.0.9.tar.gz]
 [2023-06-09 05:17:57] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
 [2023-06-09 05:17:57] INFO root fetch - main [MainThread]: Store serial: [18435694]
+[2023-06-09 05:23:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18435694]
+[2023-06-09 05:23:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-09 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: carpet-concentrations
+[2023-06-09 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngql-gen
+[2023-06-09 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyatp-buildkit
+[2023-06-09 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wxpay-comm
+[2023-06-09 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-09 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matgl
+[2023-06-09 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyproj
+[2023-06-09 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addons-oca-e-commerce
+[2023-06-09 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zipline-tej
+[2023-06-09 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-cdktf-provider-newrelic
+[2023-06-09 05:23:06] INFO root fetch - processPackages [pyatp-buildkit]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-09 05:23:06] WARNING root fetch - processPackages [wxpay-comm]: Skipping, unable to determine old version
+[2023-06-09 05:23:06] INFO root fetch - processPackages [wxpay-comm]: Start processing: py-gmp
+[2023-06-09 05:23:06] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: New version: [14.0.20230608.0] Old Version: [14.0.20230511.0]
+[2023-06-09 05:23:06] INFO root fetch - main [MainThread]: End processing [wxpay-comm] error
+[2023-06-09 05:23:06] INFO root fetch - processPackages [matgl]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-09 05:23:06] WARNING root fetch - processPackages [ngql-gen]: Skipping, unable to determine old version
+[2023-06-09 05:23:06] INFO root fetch - processPackages [ngql-gen]: Start processing: sourcery-nightly
+[2023-06-09 05:23:06] INFO root fetch - main [MainThread]: End processing [ngql-gen] error
+[2023-06-09 05:23:06] INFO root fetch - processPackages [yplib]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-09 05:23:06] INFO root fetch - processPackages [carpet-concentrations]: New version: [0.4.2] Old Version: [0.4.0]
+[2023-06-09 05:23:06] INFO root fetch - processPackages [pyproj]: New version: [3.6.0rc0] Old Version: [3.5.0rc0]
+[2023-06-09 05:23:06] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-09 05:23:06] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.3.1b9] Old Version: [1.3.1b8]
+[2023-06-09 05:23:06] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/3e/36/f709a8466c5b5305db78498369a8713f13800d60804a86c9d23a80cbc65d/yplib-0.1.5.tar.gz
+[2023-06-09 05:23:06] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-09 05:23:06] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/29/18/ad9b7cf71f4ed9e14c12d1e096d050d07b94bd4dfb90329e967254028ab4/sourcery_nightly-1.3.1b8-py2.py3-none-win_amd64.whl
+[2023-06-09 05:23:06] WARNING root fetch - processPackages [py-gmp]: Skipping, unable to determine old version
+[2023-06-09 05:23:06] INFO root fetch - main [MainThread]: End processing [py-gmp] error
+[2023-06-09 05:23:06] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: New version: [7.0.6] Old Version: [7.0.5]
+[2023-06-09 05:23:06] INFO root fetch - processPackages [pyatp-buildkit]: Downloading https://files.pythonhosted.org/packages/03/58/7fa338737d2a6d96f85dc4c49695486b53d7a7d4adc3b3bba7c2240899d7/pyatp_buildkit-1.1.5.tar.gz
+[2023-06-09 05:23:06] INFO root fetch - processPackages [carpet-concentrations]: Downloading https://files.pythonhosted.org/packages/a2/fa/cb8ccfbed5c7ab0dc6fe6935030f78a74962a788e61efa11a553ab82b7a0/carpet_concentrations-0.4.0.tar.gz
+[2023-06-09 05:23:06] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/83/ed/7bf6de07f8ce7bbd1a477b42eed0634ee1464513bdbc1b55ecff2764b5d7/odoo14_addons_oca_e_commerce-14.0.20230511.0-py3-none-any.whl
+[2023-06-09 05:23:06] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58876457>=10485760
+[2023-06-09 05:23:06] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-06-09 05:23:06] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/f7/f4/ba4f8f388af8dc79defe796714198de64ff1daaaaa51c996aefd1e1d9efa/matgl-0.4.0.tar.gz
+[2023-06-09 05:23:07] INFO root fetch - processPackages [pyproj]: Downloading https://files.pythonhosted.org/packages/10/ce/9235b503514543a2953d58aa6ebdbe4e03d97f5c25b07f8a8fe10f466332/pyproj-3.5.0rc0.tar.gz
+[2023-06-09 05:23:07] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-09 05:23:07] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/4c/d2/dcb63261612e1dcd4a8bc3cc73b76db30d8a9ca57248ff6f1735e4b812f2/yplib-0.1.6.tar.gz
+[2023-06-09 05:23:07] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/80/d6/adceff2261bcf9b87d092d89e3194eafd83259eb01b0a183e390a8ad1ab2/cdktf-cdktf-provider-newrelic-7.0.5.tar.gz
+[2023-06-09 05:23:07] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-09 05:23:07] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230609/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-09 05:23:07] INFO root fetch - processPackages [carpet-concentrations]: Downloading https://files.pythonhosted.org/packages/ab/78/34e426bfabe5c24fad98865be275b2ec96ceb4e79c82907eba85ce97f4bb/carpet_concentrations-0.4.2.tar.gz
+[2023-06-09 05:23:07] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/12/b8/8cefbb472b6fd1ce8bec66df533fa56a71e540062daaed88ada1a52036e3/odoo14_addons_oca_e_commerce-14.0.20230608.0-py3-none-any.whl
+[2023-06-09 05:23:07] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/93/5f/46726e010a0f7a7c70377cb9a76b7981ee375a96ff39618bbca2a57f3d03/matgl-0.5.0.tar.gz
+[2023-06-09 05:23:07] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-09 05:23:07] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.1.5.tar.gz tmp/yplib-0.1.6.tar.gz --markdown 20230609/y/yplib/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-09 05:23:07] INFO root fetch - processPackages [pyatp-buildkit]: Downloading https://files.pythonhosted.org/packages/94/9e/04b0dc86f3262c2ee204090f41055f14d4d75ff3732ca3954b30b1a76680/pyatp_buildkit-1.1.6.tar.gz
+[2023-06-09 05:23:07] INFO root fetch - processPackages [pyproj]: Downloading https://files.pythonhosted.org/packages/00/4f/f672812136b07bb624a2c23dde631cbbcf0aab33c7231f00017286c14bc9/pyproj-3.6.0rc0.tar.gz
+[2023-06-09 05:23:07] INFO root fetch - processPackages [carpet-concentrations]: executing diffoscope
+[2023-06-09 05:23:07] INFO root fetch - processPackages [carpet-concentrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carpet_concentrations-0.4.0.tar.gz tmp/carpet_concentrations-0.4.2.tar.gz --markdown 20230609/c/carpet-concentrations/0.4.0-0.4.2/diff.md --exclude *.pyd
+[2023-06-09 05:23:07] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: executing diffoscope
+[2023-06-09 05:23:07] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_e_commerce-14.0.20230511.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_e_commerce-14.0.20230608.0-py3-none-any.whl.zip --markdown 20230609/o/odoo14-addons-oca-e-commerce/14.0.20230511.0-14.0.20230608.0/diff.md --exclude *.pyd
+[2023-06-09 05:23:07] INFO root fetch - processPackages [matgl]: executing diffoscope
+[2023-06-09 05:23:07] INFO root fetch - processPackages [matgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matgl-0.4.0.tar.gz tmp/matgl-0.5.0.tar.gz --markdown 20230609/m/matgl/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-09 05:23:07] INFO root fetch - processPackages [pyproj]: executing diffoscope
+[2023-06-09 05:23:07] INFO root fetch - processPackages [pyproj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproj-3.5.0rc0.tar.gz tmp/pyproj-3.6.0rc0.tar.gz --markdown 20230609/p/pyproj/3.5.0rc0-3.6.0rc0/diff.md --exclude *.pyd
+[2023-06-09 05:23:07] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/34/b0/97ceb707f49ea7afe3ea40be7bea8d80941608c5f8b48fac605a7016c018/cdktf-cdktf-provider-newrelic-7.0.6.tar.gz
+[2023-06-09 05:23:07] INFO root fetch - processPackages [pyatp-buildkit]: executing diffoscope
+[2023-06-09 05:23:07] INFO root fetch - processPackages [pyatp-buildkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatp_buildkit-1.1.5.tar.gz tmp/pyatp_buildkit-1.1.6.tar.gz --markdown 20230609/p/pyatp-buildkit/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-09 05:23:08] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: executing diffoscope
+[2023-06-09 05:23:08] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-newrelic-7.0.5.tar.gz tmp/cdktf-cdktf-provider-newrelic-7.0.6.tar.gz --markdown 20230609/c/cdktf-cdktf-provider-newrelic/7.0.5-7.0.6/diff.md --exclude *.pyd
+[2023-06-09 05:23:08] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.1.5.tar.gz]
+[2023-06-09 05:23:08] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.1.6.tar.gz]
+[2023-06-09 05:23:08] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-09 05:23:08] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_e_commerce-14.0.20230511.0-py3-none-any.whl.zip]
+[2023-06-09 05:23:08] INFO root fetch - processPackages [odoo14-addons-oca-e-commerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_e_commerce-14.0.20230608.0-py3-none-any.whl.zip]
+[2023-06-09 05:23:08] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-e-commerce]: success
+[2023-06-09 05:23:08] INFO root fetch - processPackages [carpet-concentrations]: Remove: archive file [/home/abi/fetcher/tmp/carpet_concentrations-0.4.0.tar.gz]
+[2023-06-09 05:23:08] INFO root fetch - processPackages [carpet-concentrations]: Remove: archive file [/home/abi/fetcher/tmp/carpet_concentrations-0.4.2.tar.gz]
+[2023-06-09 05:23:08] INFO root fetch - main [MainThread]: End processing [carpet-concentrations]: success
+[2023-06-09 05:23:09] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.4.0.tar.gz]
+[2023-06-09 05:23:09] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.5.0.tar.gz]
+[2023-06-09 05:23:09] INFO root fetch - main [MainThread]: End processing [matgl]: success
+[2023-06-09 05:23:09] INFO root fetch - processPackages [pyatp-buildkit]: Remove: archive file [/home/abi/fetcher/tmp/pyatp_buildkit-1.1.5.tar.gz]
+[2023-06-09 05:23:09] INFO root fetch - processPackages [pyatp-buildkit]: Remove: archive file [/home/abi/fetcher/tmp/pyatp_buildkit-1.1.6.tar.gz]
+[2023-06-09 05:23:09] INFO root fetch - main [MainThread]: End processing [pyatp-buildkit]: success
+[2023-06-09 05:23:09] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-09 05:23:09] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-09 05:23:09] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-09 05:23:12] INFO root fetch - processPackages [pyproj]: Remove: archive file [/home/abi/fetcher/tmp/pyproj-3.5.0rc0.tar.gz]
+[2023-06-09 05:23:12] INFO root fetch - processPackages [pyproj]: Remove: archive file [/home/abi/fetcher/tmp/pyproj-3.6.0rc0.tar.gz]
+[2023-06-09 05:23:12] INFO root fetch - main [MainThread]: End processing [pyproj]: success
+[2023-06-09 05:23:15] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-7.0.5.tar.gz]
+[2023-06-09 05:23:15] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-7.0.6.tar.gz]
+[2023-06-09 05:23:15] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
+[2023-06-09 05:23:15] INFO root fetch - main [MainThread]: Store serial: [18435766]
