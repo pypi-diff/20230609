@@ -15278,3 +15278,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-09 07:29:29] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_cycle_count-12.0.1.1.1.99.dev9-py3-none-any.whl.zip]
 [2023-06-09 07:29:29] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-cycle-count]: success
 [2023-06-09 07:29:29] INFO root fetch - main [MainThread]: Store serial: [18436828]
+[2023-06-09 07:34:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18436828]
+[2023-06-09 07:34:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-09 07:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: here-search-demo
+[2023-06-09 07:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: element-calcium-imaging
+[2023-06-09 07:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpa-tools
+[2023-06-09 07:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coola
+[2023-06-09 07:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo10-addon-stock-move-backdating
+[2023-06-09 07:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DendroPy
+[2023-06-09 07:34:39] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: New version: [10.0.1.0.0.99.dev9] Old Version: [10.0.1.0.0.99.dev8]
+[2023-06-09 07:34:39] INFO root fetch - processPackages [cpa-tools]: New version: [0.5] Old Version: [0.3.4]
+[2023-06-09 07:34:39] INFO root fetch - processPackages [coola]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-09 07:34:39] INFO root fetch - processPackages [here-search-demo]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-06-09 07:34:39] INFO root fetch - processPackages [element-calcium-imaging]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-09 07:34:39] INFO root fetch - processPackages [DendroPy]: New version: [4.6.1] Old Version: [4.6.0]
+[2023-06-09 07:34:39] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: Downloading https://files.pythonhosted.org/packages/5b/73/d8df407801fca329f3e01101fbab4f7fa3a41b365ceee72dab798f589937/odoo10_addon_stock_move_backdating-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-09 07:34:39] INFO root fetch - processPackages [element-calcium-imaging]: Downloading https://files.pythonhosted.org/packages/2a/bd/6d436dc696a31e1ab0b93fada1c36adbe9fd41965986758515ac50f80021/element-calcium-imaging-0.7.2.tar.gz
+[2023-06-09 07:34:39] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/bb/00/6da1753f2cea5141a81364e8821f0b13d105ba050820f8b24af4ddc3dd36/coola-0.0.7.tar.gz
+[2023-06-09 07:34:39] INFO root fetch - processPackages [cpa-tools]: Downloading https://files.pythonhosted.org/packages/7a/37/5802e9fca0cac1a7271df816263f14a0edc63e35061124ba2d2a183c1bd1/cpa-tools-0.3.4.tar.gz
+[2023-06-09 07:34:39] INFO root fetch - processPackages [DendroPy]: Downloading https://files.pythonhosted.org/packages/8a/88/864aa93d31dd210e5b9bd79cfb3c9ddaf0bfab9b70dd212fb8247ab72f46/DendroPy-4.6.0.tar.gz
+[2023-06-09 07:34:39] INFO root fetch - processPackages [here-search-demo]: Downloading https://files.pythonhosted.org/packages/49/0b/b3db617c3e64d2837acfe91194de74256b0780016b4054eb602071e62998/here-search-demo-0.8.5.tar.gz
+[2023-06-09 07:34:39] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: Downloading https://files.pythonhosted.org/packages/e0/8d/b896abec49a37af01ee07eb4bb1cc99052f6e9053b985215085aaa98f804/odoo10_addon_stock_move_backdating-10.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-09 07:34:39] INFO root fetch - processPackages [element-calcium-imaging]: Downloading https://files.pythonhosted.org/packages/68/23/d3b2aaec1a802de8ae037e57bdcc7beaaa4826c591b03bf3b7c4170b9368/element-calcium-imaging-0.7.3.tar.gz
+[2023-06-09 07:34:39] WARNING root fetch - processPackages [DendroPy]: Skipping package: exceeds size limit 15200578>=10485760
+[2023-06-09 07:34:39] INFO root fetch - processPackages [element-calcium-imaging]: executing diffoscope
+[2023-06-09 07:34:39] INFO root fetch - processPackages [element-calcium-imaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-calcium-imaging-0.7.2.tar.gz tmp/element-calcium-imaging-0.7.3.tar.gz --markdown 20230609/e/element-calcium-imaging/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-09 07:34:39] INFO root fetch - main [MainThread]: End processing [DendroPy] error
+[2023-06-09 07:34:39] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/ca/0c/e47f7fdc6f34e79ff4ab3b21c0ef7b7f32f62be0255411f914475666fb8c/coola-0.0.8.tar.gz
+[2023-06-09 07:34:39] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: executing diffoscope
+[2023-06-09 07:34:39] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_stock_move_backdating-10.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_stock_move_backdating-10.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230609/o/odoo10-addon-stock-move-backdating/10.0.1.0.0.99.dev8-10.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-09 07:34:39] INFO root fetch - processPackages [coola]: executing diffoscope
+[2023-06-09 07:34:39] INFO root fetch - processPackages [coola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coola-0.0.7.tar.gz tmp/coola-0.0.8.tar.gz --markdown 20230609/c/coola/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-09 07:34:40] INFO root fetch - processPackages [cpa-tools]: Downloading https://files.pythonhosted.org/packages/8a/4e/836087c58d396fd1673c95e30af392bff619a13dc9c4af4d33355d4601d6/cpa-tools-0.5.tar.gz
+[2023-06-09 07:34:40] INFO root fetch - processPackages [cpa-tools]: executing diffoscope
+[2023-06-09 07:34:40] INFO root fetch - processPackages [cpa-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpa-tools-0.3.4.tar.gz tmp/cpa-tools-0.5.tar.gz --markdown 20230609/c/cpa-tools/0.3.4-0.5/diff.md --exclude *.pyd
+[2023-06-09 07:34:40] INFO root fetch - processPackages [here-search-demo]: Downloading https://files.pythonhosted.org/packages/d4/b9/893f7b302268f6bb2e501d404e30e0eb972e2a298f4733ec8e7eeb298546/here-search-demo-0.8.6.tar.gz
+[2023-06-09 07:34:40] INFO root fetch - processPackages [here-search-demo]: executing diffoscope
+[2023-06-09 07:34:40] INFO root fetch - processPackages [here-search-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/here-search-demo-0.8.5.tar.gz tmp/here-search-demo-0.8.6.tar.gz --markdown 20230609/h/here-search-demo/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-06-09 07:34:40] INFO root fetch - processPackages [element-calcium-imaging]: Remove: archive file [/home/abi/fetcher/tmp/element-calcium-imaging-0.7.2.tar.gz]
+[2023-06-09 07:34:40] INFO root fetch - processPackages [element-calcium-imaging]: Remove: archive file [/home/abi/fetcher/tmp/element-calcium-imaging-0.7.3.tar.gz]
+[2023-06-09 07:34:40] INFO root fetch - main [MainThread]: End processing [element-calcium-imaging]: success
+[2023-06-09 07:34:41] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.7.tar.gz]
+[2023-06-09 07:34:41] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.8.tar.gz]
+[2023-06-09 07:34:41] INFO root fetch - main [MainThread]: End processing [coola]: success
+[2023-06-09 07:34:41] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_stock_move_backdating-10.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-09 07:34:41] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_stock_move_backdating-10.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-09 07:34:41] INFO root fetch - main [MainThread]: End processing [odoo10-addon-stock-move-backdating]: success
+[2023-06-09 07:34:41] INFO root fetch - processPackages [cpa-tools]: Remove: archive file [/home/abi/fetcher/tmp/cpa-tools-0.3.4.tar.gz]
+[2023-06-09 07:34:41] INFO root fetch - processPackages [cpa-tools]: Remove: archive file [/home/abi/fetcher/tmp/cpa-tools-0.5.tar.gz]
+[2023-06-09 07:34:41] INFO root fetch - main [MainThread]: End processing [cpa-tools]: success
+[2023-06-09 07:34:41] INFO root fetch - processPackages [here-search-demo]: Remove: archive file [/home/abi/fetcher/tmp/here-search-demo-0.8.5.tar.gz]
+[2023-06-09 07:34:41] INFO root fetch - processPackages [here-search-demo]: Remove: archive file [/home/abi/fetcher/tmp/here-search-demo-0.8.6.tar.gz]
+[2023-06-09 07:34:41] INFO root fetch - main [MainThread]: End processing [here-search-demo]: success
+[2023-06-09 07:34:41] INFO root fetch - main [MainThread]: Store serial: [18436845]
