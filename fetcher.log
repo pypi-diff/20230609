@@ -19400,3 +19400,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-09 10:45:57] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.9.tar.gz]
 [2023-06-09 10:45:57] INFO root fetch - main [MainThread]: End processing [a2]: success
 [2023-06-09 10:45:57] INFO root fetch - main [MainThread]: Store serial: [18438484]
+[2023-06-09 10:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18438484]
+[2023-06-09 10:51:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-09 10:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bicleaner-ai
+[2023-06-09 10:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: steam-sdk
+[2023-06-09 10:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datalad-next
+[2023-06-09 10:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vnpy-xex
+[2023-06-09 10:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cic-contracts
+[2023-06-09 10:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kalm
+[2023-06-09 10:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bert-pruners
+[2023-06-09 10:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odd-collector-sdk
+[2023-06-09 10:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multireg
+[2023-06-09 10:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lazysdk
+[2023-06-09 10:51:08] INFO root fetch - processPackages [datalad-next]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-06-09 10:51:08] INFO root fetch - processPackages [kalm]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-09 10:51:08] INFO root fetch - processPackages [multireg]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-09 10:51:08] INFO root fetch - processPackages [bert-pruners]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-09 10:51:08] INFO root fetch - processPackages [vnpy-xex]: New version: [2023.6.9.3] Old Version: [2023.6.9.2]
+[2023-06-09 10:51:08] INFO root fetch - processPackages [bicleaner-ai]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-06-09 10:51:08] INFO root fetch - processPackages [cic-contracts]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-09 10:51:08] INFO root fetch - processPackages [odd-collector-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-09 10:51:08] INFO root fetch - processPackages [lazysdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-09 10:51:08] INFO root fetch - processPackages [steam-sdk]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-09 10:51:08] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/0e/6c/42641ea4d4b9a047c739160b3a0637d5868ed1e6503e0e320a0ef8126774/multireg-0.0.1.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/08/d6/afbd93ab17a860658e3f78d89626ca0ad442f18d7058216f69066b2b251d/kalm-0.6.8.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/7b/ba/d37afe28ebd64990410121df53ee14193893c427c007271e14d0b9766fca/vnpy_xex-2023.6.9.2.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f3/ee/21230318a80577b7a92a016e6f1cf516735d553ff6164c13ff461de986aa/kalm-0.6.9.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [cic-contracts]: Downloading https://files.pythonhosted.org/packages/fd/3f/8032651f2ff827e728cc99e89d6a7b416184b484cb29f3796966bfbd348e/cic-contracts-0.3.7.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/60/2c/3c21c0815edf029e79c95d2f5fccd2a2f589a21e648b6c3ea6a2a61d7c1e/steam-sdk-2023.6.8.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [bert-pruners]: Downloading https://files.pythonhosted.org/packages/98/d1/992f13994825293caac3b085653178166b8e7d803ec6ec323e687a6079a0/bert_pruners-0.0.4.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [datalad-next]: Downloading https://files.pythonhosted.org/packages/8e/75/fe6391f67d0f416a417318defec9efdec3c98caca9d37e2b4a9f9d04dcd3/datalad_next-1.0.0b2.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-09 10:51:08] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.8.tar.gz tmp/kalm-0.6.9.tar.gz --markdown 20230609/k/kalm/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-09 10:51:08] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ba/ce865f52258c39c0b1d62ee3998decaf12b77f41fc74cc29f739aef2418a/odd-collector-sdk-0.3.8.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/be/ed/56327b376d6bc1cd1a22cee2a515d1d2f03a85e47d0eb12e51f0e5f2661a/multireg-0.0.2.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/10/6b/df1f7aba05b8d9e83c53a3f96d27f0fb9e01d47756b18658b8047ae4495c/vnpy_xex-2023.6.9.3.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [multireg]: executing diffoscope
+[2023-06-09 10:51:08] INFO root fetch - processPackages [multireg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multireg-0.0.1.tar.gz tmp/multireg-0.0.2.tar.gz --markdown 20230609/m/multireg/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-09 10:51:08] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/3a/c1/d982d5c32e04028ee9e3384b38641d3e3d6ec0b2854e4e037a8e683b61a8/lazysdk-0.1.7.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [bicleaner-ai]: Downloading https://files.pythonhosted.org/packages/76/2c/31792cb4a109a50d6c407682e773fe8bbda597f5e633a5bdbde52ff61c0c/bicleaner-ai-2.2.1.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [vnpy-xex]: executing diffoscope
+[2023-06-09 10:51:08] INFO root fetch - processPackages [vnpy-xex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_xex-2023.6.9.2.tar.gz tmp/vnpy_xex-2023.6.9.3.tar.gz --markdown 20230609/v/vnpy-xex/2023.6.9.2-2023.6.9.3/diff.md --exclude *.pyd
+[2023-06-09 10:51:08] INFO root fetch - processPackages [bert-pruners]: Downloading https://files.pythonhosted.org/packages/aa/49/d0c0edba8837dad013ed5b817edbebf6fd9e99d7e8a2cf974f3913db1648/bert_pruners-0.0.5.tar.gz
+[2023-06-09 10:51:08] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/cf/10/2b634f09e25cfaaa5b5c4ea8889e69240ff6c0ad61d248fcbfd14e6aa988/steam-sdk-2023.6.9.tar.gz
+[2023-06-09 10:51:09] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/b7/09/a072e072a86ba00164c8e4095f66211981ce5e1276abb17076ff23854b5d/odd_collector_sdk-0.3.9.tar.gz
+[2023-06-09 10:51:09] INFO root fetch - processPackages [bert-pruners]: executing diffoscope
+[2023-06-09 10:51:09] INFO root fetch - processPackages [bert-pruners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert_pruners-0.0.4.tar.gz tmp/bert_pruners-0.0.5.tar.gz --markdown 20230609/b/bert-pruners/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-09 10:51:09] INFO root fetch - processPackages [cic-contracts]: Downloading https://files.pythonhosted.org/packages/30/aa/46eb8b8049b657bad4e9f80c8369e2459f2437a68d04664b52e912fa98ce/cic-contracts-0.3.8.tar.gz
+[2023-06-09 10:51:09] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-06-09 10:51:09] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.6.8.tar.gz tmp/steam-sdk-2023.6.9.tar.gz --markdown 20230609/s/steam-sdk/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-09 10:51:09] INFO root fetch - processPackages [datalad-next]: Downloading https://files.pythonhosted.org/packages/b9/53/4ed3747c78f8b81b6af30abfc42086d9bfe9a71d0f51554ae47d2f935397/datalad_next-1.0.0b3.tar.gz
+[2023-06-09 10:51:09] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-06-09 10:51:09] INFO root fetch - processPackages [cic-contracts]: executing diffoscope
+[2023-06-09 10:51:09] INFO root fetch - processPackages [cic-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cic-contracts-0.3.7.tar.gz tmp/cic-contracts-0.3.8.tar.gz --markdown 20230609/c/cic-contracts/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-09 10:51:09] INFO root fetch - processPackages [odd-collector-sdk]: executing diffoscope
+[2023-06-09 10:51:09] INFO root fetch - processPackages [odd-collector-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-collector-sdk-0.3.8.tar.gz tmp/odd_collector_sdk-0.3.9.tar.gz --markdown 20230609/o/odd-collector-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-09 10:51:09] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-06-09 10:51:09] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.7.tar.gz tmp/lazysdk-0.1.8.tar.gz --markdown 20230609/l/lazysdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-09 10:51:09] INFO root fetch - processPackages [bicleaner-ai]: Downloading https://files.pythonhosted.org/packages/ed/bb/5facfa311de13da4360c12853543715252d637471364a01c8c60b58c4b15/bicleaner-ai-2.2.2.tar.gz
+[2023-06-09 10:51:09] INFO root fetch - processPackages [datalad-next]: executing diffoscope
+[2023-06-09 10:51:09] INFO root fetch - processPackages [datalad-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalad_next-1.0.0b2.tar.gz tmp/datalad_next-1.0.0b3.tar.gz --markdown 20230609/d/datalad-next/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-06-09 10:51:09] INFO root fetch - processPackages [bicleaner-ai]: executing diffoscope
+[2023-06-09 10:51:09] INFO root fetch - processPackages [bicleaner-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bicleaner-ai-2.2.1.tar.gz tmp/bicleaner-ai-2.2.2.tar.gz --markdown 20230609/b/bicleaner-ai/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-06-09 10:51:10] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.8.tar.gz]
+[2023-06-09 10:51:10] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.9.tar.gz]
+[2023-06-09 10:51:10] INFO root fetch - processPackages [kalm]: Start processing: rasa
+[2023-06-09 10:51:10] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-09 10:51:10] INFO root fetch - processPackages [rasa]: New version: [3.6.0a1] Old Version: [3.5.9]
+[2023-06-09 10:51:10] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/55/e6/1b1f88726fc2b0a0f048dfbf844496ea469a3ab35729a03e0959e94afcca/rasa-3.5.9.tar.gz
+[2023-06-09 10:51:10] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.9.2.tar.gz]
+[2023-06-09 10:51:10] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.9.3.tar.gz]
+[2023-06-09 10:51:10] INFO root fetch - processPackages [vnpy-xex]: Start processing: here-geocoding
+[2023-06-09 10:51:10] INFO root fetch - main [MainThread]: End processing [vnpy-xex]: success
+[2023-06-09 10:51:10] INFO root fetch - processPackages [here-geocoding]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-09 10:51:10] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.1.tar.gz]
+[2023-06-09 10:51:10] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.2.tar.gz]
+[2023-06-09 10:51:10] INFO root fetch - main [MainThread]: End processing [multireg]: success
+[2023-06-09 10:51:10] INFO root fetch - processPackages [here-geocoding]: Downloading https://files.pythonhosted.org/packages/af/9d/4876af3797846c6578b769502e3ca43f0ba7b267ec66ac977c7d6ece55ea/here_geocoding-0.1.0.tar.gz
+[2023-06-09 10:51:10] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/da/45/de2673626a6ca5377038aa29335660eb7e3c9f18a0f4e84fe43258886b83/rasa-3.6.0a1.tar.gz
+[2023-06-09 10:51:10] INFO root fetch - processPackages [bert-pruners]: Remove: archive file [/home/abi/fetcher/tmp/bert_pruners-0.0.4.tar.gz]
+[2023-06-09 10:51:10] INFO root fetch - processPackages [bert-pruners]: Remove: archive file [/home/abi/fetcher/tmp/bert_pruners-0.0.5.tar.gz]
+[2023-06-09 10:51:10] INFO root fetch - main [MainThread]: End processing [bert-pruners]: success
+[2023-06-09 10:51:10] INFO root fetch - processPackages [rasa]: executing diffoscope
+[2023-06-09 10:51:10] INFO root fetch - processPackages [rasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa-3.5.9.tar.gz tmp/rasa-3.6.0a1.tar.gz --markdown 20230609/r/rasa/3.5.9-3.6.0a1/diff.md --exclude *.pyd
+[2023-06-09 10:51:10] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd-collector-sdk-0.3.8.tar.gz]
+[2023-06-09 10:51:10] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd_collector_sdk-0.3.9.tar.gz]
+[2023-06-09 10:51:10] INFO root fetch - main [MainThread]: End processing [odd-collector-sdk]: success
+[2023-06-09 10:51:10] INFO root fetch - processPackages [here-geocoding]: Downloading https://files.pythonhosted.org/packages/f8/5f/a00498136eaebf031e6013ac9b6b63b850fcd719ac8cf67a9ef9efdd1cc1/here_geocoding-0.2.0.tar.gz
+[2023-06-09 10:51:10] INFO root fetch - processPackages [here-geocoding]: executing diffoscope
+[2023-06-09 10:51:10] INFO root fetch - processPackages [here-geocoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230609:/home/abi/fetcher/20230609:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/here_geocoding-0.1.0.tar.gz tmp/here_geocoding-0.2.0.tar.gz --markdown 20230609/h/here-geocoding/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-09 10:51:11] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.7.tar.gz]
+[2023-06-09 10:51:11] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-06-09 10:51:11] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-06-09 10:51:11] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.8.tar.gz]
+[2023-06-09 10:51:11] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.9.tar.gz]
+[2023-06-09 10:51:11] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-06-09 10:51:11] INFO root fetch - processPackages [here-geocoding]: Remove: archive file [/home/abi/fetcher/tmp/here_geocoding-0.1.0.tar.gz]
+[2023-06-09 10:51:11] INFO root fetch - processPackages [here-geocoding]: Remove: archive file [/home/abi/fetcher/tmp/here_geocoding-0.2.0.tar.gz]
+[2023-06-09 10:51:11] INFO root fetch - main [MainThread]: End processing [here-geocoding]: success
+[2023-06-09 10:51:12] INFO root fetch - processPackages [bicleaner-ai]: Remove: archive file [/home/abi/fetcher/tmp/bicleaner-ai-2.2.1.tar.gz]
+[2023-06-09 10:51:12] INFO root fetch - processPackages [bicleaner-ai]: Remove: archive file [/home/abi/fetcher/tmp/bicleaner-ai-2.2.2.tar.gz]
+[2023-06-09 10:51:12] INFO root fetch - main [MainThread]: End processing [bicleaner-ai]: success
+[2023-06-09 10:51:12] INFO root fetch - processPackages [cic-contracts]: Remove: archive file [/home/abi/fetcher/tmp/cic-contracts-0.3.7.tar.gz]
+[2023-06-09 10:51:12] INFO root fetch - processPackages [cic-contracts]: Remove: archive file [/home/abi/fetcher/tmp/cic-contracts-0.3.8.tar.gz]
+[2023-06-09 10:51:12] INFO root fetch - main [MainThread]: End processing [cic-contracts]: success
+[2023-06-09 10:51:13] INFO root fetch - processPackages [datalad-next]: Remove: archive file [/home/abi/fetcher/tmp/datalad_next-1.0.0b2.tar.gz]
+[2023-06-09 10:51:13] INFO root fetch - processPackages [datalad-next]: Remove: archive file [/home/abi/fetcher/tmp/datalad_next-1.0.0b3.tar.gz]
+[2023-06-09 10:51:13] INFO root fetch - main [MainThread]: End processing [datalad-next]: success
+[2023-06-09 10:51:14] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.5.9.tar.gz]
+[2023-06-09 10:51:14] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.6.0a1.tar.gz]
+[2023-06-09 10:51:14] INFO root fetch - main [MainThread]: End processing [rasa]: success
+[2023-06-09 10:51:14] INFO root fetch - main [MainThread]: Store serial: [18438526]
